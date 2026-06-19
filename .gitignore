@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# Node
+node_modules/
+.next/
+
+# Env files
+.env
+.env.local
+.env.production
+
+# Data artifacts
+backend/bm25_index.pkl
+backend/graph.json
+data/raw/
+data/parsed/
+data/chunks/
+
+# Logs
+*.log

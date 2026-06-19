@@ -1,0 +1,16 @@
+fastapi
+uvicorn[standard]
+python-dotenv
+pydantic
+httpx
+supabase
+numpy
+pandas
+pymupdf
+sentence-transformers
+rank-bm25
+networkx
+cohere
+groq
+aiofiles
+python-multipart

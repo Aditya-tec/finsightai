@@ -1,0 +1,22 @@
+[
+  {"ticker": "RELIANCE", "name": "Reliance Industries", "bse_code": "500325"},
+  {"ticker": "TCS", "name": "Tata Consultancy Services", "bse_code": "532540"},
+  {"ticker": "INFY", "name": "Infosys", "bse_code": "500209"},
+  {"ticker": "HDFCBANK", "name": "HDFC Bank", "bse_code": "500180"},
+  {"ticker": "ICICIBANK", "name": "ICICI Bank", "bse_code": "532174"},
+  {"ticker": "WIPRO", "name": "Wipro", "bse_code": "507685"},
+  {"ticker": "HCLTECH", "name": "HCL Technologies", "bse_code": "532281"},
+  {"ticker": "BAJFINANCE", "name": "Bajaj Finance", "bse_code": "500034"},
+  {"ticker": "KOTAKBANK", "name": "Kotak Mahindra Bank", "bse_code": "500247"},
+  {"ticker": "LT", "name": "Larsen & Toubro", "bse_code": "500510"},
+  {"ticker": "ASIANPAINT", "name": "Asian Paints", "bse_code": "500820"},
+  {"ticker": "TITAN", "name": "Titan Company", "bse_code": "500114"},
+  {"ticker": "MARUTI", "name": "Maruti Suzuki", "bse_code": "532500"},
+  {"ticker": "TATAMOTORS", "name": "Tata Motors", "bse_code": "500570"},
+  {"ticker": "SUNPHARMA", "name": "Sun Pharma", "bse_code": "524715"},
+  {"ticker": "BHARTIARTL", "name": "Bharti Airtel", "bse_code": "532454"},
+  {"ticker": "ITC", "name": "ITC", "bse_code": "500875"},
+  {"ticker": "AXISBANK", "name": "Axis Bank", "bse_code": "532215"},
+  {"ticker": "SBIN", "name": "State Bank of India", "bse_code": "500112"},
+  {"ticker": "NESTLEIND", "name": "Nestle India", "bse_code": "500790"}
+]
