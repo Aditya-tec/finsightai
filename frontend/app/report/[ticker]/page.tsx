@@ -1,13 +1,14 @@
 "use client";
 
 import Link from "next/link";
-import { FormEvent, use, useEffect, useLayoutEffect, useRef, useState } from "react";
+import { FormEvent, use, useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
 
+import ExportPdfMenu from "@/components/ExportPdfMenu";
+import ReportSectionCard from "@/components/ReportSectionCard";
 import TopBar from "@/components/TopBar";
 import FormattedText from "@/components/FormattedText";
-import { stripLeadingSectionTitle } from "@/lib/formatText";
-import { chatApi, fetchCompanies, reportApi } from "@/lib/api";
-import { formatGroupedCitations } from "@/lib/citations";
+import { chatApi, fetchCompanies, reportApi, summarizeBulletsApi } from "@/lib/api";
+import { ensureAllBullets, sectionKey } from "@/lib/bulletSummary";
 import { exportReportPdf } from "@/lib/exportReportPdf";
 import { companyDisplayName } from "@/lib/companyNames";
 import { buildConversationHistoryForApi, useReportStore } from "@/lib/reportStore";
@@ -31,6 +32,14 @@ function isReportStale(iso: string | null): boolean {
   return ageDays > 30;
 }
 
+function apiErrorDetail(err: unknown, fallback: string): string {
+  const ax = err as { response?: { status?: number; data?: { detail?: string } } };
+  if (ax.response?.status === 429) {
+    return ax.response.data?.detail ?? "Groq rate limit reached — wait a few minutes and retry.";
+  }
+  return ax.response?.data?.detail ?? fallback;
+}
+
 export default function ReportPage({ params }: { params: Promise<{ ticker: string }> }) {
   const { ticker } = use(params);
   const { sections, followup, ticker: storedTicker, setReport, addFollowup, clear } = useReportStore();
@@ -43,6 +52,12 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
   const [followLoading, setFollowLoading] = useState(false);
   const [error, setError] = useState("");
   const [companies, setCompanies] = useState<Array<{ ticker: string; name: string; sector: string }>>([]);
+  const [bulletCache, setBulletCache] = useState<Record<string, string[]>>({});
+  const [viewMode, setViewMode] = useState<Record<string, "prose" | "bullets">>({});
+  const [loadingSection, setLoadingSection] = useState<string | null>(null);
+  const [sectionErrors, setSectionErrors] = useState<Record<string, string>>({});
+  const [exportLoading, setExportLoading] = useState(false);
+  const [exportProgress, setExportProgress] = useState("");
   const loadAbortRef = useRef<AbortController | null>(null);
 
   const formattedDate = formatReportDate(generatedAt);
@@ -55,6 +70,10 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
       setGeneratedAt(null);
       setFollowQuery("");
       setError("");
+      setBulletCache({});
+      setViewMode({});
+      setLoadingSection(null);
+      setSectionErrors({});
     }
   }, [ticker, storedTicker, clear]);
 
@@ -74,6 +93,9 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
 
     setLoading(true);
     setError("");
+    setBulletCache({});
+    setViewMode({});
+    setSectionErrors({});
 
     try {
       const res = await reportApi({ ticker, force_refresh: forceRefresh }, controller.signal);
@@ -132,18 +154,58 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
       });
       addFollowup({ role: "assistant", content: res.answer, citations: res.citations });
     } catch (err) {
-      const ax = err as { response?: { status?: number; data?: { detail?: string } } };
-      const detail =
-        ax.response?.status === 429
-          ? "Rate limit reached — wait a few minutes and try again."
-          : ax.response?.data?.detail ?? "Could not get a chat response. Check that the backend is running.";
-      addFollowup({ role: "assistant", content: detail });
+      addFollowup({
+        role: "assistant",
+        content: apiErrorDetail(err, "Could not get a chat response. Check that the backend is running."),
+      });
     } finally {
       setFollowLoading(false);
     }
   }
 
-  function exportPdf() {
+  const handleSectionToggle = useCallback(
+    async (section: { title: string; body: string }) => {
+      const key = sectionKey(section.title);
+      const currentMode = viewMode[key] ?? "prose";
+      const cached = bulletCache[key];
+
+      if (cached?.length) {
+        setViewMode((prev) => ({
+          ...prev,
+          [key]: currentMode === "bullets" ? "prose" : "bullets",
+        }));
+        setSectionErrors((prev) => {
+          const next = { ...prev };
+          delete next[key];
+          return next;
+        });
+        return;
+      }
+
+      setLoadingSection(key);
+      setSectionErrors((prev) => {
+        const next = { ...prev };
+        delete next[key];
+        return next;
+      });
+
+      try {
+        const res = await summarizeBulletsApi({ title: section.title, body: section.body });
+        setBulletCache((prev) => ({ ...prev, [key]: res.bullets }));
+        setViewMode((prev) => ({ ...prev, [key]: "bullets" }));
+      } catch (err) {
+        setSectionErrors((prev) => ({
+          ...prev,
+          [key]: apiErrorDetail(err, "Could not generate bullet summary."),
+        }));
+      } finally {
+        setLoadingSection(null);
+      }
+    },
+    [bulletCache, viewMode]
+  );
+
+  function exportPdfFull() {
     const company = companies.find((c) => c.ticker === ticker);
     exportReportPdf({
       ticker,
@@ -151,7 +213,39 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
       sector: company?.sector,
       sections: showSections,
       evalScores,
+      format: "prose",
     });
+  }
+
+  async function exportPdfBullet() {
+    const company = companies.find((c) => c.ticker === ticker);
+    setExportLoading(true);
+    setExportProgress("Generating summary… (0/11)");
+    setError("");
+
+    try {
+      const cache = await ensureAllBullets(showSections, bulletCache, (done, total) => {
+        setExportProgress(`Generating summary… (${done}/${total})`);
+      });
+      setBulletCache(cache);
+
+      exportReportPdf({
+        ticker,
+        companyName: company?.name,
+        sector: company?.sector,
+        sections: showSections.map((s) => ({
+          ...s,
+          bullets: cache[sectionKey(s.title)],
+        })),
+        evalScores,
+        format: "bullets",
+      });
+    } catch (err) {
+      setError(apiErrorDetail(err, "Bullet summary export failed."));
+    } finally {
+      setExportLoading(false);
+      setExportProgress("");
+    }
   }
 
   const evalEntries = Object.entries(evalScores).filter(([k]) => k !== "grade");
@@ -171,14 +265,13 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
             >
               {loading ? "Generating..." : "Regenerate"}
             </button>
-            <button
+            <ExportPdfMenu
               disabled={loading || showSections.length === 0}
-              onClick={exportPdf}
-              className="btn-ghost"
-              style={{ padding: "7px 14px" }}
-            >
-              Export PDF
-            </button>
+              loading={exportLoading}
+              loadingLabel={exportProgress || "Generating summary…"}
+              onExportFull={exportPdfFull}
+              onExportBullet={exportPdfBullet}
+            />
             <span className="tag tag-ticker">{ticker}</span>
           </div>
         }
@@ -230,7 +323,7 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
                     <div className="chat-msg-role">
                       {m.role === "user" ? "User" : "Assistant"}
                     </div>
-                      <FormattedText text={m.content} />
+                    <FormattedText text={m.content} />
                   </div>
                 ))}
               </div>
@@ -253,25 +346,22 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
                 <div className="panel-body answer-placeholder">Generating report sections...</div>
               </div>
             ) : showSections.length > 0 ? (
-              showSections.map((section, i) => (
-                <div key={section.title} className="report-section" id={`section-${i}`}>
-                  <div className="report-section-head">
-                    <span className="report-section-num">{String(i + 1).padStart(2, "0")}</span>
-                    <span className="report-section-title">{section.title}</span>
-                  </div>
-                  <div className="report-section-body">
-                    <FormattedText
-                      text={stripLeadingSectionTitle(section.body, section.title)}
-                    />
-                  </div>
-                  {section.citations?.length > 0 && (
-                    <div className="report-sources">
-                      <span className="report-sources-label">Sources:</span>
-                      {formatGroupedCitations(section.citations, ticker)}
-                    </div>
-                  )}
-                </div>
-              ))
+              showSections.map((section, i) => {
+                const key = sectionKey(section.title);
+                return (
+                  <ReportSectionCard
+                    key={section.title}
+                    section={section}
+                    index={i}
+                    ticker={ticker}
+                    viewMode={viewMode[key] ?? "prose"}
+                    bullets={bulletCache[key]}
+                    loading={loadingSection === key}
+                    error={sectionErrors[key]}
+                    onToggle={() => handleSectionToggle(section)}
+                  />
+                );
+              })
             ) : null}
 
             {evalEntries.length > 0 && storedTicker === ticker && (

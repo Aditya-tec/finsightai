@@ -56,6 +56,20 @@ export async function reportApi(
   return res.data as ReportResponse;
 }
 
+export type SummarizeBulletsResponse = {
+  bullets: string[];
+};
+
+export async function summarizeBulletsApi(payload: {
+  title: string;
+  body: string;
+}) {
+  const res = await axios.post(`${API_BASE}/api/summarize-bullets`, payload, {
+    timeout: 30_000,
+  });
+  return res.data as SummarizeBulletsResponse;
+}
+
 export function streamUrl(query: string) {
   return `${API_BASE}/api/stream?query=${encodeURIComponent(query)}`;
 }

@@ -7,6 +7,7 @@ type ReportSection = {
   title: string;
   body: string;
   citations: Citation[];
+  bullets?: string[];
 };
 
 export type ExportReportPdfOptions = {
@@ -15,6 +16,7 @@ export type ExportReportPdfOptions = {
   sector?: string;
   sections: ReportSection[];
   evalScores: Record<string, unknown>;
+  format?: "prose" | "bullets";
 };
 
 const MARGIN_LEFT = 50;
@@ -23,6 +25,7 @@ const MARGIN_TOP_CONT = 56;
 const SECTION_GAP = 12;
 const CITATION_INDENT = 12;
 const BODY_LINE_HEIGHT = 16;
+const BULLET_LINE_HEIGHT = 14;
 const SECTION_HEADER_RULE_TEXT_GAP = 5;
 const SECTION_HEADER_TITLE_DESCENT = 3;
 const SECTION_HEADER_TITLE_RULE_GAP = 3;
@@ -153,17 +156,26 @@ function estimateSectionHeight(
   doc: jsPDF,
   section: ReportSection,
   ticker: string,
-  width: number
+  width: number,
+  format: "prose" | "bullets" = "prose"
 ): number {
   const headerH = sectionHeaderHeight(doc, section.title, width);
-  const bodyLines = wrapText(doc, section.body, width - 8);
+  let bodyLines: string[];
+  if (format === "bullets" && section.bullets?.length) {
+    bodyLines = section.bullets.flatMap((b) =>
+      wrapText(doc, `\u2022 ${sanitizeForPdf(b)}`, width - 12)
+    );
+  } else {
+    bodyLines = wrapText(doc, section.body, width - 8);
+  }
   const citationLines =
     section.citations.length > 0
       ? groupedCitationLines(doc, section.citations, ticker, width - CITATION_INDENT - 8)
       : [];
+  const lineH = format === "bullets" ? BULLET_LINE_HEIGHT : BODY_LINE_HEIGHT;
   return (
     headerH +
-    bodyLines.length * BODY_LINE_HEIGHT +
+    bodyLines.length * lineH +
     (citationLines.length > 0 ? 6 + citationLines.length * 12 : 0) +
     SECTION_GAP
   );
@@ -274,19 +286,34 @@ function drawSection(
   section: ReportSection,
   index: number,
   ticker: string,
-  y: number
+  y: number,
+  format: "prose" | "bullets" = "prose"
 ): number {
   const width = maxTextWidth(doc);
   const sectionNum = String(index + 1).padStart(2, "0");
-  y = ensureSpace(doc, y, Math.min(estimateSectionHeight(doc, section, ticker, width), 100));
+  y = ensureSpace(doc, y, Math.min(estimateSectionHeight(doc, section, ticker, width, format), 100));
 
   y = drawSectionHeader(doc, sectionNum, section.title, y, width);
 
   setBlack(doc);
   doc.setFont("helvetica", "normal");
   doc.setFontSize(10.5);
-  const bodyLines = wrapText(doc, section.body, width);
-  y = drawWrappedBlock(doc, bodyLines, MARGIN_LEFT, y, BODY_LINE_HEIGHT);
+
+  if (format === "bullets" && section.bullets?.length) {
+    const bulletIndent = 12;
+    for (const bullet of section.bullets) {
+      const lines = wrapText(doc, `\u2022 ${bullet}`, width - bulletIndent);
+      for (let li = 0; li < lines.length; li++) {
+        y = ensureSpace(doc, y, BULLET_LINE_HEIGHT);
+        doc.text(lines[li], MARGIN_LEFT + (li === 0 ? 0 : bulletIndent), y);
+        y += BULLET_LINE_HEIGHT;
+      }
+      y += 4;
+    }
+  } else {
+    const bodyLines = wrapText(doc, section.body, width);
+    y = drawWrappedBlock(doc, bodyLines, MARGIN_LEFT, y, BODY_LINE_HEIGHT);
+  }
 
   if (section.citations.length > 0) {
     y += 6;
@@ -339,13 +366,14 @@ export function buildReportPdfDoc({
   sector,
   sections,
   evalScores,
+  format = "prose",
 }: ExportReportPdfOptions): jsPDF {
   const doc = new jsPDF({ unit: "pt", format: "a4" });
 
   let y = drawCoverHeader(doc, ticker, companyName, evalScores);
 
   sections.forEach((section, i) => {
-    y = drawSection(doc, section, i, ticker, y);
+    y = drawSection(doc, section, i, ticker, y, format);
   });
 
   drawFooters(doc);
@@ -354,5 +382,6 @@ export function buildReportPdfDoc({
 
 export function exportReportPdf(options: ExportReportPdfOptions): void {
   const doc = buildReportPdfDoc(options);
-  doc.save(`rupeeread-report-${options.ticker}.pdf`);
+  const suffix = options.format === "bullets" ? "-summary" : "";
+  doc.save(`rupeeread-report-${options.ticker}${suffix}.pdf`);
 }

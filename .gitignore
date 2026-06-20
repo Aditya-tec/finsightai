@@ -16,6 +16,7 @@ node_modules/
 # Data artifacts
 backend/bm25_index.pkl
 backend/graph.json
+backend/data/bullet_cache/
 data/raw/
 data/parsed/
 data/chunks/

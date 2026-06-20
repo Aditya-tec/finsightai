@@ -45,3 +45,12 @@ class ReportResponse(BaseModel):
     eval_scores: dict[str, Any]
     sources: list[str]
     generated_at: str | None = None
+
+
+class SummarizeBulletsRequest(BaseModel):
+    title: str
+    body: str
+
+
+class SummarizeBulletsResponse(BaseModel):
+    bullets: list[str]
