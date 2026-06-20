@@ -30,6 +30,7 @@ class ChatResponse(BaseModel):
 
 class ReportRequest(BaseModel):
     ticker: str
+    force_refresh: bool = False
 
 
 class ReportSection(BaseModel):
@@ -43,3 +44,4 @@ class ReportResponse(BaseModel):
     citations: list[Citation]
     eval_scores: dict[str, Any]
     sources: list[str]
+    generated_at: str | None = None

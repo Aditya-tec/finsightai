@@ -2,17 +2,7 @@ type Props = {
   scores: Record<string, unknown>;
 };
 
-const LABELS: Record<string, string> = {
-  faithfulness_score: "Faithfulness",
-  hallucination_detected: "Hallucinations",
-  hallucination_flags: "Flags",
-  citation_accuracy: "Citation Accuracy",
-  answer_relevance: "Relevance",
-  sources_used: "Sources Used",
-  total_claims: "Total Claims",
-  verified_claims: "Verified Claims",
-  grade: "Grade",
-};
+import { EVAL_LABELS } from "@/lib/evalLabels";
 
 export default function EvalScores({ scores }: Props) {
   const entries = Object.entries(scores || {});
@@ -48,7 +38,7 @@ export default function EvalScores({ scores }: Props) {
                 className="rounded-lg border border-[var(--border)] bg-[rgba(4,16,11,0.75)] px-3 py-2"
               >
                 <div className="text-[10px] uppercase tracking-wide text-[var(--text-muted)]">
-                  {LABELS[k] ?? k}
+                  {EVAL_LABELS[k] ?? k}
                 </div>
                 <div className="mt-0.5 text-sm font-medium text-[var(--text-primary)]">
                   {String(v)}

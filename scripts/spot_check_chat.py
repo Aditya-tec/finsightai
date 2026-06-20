@@ -23,7 +23,7 @@ TESTS = [
 def main() -> int:
     assert disk_cache_exists("RELIANCE"), "RELIANCE disk cache missing"
     t0 = time.time()
-    sections, _ = build_report("RELIANCE")
+    sections, _, _ = build_report("RELIANCE")
     elapsed = time.time() - t0
     print(f"Disk cache: RELIANCE loaded in {elapsed:.2f}s, {len(sections)} sections")
     assert len(sections) == 11

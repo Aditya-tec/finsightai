@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+from datetime import datetime, timezone
 from pathlib import Path
 
 from groq import Groq, RateLimitError
@@ -41,7 +42,7 @@ CONTEXT_CHUNKS = 3
 MAX_OUTPUT_TOKENS = 425
 _CACHE_VERSION = "v4-11sec"
 
-_report_cache: dict[str, tuple[list[ReportSection], list[dict]]] = {}
+_report_cache: dict[str, tuple[list[ReportSection], list[dict], str | None]] = {}
 
 
 def cache_dir() -> Path:
@@ -60,10 +61,24 @@ def _chunk_key(chunk: dict) -> str:
     return str(chunk.get("id") or hash(chunk.get("content", "")))
 
 
+def _now_iso() -> str:
+    return datetime.now(timezone.utc).isoformat()
+
+
+def _mtime_iso(path: Path) -> str:
+    return datetime.fromtimestamp(path.stat().st_mtime, tz=timezone.utc).isoformat()
+
+
+def invalidate_report_cache(ticker: str) -> None:
+    cache_key = f"{_CACHE_VERSION}:{ticker.upper()}"
+    _report_cache.pop(cache_key, None)
+
+
 def _serialize_result(sections: list[ReportSection], eval_context: list[dict]) -> dict:
     return {
         "sections": [s.model_dump() for s in sections],
         "eval_context": eval_context,
+        "generated_at": _now_iso(),
     }
 
 
@@ -73,24 +88,27 @@ def _deserialize_result(data: dict) -> tuple[list[ReportSection], list[dict]]:
     return sections, eval_context
 
 
-def _load_disk_cache(ticker: str) -> tuple[list[ReportSection], list[dict]] | None:
+def _load_disk_cache(ticker: str) -> tuple[list[ReportSection], list[dict], str | None] | None:
     path = disk_cache_path(ticker)
     if not path.is_file():
         return None
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
-        return _deserialize_result(data)
+        sections, eval_context = _deserialize_result(data)
+        generated_at = data.get("generated_at") or _mtime_iso(path)
+        return sections, eval_context, generated_at
     except (json.JSONDecodeError, KeyError, ValueError):
         return None
 
 
-def _save_disk_cache(ticker: str, sections: list[ReportSection], eval_context: list[dict]) -> None:
+def _save_disk_cache(
+    ticker: str, sections: list[ReportSection], eval_context: list[dict]
+) -> str:
     path = disk_cache_path(ticker)
     path.parent.mkdir(parents=True, exist_ok=True)
-    path.write_text(
-        json.dumps(_serialize_result(sections, eval_context), ensure_ascii=False, indent=2),
-        encoding="utf-8",
-    )
+    payload = _serialize_result(sections, eval_context)
+    path.write_text(json.dumps(payload, ensure_ascii=False, indent=2), encoding="utf-8")
+    return payload["generated_at"]
 
 
 def _rank_chunks(chunks: list[dict], query: str, top_n: int = CONTEXT_CHUNKS) -> list[dict]:
@@ -146,15 +164,21 @@ def _write_section(title: str, ticker: str, context: list[dict]) -> str:
     return response.choices[0].message.content or "Content unavailable."
 
 
-def build_report(ticker: str) -> tuple[list[ReportSection], list[dict]]:
+def build_report(
+    ticker: str, *, force_refresh: bool = False
+) -> tuple[list[ReportSection], list[dict], str | None]:
     cache_key = f"{_CACHE_VERSION}:{ticker.upper()}"
-    if cache_key in _report_cache:
+
+    if force_refresh:
+        invalidate_report_cache(ticker)
+    elif cache_key in _report_cache:
         return _report_cache[cache_key]
 
-    disk_result = _load_disk_cache(ticker)
-    if disk_result is not None:
-        _report_cache[cache_key] = disk_result
-        return disk_result
+    if not force_refresh:
+        disk_result = _load_disk_cache(ticker)
+        if disk_result is not None:
+            _report_cache[cache_key] = disk_result
+            return disk_result
 
     pool = hybrid_retrieve(
         f"{ticker} annual report revenue profit balance sheet risks management segments outlook",
@@ -188,7 +212,7 @@ def build_report(ticker: str) -> tuple[list[ReportSection], list[dict]]:
         ]
         sections.append(ReportSection(title=title, body=body, citations=citations))
 
-    result = (sections, eval_context)
+    generated_at = _save_disk_cache(ticker, sections, eval_context)
+    result = (sections, eval_context, generated_at)
     _report_cache[cache_key] = result
-    _save_disk_cache(ticker, sections, eval_context)
     return result

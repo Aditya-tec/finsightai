@@ -181,6 +181,13 @@ html, body {
   gap: 16px;
 }
 
+.report-meta {
+  font-size: 11px;
+  color: var(--text-muted);
+  margin: 6px 0 0;
+  line-height: 1.5;
+}
+
 /* ── Section blocks ── */
 .section-block {
   margin-bottom: 24px;

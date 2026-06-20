@@ -12,8 +12,8 @@ from schemas import ReportRequest, ReportResponse
 router = APIRouter()
 
 
-def _generate_report(ticker: str) -> ReportResponse:
-    sections, eval_context = build_report(ticker)
+def _generate_report(ticker: str, force_refresh: bool = False) -> ReportResponse:
+    sections, eval_context, generated_at = build_report(ticker, force_refresh=force_refresh)
     citations = []
     for section in sections:
         citations.extend([c.model_dump() for c in section.citations])
@@ -30,13 +30,14 @@ def _generate_report(ticker: str) -> ReportResponse:
         citations=all_citations,
         eval_scores=eval_scores,
         sources=sorted({c.source for c in all_citations}),
+        generated_at=generated_at,
     )
 
 
 @router.post("/report", response_model=ReportResponse)
 async def report(request: ReportRequest):
     try:
-        return await asyncio.to_thread(_generate_report, request.ticker)
+        return await asyncio.to_thread(_generate_report, request.ticker, request.force_refresh)
     except RateLimitError:
         raise HTTPException(
             status_code=429,

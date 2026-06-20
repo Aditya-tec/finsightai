@@ -1,14 +1,33 @@
 "use client";
 
-import { jsPDF } from "jspdf";
 import Link from "next/link";
-import { FormEvent, use, useEffect, useLayoutEffect, useState } from "react";
+import { FormEvent, use, useEffect, useLayoutEffect, useRef, useState } from "react";
 
 import AgentFeed from "@/components/AgentFeed";
 import TopBar from "@/components/TopBar";
-import { chatApi, reportApi } from "@/lib/api";
+import { chatApi, fetchCompanies, reportApi } from "@/lib/api";
+import { exportReportPdf } from "@/lib/exportReportPdf";
 import { buildConversationHistoryForApi, useReportStore } from "@/lib/reportStore";
 import { openThoughtStream } from "@/lib/stream";
+
+function formatReportDate(iso: string | null): string | null {
+  if (!iso) return null;
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return null;
+  return d.toLocaleDateString("en-IN", {
+    day: "numeric",
+    month: "long",
+    year: "numeric",
+  });
+}
+
+function isReportStale(iso: string | null): boolean {
+  if (!iso) return false;
+  const d = new Date(iso);
+  if (Number.isNaN(d.getTime())) return false;
+  const ageDays = (Date.now() - d.getTime()) / (1000 * 60 * 60 * 24);
+  return ageDays > 30;
+}
 
 export default function ReportPage({ params }: { params: Promise<{ ticker: string }> }) {
   const { ticker } = use(params);
@@ -17,59 +36,96 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
   const showFollowup = storedTicker === ticker ? followup : [];
   const [steps, setSteps] = useState<string[]>([]);
   const [evalScores, setEvalScores] = useState<Record<string, unknown>>({});
+  const [generatedAt, setGeneratedAt] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
   const [followQuery, setFollowQuery] = useState("");
   const [followLoading, setFollowLoading] = useState(false);
   const [error, setError] = useState("");
+  const [companies, setCompanies] = useState<Array<{ ticker: string; name: string }>>([]);
+  const loadAbortRef = useRef<AbortController | null>(null);
+  const streamRef = useRef<EventSource | null>(null);
+
+  const regenerating = loading && showSections.length > 0;
+  const formattedDate = formatReportDate(generatedAt);
+  const staleReport = isReportStale(generatedAt);
 
   useLayoutEffect(() => {
     if (storedTicker !== ticker) {
       clear();
       setEvalScores({});
+      setGeneratedAt(null);
       setFollowQuery("");
       setError("");
     }
   }, [ticker, storedTicker, clear]);
 
   useEffect(() => {
+    fetchCompanies()
+      .then((list) => setCompanies(list))
+      .catch(() => setCompanies([]));
+  }, []);
+
+  async function fetchReport(forceRefresh: boolean) {
+    const hadReport = showSections.length > 0 && storedTicker === ticker;
+
+    loadAbortRef.current?.abort();
+    streamRef.current?.close();
+
     const controller = new AbortController();
-    let stream: EventSource | null = null;
+    loadAbortRef.current = controller;
 
-    async function load() {
-      setLoading(true);
-      setError("");
-      setSteps([]);
-      stream = openThoughtStream(`Generate report for ${ticker}`, (msg) =>
-        setSteps((s) => [...s, msg])
-      );
-      try {
-        const res = await reportApi({ ticker }, controller.signal);
-        setReport(ticker, res.sections);
-        setEvalScores(res.eval_scores);
-      } catch (err) {
-        if (controller.signal.aborted) return;
-        const ax = err as { message?: string; response?: { status?: number; data?: { detail?: string } } };
-        if (ax.response?.status === 429) {
-          setError(ax.response.data?.detail ?? "Groq rate limit reached — wait a few minutes and retry.");
-        } else if (ax.response?.data?.detail) {
-          setError(String(ax.response.data.detail));
-        } else if (ax.message?.toLowerCase().includes("timeout")) {
-          setError("Report timed out — try again in a minute.");
+    setLoading(true);
+    setError("");
+    setSteps([]);
+
+    streamRef.current = openThoughtStream(`Generate report for ${ticker}`, (msg) =>
+      setSteps((s) => [...s, msg])
+    );
+
+    try {
+      const res = await reportApi({ ticker, force_refresh: forceRefresh }, controller.signal);
+      setReport(ticker, res.sections);
+      setEvalScores(res.eval_scores);
+      setGeneratedAt(res.generated_at ?? null);
+    } catch (err) {
+      if (controller.signal.aborted) return;
+      const ax = err as { message?: string; response?: { status?: number; data?: { detail?: string } } };
+      if (ax.response?.status === 429) {
+        if (forceRefresh && hadReport) {
+          setError("Rate limit reached — showing last cached version");
         } else {
-          setError("Could not reach the backend. Make sure uvicorn is running on port 8000, then refresh and retry.");
+          setError(ax.response.data?.detail ?? "Groq rate limit reached — wait a few minutes and retry.");
         }
-      } finally {
-        stream?.close();
-        if (!controller.signal.aborted) setLoading(false);
+      } else if (ax.response?.data?.detail) {
+        setError(String(ax.response.data.detail));
+      } else if (ax.message?.toLowerCase().includes("timeout")) {
+        setError("Report timed out — try again in a minute.");
+      } else {
+        setError("Could not reach the backend. Make sure uvicorn is running on port 8000, then refresh and retry.");
       }
+    } finally {
+      streamRef.current?.close();
+      streamRef.current = null;
+      if (!controller.signal.aborted) setLoading(false);
     }
+  }
 
-    load();
+  useEffect(() => {
+    fetchReport(false);
     return () => {
-      controller.abort();
-      stream?.close();
+      loadAbortRef.current?.abort();
+      streamRef.current?.close();
     };
-  }, [ticker, setReport]);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
+  }, [ticker]);
+
+  function onRegenerate() {
+    const ok = window.confirm(
+      "This runs live Groq API calls (~60–90 seconds) and may use your daily quota. Continue?"
+    );
+    if (!ok) return;
+    fetchReport(true);
+  }
 
   async function onFollowUp(e: FormEvent) {
     e.preventDefault();
@@ -91,22 +147,12 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
   }
 
   function exportPdf() {
-    const doc = new jsPDF();
-    let y = 10;
-    doc.setFontSize(16);
-    doc.text(`FinSight AI Report - ${ticker}`, 10, y);
-    y += 8;
-    doc.setFontSize(10);
-    showSections.forEach((section) => {
-      const lines = doc.splitTextToSize(`${section.title}\n${section.body}`, 185);
-      if (y + lines.length * 5 > 280) {
-        doc.addPage();
-        y = 10;
-      }
-      doc.text(lines, 10, y);
-      y += lines.length * 5 + 4;
+    exportReportPdf({
+      ticker,
+      companyName: companies.find((c) => c.ticker === ticker)?.name,
+      sections: showSections,
+      evalScores,
     });
-    doc.save(`finsight-report-${ticker}.pdf`);
   }
 
   const evalEntries = Object.entries(evalScores).filter(([k]) => k !== "grade");
@@ -116,6 +162,15 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
       <TopBar
         action={
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+            <button
+              disabled={loading}
+              onClick={onRegenerate}
+              className="btn-ghost"
+              style={{ padding: "7px 14px" }}
+              title="Runs live Groq API calls (~60–90s) and may use daily quota"
+            >
+              {regenerating ? "Regenerating..." : "Regenerate"}
+            </button>
             <button
               disabled={loading || showSections.length === 0}
               onClick={exportPdf}
@@ -138,6 +193,12 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
             <div>
               <h1>{ticker} · Equity Report</h1>
               <p>11-section analyst report with citations, eval scores, and follow-up chat.</p>
+              {formattedDate && storedTicker === ticker && (
+                <p className="report-meta">
+                  Report last updated: {formattedDate}
+                  {staleReport ? " (may be outdated)" : ""}
+                </p>
+              )}
             </div>
             {evalScores.grade != null && storedTicker === ticker && (
               <span className="grade-badge">Grade {String(evalScores.grade)}</span>
@@ -157,11 +218,11 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
 
         <div className="report-layout" style={{ marginTop: 24 }}>
           <div>
-            {loading || showSections.length === 0 ? (
+            {loading && showSections.length === 0 ? (
               <div className="panel">
                 <div className="panel-body answer-placeholder">Generating report sections...</div>
               </div>
-            ) : (
+            ) : showSections.length > 0 ? (
               showSections.map((section, i) => (
                 <div key={section.title} className="report-section" id={`section-${i}`}>
                   <div className="report-section-head">
@@ -184,7 +245,7 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
                   )}
                 </div>
               ))
-            )}
+            ) : null}
 
             {evalEntries.length > 0 && storedTicker === ticker && (
               <div className="panel" style={{ marginTop: 16 }}>

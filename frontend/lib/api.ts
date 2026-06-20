@@ -24,6 +24,7 @@ export type ReportResponse = {
   citations: Array<{ source: string; page?: number; section?: string }>;
   eval_scores: Record<string, string | number | boolean | string[]>;
   sources: string[];
+  generated_at?: string | null;
 };
 
 export async function fetchCompanies() {
@@ -40,11 +41,18 @@ export async function chatApi(payload: {
   return res.data as ChatResponse;
 }
 
-export async function reportApi(payload: { ticker: string }, signal?: AbortSignal) {
-  const res = await axios.post(`${API_BASE}/api/report`, payload, {
-    timeout: 600_000,
-    signal,
-  });
+export async function reportApi(
+  payload: { ticker: string; force_refresh?: boolean },
+  signal?: AbortSignal
+) {
+  const res = await axios.post(
+    `${API_BASE}/api/report`,
+    { ticker: payload.ticker, force_refresh: payload.force_refresh ?? false },
+    {
+      timeout: 600_000,
+      signal,
+    }
+  );
   return res.data as ReportResponse;
 }
 

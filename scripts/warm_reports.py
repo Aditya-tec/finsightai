@@ -65,7 +65,7 @@ def main() -> int:
 
         print(f"[{i}/{len(tickers)}] {ticker} — generating (11 Groq calls)...")
         try:
-            sections, _ = build_report(ticker)
+            sections, _, _ = build_report(ticker)
             print(f"  done — {len(sections)} sections written to disk")
             completed += 1
         except RateLimitError:
