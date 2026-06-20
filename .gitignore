@@ -12,6 +12,9 @@ node_modules/
 .env
 .env.local
 .env.production
+**/.env
+backend/.env
+frontend/.env.local
 
 # Data artifacts
 backend/bm25_index.pkl

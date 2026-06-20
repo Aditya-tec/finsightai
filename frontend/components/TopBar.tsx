@@ -2,21 +2,43 @@
 
 import Image from "next/image";
 import Link from "next/link";
-import { useEffect, useState } from "react";
+import { useCallback, useEffect, useState } from "react";
 
 type Props = {
   action?: React.ReactNode;
 };
 
+const HEALTH_INTERVAL_MS = 60_000;
+
 export default function TopBar({ action }: Props) {
   const [online, setOnline] = useState(false);
 
-  useEffect(() => {
+  const checkHealth = useCallback(async () => {
     const base = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
-    fetch(`${base}/health`)
-      .then((r) => r.ok && setOnline(true))
-      .catch(() => setOnline(false));
+    try {
+      const res = await fetch(`${base}/health`);
+      setOnline(res.ok);
+    } catch {
+      setOnline(false);
+    }
   }, []);
+
+  useEffect(() => {
+    checkHealth();
+    const interval = window.setInterval(checkHealth, HEALTH_INTERVAL_MS);
+
+    function onVisibilityChange() {
+      if (document.visibilityState === "visible") {
+        checkHealth();
+      }
+    }
+
+    document.addEventListener("visibilitychange", onVisibilityChange);
+    return () => {
+      window.clearInterval(interval);
+      document.removeEventListener("visibilitychange", onVisibilityChange);
+    };
+  }, [checkHealth]);
 
   return (
     <header className="topbar">

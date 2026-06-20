@@ -222,6 +222,15 @@ function drawCoverHeader(
   y += 12;
   doc.text("Indian Equity Research Report", MARGIN_LEFT, y);
 
+  y += 14;
+  doc.setFontSize(8);
+  setGray(doc, GRAY_META);
+  doc.text(
+    "Figures may reflect standalone or consolidated basis depending on filing context.",
+    MARGIN_LEFT,
+    y
+  );
+
   y += COVER_SUBTITLE_TO_RULE;
   setBlack(doc);
   doc.setLineWidth(0.25);
@@ -335,7 +344,8 @@ function drawSection(
 
 function drawFooters(doc: jsPDF): void {
   const total = doc.getNumberOfPages();
-  const disclaimer = "Report prepared by RupeeRead. Not investment advice.";
+  const disclaimer =
+    "Report prepared by RupeeRead. Not investment advice. Figures may reflect standalone or consolidated basis depending on filing context.";
 
   for (let i = 1; i <= total; i++) {
     doc.setPage(i);

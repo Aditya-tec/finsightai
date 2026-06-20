@@ -43,5 +43,9 @@ class Settings:
     def supabase_key(self) -> str:
         return _env("SUPABASE_KEY")
 
+    @property
+    def api_key(self) -> str:
+        return _env("API_KEY")
+
 
 settings = Settings()

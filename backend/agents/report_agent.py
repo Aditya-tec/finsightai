@@ -40,7 +40,7 @@ SECTION_QUERIES = {
 
 CONTEXT_CHUNKS = 3
 MAX_OUTPUT_TOKENS = 425
-_CACHE_VERSION = "v4-11sec"
+_CACHE_VERSION = "v5-units"
 
 _report_cache: dict[str, tuple[list[ReportSection], list[dict], str | None]] = {}
 
@@ -140,13 +140,23 @@ def _write_section(title: str, ticker: str, context: list[dict]) -> str:
         "Use specific numbers, dates, and facts from the context.\n"
         "For Indian listed companies, express monetary amounts in INR using ₹ (rupee symbol). "
         "Do not use $. Match the currency style of the source excerpts.\n"
+        "CRITICAL — filing unit scales: Indian annual reports often label table units as "
+        "` in '000s (thousands of rupees), ` in million, ₹ in crore, or ₹ in lakh. "
+        "Always read the unit header before quoting any figure. Convert to a consistent "
+        "analyst-friendly format (₹X.XX billion for large amounts, or ₹X crore where appropriate). "
+        "NEVER copy a large comma-grouped integer verbatim without applying the table's unit scale — "
+        "e.g. TOTAL INCOME 2,945,869,343 with header ` in '000s` is ₹2,945.87 billion, "
+        "NOT ₹2,945,869,343.\n"
         "Be precise with financial terminology: net profit (PAT) and net worth (shareholders' equity) "
         "are distinct — never label one as the other.\n"
         "When citing revenue, label the basis explicitly (e.g. segment revenue, revenue from operations "
         "net of GST, or consolidated total) — do not mix bases across sections.\n"
+        "If reusing a metric cited elsewhere in the report, use the same figure and basis label.\n"
         "Do not compute ratios or percentages unless they appear verbatim in the excerpts; if you must "
         'derive one, show the formula inline (e.g. "3.17× = ₹46,128cr ÷ ₹14,562cr").\n'
         "If certain information is not present in the context, say so briefly rather than inventing data.\n"
+        "For Peer Comparison: do not substitute the subject company's own consolidated line items "
+        "as peer benchmarks — if peer data is absent, state that comparison is not possible.\n"
         "Write 1-2 concise paragraphs in a professional analyst tone.\n\n"
         f"Filing excerpts:\n{content_blob}\n\n"
         f"Write the '{title}' section now:"

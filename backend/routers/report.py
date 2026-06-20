@@ -7,6 +7,7 @@ from groq import RateLimitError
 
 from agents.report_agent import build_report
 from evaluation.eval_pipeline import run_eval_pipeline
+from rag.search_errors import SearchIndexError
 from schemas import ReportRequest, ReportResponse
 
 router = APIRouter()
@@ -43,5 +44,7 @@ async def report(request: ReportRequest):
             status_code=429,
             detail="Groq daily token limit reached. Wait a few minutes or use a fresh API key, then retry.",
         )
+    except SearchIndexError:
+        raise HTTPException(status_code=503, detail="Search index unavailable")
     except Exception as exc:
         raise HTTPException(status_code=500, detail=f"Report generation failed: {exc}") from exc

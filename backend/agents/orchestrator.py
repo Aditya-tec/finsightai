@@ -1,5 +1,10 @@
 from __future__ import annotations
 
+from agents.generic_query import (
+    CLARIFYING_MESSAGE,
+    EXECUTIVE_SUMMARY_RETRIEVAL_QUERY,
+    is_generic_broad_query,
+)
 from agents.query_analyser import break_into_subquestions
 from agents.retrieval_agent import retrieve_context
 from agents.router import classify_query
@@ -60,9 +65,20 @@ def run_chat(query: str, ticker: str | None = None, history: list[dict] | None =
     memory = _format_memory(chat_history)
     has_report = bool(report_context.strip())
     meta_query = has_report and is_report_meta_query(query)
+    generic_query = is_generic_broad_query(query)
 
     if meta_query:
         context: list[dict] = []
+    elif generic_query and has_report:
+        context = []
+    elif generic_query and ticker:
+        context = retrieve_context(
+            EXECUTIVE_SUMMARY_RETRIEVAL_QUERY,
+            ticker=ticker,
+            fast=True,
+        )
+    elif generic_query:
+        context = []
     else:
         context = retrieve_context(query, ticker=ticker)
 
@@ -71,6 +87,7 @@ def run_chat(query: str, ticker: str | None = None, history: list[dict] | None =
         context=context,
         memory=memory,
         report_context=report_context,
+        generic_query=generic_query,
     )
 
     if meta_query and has_report:
@@ -92,4 +109,5 @@ def run_chat(query: str, ticker: str | None = None, history: list[dict] | None =
         "eval_scores": eval_scores,
         "sources": sorted({c["source"] for c in citations if c.get("source")}),
         "route": classify_query(query),
+        "generic_query": generic_query,
     }

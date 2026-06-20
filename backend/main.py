@@ -3,6 +3,7 @@ from fastapi.middleware.cors import CORSMiddleware
 from fastapi.responses import JSONResponse
 from groq import RateLimitError
 
+from middleware.api_key import ApiKeyMiddleware
 from routers.chat import router as chat_router
 from routers.report import router as report_router
 from routers.stream import router as stream_router
@@ -18,6 +19,7 @@ app.add_middleware(
     allow_methods=["*"],
     allow_headers=["*"],
 )
+app.add_middleware(ApiKeyMiddleware)
 
 app.include_router(chat_router, prefix="/api", tags=["chat"])
 app.include_router(report_router, prefix="/api", tags=["report"])

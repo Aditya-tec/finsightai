@@ -4,6 +4,7 @@ from typing import Any
 
 from groq import Groq, RateLimitError
 
+from agents.generic_query import CLARIFYING_MESSAGE, is_generic_broad_query
 from settings import settings
 
 META_QUERY_MARKERS = (
@@ -93,12 +94,22 @@ def _build_prompt(
     context: list[dict[str, Any]],
     memory: str,
     report_context: str,
+    *,
+    generic_query: bool = False,
 ) -> str:
     parts = [
         "You are an equity research assistant helping a user reading an on-screen analyst report.",
         "Answer only from the provided context. If information is missing, say so clearly.",
         "Do not mention internal systems, fallback modes, or retrieval mechanics.",
     ]
+    if generic_query:
+        parts.append(
+            "The user asked a broad, high-level question about how the company is doing. "
+            "Respond with a concise summary (2-4 short paragraphs max) covering the most central "
+            "financial facts available: total income/revenue, profit/PAT, and notable growth trends. "
+            "Write like an executive summary — specific numbers where the context supports them. "
+            "Do not tell the user to read the source document themselves."
+        )
     if report_context:
         parts.append(
             "For questions about the report itself (summary, scope, sections), use the on-screen "
@@ -122,16 +133,26 @@ def synthesize_answer(
     memory: str = "",
     *,
     report_context: str = "",
+    generic_query: bool = False,
 ) -> str:
     has_report = bool(report_context.strip())
+    generic_query = generic_query or is_generic_broad_query(query)
+
+    if generic_query and not has_report and not context:
+        return CLARIFYING_MESSAGE
 
     if has_report and is_report_meta_query(query) and not settings.groq_api_key:
+        return offline_report_summary(report_context)
+
+    if generic_query and has_report and not settings.groq_api_key:
         return offline_report_summary(report_context)
 
     if not settings.groq_api_key:
         return _unavailable_message(rate_limited=False, has_report=has_report, query=query, report_context=report_context)
 
-    prompt = _build_prompt(query, context, memory, report_context)
+    prompt = _build_prompt(
+        query, context, memory, report_context, generic_query=generic_query
+    )
     client = Groq(api_key=settings.groq_api_key)
     try:
         response = client.chat.completions.create(

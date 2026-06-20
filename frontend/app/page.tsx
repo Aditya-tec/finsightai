@@ -3,16 +3,30 @@
 import { useEffect, useMemo, useState } from "react";
 
 import CompanyGrid, { type Company } from "@/components/CompanyGrid";
+import FadeSlideIn from "@/components/FadeSlideIn";
 import TopBar from "@/components/TopBar";
 import { fetchCompanies } from "@/lib/api";
+import { getApiErrorMessage } from "@/lib/apiErrors";
+
+const STAGGER = 0.09;
 
 export default function Home() {
   const [query, setQuery] = useState("");
   const [companies, setCompanies] = useState<Company[]>([]);
+  const [companiesLoading, setCompaniesLoading] = useState(true);
+  const [companiesError, setCompaniesError] = useState("");
   const [selected, setSelected] = useState<Company | null>(null);
 
   useEffect(() => {
-    fetchCompanies().then(setCompanies).catch(() => setCompanies([]));
+    setCompaniesLoading(true);
+    setCompaniesError("");
+    fetchCompanies()
+      .then(setCompanies)
+      .catch((err) => {
+        setCompanies([]);
+        setCompaniesError(getApiErrorMessage(err, "companies"));
+      })
+      .finally(() => setCompaniesLoading(false));
   }, []);
 
   const filtered = useMemo(() => {
@@ -33,46 +47,56 @@ export default function Home() {
     <>
       <TopBar />
       <main className="page">
-        <header className="hero">
-          <div className="tag-row">
-            <span className="tag">Nifty 20</span>
-            <span className="tag">Agentic RAG</span>
-            <span className="tag">Cited Reports</span>
-          </div>
-          <h1 className="hero-brand">
-            India&apos;s Nifty 20, decoded from real filings.
-          </h1>
-          <p className="hero-desc">
-            Ask any financial question or generate a cited 11-section report — pick a company
-            below to start.
-          </p>
-        </header>
+        <FadeSlideIn delay={0}>
+          <header className="hero">
+            <div className="tag-row">
+              <span className="tag tag-elevated">Nifty 20</span>
+              <span className="tag tag-elevated">Agentic RAG</span>
+              <span className="tag tag-elevated">Cited Reports</span>
+            </div>
+            <h1 className="hero-brand">
+              India&apos;s Nifty 20, decoded from real filings.
+            </h1>
+            <p className="hero-desc">
+              Ask any financial question or generate a cited 11-section report — pick a company
+              below to start.
+            </p>
+          </header>
+        </FadeSlideIn>
 
-        <section className="section-block">
-          <div className="section-head">
-            <span className="section-label">Search Companies</span>
-          </div>
-          <div className="search-wrap">
-            <input
-              value={query}
-              onChange={(e) => setQuery(e.target.value)}
-              placeholder="Search by name or ticker…"
-              className="search-input"
-            />
-          </div>
-        </section>
+        <FadeSlideIn delay={STAGGER}>
+          <section className="section-block">
+            <div className="section-head">
+              <span className="section-label">Search Companies</span>
+            </div>
+            <div className="search-wrap">
+              <input
+                value={query}
+                onChange={(e) => setQuery(e.target.value)}
+                placeholder="Search by name or ticker…"
+                className="search-input"
+              />
+            </div>
+          </section>
+        </FadeSlideIn>
 
-        <section className="section-block">
-          <div className="section-head">
-            <span className="section-label">Nifty 20 Universe</span>
-            <span className="section-count">{filtered.length} companies</span>
-          </div>
-          {filtered.length === 0 ? (
-            <div className="empty-state">No companies found. Make sure the backend is running.</div>
-          ) : (
-            <CompanyGrid companies={filtered} selected={selected} onSelect={setSelected} />
-          )}
-        </section>
+        <FadeSlideIn delay={STAGGER * 2}>
+          <section className="section-block">
+            <div className="section-head">
+              <span className="section-label">Nifty 20 Universe</span>
+              <span className="section-count">{filtered.length} companies</span>
+            </div>
+            {companiesError ? (
+              <div className="empty-state error-state panel-elevated">{companiesError}</div>
+            ) : companiesLoading ? (
+              <div className="empty-state panel-elevated">Loading companies…</div>
+            ) : filtered.length === 0 ? (
+              <div className="empty-state panel-elevated">No companies match your search.</div>
+            ) : (
+              <CompanyGrid companies={filtered} selected={selected} onSelect={setSelected} />
+            )}
+          </section>
+        </FadeSlideIn>
       </main>
     </>
   );

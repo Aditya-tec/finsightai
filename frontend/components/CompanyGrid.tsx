@@ -1,6 +1,6 @@
 "use client";
 
-import { AnimatePresence, motion } from "framer-motion";
+import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 import { FileText, MessageCircle } from "lucide-react";
 import Link from "next/link";
 import { useCallback, useEffect, useRef } from "react";
@@ -26,6 +26,7 @@ const actionsExit = { duration: 0.14, ease: easeOut };
 
 export default function CompanyGrid({ companies, selected, onSelect }: Props) {
   const gridRef = useRef<HTMLDivElement>(null);
+  const reduced = useReducedMotion();
 
   const collapse = useCallback(() => onSelect(null), [onSelect]);
 
@@ -49,7 +50,7 @@ export default function CompanyGrid({ companies, selected, onSelect }: Props) {
 
   return (
     <motion.div layoutRoot className="company-grid" ref={gridRef}>
-      {companies.map((c) => {
+      {companies.map((c, index) => {
         const isSelected = selected?.ticker === c.ticker;
         const isDimmed = selected != null && !isSelected;
 
@@ -59,15 +60,21 @@ export default function CompanyGrid({ companies, selected, onSelect }: Props) {
             layout
             role="button"
             tabIndex={0}
-            transition={layoutTransition}
+            initial={reduced ? false : { opacity: 0, y: 10 }}
+            animate={{ opacity: isDimmed ? 0.45 : 1, y: 0 }}
+            transition={{
+              layout: layoutTransition.layout,
+              opacity: { duration: 0.3, ease: easeOut, delay: reduced ? 0 : index * 0.03 },
+              y: { duration: 0.35, ease: easeOut, delay: reduced ? 0 : index * 0.03 },
+            }}
             className={[
               "company-card",
+              "company-card-elevated",
               isSelected && "company-card-expanded",
               isDimmed && "company-card-dimmed",
             ]
               .filter(Boolean)
               .join(" ")}
-            animate={{ opacity: isDimmed ? 0.45 : 1 }}
             onClick={(e) => {
               if ((e.target as HTMLElement).closest("a")) return;
               onSelect(isSelected ? null : c);

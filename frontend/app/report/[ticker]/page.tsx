@@ -4,10 +4,12 @@ import Link from "next/link";
 import { FormEvent, use, useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
 
 import ExportPdfMenu from "@/components/ExportPdfMenu";
+import FadeSlideIn from "@/components/FadeSlideIn";
 import ReportSectionCard from "@/components/ReportSectionCard";
 import TopBar from "@/components/TopBar";
 import FormattedText from "@/components/FormattedText";
 import { chatApi, fetchCompanies, reportApi, summarizeBulletsApi } from "@/lib/api";
+import { getApiErrorMessage } from "@/lib/apiErrors";
 import { ensureAllBullets, sectionKey } from "@/lib/bulletSummary";
 import { exportReportPdf } from "@/lib/exportReportPdf";
 import { companyDisplayName } from "@/lib/companyNames";
@@ -32,13 +34,10 @@ function isReportStale(iso: string | null): boolean {
   return ageDays > 30;
 }
 
-function apiErrorDetail(err: unknown, fallback: string): string {
-  const ax = err as { response?: { status?: number; data?: { detail?: string } } };
-  if (ax.response?.status === 429) {
-    return ax.response.data?.detail ?? "Groq rate limit reached — wait a few minutes and retry.";
-  }
-  return ax.response?.data?.detail ?? fallback;
-}
+const FIGURES_DISCLAIMER =
+  "Figures may reflect standalone or consolidated basis depending on filing context.";
+
+const STAGGER = 0.09;
 
 export default function ReportPage({ params }: { params: Promise<{ ticker: string }> }) {
   const { ticker } = use(params);
@@ -104,19 +103,11 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
       setGeneratedAt(res.generated_at ?? null);
     } catch (err) {
       if (controller.signal.aborted) return;
-      const ax = err as { message?: string; response?: { status?: number; data?: { detail?: string } } };
-      if (ax.response?.status === 429) {
-        if (forceRefresh && hadReport) {
-          setError("Rate limit reached — showing last cached version");
-        } else {
-          setError(ax.response.data?.detail ?? "Groq rate limit reached — wait a few minutes and retry.");
-        }
-      } else if (ax.response?.data?.detail) {
-        setError(String(ax.response.data.detail));
-      } else if (ax.message?.toLowerCase().includes("timeout")) {
-        setError("Report timed out — try again in a minute.");
+      const ax = err as { response?: { status?: number } };
+      if (ax.response?.status === 429 && forceRefresh && hadReport) {
+        setError("Rate limit reached — showing last cached version");
       } else {
-        setError("Could not reach the backend. Make sure uvicorn is running on port 8000, then refresh and retry.");
+        setError(getApiErrorMessage(err, "report"));
       }
     } finally {
       if (!controller.signal.aborted) setLoading(false);
@@ -156,7 +147,7 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
     } catch (err) {
       addFollowup({
         role: "assistant",
-        content: apiErrorDetail(err, "Could not get a chat response. Check that the backend is running."),
+        content: getApiErrorMessage(err, "chat"),
       });
     } finally {
       setFollowLoading(false);
@@ -196,7 +187,7 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
       } catch (err) {
         setSectionErrors((prev) => ({
           ...prev,
-          [key]: apiErrorDetail(err, "Could not generate bullet summary."),
+          [key]: getApiErrorMessage(err, "bullets"),
         }));
       } finally {
         setLoadingSection(null);
@@ -241,7 +232,7 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
         format: "bullets",
       });
     } catch (err) {
-      setError(apiErrorDetail(err, "Bullet summary export failed."));
+      setError(getApiErrorMessage(err, "export"));
     } finally {
       setExportLoading(false);
       setExportProgress("");
@@ -255,7 +246,7 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
     <>
       <TopBar
         action={
-          <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+          <div className="topbar-actions">
             <button
               disabled={loading}
               onClick={onRegenerate}
@@ -277,11 +268,14 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
         }
       />
       <main className="page-wide">
-        <Link href="/" className="back-link">
-          ← Companies
-        </Link>
+        <FadeSlideIn delay={0}>
+          <Link href="/" className="back-link">
+            ← Companies
+          </Link>
+        </FadeSlideIn>
 
-        <header className="page-header">
+        <FadeSlideIn delay={STAGGER * 0.5}>
+          <header className="page-header">
           <div className="page-header-row">
             <div>
               <h1>{displayName} · Equity Report</h1>
@@ -292,15 +286,18 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
                   {staleReport ? " (may be outdated)" : ""}
                 </p>
               )}
+              <p className="figures-disclaimer">{FIGURES_DISCLAIMER}</p>
             </div>
             {evalScores.grade != null && storedTicker === ticker && (
               <span className="grade-badge">Grade {String(evalScores.grade)}</span>
             )}
           </div>
         </header>
+        </FadeSlideIn>
 
         {showSections.length > 0 && storedTicker === ticker && (
-          <div className="panel report-followup-wide">
+          <FadeSlideIn delay={STAGGER}>
+          <div className="panel panel-elevated report-followup-wide">
             <div className="report-followup-bar">
               <span className="report-followup-title">Follow-up Chat</span>
               <form onSubmit={onFollowUp} className="report-followup-form">
@@ -329,28 +326,31 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
               </div>
             )}
           </div>
+          </FadeSlideIn>
         )}
 
         {error && (
-          <div className="panel" style={{ marginTop: 16, borderColor: "var(--red, #e55)" }}>
-            <div className="panel-body" style={{ color: "var(--red, #e55)" }}>
-              {error}
-            </div>
+          <FadeSlideIn delay={STAGGER}>
+          <div className="panel panel-elevated panel-error" style={{ marginTop: 16 }}>
+            <div className="panel-body">{error}</div>
           </div>
+          </FadeSlideIn>
         )}
 
         <div className="report-layout" style={{ marginTop: 24 }}>
           <div>
             {loading && showSections.length === 0 ? (
-              <div className="panel">
+              <FadeSlideIn delay={STAGGER * 2}>
+              <div className="panel panel-elevated">
                 <div className="panel-body answer-placeholder">Generating report sections...</div>
               </div>
+              </FadeSlideIn>
             ) : showSections.length > 0 ? (
               showSections.map((section, i) => {
                 const key = sectionKey(section.title);
                 return (
+                  <FadeSlideIn key={section.title} delay={STAGGER * 2 + i * 0.04}>
                   <ReportSectionCard
-                    key={section.title}
                     section={section}
                     index={i}
                     ticker={ticker}
@@ -360,12 +360,14 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
                     error={sectionErrors[key]}
                     onToggle={() => handleSectionToggle(section)}
                   />
+                  </FadeSlideIn>
                 );
               })
             ) : null}
 
             {evalEntries.length > 0 && storedTicker === ticker && (
-              <div className="panel" style={{ marginTop: 16 }}>
+              <FadeSlideIn delay={STAGGER * 3}>
+              <div className="panel panel-elevated" style={{ marginTop: 16 }}>
                 <div className="panel-head">
                   <span>Evaluation</span>
                 </div>
@@ -378,12 +380,14 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
                   ))}
                 </div>
               </div>
+              </FadeSlideIn>
             )}
           </div>
 
           {!loading && showSections.length > 0 && (
             <aside className="sidebar-sticky">
-              <div className="panel toc-panel">
+              <FadeSlideIn delay={STAGGER * 2.5}>
+              <div className="panel panel-elevated toc-panel">
                 <div className="panel-head">
                   <span>Contents</span>
                   <span>{showSections.length}</span>
@@ -397,6 +401,7 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
                   ))}
                 </div>
               </div>
+              </FadeSlideIn>
             </aside>
           )}
         </div>
