@@ -24,3 +24,5 @@
 - Report generation works for one ticker.
 - Follow-up chat includes prior report context.
 - PDF export downloads from report page.
+
+After prompt or cache version changes, re-run `scripts/warm_reports.py` and commit updated JSON under `backend/data/report_cache/` before redeploying.

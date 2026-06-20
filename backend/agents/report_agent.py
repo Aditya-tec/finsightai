@@ -1,10 +1,13 @@
 from __future__ import annotations
 
+import json
+from pathlib import Path
+
 from groq import Groq, RateLimitError
 
 from rag.hybrid_search import hybrid_retrieve
 from schemas import Citation, ReportSection
-from settings import settings
+from settings import BASE_DIR, settings
 
 REPORT_SECTIONS = [
     "Executive Summary + Investment Thesis",
@@ -36,13 +39,58 @@ SECTION_QUERIES = {
 
 CONTEXT_CHUNKS = 3
 MAX_OUTPUT_TOKENS = 425
-_CACHE_VERSION = "v3-11sec"
+_CACHE_VERSION = "v4-11sec"
 
 _report_cache: dict[str, tuple[list[ReportSection], list[dict]]] = {}
 
 
+def cache_dir() -> Path:
+    return BASE_DIR / "data" / "report_cache" / _CACHE_VERSION
+
+
+def disk_cache_path(ticker: str) -> Path:
+    return cache_dir() / f"{ticker.upper()}.json"
+
+
+def disk_cache_exists(ticker: str) -> bool:
+    return disk_cache_path(ticker).is_file()
+
+
 def _chunk_key(chunk: dict) -> str:
     return str(chunk.get("id") or hash(chunk.get("content", "")))
+
+
+def _serialize_result(sections: list[ReportSection], eval_context: list[dict]) -> dict:
+    return {
+        "sections": [s.model_dump() for s in sections],
+        "eval_context": eval_context,
+    }
+
+
+def _deserialize_result(data: dict) -> tuple[list[ReportSection], list[dict]]:
+    sections = [ReportSection.model_validate(s) for s in data["sections"]]
+    eval_context = data.get("eval_context", [])
+    return sections, eval_context
+
+
+def _load_disk_cache(ticker: str) -> tuple[list[ReportSection], list[dict]] | None:
+    path = disk_cache_path(ticker)
+    if not path.is_file():
+        return None
+    try:
+        data = json.loads(path.read_text(encoding="utf-8"))
+        return _deserialize_result(data)
+    except (json.JSONDecodeError, KeyError, ValueError):
+        return None
+
+
+def _save_disk_cache(ticker: str, sections: list[ReportSection], eval_context: list[dict]) -> None:
+    path = disk_cache_path(ticker)
+    path.parent.mkdir(parents=True, exist_ok=True)
+    path.write_text(
+        json.dumps(_serialize_result(sections, eval_context), ensure_ascii=False, indent=2),
+        encoding="utf-8",
+    )
 
 
 def _rank_chunks(chunks: list[dict], query: str, top_n: int = CONTEXT_CHUNKS) -> list[dict]:
@@ -76,6 +124,10 @@ def _write_section(title: str, ticker: str, context: list[dict]) -> str:
         "Do not use $. Match the currency style of the source excerpts.\n"
         "Be precise with financial terminology: net profit (PAT) and net worth (shareholders' equity) "
         "are distinct — never label one as the other.\n"
+        "When citing revenue, label the basis explicitly (e.g. segment revenue, revenue from operations "
+        "net of GST, or consolidated total) — do not mix bases across sections.\n"
+        "Do not compute ratios or percentages unless they appear verbatim in the excerpts; if you must "
+        'derive one, show the formula inline (e.g. "3.17× = ₹46,128cr ÷ ₹14,562cr").\n'
         "If certain information is not present in the context, say so briefly rather than inventing data.\n"
         "Write 1-2 concise paragraphs in a professional analyst tone.\n\n"
         f"Filing excerpts:\n{content_blob}\n\n"
@@ -98,6 +150,11 @@ def build_report(ticker: str) -> tuple[list[ReportSection], list[dict]]:
     cache_key = f"{_CACHE_VERSION}:{ticker.upper()}"
     if cache_key in _report_cache:
         return _report_cache[cache_key]
+
+    disk_result = _load_disk_cache(ticker)
+    if disk_result is not None:
+        _report_cache[cache_key] = disk_result
+        return disk_result
 
     pool = hybrid_retrieve(
         f"{ticker} annual report revenue profit balance sheet risks management segments outlook",
@@ -133,4 +190,5 @@ def build_report(ticker: str) -> tuple[list[ReportSection], list[dict]]:
 
     result = (sections, eval_context)
     _report_cache[cache_key] = result
+    _save_disk_cache(ticker, sections, eval_context)
     return result
