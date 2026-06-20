@@ -35,8 +35,8 @@ SECTION_QUERIES = {
 }
 
 CONTEXT_CHUNKS = 3
-MAX_OUTPUT_TOKENS = 300
-_CACHE_VERSION = "v2-11sec"
+MAX_OUTPUT_TOKENS = 425
+_CACHE_VERSION = "v3-11sec"
 
 _report_cache: dict[str, tuple[list[ReportSection], list[dict]]] = {}
 
@@ -74,6 +74,8 @@ def _write_section(title: str, ticker: str, context: list[dict]) -> str:
         "Use specific numbers, dates, and facts from the context.\n"
         "For Indian listed companies, express monetary amounts in INR using ₹ (rupee symbol). "
         "Do not use $. Match the currency style of the source excerpts.\n"
+        "Be precise with financial terminology: net profit (PAT) and net worth (shareholders' equity) "
+        "are distinct — never label one as the other.\n"
         "If certain information is not present in the context, say so briefly rather than inventing data.\n"
         "Write 1-2 concise paragraphs in a professional analyst tone.\n\n"
         f"Filing excerpts:\n{content_blob}\n\n"

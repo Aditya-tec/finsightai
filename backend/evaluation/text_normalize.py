@@ -29,6 +29,17 @@ def _number_variants(n: str) -> list[str]:
     return list(dict.fromkeys(variants))
 
 
+def is_orphan_year_fragment(n: str, context_blob: str, answer: str) -> bool:
+    """Ignore 3-digit year prefixes (e.g. 202 from truncated 2025) when full years exist."""
+    if len(n) != 3 or not n.isdigit() or not n.startswith("20"):
+        return False
+    if re.search(rf"\b{n}\d\b", context_blob):
+        return True
+    if re.search(rf"\b{n}\s*$", answer.strip()):
+        return True
+    return False
+
+
 def is_number_grounded(n: str, context_blob: str, context_numbers: set[str] | None = None) -> bool:
     """Return True if a numeric claim appears supported by source text."""
     if context_numbers is None:
