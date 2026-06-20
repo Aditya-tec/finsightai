@@ -1,6 +1,7 @@
 import { jsPDF } from "jspdf";
 
 import { formatGroupedCitations, type Citation } from "./citations";
+import { RUPEEREAD_LOGO_ASPECT, RUPEEREAD_LOGO_PNG } from "./rupeereadLogo";
 
 type ReportSection = {
   title: string;
@@ -71,10 +72,9 @@ function setGray(doc: jsPDF, gray: [number, number, number]): void {
   doc.setDrawColor(gray[0], gray[1], gray[2]);
 }
 
-function drawLogoMark(doc: jsPDF, x: number, baselineY: number, size = 7): void {
-  setBlack(doc);
-  doc.setFillColor(BLACK[0], BLACK[1], BLACK[2]);
-  doc.rect(x, baselineY - size + 1, size, size, "F");
+function drawLogoMark(doc: jsPDF, x: number, baselineY: number, height = 7): void {
+  const width = height * RUPEEREAD_LOGO_ASPECT;
+  doc.addImage(RUPEEREAD_LOGO_PNG, "PNG", x, baselineY - height + 1, width, height);
 }
 
 /** Draws a bordered grade stamp on the right; returns the left edge of the badge box. */
@@ -193,11 +193,14 @@ function drawCoverHeader(
 
   let y = 48;
 
-  drawLogoMark(doc, MARGIN_LEFT, y, 6);
+  const logoHeight = 17;
+  const brandFontSize = 18;
+  const rupeeReadTextX = MARGIN_LEFT + logoHeight * RUPEEREAD_LOGO_ASPECT + 6;
+  drawLogoMark(doc, MARGIN_LEFT, y, logoHeight);
   doc.setFont("helvetica", "bold");
-  doc.setFontSize(10);
+  doc.setFontSize(brandFontSize);
   setBlack(doc);
-  doc.text("RupeeRead", MARGIN_LEFT + 11, y);
+  doc.text("RupeeRead", rupeeReadTextX, y);
 
   doc.setFont("helvetica", "normal");
   doc.setFontSize(9);

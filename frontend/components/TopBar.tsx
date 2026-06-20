@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 
@@ -21,14 +22,16 @@ export default function TopBar({ action }: Props) {
     <header className="topbar">
       <div className="topbar-brand">
         <Link href="/" className="topbar-logo">
-          RupeeRead
+          <Image
+            src="/rupeeread-logo.png"
+            alt=""
+            width={22}
+            height={25}
+            className="topbar-logo-mark"
+            priority
+          />
+          <span className="topbar-logo-text">RupeeRead</span>
         </Link>
-        <nav className="topbar-nav" aria-label="Main">
-          <Link href="/" className="topbar-nav-link">
-            Companies
-          </Link>
-        </nav>
-        <span className="topbar-sub">Indian market analyst</span>
       </div>
       <div className="topbar-right">
         <div className="status-pill">

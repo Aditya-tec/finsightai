@@ -16,6 +16,10 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
   title: "RupeeRead",
   description: "Indian market analyst with agentic RAG and citations — RupeeRead",
+  icons: {
+    icon: "/rupeeread-logo.png",
+    apple: "/rupeeread-logo.png",
+  },
 };
 
 export default function RootLayout({
