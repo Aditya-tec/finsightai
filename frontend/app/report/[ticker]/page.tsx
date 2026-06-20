@@ -39,7 +39,7 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
   const [followQuery, setFollowQuery] = useState("");
   const [followLoading, setFollowLoading] = useState(false);
   const [error, setError] = useState("");
-  const [companies, setCompanies] = useState<Array<{ ticker: string; name: string }>>([]);
+  const [companies, setCompanies] = useState<Array<{ ticker: string; name: string; sector: string }>>([]);
   const loadAbortRef = useRef<AbortController | null>(null);
 
   const formattedDate = formatReportDate(generatedAt);
@@ -141,9 +141,11 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
   }
 
   function exportPdf() {
+    const company = companies.find((c) => c.ticker === ticker);
     exportReportPdf({
       ticker,
-      companyName: companies.find((c) => c.ticker === ticker)?.name,
+      companyName: company?.name,
+      sector: company?.sector,
       sections: showSections,
       evalScores,
     });

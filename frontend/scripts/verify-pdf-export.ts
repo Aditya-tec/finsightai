@@ -27,6 +27,7 @@ const cached = JSON.parse(raw) as CachedReport;
 const doc = buildReportPdfDoc({
   ticker: "RELIANCE",
   companyName: "Reliance Industries",
+  sector: "Oil & Gas",
   sections: cached.sections,
   evalScores: {
     grade: "B",

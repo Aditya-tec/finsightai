@@ -11,6 +11,7 @@ type ReportSection = {
 export type ExportReportPdfOptions = {
   ticker: string;
   companyName?: string;
+  sector?: string;
   sections: ReportSection[];
   evalScores: Record<string, unknown>;
 };
@@ -18,15 +19,23 @@ export type ExportReportPdfOptions = {
 const MARGIN_LEFT = 50;
 const MARGIN_RIGHT = 50;
 const MARGIN_TOP_CONT = 56;
-const SECTION_GAP = 24;
+const SECTION_GAP = 12;
 const CITATION_INDENT = 12;
 const BODY_LINE_HEIGHT = 16;
-const SECTION_HEADER_LINE_GAP = 8;
-const SECTION_BODY_TOP_GAP = 20;
-const SECTION_HEADER_HEIGHT = 28 + SECTION_HEADER_LINE_GAP + SECTION_BODY_TOP_GAP;
+const SECTION_HEADER_RULE_TEXT_GAP = 5;
+const SECTION_HEADER_TITLE_DESCENT = 3;
+const SECTION_HEADER_TITLE_RULE_GAP = 3;
+const SECTION_BODY_TOP_GAP = 16;
+const SECTION_TITLE_LINE_HEIGHT = 14;
+const COVER_SUBTITLE_TO_RULE = 11;
+const COVER_RULE_TO_COMPANY = 11;
+const COVER_COMPANY_FONT_SIZE = 30;
 const FOOTER_RESERVE = 72;
 
 const BLACK: [number, number, number] = [0, 0, 0];
+const GRAY_BODY: [number, number, number] = [96, 96, 96];
+const GRAY_META: [number, number, number] = [128, 128, 128];
+const GRAY_FILL: [number, number, number] = [245, 245, 245];
 
 function pageWidth(doc: jsPDF): number {
   return doc.internal.pageSize.getWidth();
@@ -55,6 +64,39 @@ function wrapText(doc: jsPDF, text: string, width: number): string[] {
 function setBlack(doc: jsPDF): void {
   doc.setTextColor(BLACK[0], BLACK[1], BLACK[2]);
   doc.setDrawColor(BLACK[0], BLACK[1], BLACK[2]);
+}
+
+function setGray(doc: jsPDF, gray: [number, number, number]): void {
+  doc.setTextColor(gray[0], gray[1], gray[2]);
+  doc.setDrawColor(gray[0], gray[1], gray[2]);
+}
+
+function drawLogoMark(doc: jsPDF, x: number, baselineY: number, size = 7): void {
+  setBlack(doc);
+  doc.setFillColor(BLACK[0], BLACK[1], BLACK[2]);
+  doc.rect(x, baselineY - size + 1, size, size, "F");
+}
+
+/** Draws a bordered grade stamp on the right; returns the left edge of the badge box. */
+function drawGradeBadge(doc: jsPDF, grade: string, rightX: number, baselineY: number): number {
+  const label = `GRADE ${grade}`;
+  doc.setFont("helvetica", "bold");
+  doc.setFontSize(10);
+  const padX = 7;
+  const textW = doc.getTextWidth(label);
+  const boxW = textW + padX * 2;
+  const boxH = 15;
+  const boxX = rightX - boxW;
+  const boxTop = baselineY - 10;
+
+  setBlack(doc);
+  doc.setFillColor(GRAY_FILL[0], GRAY_FILL[1], GRAY_FILL[2]);
+  doc.setLineWidth(0.5);
+  doc.rect(boxX, boxTop, boxW, boxH, "FD");
+
+  setBlack(doc);
+  doc.text(label, boxX + padX, baselineY);
+  return boxX;
 }
 
 function ensureSpace(doc: jsPDF, y: number, needed: number): number {
@@ -91,13 +133,29 @@ function groupedCitationLines(
   return wrapText(doc, `Sources: ${text}`, width);
 }
 
+function sectionHeaderHeight(doc: jsPDF, title: string, width: number): number {
+  setBlack(doc);
+  doc.setFont("helvetica", "bold");
+  doc.setFontSize(12);
+  const numW = doc.getTextWidth("00") + 8;
+  const titleLines = wrapText(doc, title, width - numW);
+  return (
+    SECTION_HEADER_RULE_TEXT_GAP +
+    10 +
+    (titleLines.length - 1) * SECTION_TITLE_LINE_HEIGHT +
+    SECTION_HEADER_TITLE_DESCENT +
+    SECTION_HEADER_TITLE_RULE_GAP +
+    SECTION_BODY_TOP_GAP
+  );
+}
+
 function estimateSectionHeight(
   doc: jsPDF,
   section: ReportSection,
   ticker: string,
   width: number
 ): number {
-  const headerH = SECTION_HEADER_HEIGHT;
+  const headerH = sectionHeaderHeight(doc, section.title, width);
   const bodyLines = wrapText(doc, section.body, width - 8);
   const citationLines =
     section.citations.length > 0
@@ -111,6 +169,13 @@ function estimateSectionHeight(
   );
 }
 
+/** Returns total width reserved for the grade badge at the right margin. */
+function gradeBadgeWidth(doc: jsPDF, grade: string): number {
+  doc.setFont("helvetica", "bold");
+  doc.setFontSize(10);
+  return doc.getTextWidth(`GRADE ${grade}`) + 22;
+}
+
 function drawCoverHeader(
   doc: jsPDF,
   ticker: string,
@@ -118,45 +183,51 @@ function drawCoverHeader(
   evalScores: Record<string, unknown>
 ): number {
   const width = maxTextWidth(doc);
-  setBlack(doc);
-
-  let y = 48;
-
-  doc.setFont("helvetica", "bold");
-  doc.setFontSize(22);
-  doc.text("FinSight AI", MARGIN_LEFT, y);
-
-  if (evalScores.grade != null) {
-    doc.setFontSize(11);
-    doc.text(`Grade ${String(evalScores.grade)}`, pageWidth(doc) - MARGIN_RIGHT, y, {
-      align: "right",
-    });
-  }
-
-  y += 18;
-  doc.setFont("helvetica", "normal");
-  doc.setFontSize(11);
-  doc.text("Indian Equity Research Report", MARGIN_LEFT, y);
-
-  y += 22;
-  doc.setFont("helvetica", "bold");
-  doc.setFontSize(15);
-  const companyLine = companyName ? `${companyName} (${ticker})` : ticker;
-  y = drawWrappedBlock(doc, wrapText(doc, companyLine, width), MARGIN_LEFT, y, 18);
-
-  doc.setFont("helvetica", "normal");
-  doc.setFontSize(10);
+  const pageRight = pageWidth(doc) - MARGIN_RIGHT;
   const dateStr = new Date().toLocaleDateString("en-IN", {
     year: "numeric",
     month: "long",
     day: "numeric",
   });
-  doc.text(`Generated ${dateStr}`, MARGIN_LEFT, y + 4);
+  const dateText = `Generated ${dateStr}`;
 
-  y += 20;
-  doc.setLineWidth(0.5);
-  doc.line(MARGIN_LEFT, y, pageWidth(doc) - MARGIN_RIGHT, y);
-  return y + 24;
+  let y = 48;
+
+  drawLogoMark(doc, MARGIN_LEFT, y, 6);
+  doc.setFont("helvetica", "bold");
+  doc.setFontSize(10);
+  setBlack(doc);
+  doc.text("FINSIGHT AI", MARGIN_LEFT + 11, y);
+
+  doc.setFont("helvetica", "normal");
+  doc.setFontSize(9);
+  setGray(doc, GRAY_META);
+  doc.text(dateText, pageRight, y, { align: "right" });
+
+  y += 12;
+  doc.text("Indian Equity Research Report", MARGIN_LEFT, y);
+
+  y += COVER_SUBTITLE_TO_RULE;
+  setBlack(doc);
+  doc.setLineWidth(0.25);
+  doc.line(MARGIN_LEFT, y, pageRight, y);
+
+  y += COVER_RULE_TO_COMPANY + COVER_COMPANY_FONT_SIZE * 0.72;
+  const displayName = companyName ?? ticker;
+  const companyBaseline = y;
+  const grade = evalScores.grade != null ? String(evalScores.grade).toUpperCase() : null;
+  const nameWidth = grade != null ? width - gradeBadgeWidth(doc, grade) : width;
+
+  if (grade != null) {
+    drawGradeBadge(doc, grade, pageRight, companyBaseline);
+  }
+
+  doc.setFont("helvetica", "bold");
+  doc.setFontSize(COVER_COMPANY_FONT_SIZE);
+  setBlack(doc);
+  y = drawWrappedBlock(doc, wrapText(doc, displayName, nameWidth), MARGIN_LEFT, companyBaseline, 34);
+
+  return y + 10;
 }
 
 function drawSectionHeader(
@@ -166,35 +237,33 @@ function drawSectionHeader(
   y: number,
   width: number
 ): number {
-  y = ensureSpace(doc, y, 36);
+  y = ensureSpace(doc, y, sectionHeaderHeight(doc, title, width));
   setBlack(doc);
+  doc.setLineWidth(0.25);
+
+  doc.line(MARGIN_LEFT, y, MARGIN_LEFT + width, y);
+  let textY = y + SECTION_HEADER_RULE_TEXT_GAP + 10;
 
   doc.setFont("helvetica", "bold");
   doc.setFontSize(12);
-  doc.text(sectionNum, MARGIN_LEFT, y);
+  doc.text(sectionNum, MARGIN_LEFT, textY);
 
   const numW = doc.getTextWidth(sectionNum) + 8;
   const titleLines = wrapText(doc, title, width - numW);
   if (titleLines.length === 1) {
-    doc.text(titleLines[0], MARGIN_LEFT + numW, y);
-    y += 16;
+    doc.text(titleLines[0], MARGIN_LEFT + numW, textY);
   } else {
-    doc.text(titleLines[0], MARGIN_LEFT + numW, y);
-    y += 14;
+    doc.text(titleLines[0], MARGIN_LEFT + numW, textY);
     for (let i = 1; i < titleLines.length; i++) {
-      doc.text(titleLines[i], MARGIN_LEFT, y);
-      y += 14;
+      textY += SECTION_TITLE_LINE_HEIGHT;
+      doc.text(titleLines[i], MARGIN_LEFT, textY);
     }
   }
 
-  doc.setLineWidth(0.25);
-  doc.line(
-    MARGIN_LEFT,
-    y + SECTION_HEADER_LINE_GAP,
-    MARGIN_LEFT + width,
-    y + SECTION_HEADER_LINE_GAP
-  );
-  return y + SECTION_HEADER_LINE_GAP + SECTION_BODY_TOP_GAP;
+  const bottomRuleY =
+    textY + SECTION_HEADER_TITLE_DESCENT + SECTION_HEADER_TITLE_RULE_GAP;
+  doc.line(MARGIN_LEFT, bottomRuleY, MARGIN_LEFT + width, bottomRuleY);
+  return bottomRuleY + SECTION_BODY_TOP_GAP;
 }
 
 function drawSection(
@@ -264,6 +333,7 @@ function drawFooters(doc: jsPDF): void {
 export function buildReportPdfDoc({
   ticker,
   companyName,
+  sector,
   sections,
   evalScores,
 }: ExportReportPdfOptions): jsPDF {
