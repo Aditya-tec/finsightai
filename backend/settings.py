@@ -28,6 +28,10 @@ class Settings:
         return _env("GROQ_API_KEY")
 
     @property
+    def groq_report_model(self) -> str:
+        return _env("GROQ_REPORT_MODEL", "llama-3.3-70b-versatile")
+
+    @property
     def cohere_api_key(self) -> str:
         return _env("COHERE_API_KEY")
 
