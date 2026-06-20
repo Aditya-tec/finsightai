@@ -2,7 +2,7 @@
 
 import { jsPDF } from "jspdf";
 import Link from "next/link";
-import { FormEvent, use, useEffect, useState } from "react";
+import { FormEvent, use, useEffect, useLayoutEffect, useState } from "react";
 
 import AgentFeed from "@/components/AgentFeed";
 import TopBar from "@/components/TopBar";
@@ -12,13 +12,24 @@ import { openThoughtStream } from "@/lib/stream";
 
 export default function ReportPage({ params }: { params: Promise<{ ticker: string }> }) {
   const { ticker } = use(params);
-  const { sections, followup, setReport, addFollowup } = useReportStore();
+  const { sections, followup, ticker: storedTicker, setReport, addFollowup, clear } = useReportStore();
+  const showSections = storedTicker === ticker ? sections : [];
+  const showFollowup = storedTicker === ticker ? followup : [];
   const [steps, setSteps] = useState<string[]>([]);
   const [evalScores, setEvalScores] = useState<Record<string, unknown>>({});
   const [loading, setLoading] = useState(true);
   const [followQuery, setFollowQuery] = useState("");
   const [followLoading, setFollowLoading] = useState(false);
   const [error, setError] = useState("");
+
+  useLayoutEffect(() => {
+    if (storedTicker !== ticker) {
+      clear();
+      setEvalScores({});
+      setFollowQuery("");
+      setError("");
+    }
+  }, [ticker, storedTicker, clear]);
 
   useEffect(() => {
     const controller = new AbortController();
@@ -71,7 +82,7 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
       const res = await chatApi({
         query: q,
         ticker,
-        conversation_history: buildConversationHistoryForApi(sections, followup),
+        conversation_history: buildConversationHistoryForApi(showSections, showFollowup),
       });
       addFollowup({ role: "assistant", content: res.answer, citations: res.citations });
     } finally {
@@ -86,7 +97,7 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
     doc.text(`FinSight AI Report - ${ticker}`, 10, y);
     y += 8;
     doc.setFontSize(10);
-    sections.forEach((section) => {
+    showSections.forEach((section) => {
       const lines = doc.splitTextToSize(`${section.title}\n${section.body}`, 185);
       if (y + lines.length * 5 > 280) {
         doc.addPage();
@@ -106,7 +117,7 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
         action={
           <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
             <button
-              disabled={loading || sections.length === 0}
+              disabled={loading || showSections.length === 0}
               onClick={exportPdf}
               className="btn-ghost"
               style={{ padding: "7px 14px" }}
@@ -128,7 +139,7 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
               <h1>{ticker} · Equity Report</h1>
               <p>11-section analyst report with citations, eval scores, and follow-up chat.</p>
             </div>
-            {evalScores.grade != null && (
+            {evalScores.grade != null && storedTicker === ticker && (
               <span className="grade-badge">Grade {String(evalScores.grade)}</span>
             )}
           </div>
@@ -146,12 +157,12 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
 
         <div className="report-layout" style={{ marginTop: 24 }}>
           <div>
-            {loading && sections.length === 0 ? (
+            {loading || showSections.length === 0 ? (
               <div className="panel">
                 <div className="panel-body answer-placeholder">Generating report sections...</div>
               </div>
             ) : (
-              sections.map((section, i) => (
+              showSections.map((section, i) => (
                 <div key={section.title} className="report-section" id={`section-${i}`}>
                   <div className="report-section-head">
                     <span className="report-section-num">{String(i + 1).padStart(2, "0")}</span>
@@ -175,7 +186,7 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
               ))
             )}
 
-            {evalEntries.length > 0 && (
+            {evalEntries.length > 0 && storedTicker === ticker && (
               <div className="panel" style={{ marginTop: 16 }}>
                 <div className="panel-head">
                   <span>Evaluation</span>
@@ -192,15 +203,15 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
             )}
           </div>
 
-          {!loading && sections.length > 0 && (
+          {!loading && showSections.length > 0 && (
             <aside className="sidebar-sticky">
               <div className="panel">
                 <div className="panel-head">
                   <span>Contents</span>
-                  <span>{sections.length}</span>
+                  <span>{showSections.length}</span>
                 </div>
                 <div className="panel-body" style={{ padding: "10px 18px" }}>
-                  {sections.map((s, i) => (
+                  {showSections.map((s, i) => (
                     <a key={s.title} href={`#section-${i}`} className="toc-item">
                       <span className="toc-num">{String(i + 1).padStart(2, "0")}</span>
                       {s.title}
@@ -226,9 +237,9 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
                       {followLoading ? "Sending..." : "Send"}
                     </button>
                   </form>
-                  {followup.length > 0 && (
+                  {showFollowup.length > 0 && (
                     <div style={{ marginTop: 16, maxHeight: 280, overflowY: "auto" }}>
-                      {followup.map((m, i) => (
+                      {showFollowup.map((m, i) => (
                         <div key={`${m.role}-${i}`} className={`chat-msg ${m.role}`}>
                           <div className="chat-msg-role">{m.role}</div>
                           {m.content}
