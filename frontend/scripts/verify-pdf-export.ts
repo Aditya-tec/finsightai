@@ -4,7 +4,7 @@
 import fs from "fs";
 import path from "path";
 
-import { buildReportPdfDoc, sanitizeForPdf } from "../lib/exportReportPdf";
+import { buildReportPdfDoc, formatCitation, sanitizeForPdf } from "../lib/exportReportPdf";
 
 const ROOT = path.resolve(import.meta.dirname, "../..");
 const cachePath = path.join(
@@ -62,5 +62,14 @@ console.log("Source has ₹ (sanitized in PDF):", hasRupeeInSource ? "OK" : "WAR
 console.log("Page width (A4 pt):", pageW, pageW > 500 && pageW < 620 ? "OK" : "FAIL");
 console.log("Multi-page report:", pageCount >= 2 ? "OK" : "FAIL");
 
-const failed = !pdfSizeOk || sectionCount !== 11 || pageCount < 2 || !rsOk;
+const citeBroken = formatCitation({ source: "filing", section: "NOTES :", page: 326 });
+const citeNoSection = formatCitation({ source: "filing", section: "   :  ", page: 326 });
+const citeOk =
+  citeBroken === "filing · NOTES · pg 326" &&
+  citeNoSection === "filing · pg 326" &&
+  !citeBroken.includes(" : ·");
+console.log("Citation label fix:", citeOk ? "OK" : "FAIL", citeBroken);
+
+const failed =
+  !pdfSizeOk || sectionCount !== 11 || pageCount < 2 || !rsOk || !citeOk;
 process.exit(failed ? 1 : 0);

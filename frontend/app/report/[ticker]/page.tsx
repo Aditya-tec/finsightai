@@ -3,12 +3,10 @@
 import Link from "next/link";
 import { FormEvent, use, useEffect, useLayoutEffect, useRef, useState } from "react";
 
-import AgentFeed from "@/components/AgentFeed";
 import TopBar from "@/components/TopBar";
 import { chatApi, fetchCompanies, reportApi } from "@/lib/api";
 import { exportReportPdf } from "@/lib/exportReportPdf";
 import { buildConversationHistoryForApi, useReportStore } from "@/lib/reportStore";
-import { openThoughtStream } from "@/lib/stream";
 
 function formatReportDate(iso: string | null): string | null {
   if (!iso) return null;
@@ -34,7 +32,6 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
   const { sections, followup, ticker: storedTicker, setReport, addFollowup, clear } = useReportStore();
   const showSections = storedTicker === ticker ? sections : [];
   const showFollowup = storedTicker === ticker ? followup : [];
-  const [steps, setSteps] = useState<string[]>([]);
   const [evalScores, setEvalScores] = useState<Record<string, unknown>>({});
   const [generatedAt, setGeneratedAt] = useState<string | null>(null);
   const [loading, setLoading] = useState(true);
@@ -43,9 +40,7 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
   const [error, setError] = useState("");
   const [companies, setCompanies] = useState<Array<{ ticker: string; name: string }>>([]);
   const loadAbortRef = useRef<AbortController | null>(null);
-  const streamRef = useRef<EventSource | null>(null);
 
-  const regenerating = loading && showSections.length > 0;
   const formattedDate = formatReportDate(generatedAt);
   const staleReport = isReportStale(generatedAt);
 
@@ -69,18 +64,12 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
     const hadReport = showSections.length > 0 && storedTicker === ticker;
 
     loadAbortRef.current?.abort();
-    streamRef.current?.close();
 
     const controller = new AbortController();
     loadAbortRef.current = controller;
 
     setLoading(true);
     setError("");
-    setSteps([]);
-
-    streamRef.current = openThoughtStream(`Generate report for ${ticker}`, (msg) =>
-      setSteps((s) => [...s, msg])
-    );
 
     try {
       const res = await reportApi({ ticker, force_refresh: forceRefresh }, controller.signal);
@@ -104,8 +93,6 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
         setError("Could not reach the backend. Make sure uvicorn is running on port 8000, then refresh and retry.");
       }
     } finally {
-      streamRef.current?.close();
-      streamRef.current = null;
       if (!controller.signal.aborted) setLoading(false);
     }
   }
@@ -114,7 +101,6 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
     fetchReport(false);
     return () => {
       loadAbortRef.current?.abort();
-      streamRef.current?.close();
     };
     // eslint-disable-next-line react-hooks/exhaustive-deps
   }, [ticker]);
@@ -141,6 +127,13 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
         conversation_history: buildConversationHistoryForApi(showSections, showFollowup),
       });
       addFollowup({ role: "assistant", content: res.answer, citations: res.citations });
+    } catch (err) {
+      const ax = err as { response?: { status?: number; data?: { detail?: string } } };
+      const detail =
+        ax.response?.status === 429
+          ? "Rate limit reached — wait a few minutes and try again."
+          : ax.response?.data?.detail ?? "Could not get a chat response. Check that the backend is running.";
+      addFollowup({ role: "assistant", content: detail });
     } finally {
       setFollowLoading(false);
     }
@@ -165,11 +158,11 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
             <button
               disabled={loading}
               onClick={onRegenerate}
-              className="btn-ghost"
+              className={loading ? "btn-generating" : "btn-ghost"}
               style={{ padding: "7px 14px" }}
               title="Runs live Groq API calls (~60–90s) and may use daily quota"
             >
-              {regenerating ? "Regenerating..." : "Regenerate"}
+              {loading ? "Generating..." : "Regenerate"}
             </button>
             <button
               disabled={loading || showSections.length === 0}
@@ -206,7 +199,35 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
           </div>
         </header>
 
-        <AgentFeed steps={steps} loading={loading} />
+        {showSections.length > 0 && storedTicker === ticker && (
+          <div className="panel report-followup-wide">
+            <div className="report-followup-bar">
+              <span className="report-followup-title">Follow-up Chat</span>
+              <form onSubmit={onFollowUp} className="report-followup-form">
+                <input
+                  value={followQuery}
+                  onChange={(e) => setFollowQuery(e.target.value)}
+                  className="input-line"
+                  placeholder="> ask about this report..."
+                  disabled={followLoading}
+                />
+                <button disabled={followLoading || loading} className="btn-green report-followup-send">
+                  {followLoading ? "..." : "Send"}
+                </button>
+              </form>
+            </div>
+            {showFollowup.length > 0 && (
+              <div className="report-followup-messages">
+                {showFollowup.map((m, i) => (
+                  <div key={`${m.role}-${i}`} className={`chat-msg ${m.role}`}>
+                    <div className="chat-msg-role">{m.role}</div>
+                    {m.content}
+                  </div>
+                ))}
+              </div>
+            )}
+          </div>
+        )}
 
         {error && (
           <div className="panel" style={{ marginTop: 16, borderColor: "var(--red, #e55)" }}>
@@ -278,36 +299,6 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
                       {s.title}
                     </a>
                   ))}
-                </div>
-              </div>
-
-              <div className="panel">
-                <div className="panel-head">
-                  <span>Follow-up Chat</span>
-                </div>
-                <div className="panel-body">
-                  <form onSubmit={onFollowUp}>
-                    <input
-                      value={followQuery}
-                      onChange={(e) => setFollowQuery(e.target.value)}
-                      className="input-line"
-                      placeholder="> ask about this report..."
-                      style={{ marginBottom: 10 }}
-                    />
-                    <button disabled={followLoading} className="btn-green" style={{ width: "100%" }}>
-                      {followLoading ? "Sending..." : "Send"}
-                    </button>
-                  </form>
-                  {showFollowup.length > 0 && (
-                    <div style={{ marginTop: 16, maxHeight: 280, overflowY: "auto" }}>
-                      {showFollowup.map((m, i) => (
-                        <div key={`${m.role}-${i}`} className={`chat-msg ${m.role}`}>
-                          <div className="chat-msg-role">{m.role}</div>
-                          {m.content}
-                        </div>
-                      ))}
-                    </div>
-                  )}
                 </div>
               </div>
             </aside>

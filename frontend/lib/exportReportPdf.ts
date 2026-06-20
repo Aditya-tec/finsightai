@@ -19,11 +19,19 @@ const MARGIN_LEFT = 50;
 const MARGIN_RIGHT = 50;
 const MARGIN_TOP_CONT = 56;
 const SECTION_GAP = 24;
-const CITATION_INDENT = 12;
 const BODY_LINE_HEIGHT = 16;
 const FOOTER_RESERVE = 72;
+const SOURCES_PAD_TOP = 11;
+const SOURCES_PAD_BOTTOM = 11;
+const SOURCES_PAD_H = 10;
+const SOURCES_ACCENT_W = 3;
+const SOURCES_LABEL_TO_CITES = 6;
+const SOURCES_CITE_LINE_H = 11;
+const SOURCES_CITE_GAP = 5;
 
 const BLACK: [number, number, number] = [0, 0, 0];
+const SOURCES_BG: [number, number, number] = [245, 245, 245];
+const BRAND_GREEN: [number, number, number] = [0, 204, 82];
 
 function pageWidth(doc: jsPDF): number {
   return doc.internal.pageSize.getWidth();
@@ -77,11 +85,93 @@ function drawWrappedBlock(
   return y;
 }
 
-function formatCitation(c: Citation): string {
-  const parts = [c.source];
-  if (c.section) parts.push(c.section);
+function sourcesInnerWidth(contentWidth: number): number {
+  return contentWidth - SOURCES_PAD_H * 2 - SOURCES_ACCENT_W - 2;
+}
+
+function normalizeSectionTitle(section: string | undefined): string | null {
+  if (section == null) return null;
+  let title = sanitizeForPdf(section).trim();
+  if (!title) return null;
+  title = title.replace(/:\s*$/u, "").trim();
+  if (!title) return null;
+  return title;
+}
+
+export function formatCitation(c: Citation): string {
+  const parts: string[] = [];
+  const source = sanitizeForPdf(c.source ?? "").trim();
+  if (source) parts.push(source);
+
+  const section = normalizeSectionTitle(c.section);
+  if (section) parts.push(section);
+
   if (c.page != null) parts.push(`pg ${c.page}`);
   return parts.join(" · ");
+}
+
+function citationLineCounts(doc: jsPDF, citations: Citation[], innerWidth: number): number[] {
+  return citations.map((citation) => wrapText(doc, formatCitation(citation), innerWidth).length);
+}
+
+function measureSourcesBlockHeight(
+  doc: jsPDF,
+  citations: Citation[],
+  innerWidth: number
+): number {
+  const lineCounts = citationLineCounts(doc, citations, innerWidth);
+  let height = SOURCES_PAD_TOP + 8 + SOURCES_LABEL_TO_CITES;
+  for (let i = 0; i < lineCounts.length; i++) {
+    height += lineCounts[i] * SOURCES_CITE_LINE_H;
+    if (i < lineCounts.length - 1) height += SOURCES_CITE_GAP;
+  }
+  height += SOURCES_PAD_BOTTOM;
+  return height;
+}
+
+function drawSourcesBlock(
+  doc: jsPDF,
+  citations: Citation[],
+  y: number,
+  width: number
+): number {
+  if (citations.length === 0) return y;
+
+  y += 8;
+  const innerWidth = sourcesInnerWidth(width);
+  const boxHeight = measureSourcesBlockHeight(doc, citations, innerWidth);
+  y = ensureSpace(doc, y, boxHeight);
+  const boxY = y;
+
+  doc.setFillColor(SOURCES_BG[0], SOURCES_BG[1], SOURCES_BG[2]);
+  doc.rect(MARGIN_LEFT, boxY, width, boxHeight, "F");
+
+  doc.setFillColor(BRAND_GREEN[0], BRAND_GREEN[1], BRAND_GREEN[2]);
+  doc.rect(MARGIN_LEFT, boxY, SOURCES_ACCENT_W, boxHeight, "F");
+
+  const innerX = MARGIN_LEFT + SOURCES_ACCENT_W + SOURCES_PAD_H;
+  let innerY = boxY + SOURCES_PAD_TOP + 8;
+
+  setBlack(doc);
+  doc.setFont("helvetica", "bold");
+  doc.setFontSize(7.5);
+  doc.text("SOURCES", innerX, innerY);
+
+  innerY += SOURCES_LABEL_TO_CITES;
+  doc.setFont("helvetica", "normal");
+  doc.setFontSize(8);
+  for (let i = 0; i < citations.length; i++) {
+    const lines = wrapText(doc, formatCitation(citations[i]), innerWidth);
+    for (const line of lines) {
+      doc.text(line, innerX, innerY);
+      innerY += SOURCES_CITE_LINE_H;
+    }
+    if (i < citations.length - 1) {
+      innerY += SOURCES_CITE_GAP;
+    }
+  }
+
+  return boxY + boxHeight;
 }
 
 function estimateSectionHeight(
@@ -91,14 +181,15 @@ function estimateSectionHeight(
 ): number {
   const headerH = 28;
   const bodyLines = wrapText(doc, section.body, width - 8);
-  const citationLines = section.citations.flatMap((c) =>
-    wrapText(doc, formatCitation(c), width - CITATION_INDENT - 8)
-  );
+  const sourcesH =
+    section.citations.length > 0
+      ? 8 + measureSourcesBlockHeight(doc, section.citations, sourcesInnerWidth(width))
+      : 0;
   return (
     headerH +
     10 +
     bodyLines.length * BODY_LINE_HEIGHT +
-    (citationLines.length > 0 ? 6 + 16 + citationLines.length * 12 : 0) +
+    sourcesH +
     SECTION_GAP
   );
 }
@@ -203,30 +294,7 @@ function drawSection(
   y = drawWrappedBlock(doc, bodyLines, MARGIN_LEFT, y, BODY_LINE_HEIGHT);
 
   if (section.citations.length > 0) {
-    y += 6;
-    y = ensureSpace(doc, y, 20);
-
-    doc.setFont("helvetica", "bold");
-    doc.setFontSize(8.5);
-    doc.text("Sources", MARGIN_LEFT + CITATION_INDENT, y);
-
-    y += 16;
-    doc.setFont("helvetica", "italic");
-    doc.setFontSize(8.5);
-    for (const citation of section.citations) {
-      const citeLines = wrapText(
-        doc,
-        formatCitation(citation),
-        width - CITATION_INDENT
-      );
-      y = drawWrappedBlock(
-        doc,
-        citeLines.map((l) => `  ${l}`),
-        MARGIN_LEFT + CITATION_INDENT,
-        y,
-        12
-      );
-    }
+    y = drawSourcesBlock(doc, section.citations, y, width);
   }
 
   return y + SECTION_GAP;
