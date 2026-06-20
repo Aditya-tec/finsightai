@@ -80,8 +80,13 @@ function drawWrappedBlock(
   return y;
 }
 
-function groupedCitationLines(doc: jsPDF, citations: Citation[], width: number): string[] {
-  const text = formatGroupedCitations(citations);
+function groupedCitationLines(
+  doc: jsPDF,
+  citations: Citation[],
+  ticker: string,
+  width: number
+): string[] {
+  const text = formatGroupedCitations(citations, ticker);
   if (!text) return [];
   return wrapText(doc, `Sources: ${text}`, width);
 }
@@ -89,13 +94,14 @@ function groupedCitationLines(doc: jsPDF, citations: Citation[], width: number):
 function estimateSectionHeight(
   doc: jsPDF,
   section: ReportSection,
+  ticker: string,
   width: number
 ): number {
   const headerH = SECTION_HEADER_HEIGHT;
   const bodyLines = wrapText(doc, section.body, width - 8);
   const citationLines =
     section.citations.length > 0
-      ? groupedCitationLines(doc, section.citations, width - CITATION_INDENT - 8)
+      ? groupedCitationLines(doc, section.citations, ticker, width - CITATION_INDENT - 8)
       : [];
   return (
     headerH +
@@ -195,11 +201,12 @@ function drawSection(
   doc: jsPDF,
   section: ReportSection,
   index: number,
+  ticker: string,
   y: number
 ): number {
   const width = maxTextWidth(doc);
   const sectionNum = String(index + 1).padStart(2, "0");
-  y = ensureSpace(doc, y, Math.min(estimateSectionHeight(doc, section, width), 100));
+  y = ensureSpace(doc, y, Math.min(estimateSectionHeight(doc, section, ticker, width), 100));
 
   y = drawSectionHeader(doc, sectionNum, section.title, y, width);
 
@@ -214,6 +221,7 @@ function drawSection(
     const citeLines = groupedCitationLines(
       doc,
       section.citations,
+      ticker,
       width - CITATION_INDENT - 8
     );
     y = ensureSpace(doc, y, citeLines.length * 12 + 4);
@@ -264,7 +272,7 @@ export function buildReportPdfDoc({
   let y = drawCoverHeader(doc, ticker, companyName, evalScores);
 
   sections.forEach((section, i) => {
-    y = drawSection(doc, section, i, y);
+    y = drawSection(doc, section, i, ticker, y);
   });
 
   drawFooters(doc);

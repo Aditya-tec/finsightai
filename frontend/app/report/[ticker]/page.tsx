@@ -255,7 +255,7 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
                   {section.citations?.length > 0 && (
                     <div className="report-sources">
                       <span className="report-sources-label">Sources:</span>
-                      {formatGroupedCitations(section.citations)}
+                      {formatGroupedCitations(section.citations, ticker)}
                     </div>
                   )}
                 </div>

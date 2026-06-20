@@ -5,6 +5,7 @@ import fs from "fs";
 import path from "path";
 
 import { buildReportPdfDoc, sanitizeForPdf } from "../lib/exportReportPdf";
+import { formatGroupedCitations } from "../lib/citations";
 
 const ROOT = path.resolve(import.meta.dirname, "../..");
 const cachePath = path.join(
@@ -53,7 +54,14 @@ const rsOk = sanitizedSample.includes("Rs.") && !sanitizedSample.includes("₹")
 const pdfSizeOk = buf.length > 10_000;
 const sectionCount = cached.sections.length;
 
-console.log("PDF written to:", outPath);
+const citationSample = formatGroupedCitations(
+  [{ source: "filing", page: 213 }, { source: "filing", page: 172 }, { source: "filing", page: 210 }],
+  "SUNPHARMA"
+);
+const citationFormatOk =
+  citationSample === "SUNPHARMA FY25 Annual Report, pg 213, 172, 210";
+
+console.log("Citation format:", citationSample, citationFormatOk ? "OK" : "FAIL");
 console.log("Pages:", pageCount);
 console.log("Sections in PDF:", sectionCount, sectionCount === 11 ? "OK" : "FAIL");
 console.log("PDF size:", buf.length, "bytes", pdfSizeOk ? "OK" : "FAIL");
@@ -62,5 +70,5 @@ console.log("Source has ₹ (sanitized in PDF):", hasRupeeInSource ? "OK" : "WAR
 console.log("Page width (A4 pt):", pageW, pageW > 500 && pageW < 620 ? "OK" : "FAIL");
 console.log("Multi-page report:", pageCount >= 2 ? "OK" : "FAIL");
 
-const failed = !pdfSizeOk || sectionCount !== 11 || pageCount < 2 || !rsOk;
+const failed = !pdfSizeOk || sectionCount !== 11 || pageCount < 2 || !rsOk || !citationFormatOk;
 process.exit(failed ? 1 : 0);

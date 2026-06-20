@@ -6,7 +6,15 @@ type Section = {
   citations: Array<{ source: string; page?: number; section?: string }>;
 };
 
-export default function ReportView({ sections, loading }: { sections: Section[]; loading?: boolean }) {
+export default function ReportView({
+  sections,
+  loading,
+  ticker,
+}: {
+  sections: Section[];
+  loading?: boolean;
+  ticker?: string;
+}) {
   if (loading && sections.length === 0) {
     return (
       <div className="space-y-3">
@@ -51,7 +59,7 @@ export default function ReportView({ sections, loading }: { sections: Section[];
           {section.citations?.length > 0 && (
             <p className="text-xs text-[var(--text-muted)]">
               <span className="font-semibold text-[var(--accent)]">Sources: </span>
-              {formatGroupedCitations(section.citations)}
+              {formatGroupedCitations(section.citations, ticker)}
             </p>
           )}
         </article>

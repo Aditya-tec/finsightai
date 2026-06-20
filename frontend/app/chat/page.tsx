@@ -126,7 +126,7 @@ function ChatPageContent() {
                 </div>
                 <div className="panel-body report-sources" style={{ padding: "12px 18px" }}>
                   <span className="report-sources-label">Sources:</span>
-                  {formatGroupedCitations(citations)}
+                  {formatGroupedCitations(citations, ticker)}
                 </div>
               </div>
             )}
