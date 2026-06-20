@@ -8,7 +8,7 @@ checks = {
     "COHERE_API_KEY": bool(settings.cohere_api_key),
 }
 
-print("FinSight env check:")
+print("RupeeRead env check:")
 for name, ok in checks.items():
     print(f"  {name}: {'OK' if ok else 'MISSING — add to backend/.env'}")
 

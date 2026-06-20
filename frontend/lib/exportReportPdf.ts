@@ -197,7 +197,7 @@ function drawCoverHeader(
   doc.setFont("helvetica", "bold");
   doc.setFontSize(10);
   setBlack(doc);
-  doc.text("FINSIGHT AI", MARGIN_LEFT + 11, y);
+  doc.text("RupeeRead", MARGIN_LEFT + 11, y);
 
   doc.setFont("helvetica", "normal");
   doc.setFontSize(9);
@@ -305,7 +305,7 @@ function drawSection(
 
 function drawFooters(doc: jsPDF): void {
   const total = doc.getNumberOfPages();
-  const disclaimer = "Report prepared by FinSight AI. Not investment advice.";
+  const disclaimer = "Report prepared by RupeeRead. Not investment advice.";
 
   for (let i = 1; i <= total; i++) {
     doc.setPage(i);
@@ -351,5 +351,5 @@ export function buildReportPdfDoc({
 
 export function exportReportPdf(options: ExportReportPdfOptions): void {
   const doc = buildReportPdfDoc(options);
-  doc.save(`finsight-report-${options.ticker}.pdf`);
+  doc.save(`rupeeread-report-${options.ticker}.pdf`);
 }

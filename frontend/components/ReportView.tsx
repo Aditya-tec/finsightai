@@ -48,7 +48,7 @@ export default function ReportView({
             <span className="terminal-chip">Cited</span>
           </div>
           <div className="mb-2 flex items-center gap-2">
-            <span className="flex h-6 w-6 items-center justify-center rounded-full bg-[rgba(53,240,138,0.12)] text-xs font-bold text-[var(--accent)]">
+            <span className="flex h-6 w-6 items-center justify-center rounded-full bg-[var(--accent-dim)] text-xs font-bold text-[var(--accent)]">
               {index + 1}
             </span>
             <h3 className="text-sm font-semibold text-[var(--text-primary)]">{section.title}</h3>
@@ -58,7 +58,7 @@ export default function ReportView({
           </p>
           {section.citations?.length > 0 && (
             <p className="text-xs text-[var(--text-muted)]">
-              <span className="font-semibold text-[var(--accent)]">Sources: </span>
+              <span className="font-medium text-[var(--text-dim)]">Sources: </span>
               {formatGroupedCitations(section.citations, ticker)}
             </p>
           )}

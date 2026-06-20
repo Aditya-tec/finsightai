@@ -4,9 +4,12 @@ import Link from "next/link";
 import { FormEvent, use, useEffect, useLayoutEffect, useRef, useState } from "react";
 
 import TopBar from "@/components/TopBar";
+import FormattedText from "@/components/FormattedText";
+import { stripLeadingSectionTitle } from "@/lib/formatText";
 import { chatApi, fetchCompanies, reportApi } from "@/lib/api";
 import { formatGroupedCitations } from "@/lib/citations";
 import { exportReportPdf } from "@/lib/exportReportPdf";
+import { companyDisplayName } from "@/lib/companyNames";
 import { buildConversationHistoryForApi, useReportStore } from "@/lib/reportStore";
 
 function formatReportDate(iso: string | null): string | null {
@@ -152,6 +155,7 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
   }
 
   const evalEntries = Object.entries(evalScores).filter(([k]) => k !== "grade");
+  const displayName = companyDisplayName(ticker, companies);
 
   return (
     <>
@@ -175,19 +179,19 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
             >
               Export PDF
             </button>
-            <span className="tag">{ticker}</span>
+            <span className="tag tag-ticker">{ticker}</span>
           </div>
         }
       />
       <main className="page-wide">
         <Link href="/" className="back-link">
-          ← companies
+          ← Companies
         </Link>
 
         <header className="page-header">
           <div className="page-header-row">
             <div>
-              <h1>{ticker} · Equity Report</h1>
+              <h1>{displayName} · Equity Report</h1>
               <p>11-section analyst report with citations, eval scores, and follow-up chat.</p>
               {formattedDate && storedTicker === ticker && (
                 <p className="report-meta">
@@ -211,7 +215,7 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
                   value={followQuery}
                   onChange={(e) => setFollowQuery(e.target.value)}
                   className="input-line"
-                  placeholder="> ask about this report..."
+                  placeholder="Ask about this report…"
                   disabled={followLoading}
                 />
                 <button disabled={followLoading || loading} className="btn-green report-followup-send">
@@ -223,8 +227,10 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
               <div className="report-followup-messages">
                 {showFollowup.map((m, i) => (
                   <div key={`${m.role}-${i}`} className={`chat-msg ${m.role}`}>
-                    <div className="chat-msg-role">{m.role}</div>
-                    {m.content}
+                    <div className="chat-msg-role">
+                      {m.role === "user" ? "User" : "Assistant"}
+                    </div>
+                      <FormattedText text={m.content} />
                   </div>
                 ))}
               </div>
@@ -253,7 +259,11 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
                     <span className="report-section-num">{String(i + 1).padStart(2, "0")}</span>
                     <span className="report-section-title">{section.title}</span>
                   </div>
-                  <div className="report-section-body">{section.body}</div>
+                  <div className="report-section-body">
+                    <FormattedText
+                      text={stripLeadingSectionTitle(section.body, section.title)}
+                    />
+                  </div>
                   {section.citations?.length > 0 && (
                     <div className="report-sources">
                       <span className="report-sources-label">Sources:</span>
@@ -283,12 +293,12 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
 
           {!loading && showSections.length > 0 && (
             <aside className="sidebar-sticky">
-              <div className="panel">
+              <div className="panel toc-panel">
                 <div className="panel-head">
                   <span>Contents</span>
                   <span>{showSections.length}</span>
                 </div>
-                <div className="panel-body" style={{ padding: "10px 18px" }}>
+                <div className="panel-body">
                   {showSections.map((s, i) => (
                     <a key={s.title} href={`#section-${i}`} className="toc-item">
                       <span className="toc-num">{String(i + 1).padStart(2, "0")}</span>

@@ -1,12 +1,14 @@
 "use client";
 
-import { FormEvent, Suspense, useState } from "react";
+import { FormEvent, Suspense, useEffect, useState } from "react";
 import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 
 import AgentFeed from "@/components/AgentFeed";
 import TopBar from "@/components/TopBar";
-import { chatApi } from "@/lib/api";
+import FormattedText from "@/components/FormattedText";
+import { chatApi, fetchCompanies } from "@/lib/api";
+import { companyDisplayName } from "@/lib/companyNames";
 import { formatGroupedCitations } from "@/lib/citations";
 import { openThoughtStream } from "@/lib/stream";
 
@@ -22,6 +24,15 @@ function ChatPageContent() {
   const [steps, setSteps] = useState<string[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
+  const [companies, setCompanies] = useState<Array<{ ticker: string; name: string }>>([]);
+
+  useEffect(() => {
+    fetchCompanies()
+      .then((list) => setCompanies(list))
+      .catch(() => setCompanies([]));
+  }, []);
+
+  const displayName = ticker ? companyDisplayName(ticker, companies) : null;
 
   async function onSubmit(e: FormEvent) {
     e.preventDefault();
@@ -55,16 +66,27 @@ function ChatPageContent() {
 
   return (
     <>
-      <TopBar action={ticker ? <span className="tag">{ticker}</span> : undefined} />
+      <TopBar
+        action={
+          ticker ? (
+            <div style={{ display: "flex", alignItems: "center", gap: 10 }}>
+              <Link href={`/report/${ticker}`} className="btn-accent" style={{ padding: "7px 16px" }}>
+                Generate Report
+              </Link>
+              <span className="tag tag-ticker">{ticker}</span>
+            </div>
+          ) : undefined
+        }
+      />
       <main className="page-wide">
         <Link href="/" className="back-link">
-          ← companies
+          ← Companies
         </Link>
 
         <header className="page-header">
           <div className="page-header-row">
             <div>
-              <h1>{ticker ? `Chat · ${ticker}` : "Ask a Question"}</h1>
+              <h1>{displayName ? `Chat · ${displayName}` : "Ask a Question"}</h1>
               <p>Financial Q&A grounded in BSE/NSE filings with live agent reasoning.</p>
             </div>
             {evalScores.grade != null && (
@@ -79,14 +101,14 @@ function ChatPageContent() {
               <div className="panel">
                 <div className="panel-head">
                   <span>Your Question</span>
-                  {ticker ? <span>{ticker}</span> : <span>—</span>}
+                  {displayName ? <span>{displayName}</span> : <span>—</span>}
                 </div>
                 <div className="panel-body">
                   <textarea
                     value={query}
                     onChange={(e) => setQuery(e.target.value)}
                     className="input-area"
-                    placeholder="> what was FY25 revenue and operating margin?"
+                    placeholder="What was FY25 revenue and operating margin?"
                   />
                   <button disabled={loading} className="btn-green" style={{ marginTop: 14 }}>
                     {loading ? "Running..." : "Run Query"}
@@ -109,7 +131,9 @@ function ChatPageContent() {
               </div>
               <div className="panel-body">
                 {answer ? (
-                  <p className="answer-text">{answer}</p>
+                  <p className="answer-text">
+                    <FormattedText text={answer} />
+                  </p>
                 ) : (
                   <p className="answer-placeholder">
                     {loading ? "Generating answer..." : "Your answer will appear here."}
@@ -124,7 +148,7 @@ function ChatPageContent() {
                   <span>Citations</span>
                   <span>{citations.length}</span>
                 </div>
-                <div className="panel-body report-sources" style={{ padding: "12px 18px" }}>
+                <div className="panel-body report-sources">
                   <span className="report-sources-label">Sources:</span>
                   {formatGroupedCitations(citations, ticker)}
                 </div>

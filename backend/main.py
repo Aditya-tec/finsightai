@@ -8,7 +8,7 @@ from routers.report import router as report_router
 from routers.stream import router as stream_router
 from routers.companies import router as companies_router
 
-app = FastAPI(title="FinSight AI API", version="0.1.0")
+app = FastAPI(title="RupeeRead API", version="0.1.0")
 
 app.add_middleware(
     CORSMiddleware,
@@ -39,4 +39,4 @@ async def http_exception_handler(_request: Request, exc: HTTPException):
 
 @app.get("/health")
 async def health() -> dict:
-    return {"status": "ok", "service": "finsight-backend"}
+    return {"status": "ok", "service": "rupeeread-backend"}

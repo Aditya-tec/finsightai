@@ -1,4 +1,4 @@
-# FinSight AI
+# RupeeRead
 
 Indian Market Analyst project with agentic RAG, citations, SSE reasoning stream, report generation, follow-up memory, and PDF export.
 

@@ -1,1 +1,1 @@
-# FinSight agents package
+# RupeeRead agents package

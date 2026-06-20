@@ -42,7 +42,7 @@ const doc = buildReportPdfDoc({
   },
 });
 
-const outPath = path.join(ROOT, "data/finsight-report-RELIANCE-test.pdf");
+const outPath = path.join(ROOT, "data/rupeeread-report-RELIANCE-test.pdf");
 const buf = Buffer.from(doc.output("arraybuffer"));
 fs.writeFileSync(outPath, buf);
 

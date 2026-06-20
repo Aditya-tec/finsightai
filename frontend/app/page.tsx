@@ -35,10 +35,12 @@ export default function Home() {
             <span className="tag">Agentic RAG</span>
             <span className="tag">Cited Reports</span>
           </div>
-          <h1>Equity research, grounded in filings.</h1>
-          <p>
-            Pick a company, ask any financial question, or generate an 11-section analyst
-            report — every claim cited to source documents.
+          <h1 className="hero-brand">
+            India&apos;s Nifty 20, decoded from real filings.
+          </h1>
+          <p className="hero-desc">
+            Ask any financial question or generate a cited 11-section report — pick a company
+            below to start.
           </p>
         </header>
 
@@ -50,7 +52,7 @@ export default function Home() {
             <input
               value={query}
               onChange={(e) => setQuery(e.target.value)}
-              placeholder="> search by name or ticker..."
+              placeholder="Search by name or ticker…"
               className="search-input"
             />
           </div>
@@ -93,7 +95,7 @@ export default function Home() {
                 <Link href={`/chat?ticker=${selected.ticker}`} className="btn-green">
                   Ask a Question
                 </Link>
-                <Link href={`/report/${selected.ticker}`} className="btn-ghost">
+                <Link href={`/report/${selected.ticker}`} className="btn-accent">
                   Generate Report
                 </Link>
               </div>

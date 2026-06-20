@@ -1,1 +1,1 @@
-# FinSight RAG package
+# RupeeRead RAG package

@@ -1,1 +1,1 @@
-# FinSight evaluation package
+# RupeeRead evaluation package

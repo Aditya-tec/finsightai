@@ -21,14 +21,21 @@ export default function TopBar({ action }: Props) {
     <header className="topbar">
       <div className="topbar-brand">
         <Link href="/" className="topbar-logo">
-          FinSight AI
+          RupeeRead
         </Link>
-        <span className="topbar-sub">indian market analyst</span>
+        <nav className="topbar-nav" aria-label="Main">
+          <Link href="/" className="topbar-nav-link">
+            Companies
+          </Link>
+        </nav>
+        <span className="topbar-sub">Indian market analyst</span>
       </div>
       <div className="topbar-right">
         <div className="status-pill">
           <span className={`status-dot ${online ? "online" : "offline"}`} />
-          <span className="status-label">{online ? "Online" : "Offline"}</span>
+          <span className={`status-label ${online ? "online-text" : "offline-text"}`}>
+            {online ? "Online" : "Offline"}
+          </span>
         </div>
         {action}
       </div>

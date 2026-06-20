@@ -1,4 +1,4 @@
-# FinSight AI Account and Key Setup
+# RupeeRead Account and Key Setup
 
 Complete these steps before running the app end-to-end.
 
