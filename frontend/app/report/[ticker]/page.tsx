@@ -5,6 +5,7 @@ import { FormEvent, use, useEffect, useLayoutEffect, useRef, useState } from "re
 
 import TopBar from "@/components/TopBar";
 import { chatApi, fetchCompanies, reportApi } from "@/lib/api";
+import { formatGroupedCitations } from "@/lib/citations";
 import { exportReportPdf } from "@/lib/exportReportPdf";
 import { buildConversationHistoryForApi, useReportStore } from "@/lib/reportStore";
 
@@ -252,16 +253,9 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
                   </div>
                   <div className="report-section-body">{section.body}</div>
                   {section.citations?.length > 0 && (
-                    <div style={{ borderTop: "1px solid var(--border)" }}>
-                      {section.citations.map((c, ci) => (
-                        <div key={ci} className="citation-row">
-                          <div className="citation-source">{c.source}</div>
-                          <div className="citation-meta">
-                            {c.section ?? ""}
-                            {c.page ? ` · pg ${c.page}` : ""}
-                          </div>
-                        </div>
-                      ))}
+                    <div className="report-sources">
+                      <span className="report-sources-label">Sources:</span>
+                      {formatGroupedCitations(section.citations)}
                     </div>
                   )}
                 </div>

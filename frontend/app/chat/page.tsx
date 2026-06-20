@@ -7,6 +7,7 @@ import { useSearchParams } from "next/navigation";
 import AgentFeed from "@/components/AgentFeed";
 import TopBar from "@/components/TopBar";
 import { chatApi } from "@/lib/api";
+import { formatGroupedCitations } from "@/lib/citations";
 import { openThoughtStream } from "@/lib/stream";
 
 function ChatPageContent() {
@@ -123,16 +124,9 @@ function ChatPageContent() {
                   <span>Citations</span>
                   <span>{citations.length}</span>
                 </div>
-                <div>
-                  {citations.map((c, i) => (
-                    <div key={`${c.source}-${i}`} className="citation-row">
-                      <div className="citation-source">{c.source}</div>
-                      <div className="citation-meta">
-                        {c.section ?? ""}
-                        {c.page ? ` · pg ${c.page}` : ""}
-                      </div>
-                    </div>
-                  ))}
+                <div className="panel-body report-sources" style={{ padding: "12px 18px" }}>
+                  <span className="report-sources-label">Sources:</span>
+                  {formatGroupedCitations(citations)}
                 </div>
               </div>
             )}

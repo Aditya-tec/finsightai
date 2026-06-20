@@ -1,4 +1,4 @@
-import CitationCard from "./CitationCard";
+import { formatGroupedCitations } from "@/lib/citations";
 
 type Section = {
   title: string;
@@ -49,11 +49,10 @@ export default function ReportView({ sections, loading }: { sections: Section[];
             {section.body}
           </p>
           {section.citations?.length > 0 && (
-            <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
-              {section.citations.map((citation, idx) => (
-                <CitationCard key={`${section.title}-${idx}`} citation={citation} />
-              ))}
-            </div>
+            <p className="text-xs text-[var(--text-muted)]">
+              <span className="font-semibold text-[var(--accent)]">Sources: </span>
+              {formatGroupedCitations(section.citations)}
+            </p>
           )}
         </article>
       ))}
