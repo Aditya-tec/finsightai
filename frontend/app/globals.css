@@ -371,18 +371,82 @@ html, body {
   border-radius: var(--radius-md);
   background: var(--bg-panel);
   cursor: pointer;
-  transition: border-color 0.15s, background 0.15s, transform 0.1s;
+  outline: none;
+  overflow: hidden;
 }
 
-.company-card:hover {
+.company-card:hover:not(.company-card-expanded):not(.company-card-dimmed) {
   border-color: #444444;
   background: var(--bg-hover);
 }
 
-.company-card.selected {
+.company-card:focus-visible {
+  border-color: var(--accent);
+  box-shadow: 0 0 0 2px var(--accent-dim);
+}
+
+.company-card-expanded {
+  cursor: pointer;
+  padding: 12px 14px;
   border-color: var(--accent);
   background: var(--accent-dim);
-  box-shadow: 0 0 0 1px rgba(0, 153, 255, 0.25);
+  box-shadow:
+    0 0 0 1px rgba(0, 153, 255, 0.35),
+    0 0 16px rgba(0, 153, 255, 0.08);
+}
+
+.company-card-expanded .company-card-name {
+  margin-top: 4px;
+  font-size: 13px;
+}
+
+.company-card-expanded .company-card-sector {
+  margin-top: 4px;
+  font-size: 11px;
+}
+
+.company-card-dimmed {
+  cursor: pointer;
+}
+
+.company-card-info {
+  min-width: 0;
+}
+
+.company-card-actions-wrap {
+  overflow: hidden;
+}
+
+.company-card-actions {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  align-items: stretch;
+  gap: 6px;
+  margin-top: 8px;
+  padding-top: 8px;
+  border-top: 1px solid rgba(0, 153, 255, 0.18);
+}
+
+.company-card-actions > * {
+  flex: 1 1 0;
+  min-width: 0;
+  display: flex;
+}
+
+.company-card-action-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  gap: 5px;
+  width: 100%;
+  min-width: 0;
+  padding: 5px 8px;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.15;
+  border-radius: var(--radius-sm);
+  white-space: nowrap;
 }
 
 .company-card-ticker {
@@ -405,47 +469,6 @@ html, body {
   font-size: 12px;
   color: var(--text-dim);
   margin-top: 6px;
-}
-
-/* ── Selected bar ── */
-.selected-bar {
-  display: flex;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: space-between;
-  gap: 20px;
-  padding: 20px 24px;
-  border: 1px solid var(--border);
-  border-radius: var(--radius-lg);
-  background: var(--bg-panel);
-  margin-top: 8px;
-}
-
-.selected-bar-info strong {
-  display: block;
-  font-size: 17px;
-  font-weight: 600;
-  color: var(--text);
-  margin-bottom: 4px;
-}
-
-.selected-bar-ticker {
-  font-family: var(--font-geist-mono), monospace;
-  font-size: 13px;
-  color: var(--accent);
-  font-weight: 600;
-}
-
-.selected-bar-sector {
-  font-size: 13px;
-  color: var(--text-dim);
-  margin-top: 4px;
-}
-
-.selected-bar-actions {
-  display: flex;
-  gap: 10px;
-  flex-wrap: wrap;
 }
 
 /* ── Buttons ── */
@@ -492,6 +515,22 @@ html, body {
 .btn-accent:hover { opacity: 0.9; }
 .btn-accent:active { transform: scale(0.98); }
 .btn-accent:disabled { opacity: 0.45; cursor: not-allowed; }
+
+.company-card-action-btn.btn-green,
+.company-card-action-btn.btn-accent {
+  padding: 5px 8px;
+  font-size: 11px;
+  font-weight: 600;
+  line-height: 1.15;
+  border-radius: var(--radius-sm);
+  gap: 5px;
+}
+
+.company-card-action-btn svg {
+  flex-shrink: 0;
+  width: 12px;
+  height: 12px;
+}
 
 .btn-ghost {
   display: inline-flex;

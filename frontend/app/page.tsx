@@ -1,12 +1,10 @@
 "use client";
 
-import Link from "next/link";
 import { useEffect, useMemo, useState } from "react";
 
+import CompanyGrid, { type Company } from "@/components/CompanyGrid";
 import TopBar from "@/components/TopBar";
 import { fetchCompanies } from "@/lib/api";
-
-type Company = { ticker: string; name: string; sector: string };
 
 export default function Home() {
   const [query, setQuery] = useState("");
@@ -24,6 +22,12 @@ export default function Home() {
       (c) => c.name.toLowerCase().includes(q) || c.ticker.toLowerCase().includes(q)
     );
   }, [companies, query]);
+
+  useEffect(() => {
+    if (selected && !filtered.some((c) => c.ticker === selected.ticker)) {
+      setSelected(null);
+    }
+  }, [filtered, selected]);
 
   return (
     <>
@@ -66,42 +70,9 @@ export default function Home() {
           {filtered.length === 0 ? (
             <div className="empty-state">No companies found. Make sure the backend is running.</div>
           ) : (
-            <div className="company-grid">
-              {filtered.map((c) => (
-                <button
-                  key={c.ticker}
-                  type="button"
-                  className={`company-card${selected?.ticker === c.ticker ? " selected" : ""}`}
-                  onClick={() => setSelected(c)}
-                >
-                  <div className="company-card-ticker">{c.ticker}</div>
-                  <div className="company-card-name">{c.name}</div>
-                  <div className="company-card-sector">{c.sector}</div>
-                </button>
-              ))}
-            </div>
+            <CompanyGrid companies={filtered} selected={selected} onSelect={setSelected} />
           )}
         </section>
-
-        {selected && (
-          <section className="section-block">
-            <div className="selected-bar">
-              <div className="selected-bar-info">
-                <strong>{selected.name}</strong>
-                <div className="selected-bar-ticker">{selected.ticker}</div>
-                <div className="selected-bar-sector">{selected.sector}</div>
-              </div>
-              <div className="selected-bar-actions">
-                <Link href={`/chat?ticker=${selected.ticker}`} className="btn-green">
-                  Ask a Question
-                </Link>
-                <Link href={`/report/${selected.ticker}`} className="btn-accent">
-                  Generate Report
-                </Link>
-              </div>
-            </div>
-          </section>
-        )}
       </main>
     </>
   );
