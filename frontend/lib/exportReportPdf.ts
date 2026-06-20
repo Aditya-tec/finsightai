@@ -21,6 +21,9 @@ const MARGIN_TOP_CONT = 56;
 const SECTION_GAP = 24;
 const CITATION_INDENT = 12;
 const BODY_LINE_HEIGHT = 16;
+const SECTION_HEADER_LINE_GAP = 8;
+const SECTION_BODY_TOP_GAP = 20;
+const SECTION_HEADER_HEIGHT = 28 + SECTION_HEADER_LINE_GAP + SECTION_BODY_TOP_GAP;
 const FOOTER_RESERVE = 72;
 
 const BLACK: [number, number, number] = [0, 0, 0];
@@ -88,7 +91,7 @@ function estimateSectionHeight(
   section: ReportSection,
   width: number
 ): number {
-  const headerH = 28;
+  const headerH = SECTION_HEADER_HEIGHT;
   const bodyLines = wrapText(doc, section.body, width - 8);
   const citationLines =
     section.citations.length > 0
@@ -96,7 +99,6 @@ function estimateSectionHeight(
       : [];
   return (
     headerH +
-    10 +
     bodyLines.length * BODY_LINE_HEIGHT +
     (citationLines.length > 0 ? 6 + citationLines.length * 12 : 0) +
     SECTION_GAP
@@ -180,8 +182,13 @@ function drawSectionHeader(
   }
 
   doc.setLineWidth(0.25);
-  doc.line(MARGIN_LEFT, y + 2, MARGIN_LEFT + width, y + 2);
-  return y + 14;
+  doc.line(
+    MARGIN_LEFT,
+    y + SECTION_HEADER_LINE_GAP,
+    MARGIN_LEFT + width,
+    y + SECTION_HEADER_LINE_GAP
+  );
+  return y + SECTION_HEADER_LINE_GAP + SECTION_BODY_TOP_GAP;
 }
 
 function drawSection(

@@ -631,7 +631,7 @@ html, body {
 }
 
 .report-section-body {
-  padding: 18px;
+  padding: 20px 18px 18px;
   font-size: 14px;
   line-height: 1.75;
   color: var(--text-dim);
