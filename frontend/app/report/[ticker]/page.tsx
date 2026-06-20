@@ -126,7 +126,7 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
           <div className="page-header-row">
             <div>
               <h1>{ticker} · Equity Report</h1>
-              <p>5-section analyst report with citations, eval scores, and follow-up chat.</p>
+              <p>11-section analyst report with citations, eval scores, and follow-up chat.</p>
             </div>
             {evalScores.grade != null && (
               <span className="grade-badge">Grade {String(evalScores.grade)}</span>

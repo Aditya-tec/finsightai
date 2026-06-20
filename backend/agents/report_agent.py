@@ -8,24 +8,41 @@ from settings import settings
 
 REPORT_SECTIONS = [
     "Executive Summary + Investment Thesis",
+    "Business Overview + Segment Breakdown",
     "Financial Performance",
     "Balance Sheet Health + Cash Flow",
-    "Key Risks",
+    "Key Financial Ratios",
+    "Valuation Snapshot vs Sector Median",
     "Management Commentary",
+    "Key Risks",
+    "Recent Developments",
+    "Bull vs Bear vs Base Case",
+    "Peer Comparison",
 ]
 
 SECTION_QUERIES = {
     "Executive Summary + Investment Thesis": "executive summary investment thesis revenue profit outlook",
+    "Business Overview + Segment Breakdown": "business segments products services operations overview",
     "Financial Performance": "revenue profit net income EBITDA financial performance results",
     "Balance Sheet Health + Cash Flow": "balance sheet assets liabilities cash flow debt equity",
-    "Key Risks": "risks regulatory competition market risks challenges",
+    "Key Financial Ratios": "EPS ROE ROA margins financial ratios",
+    "Valuation Snapshot vs Sector Median": "PE ratio EV EBITDA valuation market cap price earnings",
     "Management Commentary": "management discussion MD&A outlook strategy guidance commentary",
+    "Key Risks": "risks regulatory competition market risks challenges",
+    "Recent Developments": "recent developments acquisitions partnerships new products launches",
+    "Bull vs Bear vs Base Case": "growth drivers upside downside scenario outlook forecast",
+    "Peer Comparison": "peers competitors comparison sector industry benchmark",
 }
 
 CONTEXT_CHUNKS = 3
 MAX_OUTPUT_TOKENS = 300
+_CACHE_VERSION = "v2-11sec"
 
-_report_cache: dict[str, list[ReportSection]] = {}
+_report_cache: dict[str, tuple[list[ReportSection], list[dict]]] = {}
+
+
+def _chunk_key(chunk: dict) -> str:
+    return str(chunk.get("id") or hash(chunk.get("content", "")))
 
 
 def _rank_chunks(chunks: list[dict], query: str, top_n: int = CONTEXT_CHUNKS) -> list[dict]:
@@ -55,6 +72,8 @@ def _write_section(title: str, ticker: str, context: list[dict]) -> str:
         f"Write the '{title}' section of the report.\n"
         "Base your analysis ONLY on the retrieved filing excerpts below.\n"
         "Use specific numbers, dates, and facts from the context.\n"
+        "For Indian listed companies, express monetary amounts in INR using ₹ (rupee symbol). "
+        "Do not use $. Match the currency style of the source excerpts.\n"
         "If certain information is not present in the context, say so briefly rather than inventing data.\n"
         "Write 1-2 concise paragraphs in a professional analyst tone.\n\n"
         f"Filing excerpts:\n{content_blob}\n\n"
@@ -73,31 +92,43 @@ def _write_section(title: str, ticker: str, context: list[dict]) -> str:
     return response.choices[0].message.content or "Content unavailable."
 
 
-def _build_section(title: str, ticker: str, pool: list[dict]) -> ReportSection:
-    query = SECTION_QUERIES.get(title, title)
-    section_context = _rank_chunks(pool, query)
-    body = _write_section(title, ticker, section_context)
-    citations = [
-        Citation(
-            source=c.get("doc_type", "filing"),
-            page=c.get("page_number"),
-            section=c.get("section_title"),
-        )
-        for c in section_context[:CONTEXT_CHUNKS]
-    ]
-    return ReportSection(title=title, body=body, citations=citations)
-
-
-def build_report(ticker: str) -> list[ReportSection]:
-    cache_key = ticker.upper()
+def build_report(ticker: str) -> tuple[list[ReportSection], list[dict]]:
+    cache_key = f"{_CACHE_VERSION}:{ticker.upper()}"
     if cache_key in _report_cache:
         return _report_cache[cache_key]
 
     pool = hybrid_retrieve(
-        f"{ticker} annual report revenue profit balance sheet risks management outlook",
+        f"{ticker} annual report revenue profit balance sheet risks management segments outlook",
         ticker=ticker,
         limit=20,
     )
-    sections = [_build_section(title, ticker, pool) for title in REPORT_SECTIONS]
-    _report_cache[cache_key] = sections
-    return sections
+    eval_context: list[dict] = []
+    seen: set[str] = set()
+
+    def _track(chunks: list[dict]) -> None:
+        for chunk in chunks:
+            key = _chunk_key(chunk)
+            if key not in seen:
+                seen.add(key)
+                eval_context.append(chunk)
+
+    _track(pool)
+    sections: list[ReportSection] = []
+    for title in REPORT_SECTIONS:
+        query = SECTION_QUERIES.get(title, title)
+        section_context = _rank_chunks(pool, query)
+        _track(section_context)
+        body = _write_section(title, ticker, section_context)
+        citations = [
+            Citation(
+                source=c.get("doc_type", "filing"),
+                page=c.get("page_number"),
+                section=c.get("section_title"),
+            )
+            for c in section_context[:CONTEXT_CHUNKS]
+        ]
+        sections.append(ReportSection(title=title, body=body, citations=citations))
+
+    result = (sections, eval_context)
+    _report_cache[cache_key] = result
+    return result

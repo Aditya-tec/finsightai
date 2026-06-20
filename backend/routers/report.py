@@ -6,7 +6,6 @@ from fastapi import APIRouter, HTTPException
 from groq import RateLimitError
 
 from agents.report_agent import build_report
-from agents.retrieval_agent import retrieve_context
 from evaluation.eval_pipeline import run_eval_pipeline
 from schemas import ReportRequest, ReportResponse
 
@@ -14,8 +13,7 @@ router = APIRouter()
 
 
 def _generate_report(ticker: str) -> ReportResponse:
-    sections = build_report(ticker)
-    context = retrieve_context(f"{ticker} financial overview", ticker=ticker, fast=True)
+    sections, eval_context = build_report(ticker)
     citations = []
     for section in sections:
         citations.extend([c.model_dump() for c in section.citations])
@@ -23,7 +21,7 @@ def _generate_report(ticker: str) -> ReportResponse:
     eval_scores = run_eval_pipeline(
         query=f"report {ticker}",
         answer=answer_blob,
-        context=context,
+        context=eval_context,
         citations=citations,
     )
     all_citations = [c for section in sections for c in section.citations]

@@ -37,7 +37,7 @@ export default function Home() {
           </div>
           <h1>Equity research, grounded in filings.</h1>
           <p>
-            Pick a company, ask any financial question, or generate a 5-section analyst
+            Pick a company, ask any financial question, or generate an 11-section analyst
             report — every claim cited to source documents.
           </p>
         </header>
