@@ -8,6 +8,7 @@ type ReportSection = {
   title: string;
   body: string;
   citations: Citation[];
+  chart_data?: unknown;
 };
 
 type FollowupMessage = {

@@ -21,11 +21,14 @@ export type ChatResponse = {
   sources: string[];
 };
 
+import type { ChartData } from "./chartTypes";
+
 export type ReportResponse = {
   sections: Array<{
     title: string;
     body: string;
     citations: Array<{ source: string; page?: number; section?: string }>;
+    chart_data?: ChartData | null;
   }>;
   citations: Array<{ source: string; page?: number; section?: string }>;
   eval_scores: Record<string, string | number | boolean | string[]>;

@@ -1,11 +1,17 @@
 "use client";
 
 import { AnimatePresence, motion } from "framer-motion";
+import { useMemo } from "react";
+
+import BullBearBaseCards from "@/components/BullBearBaseCards";
 import FormattedText from "@/components/FormattedText";
+import SectionChart from "@/components/SectionChart";
 import SectionViewToggle from "@/components/SectionViewToggle";
-import { stripLeadingSectionTitle } from "@/lib/formatText";
+import { parseChartData, SECTION_BULL_BEAR } from "@/lib/chartTypes";
 import { formatGroupedCitations } from "@/lib/citations";
+import { stripLeadingSectionTitle } from "@/lib/formatText";
 import { sectionKey } from "@/lib/bulletSummary";
+import { hasScenarioCards, parseBullBearBase } from "@/lib/parseBullBearBase";
 
 type Citation = { source: string; page?: number; section?: string };
 
@@ -13,6 +19,7 @@ type Section = {
   title: string;
   body: string;
   citations: Citation[];
+  chart_data?: unknown;
 };
 
 type Props = {
@@ -38,6 +45,13 @@ export default function ReportSectionCard({
 }: Props) {
   const hasBullets = Boolean(bullets?.length);
   const proseText = stripLeadingSectionTitle(section.body, section.title);
+  const chartData = useMemo(() => parseChartData(section.chart_data), [section.chart_data]);
+  const scenarioBlocks = useMemo(
+    () => (section.title === SECTION_BULL_BEAR ? parseBullBearBase(proseText) : null),
+    [section.title, proseText]
+  );
+  const showScenarioCards = hasScenarioCards(scenarioBlocks);
+  const showChart = viewMode === "prose" && chartData !== null;
 
   return (
     <div className="report-section" id={`section-${index}`}>
@@ -72,6 +86,16 @@ export default function ReportSectionCard({
                 </li>
               ))}
             </motion.ul>
+          ) : showScenarioCards ? (
+            <motion.div
+              key={`scenarios-${sectionKey(section.title)}`}
+              initial={{ opacity: 0 }}
+              animate={{ opacity: 1 }}
+              exit={{ opacity: 0 }}
+              transition={{ duration: 0.2, ease: [0, 0, 0.2, 1] }}
+            >
+              <BullBearBaseCards blocks={scenarioBlocks} />
+            </motion.div>
           ) : (
             <motion.div
               key={`prose-${sectionKey(section.title)}`}
@@ -85,6 +109,8 @@ export default function ReportSectionCard({
             </motion.div>
           )}
         </AnimatePresence>
+
+        {showChart && <SectionChart data={chartData} />}
       </div>
 
       {section.citations?.length > 0 && (

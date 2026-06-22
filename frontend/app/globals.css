@@ -1162,6 +1162,85 @@ html, body {
   white-space: pre-wrap;
 }
 
+.section-chart-wrap {
+  margin-top: 20px;
+  padding: 16px 12px 12px;
+  border: 1px solid rgba(0, 153, 255, 0.12);
+  border-radius: var(--radius-md);
+  background: rgba(0, 153, 255, 0.04);
+}
+
+.chart-disclaimer {
+  margin: 10px 4px 0;
+  font-size: 11px;
+  line-height: 1.45;
+  color: var(--text-muted);
+  font-style: italic;
+}
+
+.bull-bear-wrap {
+  margin-top: 4px;
+}
+
+.bull-bear-intro {
+  margin: 0 0 16px;
+  font-size: 14px;
+  line-height: 1.7;
+  color: #e0e0e0;
+}
+
+.bull-bear-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 12px;
+}
+
+@media (max-width: 640px) {
+  .bull-bear-grid {
+    grid-template-columns: 1fr;
+  }
+}
+
+.scenario-card {
+  padding: 14px 16px;
+  border: 1px solid rgba(255, 255, 255, 0.08);
+  border-radius: var(--radius-md);
+  background: rgba(15, 15, 15, 0.88);
+  box-shadow: var(--elevated-shadow);
+  border-top-width: 3px;
+}
+
+.scenario-card-bull {
+  border-top-color: #0099ff;
+}
+
+.scenario-card-bear {
+  border-top-color: #666666;
+}
+
+.scenario-card-base {
+  border-top-color: #4db8ff;
+}
+
+.scenario-card-label {
+  font-size: 11px;
+  font-weight: 700;
+  letter-spacing: 0.06em;
+  text-transform: uppercase;
+  color: var(--accent);
+  margin-bottom: 10px;
+}
+
+.scenario-card-bear .scenario-card-label {
+  color: var(--text-dim);
+}
+
+.scenario-card-body {
+  font-size: 13px;
+  line-height: 1.65;
+  color: #e0e0e0;
+}
+
 .report-sources {
   padding: 10px 20px;
   border-top: 1px solid var(--border);

@@ -1,0 +1,71 @@
+export type BarDataset = {
+  label: string;
+  values: [number, number];
+};
+
+export type BarChartData = {
+  type: "bar";
+  labels: [string, string];
+  datasets: BarDataset[];
+};
+
+export type DonutSegment = {
+  label: string;
+  value: number;
+};
+
+export type DonutChartData = {
+  type: "donut";
+  segments: DonutSegment[];
+};
+
+export type ChartData = BarChartData | DonutChartData;
+
+export const CHART_DISCLAIMER =
+  "Chart values extracted from filing text — verify against source document before use.";
+
+export const SECTION_BUSINESS = "Business Overview + Segment Breakdown";
+export const SECTION_FINANCIAL = "Financial Performance";
+export const SECTION_BULL_BEAR = "Bull vs Bear vs Base Case";
+
+export function isBarChartData(data: unknown): data is BarChartData {
+  if (!data || typeof data !== "object") return false;
+  const d = data as BarChartData;
+  if (d.type !== "bar" || !Array.isArray(d.labels) || d.labels.length !== 2) return false;
+  if (!Array.isArray(d.datasets) || d.datasets.length < 1) return false;
+  return d.datasets.every(
+    (ds) =>
+      typeof ds.label === "string" &&
+      Array.isArray(ds.values) &&
+      ds.values.length === 2 &&
+      ds.values.every((v) => typeof v === "number" && Number.isFinite(v) && v > 0)
+  );
+}
+
+export function isDonutChartData(data: unknown): data is DonutChartData {
+  if (!data || typeof data !== "object") return false;
+  const d = data as DonutChartData;
+  if (d.type !== "donut" || !Array.isArray(d.segments) || d.segments.length < 2) return false;
+  return d.segments.every(
+    (s) =>
+      typeof s.label === "string" &&
+      typeof s.value === "number" &&
+      Number.isFinite(s.value) &&
+      s.value > 0
+  );
+}
+
+export function parseChartData(data: unknown): ChartData | null {
+  if (isBarChartData(data)) return data;
+  if (isDonutChartData(data)) return data;
+  return null;
+}
+
+/** Blue accent palette for charts — monochrome, no rainbow. */
+export const CHART_COLORS = ["#0099ff", "#0066b3", "#4db8ff", "#003d66", "#66c2ff", "#007acc"];
+
+export function formatChartValue(n: number): string {
+  if (n >= 100_000) return `${(n / 100_000).toFixed(1)}L Cr`;
+  if (n >= 1_000) return `${(n / 1_000).toFixed(1)}k Cr`;
+  return n.toLocaleString("en-IN");
+}

@@ -37,6 +37,7 @@ class ReportSection(BaseModel):
     title: str
     body: str
     citations: list[Citation] = Field(default_factory=list)
+    chart_data: dict[str, Any] | None = None
 
 
 class ReportResponse(BaseModel):

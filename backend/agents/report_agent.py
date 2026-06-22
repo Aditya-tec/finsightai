@@ -6,6 +6,8 @@ from pathlib import Path
 
 from groq import Groq, RateLimitError
 
+from agents.chart_data import CHART_SECTIONS, SECTION_BUSINESS, SECTION_FINANCIAL
+from agents.report_section_parse import parse_section_json
 from rag.hybrid_search import hybrid_retrieve
 from schemas import Citation, ReportSection
 from settings import BASE_DIR, settings
@@ -40,7 +42,8 @@ SECTION_QUERIES = {
 
 CONTEXT_CHUNKS = 3
 MAX_OUTPUT_TOKENS = 425
-_CACHE_VERSION = "v5-units"
+MAX_CHART_OUTPUT_TOKENS = 700
+_CACHE_VERSION = "v6-charts"
 
 _report_cache: dict[str, tuple[list[ReportSection], list[dict], str | None]] = {}
 
@@ -124,16 +127,8 @@ def _rank_chunks(chunks: list[dict], query: str, top_n: int = CONTEXT_CHUNKS) ->
     return ranked[:top_n]
 
 
-def _write_section(title: str, ticker: str, context: list[dict]) -> str:
-    if not context:
-        return f"No filing data indexed for {ticker} yet."
-
-    if not settings.groq_api_key:
-        preview = "\n\n".join(c.get("content", "")[:300] for c in context[:CONTEXT_CHUNKS])
-        return preview or "No indexed content available."
-
-    content_blob = "\n\n".join(c.get("content", "") for c in context[:CONTEXT_CHUNKS])
-    prompt = (
+def _base_section_instructions(ticker: str, title: str) -> str:
+    return (
         f"You are a senior equity research analyst writing a professional report on {ticker}.\n"
         f"Write the '{title}' section of the report.\n"
         "Base your analysis ONLY on the retrieved filing excerpts below.\n"
@@ -157,7 +152,79 @@ def _write_section(title: str, ticker: str, context: list[dict]) -> str:
         "If certain information is not present in the context, say so briefly rather than inventing data.\n"
         "For Peer Comparison: do not substitute the subject company's own consolidated line items "
         "as peer benchmarks — if peer data is absent, state that comparison is not possible.\n"
-        "Write 1-2 concise paragraphs in a professional analyst tone.\n\n"
+        "Write 1-2 concise paragraphs in a professional analyst tone.\n"
+    )
+
+
+def _chart_json_instructions(title: str) -> str:
+    if title == SECTION_FINANCIAL:
+        return (
+            "\nAlso populate chart_data for a grouped bar chart ONLY if BOTH FY24 and FY25 values "
+            "for revenue (or total income) AND net profit (PAT) are clearly available in the excerpts "
+            "with consistent units (use ₹ crore for chart values). "
+            "chart_data schema:\n"
+            '{"type":"bar","labels":["FY24","FY25"],"datasets":['
+            '{"label":"Revenue (₹ Cr)","values":[FY24_rev,FY25_rev]},'
+            '{"label":"Net Profit (₹ Cr)","values":[FY24_pat,FY25_pat]}]}\n'
+            "If either year or metric is missing or units are inconsistent, set chart_data to null. "
+            "Never fabricate chart numbers.\n"
+        )
+    if title == SECTION_BUSINESS:
+        return (
+            "\nAlso populate chart_data for a segment donut chart ONLY if explicit segment revenue "
+            "figures are stated in the excerpts with consistent units (use ₹ crore). "
+            "chart_data schema:\n"
+            '{"type":"donut","segments":[{"label":"Segment Name","value":12345},...]}\n'
+            "Include at least 2 segments. If segment breakdown is unavailable or units differ, "
+            "set chart_data to null. Never fabricate chart numbers.\n"
+        )
+    return ""
+
+
+def _write_section_with_chart(
+    title: str, ticker: str, context: list[dict]
+) -> tuple[str, dict | None]:
+    if not context:
+        return f"No filing data indexed for {ticker} yet.", None
+
+    if not settings.groq_api_key:
+        preview = "\n\n".join(c.get("content", "")[:300] for c in context[:CONTEXT_CHUNKS])
+        return preview or "No indexed content available.", None
+
+    content_blob = "\n\n".join(c.get("content", "") for c in context[:CONTEXT_CHUNKS])
+    prompt = (
+        _base_section_instructions(ticker, title)
+        + _chart_json_instructions(title)
+        + "\nReturn ONLY valid JSON with no markdown fences:\n"
+        '{"body": "<section prose>", "chart_data": <object or null>}\n\n'
+        f"Filing excerpts:\n{content_blob}\n\n"
+        f"Write the '{title}' section now as JSON:"
+    )
+    client = Groq(api_key=settings.groq_api_key)
+    try:
+        response = client.chat.completions.create(
+            model=settings.groq_report_model,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.2,
+            max_tokens=MAX_CHART_OUTPUT_TOKENS,
+        )
+    except RateLimitError as exc:
+        raise exc
+    return parse_section_json(response.choices[0].message.content or "", title)
+
+
+def _write_section(title: str, ticker: str, context: list[dict]) -> str:
+    if not context:
+        return f"No filing data indexed for {ticker} yet."
+
+    if not settings.groq_api_key:
+        preview = "\n\n".join(c.get("content", "")[:300] for c in context[:CONTEXT_CHUNKS])
+        return preview or "No indexed content available."
+
+    content_blob = "\n\n".join(c.get("content", "") for c in context[:CONTEXT_CHUNKS])
+    prompt = (
+        _base_section_instructions(ticker, title)
+        + "\n"
         f"Filing excerpts:\n{content_blob}\n\n"
         f"Write the '{title}' section now:"
     )
@@ -211,7 +278,11 @@ def build_report(
         query = SECTION_QUERIES.get(title, title)
         section_context = _rank_chunks(pool, query)
         _track(section_context)
-        body = _write_section(title, ticker, section_context)
+        chart_data: dict | None = None
+        if title in CHART_SECTIONS:
+            body, chart_data = _write_section_with_chart(title, ticker, section_context)
+        else:
+            body = _write_section(title, ticker, section_context)
         citations = [
             Citation(
                 source=c.get("doc_type", "filing"),
@@ -220,7 +291,9 @@ def build_report(
             )
             for c in section_context[:CONTEXT_CHUNKS]
         ]
-        sections.append(ReportSection(title=title, body=body, citations=citations))
+        sections.append(
+            ReportSection(title=title, body=body, citations=citations, chart_data=chart_data)
+        )
 
     generated_at = _save_disk_cache(ticker, sections, eval_context)
     result = (sections, eval_context, generated_at)
