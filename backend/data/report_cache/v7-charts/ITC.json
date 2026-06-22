@@ -56,7 +56,7 @@
     },
     {
       "title": "Financial Performance",
-      "body": "{\"body\": \"<section prose>ITC's financial performance for FY25 reflects a revenue from operations of ₹74,236.07 crore, a 10.3% increase from ₹67,292.60 crore in FY24. The company's total income for FY25 stood at ₹77,690.38 crore, up from ₹70,822.36 crore in the previous year. Net profit for FY25 was ₹20,091.85 crore from continuing operations and ₹35,195.61 crore including discontinued operations, compared to ₹19,910.23 crore from continuing operations and ₹20,421.97 crore including discontinued operations in FY24. <br><br> The company's financials for FY24 and FY25 exclude the performance of the Hotels business, which was transferred to ITCHL on a going concern basis pursuant to a Scheme of Demerger. Earnings per share (EPS) for FY25 were ₹16.07 for continuing operations and ₹28.15 including discontinued operations, compared to ₹15.98 for continuing operations and ₹16.39 including discontinued operations in FY24.</section>\", \"chart_data\": {\"type\":\"bar\",\"labels\":[\"FY24\",\"FY25\"],\"datasets\":[{\"label\":\"Revenue (₹ Cr)\",\"values\":[67292.60,74236.07]},{\"label\":\"Net Profit (₹ Cr)\",\"values\":[20421.97,35195.61]}]}",
+      "body": "<section prose>ITC's financial performance for FY25 reflects a revenue from operations of ₹74,236.07 crore, a 10.3% increase from ₹67,292.60 crore in FY24. The company's total income for FY25 stood at ₹77,690.38 crore, up from ₹70,822.36 crore in the previous year. Net profit for FY25 was ₹20,091.85 crore from continuing operations and ₹35,195.61 crore including discontinued operations, compared to ₹19,910.23 crore from continuing operations and ₹20,421.97 crore including discontinued operations in FY24. <br><br> The company's financials for FY24 and FY25 exclude the performance of the Hotels business, which was transferred to ITCHL on a going concern basis pursuant to a Scheme of Demerger. Earnings per share (EPS) for FY25 were ₹16.07 for continuing operations and ₹28.15 including discontinued operations, compared to ₹15.98 for continuing operations and ₹16.39 including discontinued operations in FY24.</section>",
       "citations": [
         {
           "source": "filing",
@@ -84,7 +84,29 @@
           "section": "Notes:"
         }
       ],
-      "chart_data": null
+      "chart_data": {
+        "type": "bar",
+        "labels": [
+          "FY24",
+          "FY25"
+        ],
+        "datasets": [
+          {
+            "label": "Revenue (₹ Cr)",
+            "values": [
+              67292.6,
+              74236.07
+            ]
+          },
+          {
+            "label": "Net Profit (₹ Cr)",
+            "values": [
+              20421.97,
+              35195.61
+            ]
+          }
+        ]
+      }
     },
     {
       "title": "Balance Sheet Health + Cash Flow",

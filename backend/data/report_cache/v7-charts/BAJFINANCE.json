@@ -80,7 +80,7 @@
     },
     {
       "title": "Financial Performance",
-      "body": "{\"body\": \"<section prose>The financial performance of Bajaj Finance Limited (BFL) for FY2025 reflects a growth of 26% in assets under management (AUM), increasing from ₹330,615 crore in FY2024 to ₹416,661 crore in FY2025. The company's customer franchise expanded by 22%, reaching over 101.82 million customers. Net total income (NTI) grew by 24% to ₹44,954 crore, while pre-impairment operating profit increased by 25% to ₹30,028 crore. The company's loan losses provisions for FY2025 were ₹7,966 crore, a 72% increase from ₹4,631 crore in FY2024. Profit After Tax (PAT) grew by over 16% in FY2025, rising from ₹14,451 crore to ₹16,779 crore (as per Chairman's Letter) and ₹16,637.82 crore (as per Consolidated Statement of Profit and Loss), indicating a minor discrepancy in the reported figures. The company delivered a Return on Average Assets (RoA) of 4.57% and a Return on Average Equity (ROE) of 19.19% in FY2025.</section>\", \"chart_data\": {\"type\":\"bar\",\"labels\":[\"FY24\",\"FY25\"],\"datasets\":[{\"label\":\"Revenue (₹ Cr)\",\"values\":[44954/100, 44954/100]},{\"label\":\"Net Profit (₹ Cr)\",\"values\":[14451, 16637]}]}",
+      "body": "<section prose>The financial performance of Bajaj Finance Limited (BFL) for FY2025 reflects a growth of 26% in assets under management (AUM), increasing from ₹330,615 crore in FY2024 to ₹416,661 crore in FY2025. The company's customer franchise expanded by 22%, reaching over 101.82 million customers. Net total income (NTI) grew by 24% to ₹44,954 crore, while pre-impairment operating profit increased by 25% to ₹30,028 crore. The company's loan losses provisions for FY2025 were ₹7,966 crore, a 72% increase from ₹4,631 crore in FY2024. Profit After Tax (PAT) grew by over 16% in FY2025, rising from ₹14,451 crore to ₹16,779 crore (as per Chairman's Letter) and ₹16,637.82 crore (as per Consolidated Statement of Profit and Loss), indicating a minor discrepancy in the reported figures. The company delivered a Return on Average Assets (RoA) of 4.57% and a Return on Average Equity (ROE) of 19.19% in FY2025.</section>",
       "citations": [
         {
           "source": "filing",
@@ -108,7 +108,29 @@
           "section": "general"
         }
       ],
-      "chart_data": null
+      "chart_data": {
+        "type": "bar",
+        "labels": [
+          "FY24",
+          "FY25"
+        ],
+        "datasets": [
+          {
+            "label": "Revenue (₹ Cr)",
+            "values": [
+              449.54,
+              449.54
+            ]
+          },
+          {
+            "label": "Net Profit (₹ Cr)",
+            "values": [
+              14451.0,
+              16637.0
+            ]
+          }
+        ]
+      }
     },
     {
       "title": "Balance Sheet Health + Cash Flow",

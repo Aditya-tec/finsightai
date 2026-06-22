@@ -76,7 +76,7 @@
     },
     {
       "title": "Financial Performance",
-      "body": "{\"body\": \"\nThe financial performance of HDFC Bank Limited for the year ended March 31, 2025, reflects the bank's ability to deliver growth while maintaining healthy asset quality. The bank's Balance Sheet size grew by 8.1% to ₹39,10,199 crore, with a 14.1% increase in Deposits to ₹27,14,715 crore and a 5.4% growth in Advances to ₹26,19,609 crore. The Profit After Tax (PAT) grew by 10.7% to ₹67,347 crore. The Cost to Income Ratio marginally increased to 40.5% in FY25 from 40.2% in FY24. The Net Interest Margin was at 3.48%, and the bank remains well-capitalised with a Capital Adequacy Ratio of 19.6%. The Earnings Per Share (EPS) increased by 2.9% to ₹88.3, while dividend per share rose by 12.8% to ₹22.0 in FY25.\n\nThe bank's interest earned and other income also showed significant growth. The total interest earned for the year ended March 31, 2025, was ₹336,367.43 crore, and the total other income was ₹134,548.50 crore. The bank's operating expenses and interest expended also increased, with total operating expenses of ₹44,109 crore and total interest expended of ₹183,894.20 crore for the year ended March 31, 2025.\n\", \"chart_data\": {\"type\":\"bar\",\"labels\":[\"FY24\",\"FY25\"],\"datasets\":[{\"label\":\"Revenue (₹ Cr)\",\"values\":[283649.02,336367.43]},{\"label\":\"Net Profit (₹ Cr)\",\"values\":[60712,67347]}]}}",
+      "body": "The financial performance of HDFC Bank Limited for the year ended March 31, 2025, reflects the bank's ability to deliver growth while maintaining healthy asset quality. The bank's Balance Sheet size grew by 8.1% to ₹39,10,199 crore, with a 14.1% increase in Deposits to ₹27,14,715 crore and a 5.4% growth in Advances to ₹26,19,609 crore. The Profit After Tax (PAT) grew by 10.7% to ₹67,347 crore. The Cost to Income Ratio marginally increased to 40.5% in FY25 from 40.2% in FY24. The Net Interest Margin was at 3.48%, and the bank remains well-capitalised with a Capital Adequacy Ratio of 19.6%. The Earnings Per Share (EPS) increased by 2.9% to ₹88.3, while dividend per share rose by 12.8% to ₹22.0 in FY25.\n\nThe bank's interest earned and other income also showed significant growth. The total interest earned for the year ended March 31, 2025, was ₹336,367.43 crore, and the total other income was ₹134,548.50 crore. The bank's operating expenses and interest expended also increased, with total operating expenses of ₹44,109 crore and total interest expended of ₹183,894.20 crore for the year ended March 31, 2025.",
       "citations": [
         {
           "source": "filing",
@@ -104,7 +104,29 @@
           "section": "general"
         }
       ],
-      "chart_data": null
+      "chart_data": {
+        "type": "bar",
+        "labels": [
+          "FY24",
+          "FY25"
+        ],
+        "datasets": [
+          {
+            "label": "Revenue (₹ Cr)",
+            "values": [
+              283649.02,
+              336367.43
+            ]
+          },
+          {
+            "label": "Net Profit (₹ Cr)",
+            "values": [
+              60712.0,
+              67347.0
+            ]
+          }
+        ]
+      }
     },
     {
       "title": "Balance Sheet Health + Cash Flow",

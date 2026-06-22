@@ -72,7 +72,7 @@
     },
     {
       "title": "Financial Performance",
-      "body": "{\"body\": \"\nThe financial performance of HCLTech is characterized by steady growth and resilience. In FY25, the company reported a consolidated revenue of ₹1,036.4 billion (equivalent to $13.8 billion), representing a 4.7% increase from the preceding year in constant currency. The revenue from operations stood at ₹117,055 crore in FY25. The earnings before other income, tax, and finance cost were ₹20,027 crore, while the profit after tax (PAT) attributable to owners of the company was ₹17,390 crore. The net income margin was 14.7%, and the return on invested capital (ROIC) was 37.9%, up 411 basis points year-over-year. \nHCLTech's financial performance is also marked by a significant increase in its operating cash flow and free cash flow, which stood at ₹196.8 billion and ₹189.3 billion, respectively. The company's return on net worth increased to 25.2% in FY25 from 23.5% in FY24, primarily due to higher profit earned by the group during the year.\n\", \"chart_data\": {\"type\":\"bar\",\"labels\":[\"FY24\",\"FY25\"],\"datasets\":[{\"label\":\"Revenue (₹ Cr)\",\"values\":[109913,117055]},{\"label\":\"Net Profit (₹ Cr)\",\"values\":[15702,17390]}}}",
+      "body": "The financial performance of HCLTech is characterized by steady growth and resilience. In FY25, the company reported a consolidated revenue of ₹1,036.4 billion (equivalent to $13.8 billion), representing a 4.7% increase from the preceding year in constant currency. The revenue from operations stood at ₹117,055 crore in FY25. The earnings before other income, tax, and finance cost were ₹20,027 crore, while the profit after tax (PAT) attributable to owners of the company was ₹17,390 crore. The net income margin was 14.7%, and the return on invested capital (ROIC) was 37.9%, up 411 basis points year-over-year. \nHCLTech's financial performance is also marked by a significant increase in its operating cash flow and free cash flow, which stood at ₹196.8 billion and ₹189.3 billion, respectively. The company's return on net worth increased to 25.2% in FY25 from 23.5% in FY24, primarily due to higher profit earned by the group during the year.",
       "citations": [
         {
           "source": "filing",
@@ -100,7 +100,29 @@
           "section": "Notes:"
         }
       ],
-      "chart_data": null
+      "chart_data": {
+        "type": "bar",
+        "labels": [
+          "FY24",
+          "FY25"
+        ],
+        "datasets": [
+          {
+            "label": "Revenue (₹ Cr)",
+            "values": [
+              109913.0,
+              117055.0
+            ]
+          },
+          {
+            "label": "Net Profit (₹ Cr)",
+            "values": [
+              15702.0,
+              17390.0
+            ]
+          }
+        ]
+      }
     },
     {
       "title": "Balance Sheet Health + Cash Flow",

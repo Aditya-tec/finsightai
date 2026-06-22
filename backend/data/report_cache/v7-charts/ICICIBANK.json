@@ -80,7 +80,7 @@
     },
     {
       "title": "Financial Performance",
-      "body": "{\"body\": \"The financial performance of ICICI Bank for fiscal 2025 is summarised as follows: The net interest income and non-interest income increased by 10.8% to ₹1,077.68 billion in fiscal 2025 from ₹972.55 billion in fiscal 2024. The core operating profit increased by 12.5% to ₹653.96 billion in fiscal 2025 from ₹581.22 billion in fiscal 2024. The profit after tax increased by 15.5% to ₹472.27 billion in fiscal 2025 from ₹408.88 billion in fiscal 2024. The consolidated profit after tax and minority interest increased by 15.3% to ₹510.29 billion in fiscal 2025 from ₹442.56 billion in fiscal 2024. The Bank has a consistent dividend payment history, with the Board of Directors recommending a dividend of ₹11.00 per equity share for the year ended March 31, 2025.\", \"chart_data\": {\"type\":\"bar\",\"labels\":[\"FY24\",\"FY25\"],\"datasets\":[{\"label\":\"Revenue (₹ Cr)\",\"values\":[97255,107768]},{\"label\":\"Net Profit (₹ Cr)\",\"values\":[40888,47227]}}}",
+      "body": "The financial performance of ICICI Bank for fiscal 2025 is summarised as follows: The net interest income and non-interest income increased by 10.8% to ₹1,077.68 billion in fiscal 2025 from ₹972.55 billion in fiscal 2024. The core operating profit increased by 12.5% to ₹653.96 billion in fiscal 2025 from ₹581.22 billion in fiscal 2024. The profit after tax increased by 15.5% to ₹472.27 billion in fiscal 2025 from ₹408.88 billion in fiscal 2024. The consolidated profit after tax and minority interest increased by 15.3% to ₹510.29 billion in fiscal 2025 from ₹442.56 billion in fiscal 2024. The Bank has a consistent dividend payment history, with the Board of Directors recommending a dividend of ₹11.00 per equity share for the year ended March 31, 2025.",
       "citations": [
         {
           "source": "filing",
@@ -108,7 +108,29 @@
           "section": "MANAGEMENT DISCUSSION & ANALYSIS"
         }
       ],
-      "chart_data": null
+      "chart_data": {
+        "type": "bar",
+        "labels": [
+          "FY24",
+          "FY25"
+        ],
+        "datasets": [
+          {
+            "label": "Revenue (₹ Cr)",
+            "values": [
+              97255.0,
+              107768.0
+            ]
+          },
+          {
+            "label": "Net Profit (₹ Cr)",
+            "values": [
+              40888.0,
+              47227.0
+            ]
+          }
+        ]
+      }
     },
     {
       "title": "Balance Sheet Health + Cash Flow",

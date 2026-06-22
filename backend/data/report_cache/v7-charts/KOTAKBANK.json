@@ -56,7 +56,7 @@
     },
     {
       "title": "Financial Performance",
-      "body": "{\"body\": \"\nThe financial performance of Kotak Mahindra Bank Limited (the Bank) for FY 2024-25 was marked by a Profit Before Tax (PBT) of ₹21,584.11 crore and a Profit After Tax (PAT) of ₹16,450.08 crore, excluding the gain on divestment of KGI. The Bank's Net Interest Income (NII) for FY 2024-25 was ₹28,341.78 crore, with a Net Interest Margin (NIM) of 4.96%. The Other Income of the Bank for FY 2024-25 was ₹14,961.13 crore. The Bank's Operating Profit for FY 2024-25 was ₹24,526.47 crore, with an Operating Expenditure of ₹18,776.44 crore. The Provision and Contingencies (Net) for FY 2024-25 was ₹2,942.36 crore. \n\nOn a consolidated basis, the Bank reported a PBT of ₹29,131.11 crore and a PAT of ₹22,125.99 crore for FY 2024-25. The total Assets Under Management (AUM) of the Group as on 31st March, 2025 were ₹669,885 crore. \n\", \"chart_data\": {\"type\":\"bar\",\"labels\":[\"FY24\",\"FY25\"],\"datasets\":[{\"label\":\"Revenue (₹ Cr)\",\"values\":[36266.30,43302.91]},{\"label\":\"Net Profit (₹ Cr)\",\"values\":[18163.21,22125.99]}}}",
+      "body": "The financial performance of Kotak Mahindra Bank Limited (the Bank) for FY 2024-25 was marked by a Profit Before Tax (PBT) of ₹21,584.11 crore and a Profit After Tax (PAT) of ₹16,450.08 crore, excluding the gain on divestment of KGI. The Bank's Net Interest Income (NII) for FY 2024-25 was ₹28,341.78 crore, with a Net Interest Margin (NIM) of 4.96%. The Other Income of the Bank for FY 2024-25 was ₹14,961.13 crore. The Bank's Operating Profit for FY 2024-25 was ₹24,526.47 crore, with an Operating Expenditure of ₹18,776.44 crore. The Provision and Contingencies (Net) for FY 2024-25 was ₹2,942.36 crore. \n\nOn a consolidated basis, the Bank reported a PBT of ₹29,131.11 crore and a PAT of ₹22,125.99 crore for FY 2024-25. The total Assets Under Management (AUM) of the Group as on 31st March, 2025 were ₹669,885 crore.",
       "citations": [
         {
           "source": "filing",
@@ -84,7 +84,29 @@
           "section": "general"
         }
       ],
-      "chart_data": null
+      "chart_data": {
+        "type": "bar",
+        "labels": [
+          "FY24",
+          "FY25"
+        ],
+        "datasets": [
+          {
+            "label": "Revenue (₹ Cr)",
+            "values": [
+              36266.3,
+              43302.91
+            ]
+          },
+          {
+            "label": "Net Profit (₹ Cr)",
+            "values": [
+              18163.21,
+              22125.99
+            ]
+          }
+        ]
+      }
     },
     {
       "title": "Balance Sheet Health + Cash Flow",

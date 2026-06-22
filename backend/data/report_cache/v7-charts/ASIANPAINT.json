@@ -56,7 +56,7 @@
     },
     {
       "title": "Financial Performance",
-      "body": "{\"body\": \"\nThe financial performance of Asian Paints is characterized by fluctuations in revenue and profitability over the years. Revenue from operations for the year ended 31st March 2025 was ₹34,478.23 crore, down from ₹36,182.69 crore in the previous year. The company's EBITDA for FY25 was ₹6,578.82 crore, compared to ₹8,272.94 crore in FY24. Profit after tax for FY25 was ₹3,709.71 crore, a decline from ₹5,557.69 crore in the previous year.\n\nKey financial metrics such as net fixed assets, market capitalization, and asset turnover ratio have also shown variations. The company's net fixed assets increased to ₹7,930.7 crore in FY25 from ₹5,494.0 crore in FY24. The market capitalization was ₹3.7 times in FY25, down from ₹5.7 times in FY24. The asset turnover ratio for FY25 was not explicitly stated, but the company's financial performance indicates a decline in profitability.\n\n\", \"chart_data\": {\"type\":\"bar\",\"labels\":[\"FY24\",\"FY25\"],\"datasets\":[{\"label\":\"Revenue (₹ Cr)\",\"values\":[36182.69,34478.23]},{\"label\":\"Net Profit (₹ Cr)\",\"values\":[5557.69,3709.71}]}}",
+      "body": "The financial performance of Asian Paints is characterized by fluctuations in revenue and profitability over the years. Revenue from operations for the year ended 31st March 2025 was ₹34,478.23 crore, down from ₹36,182.69 crore in the previous year. The company's EBITDA for FY25 was ₹6,578.82 crore, compared to ₹8,272.94 crore in FY24. Profit after tax for FY25 was ₹3,709.71 crore, a decline from ₹5,557.69 crore in the previous year.\n\nKey financial metrics such as net fixed assets, market capitalization, and asset turnover ratio have also shown variations. The company's net fixed assets increased to ₹7,930.7 crore in FY25 from ₹5,494.0 crore in FY24. The market capitalization was ₹3.7 times in FY25, down from ₹5.7 times in FY24. The asset turnover ratio for FY25 was not explicitly stated, but the company's financial performance indicates a decline in profitability.",
       "citations": [
         {
           "source": "filing",
@@ -84,7 +84,29 @@
           "section": "Notes"
         }
       ],
-      "chart_data": null
+      "chart_data": {
+        "type": "bar",
+        "labels": [
+          "FY24",
+          "FY25"
+        ],
+        "datasets": [
+          {
+            "label": "Revenue (₹ Cr)",
+            "values": [
+              36182.69,
+              34478.23
+            ]
+          },
+          {
+            "label": "Net Profit (₹ Cr)",
+            "values": [
+              5557.69,
+              3709.71
+            ]
+          }
+        ]
+      }
     },
     {
       "title": "Balance Sheet Health + Cash Flow",

@@ -72,7 +72,7 @@
     },
     {
       "title": "Financial Performance",
-      "body": "{\"body\": \"<section>The financial performance of State Bank of India (SBI) for FY 2024-25 has been remarkable, with the bank demonstrating resilience and delivering a revenue of ₹5,24,172 crore and a net profit of ₹70,901 crore. The bank's total deposits have crossed ₹53 trillion, with more than 52 crore customers, registering a growth of 9.48% year-over-year (YoY). SBI continues to report a return on assets (RoA) and return on equity (RoE) greater than 1% and 19%, respectively. The bank's economic value generated increased to ₹5,24,172 crore in FY 2024-25, from ₹4,66,813 crore in FY 2023-24, and ₹3,68,719 crore in FY 2022-23. The bank's net profit for FY 2024-25 was ₹70,901 crore, up from ₹61,077 crore in FY 2023-24, and ₹50,232 crore in FY 2022-23.</section>\", \"chart_data\": {\"type\":\"bar\",\"labels\":[\"FY23\",\"FY24\",\"FY25\"],\"datasets\":[{\"label\":\"Revenue (₹ Cr)\",\"values\":[368719,466813,524172]},{\"label\":\"Net Profit (₹ Cr)\",\"values\":[50232,61077,70901}]}}",
+      "body": "<section>The financial performance of State Bank of India (SBI) for FY 2024-25 has been remarkable, with the bank demonstrating resilience and delivering a revenue of ₹5,24,172 crore and a net profit of ₹70,901 crore. The bank's total deposits have crossed ₹53 trillion, with more than 52 crore customers, registering a growth of 9.48% year-over-year (YoY). SBI continues to report a return on assets (RoA) and return on equity (RoE) greater than 1% and 19%, respectively. The bank's economic value generated increased to ₹5,24,172 crore in FY 2024-25, from ₹4,66,813 crore in FY 2023-24, and ₹3,68,719 crore in FY 2022-23. The bank's net profit for FY 2024-25 was ₹70,901 crore, up from ₹61,077 crore in FY 2023-24, and ₹50,232 crore in FY 2022-23.</section>",
       "citations": [
         {
           "source": "filing",
@@ -100,7 +100,29 @@
           "section": "general"
         }
       ],
-      "chart_data": null
+      "chart_data": {
+        "type": "bar",
+        "labels": [
+          "FY24",
+          "FY25"
+        ],
+        "datasets": [
+          {
+            "label": "Revenue (₹ Cr)",
+            "values": [
+              466813.0,
+              524172.0
+            ]
+          },
+          {
+            "label": "Net Profit (₹ Cr)",
+            "values": [
+              61077.0,
+              70901.0
+            ]
+          }
+        ]
+      }
     },
     {
       "title": "Balance Sheet Health + Cash Flow",

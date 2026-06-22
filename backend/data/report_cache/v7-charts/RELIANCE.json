@@ -72,7 +72,7 @@
     },
     {
       "title": "Financial Performance",
-      "body": "{\"body\": \"The financial performance of Reliance Industries Limited for the year ended 31st March, 2025, is characterized by a consolidated revenue exceeding ₹900,000 crore. The Oil to Chemicals segment revenue increased by 11% year-over-year to ₹626,921 crore, driven by higher volumes and increased domestic product placement. However, the EBITDA for this segment was down by 11.9% to ₹54,988 crore due to a weak margin environment across transportation fuels and downstream chemicals. The Digital Services segment achieved a revenue of ₹154,119 crore, driven by tariff increases in the mobility business and the ramp-up of homes and enterprise services. The Retail segment delivered a gross revenue of ₹330,943 crore, with a growth of 7.9% over the last year, and an EBITDA of ₹25,094 crore, growing by 8.6% year-over-year. The company's net profit before tax as per the statement of profit and loss was ₹55,273 crore for the year ended 31st March, 2025, and ₹46,128 crore for the year ended 31st March, 2024.\", \"chart_data\": {\"type\":\"bar\",\"labels\":[\"FY24\",\"FY25\"],\"datasets\":[{\"label\":\"Revenue (₹ Cr)\",\"values\":[900000,900000]},{\"label\":\"Net Profit (₹ Cr)\",\"values\":[46128,55273]}}}",
+      "body": "The financial performance of Reliance Industries Limited for the year ended 31st March, 2025, is characterized by a consolidated revenue exceeding ₹900,000 crore. The Oil to Chemicals segment revenue increased by 11% year-over-year to ₹626,921 crore, driven by higher volumes and increased domestic product placement. However, the EBITDA for this segment was down by 11.9% to ₹54,988 crore due to a weak margin environment across transportation fuels and downstream chemicals. The Digital Services segment achieved a revenue of ₹154,119 crore, driven by tariff increases in the mobility business and the ramp-up of homes and enterprise services. The Retail segment delivered a gross revenue of ₹330,943 crore, with a growth of 7.9% over the last year, and an EBITDA of ₹25,094 crore, growing by 8.6% year-over-year. The company's net profit before tax as per the statement of profit and loss was ₹55,273 crore for the year ended 31st March, 2025, and ₹46,128 crore for the year ended 31st March, 2024.",
       "citations": [
         {
           "source": "filing",
@@ -100,7 +100,29 @@
           "section": "general"
         }
       ],
-      "chart_data": null
+      "chart_data": {
+        "type": "bar",
+        "labels": [
+          "FY24",
+          "FY25"
+        ],
+        "datasets": [
+          {
+            "label": "Revenue (₹ Cr)",
+            "values": [
+              900000.0,
+              900000.0
+            ]
+          },
+          {
+            "label": "Net Profit (₹ Cr)",
+            "values": [
+              46128.0,
+              55273.0
+            ]
+          }
+        ]
+      }
     },
     {
       "title": "Balance Sheet Health + Cash Flow",

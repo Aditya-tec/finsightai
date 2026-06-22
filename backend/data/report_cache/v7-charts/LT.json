@@ -76,7 +76,7 @@
     },
     {
       "title": "Financial Performance",
-      "body": "{\"body\": \"\nThe company's financial performance is highlighted by its revenue and net profit growth. As per the consolidated financials, the gross revenue from operations for FY25 was ₹255,734 crore, and the profit for the year was ₹17,673 crore. In comparison, the gross revenue from operations for FY24 was ₹221,113 crore, with a profit for the year of ₹15,547 crore. The profit after tax (PAT) for FY25, including exceptional items, was ₹15,037 crore, representing a 15.1% increase over the previous year's PAT of ₹13,059 crore.\n\nThe company's Return on Net Worth (RONW) for FY25 was 16.3%, higher than the 14.9% recorded in the previous year, primarily due to improved profitability. The net worth attributable to the owners of the company as of March 31, 2025, was ₹97,656 crore, reflecting a net increase of ₹11,297 crore compared to the position as of March 31, 2024.\n\n\", \n\"chart_data\": {\"type\":\"bar\",\"labels\":[\"FY24\",\"FY25\"],\"datasets\":[{\"label\":\"Revenue (₹ Cr)\",\"values\":[221113,255734]},{\"label\":\"Net Profit (₹ Cr)\",\"values\":[15547,17673]}} \n}",
+      "body": "The company's financial performance is highlighted by its revenue and net profit growth. As per the consolidated financials, the gross revenue from operations for FY25 was ₹255,734 crore, and the profit for the year was ₹17,673 crore. In comparison, the gross revenue from operations for FY24 was ₹221,113 crore, with a profit for the year of ₹15,547 crore. The profit after tax (PAT) for FY25, including exceptional items, was ₹15,037 crore, representing a 15.1% increase over the previous year's PAT of ₹13,059 crore.\n\nThe company's Return on Net Worth (RONW) for FY25 was 16.3%, higher than the 14.9% recorded in the previous year, primarily due to improved profitability. The net worth attributable to the owners of the company as of March 31, 2025, was ₹97,656 crore, reflecting a net increase of ₹11,297 crore compared to the position as of March 31, 2024.",
       "citations": [
         {
           "source": "filing",
@@ -104,7 +104,29 @@
           "section": "2025, as considered in the consolidated financial statements. The consolidated financial statements also include the Group’s share of"
         }
       ],
-      "chart_data": null
+      "chart_data": {
+        "type": "bar",
+        "labels": [
+          "FY24",
+          "FY25"
+        ],
+        "datasets": [
+          {
+            "label": "Revenue (₹ Cr)",
+            "values": [
+              221113.0,
+              255734.0
+            ]
+          },
+          {
+            "label": "Net Profit (₹ Cr)",
+            "values": [
+              15547.0,
+              17673.0
+            ]
+          }
+        ]
+      }
     },
     {
       "title": "Balance Sheet Health + Cash Flow",
