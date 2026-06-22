@@ -64,8 +64,40 @@ export function parseChartData(data: unknown): ChartData | null {
 /** Blue accent palette for charts — monochrome, no rainbow. */
 export const CHART_COLORS = ["#0099ff", "#0066b3", "#4db8ff", "#003d66", "#66c2ff", "#007acc"];
 
+const LAKH_CRORE = 100_000;
+const THOUSAND_CRORE = 1_000;
+
+export type CroreAxisUnit = "plain" | "k" | "L";
+
+/** Pick one abbreviation for an entire axis based on its max value — never mix k/L on one axis. */
+export function pickCroreAxisUnit(maxValue: number): CroreAxisUnit {
+  if (!Number.isFinite(maxValue) || maxValue <= 0) return "plain";
+  if (maxValue >= LAKH_CRORE) return "L";
+  if (maxValue >= THOUSAND_CRORE) return "k";
+  return "plain";
+}
+
+export function formatCroreAxisTick(valueCr: number, unit: CroreAxisUnit): string {
+  if (unit === "L") return `${(valueCr / LAKH_CRORE).toFixed(1)}L Cr`;
+  if (unit === "k") return `${(valueCr / THOUSAND_CRORE).toFixed(1)}k Cr`;
+  return `${valueCr.toLocaleString("en-IN")} Cr`;
+}
+
+export function maxBarDatasetValue(values: [number, number]): number {
+  return Math.max(values[0], values[1]);
+}
+
+export function stripSeriesLabel(raw: string): string {
+  return raw.replace(/\s*\([^)]*Cr[^)]*\)\s*$/i, "").trim();
+}
+
+/** Tooltip line for bar series, e.g. "Revenue: ₹1,62,990 Cr". */
+export function formatBarSeriesTooltip(rawLabel: string, valueCr: number): string {
+  const name = stripSeriesLabel(rawLabel) || rawLabel;
+  return `${name}: ₹${valueCr.toLocaleString("en-IN")} Cr`;
+}
+
+/** Single-value label (donut legend/tooltip) — uses scale implied by the value itself. */
 export function formatChartValue(n: number): string {
-  if (n >= 100_000) return `${(n / 100_000).toFixed(1)}L Cr`;
-  if (n >= 1_000) return `${(n / 1_000).toFixed(1)}k Cr`;
-  return n.toLocaleString("en-IN");
+  return formatCroreAxisTick(n, pickCroreAxisUnit(n));
 }

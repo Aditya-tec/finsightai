@@ -1,6 +1,21 @@
 import { jsPDF } from "jspdf";
 
 import { formatGroupedCitations, type Citation } from "./citations";
+import {
+  isBarChartData,
+  isDonutChartData,
+  parseChartData,
+  SECTION_BULL_BEAR,
+} from "./chartTypes";
+import {
+  drawBarChartPdf,
+  drawChartDisclaimerPdf,
+  drawDonutChartPdf,
+  drawScenarioCardsPdf,
+  pdfChartBlockHeight,
+  scenarioCardsPdfHeight,
+} from "./pdfCharts";
+import { hasScenarioCards, parseBullBearBase } from "./parseBullBearBase";
 import { RUPEEREAD_LOGO_ASPECT, RUPEEREAD_LOGO_PNG } from "./rupeereadLogo";
 
 type ReportSection = {
@@ -8,6 +23,7 @@ type ReportSection = {
   body: string;
   citations: Citation[];
   bullets?: string[];
+  chart_data?: unknown;
 };
 
 export type ExportReportPdfOptions = {
@@ -160,11 +176,20 @@ function estimateSectionHeight(
   format: "prose" | "bullets" = "prose"
 ): number {
   const headerH = sectionHeaderHeight(doc, section.title, width);
+  const chartData = format === "prose" ? parseChartData(section.chart_data) : null;
+  const scenarioBlocks =
+    format === "prose" && section.title === SECTION_BULL_BEAR
+      ? parseBullBearBase(section.body)
+      : null;
+  const useScenarioCards = hasScenarioCards(scenarioBlocks);
+
   let bodyLines: string[];
   if (format === "bullets" && section.bullets?.length) {
     bodyLines = section.bullets.flatMap((b) =>
       wrapText(doc, `\u2022 ${sanitizeForPdf(b)}`, width - 12)
     );
+  } else if (useScenarioCards) {
+    bodyLines = [];
   } else {
     bodyLines = wrapText(doc, section.body, width - 8);
   }
@@ -173,9 +198,14 @@ function estimateSectionHeight(
       ? groupedCitationLines(doc, section.citations, ticker, width - CITATION_INDENT - 8)
       : [];
   const lineH = format === "bullets" ? BULLET_LINE_HEIGHT : BODY_LINE_HEIGHT;
+  let bodyH = bodyLines.length * lineH;
+  if (useScenarioCards && scenarioBlocks) {
+    bodyH = scenarioCardsPdfHeight(doc, scenarioBlocks, width);
+  }
   return (
     headerH +
-    bodyLines.length * lineH +
+    bodyH +
+    pdfChartBlockHeight(chartData !== null) +
     (citationLines.length > 0 ? 6 + citationLines.length * 12 : 0) +
     SECTION_GAP
   );
@@ -300,9 +330,16 @@ function drawSection(
 ): number {
   const width = maxTextWidth(doc);
   const sectionNum = String(index + 1).padStart(2, "0");
-  y = ensureSpace(doc, y, Math.min(estimateSectionHeight(doc, section, ticker, width, format), 100));
+  y = ensureSpace(doc, y, Math.min(estimateSectionHeight(doc, section, ticker, width, format), 120));
 
   y = drawSectionHeader(doc, sectionNum, section.title, y, width);
+
+  const chartData = format === "prose" ? parseChartData(section.chart_data) : null;
+  const scenarioBlocks =
+    format === "prose" && section.title === SECTION_BULL_BEAR
+      ? parseBullBearBase(section.body)
+      : null;
+  const useScenarioCards = hasScenarioCards(scenarioBlocks);
 
   setBlack(doc);
   doc.setFont("helvetica", "normal");
@@ -319,9 +356,22 @@ function drawSection(
       }
       y += 4;
     }
+  } else if (useScenarioCards && scenarioBlocks) {
+    y = ensureSpace(doc, y, scenarioCardsPdfHeight(doc, scenarioBlocks, width));
+    y = drawScenarioCardsPdf(doc, scenarioBlocks, MARGIN_LEFT, y, width);
   } else {
     const bodyLines = wrapText(doc, section.body, width);
     y = drawWrappedBlock(doc, bodyLines, MARGIN_LEFT, y, BODY_LINE_HEIGHT);
+  }
+
+  if (chartData && format === "prose") {
+    y = ensureSpace(doc, y, pdfChartBlockHeight(true));
+    if (isBarChartData(chartData)) {
+      y = drawBarChartPdf(doc, chartData, MARGIN_LEFT, y, width);
+    } else if (isDonutChartData(chartData)) {
+      y = drawDonutChartPdf(doc, chartData, MARGIN_LEFT, y, width);
+    }
+    y = drawChartDisclaimerPdf(doc, MARGIN_LEFT, y, width);
   }
 
   if (section.citations.length > 0) {

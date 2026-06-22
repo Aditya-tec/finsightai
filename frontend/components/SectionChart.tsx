@@ -18,14 +18,63 @@ import {
   CHART_COLORS,
   CHART_DISCLAIMER,
   type ChartData,
+  formatBarSeriesTooltip,
   formatChartValue,
+  formatCroreAxisTick,
   isBarChartData,
   isDonutChartData,
+  maxBarDatasetValue,
+  pickCroreAxisUnit,
 } from "@/lib/chartTypes";
 
 type Props = {
   data: ChartData;
 };
+
+type BarTooltipPayload = {
+  color?: string;
+  dataKey?: string | number;
+  name?: string;
+  value?: number;
+};
+
+function BarChartTooltip({
+  active,
+  payload,
+  label,
+}: {
+  active?: boolean;
+  payload?: BarTooltipPayload[];
+  label?: string;
+}) {
+  if (!active || !payload?.length) return null;
+
+  return (
+    <div
+      style={{
+        background: "#1a1a1a",
+        border: "1px solid rgba(0,153,255,0.25)",
+        borderRadius: 8,
+        fontSize: 12,
+        padding: "8px 10px",
+      }}
+    >
+      {label ? (
+        <p style={{ margin: "0 0 6px", fontWeight: 600, color: "#e5e5e5" }}>{label}</p>
+      ) : null}
+      {payload.map((entry) => {
+        const seriesLabel = String(entry.dataKey ?? entry.name ?? "");
+        const value = Number(entry.value);
+        if (!Number.isFinite(value)) return null;
+        return (
+          <p key={seriesLabel} style={{ margin: "2px 0", color: entry.color ?? "#a1a1a1" }}>
+            {formatBarSeriesTooltip(seriesLabel, value)}
+          </p>
+        );
+      })}
+    </div>
+  );
+}
 
 function BarSectionChart({ data }: { data: Extract<ChartData, { type: "bar" }> }) {
   const [fy24, fy25] = data.labels;
@@ -40,9 +89,18 @@ function BarSectionChart({ data }: { data: Extract<ChartData, { type: "bar" }> }
     },
   ];
 
+  const dualAxis = data.datasets.length >= 2;
+  const leftUnit = pickCroreAxisUnit(maxBarDatasetValue(data.datasets[0].values));
+  const rightUnit = dualAxis
+    ? pickCroreAxisUnit(maxBarDatasetValue(data.datasets[1].values))
+    : leftUnit;
+
   return (
     <ResponsiveContainer width="100%" height={300}>
-      <BarChart data={rows} margin={{ top: 8, right: 12, left: 4, bottom: 4 }}>
+      <BarChart
+        data={rows}
+        margin={{ top: 8, right: dualAxis ? 52 : 12, left: 8, bottom: 4 }}
+      >
         <CartesianGrid strokeDasharray="3 3" stroke="rgba(255,255,255,0.06)" vertical={false} />
         <XAxis
           dataKey="year"
@@ -51,24 +109,29 @@ function BarSectionChart({ data }: { data: Extract<ChartData, { type: "bar" }> }
           tickLine={false}
         />
         <YAxis
+          yAxisId="left"
+          orientation="left"
           tick={{ fill: "#a1a1a1", fontSize: 11 }}
           axisLine={false}
           tickLine={false}
-          tickFormatter={(v) => formatChartValue(Number(v))}
+          tickFormatter={(v) => formatCroreAxisTick(Number(v), leftUnit)}
         />
-        <Tooltip
-          contentStyle={{
-            background: "#1a1a1a",
-            border: "1px solid rgba(0,153,255,0.25)",
-            borderRadius: 8,
-            fontSize: 12,
-          }}
-          formatter={(value) => [formatChartValue(Number(value)), ""]}
-        />
+        {dualAxis ? (
+          <YAxis
+            yAxisId="right"
+            orientation="right"
+            tick={{ fill: "#a1a1a1", fontSize: 11 }}
+            axisLine={false}
+            tickLine={false}
+            tickFormatter={(v) => formatCroreAxisTick(Number(v), rightUnit)}
+          />
+        ) : null}
+        <Tooltip content={<BarChartTooltip />} />
         <Legend wrapperStyle={{ fontSize: 12, color: "#a1a1a1" }} />
         {data.datasets.map((ds, i) => (
           <Bar
             key={ds.label}
+            yAxisId={dualAxis && i > 0 ? "right" : "left"}
             dataKey={ds.label}
             fill={CHART_COLORS[i % CHART_COLORS.length]}
             radius={[4, 4, 0, 0]}
