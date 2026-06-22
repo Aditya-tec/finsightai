@@ -1,0 +1,571 @@
+{
+  "sections": [
+    {
+      "title": "Executive Summary + Investment Thesis",
+      "body": "**Executive Summary**\nTITAN Company Limited has demonstrated a steady growth trajectory, with consolidated total income increasing to ₹55,335 crore for the year ended 31st March 2025, from ₹47,624 crore in the previous year. The company's profit before taxes stood at ₹4,481 crore, down from ₹4,607 crore in the previous year, primarily due to an increase in finance costs to ₹767 crore from ₹480 crore. The Jewellery segment continues to be the largest contributor to the company's revenue, accounting for approximately 89% of the total income, with a segment profit of ₹4,764 crore.\n\n**Investment Thesis**\nOur investment thesis for TITAN Company Limited is centered around its diversified business portfolio, with a strong presence in the Jewellery, Watches and wearables, and Eyecare segments. The company's risk management framework, which includes the use of derivative financial instruments to hedge risk exposures, is a positive factor. With a segment-wise approach to asset allocation and a focus on minimizing risks, TITAN Company Limited appears to be well-positioned for long-term growth. However, the increase in finance costs and the slight decline in profit before taxes are areas that require close monitoring. As the company continues to expand its operations and navigate the evolving market landscape, we believe that its strong brand presence and diversified revenue streams will drive growth and returns for investors.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 379,
+          "section": "Notes to Consolidated financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 343,
+          "section": "Notes to standalone financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 325,
+          "section": "Notes to standalone financial statements"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Business Overview + Segment Breakdown",
+      "body": "TITAN Company Limited witnessed a 16% year-on-year revenue growth in Net Sales Value during the Financial Year 2024-25. The Watches and Wearables segment saw a 20% growth in analog watches, leading to a significant increase in market share in multi-brand channels. The company's premium brands, such as Titan, Nebula, Edge, and Xylys, continued to see excellent consumer interest. The Jewellery segment reported other income of ₹110 crore for the year ended 31st March 2025, while the Eyecare segment reported other income of ₹9 crore for the same period. The company's segments include Watches and Wearables, Jewellery, Eyecare, and Others, with Corporate (unallocated) representing other income and expenses that relate to the company as a whole. The company's revenue from operations is primarily generated from India, with ₹58,368 crore in revenue for the year ended 31st March 2025, and ₹2,574 crore from other geographical locations.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 149,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 423,
+          "section": "Notes to Consolidated financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 296,
+          "section": "recognised in standalone financial statements"
+        }
+      ],
+      "chart_data": {
+        "type": "donut",
+        "segments": [
+          {
+            "label": "Watches and wearables",
+            "value": 35.0
+          },
+          {
+            "label": "Jewellery",
+            "value": 110.0
+          },
+          {
+            "label": "Eyecare",
+            "value": 9.0
+          },
+          {
+            "label": "Others",
+            "value": 7.0
+          }
+        ]
+      }
+    },
+    {
+      "title": "Financial Performance",
+      "body": "<section prose> The financial performance of TITAN COMPANY LIMITED is outlined in the provided excerpts. For the year ended 31st March 2025, the company reported revenue from operations of ₹54,842 crore, with a profit after tax of ₹3,335 crore. In comparison, for the year ended 31st March 2024, the company reported revenue from operations of ₹47,114 crore, with a profit after tax of ₹3,544 crore. The company's operating profit for the year ended 31st March 2025 was ₹4,481 crore, while the operating profit for the year ended 31st March 2024 was ₹4,097 crore. </section>",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 455,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 343,
+          "section": "Notes to standalone financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 296,
+          "section": "recognised in standalone financial statements"
+        }
+      ],
+      "chart_data": {
+        "type": "bar",
+        "labels": [
+          "FY24",
+          "FY25"
+        ],
+        "datasets": [
+          {
+            "label": "Revenue (₹ Cr)",
+            "values": [
+              47114.0,
+              54842.0
+            ]
+          },
+          {
+            "label": "Net Profit (₹ Cr)",
+            "values": [
+              3544.0,
+              3335.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "Balance Sheet Health + Cash Flow",
+      "body": "The 'Balance Sheet Health + Cash Flow' section of this report is limited due to the absence of specific balance sheet and cash flow data in the provided filing excerpts. However, we can infer that the company has a risk management framework in place to identify, evaluate, and mitigate business risks, including market risk, credit risk, and liquidity risk. The company uses derivative financial instruments to hedge risk exposures, but does not enter into or trade financial instruments for speculative purposes.\n\nThe company's investment properties are measured initially at cost, including transaction costs, and subsequently at cost in accordance with Ind AS 16's requirements for the cost model. The fair values of the investment property, which includes only land held by the Group, are disclosed, but the exact figures are not provided in the excerpts. Additionally, the company's policy on provisions, contingent liabilities, and contingent assets is to review them at each balance sheet date. However, without specific data on the company's balance sheet and cash flow statement, a comprehensive analysis of its balance sheet health and cash flow position cannot be performed. Peer comparison is also not possible due to the lack of relevant data.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 296,
+          "section": "recognised in standalone financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 343,
+          "section": "Notes to standalone financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 379,
+          "section": "Notes to Consolidated financial statements"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Key Financial Ratios",
+      "body": "The 'Key Financial Ratios' section of this report is limited due to the absence of specific financial data in the provided excerpts. However, we can attempt to derive some insights based on the available information. \n\nFor instance, the company's revenue growth can be noted, with a 16% year-on-year increase in Net Sales Value for the financial year 2024-25. Additionally, the analog watches segment saw a 20% growth, contributing to a significant market share increase in multi-brand channels. Unfortunately, without explicit financial figures such as revenue, net profit, or net worth, we cannot calculate key financial ratios like the profit margin, return on equity (ROE), or debt-to-equity ratio.\n\nGiven the information on the fair value of financial assets and liabilities, as well as the risk management framework in place, it is clear that the company has a structured approach to managing its financial exposures. However, without specific numbers on these assets and liabilities, we cannot assess the company's leverage or liquidity positions effectively. The mention of a 10% increase or decrease in projected cash flows and discount rates impacting the investment value by ₹4 crore and ₹5 crore, respectively, provides some insight into the sensitivity of the company's investments but does not allow for the calculation of comprehensive financial ratios.\n\nIn conclusion, while the provided excerpts offer some qualitative insights into the company's performance and risk management strategies, they lack the quantitative data necessary for a detailed analysis of key financial ratios. Peer comparison is also not possible due to the absence of relevant data on peer companies.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 343,
+          "section": "Notes to standalone financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 149,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 379,
+          "section": "Notes to Consolidated financial statements"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Valuation Snapshot vs Sector Median",
+      "body": "Valuation Snapshot vs Sector Median\n\nBased on the available data, we can assess TITAN's valuation metrics. The company reported a profit for the year ended 31st March 2025 of ₹3,335 crore. With a weighted average number of equity shares outstanding of 88.70 crore, the basic earnings per share (EPS) stands at ₹37.60. On a diluted basis, the EPS is ₹37.58. However, a direct comparison with the sector median is not possible due to the lack of peer data in the provided excerpts. \n\nWe can, however, note that the company's financial performance, with a 16% year-on-year growth in Net Sales Value, indicates a strong operational showing. The Watches & Wearables Division's growth, particularly in the analog watches segment, which grew by 20%, suggests a positive outlook for the business. Nevertheless, without sector-specific data, a comprehensive valuation snapshot versus the sector median cannot be accurately provided. Further research and data collection would be necessary to conduct a thorough peer comparison and valuation analysis.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 149,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 379,
+          "section": "Notes to Consolidated financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 327,
+          "section": "Notes to standalone financial statements"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Management Commentary",
+      "body": "The management of TITAN COMPANY LIMITED has provided commentary on the company's performance for the year ended 31st March 2025. According to the management, the Financial Year 2024-25 saw a good year-on-year revenue growth of 16% in Net Sales Value, driven by a 20% growth in analog watches, which led to a significant market share increase in the multi-brand channels. The premium segment continued to perform well, with excellent consumer interest in premium brands and sub-brands like Titan, Nebula, Edge, and Xylys. The management also highlighted the successful launch of new products, including the First ever tourbillon watch from India, which was sold out within one month. Additionally, the company expanded its retail presence, crossing a total of 1,235 own stores, including 720 Titan World, 272 Helios, 239 Fastrack, and 4 Helios Luxe stores.\n\nThe management also discussed the company's risk management framework, which is in place to identify, evaluate, and mitigate business risks and challenges. The company uses derivative financial instruments to hedge risk exposures, and the use of such instruments is governed by the company's policies approved by the Board of Directors. The management believes that the outlook for the business remains very positive, with good growth rates expected in the mainline analog and premium watch segments, although the Wearables segment is expected to experience muted growth. Overall, the management's commentary suggests that the company is well-positioned for future growth, driven by its strong brand portfolio, innovative products, and expanding retail presence.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 343,
+          "section": "Notes to standalone financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 149,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 379,
+          "section": "Notes to Consolidated financial statements"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Key Risks",
+      "body": "The key risks associated with TITAN COMPANY LIMITED are primarily related to its financial and operational management. One of the significant risks is the potential impact of changes in unobservable inputs used in Level 3 fair value measurements, which could result in a decrease of investment value by ₹4 crore to ₹5 crore. Additionally, the company's reliance on derivative financial instruments to hedge risk exposures may not entirely mitigate market, credit, and liquidity risks. The Risk Management Committee and the company's risk management framework are in place to identify and evaluate these risks, but their effectiveness in minimizing the impact of these risks is crucial.\n\nAnother risk factor is the company's dependence on the performance of its Watches and Wearables segment, which accounted for a significant portion of its revenue. The decline in the Wearables category due to low consumer interest may impact the company's growth prospects. However, the company's efforts to conceptualize and execute a new strategy for the Wearables business and its strong performance in the analog watches and premium brands may help mitigate this risk. The company's geographical concentration in India, with ₹58,368 crore of revenue generated from domestic operations in the year ended 31st March 2025, also poses a risk, as any adverse economic or regulatory changes in the country could impact its financial performance.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 343,
+          "section": "Notes to standalone financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 149,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 423,
+          "section": "Notes to Consolidated financial statements"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Recent Developments",
+      "body": "Recent Developments\n\nThe Financial Year 2024-25 was a notable year for TITAN COMPANY LIMITED, marked by a 16% year-on-year growth in Net Sales Value. The Watches & Wearables Division witnessed significant growth, with analog watches growing by 20% and contributing to an increase in market share in multi-brand channels. The premium segment continued to perform well, driven by strong consumer interest in premium brands such as Titan, Nebula, Edge, and Xylys. The company's retail chains, including Titan World and Helios, reported healthy growth in both overall and like-to-like stores. Additionally, the mass fashion brands Fastrack and Sonata experienced a remarkable turnaround, driven by innovative products and effective go-to-market strategies.\n\nThe company also made significant strides in terms of product innovation, including the launch of the first-ever tourbillon watch from India, priced at ₹2.6 crore, as part of the 40 years of Joy Commemorative Collection. This limited edition watch was sold out within one month. Furthermore, the company expanded its retail network, crossing a total of 1,235 own stores, and rolled out 4 Helios Luxe stores. The Wearables category, however, witnessed a decline due to low consumer interest, but the company's Wearables business remained almost flat, resulting in a gain in market share. The outlook for the business remains positive, with expected growth in the mainline analog and premium watch segments, although growth in the Wearables segment is expected to be muted.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 149,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 275,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 275,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Bull vs Bear vs Base Case",
+      "body": "The bull case for TITAN is supported by the company's impressive 16% year-on-year revenue growth in Net Sales Value during the Financial Year 2024-25, driven by a 20% growth in analog watches. The significant market share increase in multi-brand channels, coupled with the successful rollout of 4 Helios Luxe stores, suggests a strong potential for continued growth. Additionally, the company's innovation quotient, marked by exceptional progress in R&D and the launch of unique products such as the tourbillon watch, positions TITAN for long-term success. The bear case, however, is centered around the decline in the Wearables category, which may impact the company's overall growth trajectory. Despite this, the Wearables business remained almost flat, allowing TITAN to gain market share.\n\nOur base case scenario assumes that TITAN will continue to experience growth in its mainline analog and premium watch segments, driven by its strong brand portfolio and innovative products. With a network of 1,235 own stores and a growing presence in e-commerce channels, we expect the company to maintain its market share and drive revenue growth. While the Wearables segment may experience muted growth, we believe that TITAN's diversified product portfolio and strategic initiatives will help mitigate this impact. Overall, our base case scenario is cautiously optimistic, with a focus on the company's ability to execute its growth strategy and navigate the evolving market landscape.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 149,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 275,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 275,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Peer Comparison",
+      "body": "Peer Comparison: \nUnfortunately, the provided filing excerpts do not contain sufficient data to facilitate a peer comparison for TITAN COMPANY LIMITED. The excerpts primarily focus on the audit of internal financial controls and the standalone balance sheet as at 31st March 2025, without providing comparable financial metrics for peer companies. As a result, it is not possible to assess TITAN's performance relative to its industry counterparts based on the available information.\n\nTo conduct a meaningful peer comparison, data on key financial metrics such as revenue from operations, net profit, and net worth of comparable companies would be required. However, since this information is not present in the provided context, a peer comparison cannot be undertaken at this time. Further research and analysis of industry reports and financial statements of peer companies would be necessary to provide a comprehensive peer comparison for TITAN COMPANY LIMITED.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 275,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 275,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 273,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    }
+  ],
+  "eval_context": [
+    {
+      "id": "8b1ce12a-b75d-4d9c-9524-baa8e5ad8847",
+      "content": "272 Annual Report 2024-25 TITAN COMPANY LIMITED Standalone balance sheet as at 31st March 2025",
+      "ticker": "TITAN",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 275,
+      "section_title": "general",
+      "similarity": 0.690281189646584,
+      "retrieval_source": "vector",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "ticker": "TITAN",
+      "content": "272 Annual Report 2024-25 TITAN COMPANY LIMITED Standalone balance sheet as at 31st March 2025",
+      "chunk_index": 499,
+      "page_number": 275,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\TITAN_FY25.json"
+      },
+      "similarity": 18.47094098600929,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "id": "3c75229c-2b98-4906-9f65-b9258bd5894e",
+      "content": "270 Annual Report 2024-25 TITAN COMPANY LIMITED We have audited the internal financial controls with reference",
+      "ticker": "TITAN",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 273,
+      "section_title": "general",
+      "similarity": 0.638835766246068,
+      "retrieval_source": "vector",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "ticker": "TITAN",
+      "content": "Titan Company Limited (the “Company”), its ESOP trust (the “Trust”) which comprise the standalone balance sheet as at 31 March 2025, and the standalone statement of profit and loss (including other comprehensive income), standalone statement of changes in equity and standalone",
+      "chunk_index": 425,
+      "page_number": 261,
+      "section_title": "We have audited the standalone financial statements of",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\TITAN_FY25.json"
+      },
+      "similarity": 17.921307150947086,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "id": "53b20f24-259c-4a18-b361-a5f758fc1cfd",
+      "content": "for the year ended 31st March 2025 316 Annual Report 2024-25 TITAN COMPANY LIMITED 17 Other current liabilities ` in crore Particulars As at 31st March 2025 As at 31st March 2024 Advance from customers 1,769 749 Golden harvest scheme (deposit) 1,705 2,398 Liability towards award credits for customers 71 85 Statutory dues 29 59 Liability for sales return {refer note (a) below} 234 267 Other liabilities (gift card liability, book overdraft etc.) 261 243 4,069 3,801 a) \u0007Liability for sales return represents the aggregate amount of the transaction price allocated to the performance obligations that are unsatisfied as of the end of the reporting period. Thus, it represents the value of sales the Company estimates to be returned on account of sales return. 18 Provisions ` in crore Particulars As at 31st March 2025 As at 31st March 2024 Provision for compensated absences {refer note 31 (c)} 27 29 Gratuity {refer note 31 (b)} 85 36 Provision for warranty {refer note (a) below} 5 4 Provision for other employee benefits 8 7 Provision for pension 5 5 130 81 Note (a): Provision for warranty ` in crore Particulars As at 31st March 2025 As at 31st March 2024 Opening balance 4 6 Provisions made during the year 5 4 Utilisations/reversed during the year (4) (6) Provision at the end of the year 5 4",
+      "ticker": "TITAN",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 319,
+      "section_title": "Notes to standalone financial statements",
+      "similarity": 0.6286900639534,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "ticker": "TITAN",
+      "content": "of Titan Company Limited (hereinafter referred to as the “Holding Company”) and its subsidiaries (Holding Company and its subsidiaries together referred to as “the Group”) and its associate, which comprise the consolidated balance sheet as at 31 March 2025, and the consolidated statement of profit and loss (including other comprehensive income), consolidated statement of changes in equity and consolidated",
+      "chunk_index": 659,
+      "page_number": 356,
+      "section_title": "We have audited the consolidated financial statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\TITAN_FY25.json"
+      },
+      "similarity": 16.91695036273199,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "id": "930c609d-3fdc-4cd5-8888-0d8f48ed18a6",
+      "content": "for the year ended 31st March 2025 322 Annual Report 2024-25 TITAN COMPANY LIMITED b) Segment total income and profit and loss Revenue (including other income) Profit/(loss) For the year ended 31st March 2025 For the year ended 31st March 2024 For the year ended 31st March 2025 For the year ended 31st March 2024 Watches and wearables 4,576 3,904 553 397 Jewellery 49,227 42,292 4,764 4,726 Eyecare 796 724 85 85 Others 406 378 (124) (93) Corporate (unallocated) 330 326 (30) (28) 55,335 47,624 5,248 5,087 Finance costs 767 480 Profit before taxes 4,481 4,607 There is no inter segment revenue. c) Segment assets and liabilities ` in crore Segment assets As at 31st March 2025 As at 31st March 2024 Watches and wearables 4,083 3,586 Jewellery 25,640 18,327 Eyecare 647 649 Others 548 462 Corporate (unallocated) 10,157 9,838 41,075 32,862 Segment liabilities Watches and wearables 1,218 981 Jewellery 14,152 10,695 Eyecare 391 388 Others 286 217 Corporate (unallocated) 8,217 6,124 24,264 18,405 d) Other segment information ` in crore Depreciation and amortisation For the year ended 31st March 2025 For the year ended 31st March 2024 Watches and wearables 133 114 Jewellery 254 202 Eyecare 71 66 Others 32 24 Corporate (unallocated) 47 41 537 447",
+      "ticker": "TITAN",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 325,
+      "section_title": "Notes to standalone financial statements",
+      "similarity": 0.626929342746735,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015625
+    },
+    {
+      "ticker": "TITAN",
+      "content": "146 Annual Report 2024-25 TITAN COMPANY LIMITED The Financial Year 2024-25 saw a good year-on-year revenue growth of 16% in Net Sales Value. Analog watches grew by 20% which led to a significant market share increase in the multi-brand channels. The premium wave continued unabated with excellent consumer interest in premium brands and sub-brands like Titan, Nebula, Edge and Xylys. Retail chains like Titan World and Helios showed healthy growth in both overall as well as like-to-like stores growth. The mass fashion brands like Fastrack and Sonata had a remarkable turnaround from last Financial Year on the back of innovative products and go-to-market strategies. The Division had a good increase in buyers through the sub- brands launched last year, Vyb from Fastrack and Poze from Sonata. Brand Titan led the way through outstanding product collection launches like Titan Stellar, Automatics and Raga. Innovation was at an all-time high in the Division. The First ever tourbillon watch from India, launched as part of the 40 years of Joy Commemorative Collection saw huge interest in the world and the Indian watch community and heralded a new era for brand Titan. The Tourbillon watch, exquisitely crafted in-house, was launched as a Limited Edition of 4 pieces priced at ` 26 lakh and was sold out within one month. Brand Titan launched a special edition watch for celebrating Wing Commander Rakesh Sharma’s maiden and historic journey to space – a Unity watch that captured the world Watches & Wearables Division that he witnessed from space. Titan also became the first Indian brand to compete in the Grand Prix Horologerie de Geneve (GPHG) with 2 extraordinary timepieces in the Edge collection. This Financial Year saw the rollout of 4 Helios Luxe stores, which is the next step towards elevated retail environments selling even higher priced watches than the Helios stores. The Wearables category saw a significant decline due to low interest from consumers after 3 years of dramatic growth. In this situation, the Division’s Wearables business remained almost flat, thus gaining market share. The Division is in the process of conceptualising and executing a new strategy built on deep consumer insights of different segments of Wearables’ users. The Division crossed a total of 1,235 own stores with a network of 720 Titan World, 272 Helios, 239 Fastrack and 4 Helios Luxe stores. The Multi-Brand Retail channel which had faced huge headwinds last year saw an impressive turnaround this year as a result of the transformation activities of the last two years and better operations. Marketplace E-commerce channels continued to show very good growth and increase in market share for the Division’s brands. The manufacturing team’s innovation quotient reached an all-time high, marked by exceptional progress in R&D. The production team displayed solid efficiency in the supply of millions of watches, at the required time and at the requisite quality. The outlook for the business remains very positive with good growth rates in mainline analog and premium watch segments and a muted growth in the Wearables segment.",
+      "chunk_index": 229,
+      "page_number": 149,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\TITAN_FY25.json"
+      },
+      "similarity": 16.73350067011688,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015625
+    },
+    {
+      "id": "6298f084-0e9f-4877-a9f9-6c1a7e626dcf",
+      "content": "452 Annual Report 2024-25 TITAN COMPANY LIMITED Financial statistics under Ind AS - Last 5 years PROFIT & LOSS ACCOUNT 2020-21 2021-22 2022-23 2023-24 Revenue from operation 20,602 27,210 38,270 47,114 Expenses 18,901 23,931 33,500 42,090 Interest 181 195 240 480 Depreciation/Amortisation 331 347 364 447 Operating Profit/(loss) 1,189 2,737 4,166 4,097 Add: Other Income 181 246 299 510 Less: Exceptional Item 137 51 - - Profit before tax 1,233 2,932 4,465 4,607 Tax expense 356 752 1,132 1,063 Profit for the year 877 2,180 3,333 3,544 Other comprehensive income 206 (5) (46) (3) Total comprehensive income 1,083 2,175 3,287 3,541 Equity Dividend (%) 400% 750% 1000% 1100% Equity Dividend (`) 355 666 888 979 Employee costs (excluding VRS) 911 1,143 1,362 1,503 % to Sales Income 4.40% 4.20% 3.56% 3.19% Advertising 232 474 739 829 % to Sales Income 1.10% 1.70% 1.93% 1.76% 2024-25 54,842 49,550 767 537 3,988 493 - 4,481 1,146 3,335 (19) 3,316 1100% 977 1,717 3.13% 979 1.79%",
+      "ticker": "TITAN",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 455,
+      "section_title": "general",
+      "similarity": 0.624500632286072,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "ticker": "TITAN",
+      "content": "for the year ended 31st March 2025 376 Annual Report 2024-25 TITAN COMPANY LIMITED \u0007Based on technical evaluation and consequent advice, the management believes that its estimates of useful lives as given above represents the period over which the management expects to use these assets. \u0007When parts of an item of property, plant and equipment have different useful lives, they are accounted for as separate items (major components) of property, plant and equipment. Repairs and maintenance costs are recognised in the statement of consolidated profit and loss when incurred. \u0007The cost and related accumulated depreciation are eliminated from the consolidated financial statements upon sale or disposition of the asset and the resultant gains or losses are recognised in the statement of consolidated profit and loss. \u0007Advance paid towards acquisition of fixed assets outstanding at each consolidated balance sheet date is disclosed as capital advances under non-current assets. \u0007Capital work-in-progress includes cost of property, plant and equipment under installation/under development as at the consolidated balance sheet date. xiii. Investment property \u0007Investment properties are properties held to earn rentals and/or for capital appreciation. Investment properties are measured initially at cost, including transaction costs. Subsequent to initial recognition, investment properties are measured in accordance with Ind AS 16’s requirements for cost model. \u0007An investment property is derecognised upon disposal or when the investment property is permanently withdrawn from use and no future economic benefits are expected from the disposal. Any gain or loss arising on derecognition of the property (calculated as the difference between the net disposal proceeds and the carrying amount of the asset) is included in the statement of consolidated profit and loss in the period in which the property is derecognised. \u0007The investment property includes only land held by the Group and accordingly no amortisation of the investment property is recorded in the statement of consolidated profit and loss. \u0007The fair values of the investment property are",
+      "chunk_index": 778,
+      "page_number": 379,
+      "section_title": "Notes to Consolidated financial statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\TITAN_FY25.json"
+      },
+      "similarity": 15.83243640760858,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "id": "c7ed8b87-2b1d-41f1-9505-219d8620ccb6",
+      "content": "192 Annual Report 2024-25 TITAN COMPANY LIMITED (j) \u0007Subsidiary Companies: The Audit Committee",
+      "ticker": "TITAN",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 195,
+      "section_title": "general",
+      "similarity": 0.614403802585715,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015151515151515152
+    },
+    {
+      "ticker": "TITAN",
+      "content": "352 Annual Report 2024-25 TITAN COMPANY LIMITED Part “B”: Associate and Joint Venture Name of Associate Green Infra Wind Power Theni Limited 1 Latest audited Balance Sheet date 31st March 2025 2 Shares of Associate held by the Company on the year end - No. 15,00,000 - Amount of Investment in Associate (` crore) 1.50 - Extent of Holding % 26.79% 3 Description of how there is significant influence There is a significant influence due to percentage of Share Capital held 4 Reason why the associate is not consolidated Not applicable 5 Networth attributable to Shareholding as per latest audited Balance Sheet (` crore) 5 6 Profit/(loss) for the year - Considered in Consolidation (` crore) 1 Place: Bengaluru Date: 8th May 2025",
+      "chunk_index": 656,
+      "page_number": 355,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\TITAN_FY25.json"
+      },
+      "similarity": 15.45352695477991,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015151515151515152
+    },
+    {
+      "id": "e8a06835-f614-4ce5-8469-f1a48749f3d5",
+      "content": "104 Annual Report 2024-25 TITAN COMPANY LIMITED",
+      "ticker": "TITAN",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 107,
+      "section_title": "general",
+      "similarity": 0.613786385800082,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014925373134328358
+    },
+    {
+      "ticker": "TITAN",
+      "content": "for the year ended 31st March 2025 420 Annual Report 2024-25 TITAN COMPANY LIMITED ` in crore Other Income For the year ended 31st March 2025 For the year ended 31st March 2024 Watches and wearables 35 44 Jewellery 110 146 Eyecare 9 14 Others 7 10 Corporate (unallocated) 325 319 486 533 f) Geographical information ` in crore For the year ended 31st March 2025 For the year ended 31st March 2024 Revenue (including other income) India 58,368 50,130 Others {refer note (b) below} 2,574 1,487 Total 60,942 51,617 ` in crore For the year ended 31st March 2025 For the year ended 31st March 2024 Assets India {refer note (a) below} 38,609 30,126 Others {refer note (b) below} 2,038 1,424 Total 40,647 31,550 ` in crore For the year ended 31st March 2025 For the year ended 31st March 2024 Non current assets India 6,072 5,696 Others {refer note (b) below} 141 246 Total 6,213 5,942 a) \u0007Trade receivables are disclosed based on geographical location of customers. Other assets are not identifiable separately to any reportable segments as these are used inter changeably between segments and are disclosed under “India”. b) \u0007Details of geographical segments for individual markets outside India are not disclosed as the same do not account for more than 10% of the total segment revenues or assets.",
+      "chunk_index": 859,
+      "page_number": 423,
+      "section_title": "Notes to Consolidated financial statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\TITAN_FY25.json"
+      },
+      "similarity": 15.357809762963454,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014925373134328358
+    },
+    {
+      "id": "920732fb-af32-476e-aa20-5cbe8c470080",
+      "content": "356 Annual Report 2024-25 TITAN COMPANY LIMITED in accordance with the provisions of the Act for safeguarding the assets of each company and for preventing and detecting frauds and other irregularities; the selection and application of appropriate accounting policies; making judgments and estimates that are reasonable and prudent; and the design, implementation and maintenance of adequate internal financial controls, that were operating effectively for ensuring the accuracy and completeness of the accounting records, relevant to the preparation and presentation of",
+      "ticker": "TITAN",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 359,
+      "section_title": "general",
+      "similarity": 0.609058678150177,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014705882352941176
+    },
+    {
+      "ticker": "TITAN",
+      "content": "for the year ended 31st March 2025 340 Annual Report 2024-25 TITAN COMPANY LIMITED (iii) \u0007Fair value of financial assets and liabilities that are not measured at fair value but fair value disclosures are required The carrying values of financial assets and liabilities approximate the fair values. (iv) \u0007There have been no transfers between Level 1 and Level 2 for the years ended 31st March 2025 and 31st March 2024. (v) \u0007Significant unobservable inputs used in Level 3 fair value measurements and sensitivity of the fair value measurement to changes in unobservable inputs. Particulars Valuation technique Significant unobservable inputs Sensitivity of the input to the fair value Other Unquoted Investments DCF method Change in cash flows of subsequent years 10% increase/(decrease) in projected cash flows would result in increase/(decrease) of investment value by ` 4 crore Changes in discount rate for cash flows for subsequent years 10% increase/(decrease) in discount rate would result in increase of investment value by ` 4 crore, decrease of investment value by ` 5 crore vi) Reconciliation of financial assets measured at fair value using significant unobservable inputs (Level 3) Particulars For the year ended 31st March 2025 For the year ended 31st March 2024 Balance at the beginning 26 18 Fair value changes recognized through profit and loss (unrealised) 0 8 Balance at the end 26 26 34.3 Financial risk management objective \u0007The Company has constituted a Risk Management Committee. The Company has in place a risk management framework to identify, evaluate business risks and challenges across the Company both at corporate level as also separately for each business division. These risks include market risk, credit risk and liquidity risk. \u0007The Company minimises the effects of these risks by using derivative financial instruments to hedge risk exposures. The use of derivative financial instruments and investment of excess liquidity is governed by the Company’s policies approved by the Board of Directors, which provide written principles on the use of such instruments consistent with the Company’s risk management strategy. \u0007The Company does not enter into or trade financial instruments including derivative financial instruments, for speculative purposes.",
+      "chunk_index": 637,
+      "page_number": 343,
+      "section_title": "Notes to standalone financial statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\TITAN_FY25.json"
+      },
+      "similarity": 14.66216044405178,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014705882352941176
+    },
+    {
+      "id": "36b16054-6897-4892-ae79-90432bed614f",
+      "content": "258 Annual Report 2024-25 TITAN COMPANY LIMITED To the Members of Titan Company Limited Report on the Audit of the Standalone Financial Statements Opinion",
+      "ticker": "TITAN",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 261,
+      "section_title": "general",
+      "similarity": 0.607130729727107,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014492753623188406
+    },
+    {
+      "ticker": "TITAN",
+      "content": "since this may result in the recognition of income that may never be realised. However, when the realisation of income is virtually certain, then the related asset is not a contingent asset and is recognised. \u0007Provisions, contingent liabilities and contingent assets are reviewed at each Balance Sheet date. xxvi. Segment reporting \u0007Operating segments are reported in the manner consistent with the internal reporting to the chief operating decision maker (CODM). \u0007The Company’s primary segments consist of Watches and wearables, Jewellery, Eyewear, Corporate and Others, where ‘Others’ include Fragrances, Indian dress wear and Accessories. Secondary information is reported geographically. \u0007Segment assets and liabilities include all operating assets and liabilities. Segment results include all related income and expenditure. Corporate (unallocated) represents other income and expenses which relate to the Company as a whole and are not allocated to segments. xxvvii. \u0007Cash flow statement \u0007Cash flows are reported using indirect method, whereby net profits before tax is adjusted for the effects of transactions of a non-cash nature and any deferrals or accruals of past or future cash receipts or payments and items of income or expenses associated with investing or financing cash flows. The cash flows from regular revenue generating (operating activities), investing and financing activities of the Company are segregated.",
+      "chunk_index": 562,
+      "page_number": 296,
+      "section_title": "recognised in standalone financial statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\TITAN_FY25.json"
+      },
+      "similarity": 14.30110092540356,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014492753623188406
+    },
+    {
+      "id": "fdf7268a-de04-4391-9a62-a3cfc3856659",
+      "content": "254 Annual Report 2024-25 TITAN COMPANY LIMITED",
+      "ticker": "TITAN",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 257,
+      "section_title": "general",
+      "similarity": 0.59599413895642,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014285714285714285
+    },
+    {
+      "ticker": "TITAN",
+      "content": "for the year ended 31st March 2025 324 Annual Report 2024-25 TITAN COMPANY LIMITED 27 Earnings per share The following table sets forth the computation of basic and diluted earnings per share: ` in crore For the year ended 31st March 2025 For the year ended 31st March 2024 Profit for the year (` crore) 3,335 3,544 Weighted average number of equity shares* 88,70,52,227 88,73,95,949 Dilutive effect of Performance stock units outstanding 2,90,283 2,57,223 Weighted average number of equity shares outstanding in calculating diluted EPS 88,73,42,510 88,76,53,172 Nominal value of shares (`) 1 1 Earnings per share (`) - Basic 37.60 39.94 - Diluted 37.58 39.92 * After adjusting treasury shares of 7,40,900 28 Leases 28.1 Amounts recognised in balance sheet ` in crore Note As at 31st March 2025 As at 31st March 2024 (i) Right-of-use assets 4 Buildings 1,429 1,205 Leasehold land 20 20 1,449 1,225 (ii) Lease liabilities Non-current 14.2 1,943 1,666 Current 16.3 282 248 2,225 1,914 (iii) Lease receivables Non-current 7.3 578 531 Current 11.5 56 51 634 582 28.2 Amounts recognised in the statement of profit and loss ` in crore Note As at 31st March 2025 As at 31st March 2024 (i) Depreciation and amortisation expense 4 Buildings 287 244 Leasehold land 0 0 287 244",
+      "chunk_index": 613,
+      "page_number": 327,
+      "section_title": "Notes to standalone financial statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\TITAN_FY25.json"
+      },
+      "similarity": 13.648510110354689,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014285714285714285
+    }
+  ],
+  "generated_at": "2026-06-22T06:18:52.678499+00:00"
+}

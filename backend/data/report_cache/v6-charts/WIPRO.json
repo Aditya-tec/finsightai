@@ -1,0 +1,529 @@
+{
+  "sections": [
+    {
+      "title": "Executive Summary + Investment Thesis",
+      "body": "**Executive Summary**\nWipro, a leading IT services company, reported a marginal decline in IT Services segment revenue of 0.63% to ₹888,224 million for the year ended March 31, 2025, compared to ₹893,816 million in the previous year. Despite this, the company's profit attributable to equity holders increased by 18.92% to ₹131,354 million, driven by higher profits before tax and a decrease in effective tax rate to 24.45%. The IT Services segment's gross profit margin expanded by 51 basis points to 30.79%, primarily due to a decrease in sub-contracting costs. \n\n**Investment Thesis**\nOur investment thesis for Wipro is based on its ability to navigate challenges in the macroeconomic environment and deliver stable revenue growth. With a strong track record of providing constant currency revenue guidance, Wipro has demonstrated its ability to manage expectations and deliver results within the guided range. The company's focus on expanding its service offerings to existing clients and improving operational efficiency is expected to drive growth in the long term. Although the current revenue growth is modest, the improvement in gross profit margin and the increase in profit attributable to equity holders are positive indicators of the company's ability to adapt to changing market conditions. With a net cash generated from operating activities of ₹131,547 million and a strong balance sheet, Wipro is well-positioned to invest in growth initiatives and return value to shareholders.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 43,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 45,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 193,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Business Overview + Segment Breakdown",
+      "body": "Wipro is a global information technology, consulting, and business process services company that provides services to clients across various industry sectors. The company's IT Services segment is its largest business segment, and it has historically provided constant currency revenue guidance for this segment. For the year ended March 31, 2025, the IT Services segment revenue decreased marginally by 0.63% to ₹888,224 million compared to ₹893,816 million for the year ended March 31, 2024. The segment's gross profit increased by 1.06% to ₹273,470 million, and the segment results increased by 5.16% to ₹151,639 million. The company's revenue is primarily driven by its IT Services segment, and the segment's performance is critical to the company's overall financial performance. However, the exact breakdown of revenue by specific segments within IT Services (e.g. Americas 1, Americas 2, Europe, APMEA) is provided in terms of growth or decline but not in specific revenue figures, thus limiting further detailed analysis.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 45,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 101,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 43,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Financial Performance",
+      "body": "{\"body\": \"The company's consolidated revenue from operations decreased to ₹890.88 billion for the year ended March 31, 2025, from ₹897.60 billion in the previous year, recording a decrease of 0.75%. The consolidated net profit increased to ₹132.18 billion for the year ended March 31, 2025, from ₹111.12 billion in the previous year, recording an increase of 18.95%. On a standalone basis, the company's sales increased to ₹672.93 billion for the year ended March 31, 2025, from ₹667.92 billion in the previous year, recording an increase of 0.75%. The standalone net profit increased to ₹107.92 billion for the year ended March 31, 2025, from ₹91.19 billion in the previous year, recording an increase of 18.36%. \", \"chart_data\": {\"type\":\"bar\",\"labels\":[\"FY24\",\"FY25\"],\"datasets\":[{\"label\":\"Revenue (₹ Cr)\",\"values\":[897.6,890.88]},{\"label\":\"Net Profit (₹ Cr)\",\"values\":[111.12,132.18]}]}",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 43,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 115,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 291,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Balance Sheet Health + Cash Flow",
+      "body": "The 'Balance Sheet Health + Cash Flow' section of this report is based on the provided filing excerpts, which do not include a comprehensive balance sheet. However, we can analyze the cash flow statements and other relevant financial information to assess the company's balance sheet health and cash flow position. \n\nFor the year ended March 31, 2025, Wipro's consolidated net cash generated from operating activities was ₹169.43 billion, a decrease from ₹176.22 billion in the previous year. The company's cash flows from investing activities resulted in a net outflow of ₹80.73 billion in 2025, compared to a net inflow of ₹11.68 billion in 2024. This significant outflow in 2025 was primarily due to payments for the purchase of investments (₹80.16 billion) and property, plant, and equipment (₹14.74 billion), partially offset by proceeds from the sale of investments (₹70.65 billion) and property, plant, and equipment (₹1.82 billion). \n\nThe company's ability to generate cash from operations and manage its investing activities will be crucial in maintaining its balance sheet health. However, without a detailed balance sheet, we cannot provide a comprehensive assessment of the company's leverage, liquidity, or overall balance sheet strength. Peer comparison is also not possible due to the lack of relevant peer data in the provided excerpts.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 291,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 193,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 115,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Key Financial Ratios",
+      "body": "The 'Key Financial Ratios' section of this report is based on the provided filing excerpts for Wipro Limited. Given the available data, we can calculate a few key ratios. The net profit margin, for instance, can be derived for both the consolidated and standalone bases. For the consolidated basis, the net profit margin is 14.83% (₹132,180 million ÷ ₹890,884 million), and for the standalone basis, it is 16.04% (₹107,924 million ÷ ₹672,928 million). The return on equity (ROE) for the consolidated basis can be calculated as 18.95% × (₹132,180 million ÷ ₹20,944 million equity share capital, noting that this is not the precise net worth but used here due to the lack of specific net worth data in the provided excerpts), and for the standalone basis, it is 18.36% × (₹107,924 million ÷ ₹20,944 million). However, to accurately calculate ROE, net worth (shareholders' equity) is required, which is not directly provided in the excerpts. \n\nGiven the data, we can also observe the earnings per equity share (EPS), with the basic EPS for the consolidated basis being ₹12.56 and for the standalone basis being ₹10.32. The diluted EPS is slightly lower, at ₹12.52 for the consolidated basis and ₹10.29 for the standalone basis. These ratios and metrics provide insight into Wipro's financial performance for the year ended March 31, 2025. However, for a more comprehensive analysis, including peer comparison and additional financial ratios such as debt-to-equity or current ratios, more detailed financial information would be necessary.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 115,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 175,
+          "section": "Report on the Audit of the Standalone Financial Statements"
+        },
+        {
+          "source": "filing",
+          "page": 101,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Valuation Snapshot vs Sector Median",
+      "body": "Valuation Snapshot vs Sector Median\n\nAs of the latest available data, Wipro's consolidated net profit stood at ₹132,180 million for the financial year ended March 31, 2025, representing an 18.95% increase from the previous year. The company's consolidated sales decreased by 0.75% to ₹890,884 million during the same period. On a standalone basis, Wipro's sales increased by 0.75% to ₹672,928 million, while net profit rose by 18.36% to ₹107,924 million. \n\nUnfortunately, the provided excerpts do not contain peer comparison data, making it challenging to assess Wipro's valuation metrics relative to the sector median. To conduct a comprehensive valuation analysis, we would need access to industry benchmarks and peer group data, which are not available in the given context. Therefore, we cannot provide a direct comparison of Wipro's valuation metrics to the sector median at this time.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 101,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 43,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 115,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Management Commentary",
+      "body": "The management of Wipro has demonstrated a strong focus on risk management, driven by the Chief Risk Officer, with a comprehensive Enterprise Risk Management (ERM) framework in place. This framework is based on globally recognized standards and industry best practices, with a 360-degree coverage that includes proactive management of emerging risks and concerns. The company's ERM framework has been digitized to enable faster and more informed risk-based decisions, promoting a risk-resilient culture. As noted by Gartner in their vendor rating report of August 2024, Wipro's strong focus on risk management is a business differentiator that is focused on four major pillars: enhanced reliability, resilience, agility, and security of business solutions.\n\nThe management has also emphasized the importance of identifying, assessing, and mitigating risks, with a four-step process in place that includes proactive risk identification, assessment, treatment, and reporting. This process ensures that risks are continuously monitored and reported internally to the Board and externally to stakeholders, ensuring compliance and transparency. The company's commitment to risk management has been recognized through awards, such as the 'Masters of Risk – IT & ITES' in the Large Cap category at the CNBC TV 18 India Risk Management Awards 2025. Additionally, a benchmarking study by PricewaterhouseCoopers (PWC) in 2023 noted that Wipro has achieved an advanced level of maturity in its ERM practices, positioning the company well to leverage these practices as a market differentiator. However, specific financial metrics such as revenue from operations or net profit are not provided in the given context, limiting the ability to provide a more detailed analysis of the company's financial performance.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 45,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 101,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 111,
+          "section": "management discussions and provides visibility as"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Key Risks",
+      "body": "The 'Key Risks' section of this report highlights the potential challenges that Wipro may face. Although the company has a robust Enterprise Risk Management (ERM) framework in place, which is based on globally recognized standards and industry best practices, there are still several risks that need to be considered. These include macroeconomic challenges, which resulted in a decline in discretionary spending during the year ended March 31, 2025, and led to a marginal decrease of 0.63% in the IT Services segment revenue. Additionally, the company's revenue from Europe and APMEA declined during fiscal 2025, while revenue from Americas 1 and Americas 2 grew. The company's effective tax rate has also decreased marginally from 24.52% for the year ended March 31, 2024 to 24.45% for the year ended March 31, 2025.\n\nOther key risks include the potential impact of exchange rate fluctuations, which can affect the company's revenue, as well as the challenges associated with managing a global workforce, including employee compensation costs and subcontracting costs. The company's gross profit as a percentage of revenue from the IT Services segment increased by 51 basis points, primarily due to a decrease in subcontracting costs as a percentage of IT Services revenue. However, the company still faces risks related to its ability to manage costs and maintain profitability in a competitive market. Unfortunately, the provided excerpts do not contain specific figures on the company's net profit or net worth, which would be useful in assessing the company's overall financial health and risk profile. Peer comparison is also not possible due to the lack of relevant data.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 111,
+          "section": "management discussions and provides visibility as"
+        },
+        {
+          "source": "filing",
+          "page": 101,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 43,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Recent Developments",
+      "body": "Recent Developments\n\nWipro has demonstrated a strong operational performance, with net cash generated from operating activities standing at ₹169.43 billion for the year ended March 31, 2025, compared to ₹176.22 billion in the previous year. The company's profit for the year has also shown an increase, rising to ₹132.18 billion from ₹111.12 billion in the year ended March 31, 2024. In terms of investing activities, Wipro has invested significantly in purchases of investments, with a payment of ₹801.58 billion, although this was largely offset by proceeds from the sale of investments, which amounted to ₹706.52 billion.\n\nThe company has also made efforts to enhance its sustainability initiatives, with a focus on renewable energy, waste management, and water reuse. As of the latest reporting period, 84% of Wipro's total energy consumption is from renewable sources, while 97% of waste is avoided from being sent to landfills. Additionally, 31% of the company's total water consumption is reused. These initiatives underscore Wipro's commitment to environmental sustainability and social responsibility. However, peer comparison is not possible due to the absence of relevant data.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 291,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 18,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 495,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Bull vs Bear vs Base Case",
+      "body": "The 'Bull vs Bear vs Base Case' section of our report on Wipro presents three distinct scenarios based on the company's performance and outlook. The bull case is supported by Wipro's strong track record of delivering revenue guidance, with the company meeting or exceeding its constant currency revenue guidance in 7 out of 8 quarters in fiscal years 2024 and 2025. Additionally, the company's robust Enterprise Risk Management (ERM) framework, which has been recognized by independent analysts such as Gartner and PricewaterhouseCoopers, provides a competitive advantage and enhances its reliability, resilience, and security. \n\nIn contrast, the bear case highlights potential risks, including the concentration of revenue from a limited number of large clients, with the top 5 clients accounting for 12.9%, 13.0%, and 14.0% of total IT Services revenues in fiscal years 2023, 2024, and 2025, respectively. However, it is worth noting that the company's largest client accounted for only 3.2%, 3.0%, and 4.3% of IT Services revenues in the same periods. Our base case scenario assumes that Wipro will continue to deliver steady revenue growth, driven by its diversified client base and strong ERM framework, with revenue from operations net of GST expected to remain stable. However, without explicit revenue figures provided in the excerpts, we cannot quantify the exact revenue expectations for each scenario.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 45,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 111,
+          "section": "management discussions and provides visibility as"
+        },
+        {
+          "source": "filing",
+          "page": 101,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Peer Comparison",
+      "body": "Peer Comparison: \nA peer comparison for Wipro is not possible based on the provided filing excerpts, as they do not contain financial data or metrics for peer companies. The excerpts primarily focus on Wipro's risk management framework, IT services clients, and cybersecurity risk management program, without providing comparable data for other companies in the industry. Therefore, a direct comparison with peers cannot be made.\n\nHowever, it is mentioned that according to a benchmarking study done by PricewaterhouseCoopers (PWC) in 2023, Wipro has achieved an advanced level of maturity with reference to its Enterprise Risk Management (ERM) practices, positioning it well to leverage ERM as a market differentiator compared to its peers. This suggests that Wipro's ERM practices are robust, but a more comprehensive peer comparison would require additional data and information.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 101,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 45,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 123,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    }
+  ],
+  "eval_context": [
+    {
+      "id": "cb720f06-634f-47d7-961c-e9ffb6a656b4",
+      "content": "OPINION We have audited the accompanying Standalone Financial Statements of Wipro Limited (the “Company”), which comprise the Balance Sheet as at March 31, 2025, and the Statement of Profit and Loss (including Other Comprehensive Income), the Statement of Changes in Equity and the Statement of Cash Flows and for the year",
+      "ticker": "WIPRO",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 175,
+      "section_title": "Report on the Audit of the Standalone Financial Statements",
+      "similarity": 0.722432245773273,
+      "retrieval_source": "vector",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "ticker": "WIPRO",
+      "content": "RISK MANAGEMENT Our Enterprise Risk Management (ERM) framework is based on globally recognized standards and industry best practices. In alignment with the organization’s strategic objectives, it has a 360-degree coverage. Its key mission is to avoid surprises with proactive management of organization's risks including emerging risks and concerns. It also takes into account risk mitigation that aims to drive residual risk within risk thresholds and supports continuous risk advocacy programs, taking into account the requirements of clients and employees as pivotal stakeholders. The framework infuses technology and risk-intelligent decision making across all aspects of business operations. It is designed to be agile, proactively navigate uncertainties and capitalize on opportunities in a dynamic business environment. The framework has been digitized to enable businesses to take faster, informed and effective risk-based decisions, encouraging a risk-resilient culture. The ERM framework is administered by the Audit, Risk and Compliance Committee of the Board and is supported by a multi-layered risk governance structure across the organization. Gartner, an independent analyst firm, in their vendor rating report of August 2024, has stated that Wipro has a strong focus on risk management, driven by the Chief Risk Officer. Wipro views this as a business differentiator that is focused on four major pillars: enhanced reliability, resilience, agility, and security of business solutions. Wipro’s Arc 360 is a comprehensive risk assessment model that provides a 360-degree view of risks at the account level. It also leverages management capabilities for effective risk mitigation and informed decision making. Wipro won the ‘Masters of Risk – IT & ITES’ in the Large Cap category, at the CNBC TV 18 India Risk Management Awards 2025. In a benchmarking study done by PricewaterhouseCoopers (PWC) in 2023, they had endorsed that, “As compared to peers, Wipro has achieved advanced level of maturity with reference to its ERM practices, as a result of which Wipro is well positioned to leverage the ERM practices as a market differentiator.” At Wipro, we have continued to build on these practices this year as well. 100 REPORTING CONTEXT CORPORATE OVERVIEW PERFORMANCE AND OUTLOOK SUSTAINABILITY AT WIPRO",
+      "chunk_index": 182,
+      "page_number": 101,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\WIPRO_FY25.json"
+      },
+      "similarity": 16.812700338951085,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "id": "0b82b2b1-4300-4eec-bf60-aca7b927d304",
+      "content": "192 REPORTING CONTEXT CORPORATE OVERVIEW PERFORMANCE AND OUTLOOK SUSTAINABILITY AT WIPRO For the year ended March 31, 2025 For the year ended March 31, 2024 Cash flows from operating activities Profit for the year 107,924 91,186 Adjustments to reconcile profit for the year to net cash generated from operating activities Gain on sale of property, plant and equipment, net (750) (2,093) Depreciation, amortization and impairment expense 14,466 14,918 Unrealised exchange (gain)/loss and net exchange (gain)/loss on loans to subsidiaries (788) 599 Share-based compensation expense 4,737 4,738 Income tax expense 36,378 32,989 Lifetime expected credit loss 825 329 Finance and other income, net of finance costs (27,511) (19,799) Diminution in the value of non-current investments 359 - Changes in operating assets and liabilities (Increase)/Decrease in trade receivables 3,558 14,135 (Increase)/Decrease in unbilled receivables and contract assets (2,953) 5,209 (Increase)/Decrease in inventories 107 184 (Increase)/Decrease in other financial assets and other assets 4,913 6,914 Increase/(Decrease) in trade payables, other financial liabilities, other liabilities and provisions 9,836 7,826 Increase/(Decrease) in contract liabilities 881 (4,767) Cash generated from operating activities before taxes 151,982 152,368 Income taxes paid, net (20,435) (10,209) Net cash generated from operating activities 131,547 142,159 Cash flows from investing activities Payment for purchase of property, plant and equipment (10,539) (7,508) Proceeds from disposal of property, plant and equipment 1,832 3,780 Payment for purchase of investments (780,640) (943,324) Proceeds from sale of investments 688,878 944,799 Investment in subsidiaries (51) (12,753) Proceeds from repayment of loan by subsidiaries - 12,417 Proceeds from/(Repayment of) security deposit for property, plant and equipment (300) 300 Interest received 23,722 19,441 Dividend received 5,163 5,218 Net cash generated from/(used in) investing activities (71,935) 22,370 Statements of Cash Flows",
+      "ticker": "WIPRO",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 193,
+      "section_title": "general",
+      "similarity": 0.703334640661564,
+      "retrieval_source": "vector",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "ticker": "WIPRO",
+      "content": "OPINION We have audited the accompanying Standalone Financial Statements of Wipro Limited (the “Company”), which comprise the Balance Sheet as at March 31, 2025, and the Statement of Profit and Loss (including Other Comprehensive Income), the Statement of Changes in Equity and the Statement of Cash Flows and for the year",
+      "chunk_index": 338,
+      "page_number": 175,
+      "section_title": "Report on the Audit of the Standalone Financial Statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\WIPRO_FY25.json"
+      },
+      "similarity": 16.802621307811084,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "id": "e7a0231d-894b-4bf8-b2ca-4347e91e0473",
+      "content": "290 REPORTING CONTEXT CORPORATE OVERVIEW PERFORMANCE AND OUTLOOK SUSTAINABILITY AT WIPRO For the year ended March 31, 2025 For the year ended March 31, 2024 Cash flows from operating activities: Profit for the year 132,180 111,121 Adjustments to reconcile profit for the year to net cash generated from operating activities Gain on sale of property, plant and equipment, net (606) (2,072) Depreciation, amortization and impairment expense 29,579 34,071 Unrealised exchange (gain)/loss, net (623) 655 Share-based compensation expense 5,551 5,584 Share of net (profit)/loss of associate and joint venture accounted for using equity method (254) 233 Income tax expense 42,777 36,089 Finance and other income, net of finance costs (23,432) (11,344) Change in fair value of contingent consideration (169) (1,300) Lifetime expected credit loss 324 640 Other non-cash items - 488 Changes in operating assets and liabilities, net of effects from acquisitions (Increase)/Decrease in trade receivables 1,894 7,824 (Increase)/Decrease in unbilled receivables and contract assets (1,331) 5,919 (Increase)/Decrease in inventories 213 287 (Increase)/Decrease in other financial assets and other assets 6,609 8,869 Increase/(Decrease) in trade payables, other financial liabilities, other liabilities and provisions 548 (435) Increase/(Decrease) in contract liabilities 2,341 (5,053) Cash generated from operating activities before taxes 195,601 191,576 Income taxes paid, net (26,175) (15,360) Net cash generated from operating activities 169,426 176,216 Cash flows from investing activities: Payment for purchase of property, plant and equipment (14,737) (10,510) Proceeds from disposal of property, plant and equipment 1,822 4,022 Payment for purchase of investments (801,582) (975,069) Proceeds from sale of investments 706,520 978,598 Payment for business acquisitions including deposits and escrow, net of cash acquired (964) (5,291) Payment for investment in joint venture - (484) Proceeds from/(repayment of) security deposit for property, plant and equipment (300) 300 Interest received 26,212 20,111 Dividend received 2,299 3 Net cash generated from/(used in) investing activities (80,730) 11,680 Consolidated Statements of Cash Flows",
+      "ticker": "WIPRO",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 291,
+      "section_title": "general",
+      "similarity": 0.694079217844087,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "ticker": "WIPRO",
+      "content": "to how ESG risks influence and interact with other enterprise risks. This cross-functional mapping across functions such as Facilities Management, HR, Data Privacy and Business Resilience ensure appropriate investments and mitigation controls. Risk Identification, Assessment and Mitigation Our four-step process identifies, assesses and mitigates risks: • Identification: Proactive ESG and climate risks identification is done through stakeholder engagement, materiality assessments, gap analyses and SWOT studies. • Assessment: Risks are assessed using scenario analysis and a risk matrix, evaluating severity, likelihood and financial impact across dimensions like safety, infrastructure and customer delivery. • Treatment: Developing and implementing tailored mitigation strategies for prioritized risks, supported by detailed business cases and management approval. • Reporting: Continuously monitored via Key Risk Indicators (KRIs) and reported internally to the Board and externally to stakeholders, ensuring compliance and transparency. 110 REPORTING CONTEXT CORPORATE OVERVIEW PERFORMANCE AND OUTLOOK SUSTAINABILITY AT WIPRO",
+      "chunk_index": 198,
+      "page_number": 111,
+      "section_title": "management discussions and provides visibility as",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\WIPRO_FY25.json"
+      },
+      "similarity": 15.793707582662034,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "id": "360db755-0e56-4b3c-9d5e-27f8ddf5cf5f",
+      "content": "180 REPORTING CONTEXT CORPORATE OVERVIEW PERFORMANCE AND OUTLOOK SUSTAINABILITY AT WIPRO statements in accordance with generally accepted accounting principles, and that receipts and expenditures of the company are being made only in accordance with authorisations of management and directors of the company; and (3) provide reasonable assurance regarding prevention or timely detection of unauthorised acquisition, use, or disposition of the company's assets that could have",
+      "ticker": "WIPRO",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 181,
+      "section_title": "general",
+      "similarity": 0.637714071546312,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015625
+    },
+    {
+      "ticker": "WIPRO",
+      "content": "Company’s cybersecurity risk management program is managed by its Chief Information Security Office function. Your Company’s cybersecurity risk management framework is defined and implemented to identify, assess, evaluate, treat, monitor, and report cyber risks across your IT infrastructure, applications, platforms, intellectual property, critical processes, technology solutions and third-party services. Cybersecurity risk assessment results and the status of the risk treatment plans are reviewed by management on a periodic basis. \u0007Your Company assesses and governs the cybersecurity program using selected industry best practices and frameworks from the International Organization for Standardization (“ISO”) and the National Institute of Standards and Technology (“NIST”). \u0007With the rise of connected devices, the transition to cloud services, the adoption of AI, Generative AI and other emerging technologies, and other factors, REPORTING CONTEXT CORPORATE OVERVIEW PERFORMANCE AND OUTLOOK SUSTAINABILITY AT WIPRO 122",
+      "chunk_index": 230,
+      "page_number": 123,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\WIPRO_FY25.json"
+      },
+      "similarity": 15.628494550074315,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015625
+    },
+    {
+      "id": "54151d48-34ef-4c46-9366-a5cd421d8b33",
+      "content": "We have audited the accompanying consolidated statements of financial position of Wipro Limited and subsidiaries (the “Company”) as of March 31, 2025 and 2024, the related consolidated statements of income, comprehensive income, shareholders' equity, and cash flows, for each of the three years in the period ended March",
+      "ticker": "WIPRO",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 389,
+      "section_title": "OPINION ON THE FINANCIAL STATEMENTS",
+      "similarity": 0.62706731235179,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "ticker": "WIPRO",
+      "content": "hard work, commitment, and creativity of our employees. They are the driving force behind Wipro’s success. 84% Renewable Energy (% of total consumption) 97% Waste Avoided from being sent to Landfills 31% Water Reused (% of total water consumption) 2 3 Integrated Annual Report 2024-25 REPORTING CONTEXT CORPORATE OVERVIEW PERFORMANCE AND OUTLOOK SUSTAINABILITY AT WIPRO VALUE CREATION FOR STAKEHOLDERS RISK MANAGEMENT",
+      "chunk_index": 28,
+      "page_number": 18,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\WIPRO_FY25.json"
+      },
+      "similarity": 15.286240435302043,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "id": "6c3c2faf-a31e-460f-9c58-9fe121898ceb",
+      "content": "Board’s Report Dear Members, It gives me immense pleasure to present the 79th Board’s Report of Wipro Limited (the “Company”), on behalf of the Board of Directors (the “Board”), along with the Balance Sheet, Profit and Loss account and Cash Flow statements, for the financial year ended March 31, 2025. I. FINANCIAL PERFORMANCE \u0007On a consolidated basis, your Company’s sales decreased to H 890,884 Million for the current year as against H 897,603 Million in the previous year, recording a decrease of 0.75%. Your Company’s net profit increased to H 132,180 Million for the current year as against H 111,121 Million in the previous year, recording an increase of 18.95%. \u0007On a standalone basis, your Company’s sales increased to H 672,928 Million for the current year as against H 667,924 Million in the previous year, recording an increase of 0.75%. Your Company’s net profit increased to H 107,924 Million in the current year as against H 91,186 Million in the previous year, recording an increase of 18.36%. \u0007Key highlights of the financial performance of your Company for the financial year 2024-25 are provided below: (C in Millions) Particulars Standalone Consolidated 2024-25 2023-24 2024-25 2023-24 Sales 672,928 667,924 890,884 897,603 Other Income 38,598 30,458 38,840 26,308 Operating Expenses (567,224) (574,207) (755,021) (776,468) Share of net profit/ (loss) of associates accounted for using the equity method - - 254 (233) Profit before Tax 144,302 124,175 174,957 147,210 Provision for Tax (36,378) (32,989) (42,777) (36,089) Net profit for the year 107,924 91,186 132,180 111,121 Other comprehensive (loss)/income for the year 511 3,810 4,148 7,059 Total comprehensive income for the year 108,435 94,996 136,328 118,180 Total comprehensive income for the period attributable to: Non-controlling interests - - 848 504 Equity holders 108,435 94,996 135,480 117,676 Appropriations Dividend 62,821 5,224 62,750 5,218 Equity Share Capital 20,944 10,450 20,944 10,450 Earnings per equity share - Basic 10.32 8.62* 12.56 10.44* - Diluted 10.29 8.59* 12.52 10.41*",
+      "ticker": "WIPRO",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 115,
+      "section_title": "general",
+      "similarity": 0.612215803597478,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015151515151515152
+    },
+    {
+      "ticker": "WIPRO",
+      "content": "174 REPORTING CONTEXT CORPORATE OVERVIEW PERFORMANCE AND OUTLOOK SUSTAINABILITY AT WIPRO Independent Auditor’s Report To The Members of Wipro Limited",
+      "chunk_index": 337,
+      "page_number": 175,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\WIPRO_FY25.json"
+      },
+      "similarity": 15.234695291766357,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015151515151515152
+    },
+    {
+      "id": "ab4392fc-e09e-4883-a2e3-1b1e2cbbb1e3",
+      "content": "234 REPORTING CONTEXT CORPORATE OVERVIEW PERFORMANCE AND OUTLOOK SUSTAINABILITY AT WIPRO",
+      "ticker": "WIPRO",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 235,
+      "section_title": "general",
+      "similarity": 0.610067973720795,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014925373134328358
+    },
+    {
+      "ticker": "WIPRO",
+      "content": "276 REPORTING CONTEXT CORPORATE OVERVIEW PERFORMANCE AND OUTLOOK SUSTAINABILITY AT WIPRO Independent Auditor’s Report To The Members of Wipro Limited",
+      "chunk_index": 759,
+      "page_number": 277,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\WIPRO_FY25.json"
+      },
+      "similarity": 15.234695291766357,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014925373134328358
+    },
+    {
+      "id": "fea254a8-9574-4ae8-b22d-77e73fa39417",
+      "content": "294 REPORTING CONTEXT CORPORATE OVERVIEW PERFORMANCE AND OUTLOOK SUSTAINABILITY AT WIPRO",
+      "ticker": "WIPRO",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 295,
+      "section_title": "general",
+      "similarity": 0.609203999411709,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014705882352941176
+    },
+    {
+      "ticker": "WIPRO",
+      "content": "is currently recycled by approved vendors. (c) Hazardous waste - Biomedical and hazardous waste is incinerated as per approved methods. (d) \u0007Other waste - All our organic waste is recycled and composted; most of the inorganic waste is recycled through approved partners. \u0007Given that Wipro does not manufacture any products, this question is not applicable. However, Wipro has waste management strategies in place for its own operations, as mentioned above. 494 REPORTING CONTEXT CORPORATE OVERVIEW PERFORMANCE AND OUTLOOK SUSTAINABILITY AT WIPRO",
+      "chunk_index": 1570,
+      "page_number": 495,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\WIPRO_FY25.json"
+      },
+      "similarity": 14.778541215858612,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014705882352941176
+    },
+    {
+      "id": "da3786ab-d913-4f34-81d1-0de2ab84f06f",
+      "content": "252 REPORTING CONTEXT CORPORATE OVERVIEW PERFORMANCE AND OUTLOOK SUSTAINABILITY AT WIPRO",
+      "ticker": "WIPRO",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 253,
+      "section_title": "general",
+      "similarity": 0.608868453772437,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014492753623188406
+    },
+    {
+      "ticker": "WIPRO",
+      "content": "IT Services Clients We service clients from a broad array of industry sectors. Several of our clients engage our services across multiple service offerings. We seek to increase business with our existing clients by expanding the type and range of services we can provide to them. The table below sets forth the number of our clients as measured by revenues. Per client revenue ($) Number of clients in Year ended March 31, 2025 2024 2023 1-3 million 318 332 330 3-5 million 109 108 121 5-50 million 245 256 262 Guided Outlook Versus Actuals Performance Against Guidance Historically, we have followed a practice of providing constant currency revenue guidance for our largest business segment, namely, IT Services in dollar terms. The guidance is provided at the release of every quarterly earnings when revenue outlook for the succeeding quarter is shared. The following table presents the performance of IT Services Revenue against outlook previously communicated for the past eight quarters. Our revenue performance has been within the guidance range in 7 out of 8 quarters of fiscal year 2024 and 2025 and exceeded the guidance range once in Q3’25. Per client revenue ($) Number of clients in Year ended March 31, 2025 2024 2023 50-100 million 27 23 34 > 100 million 17 22 19 Total > 1 million 716 741 766 The largest client of our IT Services business accounted for 3.2%, 3.0%, and 4.3% of revenues from the IT Services business as a whole for the years ended March 31, 2023, 2024, and 2025, respectively. The five largest clients of our IT Services business accounted for 12.9%, 13.0%, and 14.0% of our total IT Services revenues for the years ended March 31, 2023, 2024, and 2025, respectively. Quarter Guidance ($ Mn) Revenue - Reported currency ($ Mn) Revenue - Guided currency ($ Mn) Q4'25 (Jan-Mar 2025) 2,602-2,655 2,596.5 2,607.9 Q3'25 (Oct-Dec 2024) 2,607-2,660 2,629.1 2,661.4 Q2'25 (July-Sept 2024) 2,600-2,652 2,660.1 2,642.0 Q1'25 (April-June 2024) 2,617-2,670 2,625.9 2,631.4 Q4'24 (Jan-Mar 2024) 2,615-2,669 2,657.4 2,648.9 Q3'24 (Oct-Dec 2023) 2,617-2,672 2,656.1 2,668.6 Q2'24 (July-Sept 2023) 2,722-2,805 2,713.3 2,723.3 Q1'24 (April-June 2023) 2,753-2,811 2,778.5 2759.0 42 REPORTING CONTEXT CORPORATE OVERVIEW PERFORMANCE AND OUTLOOK SUSTAINABILITY AT WIPRO",
+      "chunk_index": 84,
+      "page_number": 45,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\WIPRO_FY25.json"
+      },
+      "similarity": 14.70099598782012,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014492753623188406
+    },
+    {
+      "id": "246f99fc-b02a-4476-b35c-128a7280c155",
+      "content": "308 REPORTING CONTEXT CORPORATE OVERVIEW PERFORMANCE AND OUTLOOK SUSTAINABILITY AT WIPRO",
+      "ticker": "WIPRO",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 309,
+      "section_title": "general",
+      "similarity": 0.608581649234103,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014285714285714285
+    },
+    {
+      "ticker": "WIPRO",
+      "content": "due to higher profits before tax during the fiscal year 2025. However, our effective tax rate has decreased marginally from 24.52% for the year ended March 31, 2024 to 24.45% for the year ended March 31, 2025. Profit Attributable to Equity Holders: As a result of the foregoing factors, our profit attributable to equity holders increased by H20,902 million or 18.92%, from H110,452 million for the year ended March 31, 2024 to H131,354 million for the year ended March 31, 2025. Analysis of Revenue and Results by Segment Operating results of the IT Services segment are as follows: (H in million) Year ended March 31, YoY change 2025 2024 2025-24 Revenue(1) 888,224 893,816 (0.63)% Cost of revenue (614,754) (623,205) (1.36)% Gross profit 273,470 270,611 1.06% Selling and marketing expenses (64,305) (68,352) (5.92)% General and administrative expenses (57,526) (58,063) (0.92)% Segment results 151,639 144,196 5.16% As a percentage of revenue: Selling and marketing expenses 7.24% 7.65% (41)bps General and administrative expenses 6.48% 6.50% (2)bps Gross margins 30.79% 30.28% 51bps Segment results 17.07% 16.13% 94bps (1) \u0007For the purpose of segment reporting, we have included the impact of exchange rate fluctuations gains/(losses), net amounting to H340 million and H32 million for the years ended March 31, 2024 and 2025, respectively, in revenue. IT Services Results of Operations for the Years Ended March 31, 2025 and 2024 The IT Services segment revenue decreased marginally by 0.63% for the year ended March 31, 2025 compared to our revenue for the year ended March 31, 2024. Challenges in the macroeconomic environment resulted in a decline in discretionary spending during the year ended March 31, 2025. During fiscal 2025, the revenue from Americas 1 and Americas 2 grew, while revenue from Europe and APMEA declined. Our gross profit as a percentage of our revenue from our IT Services segment increased by 51 bps, primarily due to a decrease in sub-contracting costs as a percentage of IT Services revenue from 11.32% for the year ended March 31, 2024 to 11.07% for the year ended March 31, 2025. Further, our total employee compensation costs decreased by H3,023 million primarily due to lower average headcount in fiscal year 2025 as compared to fiscal year 2024 and was partially offset by the impact of salary increases and promotions. Further improvement 40 REPORTING CONTEXT CORPORATE OVERVIEW PERFORMANCE AND OUTLOOK SUSTAINABILITY AT WIPRO",
+      "chunk_index": 80,
+      "page_number": 43,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\WIPRO_FY25.json"
+      },
+      "similarity": 14.233646646025962,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014285714285714285
+    }
+  ],
+  "generated_at": "2026-06-22T05:50:36.243549+00:00"
+}

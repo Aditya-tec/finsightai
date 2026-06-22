@@ -1,0 +1,545 @@
+{
+  "sections": [
+    {
+      "title": "Executive Summary + Investment Thesis",
+      "body": "**Executive Summary**\n\nHCLTech, a leading IT services company, reported a consolidated total income of ₹119.54 billion for the year ended 31 March 2025, representing a 7.3% increase from ₹111.41 billion in the previous year. The company's revenue from operations stood at ₹117.06 billion, with the IT and Business Services segment contributing ₹86.44 billion, followed by Engineering and R&D services at ₹18.96 billion, and HCL Software at ₹11.66 billion. Net profit for the year increased by 11.1% to ₹17.40 billion from ₹15.71 billion in the previous year.\n\n**Investment Thesis**\n\nOur investment thesis for HCLTech is positive, driven by the company's consistent revenue growth and improving profitability. With a strong portfolio of services and a diverse client base, we believe HCLTech is well-positioned to capitalize on the growing demand for digital transformation and IT services. The company's segment results show a significant contribution from the IT and Business Services segment, which reported a segment result of ₹14.80 billion, up 7.3% from ₹13.79 billion in the previous year. While unallocable expenses, including finance costs and depreciation, remain a concern, the company's ability to manage these expenses and deliver consistent profit growth is a key positive. With a profit before tax of ₹23.26 billion and a net profit of ₹17.40 billion, we believe HCLTech offers a compelling investment opportunity for investors looking for exposure to the Indian IT services sector. However, a detailed peer comparison is not possible due to the lack of available data.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 438,
+          "section": "The accounting principles used in the preparation of the consolidated financial statements are consistently applied"
+        },
+        {
+          "source": "filing",
+          "page": 438,
+          "section": "The accounting principles used in the preparation of the consolidated financial statements are consistently applied"
+        },
+        {
+          "source": "filing",
+          "page": 384,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Business Overview + Segment Breakdown",
+      "body": "HCLTech operates in a fast-paced industry with a business model that is susceptible to changing client needs, talent acquisition, and evolving operating models. The company has identified strategic risks, including portfolio concentration and business delivery constraints, and has implemented mitigation strategies such as diversification and continuous monitoring of the global technology market. The company's revenue from operations for the year ended 31 March 2025 was ₹117,055 crore, with segment revenues breakdown as follows: IT and Business Services (₹86,438 crore), Engineering and R&D services (₹18,960 crore), and HCL Software (₹12,049 crore). The segment results for the year ended 31 March 2025 were: IT and Business Services (₹14,796 crore), Engineering and R&D services (₹3,415 crore), and HCL Software (₹3,209 crore).",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 438,
+          "section": "The accounting principles used in the preparation of the consolidated financial statements are consistently applied"
+        },
+        {
+          "source": "filing",
+          "page": 438,
+          "section": "The accounting principles used in the preparation of the consolidated financial statements are consistently applied"
+        },
+        {
+          "source": "filing",
+          "page": 141,
+          "section": "general"
+        }
+      ],
+      "chart_data": {
+        "type": "donut",
+        "segments": [
+          {
+            "label": "IT and Business Services",
+            "value": 86438.0
+          },
+          {
+            "label": "Engineering and R&D services",
+            "value": 18960.0
+          },
+          {
+            "label": "HCL Software",
+            "value": 12049.0
+          }
+        ]
+      }
+    },
+    {
+      "title": "Financial Performance",
+      "body": "{\"body\": \"<section prose>The financial performance of HCLTech for the years ended 31 March 2025 and 31 March 2024 is summarized below. The company's revenue from operations was ₹117,055 crore and ₹109,913 crore for FY25 and FY24, respectively. The profit before tax for FY25 was ₹23,261 crore, compared to ₹20,967 crore in FY24. The net profit for the year was ₹17,399 crore in FY25 and ₹15,710 crore in FY24. The significant non-cash items include depreciation and amortization expense of ₹4,084 crore in FY25 and ₹4,173 crore in FY24.</section>\", \"chart_data\": {\"type\":\"bar\",\"labels\":[\"FY24\",\"FY25\"],\"datasets\":[{\"label\":\"Revenue (₹ Cr)\",\"values\":[109913,117055]},{\"label\":\"Net Profit (₹ Cr)\",\"values\":[15710,17399}]}}",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 355,
+          "section": "Standalone Financial Statements"
+        },
+        {
+          "source": "filing",
+          "page": 388,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 438,
+          "section": "The accounting principles used in the preparation of the consolidated financial statements are consistently applied"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Balance Sheet Health + Cash Flow",
+      "body": "The balance sheet health of HCLTech appears robust, with a total equity of ₹68,271 crore as of 31 March 2024, comprising share capital, reserves and surplus, and other comprehensive income. The company's net worth has consistently increased over the years, with a profit for the year of ₹17,390 crore in the year ended 31 March 2025. The cash flow hedging reserve, which stood at ₹497 crore as of 31 March 2024, increased to ₹357 crore as of 31 March 2025, after considering the reclassification of gains into the statement of profit and loss.\n\nIn terms of cash flow, HCLTech generated a net cash flow from operating activities of ₹22,261 crore in the year ended 31 March 2025, which is marginally lower than the ₹22,448 crore generated in the previous year. The company's cash generated from operations was ₹26,504 crore, which was offset by income taxes paid of ₹4,243 crore. The net cash flow used in investing activities was ₹4,914 crore, primarily due to investments in bank deposits and purchase of investments in securities. The net cash flow used in financing activities was ₹18,561 crore, mainly due to dividend payments of ₹16,250 crore and repayment of borrowings. As a result, the company's cash and cash equivalents decreased by ₹1,214 crore to ₹8,245 crore as of 31 March 2025.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 388,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 355,
+          "section": "Standalone Financial Statements"
+        },
+        {
+          "source": "filing",
+          "page": 386,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Key Financial Ratios",
+      "body": "The 'Key Financial Ratios' section of this report is limited due to the absence of specific financial data in the provided excerpts. However, we can derive some insights from the available information. As of 31 March 2025, HCLTech's unrealized gain on financial instruments classified under current and non-current financial assets was ₹115 and ₹338, respectively, for derivatives designated as hedging instruments. The company also reported an unrealized loss on financial instruments classified under current financial liabilities of ₹3. \n\nIn terms of cash flow hedging, the company had a gain of ₹475 as at the end of 31 March 2025, with an estimated net amount of existing gain expected to be reclassified into the statement of profit and loss within the next twelve months of ₹129 crores. Unfortunately, without additional financial data such as revenue, net profit, or net worth, we are unable to calculate key financial ratios such as return on equity, debt-to-equity, or profit margins. Peer comparison is also not possible due to the lack of relevant data. \n\nTherefore, this section is constrained by the limited availability of financial information in the provided excerpts, and a more comprehensive analysis of HCLTech's financial performance and position cannot be undertaken at this time.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 355,
+          "section": "Standalone Financial Statements"
+        },
+        {
+          "source": "filing",
+          "page": 144,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 144,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Valuation Snapshot vs Sector Median",
+      "body": "Valuation Snapshot vs Sector Median\n\nUnfortunately, the provided filing excerpts do not contain specific financial data or valuation metrics for HCLTech, such as revenue, net profit, or market capitalization, that would enable a direct comparison with the sector median. The excerpts primarily focus on the company's risk management strategies, mitigation techniques, and operational overview. Without this information, it is not possible to calculate key valuation ratios or compare HCLTech's valuation to that of its peers. Therefore, a comprehensive valuation snapshot versus the sector median cannot be provided based on the available data.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 144,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 144,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 141,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Management Commentary",
+      "body": "The management of HCLTech has expressed its commitment to delivering sustainable growth and shareholder value, positioning the company for continued success. In the fiscal year 2025, HCLTech achieved industry-leading growth, with revenue of ₹117,055 crores, representing a 6.5% increase year-over-year. The company's profit for the full year was ₹17,390 crores, a growth of 10.8%. The management has attributed this performance to the resilience of its all-weather portfolio, AI-led propositions, and sharp focus on client excellence. The company's services revenue was ₹105,398 crores, up 6.6%, while HCLSoftware revenue grew 5.2% to ₹12,049 crores.\n\nThe management has also highlighted the company's strong governance structure, with a focus on risk management and oversight. HCLTech's Enterprise Risk Management (ERM) framework is based on the ISO 31000:2018 Risk Management standard and the COSO ERM Integrated Framework, enabling the company to systematically identify, assess, mitigate, monitor, and report on enterprise risks. The company's risk governance structure includes a Risk and Compliance Apex Committee (RCAC), a Chief Risk Officer, and designated risk owners across the organization. The management has emphasized its commitment to transparency, with regular communication with investors and analysts, and has hosted sessions to provide updates on the company's performance and strategy. With a cumulative total shareholding return (TSR) of 314.5% over 10 years, and a CAGR of 20.6%, the management is confident in its ability to deliver top-quartile TSR and create value for its investors, people, clients, and the nation at large.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 139,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 140,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 58,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Key Risks",
+      "body": "The key risks associated with HCLTech's business are multifaceted and can be categorized into five principal areas: Strategic, Financial, Cyber and Resilience, Operational, and Governance and Compliance. Strategically, the company faces risks related to its business model, including the inability to keep up with changing client needs, attract quality talent, and adapt to evolving operating models. This could be exacerbated by emerging technologies such as GenAI, which poses both a threat to the existing business model and an opportunity to offer new services. To mitigate these risks, HCLTech has developed a Strategic Risk & Opportunity Management (SROM) framework, which helps to identify risks and opportunities ahead of time and plan for their impact.\n\nAdditionally, the company recognizes the risks associated with portfolio concentration, including being overly dependent on certain business segments, industry sectors, and geographic regions. To address this, HCLTech assesses its portfolio for concentration risk at regular intervals and uses diversification as a key tool to mitigate risk and propel growth. For instance, the company's top twenty clients contribute around 30% of its revenue, and it has a diverse client base of about 950 clients, each offering over ₹10 million (assuming $1M is equivalent to ₹10 million for simplification, as exact conversion is not provided). The company has also reduced regional dependency by expanding into new geographies and has strategically strengthened and diversified its offerings, including its Software portfolio. Other key risks include business delivery constraints due to technological limitations, pandemics, geopolitical developments, and talent availability, which the company mitigates through continuous monitoring of the global technology market, collaboration with advisors, clients, partners, and governments, and leveraging its Centers of Excellence (COEs) and ecosystem partnerships.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 139,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 141,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 140,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Recent Developments",
+      "body": "The recent developments at HCLTech have been focused on strategic risk management, portfolio diversification, and mitigation of concentration risk. As outlined in the company's annual report for 2024-25, HCLTech has developed a Strategic Risk & Opportunity Management (SROM) framework to identify and address potential risks and opportunities. This framework has enabled the company to scan signals, evaluate their impact, and plan for execution through a strategic planning process. Over the past few years, several key strategic initiatives have emanated from this framework, driving growth and expansion across various dimensions.\n\nIn terms of financial performance, HCLTech's consolidated cash flows from operating activities stood at ₹22,261 crore for the year ended 31 March 2025, compared to ₹22,448 crore in the previous year. The company's cash flows from investing activities resulted in a net outflow of ₹4,914 crore, primarily due to investments in securities and business acquisitions. Meanwhile, cash flows from financing activities led to a net outflow of ₹18,561 crore, driven by dividend payments and repayment of borrowings. As of 31 March 2025, HCLTech's cash and cash equivalents stood at ₹8,245 crore. The company continues to focus on diversification and risk mitigation, with a well-spread client base and revenue share across verticals, and a reduced regional dependency through expansions into new geographies.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 141,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 388,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 144,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Bull vs Bear vs Base Case",
+      "body": "The 'Bull vs Bear vs Base Case' scenario for HCLTech is as follows:\n\nThe bull case for HCLTech is supported by its industry-leading growth and steady profitability, with revenue reaching ₹117,055 crores in FY25, representing a 6.5% growth. The company's EBIT margin of 18.3% and net profit of ₹17,390 crores, which grew 10.8% year-over-year, demonstrate its ability to maintain profitability despite macro-economic uncertainty. Additionally, HCLTech's strong brand value, recognized as the world's fastest-growing IT services brand, and its commitment to upskilling its employees, with over 106,000 trained in AI/GenAI in FY25, position the company for continued success.\n\nIn contrast, the bear case highlights the risks associated with HCLTech's business model, including the potential inability to keep up with changing client needs and emerging technologies such as GenAI. The company's concentration in certain business segments, industry sectors, and geographic regions also poses a risk, although HCLTech has taken steps to mitigate this through diversification and expansion into new geographies. The base case scenario assumes that HCLTech will continue to deliver steady growth and profitability, driven by its resilient portfolio, AI-led propositions, and focus on client excellence, with revenue from operations and net profit expected to grow in line with historical trends. With a healthy balance sheet, efficient capital management, and a strong governance framework, HCLTech is well-positioned to navigate the risks and opportunities in the rapidly evolving technology landscape.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 58,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 141,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 139,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Peer Comparison",
+      "body": "Peer Comparison: \nUnfortunately, a comprehensive peer comparison is not possible based on the provided filing excerpts, as they primarily focus on HCLTech's individual performance and do not provide comparable data for its peers. However, it is mentioned that HCLTech has outperformed its comparable peers for the second consecutive year, underscoring the resilience of its all-weather portfolio and AI-led propositions.\n\nWhile specific peer data is not available, HCLTech's performance metrics, such as its revenue growth of 6.5% and net profit growth of 10.8%, can be noted. The company's EBIT margin of 18.3% and ROIC of 37.9% are also highlighted as being comparable to the best in the industry. Further information on peer companies would be required to conduct a thorough comparison and assess HCLTech's relative position within the industry.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 58,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 141,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 58,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    }
+  ],
+  "eval_context": [
+    {
+      "id": "5a2c50ff-287c-4b81-9027-75172488fd91",
+      "content": "333 HCLTech Annual Repor 2024-25 Year ended 31 March 2025 31 March 2024 A Cash flows from operating activities Profit before tax 23,261 20,967 Adjustment for: Depreciation and amorization expense 4,084 4,173 Interest income (1,567) (1,273) Provision for doubtful debts/bad debts writen off (net) 15 117 Income on investments carried at fair value through profit and loss (195) (165) Interest expense 336 269 Profit on sale of propery, plant and equipment (net) (10) (4) Share based payments to employees 218 312 Divestment in subsidiaries (574) - Other non-cash charges (net) (74) (41) 25,494 24,355 Net change in Trade receivables (119) 248 Inventories 77 60 Other financial assets and other assets (225) 164 Trade payables 249 (681) Other financial liabilities, contract liabilities, provisions and other liabilities 1,028 2,514 Cash generated from operations 26,504 26,660 Income taxes paid (net of refunds) (4,243) (4,212) Net cash flow from operating activities (A) 22,261 22,448 B Cash flows from investing activities Purchase of propery, plant and equipment and intangibles (1,108) (1,048) Proceeds from sale of propery, plant and equipment 25 32 Payments for business acquisitions, net of cash acquired (1,982) (2,043) Investments in bank deposits (15,442) (13,924) Proceeds from bank deposits 12,622 10,315 Deposits placed with body corporates (1,512) (1,079) Proceeds from deposits placed with body corporates 1,030 1,605 Purchase of investments in securities (43,861) (41,674) Proceeds from sale/maturity of investments in securities 43,711 40,329 Investment in equity instruments (4) (8) Proceed from sale of equity instruments - 13 Distribution from limited liability parnership 4 - Divestment in subsidiaries, net of cash 687 - Interest received 1,322 1,041 Income taxes paid (406) (282) Net cash flow used in investing activities (B) (4,914) (6,723) C Cash flows from financing activities Proceeds from long term borrowings - 6 Repayment of long term borrowings (84) (187) Proceeds from shor term borrowings 377 352 Repayment of shor term borrowings (374) (352) Payments for deferred and contingent consideration on business acquisitions (50) (5) Change in non-controlling interest - 7 Acquisition of treasury shares (676) - Dividend paid (16,250) (14,073) Interest paid (51) (64) Payment of lease liabilities including interest (1,453) (1,148) Net cash flow used in financing activities (C) (18,561) (15,464) Net (decrease) increase in cash and cash equivalents (A+B+C) (1,214) 261 Effect of exchange differences on cash and cash equivalents held in foreign currency 18 115 Cash and cash equivalents at the beginning of the year 9,441 9,065 Cash and cash equivalents at the end of the year as per note 3.10 (a) 8,245 9,441 Consolidated Statement of Cash flows (All amounts in crores of ₹, except share data and as stated otherwise)",
+      "ticker": "HCLTECH",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 388,
+      "section_title": "general",
+      "similarity": 0.571055948734283,
+      "retrieval_source": "vector",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "ticker": "HCLTECH",
+      "content": "Strategic Risks Primary Risk Details Mitigation Business Model HCLTech operates in a fast-paced industry. An inability to keep up with changing client needs, attract quality talent and adapt to evolving operating models can affect business growth. Moreover, emerging technologies such as GenAI pose a threat to the existing business model and an opportunity to offer new services. • Our strategy office has developed a Strategic Risk & Opportunity Management (SROM) framework that helps to scan signals and identify risks and opportunities ahead of time. Such signals are evaluated for their strength, scope of impact, time horizon to impact etc. and are then planned through a strategic planning process and enabled for execution. Over the past few years, several key strategic initiatives across offerings, corporate functions, geo expansions, etc., have emanated from this framework. Portfolio Concentration HCLTech recognizes the risks associated with being concentrated in certain business segments, industry sectors and geographic regions. Any negative event impacting these areas could have a material impact on the company’s performance. • As a best practice, we assess our portfolio for concentration risk at regular intervals on various dimensions. We use diversification as one of the key tools to mitigate risk and propel growth. Our recent geographic, vertical and client market expansions have been driven by this approach. • We try to maintain a healthy balance and avoid over- dependency across dimensions like verticals, clients, geographies and business segments. For example, our client base and revenue share across verticals are well spread. Top twenty clients contribute around 30% of our revenue and we have about 950 clients each offering over $1M. Many of these clients are G2000 or equivalent, giving us the opportunity to expand wallet share and mitigate concentration risk. We have reduced regional dependency by expanding into new geographies and have strategically strengthened and diversified our offerings, including our Software portfolio. Business Delivery HCLTech faces risks from constraints on service delivery due to technological limitations, pandemics, geopolitical developments and the lack of talent availability. Any of these factors can adversely impact the company. • HCLTech continuously monitors the global technology market and collaborates closely with advisors, clients, partners and governments to minimize risk related to its delivery model. • We leverage our COEs, internal innovation platforms, subject matter experts, practice teams and ecosystem partnerships to overcome technology-related delivery challenges. • We continue to expand our New Vistas (NV) and nearshore presence to access the best talent and develop service-delivery resilience. 87 HCLTech Annual Report 2024-25",
+      "chunk_index": 201,
+      "page_number": 141,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\HCLTECH_FY25.json"
+      },
+      "similarity": 17.87388996982047,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "id": "3fb6f9f1-2f38-43e2-b13b-f130bd2b4c5d",
+      "content": "allocation decisions are made with sustainable growth and shareholder value in mind, positioning HCLTech for continued success. HCLTech values regular communication with investors and analysts, making it a cornerstone of our governance philosophy. We recognize the significant contributions that investors and analysts bring to our business strategy through their valuable insights. To demonstrate our commitment to market engagement, we continuously benchmark and improve our disclosure norms, ensuring transparency and fostering trust. We also host regular sessions with investors and analysts. We hosted the latest one on August 28, 2024, at Mumbai, India and the presentation is available in our investor website. Our commitment to growth, profitability, cash generation, return ratios, prudent use of capital and strong governance will help us continue to deliver top-quartile TSR. Risk Management HCLTech recognizes the critical role of risk intelligence and management in achieving its strategic objectives, enhancing stakeholder value, maintaining strong governance, building business resilience and delivering high-quality services to its clients. Our Enterprise Risk Management (ERM) is based on the ISO 31000:2018 Risk Management standard and the COSO ERM Integrated Framework. This enables us to systematically and proactively identify, assess, mitigate, monitor and report on enterprise risks that may impact our strategic and business objectives while maintaining the highest standards of corporate governance. We use an integrated risk intelligence framework to monitor and manage internal and external risks. We use PESTLE (political, economic, social, technological, legal, environmental) analysis to prepare for regulatory changes, socio-political shifts and emerging global challenges. This comprehensive approach enables us to navigate the various risks that could affect our strategic plans and business. Risk Governance and Oversight Our risk management organization integrates risk management practices seamlessly with our business strategy and operations: • Leadership and Framework: The Board of Directors and the Risk Management/Audit Committee lead the Risk Governance and Oversight function. They are pivotal in framing and reviewing our ERM policy and identifying and assessing HCLTech’s key business risks. • Shared Responsibility: Senior executives and employees collectively bear responsibility for risk management. The ERM initiative is driven by the Risk and Compliance Apex Committee (RCAC), the Chief Risk Officer, a dedicated working group and designated risk owners across the organization. • Role of Risk Owners: Usually senior executives from a line of business (LOB) or corporate function, risk owners are responsible for mitigating specific risks. They implement mitigation strategies, coordinate risk management activities across their LOBs, functions and geographies and ensure efficient information flow to the working group. HCLTech Cumulative TSR 1 year 10% 70% 150% 230% 310% 390% 2 years 3 years 4 years 5 years 6 years 7 years 8 years 9 years 10 years 7.3% 57.4% 50.9% 82.8% 314.5% 233.9% 269.1% 303.3% 341.9% 270.6% 85 HCLTech Annual Report 2024-25",
+      "ticker": "HCLTECH",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 139,
+      "section_title": "general",
+      "similarity": 0.554330382009172,
+      "retrieval_source": "vector",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "ticker": "HCLTECH",
+      "content": "to record revenue and expenditure in individual segments and are as set out in note 1 to the consolidated financial statements on material accounting policies. The accounting policies in relation to segment accounting are as under: (a) Segment revenue and expenses Segment revenue is directly atributable to the segment and segment expenses have been allocated to various segments on the basis of specific identification and wherever allocable, are apporioned to the segment on an appropriate basis. Segment revenue does not include other income. Unallocable expenses are not allocable to any segment and primarily include finance cost, and exchange differences. Inter segment revenue primarily relates to software and related services sourced internally from HCL Software segment by other segments for providing services to end customers. (b) Segment assets and liabilities Assets and liabilities are not identified to any reporable segments, since these are used interchangeably across segments and consequently, the management believes that it is not practicable or meaningful to provide segment disclosures relating to total assets and liabilities. Financial information about the business segments is as follows : Year ended 31 March 2025 31 March 2024 Revenue from operations from external customers IT and Business Services 86,438 81,179 Engineering and R&D services 18,960 17,667 HCL Software 11,657 11,067 Total 117,055 109,913 Inter-segment revenue IT and Business Services - - Engineering and R&D services - - HCL Software 392 387 Total 392 387 Segment revenues IT and Business Services 86,438 81,179 Engineering and R&D services 18,960 17,667 HCL Software 12,049 11,454 Inter-segment elimination (392) (387) Total 117,055 109,913 Segment results IT and Business Services 14,796 13,789 Engineering and R&D services 3,415 3,422 HCL Software 3,209 2,816 Total 21,420 20,027 Unallocable expenses (558) (555) Other income 2,399 1,495 Profit before tax 23,261 20,967 Tax expense (5,862) (5,257) Profit for the year 17,399 15,710 Significant non-cash items Depreciation and amorization expense 4,084 4,173",
+      "chunk_index": 900,
+      "page_number": 438,
+      "section_title": "The accounting principles used in the preparation of the consolidated financial statements are consistently applied",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\HCLTECH_FY25.json"
+      },
+      "similarity": 16.693018740453073,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "id": "6dbcb673-8296-4581-a1d9-a9aca5749236",
+      "content": "of HCL Technologies Limited (the “Company”) which comprise the standalone balance sheet as at 31 March 2025, and the standalone statement of profit and loss (including other comprehensive income), standalone statement of changes in equity and standalone statement",
+      "ticker": "HCLTECH",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 299,
+      "section_title": "We have audited the standalone financial statements",
+      "similarity": 0.54283836739292,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "ticker": "HCLTECH",
+      "content": "Dear Shareholders, In FY25, HCLTech once again delivered industry-leading growth and maintained steady profitability despite continued uncertainty in the macro-economic and geopolitical environment. This marks the second consecutive year in which HCLTech has outperformed its comparable peers, underscoring the resilience of our all-weather portfolio, AI-led propositions and sharp focus on client excellence. Today, HCLTech has firmly established itself as the bellwether of the Indian IT services industry. Revenue for the year was ₹117,055 crores, a growth of 6.5%, while profit for the full year was ₹17,390 crores, a growth of 10.8%. EBIT was ₹21,420 crores, up 7% and EBIT margin was 18.3%. Services revenue was ₹105,398 crores, up 6.6%, while HCLSoftware continued to grow from strength to strength with revenue of ₹12,049 crores, a growth of 5.2%. In terms of geographies, both our dominant markets, the US and Europe, each saw 5.2% growth, in constant currency (CC). Among our industry verticals, Telecom, Media, Publishing and Entertainment led with a robust growth of 43.4%, followed by Retail and CPG, which grew by 10.7%, while Technology and Services grew by 6.7%, in CC. HCLTech was named as the world’s fastest-growing IT services brand in 2025 by Brand Finance, with a brand value of $8.9 billion, up 17% YoY – a very proud moment for all of us. We were also the No. 1 India-headquartered company in TIME magazine’s list of World’s Best Companies 2024 and featured in Forbes list of World’s Best Management Consulting Firms 2024. FY25 also saw us mark a very special milestone in our growth journey. This year we celebrated the 25th anniversary of HCLTech’s IPO. Over the past 25 years, HCLTech has delivered industry-leading cumulative total shareholding return (TSR) with a CAGR of 20.6%. We pioneered the Engineering and R&D and Remote IT Infrastructure Management services in the Indian IT industry and also built the largest enterprise software product company out of Asia. Few Indian companies have had the privilege of creating such tremendous value for their investors, people, clients and the nation at large. In a rapidly evolving technology landscape, we have doubled down on investing in the upskilling of our people, offering them a culture in which they can grow and thrive. In FY25, we trained over 106,000 employees in AI/GenAI. We continue to have one of the lowest employee attrition rates in the industry and possibly the most stable leadership team. For the third consecutive year, HCLTech received the Global Top Employer recognition from Top Employers Institute, with a No. 1 rank in North America, Europe and APAC. We were also recognized by Forbes as one of the World’s Best Employers for the fifth consecutive year, making us the only India-headquartered company in the professional services category to be among the global top 10 for five years in a row. HCLTech’s balance sheet remained very healthy, driven by efficient capital management and cost controls. During FY25, ROIC was 37.9%, up 4.1%, and comparable to the best in the industry. The Operating Cash Flow to Net Income conversion was 129%, while Free Cash Flow to Net Income conversion",
+      "chunk_index": 83,
+      "page_number": 58,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\HCLTECH_FY25.json"
+      },
+      "similarity": 16.40403465432647,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "id": "04f581b1-b538-4807-8d14-df9003cf44b4",
+      "content": "to record revenue and expenditure in individual segments and are as set out in note 1 to the consolidated financial statements on material accounting policies. The accounting policies in relation to segment accounting are as under: (a) Segment revenue and expenses Segment revenue is directly atributable to the segment and segment expenses have been allocated to various segments on the basis of specific identification and wherever allocable, are apporioned to the segment on an appropriate basis. Segment revenue does not include other income. Unallocable expenses are not allocable to any segment and primarily include finance cost, and exchange differences. Inter segment revenue primarily relates to software and related services sourced internally from HCL Software segment by other segments for providing services to end customers. (b) Segment assets and liabilities Assets and liabilities are not identified to any reporable segments, since these are used interchangeably across segments and consequently, the management believes that it is not practicable or meaningful to provide segment disclosures relating to total assets and liabilities. Financial information about the business segments is as follows : Year ended 31 March 2025 31 March 2024 Revenue from operations from external customers IT and Business Services 86,438 81,179 Engineering and R&D services 18,960 17,667 HCL Software 11,657 11,067 Total 117,055 109,913 Inter-segment revenue IT and Business Services - - Engineering and R&D services - - HCL Software 392 387 Total 392 387 Segment revenues IT and Business Services 86,438 81,179 Engineering and R&D services 18,960 17,667 HCL Software 12,049 11,454 Inter-segment elimination (392) (387) Total 117,055 109,913 Segment results IT and Business Services 14,796 13,789 Engineering and R&D services 3,415 3,422 HCL Software 3,209 2,816 Total 21,420 20,027 Unallocable expenses (558) (555) Other income 2,399 1,495 Profit before tax 23,261 20,967 Tax expense (5,862) (5,257) Profit for the year 17,399 15,710 Significant non-cash items Depreciation and amorization expense 4,084 4,173",
+      "ticker": "HCLTECH",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 438,
+      "section_title": "The accounting principles used in the preparation of the consolidated financial statements are consistently applied",
+      "similarity": 0.538322714667159,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015625
+    },
+    {
+      "ticker": "HCLTECH",
+      "content": "Financial Risks Primary Risk Details Mitigation Default or Credit HCLTech’s credit risk is concentrated in cash and bank balances, intercorporate deposits, customer receivables, finance lease receivables, investment securities and derivative instruments. All financial instruments mentioned above carry a risk of nonperformance by counterparties. • During the pre-contracting stage of the sales cycle, HCLTech assesses the clients’ credit rating and financial reliability when investments or extended payment terms are involved. In the post-contracting stage, we continuously monitor our clients’ resilience by tracking and analyzing their financial reliability, financial performance, published credit ratings, economic trends, historical debts and customer receivables. This continuous monitoring process significantly helps mitigate credit risks for the company. Currency HCLTech generates most of its revenue from clients outside of India and receives payments primarily in foreign currencies. The company’s clients are primarily corporations based in the US, Europe and other geos and its receivables are concentrated here. Similarly, as HCLTech has delivery teams based in various countries, most of its costs are also denominated in foreign currencies. This situation puts HCLTech at risk of economic loss due to changes in exchange rates. • HCLTech uses foreign exchange forward contracts and a combination of options to mitigate the risk of foreign currency fluctuations on its net receivables/payables and forecasted transactions in certain currencies. • The company’s Board establishes prudent governing policies and processes that determine the duration of hedges, the percentage of risk to be covered and the counterparty risk to be assumed. Acquisition and Integration HCLTech makes strategic acquisitions on an ongoing basis. The success of these acquisitions hinge on effective integration and synergy realization. Internal factors, as well as external factors beyond our control, can also play a role. These factors may include the risk of impairing goodwill, failed synergies and other intangibles if integration is not managed effectively. Additionally, a lack of integration process can limit the ability to capture synergy benefits. • Our governance program includes a robust mechanism to ensure regular reviews at multiple stages, starting from the deal stage to integration, with participation from Line of Business leadership to Executive Management to the Board of Directors, to address issues effectively. • HCLTech’s robust integration and performance management framework enables the acquired businesses and HCLTech to achieve the acquisition objectives. Our Integration and Performance Management Office (IPMO) manages the integration process and ensures value creation.",
+      "chunk_index": 206,
+      "page_number": 144,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\HCLTECH_FY25.json"
+      },
+      "similarity": 14.815239455572014,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015625
+    },
+    {
+      "id": "f6bf8d45-e094-4d90-96d7-6e2b9e0fb34d",
+      "content": "Financial Risks Primary Risk Details Mitigation Default or Credit HCLTech’s credit risk is concentrated in cash and bank balances, intercorporate deposits, customer receivables, finance lease receivables, investment securities and derivative instruments. All financial instruments mentioned above carry a risk of nonperformance by counterparties. • During the pre-contracting stage of the sales cycle, HCLTech assesses the clients’ credit rating and financial reliability when investments or extended payment terms are involved. In the post-contracting stage, we continuously monitor our clients’ resilience by tracking and analyzing their financial reliability, financial performance, published credit ratings, economic trends, historical debts and customer receivables. This continuous monitoring process significantly helps mitigate credit risks for the company. Currency HCLTech generates most of its revenue from clients outside of India and receives payments primarily in foreign currencies. The company’s clients are primarily corporations based in the US, Europe and other geos and its receivables are concentrated here. Similarly, as HCLTech has delivery teams based in various countries, most of its costs are also denominated in foreign currencies. This situation puts HCLTech at risk of economic loss due to changes in exchange rates. • HCLTech uses foreign exchange forward contracts and a combination of options to mitigate the risk of foreign currency fluctuations on its net receivables/payables and forecasted transactions in certain currencies. • The company’s Board establishes prudent governing policies and processes that determine the duration of hedges, the percentage of risk to be covered and the counterparty risk to be assumed. Acquisition and Integration HCLTech makes strategic acquisitions on an ongoing basis. The success of these acquisitions hinge on effective integration and synergy realization. Internal factors, as well as external factors beyond our control, can also play a role. These factors may include the risk of impairing goodwill, failed synergies and other intangibles if integration is not managed effectively. Additionally, a lack of integration process can limit the ability to capture synergy benefits. • Our governance program includes a robust mechanism to ensure regular reviews at multiple stages, starting from the deal stage to integration, with participation from Line of Business leadership to Executive Management to the Board of Directors, to address issues effectively. • HCLTech’s robust integration and performance management framework enables the acquired businesses and HCLTech to achieve the acquisition objectives. Our Integration and Performance Management Office (IPMO) manages the integration process and ensures value creation.",
+      "ticker": "HCLTECH",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 144,
+      "section_title": "general",
+      "similarity": 0.536329225788392,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "ticker": "HCLTECH",
+      "content": "Financial Performance Results of operations (Consolidated): (in ₹ Crores) Year ended 31 March 2025 31 March 2024 Particulars Amount % Revenue Amount % Revenue % Increase Revenue from operations 117,055 100.0% 109,913 100.0% 6.5% Other income 2,485 2.1% 1,495 1.4% Total income 119,540 102.1% 111,408 101.4% 7.3% Expenses Purchase of stock-in-trade 1,976 1.7% 1,754 1.6% Changes in inventories of stock-in-trade 52 0.0% 43 0.0% Employee benefits expense 66,755 57.0% 62,480 56.8% Outsourcing costs 15,162 13.0% 14,578 13.3% Finance costs 644 0.6% 553 0.5% Depreciation and amortization expense 4,084 3.5% 4,173 3.8% Other expenses 7,606 6.5% 6,860 6.2% Total expenses 96,279 82.3% 90,441 82.3% 6.5% Profit before tax 23,261 19.9% 20,967 19.1% 10.9% Tax expense Current tax 5,161 4.4% 4,626 4.2% Deferred tax charge 701 0.6% 631 0.6% Total tax expense 5,862 5.0% 5,257 4.8% 11.5% Profit after tax 17,399 14.9% 15,710 14.3% 10.8% Non- controlling interest (9) 0.0% (8) 0.0% Profit for the year 17,390 14.9% 15,702 14.3% 10.8% 99 HCLTech Annual Report 2024-25",
+      "chunk_index": 222,
+      "page_number": 153,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\HCLTECH_FY25.json"
+      },
+      "similarity": 14.778651029798478,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "id": "5925d063-a232-4ad1-9ef4-2fdba08cf38b",
+      "content": "Risk Governance Structure Board of Directors Risk Governance and Oversight Risk Committees and Management Risk Ownership Audit Committee and Risk Management Committee Risk and Compliance Apex Committee (RCAC), Chief Risk Officer • Tone at the top • Transparent risk oversight • Setting culture toward effective risk management • Review the risk appetite of the company on a periodic basis • Review the adequacy of risk management system • Monitoring the environment for risks and opportunities • Assist the Board in framing, implementing and monitoring ERM plan • Lead the risk management initiative • Ensure key risks are brought down to acceptable levels • Assist the Board and the Executive management in determining organization’s ERM objectives and direction • Implement risk reporting mechanism • Facilitate execution of ERM practices in the enterprise • Working with business and risk owners in deploying mitigation strategies • Periodic update to the executive management • Timely updates and review of risk register • Implement risk management initiative based on management directions • Ensure preparation of suitable mitigation plan Working Group Line of Business – Risk Owners HCLTech classifies its risk universe into five principal categories: Strategic, Financial, Cyber and Resilience, Operational and Governance and Compliance, as depicted in the accompanying graphic. Below, we discuss the primary risks within each category along with their respective mitigation measures. HCLTech’s Risk Universe Financial Cyber & Resilience Strategic Governance & Compliance Operational",
+      "ticker": "HCLTECH",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 140,
+      "section_title": "general",
+      "similarity": 0.531675100326538,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015151515151515152
+    },
+    {
+      "ticker": "HCLTECH",
+      "content": "in a row. HCLTech’s balance sheet remained very healthy, driven by efficient capital management and cost controls. During FY25, ROIC was 37.9%, up 4.1%, and comparable to the best in the industry. The Operating Cash Flow to Net Income conversion was 129%, while Free Cash Flow to Net Income conversion was 123%. Diluted EPS for FY25 came in at ₹64.09, a growth of 10.8%. The dividend payout for the full year was ₹60 per share, representing 93.5% of net income, which again is among the best in the industry. This strong performance is also reflected in the recognitions from the investor and analyst communities. HCLTech was the most decorated India-headquartered IT services company in the 14th Institutional Investor Research Annual Asia Executive Team survey with No. 1 rank in 21 categories in the Technology IT Services & Software sector. We received 400+ leadership As AI adoption among enterprises becomes mainstream, HCLTech is in a sweet spot to ride this opportunity curve with its full-stack portfolio and leadership in software and IP-led services. Our entrepreneurial DNA, well- supported by our engineering pedigree, is enabling us to develop new propositions that empower our clients and fuel their business growth. Corporate Overview 4",
+      "chunk_index": 84,
+      "page_number": 58,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\HCLTECH_FY25.json"
+      },
+      "similarity": 13.633826889030523,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015151515151515152
+    },
+    {
+      "id": "93121bfc-7138-432c-98df-8e0b2fee4b9c",
+      "content": "329 HCLTech Annual Repor 2024-25 Note No. Year ended 31 March 2025 31 March 2024 I Revenue Revenue from operations 3.19 117,055 109,913 Other income 3.20 2,485 1,495 Total income 119,540 111,408 II Expenses Purchase of stock-in-trade 1,976 1,754 Changes in inventories of stock-in-trade 3.21 52 43 Employee benefits expense 3.22 66,755 62,480 Outsourcing costs 15,162 14,578 Finance costs 3.23 644 553 Depreciation and amorization expense 4,084 4,173 Other expenses 3.24 7,606 6,860 Total expenses 96,279 90,441 III Profit before tax 23,261 20,967 IV Tax expense 3.25 Current tax 5,161 4,626 Deferred tax charge 701 631 Total tax expense 5,862 5,257 V Profit for the year 17,399 15,710 VI Other comprehensive income (loss) 3.26 (A) (i) Items that will not be reclassified to statement of profit and loss (1) 32 (ii) Income tax relating to items that will not be reclassified to statement of profit and loss 20 (8) (B) (i) Items that will be reclassified to statement of profit and loss 681 943 (ii) Income tax relating to items that will be reclassified to statement of profit and loss 5 (112) Total other comprehensive income (loss), net of tax 705 855 Consolidated Statement of Profit and Loss (All amounts in crores of ₹, except share data and as stated otherwise)",
+      "ticker": "HCLTECH",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 384,
+      "section_title": "general",
+      "similarity": 0.531099466615948,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014925373134328358
+    },
+    {
+      "ticker": "HCLTECH",
+      "content": "(All amounts in crores of ₹, except share data and as stated otherwise) 305 HCLTech Annual Repor 2024-25 3.32 Employee benefits The Company has calculated the various benefits provided to employees as shown below: (A) Defined contribution plans and state plans Superannuation Fund Employer’s contribution to Employee Pension Scheme During the year, the Company has recognized the following amounts in the statement of profit and loss :- Year ended 31 March 2025 31 March 2024 Superannuation Fund 15 14 Employer’s contribution to Employee’s Pension Scheme 172 166 Total 187 180 The Company has contributed ₹42 crores (previous year ₹45 crores) towards other defined contribution plans of branches outside India. (B) Defined benefit plans (a) Gratuity (b) Employer’s contribution to provident fund Gratuity The following table sets out the status of the gratuity plan: Statement of profit and loss Year ended 31 March 2025 31 March 2024 Current service cost 209 186 Interest cost (net) 60 50 Net benefit expense 269 236 Balance Sheet As at 31 March 2025 31 March 2024 Defined benefit obligations 1,139 929 Fair value of plan assets 15 16 Net plan liability 1,124 913 Current defined benefit obligations 193 161 Non-current defined benefit obligations 931 752",
+      "chunk_index": 660,
+      "page_number": 360,
+      "section_title": "Notes to standalone financial statements for the year ended 31 March 2025",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\HCLTECH_FY25.json"
+      },
+      "similarity": 13.494902180716023,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014925373134328358
+    },
+    {
+      "id": "a7a98afc-d212-4dbe-86f5-5e62c58fe1ea",
+      "content": "411 HCLTech Annual Repor 2024-25 (Amount in ₹ Thousand) S.No Name of the Subsidiary Company Date of acquisition/ incorporation Financial period ended Reporing Currency Exchange Rate as on respective balance sheet date Share Capital Reserves & Surplus Total Assets Total Liabilities Investments (other than in subsidiaries) Turnover Profit/ (Loss) before taxation Provision for taxation Profit/ (Loss) after taxation Proposed Dividend Extent of shareholding (in percentage) 59 HCL Technologies Egypt Limited 22-Mar-2015 31-Dec-2024 EGP 1.68 7,842 38,740 472,745 426,163 — 412,909 27,150 5,420 21,730 — 100% 60 HCL Technologies Estonia OÜ 08-Jun-2015 31-Dec-2024 EUR 89.20 403,982 59,029 532,648 69,637 — 896,501 47,307 — 47,307 — 100% 61 HCL Technologies (Thailand) Ltd. 10-Jun-2015 31-Dec-2024 THB 2.49 48,950 299,419 843,380 495,011 — 1,307,699 96,162 35,535 60,627 — 100% 62 HCL Technologies Czech Republic s.r.o. 28-Aug-2015 31-Dec-2024 CZK 3.55 64,689 1,726,235 3,542,525 1,751,601 — 7,331,423 540,032 129,318 410,714 — 100% 63 HCL Muscat Technologies L.L.C. 17-Dec-2015 31-Dec-2024 OMR 222.37 38,626 69,990 213,030 104,414 — 101,563 5,241 1,280 3,961 — 100% 64 Geometric Europe GmbH 01-Apr-2016 31-Dec-2024 EUR 89.20 1,253,267 (745,736) 567,586 60,055 — 185,586 17,706 423 17,283 — 100% 65 HCL Asia Pacific Pte Ltd. 01-Apr-2016 31-Dec-2024 SGD 62.90 6,290 384,763 741,794 350,741 — 891,027 62,306 12,657 49,649 — 100% 66 Geometric China, Inc. 01-Apr-2016 31-Dec-2024 CNY 11.72 38,451 11,959 50,410 — — — (139) — (139) — 100% 67 Geometric Americas, Inc. 01-Apr-2016 31-Mar-2025 USD 85.47 1,031,006 579,798 2,461,986 851,182 — 2,125,041 190,846 63,880 126,966 — 100% 68 Butler America Aerospace LLC 03-Jan-2017 31-Mar-2025 USD 85.47 — 1,807,541 2,076,787 269,246 — 4,366,754 310,745 82,871 227,874 — 100% 69 HCL Lending Solutions, LLC 23-Aug-2017 31-Dec-2024 USD 85.61 — 341,733 754,425 412,692 — 871,719 (154,640) — (154,640) — 100% 70 HCL Technologies Corporate Services Limited (Note 9) 05-Mar-2018 31-Mar-2025 USD 85.47 — 2,906 82,482,479 82,479,573 — 8,376 427 (427) 854 — 100% 71 C3i Suppor Services Private Limited 06-Apr-2018 31-Mar-2025 INR 1.00 15,421 1,135,007 1,213,717 63,289 165,725 478,927 148,072 37,930 110,142 — 100% 72 C3i Europe Eood 06-Apr-2018 31-Dec-2024 BGN 45.60 6,886 1,582,200 2,062,779 473,693 — 2,766,820 236,869 24,125 212,744 — 100% 73 C3i Japan GK 06-Apr-2018 31-Dec-2024 JPY 0.55 — 42,864 53,128 10,264 — 100,432 7,905 2,077 5,828 — 100% 74 C3i Services &Technologies (Dalian) Co., Ltd 06-Apr-2018 31-Dec-2024 CNY 11.72 22,974 614,282 698,130 60,874 — 641,505 65,511 11,283 54,228 — 100% 75 Actian Corporation 17-Jul-2018 31-Dec-2024 USD 85.61 1 18,685,244 25,355,329 6,670,084 — 19,924,751 7,304,824 1,267,283 6,037,541 — 100% 76 Actian Australia Pty Ltd (Note 9) 17-Jul-2018 31-Dec-2024 AUD 53.25 — 546,850 807,423 260,573 — 738,482 26,251 7,875 18,376 — 100% 77 Actian Europe Limited (Note 9) 17-Jul-2018 31-Dec-2024 GBP 107.49 — 926,362 3,800,246 2,873,884 — 5,243,143 74,502 18,515 55,987 — 100% 78 Actian France SAS 17-Jul-2018 31-Dec-2024 EUR 89.20 3,300 48,249 881,046 829,497 — 498,509 12,717 3,187 9,530 — 100% 79 Actian Germany GmbH 17-Jul-2018 31-Dec-2024 EUR 89.20 2,230 168,750 719,153 548,173 — 1,889,898 70,878 21,915 48,963 — 100% 80 Actian International, Inc. (Note 9) 17-Jul-2018 31-Dec-2024 USD 85.61 — 6,359 6,359 — — — (1,901) — (1,901) — 100% 81 Actian Technology Private",
+      "ticker": "HCLTECH",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 466,
+      "section_title": "general",
+      "similarity": 0.526151597499847,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014705882352941176
+    },
+    {
+      "ticker": "HCLTECH",
+      "content": "329 HCLTech Annual Repor 2024-25 Note No. Year ended 31 March 2025 31 March 2024 I Revenue Revenue from operations 3.19 117,055 109,913 Other income 3.20 2,485 1,495 Total income 119,540 111,408 II Expenses Purchase of stock-in-trade 1,976 1,754 Changes in inventories of stock-in-trade 3.21 52 43 Employee benefits expense 3.22 66,755 62,480 Outsourcing costs 15,162 14,578 Finance costs 3.23 644 553 Depreciation and amorization expense 4,084 4,173 Other expenses 3.24 7,606 6,860 Total expenses 96,279 90,441 III Profit before tax 23,261 20,967 IV Tax expense 3.25 Current tax 5,161 4,626 Deferred tax charge 701 631 Total tax expense 5,862 5,257 V Profit for the year 17,399 15,710 VI Other comprehensive income (loss) 3.26 (A) (i) Items that will not be reclassified to statement of profit and loss (1) 32 (ii) Income tax relating to items that will not be reclassified to statement of profit and loss 20 (8) (B) (i) Items that will be reclassified to statement of profit and loss 681 943 (ii) Income tax relating to items that will be reclassified to statement of profit and loss 5 (112) Total other comprehensive income (loss), net of tax 705 855 Consolidated Statement of Profit and Loss (All amounts in crores of ₹, except share data and as stated otherwise)",
+      "chunk_index": 758,
+      "page_number": 384,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\HCLTECH_FY25.json"
+      },
+      "similarity": 13.312991245903532,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014705882352941176
+    },
+    {
+      "id": "910a04d1-068b-47c0-83aa-3ad4cbfa6757",
+      "content": "331 HCLTech Annual Repor 2024-25 Equity share capital Other equity Non Con- trolling Interest Total Equity Number of shares* Share capital Reserves and Surplus Other comprehensive income Total other equity Retained earnings Remeasure- ment of de- fined benefit plans Treasury share reserve Secu- rities premium Capital redemp- tion reserve Share based payment reserve Special economic zone re-in- vestment reserve Foreign currency trans- lation reserve Cash flow hedging reserve Debt instru- ments through other com- prehensive income Balance as at 1 April 2023 2,713,665,096 543 56,133 183 (801) 7 14 388 4,129 4,731 79 (1) 64,862 (7) 65,398 Profit for the year - - 15,702 - - - - - - - - - 15,702 8 15,710 Other comprehensive income (loss) (refer note 3.26) - - - 24 - - - - - 414 418 (1) 855 - 855 Total comprehensive income (loss) for the year - - 15,702 24 - - - - - 414 418 (1) 16,557 8 16,565 Transactions with owners of the Company Contributions and distributions Interim dividend of ₹52 per share - - (14,080) - - - - - - - - - (14,080) - (14,080) Transfer to special economic zone re-investment reserve - - (2,349) - - - - - 2,349 - - - - - - Transfer from special economic zone re-investment reserve - - 975 - - - - - (975) - - - - - - Share based payments to employees - - - - - - - 312 - - - - 312 - 312 Issue of treasury shares to employees - - (18) - 79 - - (61) - - - - - - - Excess tax benefit from share based payments - - 69 - - - - - - - - - 69 - 69 Changes in ownership interests Change in non-controlling interest - - - - - - - - - - - - - 7 7 Balance as at 31 March 2024 2,713,665,096 543 56,432 207 (722) 7 14 639 5,503 5,145 497 (2) 67,720 8 68,271 Balance as at 1 April 2024 2,713,665,096 543 56,432 207 (722) 7 14 639 5,503 5,145 497 (2) 67,720 8 68,271 Profit for the year - - 17,390 - - - - - - - - - 17,390 9 17,399 Other comprehensive income (loss) (refer note 3.26) - - - 19 - - - - - 813 (140) 12 704 1 705 Total comprehensive income (loss) for the year - - 17,390 19 - - - - - 813 (140) 12 18,094 10 18,104 Consolidated Statement of Changes in Equity (All amounts in crores of ₹, except share data and as stated otherwise)",
+      "ticker": "HCLTECH",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 386,
+      "section_title": "general",
+      "similarity": 0.514910636554884,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014492753623188406
+    },
+    {
+      "ticker": "HCLTECH",
+      "content": "Free Cash Flow (FCF)/Net Income (NI) Ratio and Dividend Payout Ratio (DPR) Another Year of Best-in-class Growth $13.8B Revenue ₹117,055Cr 4.3% YoY 6.5% YoY Earnings before other income, tax and finance cost 7% YoY ₹21,420Cr Profit after tax (PAT) (atributable to owners of the company) 10.8% YoY ₹17,390Cr Free cash flow ₹21,153Cr New large deals signed 66 New deal total contract value (TCV) $9.3B Total increase in $100M+ clients over five FYs 1.5x Segment revenue** (₹ Cr) 86,438 IT and Business Services Engineering and R&D Services HCLSoftware 18,960 12,049 **Includes inter-segment revenue of ₹392 crores Free cash flow (₹ Cr) Net income (₹ Cr) Dividend (on declared basis) (₹ Cr) 159% FCF/NI 63.3% DPR 17,714 11,145 7,054 FY21 113% 88.3% FY22 110% 87.5% FY23 136% 89.6% FY24 122% 93.5% FY25 15,255 13,499 11,920 16,348 14,851 12,994 21,400 15,702 14,076 21,153 17,390 16,250 9 HCLTech Annual Report 2024-25",
+      "chunk_index": 90,
+      "page_number": 63,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\HCLTECH_FY25.json"
+      },
+      "similarity": 13.30691125551708,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014492753623188406
+    },
+    {
+      "id": "63898fc5-cf7f-4c37-aa99-3051205af24e",
+      "content": "The following tables set forh the fair value of derivative instruments included in the balance sheets as at each date indicated: As at 31 March 2025 31 March 2024 Derivatives designated as hedging instruments Unrealized gain on financial instruments classified under current financial assets 115 204 Unrealized gain on financial instruments classified under non-current financial assets 338 438 Unrealized loss on financial instruments classified under current financial liabilities (3) - 450 642 Derivatives not designated as hedging instruments Unrealized gain on financial instruments classified under current financial assets 25 1 Unrealized loss on financial instruments classified under current financial liabilities (3) (5) 22 (4) The following table summarizes the activities in the statement of profit and loss and other comprehensive income: Year ended 31 March 2025 31 March 2024 Derivatives in hedging relationships Effective porion of gain (loss) recognized in OCI on derivatives (18) 637 Effective porion of gain reclassified from OCI into statement of profit and loss as “revenue” 133 107 Derivatives not in hedging relationships Gain (loss) recognized into statement of profit and loss as “exchange differences” (115) 37 The following table summarizes the activity in ‘Other comprehensive income’ related to all derivatives classified as cash flow hedges: Year ended 31 March 2025 31 March 2024 Gain as at the beginning of the year 626 96 Unrealized gain (loss) on cash flow hedging derivatives during the year (18) 637 Net gain reclassified into statement of profit and loss on occurrence of hedged transactions (133) (107) Gain as at the end of the year 475 626 Deferred tax liability (118) (129) Cash flow hedging reserve (net of tax) 357 497 The estimated net amount of existing gain that is expected to be reclassified into the statement of profit and loss within the next twelve months is ₹129 crores (previous year, ₹190 crores).",
+      "ticker": "HCLTECH",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 355,
+      "section_title": "Standalone Financial Statements",
+      "similarity": 0.51362913684498,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014285714285714285
+    },
+    {
+      "ticker": "HCLTECH",
+      "content": "Primary Risk Details Mitigation Tax HCLTech is subject to taxes in several jurisdictions worldwide and benefits from tax advantages in India and other countries. Changes to tax laws in India and other countries where HCLTech has a significant presence could impact the company’s effective tax rate. As HCLTech operates in multiple jurisdictions, transfer pricing arrangements among legal entities in these regions are subject to review by various tax authorities. • HCLTech employs specialized tax teams that keep abreast of the latest tax developments in different countries, seek advice and support from external professional firms/consultants/lawyers and implement appropriate tax planning strategies based on changes in tax laws. • To mitigate tax risks associated with transfer pricing, we have established advance pricing agreements in several countries and periodically review them with external consultants. Primary Risk Details Mitigation Talent Management and Development Managing talent and meeting the ever-increasing demand for talent poses a significant ongoing risk to HCLTech. We face the risk of failing to fulfill resource demands due to a talent shortage, which could negatively impact top-line growth and organizational expansion. Furthermore, the risk of higher attrition rates could equally affect delivery capability and growth plans. Additionally, legislative changes restricting work visa availability and deglobalization could have a further impact. • HCLTech has developed a robust process for hiring and making talent productive worldwide. Our comprehensive training strategy is designed to meet the needs and goals of all employees, encompassing professional, technical, functional and leadership development. This approach is crucial for mitigating the risk of an unprepared leadership pipeline due to insufficient development and succession planning. • We have implemented various initiatives to attract, engage and retain a stable, content and diverse multi-generational employee pool. • To mitigate the potential effects of legislative actions, we have thoughtfully reduced our reliance on work visas by recruiting more local talent. This approach has led to one of the industry’s highest local talent ratios. Furthermore, leveraging nearshore centers and focusing on onshore delivery has minimized our dependency on work visas. Operational Risks 91 HCLTech Annual Report 2024-25",
+      "chunk_index": 208,
+      "page_number": 145,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\HCLTECH_FY25.json"
+      },
+      "similarity": 13.2013236555022,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014285714285714285
+    }
+  ],
+  "generated_at": "2026-06-22T05:52:44.924049+00:00"
+}

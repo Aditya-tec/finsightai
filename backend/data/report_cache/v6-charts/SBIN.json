@@ -1,0 +1,553 @@
+{
+  "sections": [
+    {
+      "title": "Executive Summary + Investment Thesis",
+      "body": "**Executive Summary**\n\nState Bank of India (SBIN) has reported a consolidated total revenue of ₹663.34 billion for the year ended 31st March 2025, representing a growth from ₹594.57 billion in the previous year. The bank's net profit for the year stood at ₹77.56 billion, up from ₹67.08 billion in the previous year. The retail banking segment was a significant contributor to the bank's revenue, with a total revenue of ₹214.67 billion. The bank's total assets and liabilities as of 31st March 2025 were ₹7,314.19 billion and ₹6,827.15 billion, respectively.\n\n**Investment Thesis**\n\nOur investment thesis for SBIN is based on the bank's strong revenue growth and improving profitability. With a net profit of ₹77.56 billion for the year ended 31st March 2025, SBIN has demonstrated its ability to generate significant earnings. The bank's diversified business segments, including corporate/wholesale banking, retail banking, and insurance, provide a stable revenue stream. Additionally, the bank's investments in jointly controlled entities, such as C-Edge Technologies Ltd. and SBI Macquarie Infrastructure Management Pvt. Ltd., offer potential for long-term growth. With a strong balance sheet and improving profitability, we believe SBIN is well-positioned for long-term growth and is an attractive investment opportunity. However, a detailed peer comparison is not possible due to the lack of available data.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 301,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 268,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 243,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Business Overview + Segment Breakdown",
+      "body": "State Bank of India (SBIN) operates through multiple business segments, including Treasury, Corporate/Wholesale Banking, Retail Banking, Insurance Business, and Other Banking Business. The Treasury segment includes the entire investment portfolio and trading in foreign exchange contracts and derivative contracts, with revenue primarily consisting of fees and gains or losses from trading operations and interest income on the investment portfolio. The Corporate/Wholesale Banking segment comprises lending activities to corporate and institutional clients, while the Retail Banking segment includes retail branches, agency business, and ATMs. The Insurance Business segment comprises the results of SBI Life Insurance Co. Ltd. and SBI General Insurance Co. Ltd. As per the consolidated financials for the year ended 31st March 2025, the segment revenue (before exceptional items) was ₹134,628 crore for Treasury, ₹148,999 crore for Corporate/Wholesale Banking, ₹7,732 crore for Insurance Business, and ₹233,943 crore for Retail Banking, which includes ₹114,143 crore for Digital Banking and ₹31,109 crore for Other Retail Banking. The total revenue (before exceptional item) for all segments was ₹670,553 crore. The net profit for the group was ₹77,561 crore. The segment assets and liabilities as at 31st March 2025 were ₹17,93,716 crore and ₹15,50,225 crore for Treasury, ₹19,61,389 crore and ₹17,86,890 crore for Corporate/Wholesale Banking, ₹86,505 crore and ₹9,08,506 crore for Retail Banking, ₹27,96,968 crore and ₹17,79,917 crore for Insurance Business, and ₹28,83,473 crore and ₹26,88,424 crore for Other Banking Business, respectively.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 299,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 235,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 301,
+          "section": "general"
+        }
+      ],
+      "chart_data": {
+        "type": "donut",
+        "segments": [
+          {
+            "label": "Treasury",
+            "value": 134628.0
+          },
+          {
+            "label": "Corporate/Wholesale Banking",
+            "value": 148999.0
+          },
+          {
+            "label": "Retail Banking",
+            "value": 233943.0
+          },
+          {
+            "label": "Insurance Business",
+            "value": 7732.0
+          },
+          {
+            "label": "Other Banking Business",
+            "value": 214674.0
+          }
+        ]
+      }
+    },
+    {
+      "title": "Financial Performance",
+      "body": "{\"body\": \"<section prose>The financial performance of SBIN for the year ended 31st March 2025 is highlighted by a total revenue of ₹663.34 billion, which is higher than the previous year's revenue of ₹594.57 billion. The net profit for the year stood at ₹77.56 billion, compared to ₹67.08 billion in the previous year. The profit before tax was ₹106.37 billion, and the taxes paid were ₹27.35 billion. The earnings per equity share (face value ₹1 per share) were ₹86.91 for the current year, compared to ₹75.17 in the previous year.</section>\", \"chart_data\": {\"type\":\"bar\",\"labels\":[\"FY24\",\"FY25\"],\"datasets\":[{\"label\":\"Revenue (₹ Cr)\",\"values\":[59457,66334]},{\"label\":\"Net Profit (₹ Cr)\",\"values\":[67085,77561}]}}",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 301,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 229,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 268,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Balance Sheet Health + Cash Flow",
+      "body": "The balance sheet of SBIN as at 31st March 2025 reflects a total deposit base of ₹53,82,189.53 crore, with a significant portion of ₹10,78,275.61 crore and ₹15,65,899.80 crore classified under the 'Over 1 Year & upto 3 years' and 'Over 3 years & upto 5 years' maturity buckets, respectively. The bank's advances stood at ₹41,63,312.10 crore, with a substantial portion of ₹16,15,800.15 crore and ₹5,08,882.11 crore classified under the 'Over 3 years & upto 5 years' and 'Over 5 years' maturity buckets, respectively. \n\nIn terms of cash flow, the bank's liquidity coverage ratio (LCR) is not explicitly stated in the provided excerpts. However, the LCR standard has been introduced in the bank to maintain an adequate level of unencumbered High Quality Liquid Assets (HQLAs) that can be converted into cash to meet its liquidity needs for a 30-calendar days time horizon under a significantly severe liquidity stress scenario. The bank's investments in jointly controlled entities, such as C-Edge Technologies Ltd. and SBI Macquarie Infrastructure Management Pvt. Ltd., stood at ₹104.89 crore as at 31st March 2025. The bank has also made provisions for certain investments, including a 100% provision on investments in Macquarie SBI Infra Management Pte. Ltd. The net liability recognized in the balance sheet for defined benefit plans, such as pension and gratuity plans, stood at ₹37,039.54 crore and ₹821.73 crore, respectively, as at 31st March 2025.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 195,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 229,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 243,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Key Financial Ratios",
+      "body": "The 'Key Financial Ratios' section of this report is limited by the availability of specific financial data in the provided excerpts. Based on the information presented, we can observe the following key figures: as of 31st March 2025, the bank's total assets stood at ₹66,760.53 billion and total liabilities at ₹62,348.91 billion. The revenue from operations before exceptional items for the year ended 31st March 2025 was ₹524,172.41 crore, with a net profit of ₹70,900.63 crore. \n\nTo derive some basic ratios, we can use the formula: Return on Assets (ROA) = Net Profit / Total Assets. Using the provided numbers, ROA would be ₹70,900.63 crore / ₹66,760.53 billion = 1.06%. Similarly, the Debt-to-Equity ratio can be approximated by first calculating the net worth (equity) as Total Assets - Total Liabilities, which equals ₹66,760.53 billion - ₹62,348.91 billion = ₹4,411.62 billion. Then, the Debt-to-Equity ratio is Total Liabilities / Net Worth = ₹62,348.91 billion / ₹4,411.62 billion = 14.13×. However, without more detailed financial information, such as specific expense breakdowns or comprehensive income statements, a more thorough analysis of key financial ratios is not possible. Peer comparison is also not feasible with the given data.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 243,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 358,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 237,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Valuation Snapshot vs Sector Median",
+      "body": "Valuation Snapshot vs Sector Median\n\nAs of the latest available data, the valuation snapshot of State Bank of India (SBIN) is compared against the sector median. Unfortunately, the provided filing excerpts do not contain specific valuation metrics such as Price-to-Earnings (P/E) ratio, Price-to-Book (P/B) ratio, or Return on Equity (ROE) that can be directly compared to the sector median. The excerpts primarily focus on the segment reporting, risk management, and financial disclosures for the year ended 31st March 2025.\n\nHowever, we can observe that the bank has reported provisions and contingencies of ₹39,678.54 crore for the current year, which is higher than the previous year's ₹25,620.56 crore. Additionally, the bank has purchased Priority Sector Lending Certificates (PSLC) worth ₹2,09,830.75 crore during the year, indicating its commitment to priority sector lending. Without peer data, a direct comparison of SBIN's valuation metrics to the sector median is not possible. Further research and analysis of industry benchmarks would be required to provide a comprehensive valuation snapshot.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 299,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 111,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 225,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Management Commentary",
+      "body": "The management of State Bank of India (SBI) has provided commentary on the bank's financial performance and risk management practices. As per the Directors' Report, the bank monitors its off-balance sheet exposures, probable loan losses, and liquidity coverage ratio (LCR) on a daily basis to ensure compliance with RBI regulations and internal policy benchmarks. The bank also assesses the impact of interest rate changes on its earnings at risk (EaR) and market value of equity (MVE) to initiate preventive measures. Furthermore, the bank has adopted a matched maturity-based funds transfer pricing to encourage branches to garner stable funds and assess their profitability based on the cost of funds.\n\nThe bank's Asset Liability Management Committee (ALCO) plays a crucial role in managing liquidity and interest rate risks by modulating the asset-liability mix and recalibrating the pricing of liabilities and assets. The ALCO regularly reviews interest rate scenarios, liability product growth, credit growth, and competitive advantages to ensure adequate monetary policy transmission. As of 31st March 2025, the bank's investments in jointly controlled entities stood at ₹104.89 crore, with a significant investment of ₹79.08 crore in Jio Payments Bank Limited, in which the bank holds a 14.96% stake. The bank's total liabilities related to its interests in jointly controlled entities amounted to ₹460.29 crore as of 31st March 2025, with capital and reserves of ₹332.44 crore.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 243,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 111,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 235,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Key Risks",
+      "body": "The key risks associated with State Bank of India (SBIN) are primarily related to its exposure to interest rate fluctuations, liquidity risks, and potential losses from non-performing assets. As per the bank's Directors' Report, SBIN is exposed to risks arising from changes in interest rates, which can impact its earnings and net worth. The bank's Asset Liability Management Committee (ALCO) monitors and manages these risks by modulating the asset-liability mix and recalibrating the pricing of liabilities and assets. However, any significant changes in interest rates could still pose a risk to the bank's profitability. \n\nAdditionally, the bank's financials reveal a significant amount of provisions for non-performing assets, with ₹14,446.47 crore debited to the profit and loss account in the current year, up from ₹9,469.33 crore in the previous year. The bank also has a deficit in its gratuity plan, with a liability of ₹13,376.61 crore and a fair value of plan assets at ₹12,554.88 crore, resulting in a deficit of ₹821.73 crore. These factors highlight the potential risks associated with SBIN's asset quality and its ability to meet its long-term liabilities. Furthermore, the bank's exposure to off-balance sheet items and probable loan losses also poses a risk to its financial stability. Overall, these risks could impact SBIN's profitability and net worth, and therefore, warrant close monitoring.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 111,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 231,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 225,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Recent Developments",
+      "body": "The recent developments at State Bank of India (SBI) indicate a focus on effective risk management and adherence to regulatory guidelines. As of 31st March 2025, the bank's total assets stood at ₹66,760.53 billion, while total liabilities were at ₹62,348.91 billion. The bank's revenue from operations, before exceptional items, was ₹524.17 billion for the year ended 31st March 2025, with a net profit of ₹70.90 billion. The Asset Liability Management Committee (ALCO) plays a crucial role in monitoring and managing liquidity and interest rate risks, ensuring the bank's stability and compliance with regulatory prescriptions.\n\nIn terms of segment performance, the Treasury segment, Corporate/Wholesale Banking segment, Retail Banking segment, and Other Banking Operations segment reported total assets of ₹17,845.78 billion, ₹19,355.74 billion, ₹85.40 billion, and ₹27,923.18 billion, respectively. The bank has also identified Digital Banking as a sub-segment under the Retail Banking segment, as per the RBI's guidelines. Furthermore, the bank's foreign subsidiaries, including Commercial Indo Bank LLC, SBI Canada Bank, and State Bank of India (California), among others, contribute to its global presence. Overall, SBI's recent developments suggest a strong emphasis on risk management, regulatory compliance, and diversified business operations.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 111,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 237,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 235,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Bull vs Bear vs Base Case",
+      "body": "The 'Bull vs Bear vs Base Case' section of our report on State Bank of India (SBIN) presents three possible scenarios for the bank's future performance. The bull case is based on the bank's ability to maintain its strong liquidity position, as evidenced by its Liquidity Coverage Ratio (LCR) and its large stock of High-Quality Liquid Assets (HQLAs). With a total net cash outflows of ₹10,91,758.84 crore and a stock of HQLAs that can be converted into cash to meet its liquidity needs, the bank appears well-positioned to navigate any potential liquidity stress. Additionally, the bank's efforts to manage interest rate risk, including the use of a matched maturity-based Funds Transfer Pricing system, could help to mitigate the impact of changes in interest rates on its earnings. If the bank can successfully execute on these strategies, it could lead to an increase in its net profit and a subsequent increase in its stock price.\n\nIn contrast, the bear case is based on the potential risks associated with the bank's large exposure to advances and investments, which totaled ₹41,63,312.10 crore and ₹16,90,572.75 crore, respectively, as of March 31, 2025. If the bank were to experience a significant increase in non-performing assets (NPAs) or a decline in the value of its investments, it could lead to a decrease in its net profit and a subsequent decline in its stock price. Furthermore, the bank's pension and gratuity liabilities, which totaled ₹13,376.61 crore as of March 31, 2025, could also pose a risk to its financial performance if not managed effectively. Our base case assumes that the bank will continue to manage its risks effectively and maintain its current level of profitability, with a net profit that is in line with its historical trends. However, without more information on the bank's current financial performance and outlook, it is difficult to estimate the bank's future net profit with precision.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 111,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 231,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 195,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Peer Comparison",
+      "body": "Peer Comparison: \nUnfortunately, the provided filing excerpts do not contain sufficient information to facilitate a comprehensive peer comparison for State Bank of India (SBIN). The excerpts primarily focus on the bank's standalone financials, segment-wise performance, and other disclosures, without providing comparable data for peer banks. As a result, it is not possible to compare SBIN's financial performance, revenue, net profit, or other key metrics with those of its peers. To conduct a meaningful peer comparison, additional data from comparable banks in the Indian banking sector would be required. \n\nIn the absence of peer data, we can only highlight SBIN's own performance, such as its revenue from operations, which stood at ₹5,24,172.41 crore for the year ended 31st March 2025, and its net profit of ₹70,900.63 crore for the same period. However, without comparable peer data, the significance of these figures in a relative context cannot be assessed.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 225,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 111,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 237,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    }
+  ],
+  "eval_context": [
+    {
+      "id": "03d3fb12-ded1-463b-a9b5-ceabe078be6b",
+      "content": "Schedules forming part of the Balance Sheet and Profit and Loss Account for the year ended 31st March 2025 STANDALONE FINANCIALS Business Segment Treasury Corporate / Wholesale Banking Retail Banking Other Banking Operations Total Digital Banking Other retail Banking Total Other Information: Segment Assets * 17,84,577.65 19,35,573.66 85,400.65 27,92,318.15 28,77,718.80 - 65,97,870.11 (17,99,263.94) (17,13,722.56) (74,123.60) (25,33,651.57) (26,07,775.17) (-) (61,20,761.67) Unallocated Assets * 78,183.16 (58,932.27) Total Assets* 66,76,053.27 (61,79,693.94) Segment Liabilities * 15,77,129.76 17,53,842.31 9,08,256.98 17,56,318.53 26,64,575.51 - 59,95,547.58 (16,20,651.34) (16,26,313.44) (6,94,818.32) (16,70,042.28) (23,64,860.60) (-) (56,11,825.38) Unallocated Liabilities* 2,39,343.57 (1,90,622.03) Total Liabilities * 62,34,891.15 (58,02,447.41) (Figures in brackets are for previous year). Part B: Secondary (Geographic Segments): (H in Crore) Particulars Domestic Foreign Total Current Year Previous Year Current Year Previous Year Current Year Previous Year Revenue (before exceptional items) # 4,81,313.36 4,27,103.26 42,859.06 39,709.56 5,24,172.41 4,66,812.82 Net Profit# 59,023.27 49,032.85 11,877.36 12,043.77 70,900.63 61,076.62 Assets * 58,90,325.40 55,13,953.27 7,85,727.87 6,65,740.67 66,76,053.27 61,79,693.94 Liabilities* 54,59,163.28 51,36,706.74 7,85,727.87 6,65,740.67 62,34,891.15 58,02,447.41 # For the year ended 31st March 2025. * As at 31st March, 2025. d. Accounting Standard – 18 “Related Party Disclosures”: 1. Related Parties A. SUBSIDIARIES i. FOREIGN BANKING SUBSIDIARIES 1. Commercial Indo Bank LLC, Moscow 2. SBI Canada Bank 3. State Bank of India (California) 4. State Bank of India (UK) Limited 5. SBI (Mauritius) Ltd. 6. PT Bank SBI Indonesia 7. Nepal SBI Bank Ltd. 234",
+      "ticker": "SBIN",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 237,
+      "section_title": "general",
+      "similarity": 0.63158917427063,
+      "retrieval_source": "vector",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "ticker": "SBIN",
+      "content": "Schedules forming part of the Balance Sheet and Profit and Loss Account for the year ended 31st March 2025 STANDALONE FINANCIALS Principal actuarial assumptions Particulars Current year Previous year Discount Rate 6.82% 7.21% Salary Escalation Rate 6.00% 6.00% Attrition Rate 2.00% 2.00% Mortality Table IALM 2012-14 (Urban) IALM 2012-14 (Urban) c. Accounting Standard – 17 “Segment Reporting” 1. Segment Identification I. Primary (Business Segment) The following are the primary segments of the Bank: - • Treasury • Corporate / Wholesale Banking • Retail Banking • Other Banking Business. \u0007The present accounting and information system of the Bank does not support capturing and extraction of the data in respect of the above segments separately. However, based on the present internal, organisational and management reporting structure and the nature of their risk and returns, the data on the primary segments have been computed as under: i. Treasury \u0007The Treasury Segment includes the entire investment portfolio and trading in foreign exchange contracts and derivative contracts. The revenue of the treasury segment primarily consists of fees and gains or losses from trading operations and interest income on the investment portfolio. ii. Corporate / Wholesale Banking \u0007The Corporate / Wholesale Banking segment comprises the lending activities of Corporate Accounts Group, Commercial Clients Group and Stressed Assets Resolution Group. These include providing loans and transaction services to corporate and institutional clients and further include non-treasury operations of foreign offices. iii. Retail Banking \u0007The Retail Banking Segment comprises of retail branches, which primarily includes Personal Banking activities including lending activities to corporate customers having banking relations with these branches. This segment also includes agency business and ATMs. As per RBI Circular DOR. AUT. REC.12/22.01.001/2022-23 dated 7th April 2022, for the purpose of disclosure under Accounting Standard 17 Segment Reporting “Digital Banking” has been identified as a sub-segment under the “Retail Banking Segment”. iv. Other Banking business Segments not classified under (i) to (iii) above are classified under this primary segment. 232",
+      "chunk_index": 436,
+      "page_number": 235,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\SBIN_FY25.json"
+      },
+      "similarity": 16.200508948801385,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "id": "787b6708-b6fa-4856-960c-f0d232a89fea",
+      "content": "Schedules forming part of the Balance Sheet and Profit and Loss Account for the year ended 31st March 2025 STANDALONE FINANCIALS",
+      "ticker": "SBIN",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 193,
+      "section_title": "general",
+      "similarity": 0.621543347835541,
+      "retrieval_source": "vector",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "ticker": "SBIN",
+      "content": "India and IRDAI regulations and guidelines. 1.15 \u0007The revenue (net of goods & service tax), in case of Group’s custody & fund accounting services, is Schedules forming part of the Consolidated Balance Sheet & Profit and Loss Account for the year ended 31st March 2025 272",
+      "chunk_index": 567,
+      "page_number": 275,
+      "section_title": "Notes issued by the Institute of Actuaries of",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\SBIN_FY25.json"
+      },
+      "similarity": 15.479394975065574,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "id": "61e65bb6-a239-4db8-bcf2-e21a37bc507a",
+      "content": "concerned parties, as the case may be.  Movement of provisions against contingent liabilities: The movement of provisions against contingent liabilities given in the table below: (H in Crore) Sr No. Particulars Current Year Previous Year a Opening Balance 2,620.39 3,115.33 b Additions during the year 199.37 138.63 c Amount utilised during the year 9.39 534.19 d Unused amount reversed during the year 273.05 99.38 e Closing balance 2,537.32 2,620.39 3. \u0007Inter-Bank/ Company balances between group entities are being reconciled on an ongoing basis and there is no material effect on the profit and loss account of the current year. 4. \u0007No disclosure on divergence in asset classification and provisioning for NPAs is required by SBI with respect to RBI’s supervisory process for the year ended 31st March 2024, based on the conditions mentioned in RBI circular No. DOR.ACC. REC.No.74/21.04.018/2022-23 dated 11th October 2022. Schedules forming part of the Consolidated Balance Sheet & Profit and Loss Account for the year ended 31st March 2025 304",
+      "ticker": "SBIN",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 307,
+      "section_title": "general",
+      "similarity": 0.593921542167664,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "ticker": "SBIN",
+      "content": "CONSOLIDATED FINANCIALS 2.2.4 \u0007The employee benefits listed above are in respect of the employees of the Group based in India. The employees of the foreign operations are not covered in the above schemes. 2.3 Accounting Standard- 17 “Segment Reporting”: 2.3.1 Segment identification A) Primary (Business Segment) The following are the Primary Segments of the Group: • Treasury • Corporate / Wholesale Banking • Retail Banking • Insurance Business • Other Banking Business \u0007The present accounting and information system of the Group does not support capturing and extraction of the data in respect of the above segments separately. However, based on the present internal, organisational and management reporting structure and the nature of their risk and returns, the data on the Primary Segments have been computed as under: a) \u0007Treasury: The Treasury Segment includes the entire investment portfolio and trading in foreign exchange contracts and derivative contracts. The revenue of the treasury segment primarily consists of fees and gains or losses from trading operations and interest income on the investment portfolio. b) \u0007Corporate / Wholesale Banking: The Corporate / Wholesale Banking segment comprises the lending activities of Corporate Accounts Group, Commercial Clients Group and Stressed Assets Resolution Group. These include providing loans and transaction services to corporate and institutional clients and further include non-treasury operations of foreign offices/entities. c) \u0007Retail Banking: The Retail Banking Segment comprises of retail branches, which primarily includes Personal Banking activities including lending activities to corporate customers having banking relations with these branches. This segment also includes agency business and ATMs. As per RBI Circular DOR. AUT.REC.12/22.01.001/2022-23 dated 7th April 2022, for the purpose of disclosure under Accounting Standard 17 - Segment Reporting “Digital Banking” has been identified as a sub-segment under the “Retail Banking Segment”. d) \u0007Insurance Business: The Insurance Business Segment comprises of the results of SBI Life Insurance Co. Ltd. and SBI General Insurance Co. Ltd. e) \u0007Other Banking Business: Segments not classified under (a) to (d) above are classified under this primary segment. This segment also includes the operations of all the Non-Banking Subsidiaries/Joint Ventures other than SBI Life Insurance Co. Ltd. and SBI General Insurance Co. Ltd. of the group. B) Secondary (Geographical Segment): a) Domestic Operations: Branches, Subsidiaries and Joint Ventures having operations in India. b) \u0007Foreign Operations: Branches, Subsidiaries and Joint Ventures having operations outside India and offshore banking units having operations in India. Schedules forming part of the Consolidated Balance Sheet & Profit and Loss Account for the year ended 31st March 2025 296",
+      "chunk_index": 626,
+      "page_number": 299,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\SBIN_FY25.json"
+      },
+      "similarity": 14.458165924112276,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "id": "cf7ca8bd-dfe9-4e69-9965-7f5cc8a85269",
+      "content": "Schedules forming part of the Balance Sheet and Profit and Loss Account for the year ended 31st March 2025 STANDALONE FINANCIALS 18.4 ASSET QUALITY a. Classification of Advances and provisions held for the year ended 31st March 2025 (H in Crore) Particulars Standard Advances Sub Standard Advances Doubtful Advances Loss Advances Total Non- Performing Advances Total Gross Standard Advances and NPAs A. Opening Balance 36,83,258.18 14,996.69 41,552.12 27,727.52 84,276.33 37,67,534.51 B. Add: Additions during the year 20,817.57 4,81,381.93 C. Less: Reductions during the year * 28,213.70 28,213.70 Closing balance (A+B-C) 41,43,822.54 15,829.89 36,672.73 24,377.58 76,880.20 42,20,702.74 * Reduction in Gross NPAs due to: i) Upgradation 2,963.26 2,963.26 ii) \u0007Recoveries (excluding recoveries from upgraded accounts) 4,941.73 4,941.73 iii) Technical/Prudential Write Offs - - iv) \u0007Write-offs other than those under (iii) above 20,308.71 20,308.71 Provisions (excluding Floating Provisions) Opening balance of provisions held 24,112.57 2,926.47 32,379.65 27,727.52 63,033.64 87,146.21 Add: Fresh provisions made during the year 14,446.47 14,446.47 Less: Excess provision reversed/ Write- off loans 20,458.44 20,147.36 Closing balance of provisions held 24,423.64$ 3,004.42 29,639.67 24,377.58 57,021.67 81,445.31 Net NPAs Opening Balance 12,070.23 8,980.85 - 21,051.08 Add: Fresh additions during the year 6,371.10 Less: Reductions during the year 7,755.26 Closing Balance 12,825.48 6,841.44 - 19,666.92$$ $ Excludes additional provision held H4,562.00 Crore on Restructured Standard Assets over and above regulatory requirement. $$ Floating provision of H191.61 Crore is netted to arrive at net NPA. 206",
+      "ticker": "SBIN",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 209,
+      "section_title": "general",
+      "similarity": 0.590047240257263,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015625
+    },
+    {
+      "ticker": "SBIN",
+      "content": "(000s omitted) Schedule No. As at 31.03.2025 (Current Year) J As at 31.03.2024 (Previous Year) J I. INCOME Interest earned 13 490937,78,51 439188,51,23 Other Income 14 172405,53,23 155386,39,22 TOTAL 663343,31,74 594574,90,45 II. EXPENDITURE Interest expended 15 300943,33,53 259736,04,81 Operating expenses 16 236573,51,86 235893,83,88 Provisions and contingencies 46809,30,91 30806,75,67 TOTAL 584326,16,30 526436,64,36 III. PROFIT \u0007Net Profit for the year (before adjustment for Share in Profit of Associates and Minority Interest) 79017,15,44 68138,26,09 Add: Share in Profit of Associates 1505,47,09 1405,15,43 Less: Minority Interest 2961,28,82 2458,74,91 Net Profit for the Group 77561,33,71 67084,66,61 Add Profit Brought forward 72019,17,93 41923,30,28 TOTAL 149580,51,64 109007,96,89 IV. APPROPRIATIONS Transfer to Statutory Reserve 21594,78,94 18716,88,31 Transfer to Capital Reserve 2171,56,83 326,21,04 Transfer to / (from) Investment Fluctuation Reserve - (749,08,05) Transfer to Revenue and Other Reserves 3210,87,06 6456,91,82 Dividend for the current year 14190,14,59 12226,71,83 Tax on Dividend 3052,34 1114,01 Balance carried over to Balance Sheet 108382,61,88 72019,17,93 TOTAL 149580,51,64 109007,96,89 V. EARNINGS PER EQUITY SHARE (Face value J1 per share) Basic (in H) H86.91 H75.17 Diluted (in H) H86.91 H75.17 Significant Accounting Policies 17",
+      "chunk_index": 542,
+      "page_number": 268,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\SBIN_FY25.json"
+      },
+      "similarity": 13.74015530202498,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015625
+    },
+    {
+      "id": "ef1d23ed-33b1-4f9f-a2e4-753557d82aef",
+      "content": "Schedules forming part of the Consolidated Balance Sheet & Profit and Loss Account for the year ended 31st March 2025 288",
+      "ticker": "SBIN",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 291,
+      "section_title": "The Bank’s investments in RRBs sponsored by the Bank, are included in its financial statements as at 31st March 2025.",
+      "similarity": 0.58883148431778,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "ticker": "SBIN",
+      "content": "(000s omitted) Schedule No. Year ended 31.03.2025 (Current Year) J Year ended 31.03.2024 (Previous Year) J I. INCOME Interest earned 13 462489,35,35 415130,65,55 Other Income 14 61683,05,92 51682,16,37 TOTAL 524172,41,27 466812,81,92 II. EXPENDITURE Interest expended 15 295524,22,52 255254,82,88 Operating expenses 16 118069,02,22 124860,81,35 Provisions and contingencies 39678,53,72 25620,55,67 TOTAL 453271,78,46 405736,19,90 III. PROFIT Net Profit for the year 70900,62,81 61076,62,02 Add: Profit/ (Loss) brought forward 50127,91,06 24098,71,82 TOTAL 121028,53,87 85175,33,84 IV. APPROPRIATIONS Transfer to Statutory Reserve 21270,18,84 18322,98,60 Transfer to Capital Reserve 2171,56,83 326,21,04 Transfer to Investment Fluctuation Reserve - (749,08,05) Transfer to Revenue and other Reserves 1537,27,00 4920,59,36 Dividend for the current year 14190,14,59 12226,71,83 Balance carried over to Balance Sheet 81859,36,61 50127,91,06 TOTAL 121028,53,87 85175,33,84 V. EARNINGS PER EQUITY SHARE (Face value H 1 per share) Basic (in H) 79.44 68.44 Diluted (in H) 79.44 68.44 Significant Accounting Policies 17",
+      "chunk_index": 325,
+      "page_number": 178,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\SBIN_FY25.json"
+      },
+      "similarity": 13.598009653918664,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "id": "12620ff5-b0f2-4234-870a-727d43c232f6",
+      "content": "Schedules forming part of the Balance Sheet and Profit and Loss Account for the year ended 31st March 2025 STANDALONE FINANCIALS h. Accounting Standard – 27 “Financial Reporting of interests in Joint Ventures”: \u0007Investments include H104.89 Crore (Previous Year H28.06 Crore) representing Bank’s interest in the following jointly controlled entities. (Figures in brackets relate to previous year) Name of the Company Amount (H in Crore) Country of Residence Holding % C - Edge Technologies Ltd. 4.90 India 49% (4.90) (49%) SBI Macquarie Infrastructure Management Pvt. Ltd. 18.57 India 45% (18.57) (45%) SBI Macquarie Infrastructure Trustee Pvt. Ltd. 0.03 India 45% (0.03) (45%) Maquarie SBI Infrastructure Management Pte. Ltd.* - Singapore 45% (2.25) (45%) Macquarie SBI Infrastructure Trustee Ltd. ** - Bermuda 45% (-) (45%) Oman India Joint Investment Fund – Management Company Pvt. Ltd. 2.30 India 50% (2.30) (50%) Oman India Joint Investment Fund – Trustee Company Pvt. Ltd. 0.01 India 50% (0.01) (50%) Jio Payments Bank Limited *** 79.08 India 14.96% (-) (-) Total 104.89 (28.06) * 100% provision on investments has been made during the year. ** Indirect holding through Macquarie SBI Infra Management Pte. Ltd., against which the company has made 100% provision on investments. *** Jio Payments Bank Limited was an Associate up to 31st March 2024. \u0007As required by AS 27, the aggregate amount of the assets, liabilities, income, expenses, contingent liabilities and commitments related to the Bank’s interests in jointly controlled entities are disclosed as under: (H in Crore) Particulars As at 31st March 2025 As at 31st March 2024 Liabilities Capital & Reserves 332.44 244.45 Deposits 44.17 - Borrowings - - Other Liabilities & Provisions 83.68 52.47 Total 460.29 296.92 Assets Cash and Balances with RBI 10.35 - Balances with Banks and money at call and short notice 199.29 157.53 Investments 85.24 22.01 Advances - - Fixed Assets 59.05 32.85 Other Assets 106.36 84.53 Total 460.29 296.92 Capital Commitments - - Other Contingent Liabilities 1.79 1.49 240",
+      "ticker": "SBIN",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 243,
+      "section_title": "general",
+      "similarity": 0.574585318565369,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015151515151515152
+    },
+    {
+      "ticker": "SBIN",
+      "content": "CONSOLIDATED FINANCIALS 2.3.2 SEGMENT INFORMATION PART A: PRIMARY (BUSINESS) SEGMENTS: (H in Crore) Business Segment Treasury Corporate / Wholesale Banking Retail Banking Insurance Business Other Banking Operations TOTAL Digital Banking Other Retail Banking Total Revenue (before exceptional item) 1,34,627.51 1,48,999.81 7,731.44 2,33,942.93 2,14,674.37 1,14,142.61 31,108.69 6,70,552.99 (1,24,225.02) (1,32,845.50) (5,244.90) (2,04,491.84) (2,09,736.74) (1,05,459.40) (27,616.02) (5,99,882.68) Unallocated Revenue 1,815.45 (2,261.66) Less: Inter Segment Revenue 9,025.12 (7,569.44) Total Revenue 6,63,343.32 (5,94,574.90) Result (before exceptional items) 16,236.59 29,009.09 15,362.84 43,798.28 59,161.12 3,369.87 8,376.83 1,16,153.50 (14,244.56) (40,797.94) (7,796.87) (32,143.29) (39,940.16) (2,404.12) (8,161.49) (1,05,548.27) Less: Exceptional items - (7,100.00) Result (after exceptional items) 1,16,153.50 (98,448.27) Unallocated Income(+)/ Expenses(–) net -9,788.20 (-7,208.23) Profit/(Loss) Before Tax 1,06,365.30 (91,240.04) Taxes 27,348.14 (23,101.78) Extraordinary Profit - (-) Net Profit/(Loss) before share in profit in Associates and Minority Interest 79,017.16 (68,138.26) Add: Share in Profit in 1,505.47 Associates (1,405.16) Less: Minority Interest 2,961.29 (2,458.75) Net Profit/(Loss) for the Group 77,561.34 (67,084.67) Other Information: Segment Assets 17,93,715.85 19,61,388.61 86,505.30 27,96,967.68 28,83,472.98 4,79,213.95 1,17,702.33 72,35,493.72 (18,05,145.08) (17,37,823.44) (75,117.91) (25,38,954.68) (26,14,072.59) (4,17,545.67) (99,852.13) (66,74,438.91) Unallocated Assets 78,691.62 (59,339.89) Total Assets 73,14,185.34 (67,33,778.80) Segment Liabilities 15,50,224.97 17,86,889.78 9,08,506.47 17,79,917.33 26,88,423.80 4,57,657.07 84,853.21 65,68,048.83 (15,97,152.27) (16,56,663.36) (6,95,316.15) (16,90,063.26) (23,85,379.41) (3,98,131.10) (73,759.55) (61,11,085.69) Unallocated Liabilities 2,59,099.75 (2,07,753.94) Total Liabilities 68,27,148.58 (63,18,839.63) (i) Income/Expenses are for the whole year. Assets/Liabilities are as at 31st March 2025. (ii) Figures within brackets are for previous year. Schedules forming part of the Consolidated Balance Sheet & Profit and Loss Account for the year ended 31st March 2025 298",
+      "chunk_index": 629,
+      "page_number": 301,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\SBIN_FY25.json"
+      },
+      "similarity": 13.370235654814751,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015151515151515152
+    },
+    {
+      "id": "73ad4056-be90-4836-87fd-9230ecd58bc9",
+      "content": "Schedules forming part of the Balance Sheet and Profit and Loss Account for the year ended 31st March 2025 STANDALONE FINANCIALS Experience adjustment (H in Crore) Amount recognised in the Balance Sheet Year ended 31-03-2021 Year ended 31-03-2022 Year ended 31-03-2023 Year ended 31-03-2024 Year ended 31-03-2025 On Plan Liability (Gain) / Loss 12,528.38 4,162.26 8,997.32 21,009.20 7,928.54 On Plan Asset (Loss) /Gain 3,705.91 (436.95) (4,364.24) 6,239.91 2,791.26 Surplus/ Deficit in the Plan Gratuity Plan (H in Crore) Amount recognised in the Balance Sheet Year ended 31-03-2021 Year ended 31-03-2022 Year ended 31-03-2023 Year ended 31-03-2024 Year ended 31-03-2025 Liability at the end of the year 13,447.17 12,714.22 12,390.48 12,833.94 13,376.61 Fair value of Plan Assets at the end of the year 10,950.23 10,925.06 11,065.66 12,139.72 12,554.88 Difference 2,496.94 1,789.16 1,324.82 694.22 821.73 Unrecognised Past Service Cost - - - - - Unrecognised Transition Liability - - - - - Amount Recognised in the Balance Sheet 2,496.94 1,789.16 1,324.82 694.22 821.73 Experience adjustment (H in Crore) Amount recognised in the Balance Sheet Year ended 31-03-2021 Year ended 31-03-2022 Year ended 31-03-2023 Year ended 31-03-2024 Year ended 31-03-2025 On Plan Liability (Gain) / Loss 1,053.04 366.15 138.91 542.28 38.49 On Plan Asset (Loss) /Gain 331.37 (76.85) (336.70) 447.04 208.63 \u0007The expected contribution to the Pension and Gratuity Fund for the next year is H3,045.99 Crore and H1,347.52 Crore respectively. \u0007As the plan assets are marked to market on the basis of the yield curve derived from government securities, the expected rate of return has been kept the same as the discount rate. \u0007The estimates of future salary growth, factored in actuarial valuation, take account of inflation, seniority, promotion and other relevant factors such as supply and demand in the employment market. Such estimates are very long term and are not based on limited past experience / immediate future. Empirical evidence also suggests that in very long term, consistent high salary growth rates are not possible. The said estimates and assumptions have been relied upon by the auditors. 228",
+      "ticker": "SBIN",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 231,
+      "section_title": "general",
+      "similarity": 0.572042431113576,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014925373134328358
+    },
+    {
+      "ticker": "SBIN",
+      "content": "Schedules forming part of the Consolidated Balance Sheet as at 31st March 2025 CONSOLIDATED FINANCIALS (000s omitted) As at 31.03.2025 (Current Year) J As at 31.03.2024 (Previous Year) J VII. Revaluation Reserve Opening Balance 27555,64,70 27756,25,90 Additions during the year - - Deductions during the year 200,03,03 27355,61,67 200,61,20 27555,64,70 VIII. AFS Reserve Opening Balance - - Additions during the year 7586,97,89 - Deductions during the year - 7586,97,89 - - IX. Capital Reserve on Consolidation Opening Balance 398,97,05 345,98,14 Additions during the year 93,37,32 146,95,21 Deductions during the year - 492,34,37 93,96,30 398,97,05 X. Balance in Profit and Loss Account 108446,85,60 72019,17,93 TOTAL 486144,29,67 414046,71,03 # net of consolidation adjustments * Note: Revenue and Other Reserves include: (i) \u0007H5,00,00 thousand (Previous Year H5,00,00 thousand) of Integration and Development Fund (maintained under Section 36 of the State Bank of India Act, 1955) (ii) Special Reserve under Section 36(1)(viii) of the Income Tax Act, 1961 H21064,32,76 thousand (Previous Year H19527,05,76 thousand) (iii) Investment Reserve Current Year Nil (Previous Year H31,42,84,35 thousand) (iv) Debenture Redemption Reserve H9,66,67 thousand (Previous Year H4,83,74 thousand) SCHEDULE 2A - MINORITY INTEREST (000s omitted) As at 31.03.2025 (Current Year) J As at 31.03.2024 (Previous Year) J Minority Interest at the beginning of the year 15617,96,24 12836,61,94 Subsequent increase/decrease during the year 2407,87,64 2781,34,30 Minority Interest on the date of balance sheet 18025,83,88 15617,96,24 258",
+      "chunk_index": 531,
+      "page_number": 261,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\SBIN_FY25.json"
+      },
+      "similarity": 13.260772963259392,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014925373134328358
+    },
+    {
+      "id": "726027f3-35ea-4b61-bcae-a6ddce47c5cf",
+      "content": "Schedules forming part of the Consolidated Balance Sheet & Profit and Loss Account for the year ended 31st March 2025 286",
+      "ticker": "SBIN",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 289,
+      "section_title": "in accordance with AS 21 “Consolidated Financial Statements” as SBI’s holding in these companies exceeds 50%.",
+      "similarity": 0.571121845908276,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014705882352941176
+    },
+    {
+      "ticker": "SBIN",
+      "content": "Schedules forming part of the Balance Sheet and Profit and Loss Account for the year ended 31st March 2025 STANDALONE FINANCIALS (H in Crore) Particulars Pension Plan Gratuity Plan Current Year Previous Year Current Year Previous Year Reconciliation of present value of the obligation and fair value of the plan assets Present Value of Funded obligation at the year end 2,04,470.79 1,90,944.96 13,376.61 12,833.94 Fair Value of Plan assets at the year end 1,67,431.25 1,51,643.97 12,554.88 12,139.72 Funded Status Deficit/(Surplus) 37,039.54 39,300.99 821.73 694.22 Unrecognised Past Service Cost (Vested) Closing Balance - - - - Unrecognised Transitional Liability Closing Balance - - - - Net Liability/(Asset) 37,039.54 39,300.99 821.73 694.22 Amount Recognised in the Balance Sheet Liabilities 2,04,470.79 1,90,944.96 13,376.61 12,833.94 Assets 1,67,431.25 1,51,643.97 12,554.88 12,139.72 Net Liability / (Asset) recognised in Balance Sheet 37,039.54 39,300.99 821.73 694.22 Unrecognised Past Service Cost (Vested) Closing Balance - - - - Unrecognised Transitional Liability Closing Balance - - - - Net Liability/(Asset) recognised in Balance Sheet 37,039.54 39,300.99 821.73 694.22 Net Cost recognised in the profit and loss account Current Service Cost 1,109.80 956.93 490.61 471.41 Interest Cost 13,805.32 11,537.02 925.33 926.81 Expected return on plan assets (10,963.86) (9,786.42) (875.27) (827.71) Expected Contributions by the employees (2.78) - (0.10) (0.09) Past Service Cost (Amortised) Recognised - - - - Past Service Cost (Vested Benefit) Recognised - 7,100.00 - - Net actuarial losses/ (Gain) recognised during the year 9,092.69 19,985.10 281.16 123.80 Total costs of defined benefit plans included in Schedule 16 “Payments to and provisions for employees” 13,041.17 29,792.63 821.73 694.22 Reconciliation of expected return and actual return on Plan Assets Expected Return on Plan Assets 10,963.86 9,786.42 875.27 827.71 Actuarial Gain/ (loss) on Plan Assets– Due to Experience 2,791.26 6,239.91 208.63 447.04 Actual Return on Plan Assets 13,755.12 16,026.33 1,083.90 1,274.75 Reconciliation of opening and closing net liability/ (asset) recognised in Balance Sheet Opening Net Liability/ (Asset) as at 1st April 39,300.99 23,817.72 694.22 1,324.82 Expenses as recognised in Profit and Loss account 13,041.17 29,792.63 821.73 694.22 Paid by Bank Directly (7,189.74) (6,674.84) - - Debited to Other Provision - - - - Recognised in Reserve - - - - Employer’s Contribution (8,112.88) (7,634.52) (694.22) (1,324.82) Net liability/(Asset) recognised in Balance Sheet 37,039.54 39,300.99 821.73 694.22 226",
+      "chunk_index": 427,
+      "page_number": 229,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\SBIN_FY25.json"
+      },
+      "similarity": 12.61707361765599,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014705882352941176
+    },
+    {
+      "id": "d09db660-41a7-4bb1-9eb6-de4faf207d78",
+      "content": "Schedules forming part of the Balance Sheet and Profit and Loss Account for the year ended 31st March 2025 STANDALONE FINANCIALS c) Marketing and distribution: \u0007The details of fees /remuneration received in respect of the marketing and distribution function (excluding bancassurance business) are as follows: (H in Crore) Name of the Company Current Year Previous Year SBI Mutual Fund 1,453.72 915.55 SBI Cards and Payment Services Limited 222.14 231.24 National Pension System 22.94 19.80 Other Mutual Funds 62.20 41.22 SBICAP Securities Ltd. 8.44 7.12 Others (PMS, Bonds, Corporate FDs etc.) 13.63 7.41 Total 1,783.07 1,222.34 d) Priority Sector Lending Certificate (PSLC): The Bank has purchased/sold the following Priority Sector Lending Certificates during the year: (H in Crore) Category Current Year Previous Year Purchase Sell Purchase Sell PSLC Micro Enterprises 85,732.50 - 42,750.00 - PSLC Agriculture - 11,000.00 8,660.00 15,510.00 PSLC General 35,000.00 - 47,145.25 - PSLC Small and Marginal Farmers 89,098.25 - 99,573.75 - Total 2,09,830.75 11,000.00 1,98,129.00 15,510.00 e) Provisions and Contingencies: Break up of “Provisions and Contingencies” shown under head Expenditure in Profit and loss account as follows: (H in Crore) Provisions debited to Profit & Loss Account Current Year Previous Year Provision for Taxation - Current Tax 24,843.75 22,871.63 - Deferred Tax Asset created (-)473.11 (-)2,165.29 Provision for Depreciation on Investments 514.28 (-)593.18 Provision on Non-Performing Assets 14,446.47 9,469.33 Provision on Restructured Assets (-)28.14 48.30 Provision on Standard Assets 302.76 (-)1,340.87 Other Provisions 72.53 (-)2,669.36 Total 39,678.54 25,620.56 222",
+      "ticker": "SBIN",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 225,
+      "section_title": "general",
+      "similarity": 0.558865222863271,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014492753623188406
+    },
+    {
+      "ticker": "SBIN",
+      "content": "NOTICE State Bank of India (Constituted under the State Bank of India Act,1955) The 70th Annual General Meeting of Shareholders of the State Bank of India will be held at the State Bank Auditorium, State Bank Bhavan, Madame Cama Road, Mumbai - 400021 on Friday, the 13th June, 2025 at 02:30 P.M. The Meeting will be held through Video Conferencing (VC) / Other Audio-Visual Means (OAVM) to transact the following business: “To discuss and adopt the Balance Sheet and the Profit and Loss Account of the State Bank of India made up to the 31st day of March 2025; the report of the Central Board on the working and activities of the State Bank of India for the period covered by the Accounts; and the Auditor’s Report on the Balance Sheet and Accounts.” Corporate Centre, State Bank Bhavan, Madame Cama Road, Mumbai – 400021 (Challa Sreenivasulu Setty) Date: 3rd May, 2025 Chairman 355 Annual Report 2024-25",
+      "chunk_index": 790,
+      "page_number": 358,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\SBIN_FY25.json"
+      },
+      "similarity": 12.606307102742871,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014492753623188406
+    },
+    {
+      "id": "a476533c-fca2-46d1-8fa6-c9e6a9a92bd6",
+      "content": "Schedules forming part of the Balance Sheet and Profit and Loss Account for the year ended 31st March 2025 STANDALONE FINANCIALS 18.2. ASSET LIABILITY MANAGEMENT a. Maturity pattern of certain items of assets and liabilities as at 31st March 2025: (H in Crore) Day1 2-7 Days 8-14 Days 15 to 30 days Over 31 days and upto 2 months Over 2 months and upto 3 months Over 3 months & upto 6 months Over 6 months & upto 1 Year Over 1 Year & upto 3 years Over 3 Years & upto 5 years Over 5 Years Total Deposits 71,320.39 1,14,914.53 51,959.28 80,701.48 1,15,301.78 94,956.61 2,38,139.88 10,78,275.61 15,65,899.80 5,26,373.78 14,44,346.39 53,82,189.53 (62,388.64) (91,980.91) (48,883.19) (76,745.22) (96,162.50) (73,330.72) (2,23,144.27) (10,91,758.84) (13,08,824.69) (4,99,189.18) (13,43,668.61) (49,16,076.77) Advances 57,923.89 22,324.04 19,273.16 66,965.61 1,00,191.22 60,463.49 2,09,083.92 2,90,875.10 16,15,800.15 5,08,882.11 12,11,529.41 41,63,312.10 (48,490.57) (20,243.78) (18,200.46) (63,527.57) (79,495.23) (59,539.62) (1,77,491.33) (2,58,065.63) (14,21,478.78) (4,99,508.52) (10,57,929.36) (37,03,970.85) Investments 203.63 2,129.80 560.30 7,238.04 9,698.19 14,780.13 31,462.90 1,28,934.35 2,55,613.91 3,43,126.82 8,96,824.68 16,90,572.75 (401.67) (4,656.47) (2,612.69) (12,025.91) (20,920.94) (29,133.31) (47,085.63) (1,41,889.43) (3,12,103.33) (2,13,496.44) (8,87,013.84) (16,71,339.66) Borrowings 2,540.82 25,365.61 6,203.40 38,634.75 38,669.08 34,547.03 85,976.72 76,812.87 67,928.29 42,690.10 1,44,203.85 5,63,572.52 (59,009.00) (1,00,380.89) (4,567.20) (27,865.05) (29,449.90) (35,365.03) (73,860.39) (49,411.34) (80,558.21) (42,787.25) (94,306.65) (5,97,560.91) Foreign Currency Assets # 17,001.48 9,554.60 8,968.88 40,764.49 53,880.40 43,169.18 1,11,516.90 95,799.96 2,28,356.41 96,916.46 85,263.59 7,91,192.35 (15,621.97) (9,830.90) (8,385.25) (42,254.85) (40,481.78) (45,373.87) (89,465.07) (73,261.52) (1,82,089.19) (1,08,502.14) (57,547.38) (6,72,813.92) Foreign Currency Liabilities $ 29,108.56 9,307.13 10,149.01 48,649.25 64,211.11 62,276.30 1,19,832.52 1,27,862.75 1,22,011.75 55,320.36 19,769.90 6,68,498.64 (23,328.17) (7,999.52) (7,797.35) (36,812.27) (42,343.85) (45,723.86) (1,11,574.02) (96,735.79) (99,192.23) (64,387.38) (19,293.86) (5,55,188.30) # Foreign Currency Assets represent advances and investments. $ Foreign Currency Liabilities represent borrowings and deposits. (Figures in brackets are as at 31st March 2024). b. Liquidity Coverage Ratio (LCR): i. Standalone LCR \u0007Liquidity Coverage Ratio (LCR) standard has been introduced in the Bank with an objective to maintain an adequate level of unencumbered High Quality Liquid Assets (HQLAs) that can be converted into cash to meet its liquidity needs for a 30-calendar days time horizon under a significantly severe liquidity stress scenario. L C R = Stock of High-Quality Liquid Assets (HQLAs) Total net cash outflows over the next 30 calendar days \u0007Liquid assets comprise of high-quality assets that can be readily encashed or used as collateral to obtain cash in a stress scenario. There are two categories of assets included in the stock of HQLAs, viz. Level 1 and Level 2 (Level 2A and Level 2B) assets. While Level 1 assets attract 0% haircut, Level 2A and Level 2B assets are with 15% and 50% haircuts respectively. The total net cash outflows is the total expected cash outflows less total expected cash inflows for the subsequent 30 calendar days. Total expected cash outflows are calculated by multiplying the outstanding balances of various categories or types of liabilities and off-balance sheet commitments by the rates at which they are expected to run-off or be drawn down. Total expected cash inflows are calculated by multiplying the outstanding balances of various categories of contractual receivables by the rates at which they are expected to flow in up to an",
+      "ticker": "SBIN",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 195,
+      "section_title": "general",
+      "similarity": 0.555079758167267,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014285714285714285
+    },
+    {
+      "ticker": "SBIN",
+      "content": "DIRECTORS’ REPORT from Off-Balance Sheet (OBS) exposures or probable loan losses. The assumptions relating to non-contractual assets and liabilities are periodically reviewed, back- tested and revised as per the outcomes of the latest studies. The stock of High-Quality Liquid Assets (HQLA) and cash outflows are monitored daily under a dynamic market environment to ensure the maintenance of Liquidity Coverage Ratio (LCR) as prescribed by the RBI and Bank’s internal policy benchmark. Your Bank monitors the long- term stability of funds as prescribed by the Regulator in the Net Stable Funding Ratio (NSFR) guidelines. Your Bank identifies the inherent risks associated with changing interest rates on its Balance Sheet (On/Off) exposures from both short-term and long-term perspectives. For this purpose, the impact of change in the interest rates on Earnings at Risk (EaR) and Market Value of Equity (MVE) is assessed with pre-defined tolerance limits, enabling the management to initiate appropriate preventive steps in a likely scenario of erosion in NII/Net Worth. Your Bank is measuring current or prospective risk to Bank’s capital and earnings arising from adverse movements in interest rates that affect the Banking Book position under new IRRBB guidelines of RBI. To encourage branches to garner stable funds and assess their profitability based on the cost of funds, a matched maturity- based Funds Transfer Pricing was adopted by your Bank. Your Bank constantly strives to ensure adequate monetary policy transmission through its benchmark lending rates. Your Bank’s Asset Liability Management Committee (ALCO) monitors and manages Liquidity and Interest Rate risks by modulating the asset-liability mix in the Balance Sheet and recalibrating the pricing of liabilities and assets from time to time. The ALCO, inter alia, regularly reviews the interest rate scenarios, the growth pattern of liability products, credit growth, competitive advantages, evolving liquidity conditions, adherence to regulatory prescriptions, etc. With automation of Regulatory Reports/ Returns emanating from ALM, your Bank is well-positioned in monitoring and compliance regarding Liquidity and Interest Rate Risk Management. 108",
+      "chunk_index": 195,
+      "page_number": 111,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\SBIN_FY25.json"
+      },
+      "similarity": 12.477580240620897,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014285714285714285
+    }
+  ],
+  "generated_at": "2026-06-22T05:36:19.235368+00:00"
+}

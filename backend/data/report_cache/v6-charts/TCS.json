@@ -1,0 +1,579 @@
+{
+  "sections": [
+    {
+      "title": "Executive Summary + Investment Thesis",
+      "body": "**Executive Summary**\nTCS reported a 6.0% growth in revenue from operations to ₹255,324 crore in FY 2025, driven by a strong and resilient order book despite increased macroeconomic uncertainty. The company's EBIT margin stood at 24.3% in FY 2025, a 30-basis point decline from the previous year, influenced by headwinds from merit-based interventions and investments in infrastructure and capability building. However, tailwinds such as improved utilization, productivity, and realization, along with favorable currency movements, contributed positively to the margins. The constant currency revenue growth for the year was 4.2%, with business growth contributing 4.2% and impact of exchange rate contributing 1.8%.\n\n**Investment Thesis**\nOur investment thesis for TCS is based on the company's ability to navigate the challenging global economic environment and deliver resilient growth. With a strong order book and a diversified revenue stream across industry verticals, including Banking, Financial Services and Insurance (37.0% of revenue), Communication, Media and Technology (18.0%), and Consumer Business (15.7%), TCS is well-positioned to capitalize on opportunities for growth. The company's focus on continuous transformation, innovation-driven growth, and proactive policy responses will help mitigate the risks associated with financial market volatility, demographic shifts, and fiscal constraints. With a robust investment strategy and a total funds invested of ₹47,222 crore, TCS is expected to deliver long-term value to shareholders. We believe that TCS's strong financial performance, combined with its ability to adapt to changing market dynamics, makes it an attractive investment opportunity.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 89,
+          "section": "accounting policies used in the preparation of the financial statements are disclosed in the notes to the consolidated financial statements."
+        },
+        {
+          "source": "filing",
+          "page": 90,
+          "section": "Management Discussion and Analysis"
+        },
+        {
+          "source": "filing",
+          "page": 90,
+          "section": "Management Discussion and Analysis"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Business Overview + Segment Breakdown",
+      "body": "TCS is an IT services, consulting, and business solutions organization that has been partnering with many of the world’s largest businesses in their transformational journeys for the last 57 years. The Company offers a comprehensive portfolio of services and offerings, including application development and management, digital transformation, AI, data and cloud services, engineering services, cognitive business operations, cyber security, and products & platforms. TCS considers industry verticals as its primary go-to-market business segments, with the five key vertical clusters being Banking, Financial Services and Insurance (BFSI), Communication, Media and Technology (CMT), Consumer Business, Life Sciences and Healthcare, Manufacturing, and Others. For the year ended March 31, 2025, the Company reported revenue from operations of ₹255.32 billion, with segment-wise revenue being ₹94.60 billion for BFSI, ₹25.17 billion for Manufacturing, ₹40.20 billion for Consumer Business, ₹45.89 billion for CMT, ₹26.46 billion for Life Sciences and Healthcare, and ₹23.01 billion for Others.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 82,
+          "section": "Management Discussion and Analysis"
+        },
+        {
+          "source": "filing",
+          "page": 230,
+          "section": "Consolidated Financial Statements 2024-25"
+        },
+        {
+          "source": "filing",
+          "page": 230,
+          "section": "Consolidated Financial Statements 2024-25"
+        }
+      ],
+      "chart_data": {
+        "type": "donut",
+        "segments": [
+          {
+            "label": "Banking, Financial Services and Insurance",
+            "value": 94697.0
+          },
+          {
+            "label": "Manufacturing",
+            "value": 25170.0
+          },
+          {
+            "label": "Consumer Business",
+            "value": 40197.0
+          },
+          {
+            "label": "Communication, Media and Technology",
+            "value": 45893.0
+          },
+          {
+            "label": "Life Sciences and Healthcare",
+            "value": 26456.0
+          },
+          {
+            "label": "Others",
+            "value": 23011.0
+          }
+        ]
+      }
+    },
+    {
+      "title": "Financial Performance",
+      "body": "<section prose>The financial performance of TCS is highlighted by a 6.0% growth in revenue from operations, reaching ₹255,324 crore in FY 2025, compared to ₹240,893 crore in FY 2024. The profit after tax attributable to shareholders of the Company stood at ₹48,553 crore in FY 2025, representing a 4.2% increase from ₹46,585 crore in the previous year. Earnings before interest and tax (EBIT) were ₹62,165 crore, with an EBIT margin of 24.3%. The constant currency revenue growth for FY 2025 was 4.2%, after adjusting for the positive impact of 1.8% from currency movements. The Company's basic and diluted earnings per share were ₹134.19 for FY 2025, up from ₹127.74 in the previous year.</section>",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 89,
+          "section": "accounting policies used in the preparation of the financial statements are disclosed in the notes to the consolidated financial statements."
+        },
+        {
+          "source": "filing",
+          "page": 230,
+          "section": "Consolidated Financial Statements 2024-25"
+        },
+        {
+          "source": "filing",
+          "page": 230,
+          "section": "Consolidated Financial Statements 2024-25"
+        }
+      ],
+      "chart_data": {
+        "type": "bar",
+        "labels": [
+          "FY24",
+          "FY25"
+        ],
+        "datasets": [
+          {
+            "label": "Revenue (₹ Cr)",
+            "values": [
+              240893.0,
+              255324.0
+            ]
+          },
+          {
+            "label": "Net Profit (₹ Cr)",
+            "values": [
+              46585.0,
+              48553.0
+            ]
+          }
+        ]
+      }
+    },
+    {
+      "title": "Balance Sheet Health + Cash Flow",
+      "body": "The balance sheet of TCS exhibits a healthy position, with a substantial amount of cash and cash equivalents of ₹8,342 crore as of March 31, 2025. The company's total carrying value of financial assets stands at ₹1,11,109 crore, comprising cash and cash equivalents, bank deposits, investments, and other financial assets. On the liabilities side, the total carrying value of financial liabilities is ₹32,523 crore, consisting of trade payables, lease liabilities, and other financial liabilities. The company's other financial liabilities have decreased from ₹9,065 crore to ₹8,542 crore (current) and from ₹365 crore to ₹680 crore (non-current) over the past year, indicating a relatively stable debt position.\n\nIn terms of cash flow, the company's ability to generate cash from operations is evident from its profit before tax of ₹65,331 crore for the year ended March 31, 2025. The depreciation and amortisation expense of ₹5,242 crore and significant non-cash items of ₹128 crore (allocable) and ₹7 crore (unallocable) are notable. However, without explicit cash flow statement data, a comprehensive analysis of the company's cash flow position is not possible. Nonetheless, the company's revenue from operations of ₹2,55,324 crore and profit for the year of ₹48,797 crore suggest a robust financial performance. A detailed cash flow analysis would require additional data, which is not provided in the given excerpts.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 197,
+          "section": "Consolidated Financial Statements 2024-25"
+        },
+        {
+          "source": "filing",
+          "page": 230,
+          "section": "Consolidated Financial Statements 2024-25"
+        },
+        {
+          "source": "filing",
+          "page": 230,
+          "section": "Consolidated Financial Statements 2024-25"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Key Financial Ratios",
+      "body": "The 'Key Financial Ratios' section of this report is based on the provided filing excerpts. As per the excerpts, TCS reported a revenue of ₹255,324 crore in FY 2025, with a year-over-year growth of 6.0%. The company's operating margin stood at 24.3% in FY 2025, with an operating profit of ₹62,165 crore. To derive the operating profit margin ratio, we can use the formula: operating profit margin = operating profit ÷ revenue = ₹62,165 crore ÷ ₹255,324 crore = 24.3%. \n\nThe company's balance sheet appears strong, with zero debt and a total carrying value of financial assets of ₹1,11,109 crore as at March 31, 2025. However, the excerpts do not provide sufficient information to calculate key ratios such as return on equity (ROE) or debt-to-equity, as the net worth (shareholders' equity) figure is not available. Peer comparison is also not possible due to the absence of peer data in the provided excerpts.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 197,
+          "section": "Consolidated Financial Statements 2024-25"
+        },
+        {
+          "source": "filing",
+          "page": 23,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 23,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Valuation Snapshot vs Sector Median",
+      "body": "Valuation Snapshot vs Sector Median\n\nAs of FY 2025, TCS reported a consolidated revenue from operations of ₹255,324 crore, with a profit for the year attributable to shareholders of ₹48,553 crore. The company's operating margin stood at 24.3%, a marginal decline of 30 basis points compared to FY 2024. However, due to the absence of peer data in the provided excerpts, a direct comparison of TCS' valuation metrics with the sector median is not possible. \n\nWe can, however, highlight TCS' key valuation metrics, such as its revenue growth and operating margin. The company achieved a year-over-year revenue growth of 6.0% in FY 2025, demonstrating a resilient business performance. Its operating margin of 24.3% reflects the company's focus on operational excellence and cost optimization. To accurately assess TCS' valuation relative to its peers, additional data on sector medians for revenue growth, operating margins, and other key metrics would be required.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 71,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 23,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 23,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Management Commentary",
+      "body": "The management of TCS has provided a comprehensive overview of the company's performance and outlook amidst a challenging global economic environment. As stated in the Integrated Annual Report 2024-25, the world GDP grew at a steady rate of 3.3% in 2024, but is expected to decline to 2.8% in 2025 and 3% in 2026. Despite these headwinds, TCS remains confident in its ability to navigate the challenges and capitalize on opportunities. The company's investment strategy focuses on selecting a balanced mix of long-term and short-term instruments, with total funds invested standing at ₹47,222 crore in FY 2025, comprising investments in mutual funds, government securities, and others (₹30,956 crore), deposits with banks (₹12,831 crore), and cash and bank balances (₹3,435 crore).\n\nThe management has identified key demand drivers expected to power the company's growth in FY 2026, including technology modernization and transformation, business transformation, operating model transformation, and tech-enabled sustainability. Segment-wise, the company reported revenue growth across various industry verticals, with Banking, Financial Services, and Insurance (BFSI) contributing ₹94,597 crore in revenue, followed by Communication, Media, and Technology (₹45,893 crore), Consumer Business (₹40,197 crore), Life Sciences and Healthcare (₹26,456 crore), Manufacturing (₹25,170 crore), and Others (₹23,011 crore). The management's focus on driving sustainable growth, fostering innovation, and delivering value to clients, employees, and shareholders is expected to enable the company to stay resilient and adapt to the changing market dynamics.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 82,
+          "section": "Management Discussion and Analysis"
+        },
+        {
+          "source": "filing",
+          "page": 91,
+          "section": "Management Discussion and Analysis"
+        },
+        {
+          "source": "filing",
+          "page": 90,
+          "section": "Management Discussion and Analysis"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Key Risks",
+      "body": "The key risks associated with TCS are multifaceted and can be categorized into several areas. Firstly, the company faces risks related to intellectual property (IP) infringement and leakage, which may lead to potential liabilities, increased litigation, and reputation impact. Additionally, litigation risks may arise from commercial disputes, alleged violation of intellectual property rights, personal data breaches, and employment-related matters. These risks can result in substantial financial implications, reputation damage, and legal expenses. To mitigate these risks, TCS has established an industry-leading IP management framework, contractual and operational controls, and a well-defined software asset lifecycle governance framework.\n\nFurthermore, TCS is exposed to sustainability risks, including climate change and environmental aspects, which can affect its growth, profitability, and reputation. The company faces physical risks to life and property due to extreme weather events, transition risks resulting from disruptions in the market and emerging regulations, and risks of non-compliance with regulatory requirements. However, TCS also sees opportunities in the growing commitment by enterprises to reduce their carbon footprint and regulatory requirements, which can open up new avenues for providing business-led technology solutions. Other key risks include technology disruption, which can happen at an unprecedented pace, and the potential impact of disruptive technologies on TCS' business model and operations. The company's robust risk management initiatives, commitment to innovation and excellence, and proactive approach to mitigating these risks are expected to enable TCS to navigate the challenges of the IT industry and global environment.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 91,
+          "section": "Management Discussion and Analysis"
+        },
+        {
+          "source": "filing",
+          "page": 94,
+          "section": "Management Discussion and Analysis"
+        },
+        {
+          "source": "filing",
+          "page": 143,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Recent Developments",
+      "body": "The recent developments at TCS reflect the company's resilience and adaptability in a rapidly changing technology environment. In FY 2025, TCS achieved a year-over-year revenue growth of 6.0%, demonstrating a strong business performance amidst uncertainty. On a constant currency basis, revenue grew by 4.2%, outpacing the growth in FY 2024. The company's operating margin stood at 24.3% in FY 2025, a marginal decline of 30 basis points compared to FY 2024, primarily due to the impact of annual wage hikes and strategic investments. However, cost pressures were partially offset by improvements in workforce utilization, productivity, and realization, along with favourable currency movements.\n\nTCS' financial performance is a testament to its robust business model, with a compound annual growth rate (CAGR) of 10.2% over the past five financial years. The company's revenue has consistently grown, from ₹164,177 crore in FY 2021 to ₹255,324 crore in FY 2025. Operating profit has also increased, from ₹42,481 crore in FY 2021 to ₹62,165 crore in FY 2025. With a strong balance sheet, zero debt, and consistently high shareholder returns, TCS is well-positioned to navigate economic downturns and invest in new capabilities, research, and innovation. The company's focus on operational excellence, cost optimization, and prudent use of working capital has resulted in robust cash conversion and increased invested funds, further strengthening its return ratios.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 94,
+          "section": "Management Discussion and Analysis"
+        },
+        {
+          "source": "filing",
+          "page": 82,
+          "section": "Management Discussion and Analysis"
+        },
+        {
+          "source": "filing",
+          "page": 23,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Bull vs Bear vs Base Case",
+      "body": "The bull case for TCS is supported by the company's strong and resilient order book, with revenue from operations growing 6.0% in FY 2025 to ₹255,324 crore. The company's EBIT margins, although declining by 30 basis points to 24.3%, remain robust. Additionally, the growth in certain segments such as Communication, Media and Technology (16.5% YoY) and Manufacturing (7.1% YoY) is a positive indicator. The bull case assumes that TCS will continue to benefit from its diversified portfolio, strong client relationships, and ability to adapt to changing market dynamics, leading to revenue growth of 7-8% in the next fiscal year.\n\nOn the other hand, the bear case is centered around the potential headwinds from macroeconomic uncertainty, geopolitical tensions, and fiscal constraints. The company's constant currency revenue growth of 4.2% in FY 2025, which excludes the positive impact of currency movements, is a concern. Furthermore, the decline in segment margins in certain industries, such as Communication, Media and Technology (from 27.7% to 20.9%), may indicate increasing competition and pricing pressure. The bear case assumes that these challenges will persist, leading to a decline in revenue growth to 3-4% in the next fiscal year. Our base case scenario, however, assumes a moderate growth of 5-6% in revenue, driven by the company's ability to navigate the challenges and capitalize on opportunities in the digital transformation space, with EBIT margins remaining stable at around 24%.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 89,
+          "section": "accounting policies used in the preparation of the financial statements are disclosed in the notes to the consolidated financial statements."
+        },
+        {
+          "source": "filing",
+          "page": 90,
+          "section": "Management Discussion and Analysis"
+        },
+        {
+          "source": "filing",
+          "page": 90,
+          "section": "Management Discussion and Analysis"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Peer Comparison",
+      "body": "Peer Comparison: \nUnfortunately, a peer comparison is not possible based on the provided excerpts, as they do not contain information on TCS' peers. The excerpts primarily focus on TCS' segmental performance, business outlook, and industry overview, without providing comparable data for other companies in the industry. To conduct a meaningful peer comparison, data on revenue, net profit, and other key metrics for TCS' peers would be required. \n\nHowever, we can note that TCS operates in a global IT services, consulting, and business solutions landscape, with a presence in multiple industry verticals, including Banking, Financial Services and Insurance, Communication, Media and Technology, and others. A peer comparison would typically involve analyzing the financial performance and growth metrics of similar companies, such as Infosys, Wipro, or HCL Technologies, to assess TCS' relative position in the industry. Without this data, a peer comparison cannot be conducted at this time.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 90,
+          "section": "Management Discussion and Analysis"
+        },
+        {
+          "source": "filing",
+          "page": 90,
+          "section": "Management Discussion and Analysis"
+        },
+        {
+          "source": "filing",
+          "page": 82,
+          "section": "Management Discussion and Analysis"
+        }
+      ],
+      "chart_data": null
+    }
+  ],
+  "eval_context": [
+    {
+      "id": "ab180db9-158f-4b2b-884c-ee98b0aa4e86",
+      "content": "Operating Profit Trend Financial Capital TCS' success is a testament to its robust business model and its ability to perpetually adapt in a constantly changing technology environment, ensuring it remains relevant to customers while delivering value to all stakeholders. Key outcomes include: • Focus on operational excellence and cost optimization, resulting in strong operating margins In FY 2025, TCS achieved a year-over-year revenue growth of 6.0%, demonstrating a resilient business performance in this uncertain environment. On a constant currency basis, revenue grew by 4.2%, outpacing the growth in FY 2024. Over the past five financial years, the company recorded a compound annual growth rate (CAGR) of 10.2%, highlighting the resilience and scalability of its business model. • Superior profitability, providing the financial strength to invest in new capabilities, Research & Innovation, navigating economic downturns and changing technology waves • Prudent use of working capital and cash flow management, resulting in robust cash conversion and increased invested funds • A strong balance sheet with zero debt, further strengthening return ratios • Consistently high shareholder returns TCS Value Creation and Distribution (FY 2021 - 25)1 *Excludes provision (in FY 2021) and settlement (in FY 2024) of legal claim 1 GRI 201-1 Revenue Trend CAGR 10.2% (₹ crore) (₹ crore) FY 2021 FY 2022 FY 2023 FY 2024 FY 2025 164,177 191,754 225,458 240,893 255,324 In FY 2025, TCS reported an operating margin of 24.3%, a marginal decline of 30 basis points compared to FY 2024. This moderation was primarily attributable to the impact of annual wage hikes, associates promotions, and strategic investments in infrastructure and capability development. These cost pressures were partially offset by improvements in workforce utilization, productivity, and realization, along with favourable currency movements. FY 2021* FY 2022 FY 2023 FY 2024* FY 2025 42,481 48,453 54,237 59,311 62,165 Operating Margin Operating Proﬁt 25.9% 25.3% 24.1% 24.6% 24.3% Financial Capital Integrated Annual Report 2024-25 20",
+      "ticker": "TCS",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 23,
+      "section_title": "general",
+      "similarity": 0.564212552998958,
+      "retrieval_source": "vector",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "ticker": "TCS",
+      "content": "Operating Profit Trend Financial Capital TCS' success is a testament to its robust business model and its ability to perpetually adapt in a constantly changing technology environment, ensuring it remains relevant to customers while delivering value to all stakeholders. Key outcomes include: • Focus on operational excellence and cost optimization, resulting in strong operating margins In FY 2025, TCS achieved a year-over-year revenue growth of 6.0%, demonstrating a resilient business performance in this uncertain environment. On a constant currency basis, revenue grew by 4.2%, outpacing the growth in FY 2024. Over the past five financial years, the company recorded a compound annual growth rate (CAGR) of 10.2%, highlighting the resilience and scalability of its business model. • Superior profitability, providing the financial strength to invest in new capabilities, Research & Innovation, navigating economic downturns and changing technology waves • Prudent use of working capital and cash flow management, resulting in robust cash conversion and increased invested funds • A strong balance sheet with zero debt, further strengthening return ratios • Consistently high shareholder returns TCS Value Creation and Distribution (FY 2021 - 25)1 *Excludes provision (in FY 2021) and settlement (in FY 2024) of legal claim 1 GRI 201-1 Revenue Trend CAGR 10.2% (₹ crore) (₹ crore) FY 2021 FY 2022 FY 2023 FY 2024 FY 2025 164,177 191,754 225,458 240,893 255,324 In FY 2025, TCS reported an operating margin of 24.3%, a marginal decline of 30 basis points compared to FY 2024. This moderation was primarily attributable to the impact of annual wage hikes, associates promotions, and strategic investments in infrastructure and capability development. These cost pressures were partially offset by improvements in workforce utilization, productivity, and realization, along with favourable currency movements. FY 2021* FY 2022 FY 2023 FY 2024* FY 2025 42,481 48,453 54,237 59,311 62,165 Operating Margin Operating Proﬁt 25.9% 25.3% 24.1% 24.6% 24.3% Financial Capital Integrated Annual Report 2024-25 20",
+      "chunk_index": 28,
+      "page_number": 23,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\TCS_FY25.json"
+      },
+      "similarity": 18.87942162638565,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "id": "183204dd-6a0e-4bdf-969e-aed153252810",
+      "content": "194 (h) Other financial liabilities Other financial liabilities consist of the following: Other financial liabilities – Non-current (` crore) As at March 31, 2025 As at March 31, 2024 Capital creditors 60 69 Liabilities towards customer contracts 316 - Others 304 296 680 365 Others include advance taxes paid of `226 crore and `226 crore as at March 31, 2025 and 2024, respectively, by the seller of TCS e-Serve Limited (merged with the Company) which, on refund by tax authorities, is payable to the seller. Other financial liabilities – Current (` crore) As at March 31, 2025 As at March 31, 2024 Accrued payroll 5,456 5,760 Unclaimed dividends 60 53 Fair value of foreign exchange derivative liabilities 157 114 Capital creditors 721 625 Liabilities towards customer contracts 1,314 1,509 Liabilities towards acquisition of assets (Refer note 21) 557 - Others 277 301 8,542 8,362 (i) Financial instruments by category The carrying value of financial instruments by categories as at March 31, 2025 is as follows: (` crore) Fair value through profit or loss Fair value through other comprehensive income Derivative instruments in hedging relationship Derivative instruments not in hedging relationship Amortised cost Total carrying value Financial assets Cash and cash equivalents - - - - 8,342 8,342 Bank deposits - - - - 7,924 7,924 Earmarked balances with banks - - - - 1,156 1,156 Investments 2,903 27,782 - - 279 30,964 Trade receivables Billed - - - - 50,233 50,233 Unbilled - - - - 8,942 8,942 Loans - - - - 34 34 Other financial assets - - 33 405 3,076 3,514 2,903 27,782 33 405 79,986 1,11,109 Financial liabilities Trade payables - - - - 13,909 13,909 Lease liabilities - - - - 9,392 9,392 Other financial liabilities - - - 157 9,065 9,222 - - - 157 32,366 32,523",
+      "ticker": "TCS",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 197,
+      "section_title": "Consolidated Financial Statements 2024-25",
+      "similarity": 0.551328831752682,
+      "retrieval_source": "vector",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "ticker": "TCS",
+      "content": "Integrated Annual Report 2024-25 87 7 World Economic Outlook (Forecast based on information available as of April 4, 2025) Segmental Performance TCS has identified business segments('Industry vertical') as reportable segments. The revenue break-up by Industry Vertical and Geography provided below: Revenue by Industry Vertical Revenue by Geography Communication, Media and Technology 18.0% Banking Financial Services and Insurance 37.0% Latin America 1.9% Consumer Business 15.7% Life Sciences and Healthcare 10.4% Manufacturing 9.9% Others 9.0% North America 48.2% United Kingdom 16.8% Continental Europe 14.3% Asia Paciﬁc 8.0% India 8.6% Middle East and Africa 2.2% Industry Vertical Segment Revenue (₹ crore) YoY Revenue Growth % Segment Margin (%) FY 2025 FY 2024 FY 2025 FY 2024 Banking, Financial Services and Insurance 94,597 90,928 4.0 26.6 25.9 Communication, Media and Technology 45,893 39,391 16.5 20.9 27.7 Consumer Business 40,197 39,357 2.1 27.9 26.0 Life Sciences and Healthcare 26,456 26,745 (1.1) 28.2 28.5 Manufacturing 25,170 23,491 7.1 32.7 30.9 Others 23,011 20,981 9.7 25.2 22.3 Overview of Funds Invested TCS’ investment strategy focuses on selecting a balanced mix of long-term and short-term instruments to seize market opportunities and achieve higher yields. By optimizing working capital, TCS enhances efficiency, resulting in improved overall returns. (` crore) FY 2025 FY 2024 Total funds invested Investments in mutual funds, Government securities and others 30,956 31,730 Deposits with banks 12,831 12,259 Inter-corporate deposits - 170 Cash and bank balances 3,435 2,804 Total 47,222 46,963 Business Outlook Global growth is projected to be 2.8% in 2025 and 3.0% in 20267, significantly below the 3.7% average growth rate seen from 2000 to 2019. While global economic activity faces headwinds from geopolitical and policy uncertainties, there are opportunities for resilience and recovery. Clearer trade agreements and improved global cooperation could help regain momentum. However, risks like financial market volatility, demographic shifts, and fiscal constraints persist. Proactive policy responses and innovation-driven growth can help mitigate these pressures. In this challenging environment, enterprises are expected to go through longer decision cycles and experience increased scrutiny on discretionary spending. Staying close to changing customer needs is essential to understanding both direct and indirect impacts. Businesses must embrace continuous transformation to stay resilient and shifting market dynamics call for the ability to anticipate change, adapt rapidly, and turn potential disruptions into strategic advantages.",
+      "chunk_index": 135,
+      "page_number": 90,
+      "section_title": "Management Discussion and Analysis",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\TCS_FY25.json"
+      },
+      "similarity": 17.888923532389224,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "id": "6f7d8db5-8961-4f2a-8440-743e16913cbc",
+      "content": "Integrated Annual Report 2024-25 87 7 World Economic Outlook (Forecast based on information available as of April 4, 2025) Segmental Performance TCS has identified business segments('Industry vertical') as reportable segments. The revenue break-up by Industry Vertical and Geography provided below: Revenue by Industry Vertical Revenue by Geography Communication, Media and Technology 18.0% Banking Financial Services and Insurance 37.0% Latin America 1.9% Consumer Business 15.7% Life Sciences and Healthcare 10.4% Manufacturing 9.9% Others 9.0% North America 48.2% United Kingdom 16.8% Continental Europe 14.3% Asia Paciﬁc 8.0% India 8.6% Middle East and Africa 2.2% Industry Vertical Segment Revenue (₹ crore) YoY Revenue Growth % Segment Margin (%) FY 2025 FY 2024 FY 2025 FY 2024 Banking, Financial Services and Insurance 94,597 90,928 4.0 26.6 25.9 Communication, Media and Technology 45,893 39,391 16.5 20.9 27.7 Consumer Business 40,197 39,357 2.1 27.9 26.0 Life Sciences and Healthcare 26,456 26,745 (1.1) 28.2 28.5 Manufacturing 25,170 23,491 7.1 32.7 30.9 Others 23,011 20,981 9.7 25.2 22.3 Overview of Funds Invested TCS’ investment strategy focuses on selecting a balanced mix of long-term and short-term instruments to seize market opportunities and achieve higher yields. By optimizing working capital, TCS enhances efficiency, resulting in improved overall returns. (` crore) FY 2025 FY 2024 Total funds invested Investments in mutual funds, Government securities and others 30,956 31,730 Deposits with banks 12,831 12,259 Inter-corporate deposits - 170 Cash and bank balances 3,435 2,804 Total 47,222 46,963 Business Outlook Global growth is projected to be 2.8% in 2025 and 3.0% in 20267, significantly below the 3.7% average growth rate seen from 2000 to 2019. While global economic activity faces headwinds from geopolitical and policy uncertainties, there are opportunities for resilience and recovery. Clearer trade agreements and improved global cooperation could help regain momentum. However, risks like financial market volatility, demographic shifts, and fiscal constraints persist. Proactive policy responses and innovation-driven growth can help mitigate these pressures. In this challenging environment, enterprises are expected to go through longer decision cycles and experience increased scrutiny on discretionary spending. Staying close to changing customer needs is essential to understanding both direct and indirect impacts. Businesses must embrace continuous transformation to stay resilient and shifting market dynamics call for the ability to anticipate change, adapt rapidly, and turn potential disruptions into strategic advantages.",
+      "ticker": "TCS",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 90,
+      "section_title": "Management Discussion and Analysis",
+      "similarity": 0.540110571977193,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "ticker": "TCS",
+      "content": "Integrated Annual Report 2024-25 91 Intellectual Property (IP) infringement and leakage (R) Litigation risks (R) Impact On FC IC SC Financial implications of R/O – Impact On FC SC Financial implications of R/O – Risk: Risk of infringement of IP of customers, suppliers, partners and alliance organizations by TCS associates may lead to potential liabilities, increased litigation and reputation impact. Also, inadequate protection of TCS’ IP may lead to potential loss of ownership rights, revenue and value. Mitigation: An industry leading IP Management Framework with processes, contractual and operational controls and tools to prevent and detect risks of IP infringement has been established, with a well-defined (software) asset lifecycle governance framework ensuring that TCS products are safe to create, safe to protect and safe to use. Employee level key controls include employee confidentiality agreement, training and awareness for IP protection and prevention of IP contamination and infringement. Risk: Litigation risks might arise from commercial disputes, alleged violation of IPR, personal data/information breach incidents/ claims and employment related matters. The Company’s rising profile and scale also makes it an attractive target for meritless lawsuits. These lead to reputation risk, legal expenses and adverse rulings can result in substantive damage. Mitigation: Strong processes, controls and governance for compliance to contractual obligations, information security, IP policy and immigration. Strengthened the team of in-house counsels in all major geographies and a network of reputed global law firms in countries TCS operates. Arbitration has been included as a dispute resolution mechanism as against court trials and waivers of jury trial, particularly in the US Geography. Sustainability Risks – Climate change and Environmental aspects (R & O) Disruptive Technologies (R & O) Impact On SC FC NC Financial implications of R/O + – Impact On FC HC IC SC Financial implications of R/O + – Risk: With globally distributed operations, the Company faces physical risks to life and property due to extreme weather events; transition risks resulting from disruptions in the market and emerging regulations; disruptions to operations due to water scarcity; risks of inadvertent non-compliance to emerging regulatory requirements, impacting health and safety in local communities and business disruption. All of these could affect TCS’ growth, profitability and reputation. Mitigation: TCS’ Delivery centers are designed to withstand extreme weather events, with Business continuity plans tested periodically to ensure effectiveness. Investments in Green office buildings, green IT, use of renewable energy, reduction in carbon footprint & focus on waste management with circular economy principles are being done. Water management through upgradation of water infrastructure, controls to minimize freshwater consumption, sewage treatment, recycling of treated water, and rainwater harvesting. Focus on Supply chain sustainability with responsible sourcing, sustainability assessments, training and awareness for all stakeholders. Associate engagement on environmental awareness including initiatives like TCS Circle4Life™ are done round the year. Opportunity: Growing commitment by enterprises to reduce carbon footprint and regulatory requirements open new opportunities for TCS to provide business led technology solutions. TCS products and solutions such as TCS Clever Energy™, Envirozone™, ESG integration solution help accelerate customers’ sustainability journeys. Risk: Technology disruption is happening at an unprecedented",
+      "chunk_index": 141,
+      "page_number": 94,
+      "section_title": "Management Discussion and Analysis",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\TCS_FY25.json"
+      },
+      "similarity": 17.295300446802507,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "id": "d773a0ce-f314-4a2c-84a5-3e753b755aea",
+      "content": "Independent Auditor’s Report Standalone Balance Sheet Standalone Statement of Profit and Loss Standalone Statement of Changes in Equity Standalone Statement of Cash Flows",
+      "ticker": "TCS",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 6,
+      "section_title": "Standalone Financial Statements",
+      "similarity": 0.538011963604458,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015625
+    },
+    {
+      "ticker": "TCS",
+      "content": "Integrated Annual Report 2024-25 88 Key demand drivers expected to power the Company’s growth in FY 2026 include: • Technology Modernization and Transformation – Cloud migration and transformation, data estate modernization, efficiency and resilience through technology upgrades, modernizing legacy systems, ERP/ the digital core, scaling intelligent operations by leveraging IoT, computer vision, robotics to enhance efficiency, and establishing Data & Cybersecurity foundations and Centres of Excellence for evaluating AI & GenAI use cases. • Business Transformation – Customer experience transformation using AI-driven commerce, hyper-personalization, omnichannel strategies, supply chain modernization, data analytics, and hyper-automation to drive business outcomes. Robust data foundations, AI trust frameworks, and AI-enabled cybersecurity will strengthen resilience, while data-driven insights will power innovation across industries. • Operating Model Transformation - Cost optimization, vendor consolidation, AI/GenAI led transformation of IT/business operations for greater resilience and leaner operating models, managed services models and real time operation visibility, risk and compliance initiatives. • Tech-enabled Sustainability – Rising demand for tech-enabled sustainability solutions with emphasis on grid modernization, renewable energy integration, decarbonization, real-time insights driven maintenance & operations, and energy management. Enterprise Risk Management TCS understands the importance of effectively managing and mitigating risks to protect the Company’s business and its clients and to add value for all its stakeholders. Based on the Risk Management Policy approved by the Board, the Company follows a comprehensive enterprise risk management framework (based on best practices from COSO 2017 and ISO 31000:2018) that encompasses risk identification, risk assessment, risk response planning and actions, risk monitoring and overall risk governance. TCS fosters a risk-aware culture, empowering leaders to take intelligent risks to maximize value. Regular risk reviews, assessments, and scenario planning help anticipate challenges and develop mitigation plans. Key risk indicators and control indicators are used to assess risks, provide early warnings, and consider effectiveness of the mitigation actions, respectively. TCS engages with all stakeholders, including customers, employees, suppliers, partners and regulatory authorities, to ensure transparent and collaborative risk management practices. The focus remains on driving sustainable growth, fostering innovation, delivering value to its clients, employees, and shareholders, being resilient and enhancing its reputation. TCS takes a holistic view of its enterprise risk profile, covering strategic, operational, compliance, financial and catastrophic risks, thus enabling informed decision-making. Risks are assessed and managed at various levels with a top-down and bottom-up approach across the enterprise, business units, geographies, corporate functions, customer relationships and individual projects. By proactively managing and mitigating these risks, TCS aims to ensure the long-term sustainability and success of the Company. TCS is confident that its robust risk management initiatives, coupled with its commitment to innovation and excellence, will enable the Company to navigate the challenges of the IT industry and global environment, and capitalize on the opportunities that lie ahead. While the Company tracks various risks to the business, listed below are some of the key risks (R) and opportunities (O), anticipated impact on the Company8 and mitigation strategies.9 8 GRI 201-2 9 GRI 3-3",
+      "chunk_index": 136,
+      "page_number": 91,
+      "section_title": "Management Discussion and Analysis",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\TCS_FY25.json"
+      },
+      "similarity": 15.20732084654267,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015625
+    },
+    {
+      "id": "352ae4b9-3f01-49c9-a40c-98be6a308d37",
+      "content": "Standalone Balance Sheet As per our report of even date attached For and on behalf of the Board For B S R & Co. LLP Chartered Accountants Firm’s registration no: 101248W/W-100022 Aniruddha Godbole Partner Membership No: 105149 K Krithivasan CEO and Managing Director DIN: 10106739 Aarthi Subramanian Director DIN: 07121802 Samir Seksaria CFO Yashaswin Sheth Company Secretary Mumbai, April 10, 2025 Mumbai, April 10, 2025",
+      "ticker": "TCS",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 253,
+      "section_title": "NOTES FORMING PART OF STANDALONE FINANCIAL STATEMENTS",
+      "similarity": 0.532159738025728,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "ticker": "TCS",
+      "content": "Integrated Annual Report 2024-25 79 Management Discussion and Analysis Overview of the Industry The year 2024 began with signs of improved economic activity across major regions. The world GDP grew at a steady rate of 3.3%1. Despite divergent growth patterns across regions and sectors, the global technology landscape demonstrated unexpected stability. However, in recent weeks, the global outlook has turned negative, as governments worldwide adjust their policy priorities, leading to unprecedented levels of uncertainty. The rapid escalation of trade tensions and extremely high policy uncertainty are anticipated to significantly impact global economic activity. Projections indicate that global growth will decline to 2.8% in 2025 and 3% in 20261. Amid these ongoing macroeconomic challenges, new discretionary projects requiring technology investments will face increased scrutiny and require stronger justifications for return on investment. In 2025, enterprises will be accelerating adoption of AI into their digital core, to address technical debt and modernize legacy systems. This will require efforts in cloud migration, updating infrastructure frameworks and developing a strong data foundation. Enterprises also face a complex risk landscape with cybersecurity threats and geopolitical tensions, making them prime targets for cybercriminals due to their valuable intellectual property and customer data. Enterprises will continue to strengthen their cybersecurity management processes, leading to continued investments in security consulting services2. TCS’ Business An Overview TCS is an IT services, consulting and business solutions organization partnering with many of the world’s largest businesses in their transformational journeys for the last 57 years. With a global presence and deep domain expertise across multiple industry verticals, TCS offers a comprehensive portfolio of 1 \u0007World Economic Outlook (Given the complexity and fluidity of the current moment, the outlook presents a “reference forecast” based on information available as of April 4, 2025) 2 Gartner services and offerings – grouped under application development and management, digital transformation, AI, data and cloud services, engineering services, cognitive business operations, cyber security, and products & platforms – targeting every C-suite stakeholder. The Company leverages all these capabilities and deep contextual knowledge of its customers’ businesses to create bespoke, high quality, and impactful solutions designed to achieve differentiated business outcomes. These solutions are delivered through its operating model which enables a highly distributed, Location Independent Agile™ delivery. TCS geographic footprint covers North America, Latin America, the United Kingdom, Continental Europe, Asia Pacific, India and Middle East Africa. TCS considers industry verticals as its primary go-to-market business segments. The five key vertical clusters are: Banking, Financial Services and Insurance (BFSI), Communication, Media and Technology (CMT), Consumer Business, Life Sciences and Healthcare, Manufacturing and Others such as Energy, Resources and Utilities, Public Services and Products.",
+      "chunk_index": 121,
+      "page_number": 82,
+      "section_title": "Management Discussion and Analysis",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\TCS_FY25.json"
+      },
+      "similarity": 14.521645723330257,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "id": "5d8cd683-59d3-4682-a014-cb6bda75569e",
+      "content": "and the reported amounts of income and expenses for the periods presented. Estimates and underlying assumptions are reviewed on an ongoing basis. Revisions to accounting estimates are recognised in the period in which the estimates are revised and future periods are affected. The Company uses the following critical accounting judgements, estimates and assumptions in preparation of",
+      "ticker": "TCS",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 259,
+      "section_title": "liabilities as at the date of standalone financial statements",
+      "similarity": 0.527036544437824,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015151515151515152
+    },
+    {
+      "ticker": "TCS",
+      "content": "227 18) Earnings per share Basic earnings per share is computed by dividing profit or loss attributable to equity shareholders of the Company by the weighted average number of equity shares outstanding during the period. The Company did not have any potentially dilutive securities in any of the periods presented. Year ended March 31, 2025 Year ended March 31, 2024 Profit for the year attributable to shareholders of the Company (` crore) 48,553 45,908 Weighted average number of equity shares 361,80,87,518 364,68,51,755 Basic and diluted earnings per share (`) 134.19 125.88 Face value per equity share (`) 1 1 19) Segment information Operating segments are defined as components of an enterprise for which discrete financial information is available that is evaluated regularly by the chief operating decision maker, in deciding how to allocate resources and assessing performance. The Group’s chief operating decision maker is the Chief Executive Officer and Managing Director. The Group has identified business segments (‘industry vertical’) as reportable segments. The business segments comprise: 1) Banking, Financial Services and Insurance, 2) Manufacturing, 3) Consumer Business, 4) Communication, Media and Technology, 5) Life Sciences and Healthcare and 6) Others such as Energy, Resources and Utilities, s-Governance and Products. Revenue and expenses directly attributable to segments are reported under each reportable segment. Expenses which are not directly identifiable to each reporting segment have been allocated on the basis of associated revenue of the segment. All other expenses which are not attributable or allocable to segments have been disclosed as unallocable expenses. The assets and liabilities of the Group are used interchangeably amongst segments. Allocation of such assets and liabilities is not practicable and any forced allocation would not result in any meaningful segregation. Hence assets and liabilities have not been identified to any of the reportable segments. Summarised segment information for the years ended March 31,2025 and 2024, is as follows: Year ended March 31, 2025 (` crore) Banking, Financial Services and Insurance Manufacturing Consumer Business Communication, Media and Technology Life Sciences and Healthcare Others Total Revenue from operations 94,597 25,170 40,197 45,893 26,456 23,011 2,55,324 Segment result 25,135 8,225 11,222 9,582 7,448 5,795 67,407 Total unallocable expenses 6,038 Operating income 61,369 Other income 3,962 Profit before tax 65,331 Tax expense 16,534 Profit for the year 48,797 Depreciation and amortisation expense (unallocable) 5,242 Significant non-cash items (allocable) 7 (2) 7 37 (11) 91 128",
+      "chunk_index": 462,
+      "page_number": 230,
+      "section_title": "Consolidated Financial Statements 2024-25",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\TCS_FY25.json"
+      },
+      "similarity": 14.223384398357396,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015151515151515152
+    },
+    {
+      "id": "2031e761-20b4-4395-ab86-9b3b2d007090",
+      "content": "Quarterly: Financial statements in IndAS and IFRS; Earnings call; Exchange notifications; Press conferences • Continuous: Investors page on the TCS website • Annual: Annual General Meeting; Annual Report • Educating the investor community about TCS integrated value creation model and business strategy for long term • Helping investors voice their concerns regarding Company policies, reporting, strategy, etc. • Understanding shareholder expectations 61 GRI 414-2 62 GRI 2-29 63 GRI 2-29",
+      "ticker": "TCS",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 146,
+      "section_title": "general",
+      "similarity": 0.52463599892641,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014925373134328358
+    },
+    {
+      "ticker": "TCS",
+      "content": "Integrated Annual Report 2024-25 Business Responsibility & Sustainability Report 140 OHS targets and performance: Objectives Goals Indicator Target Performance in FY 2025 (Target achieved Yes/No) Incident reporting and implementation of remedial measures Reporting of workplace safety observations and near miss cases Number of cases Increase in number of reporting Yes. 7% increase in reporting of near misses and safety observations compared to previous year. Building a safety culture and inculcating safe work practices among associates and facility management contractors Providing training for associates and contractors Hours of training for associates 1 hour per associate per year Yes. 1 hour per associate per year (mandatory OHS web- based training) Hours of training for contract staff 2 hours per contract staff per year Yes. 4.1 hours of training per contract staff achieved in the year Creating general OHS awareness Number of awareness communication 1 awareness communication per quarter Yes. Communication on OHS campaigns is done once a quarter Number of awareness campaigns 1 awareness campaign per quarter Yes. One campaign per quarter Providing safe workplaces H&S inspections for all the sites Number of inspections Annual inspection per site Yes. 1 inspection at each site b. What are the processes used to identify work-related hazards and assess risks on a routine and non-routine basis by the entity53? As a part of its ISO 45001:2018 compliant OHS Management System, TCS has a documented procedure to carry out assessment of work-related hazards and risks for all routine and non-routine activities carried out at any location. Hazard and risk identification is carried out by the process owners in consultation with the safety experts. The process owners are responsible to ensure adequate controls are identified and implemented to control the identified OHS risks. Mitigation plan and controls are provided to manage the identified hazards and risks based on hierarchy of controls which includes elimination, substitution, engineering controls, training and personal protective equipment. c. Whether you have processes for workers to report the work related hazards and to remove themselves from such risks. (Y/N)53 TCS has an online safety incident reporting tool to ensure that all work related incidents (which include accidents, near- misses, unsafe conditions and unsafe acts) are reported, investigated and closed after taking necessary corrective actions. The awareness to employees on incident reporting is created through induction sessions, web-based trainings, etc. TCSers can also report their health and safety related issues or concerns through an internal Admin Helpdesk. They can also e-mail their concerns to the dedicated e-mail ID and communicate with local health and safety teams. d. Do the employees of the entity have access to non-occupational medical and healthcare services? (Yes/No)54 Yes. Occupational Health Centers (OHC) are provided at TCS offices which are managed by reputed Health Care service providers facilitating primary medical care and manage medical emergencies at the workplace. These OHCs are equipped with 24*7 paramedics along with Doctor’s assistance at PAN India TCS locations. TCS OHC enables associates across India to pre-book virtual appointments with specialists, such as physiotherapists, gynecologists, nutritionists, and gastroenterologists etc. Beyond the OHCs, the Company provides comprehensive medical",
+      "chunk_index": 217,
+      "page_number": 143,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\TCS_FY25.json"
+      },
+      "similarity": 13.625355429911208,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014925373134328358
+    },
+    {
+      "id": "4753acc4-993a-4981-9b77-b7e3401709f6",
+      "content": "The following table gives an overview of the consolidated financial results of the Company: (₹ crore) FY 2025 FY 2024* Amount % of Revenue % Growth Amount % of Revenue Revenue from operations 255,324 100.0 6.0 240,893 100.0 Earnings before interest and tax (EBIT) (Before other income) 62,165 24.3 4.8 59,311 24.6 Profit after tax attributable to shareholders of the Company 48,553 19.0 4.2 46,585 19.3 Earnings per share (in ₹) 134.19 5.1 127.74 * Excludes settlement of legal claim Analysis of revenue growth and margin performance On a reported basis, TCS’ revenue grew 6.0% in FY 2025, compared to 6.8% in the previous year. Despite increased macroeconomic uncertainty, the Company closed the year with a strong and resilient order book. During the year, clients prioritized initiatives around Technology modernization, Cost optimization, Vendor consolidation, Operating model transformation, Risk and Compliance. Ongoing delays and deferrals led to muted revenue growth in FY 2025. EBIT margins were 24.3% in FY 2025, compared to 24.6%6 in the previous year. The 30-basis point decline was influenced by headwinds from merit-based interventions, including annual hikes, promotions, and investments in infrastructure and capability building. However, tailwinds such as improved utilization, productivity, and realization, along with favorable currency movements, contributed positively to the margins. Average currency exchange rates during FY 2025 for the three major currencies are given below: Currency Weightage (%) FY 2025 (₹) FY 2024 (₹) % Change YoY USD 50.0 84.59 82.83 2.1 GBP 14.7 108.26 104.07 4.0 EUR 10.9 90.81 89.80 1.1 Movements in currency exchange rates through the year resulted in a positive impact of 1.8% on the reported revenue. The constant currency revenue growth for the year, which is the reported revenue growth stripped of the currency impact, was 4.2%. Growth attributable to FY 2025 (%) FY 2024 (%) Business growth 4.2 3.4 Impact of exchange rate 1.8 3.4 Total Growth 6.0 6.8 6 Excludes settlement of legal claim",
+      "ticker": "TCS",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 89,
+      "section_title": "accounting policies used in the preparation of the financial statements are disclosed in the notes to the consolidated financial statements.",
+      "similarity": 0.521893620491043,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014705882352941176
+    },
+    {
+      "ticker": "TCS",
+      "content": "Customer Stories A global transportation and logistics leader, serving customers in over 200 countries with services like express delivery, freight forwarding, and logistics solutions, has been facing increasing issues with porch piracy and fraud, leading to customer dissatisfaction. In 2023, the Chamber of Commerce reported approximately 44 million packages lost or stolen, amounting to US$5 billion worth of goods lost. The logistics provider sought a solution to assess risks and enhance the security of parcel delivery. It leveraged its partnership with TCS to implement an AI-powered solution that used advanced analytics and petabytes of existing data to provide actionable insights i.e. a ‘Confidence score’ that predicts shipping risks at an address-level and allows shippers to reroute high-risk packages to the logistics provider's stores or access points, preventing loss and theft. This solution enabled merchants and businesses to make smarter, safer shipping decisions even before labels are printed. Additionally, it opened up a new revenue stream for the logistics provider. The solution has a potential to save US$ 500 million annually in the industry. A leading Global Airline had an AI vision – to enable their business users to make intelligent decisions by self-servicing their data needs. However, it’s IT landscape had multiple data platforms, impacting the speed of decision making and the time-to-market, not to mention the high maintenance and licensing costs. The airline turned to its partner of three decades, TCS, to bring all functions under a unified architecture that is easy-to-manage and capable of enabling self-service analytics features. The modernization provided a business glossary for AI to understand and make meaning out of the data, enabling the business users to “talk-to-data” in natural language to derive insights at a faster pace – driving significantly faster decision making with self-service analytics. TCS delivered a highly customized No-Code data platform that replaced proprietary data tools without losing the extensive features, making information readily available and easy to use even by non-technical business users across Marketing, Customer Loyalty, Operations, Engineering, Revenue Management, and other business divisions. Transforming Airline Operations with an AI-equipped, Unified Data Platform AI: The Game Changer for Logistics and Supply Chain Integrated Annual Report 2024-25 Customer Stories 34",
+      "chunk_index": 42,
+      "page_number": 37,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\TCS_FY25.json"
+      },
+      "similarity": 13.254303634720994,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014705882352941176
+    },
+    {
+      "id": "90005710-478e-4e16-82b4-4e84d8e19ed8",
+      "content": "reported amounts of income and expenses for the periods presented. Estimates and underlying assumptions are reviewed on an ongoing basis. Revisions to accounting estimates are recognised in the period in which the estimates are revised and future periods are affected. The Group uses the following critical accounting judgements, estimates and assumptions in preparation of its consolidated",
+      "ticker": "TCS",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 188,
+      "section_title": "as at the date of consolidated financial statements and the",
+      "similarity": 0.520451037856883,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014492753623188406
+    },
+    {
+      "ticker": "TCS",
+      "content": "The Dividend Distribution Policy, in terms of Regulation 43A of the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 (“SEBI Listing Regulations”), is available on the Company’s website at https://on.tcs.com/Dividend. 3. Transfer to reserves The closing balance of the retained earnings of the Company for FY 2025 after all appropriation and adjustments was `73,380 crore. 4. Company’s performance On a consolidated basis, the revenue from operations for FY 2025 was `2,55,324 crore, higher by 6.0% over the previous year’s revenue from operations of `2,40,893 crore. The profit for the year attributable to shareholders for FY 2025 was `48,553 crore registering a growth of 5.8% over the profit for the year attributable to shareholders of `45,908 crore in FY 2024. On a standalone basis, the revenue from operations for FY 2025 was `2,14,853 crore, higher by 6.2% over the previous year’s revenue from operations of `2,02,359 crore. The profit for the year attributable to shareholders in FY 2025 was `48,057 crore registering a growth of 10.3% over the profit for the year attributable to shareholders of `43,559 crore in FY 2024. 5. Subsidiary companies On March 31, 2025, the Company has 52 subsidiaries and there has been no material change in the nature of the business of the subsidiaries. There are no associates or joint venture companies within the meaning of Section 2(6) of the Companies Act, 2013 (“the Act”). TCS Financial Solutions (Beijing) Co., Ltd. was merged with Tata Consultancy Services (China) Co., Ltd. a step-down wholly owned subsidiary of the Company w.e.f. July 1, 2024. On December 20, 2024, Tata Consultancy Services (Africa) (Proprietary) Limited (“TCS Africa”), a wholly owned subsidiary of the Company disposed off 30% of its equity stake in Tata Consultancy Services (South Africa) (Proprietary) Limited (“TCS SA”), a step-down wholly owned subsidiary of the Company at a consideration of ZAR 61 million (equivalent to `28 crore) to Isisekelo Sethu Trust, to comply with the Broad-Based Black Economic Empowerment (“B-BBEE”) guidelines in South Africa. Consequently, TCS SA ceased to be a step-down wholly owned subsidiary of the Company. On January 29, 2025, the Company executed a Share Purchase and Securities Purchase Agreement (“SSPA”) with Tata Realty and Infrastructure Limited (“TRIL”), TRIL Bengaluru Real Estate Five Limited (“TBRF”) and TRIL Bengaluru Real Estate Six Limited (“TBRS”) for acquisition of 100% of equity shares and optionally redeemable convertible debentures of TBRF and TBRS held by TRIL, in two tranches, at a consideration of `1,593 crore. Upon the execution of SSPA, 65% of equity shares and optionally redeemable convertible debentures have been transferred to the Company at a consideration of `1,036 crore and recognised a financial liability of `557 crore towards consideration payable at a future date for 35% stake. Pursuant to the provisions of Section 129(3) of the Act, a statement containing the salient features of financial statements of the Company’s subsidiaries in Form No. AOC-1",
+      "chunk_index": 98,
+      "page_number": 71,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\TCS_FY25.json"
+      },
+      "similarity": 13.236601490941656,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014492753623188406
+    },
+    {
+      "id": "cb7a4d09-337b-4ff9-ae1d-a106c99dc6a4",
+      "content": "227 18) Earnings per share Basic earnings per share is computed by dividing profit or loss attributable to equity shareholders of the Company by the weighted average number of equity shares outstanding during the period. The Company did not have any potentially dilutive securities in any of the periods presented. Year ended March 31, 2025 Year ended March 31, 2024 Profit for the year attributable to shareholders of the Company (` crore) 48,553 45,908 Weighted average number of equity shares 361,80,87,518 364,68,51,755 Basic and diluted earnings per share (`) 134.19 125.88 Face value per equity share (`) 1 1 19) Segment information Operating segments are defined as components of an enterprise for which discrete financial information is available that is evaluated regularly by the chief operating decision maker, in deciding how to allocate resources and assessing performance. The Group’s chief operating decision maker is the Chief Executive Officer and Managing Director. The Group has identified business segments (‘industry vertical’) as reportable segments. The business segments comprise: 1) Banking, Financial Services and Insurance, 2) Manufacturing, 3) Consumer Business, 4) Communication, Media and Technology, 5) Life Sciences and Healthcare and 6) Others such as Energy, Resources and Utilities, s-Governance and Products. Revenue and expenses directly attributable to segments are reported under each reportable segment. Expenses which are not directly identifiable to each reporting segment have been allocated on the basis of associated revenue of the segment. All other expenses which are not attributable or allocable to segments have been disclosed as unallocable expenses. The assets and liabilities of the Group are used interchangeably amongst segments. Allocation of such assets and liabilities is not practicable and any forced allocation would not result in any meaningful segregation. Hence assets and liabilities have not been identified to any of the reportable segments. Summarised segment information for the years ended March 31,2025 and 2024, is as follows: Year ended March 31, 2025 (` crore) Banking, Financial Services and Insurance Manufacturing Consumer Business Communication, Media and Technology Life Sciences and Healthcare Others Total Revenue from operations 94,597 25,170 40,197 45,893 26,456 23,011 2,55,324 Segment result 25,135 8,225 11,222 9,582 7,448 5,795 67,407 Total unallocable expenses 6,038 Operating income 61,369 Other income 3,962 Profit before tax 65,331 Tax expense 16,534 Profit for the year 48,797 Depreciation and amortisation expense (unallocable) 5,242 Significant non-cash items (allocable) 7 (2) 7 37 (11) 91 128",
+      "ticker": "TCS",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 230,
+      "section_title": "Consolidated Financial Statements 2024-25",
+      "similarity": 0.517808225546797,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014285714285714285
+    },
+    {
+      "ticker": "TCS",
+      "content": "Integrated Annual Report 2024-25 92 Internal Financial Control Systems and their Adequacy TCS has aligned its systems of internal financial control in line with the globally accepted risk-based framework issued by the Committee of Sponsoring Organizations (COSO) of the Treadway Commission. This framework of internal financial controls meets the requirement of the Companies Act, 2013. The Internal Control – Integrated Framework (the 2013 framework) is intended to increase transparency and accountability in an organization’s process of designing and implementing a system of internal control. The framework requires a company to identify and analyze risks and manage appropriate responses. The Company has successfully laid down the framework and ensured its effectiveness. TCS’ internal controls are commensurate with its size and the nature of its operations. These have been designed to provide reasonable assurance with regard to recording and providing reliable financial and operational information, complying with applicable statutes, safeguarding assets from unauthorized use, executing transactions with proper authorization and ensuring compliance with corporate policies. TCS has a well- defined delegation of power with authority limits commensurate with the responsibilities for approving engagements with all stakeholders that commit organizational resources and results in creation of assets and liabilities, income and expenditure. TCS employs an advanced Enterprise Resource Planning (ERP) system that connects all parts of the organization, to record data for accounting, consolidation and management information purposes. It has continued its efforts to align all its processes and controls with global best practices. TCS management assessed the effectiveness of the Company’s internal control over financial reporting [as defined in Regulation 17 of Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015] as of March 31, 2025. B S R & Co. LLP, the statutory auditors of TCS, have audited the",
+      "chunk_index": 143,
+      "page_number": 95,
+      "section_title": "Management Discussion and Analysis",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\TCS_FY25.json"
+      },
+      "similarity": 13.190765623208533,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014285714285714285
+    }
+  ],
+  "generated_at": "2026-06-22T05:48:32.669375+00:00"
+}
