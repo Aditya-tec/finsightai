@@ -32,7 +32,7 @@ export default function CursorGlow() {
     const tick = () => {
       const glow = glowRef.current;
       if (glow) {
-        const ease = 0.22;
+        const ease = 0.18;
         posRef.current.x += (targetRef.current.x - posRef.current.x) * ease;
         posRef.current.y += (targetRef.current.y - posRef.current.y) * ease;
         const { x, y } = posRef.current;

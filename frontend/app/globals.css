@@ -66,12 +66,84 @@ html, body {
   opacity: 0;
   transition: opacity 0.12s ease;
   will-change: transform;
-  width: 11px;
-  height: 11px;
-  margin: -5.5px 0 0 -5.5px;
+  width: 12px;
+  height: 12px;
+  margin: -6px 0 0 -6px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    #ffffff 0%,
+    #e8f4ff 38%,
+    rgba(0, 153, 255, 0.55) 68%,
+    transparent 100%
+  );
+  box-shadow:
+    0 0 6px rgba(255, 255, 255, 1),
+    0 0 16px rgba(0, 153, 255, 0.75),
+    0 0 32px rgba(0, 153, 255, 0.4),
+    0 0 52px rgba(0, 153, 255, 0.18);
+  filter: blur(0.4px);
+  mix-blend-mode: screen;
+  animation: cursor-glow-pulse 2.2s ease-in-out infinite;
+}
+
+.cursor-glow::before {
+  content: "";
+  position: absolute;
+  inset: -18px;
+  border-radius: 50%;
+  background: radial-gradient(
+    circle,
+    rgba(0, 153, 255, 0.45) 0%,
+    rgba(0, 153, 255, 0.12) 42%,
+    transparent 72%
+  );
+  filter: blur(10px);
+  z-index: -1;
+  animation: cursor-glow-halo 2.2s ease-in-out infinite;
+}
+
+.cursor-glow::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 5px;
+  height: 5px;
+  margin: -2.5px 0 0 -2.5px;
   border-radius: 50%;
   background: #ffffff;
-  box-shadow: 0 0 12px rgba(255, 255, 255, 0.75);
+  box-shadow: 0 0 8px rgba(255, 255, 255, 1);
+}
+
+@keyframes cursor-glow-pulse {
+  0%,
+  100% {
+    box-shadow:
+      0 0 6px rgba(255, 255, 255, 1),
+      0 0 16px rgba(0, 153, 255, 0.75),
+      0 0 32px rgba(0, 153, 255, 0.4),
+      0 0 52px rgba(0, 153, 255, 0.18);
+  }
+  50% {
+    box-shadow:
+      0 0 10px rgba(255, 255, 255, 1),
+      0 0 24px rgba(0, 153, 255, 0.9),
+      0 0 44px rgba(0, 153, 255, 0.5),
+      0 0 68px rgba(0, 153, 255, 0.24);
+  }
+}
+
+@keyframes cursor-glow-halo {
+  0%,
+  100% {
+    opacity: 0.75;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 1;
+    transform: scale(1.12);
+  }
 }
 
 .cursor-glow.is-visible {
@@ -322,6 +394,7 @@ html, body {
   line-height: 1.12;
   color: var(--text);
   max-width: 780px;
+  min-height: 2.24em;
 }
 
 .hero-desc {
@@ -330,6 +403,28 @@ html, body {
   margin: 0;
   max-width: 560px;
   line-height: 1.65;
+  min-height: 3.3em;
+}
+
+.typewriter-cursor {
+  display: inline-block;
+  width: 2px;
+  height: 0.82em;
+  margin-left: 3px;
+  vertical-align: baseline;
+  background: var(--accent);
+  box-shadow: 0 0 8px rgba(0, 153, 255, 0.65);
+  animation: typewriter-blink 0.85s step-end infinite;
+}
+
+@keyframes typewriter-blink {
+  0%,
+  100% {
+    opacity: 1;
+  }
+  50% {
+    opacity: 0;
+  }
 }
 
 .hero h1 {

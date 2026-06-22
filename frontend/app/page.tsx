@@ -5,6 +5,7 @@ import { useEffect, useMemo, useState } from "react";
 import CompanyGrid, { type Company } from "@/components/CompanyGrid";
 import FadeSlideIn from "@/components/FadeSlideIn";
 import TopBar from "@/components/TopBar";
+import TypewriterText from "@/components/TypewriterText";
 import { fetchCompanies } from "@/lib/api";
 import { getApiErrorMessage } from "@/lib/apiErrors";
 
@@ -16,6 +17,7 @@ export default function Home() {
   const [companiesLoading, setCompaniesLoading] = useState(true);
   const [companiesError, setCompaniesError] = useState("");
   const [selected, setSelected] = useState<Company | null>(null);
+  const [descTypingActive, setDescTypingActive] = useState(false);
 
   useEffect(() => {
     setCompaniesLoading(true);
@@ -55,11 +57,20 @@ export default function Home() {
               <span className="tag tag-elevated">Cited Reports</span>
             </div>
             <h1 className="hero-brand">
-              India&apos;s Nifty 20, decoded from real filings.
+              <TypewriterText
+                text="India's Nifty 20, decoded from real filings."
+                startDelay={280}
+                speed={34}
+                onComplete={() => setDescTypingActive(true)}
+              />
             </h1>
             <p className="hero-desc">
-              Ask any financial question or generate a cited 11-section report — pick a company
-              below to start.
+              <TypewriterText
+                text="Ask any financial question or generate a cited 11-section report — pick a company below to start."
+                active={descTypingActive}
+                startDelay={180}
+                speed={22}
+              />
             </p>
           </header>
         </FadeSlideIn>
