@@ -43,6 +43,20 @@ html, body {
   -webkit-font-smoothing: antialiased;
 }
 
+@media (hover: hover) and (pointer: fine) {
+  html,
+  body,
+  a,
+  button,
+  input,
+  textarea,
+  select,
+  label,
+  [role="button"] {
+    cursor: none !important;
+  }
+}
+
 .cursor-glow {
   position: fixed;
   top: 0;
@@ -50,21 +64,14 @@ html, body {
   pointer-events: none;
   z-index: 9999;
   opacity: 0;
-  transition: opacity 0.15s ease;
+  transition: opacity 0.12s ease;
   will-change: transform;
-  width: 52px;
-  height: 52px;
-  margin: -26px 0 0 -26px;
+  width: 11px;
+  height: 11px;
+  margin: -5.5px 0 0 -5.5px;
   border-radius: 50%;
-  background: radial-gradient(
-    circle,
-    rgba(255, 255, 255, 0.82) 0%,
-    rgba(240, 244, 252, 0.42) 32%,
-    rgba(220, 228, 240, 0.14) 58%,
-    transparent 80%
-  );
-  filter: blur(5px);
-  mix-blend-mode: screen;
+  background: #ffffff;
+  box-shadow: 0 0 12px rgba(255, 255, 255, 0.75);
 }
 
 .cursor-glow.is-visible {
@@ -72,6 +79,18 @@ html, body {
 }
 
 @media (prefers-reduced-motion: reduce) {
+  html,
+  body,
+  a,
+  button,
+  input,
+  textarea,
+  select,
+  label,
+  [role="button"] {
+    cursor: auto !important;
+  }
+
   .cursor-glow {
     display: none;
   }
@@ -86,6 +105,18 @@ html, body {
 }
 
 @media (hover: none), (pointer: coarse) {
+  html,
+  body,
+  a,
+  button,
+  input,
+  textarea,
+  select,
+  label,
+  [role="button"] {
+    cursor: auto !important;
+  }
+
   .cursor-glow {
     display: none;
   }
