@@ -1,6 +1,6 @@
 "use client";
 
-import { useId, useState } from "react";
+import { useState } from "react";
 import { motion } from "framer-motion";
 import {
   Bar,
@@ -28,50 +28,11 @@ import {
   maxBarDatasetValue,
   pickCroreAxisUnit,
 } from "@/lib/chartTypes";
-import { CHART_ANIM, CHART_GRADIENTS, chartGradientId } from "@/lib/chartTheme";
+import { CHART_ANIM } from "@/lib/chartTheme";
 
 type Props = {
   data: ChartData;
 };
-
-function gradientRef(instanceId: string, idx: number): string {
-  return `${instanceId}-${chartGradientId(idx)}`;
-}
-
-function ChartGradientDefs({ instanceId }: { instanceId: string }) {
-  return (
-    <defs>
-      {CHART_GRADIENTS.map((g, idx) => (
-        <linearGradient
-          key={g.id}
-          id={gradientRef(instanceId, idx)}
-          x1="0"
-          y1="0"
-          x2="0"
-          y2="1"
-        >
-          <stop offset="0%" stopColor={g.from} stopOpacity={1} />
-          <stop offset="55%" stopColor={g.mid} stopOpacity={0.96} />
-          <stop offset="100%" stopColor={g.to} stopOpacity={0.9} />
-        </linearGradient>
-      ))}
-      <radialGradient id={`${instanceId}-donutCore`} cx="50%" cy="50%" r="62%">
-        <stop offset="0%" stopColor="rgba(125, 211, 252, 0.36)" />
-        <stop offset="100%" stopColor="rgba(0, 153, 255, 0)" />
-      </radialGradient>
-      <filter id={`${instanceId}-barGlow`} x="-20%" y="-20%" width="140%" height="150%">
-        <feGaussianBlur stdDeviation="2" result="blur" />
-        <feMerge>
-          <feMergeNode in="blur" />
-          <feMergeNode in="SourceGraphic" />
-        </feMerge>
-      </filter>
-      <filter id={`${instanceId}-pieGlow`} x="-30%" y="-30%" width="160%" height="160%">
-        <feDropShadow dx="0" dy="0" stdDeviation="2.4" floodColor="#33aaff" floodOpacity="0.32" />
-      </filter>
-    </defs>
-  );
-}
 
 type BarTooltipPayload = {
   color?: string;
@@ -121,13 +82,7 @@ function BarChartTooltip({
   );
 }
 
-function BarSectionChart({
-  data,
-  instanceId,
-}: {
-  data: Extract<ChartData, { type: "bar" }>;
-  instanceId: string;
-}) {
+function BarSectionChart({ data }: { data: Extract<ChartData, { type: "bar" }> }) {
   const [fy24, fy25] = data.labels;
   const [activeYear, setActiveYear] = useState<string | null>(null);
   const rows = [
@@ -164,8 +119,7 @@ function BarSectionChart({
         }}
         onMouseLeave={() => setActiveYear(null)}
       >
-        <ChartGradientDefs instanceId={instanceId} />
-        <CartesianGrid strokeDasharray="4 6" stroke="rgba(255,255,255,0.05)" vertical={false} />
+        <CartesianGrid strokeDasharray="4 6" stroke="rgba(255,255,255,0.06)" vertical={false} />
         <XAxis
           dataKey="year"
           tick={{
@@ -173,7 +127,7 @@ function BarSectionChart({
             fontSize: 12,
             fontWeight: activeYear ? 600 : 500,
           }}
-          axisLine={{ stroke: "rgba(0,153,255,0.15)" }}
+          axisLine={{ stroke: "rgba(255,255,255,0.1)" }}
           tickLine={false}
           dy={6}
         />
@@ -199,12 +153,7 @@ function BarSectionChart({
         ) : null}
         <Tooltip
           content={<BarChartTooltip />}
-          cursor={{
-            fill: "rgba(0,153,255,0.1)",
-            radius: 10,
-            stroke: "rgba(125,211,252,0.2)",
-            strokeWidth: 1,
-          }}
+          cursor={{ fill: "rgba(255,255,255,0.04)", radius: 6 }}
         />
         <Legend
           wrapperStyle={{ fontSize: 12, color: "#b0b0b0", paddingTop: 8 }}
@@ -215,18 +164,17 @@ function BarSectionChart({
             key={ds.label}
             yAxisId={dualAxis && i > 0 ? "right" : "left"}
             dataKey={ds.label}
-            fill={`url(#${gradientRef(instanceId, i)})`}
-            radius={[6, 6, 0, 0]}
+            fill={CHART_COLORS[i % CHART_COLORS.length]}
+            radius={[4, 4, 0, 0]}
             maxBarSize={52}
             animationDuration={CHART_ANIM.barDuration}
             animationEasing={CHART_ANIM.ease}
             animationBegin={i * CHART_ANIM.barStagger}
             activeBar={{
-              fill: `url(#${gradientRef(instanceId, i)})`,
-              stroke: CHART_COLORS[i % CHART_COLORS.length],
-              strokeWidth: 1.5,
-              radius: 8,
-              filter: `url(#${instanceId}-barGlow)`,
+              fill: CHART_COLORS[i % CHART_COLORS.length],
+              stroke: "rgba(255,255,255,0.35)",
+              strokeWidth: 1,
+              radius: 4,
             }}
           />
         ))}
@@ -272,13 +220,7 @@ function DonutChartTooltip({
   );
 }
 
-function DonutSectionChart({
-  data,
-  instanceId,
-}: {
-  data: Extract<ChartData, { type: "donut" }>;
-  instanceId: string;
-}) {
+function DonutSectionChart({ data }: { data: Extract<ChartData, { type: "donut" }> }) {
   const [activeIndex, setActiveIndex] = useState<number | null>(null);
   const pieData = data.segments.map((s) => ({ name: s.label, value: s.value }));
   const total = data.segments.reduce((sum, s) => sum + s.value, 0);
@@ -294,7 +236,6 @@ function DonutSectionChart({
       <div className="donut-chart-canvas">
         <ResponsiveContainer width="100%" height={260}>
           <PieChart>
-            <ChartGradientDefs instanceId={instanceId} />
             <Pie
               data={pieData}
               dataKey="value"
@@ -314,12 +255,11 @@ function DonutSectionChart({
               {pieData.map((_, i) => (
                 <Cell
                   key={i}
-                  fill={`url(#${gradientRef(instanceId, i)})`}
+                  fill={CHART_COLORS[i % CHART_COLORS.length]}
                   className="donut-segment-cell"
-                  opacity={activeIndex === null || activeIndex === i ? 1 : 0.38}
-                  stroke={activeIndex === i ? "rgba(255,255,255,0.34)" : "rgba(255,255,255,0.09)"}
-                  strokeWidth={activeIndex === i ? 2 : 1}
-                  filter={activeIndex === i ? `url(#${instanceId}-pieGlow)` : undefined}
+                  opacity={activeIndex === null || activeIndex === i ? 1 : 0.45}
+                  stroke="rgba(0,0,0,0.5)"
+                  strokeWidth={1}
                 />
               ))}
             </Pie>
@@ -353,7 +293,7 @@ function DonutSectionChart({
           >
             <span
               className="donut-legend-swatch"
-              style={{ background: `linear-gradient(135deg, ${CHART_GRADIENTS[i % CHART_GRADIENTS.length].from}, ${CHART_GRADIENTS[i % CHART_GRADIENTS.length].to})` }}
+              style={{ backgroundColor: CHART_COLORS[i % CHART_COLORS.length] }}
             />
             <span className="donut-legend-label">{seg.label}</span>
             <span className="donut-legend-value">{formatCroreFull(seg.value)}</span>
@@ -365,11 +305,10 @@ function DonutSectionChart({
 }
 
 export default function SectionChart({ data }: Props) {
-  const instanceId = useId().replace(/:/g, "");
   const chartBody = isBarChartData(data) ? (
-    <BarSectionChart data={data} instanceId={instanceId} />
+    <BarSectionChart data={data} />
   ) : isDonutChartData(data) ? (
-    <DonutSectionChart data={data} instanceId={instanceId} />
+    <DonutSectionChart data={data} />
   ) : null;
 
   if (!chartBody) return null;
@@ -381,14 +320,6 @@ export default function SectionChart({ data }: Props) {
       animate={{ opacity: 1, y: 0 }}
       transition={{ duration: 0.5, ease: [0.22, 1, 0.36, 1] }}
     >
-      <div className="section-chart-glow" aria-hidden />
-      <motion.div
-        className="section-chart-sheen"
-        aria-hidden
-        initial={{ x: "-120%" }}
-        animate={{ x: "135%" }}
-        transition={{ duration: 1.25, ease: "easeInOut", delay: 0.35 }}
-      />
       {chartBody}
       <p className="chart-disclaimer">{CHART_DISCLAIMER}</p>
     </motion.div>
