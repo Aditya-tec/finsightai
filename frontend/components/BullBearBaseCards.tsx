@@ -1,7 +1,7 @@
 "use client";
 
 import FormattedText from "@/components/FormattedText";
-import type { ScenarioBlocks } from "@/lib/parseBullBearBase";
+import { isBoilerplateIntro, type ScenarioBlocks } from "@/lib/parseBullBearBase";
 
 type Props = {
   blocks: ScenarioBlocks;
@@ -18,7 +18,7 @@ export default function BullBearBaseCards({ blocks }: Props) {
 
   return (
     <div className="bull-bear-wrap">
-      {blocks.intro && (
+      {blocks.intro && !isBoilerplateIntro(blocks.intro) && (
         <p className="bull-bear-intro">
           <FormattedText text={blocks.intro} />
         </p>

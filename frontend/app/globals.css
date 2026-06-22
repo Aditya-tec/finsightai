@@ -1166,18 +1166,33 @@ html, body {
   position: relative;
   margin-top: 20px;
   padding: 20px 16px 14px;
-  border: 1px solid rgba(0, 153, 255, 0.18);
+  border: 1px solid rgba(0, 153, 255, 0.22);
   border-radius: var(--radius-md);
   background: linear-gradient(
     145deg,
-    rgba(0, 153, 255, 0.07) 0%,
-    rgba(0, 0, 0, 0.35) 55%,
-    rgba(0, 102, 179, 0.05) 100%
+    rgba(0, 153, 255, 0.12) 0%,
+    rgba(0, 0, 0, 0.42) 50%,
+    rgba(0, 102, 179, 0.09) 100%
   );
   box-shadow:
-    0 4px 24px rgba(0, 0, 0, 0.35),
+    0 10px 34px rgba(0, 0, 0, 0.42),
+    0 0 0 1px rgba(0, 153, 255, 0.07),
     inset 0 1px 0 rgba(255, 255, 255, 0.04);
   overflow: hidden;
+  transition:
+    border-color 0.26s ease,
+    box-shadow 0.26s ease,
+    transform 0.26s ease;
+}
+
+.section-chart-wrap:hover {
+  border-color: rgba(125, 211, 252, 0.42);
+  box-shadow:
+    0 14px 44px rgba(0, 0, 0, 0.5),
+    0 0 28px rgba(0, 153, 255, 0.17),
+    0 0 0 1px rgba(125, 211, 252, 0.18),
+    inset 0 1px 0 rgba(255, 255, 255, 0.08);
+  transform: translateY(-1px);
 }
 
 .section-chart-glow {
@@ -1190,18 +1205,37 @@ html, body {
   pointer-events: none;
 }
 
+.section-chart-sheen {
+  position: absolute;
+  top: -40%;
+  left: -35%;
+  width: 34%;
+  height: 185%;
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(185, 232, 255, 0.16) 50%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  filter: blur(1px);
+  pointer-events: none;
+  transform: rotate(12deg);
+}
+
 .section-chart-wrap-donut {
   padding-bottom: 12px;
 }
 
 .chart-tooltip {
   background: rgba(12, 12, 14, 0.92);
-  backdrop-filter: blur(10px);
+  backdrop-filter: blur(14px);
   border: 1px solid rgba(0, 153, 255, 0.35);
   border-radius: 10px;
   font-size: 12px;
   padding: 10px 12px;
-  box-shadow: 0 8px 28px rgba(0, 0, 0, 0.45);
+  box-shadow:
+    0 12px 36px rgba(0, 0, 0, 0.52),
+    0 0 0 1px rgba(125, 211, 252, 0.08);
   min-width: 160px;
 }
 
@@ -1235,6 +1269,26 @@ html, body {
   color: #b8b8b8;
 }
 
+.section-chart-wrap .recharts-bar-rectangle path {
+  transition:
+    filter 0.2s ease,
+    transform 0.2s ease,
+    opacity 0.2s ease;
+  transform-origin: center bottom;
+}
+
+.section-chart-wrap .recharts-bar-rectangle:hover path {
+  filter: drop-shadow(0 0 8px rgba(51, 170, 255, 0.4));
+  transform: translateY(-1px);
+}
+
+.section-chart-wrap .recharts-sector {
+  transition:
+    opacity 0.2s ease,
+    filter 0.2s ease,
+    stroke 0.2s ease;
+}
+
 .donut-chart-layout {
   display: flex;
   flex-direction: column;
@@ -1254,6 +1308,9 @@ html, body {
   text-align: center;
   pointer-events: none;
   animation: donutCenterIn 0.6s ease-out 0.5s both;
+  padding: 4px 12px;
+  border-radius: 999px;
+  background: radial-gradient(circle at 50% 45%, rgba(125, 211, 252, 0.18), rgba(0, 0, 0, 0));
 }
 
 @keyframes donutCenterIn {
@@ -1269,7 +1326,7 @@ html, body {
 
 .donut-center-value {
   display: block;
-  font-size: 15px;
+  font-size: 16px;
   font-weight: 700;
   color: #fff;
   line-height: 1.2;
@@ -1284,6 +1341,10 @@ html, body {
   letter-spacing: 0.08em;
   text-transform: uppercase;
   color: var(--text-muted);
+  max-width: 140px;
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
 }
 
 .donut-legend-list {
@@ -1307,13 +1368,17 @@ html, body {
   border-radius: 8px;
   border: 1px solid transparent;
   transition:
-    border-color 0.2s ease,
-    background 0.2s ease;
+    border-color 0.24s ease,
+    background 0.24s ease,
+    transform 0.24s ease,
+    box-shadow 0.24s ease;
 }
 
 .donut-legend-item:hover {
-  background: rgba(0, 153, 255, 0.06);
+  background: rgba(0, 153, 255, 0.08);
   border-color: rgba(0, 153, 255, 0.12);
+  transform: translateY(-1px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.22);
 }
 
 .donut-legend-swatch {
