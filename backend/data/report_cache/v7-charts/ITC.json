@@ -1,0 +1,657 @@
+{
+  "sections": [
+    {
+      "title": "Executive Summary + Investment Thesis",
+      "body": "**Executive Summary**\nITC Limited, a diversified conglomerate, has undergone a significant development with the demerger of its Hotels Business into ITC Hotels Limited (ITCHL) effective January 1, 2025. ITCHL, with a 39.88% shareholding by ITC Limited, operates a substantial hospitality chain comprising over 140 properties and 13,000 rooms across six distinctive brands. The company's financial reporting is guided by Indian Accounting Standards (Ind AS), ensuring transparency and consistency in its consolidated financial statements. Revenue recognition is based on the transaction price for goods and services, with specific considerations for taxes, returns, and variable considerations.\n\n**Investment Thesis**\nOur investment thesis for ITC Limited is centered on its diversified business portfolio and strategic restructuring efforts, such as the demerger of its Hotels Business. With ITCHL positioned as one of the fastest-growing hospitality chains in the country, we anticipate potential upside from this segment. However, without specific financial metrics such as revenue from operations or net profit after tax (PAT) provided in the excerpts, we cannot derive detailed financial ratios or comparisons. As such, our thesis is based on the company's strategic positioning and adherence to accounting standards, which suggest a commitment to transparency and operational efficiency. Further analysis of the company's financial performance and industry dynamics would be necessary to fully articulate an investment strategy.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 244,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 168,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 168,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Business Overview + Segment Breakdown",
+      "body": "ITC Limited is a diversified conglomerate with operations in various segments. The company's financials for FY24 and FY25 exclude the performance of the Hotels business, which was transferred to ITCHL on a going concern basis pursuant to a Scheme of Demerger. The financials for FY21 and FY22 were impacted by unprecedented disruptions in certain operating segments due to the COVID-19 pandemic. The company's revenue from operations for FY25 is ₹113,960 crore, with an EBITDA of ₹17,163 crore. The company's net profit margin for FY25 is 26.7%, with a return on net worth of 29.2%. However, the segment-wise revenue breakdown is not explicitly stated in the provided excerpts, making it challenging to provide a detailed segment analysis.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 349,
+          "section": "Notes:"
+        },
+        {
+          "source": "filing",
+          "page": 155,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 218,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 269,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 268,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Financial Performance",
+      "body": "{\"body\": \"<section prose>ITC's financial performance for FY25 reflects a revenue from operations of ₹74,236.07 crore, a 10.3% increase from ₹67,292.60 crore in FY24. The company's total income for FY25 stood at ₹77,690.38 crore, up from ₹70,822.36 crore in the previous year. Net profit for FY25 was ₹20,091.85 crore from continuing operations and ₹35,195.61 crore including discontinued operations, compared to ₹19,910.23 crore from continuing operations and ₹20,421.97 crore including discontinued operations in FY24. <br><br> The company's financials for FY24 and FY25 exclude the performance of the Hotels business, which was transferred to ITCHL on a going concern basis pursuant to a Scheme of Demerger. Earnings per share (EPS) for FY25 were ₹16.07 for continuing operations and ₹28.15 including discontinued operations, compared to ₹15.98 for continuing operations and ₹16.39 including discontinued operations in FY24.</section>\", \"chart_data\": {\"type\":\"bar\",\"labels\":[\"FY24\",\"FY25\"],\"datasets\":[{\"label\":\"Revenue (₹ Cr)\",\"values\":[67292.60,74236.07]},{\"label\":\"Net Profit (₹ Cr)\",\"values\":[20421.97,35195.61]}]}",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 349,
+          "section": "Notes:"
+        },
+        {
+          "source": "filing",
+          "page": 159,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 256,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 312,
+          "section": "30.\tAdditional Notes to the Consolidated Financial Statements (Contd.)"
+        },
+        {
+          "source": "filing",
+          "page": 155,
+          "section": "Notes:"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Balance Sheet Health + Cash Flow",
+      "body": "The 'Balance Sheet Health + Cash Flow' section of this report is limited by the absence of specific financial data in the provided excerpts. However, we can discuss the principles guiding the recognition and derecognition of financial assets and liabilities, as well as the consolidation principles that affect the balance sheet and cash flow statement. \n\nITC Limited recognizes financial assets and liabilities at fair value initially and subsequently measures them at amortized cost, with any discount or premium recognized as finance cost over the liability's life. Financial assets are derecognized when the right to receive cash flows has expired or been transferred, and substantially all risks and rewards of ownership have been transferred. This approach ensures that the balance sheet reflects the true financial position of the company. \n\nRegarding cash flow, the excerpts do not provide specific numbers on cash inflows or outflows. However, we know that revenue from the sale of goods and services is recognized when control is transferred to the customer or when services are rendered, which can impact cash flows. The company's ability to generate cash from its operations, invest in new opportunities, and meet its financial obligations is crucial for its long-term sustainability. Unfortunately, without explicit cash flow data, a detailed analysis of ITC's cash flow health cannot be conducted.\n\nIn conclusion, while the provided excerpts offer insight into the accounting principles guiding ITC Limited's financial reporting, they lack the specific financial data necessary for a comprehensive analysis of the company's balance sheet health and cash flow situation. Peer comparison is also not possible due to the absence of relevant data on peers.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 168,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 168,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 244,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Key Financial Ratios",
+      "body": "The 'Key Financial Ratios' section of this report cannot be completed as the provided filing excerpts do not contain the necessary financial data to calculate key financial ratios. The excerpts primarily discuss the company's accounting policies and procedures for revenue recognition, financial assets and liabilities, equity instruments, and government grants, but do not provide specific financial figures or data. Therefore, it is not possible to calculate ratios such as debt-to-equity, return on equity, or profit margin without the relevant financial information. Peer comparison is also not possible due to the lack of data on ITC Limited's financial performance and the absence of peer company data in the excerpts.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 168,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 263,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 263,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Valuation Snapshot vs Sector Median",
+      "body": "Valuation Snapshot vs Sector Median\n\nBased on the provided filing excerpts, we are unable to derive a valuation snapshot for ITC Limited as the excerpts primarily focus on the company's accounting policies and revenue recognition principles. The excerpts do not provide specific financial data, such as revenue, net profit, or net worth, which are essential for a valuation analysis. Furthermore, there is no information available on the sector median for comparison purposes. Therefore, a valuation snapshot versus sector median cannot be accurately determined from the given context. \n\nTo conduct a comprehensive valuation analysis, additional financial data and sector benchmarks would be required. We would need access to ITC Limited's financial statements, such as the income statement and balance sheet, as well as industry averages and medians for key valuation metrics. Without this information, we cannot provide a meaningful valuation snapshot or comparison to the sector median.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 168,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 263,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 263,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Management Commentary",
+      "body": "The management of ITC has outlined a corporate strategy focused on creating multiple drivers of growth, anchored on its core competencies, with a focus on three primary business groups: FMCG, Paperboards, Paper & Packaging, and Agri Business. As per the latest available data, the company's capital expenditure stood at ₹1,842.28 billion in 2025, with depreciation and amortization amounting to ₹1,668.88 billion. The FMCG segment, which includes cigarettes, branded packaged foods, and personal care products, accounted for a significant portion of the company's capital expenditure, with ₹836.32 billion spent in 2025. The management has also reported the company's revenue from external customers, with ₹65,635.22 billion generated within India in 2025.\n\nThe company's organisational structure and governance processes are designed to support effective management of multiple businesses while retaining focus on each one of them. The operating segments have been reported in a manner consistent with the internal reporting provided to the Corporate Management Committee, which is the Chief Operating Decision Maker. The management has also disclosed that the company is not reliant on revenues from transactions with any single external customer, with no single customer accounting for 10% or more of its revenues. However, detailed information on the company's net profit and net worth is not available in the provided context, and therefore, a comprehensive analysis of the company's financial performance cannot be made. Additionally, peer comparison is not possible due to the lack of available data on peer companies.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 218,
+          "section": "NOTES :"
+        },
+        {
+          "source": "filing",
+          "page": 326,
+          "section": "NOTES :"
+        },
+        {
+          "source": "filing",
+          "page": 170,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Key Risks",
+      "body": "The 'Key Risks' section of this report highlights potential challenges that ITC Limited may face. Based on the provided filing excerpts, it appears that the company is exposed to various risks, including those related to taxation, claims, and provisions. The company's accounting policies, such as the recognition of provisions when a legal or constructive obligation exists, may lead to uncertainties and potential outflows of resources. Additionally, the company's revenue recognition policies, which exclude taxes such as VAT and Goods and Services Tax, may be subject to changes in regulatory requirements. However, specific details on the magnitude and likelihood of these risks are not provided in the excerpts. \n\nAs the filing excerpts do not provide explicit information on key risks, a comprehensive analysis of potential risks, such as market risks, operational risks, and financial risks, cannot be performed. Furthermore, without data on the company's financial performance, such as revenue from operations net of GST or net profit, it is challenging to assess the potential impact of these risks on the company's financials. Peer comparison is also not possible due to the lack of relevant data. Therefore, investors should exercise caution and consider multiple sources of information to gain a more comprehensive understanding of the company's risk profile.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 170,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 265,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 168,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Recent Developments",
+      "body": "The recent developments at ITC have been marked by significant strategic initiatives and financial performance. As per the latest available data, the company's capital expenditure stood at ₹18.42 billion in 2025, with depreciation and amortization amounting to ₹16.69 billion. The FMCG segment, which includes cigarettes and other branded packaged foods businesses, accounted for a significant portion of the company's capital expenditure, with ₹8.36 billion and ₹5.16 billion spent in 2025 and 2024, respectively. The company has also reported revenue from operations within India of ₹65,635.22 crore in 2025, indicating a growth of approximately 9% over the previous year.\n\nIn terms of segment performance, ITC Infotech India Limited, a wholly-owned subsidiary of the company, recorded revenue from operations of ₹3,204.32 crore and a net profit of ₹466.62 crore in the year under review. The company has also expanded its global presence through the setup of subsidiary companies in various countries, including Brazil, Mexico, France, Germany, Italy, Malaysia, and Saudi Arabia. However, due to the lack of peer data in the provided excerpts, a peer comparison of ITC's performance is not possible. Overall, the company's recent developments suggest a focus on strategic growth initiatives and expansion of its business segments, both domestically and internationally.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 218,
+          "section": "NOTES :"
+        },
+        {
+          "source": "filing",
+          "page": 326,
+          "section": "NOTES :"
+        },
+        {
+          "source": "filing",
+          "page": 99,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Bull vs Bear vs Base Case",
+      "body": "The bull case for ITC is supported by the company's diversified business portfolio, with a presence in FMCG, Paperboards, Paper and Packaging, and Agri Business. The company's focus on creating multiple drivers of growth anchored on its core competencies is expected to drive long-term growth. Additionally, the demerger of the Hotels Business is likely to unlock value for shareholders, as evident from the exceptional gain of ₹15,163.06 crore recorded in FY 2024-25. The company's strong revenue growth within India, with revenue from external customers increasing to ₹65,635.22 crore in 2025 from ₹60,333.03 crore in 2024, also supports the bull case.\n\nOn the other hand, the bear case for ITC is centered around the company's dependence on a few key segments, such as FMCG and Paperboards, Paper and Packaging, which accounted for a significant portion of the company's capital expenditure and depreciation in 2025. The company's non-cash expenditure, excluding depreciation, also increased to ₹248.79 crore in 2025 from ₹202.53 crore in 2024, which could be a concern. Furthermore, the company's discontinued operations, including the Hotels Business, reported a significant exceptional gain in FY 2024-25, which may not be sustainable in the long term. Our base case assumes that ITC will continue to grow its revenue and profitability, driven by its diversified business portfolio and focus on core competencies, but at a moderate pace, with revenue from operations growing in line with historical trends. However, due to the lack of specific financial data on net profit and net worth in the provided excerpts, we are unable to provide a more detailed analysis of the company's profitability and financial position.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 326,
+          "section": "NOTES :"
+        },
+        {
+          "source": "filing",
+          "page": 218,
+          "section": "NOTES :"
+        },
+        {
+          "source": "filing",
+          "page": 65,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Peer Comparison",
+      "body": "Peer Comparison: \nUnfortunately, the provided filing excerpts do not contain sufficient information to facilitate a peer comparison for ITC Limited. The excerpts primarily focus on the company's segment reporting, principles of consolidation, and profit details, without providing comparable data from peer companies. As a result, it is not possible to compare ITC Limited's performance with that of its peers based on the available information.\n\nTo conduct a meaningful peer comparison, data on key metrics such as revenue from operations, net profit, and net worth of comparable companies in the industry would be required. However, since this information is not available in the provided excerpts, a peer comparison cannot be undertaken at this time.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 217,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 244,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 66,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    }
+  ],
+  "eval_context": [
+    {
+      "id": "29691a99-0aa4-47f2-a49b-39b756161995",
+      "content": "30. Segment Reporting REPORT AND ACCOUNTS 2025 197 ITC Limited",
+      "ticker": "ITC",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 217,
+      "section_title": "general",
+      "similarity": 0.649123352870541,
+      "retrieval_source": "vector",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "ticker": "ITC",
+      "content": "Major Associate of the Group ITC Hotels Limited (ITCHL) Shareholding 39.88 % held by ITC Limited. Nature of Business ITCHL is engaged in Hospitality business. During the year, the Hotels Business of the Company was demerged into ITCHL with effect from 1st January, 2025. ITCHL is amongst the fastest growing hospitality chains in the country with 140+ properties and over 13,000 rooms under six distinctive brands – ‘ITC Hotels’ in the Luxury segment, ‘Mementos’ in the Luxury Lifestyle segment, ‘Welcomhotel’ in the Upper Upscale & Upscale segment, ‘Storii’ in the Boutique Premium segment, ‘Fortune’ in the Mid-market to Upscale segment and ‘WelcomHeritage’ in the Leisure & Heritage segment. Note: The full list of the Group’s Associates appears on page 282. Principles of Consolidation The Group’s interests in its subsidiaries, associates and joint ventures are reflected in the Consolidated Financial Statements (CFS) in accordance with the relevant Indian Accounting Standards (Ind AS) specified under Section 133 of the Companies Act, 2013. Subsidiaries (Ind AS 110) Line by line consolidation of the Statement of Profit and Loss and Balance Sheet is done by aggregating like items of assets, liabilities, income and expenses. The excess / deficit of the cost to ITC Limited of its investments in its subsidiaries over its share of net worth (residual interest in the assets of the subsidiaries after deducting all its liabilities) of the subsidiaries at the date of investment in the subsidiaries are treated as goodwill / capital reserve in the CFS. The goodwill is disclosed as an asset and capital reserve as a reserve in the Consolidated Balance Sheet. Profit or loss and each component of other comprehensive income are attributed to the Group as owners and to the non-controlling interest; likewise the non-controlling interests in the net assets of the consolidated subsidiaries is identified and presented separately within Equity in the Consolidated Balance Sheet. Inter-Company transactions within the Group (both Balance Sheet and Profit or loss items) are eliminated for arriving at the Group CFS. CFS is prepared applying uniform accounting policies of ITC Limited to the Group companies. Associates and Joint Ventures (Ind AS 28) An investment in associate and joint venture is initially recognised at cost on the date of the investment, and is inclusive of any goodwill / capital reserve embedded in the cost. Only share of net profits / losses and other comprehensive income of associates / joint ventures is considered in Consolidated Statement of Profit and Loss. The carrying amount of the investment in associates / joint ventures is adjusted by the share of net profits / losses and other comprehensive income in the Consolidated Balance Sheet. 224 REPORT AND ACCOUNTS 2025 ITC Limited",
+      "chunk_index": 519,
+      "page_number": 244,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ITC_FY25.json"
+      },
+      "similarity": 15.975550601018757,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "id": "19286a94-0562-4c88-af75-f48684ce0a01",
+      "content": "46 REPORT AND ACCOUNTS 2025 ITC Limited PROFITS, DIVIDENDS AND RETAINED EARNINGS PROFITS 2024 - 25 2023 - 24 a) \u0007Profit before exceptional items and tax from continuing operations 26000.86 25632.12 b) \u0007Exceptional Items (refer note 29 (i) to the",
+      "ticker": "ITC",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 66,
+      "section_title": "general",
+      "similarity": 0.643668813268088,
+      "retrieval_source": "vector",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "ticker": "ITC",
+      "content": "148 REPORT AND ACCOUNTS 2025 ITC Limited Derecognition: Financial assets are derecognised when the right to receive cash flows from the assets has expired, or has been transferred, and the Company has transferred substantially all of the risks and rewards of ownership. Concomitantly, if the asset is one that is measured at: (a) amortised cost, the gain or loss is recognised in the Statement of Profit and Loss; (b) fair value through other comprehensive income, the cumulative fair value adjustments previously taken to reserves are reclassified to the Statement of Profit and Loss unless the asset represents an equity investment, in which case the cumulative fair value adjustments previously taken to reserves are reclassified within equity. Income Recognition: Interest income is recognised in the Statement of Profit and Loss using the effective interest method. Dividend income is recognised in the Statement of Profit and Loss when the right to receive dividend is established. Financial Liabilities Borrowings, trade payables and other financial liabilities are initially recognised at fair value and are subsequently measured at amortised cost. Any discount or premium on redemption / settlement is recognised in the Statement of Profit and Loss as finance cost over the life of the liability using the effective interest method and adjusted to the liability figure disclosed in the Balance Sheet. Financial liabilities are derecognised when the liability is extinguished, that is, when the contractual obligation is discharged, cancelled or on expiry. Offsetting Financial Instruments Financial assets and liabilities are offset and the net amount is included in the Balance Sheet where there is a legally enforceable right to offset the recognised amounts and there is an intention to settle on a net basis or realise the asset and settle the liability simultaneously. Equity Instruments Equity instruments are recognised at the value of the proceeds, net of direct costs of the capital issue. Revenue Revenue is measured at the transaction price that the Company receives or expects to receive as consideration for goods supplied and services rendered, net of returns and estimates of variable consideration such as discounts to customers. Revenue from the sale of goods includes Excise Duties and National Calamity Contingent Duty which are payable on manufacture of goods but excludes taxes such as VAT and Goods and Services Tax which are payable in respect of sale of goods and services. Revenue from the sale of goods and services is recognised when the Company performs its obligations to its customers and the amount of revenue can be measured reliably and recovery of the consideration is probable. The timing of such recognition in case of sale of goods is when the control over the same is transferred to the customer, which is mainly upon delivery and in case of services, in the period in which such services are rendered. Government Grant The Company may receive government grants that require compliance with certain conditions related to the Company’s operating activities or are provided to the Company by way of financial assistance on the basis of certain qualifying criteria. Government grants are recognised when there is reasonable",
+      "chunk_index": 324,
+      "page_number": 168,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ITC_FY25.json"
+      },
+      "similarity": 15.829171462795388,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "id": "a45e5d01-7681-40ad-9a03-59deb3fc98c1",
+      "content": "which comprise the Balance Sheet as at March 31, 2025, the Statement of Profit and Loss, including Other Comprehensive Income, the Statement of Cash Flows and the Statement of Changes in Equity for the year",
+      "ticker": "ITC",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 230,
+      "section_title": "financial statements of ITC Limited (“the Company”),",
+      "similarity": 0.634939378212803,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "ticker": "ITC",
+      "content": "For the year under review: a. ITC Infotech India Limited recorded Revenue from Operations of ` 3204.32 crores (previous year ` 2869.29 crores) and Net Profit of ` 466.62 crores (previous year ` 382.21 crores). The company paid a total dividend of ` 53.75 per Equity Share of ` 10/- each aggregating ` 488.32 crores (previous year ` 55.50 per Equity Share of ` 10/- each aggregating ` 488.40 crores). b. ITC Infotech Limited, UK, a wholly-owned subsidiary of the company, recorded Revenue of GBP 28.80 million (previous year GBP 34.11 million) and Net Profit of GBP 1.33 million (previous year GBP 1.49 million). c. ITC Infotech (USA), Inc., a wholly-owned subsidiary of the company, together with its wholly-owned subsidiary Indivate Inc., recorded Revenue of US$ 160.71 million (previous year US$ 158.58 million) and Net Profit of US$ 6.53 million (previous year US$ 6.69 million). d. In the recent past, ITC Infotech India Limited has also set up subsidiary companies in Brazil, Mexico, France, Germany, Italy, Malaysia and Saudi Arabia. Please refer to Form AOC-1 (Statement containing",
+      "chunk_index": 172,
+      "page_number": 99,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ITC_FY25.json"
+      },
+      "similarity": 15.308316702268085,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "id": "529aebcc-77c0-4e7e-b081-9a371a677495",
+      "content": "of the evidence supporting the assumptions, nothing has come to our attention, which causes us to believe that any material uncertainty exists as on the date of the audit report that Company is not capable of meeting its liabilities existing at the date of balance sheet as and when they fall due within a period of one year from the balance sheet date. We, however, state that this is not an assurance as to the future viability of the Company. We further state that our reporting is based on the facts up to the date of the audit report and we neither give any guarantee nor any assurance that all liabilities falling due within a period of one year from the balance sheet date, will get discharged by the Company as and when they fall due. (xx) (a) \u0007In respect of other than ongoing projects, there are no unspent amounts that are required to be transferred to a fund specified in Schedule VII of the Companies Act, 2013, in compliance with second proviso to sub section 5 of section 135 of the Companies Act, 2013. This matter has been disclosed in note 29(iii) to the standalone Ind AS",
+      "ticker": "ITC",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 239,
+      "section_title": "financial statements, our knowledge of the Board of Directors and management plans and based on our examination",
+      "similarity": 0.587026799498392,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015625
+    },
+    {
+      "ticker": "ITC",
+      "content": "R. K. SINGHI Company Secretary (Membership No. : FCS3770) S. DUTTA Director & Chief Financial Officer (DIN : 01804345) S. PURI Chairman & Managing Director (DIN : 00280529) On behalf of the Board Kolkata, May 22, 2025 230 REPORT AND ACCOUNTS 2025 ITC Limited Statement pursuant to Section 129 (3) of the Companies Act, 2013 related to Associate companies and Joint Ventures Part B: Associates and Joint Ventures Name of Associates / Joint Ventures Logix Developers Private Limited# ITC Filtrona Limited Russell Investments Limited Divya Management Limited Antrang Finance Limited ATC Limited Delectable Technologies Private Limited$ Mother Sparsh Baby Care Private Limited Sproutlife Foods Private Limited ITC Hotels Limited 1. Latest audited Balance Sheet Date 31-Mar-2025 31-Mar-2025 31-Mar-2025 31-Mar-2025 31-Mar-2025 31-Mar-2025 31-Mar-2025 31-Mar-2025 31-Mar-2025 31-Mar-2025 2. Date on which the Associate or Joint Venture was associated or acquired 27-Sept-2011 30-Jun-1994 14-May-1988 23-Nov-2007 21-Jan-2008 18-Jan-1995 17-Sep-2020 27-Oct-2022 04-May-2023 01-Jan-2025 3. Shares of Associate / Joint Venture held by the Company on the year end Number 77,66,913 22,50,000 42,75,435 41,82,915 43,24,634 1,94,775* 10,145^ 3,937~ 13,427& 83,00,00,000 Amount of Investment in Associate / Joint Venture@@ (` in Crores) – 146.42 44.91 8.27 5.52 8.28 – 36.71 198.94 4262.73 Extent of Holding % 27.90 50.00 25.43 33.33 33.33 47.50 39.32@ 26.50@ 47.50@ 39.88 4. Description of how there is significant influence Joint Venture Joint Venture Associate Associate Associate Associate Associate Associate Associate Associate 5. Reason why the Associate / Joint Venture is not consolidated Consolidated Consolidated Consolidated Consolidated Consolidated Consolidated Consolidated Consolidated Consolidated Consolidated 6. Net worth attributable to Shareholding as per latest audited Balance Sheet (` in Crores) 1.55 146.01 45.51 7.19 5.43 8.08 0.19 (3.46) 7.12 4264.04 7. Profit / (Loss) for the year (` in Crores) 0.26 83.84 5.53 1.13 0.95 0.54 (2.70) (13.18) (69.42) 637.64 i. \u0007Considered in Consolidation (` in Crores) 0.07 41.92 1.41 0.38 0.32 0.26 (1.06) (3.49) (32.21) 102.83 ii. \u0007Not considered in Consolidation (` in Crores) 0.19 41.92 4.12 0.75 0.63 0.28 (1.64) (9.69) (37.21) 534.81",
+      "chunk_index": 526,
+      "page_number": 250,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ITC_FY25.json"
+      },
+      "similarity": 14.650787324768157,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015625
+    },
+    {
+      "id": "9b2e70e5-457c-4773-9ff4-ee3727c0c440",
+      "content": "REPORT AND ACCOUNTS 2025 143 ITC Limited Standalone Statement of Cash Flows for the year ended 31st March, 2025",
+      "ticker": "ITC",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 163,
+      "section_title": "general",
+      "similarity": 0.586647798222566,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "ticker": "ITC",
+      "content": "relate to the same taxation authority. Current tax assets and tax liabilities are offset where the entity has a legally enforceable right to offset and intends either to settle on net basis, or to realize the asset and settle the liability simultaneously. Claims Claims against the Company not acknowledged as debts are disclosed after a careful evaluation of the facts and legal aspects of the matter involved. Provisions Provisions are recognised when, as a result of a past event, the Company has a legal or constructive obligation; it is probable that an outflow of resources will be required to settle the obligation; and the amount can be reliably estimated. The amount so recognised is a best estimate of the consideration required to settle the obligation at the reporting date, taking into account the risks and uncertainties surrounding the obligation. In an event when the time value of money is material, the provision is carried at the present value of the cash flows estimated to settle the obligation. Operating Segments Operating segments are reported in a manner consistent with the internal reporting provided to the chief operating decision-maker (CODM). The CODM, who is responsible for allocating resources and assessing performance of the operating segments, has been identified as the Corporate Management Committee. Segments are organised based on businesses which have similar economic characteristics as well as exhibit similarities in nature of products and services offered, the nature of production processes, the type and class of customer and distribution methods. Segment revenue arising from third party customers is reported on the same basis as revenue in the financial statements. Inter-segment revenue is reported on the basis of transactions which are primarily market led. Segment results represent profits before finance charges, unallocated corporate expenses and taxes. “Unallocated Corporate Expenses” include revenue and expenses that relate to initiatives / costs attributable to the enterprise as a whole. Financial and Management Information Systems The Company’s Accounting System is designed to unify the Financial and Cost Records and also to comply with the relevant provisions of the Companies Act, 2013, to provide financial and cost information appropriate to the businesses and facilitate Internal Control.",
+      "chunk_index": 329,
+      "page_number": 170,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ITC_FY25.json"
+      },
+      "similarity": 14.302070779966199,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "id": "b4bf58fa-3214-45c8-af0b-2608e1c6881c",
+      "content": "REPORT AND ACCOUNTS 2025 243 ITC Limited Loss unless the asset represents an equity investment, in which case the cumulative fair value adjustments previously taken to reserves are reclassified within equity. Income Recognition: Interest income is recognised in the Statement of Profit and Loss using the effective interest method. Dividend income is recognised in the Statement of Profit and Loss when the right to receive dividend is established. Financial Liabilities Borrowings, trade payables and other financial liabilities are initially recognised at fair value and are subsequently measured at amortised cost. Any discount or premium on redemption / settlement is recognised in the Statement of Profit and Loss as finance cost over the life of the liability using the effective interest method and adjusted to the liability figure disclosed in the Balance Sheet. Financial liabilities are derecognised when the liability is extinguished, that is, when the contractual obligation is discharged, cancelled or on expiry. Offsetting Financial Instruments Financial assets and liabilities are offset and the net amount is included in the Balance Sheet where there is a legally enforceable right to offset the recognised amounts and there is an intention to settle on a net basis or realise the asset and settle the liability simultaneously. Equity Instruments Equity instruments are recognised at the value of the proceeds, net of direct costs of the capital issue. Revenue Revenue is measured at the transaction price that the Company receives or expects to receive as consideration for goods supplied and services rendered, net of returns and estimates of variable consideration such as discounts to customers. Revenue from the sale of goods includes Excise Duties and National Calamity Contingent Duty which are payable on manufacture of goods but excludes taxes such as VAT and Goods and Services Tax which are payable in respect of sale of goods and services. Revenue from the sale of goods and services is recognised when the Group performs its obligations to its customers and the amount of revenue can be measured reliably and recovery of the consideration is probable. The timing of such recognition in case of sale of goods is when the control over the same is transferred to the customer, which is mainly upon delivery and in case of services, in the period in which such services are rendered. Government Grant Group entities may receive government grants that require compliance with certain conditions related to the entity’s operating activities or are provided to the entity by way of financial assistance on the basis of certain qualifying criteria. Government grants are recognised when there is reasonable assurance that the grant will be received upon the Group entity complying with the conditions attached to the grant. Accordingly, government grants: (a) related to or used for assets, are deducted from the carrying amount of the asset. (b) related to incurring specific expenditures are taken to the Statement of Profit and Loss on the same basis and in the same periods as the expenditures incurred. (c) by way of financial assistance on the basis of certain qualifying criteria are recognised in the Statement of",
+      "ticker": "ITC",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 263,
+      "section_title": "general",
+      "similarity": 0.586634352212963,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015151515151515152
+    },
+    {
+      "ticker": "ITC",
+      "content": "(1) \u0007The Group’s corporate strategy aims at creating multiple drivers of growth anchored on its core competencies. The Group is currently focused on three business groups : FMCG, Paperboards, Paper & Packaging and Agri Business. The Group’s organisational structure and governance processes are designed to support effective management of multiple businesses while retaining focus on each one of them. \u0007 The Operating Segments have been reported in a manner consistent with the internal reporting provided to the Corporate Management Committee, which is the Chief Operating Decision Maker. (2) \u0007Pursuant to the Scheme of Demerger and in terms of applicable Accounting Standards (Ind AS), the Group has reported its Hotels Business (excluding ITC Grand Central, Mumbai) as ‘Discontinued Operations’. Accordingly, ‘Hotels’ no longer forms a reportable segment of the Group. The results of ITC Grand Central, Mumbai which has been retained with the Group have been disclosed under ‘Others’ segment. (3) The business groups comprise the following : FMCG : Cigarettes – Cigarettes, Cigars etc. : Others – \u0007Branded Packaged Foods Businesses (Staples & Meals; Snacks; Dairy & Beverages; Biscuits & Cakes; Chocolates, Coffee & Confectionery); Education and Stationery Products; Personal Care Products; Safety Matches and Agarbattis. Paperboards, Paper and Packaging – Paperboards, Paper including Specialty Paper and Packaging including Flexibles. Agri Business – Agri commodities such as wheat, rice, spices, coffee, soya, leaf tobacco and potato. Others – Information Technology services, ITC Grand Central Hotel, Mumbai etc. (4) The Group companies have been included in segment classification as follows: FMCG : Cigarettes – Surya Nepal Private Limited. : Others – Surya Nepal Private Limited, Surya Nepal Ventures Private Limited and North East Nutrients Private Limited. Paperboards, Paper and Packaging – ITC Fibre Innovations Limited Agri Business – \u0007Technico Agri Sciences Limited, ITC IndiVision Limited, Technico Pty Limited and its subsidiaries Technico Technologies Inc., Technico Asia Holdings Pty Limited and Technico Horticultural (Kunming) Co. Limited. Others – \u0007ITC Infotech India Limited and its subsidiaries ITC Infotech Limited, ITC Infotech (USA), Inc., ITC Infotech Do Brasil LTDA., ITC Infotech France SAS, ITC Infotech GmbH, ITC Infotech Malaysia SDN. BHD., ITC Infotech de Mexico, S.A. de C.V., ITC Infotech Italia s.r.l., Blazeclan Technologies Private Limited, Cloudlytics Technologies Private Limited, Blazeclan Technologies Pty. Limited, Blazeclan Technologies Limited, Blazeclan Americas Inc., Blazeclan Technologies PTE Limited, Blazeclan Technologies SDN. BHD., Blazeclan Technologies Corporation, Blazeclan Europe SRL., Blazeclan Technologies LLC, Blazeclan Technologies Inc. and Indivate Inc., Russell Credit Limited, Greenacre Holdings Limited, Wimco Limited, Pavan Poplar Limited, Prag Agro Farm Limited and ITC Integrated Business Services Limited and its subsidiary MRR Trading & Investment Company Limited. (5) The geographical information considered for disclosure are : – Revenue within India. – Revenue outside India. (6) \u0007Segment results of ‘FMCG : Others’ are after considering significant business development, brand building and gestation costs of the Branded Packaged Foods businesses and Personal Care Products business. (7) \u0007As stock options and stock appreciation linked reward units are granted to align the interests of employees with those of shareholders and also to attract and retain talent for the Group as a whole, the charge",
+      "chunk_index": 695,
+      "page_number": 326,
+      "section_title": "NOTES :",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ITC_FY25.json"
+      },
+      "similarity": 14.135087275498986,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015151515151515152
+    },
+    {
+      "id": "9399a4d7-ca3c-46a5-8e97-9157010d04bd",
+      "content": "* Net of sales returns, damaged stocks and estimates of variable consideration such as discounts to customers. REPORT AND ACCOUNTS 2025 177 ITC Limited",
+      "ticker": "ITC",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 197,
+      "section_title": "general",
+      "similarity": 0.586139514540522,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014925373134328358
+    },
+    {
+      "ticker": "ITC",
+      "content": "items disclosed under other comprehensive income or equity, is disclosed separately under other comprehensive income or equity, as applicable. Deferred tax assets and liabilities are offset when there is legally enforceable right to offset current tax assets and liabilities and when the deferred tax balances relate to the same taxation authority. Current tax assets and tax liabilities are offset where the entity has a legally enforceable right to offset and intends either to settle on net basis, or to realise the asset and settle the liability simultaneously. Claims Claims against the Group not acknowledged as debts are disclosed after a careful evaluation of the facts and legal aspects of the matter involved. Provisions Provisions are recognised when, as a result of a past event, the Group has a legal or constructive obligation; it is probable that an outflow of resources will be required to settle the obligation; and the amount can be reliably estimated. The amount so recognised is a best estimate of the consideration required to settle the obligation at the reporting date, taking into account the risks and uncertainties surrounding the obligation. In an event when the time value of money is material, the provision is carried at the present value of the cash flows estimated to settle the obligation. Operating Segments Operating segments are reported in a manner consistent with the internal reporting provided to the chief operating decision-maker (CODM). The CODM, who is responsible for allocating resources and assessing performance of the operating segments, has been identified as the Corporate Management Committee. Segments are organised based on businesses which have similar economic characteristics as well as exhibit similarities in nature of products and services offered, the nature of production processes, the type and class of customer and distribution methods. Segment revenue arising from third party customers is reported on the same basis as revenue in the financial statements. Inter-segment revenue is reported on the basis of transactions which are primarily market led. Segment results represent profits before finance charges, unallocated corporate expenses and taxes. “Unallocated Corporate Expenses” include revenue and expenses that relate to initiatives / costs attributable to the Group as a whole.",
+      "chunk_index": 577,
+      "page_number": 265,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ITC_FY25.json"
+      },
+      "similarity": 13.80228717177328,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014925373134328358
+    },
+    {
+      "id": "dcff61a8-c2e8-49fb-babb-b204111f5042",
+      "content": "REPORT AND ACCOUNTS 2025 231 ITC Limited Consolidated",
+      "ticker": "ITC",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 251,
+      "section_title": "general",
+      "similarity": 0.572309034053857,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014705882352941176
+    },
+    {
+      "ticker": "ITC",
+      "content": "REPORT AND ACCOUNTS 2025 243 ITC Limited Loss unless the asset represents an equity investment, in which case the cumulative fair value adjustments previously taken to reserves are reclassified within equity. Income Recognition: Interest income is recognised in the Statement of Profit and Loss using the effective interest method. Dividend income is recognised in the Statement of Profit and Loss when the right to receive dividend is established. Financial Liabilities Borrowings, trade payables and other financial liabilities are initially recognised at fair value and are subsequently measured at amortised cost. Any discount or premium on redemption / settlement is recognised in the Statement of Profit and Loss as finance cost over the life of the liability using the effective interest method and adjusted to the liability figure disclosed in the Balance Sheet. Financial liabilities are derecognised when the liability is extinguished, that is, when the contractual obligation is discharged, cancelled or on expiry. Offsetting Financial Instruments Financial assets and liabilities are offset and the net amount is included in the Balance Sheet where there is a legally enforceable right to offset the recognised amounts and there is an intention to settle on a net basis or realise the asset and settle the liability simultaneously. Equity Instruments Equity instruments are recognised at the value of the proceeds, net of direct costs of the capital issue. Revenue Revenue is measured at the transaction price that the Company receives or expects to receive as consideration for goods supplied and services rendered, net of returns and estimates of variable consideration such as discounts to customers. Revenue from the sale of goods includes Excise Duties and National Calamity Contingent Duty which are payable on manufacture of goods but excludes taxes such as VAT and Goods and Services Tax which are payable in respect of sale of goods and services. Revenue from the sale of goods and services is recognised when the Group performs its obligations to its customers and the amount of revenue can be measured reliably and recovery of the consideration is probable. The timing of such recognition in case of sale of goods is when the control over the same is transferred to the customer, which is mainly upon delivery and in case of services, in the period in which such services are rendered. Government Grant Group entities may receive government grants that require compliance with certain conditions related to the entity’s operating activities or are provided to the entity by way of financial assistance on the basis of certain qualifying criteria. Government grants are recognised when there is reasonable assurance that the grant will be received upon the Group entity complying with the conditions attached to the grant. Accordingly, government grants: (a) related to or used for assets, are deducted from the carrying amount of the asset. (b) related to incurring specific expenditures are taken to the Statement of Profit and Loss on the same basis and in the same periods as the expenditures incurred. (c) by way of financial assistance on the basis of certain qualifying criteria are recognised in the Statement of",
+      "chunk_index": 572,
+      "page_number": 263,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ITC_FY25.json"
+      },
+      "similarity": 13.791078005070986,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014705882352941176
+    },
+    {
+      "id": "9e110125-f3f8-4102-943b-7cca2ad3ceef",
+      "content": "30. Segment Reporting (Contd.) (` in Crores) 198 REPORT AND ACCOUNTS 2025 ITC Limited",
+      "ticker": "ITC",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 218,
+      "section_title": "general",
+      "similarity": 0.565966155173413,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014492753623188406
+    },
+    {
+      "ticker": "ITC",
+      "content": "REPORT AND ACCOUNTS 2025 45 ITC Limited which became effective from 1st January 2025, the Hotels Business (along with all assets and liabilities thereof, excluding ITC Grand Central, Mumbai) and the investments held by your Company in Hospitality entities 3, have been transferred to ITCHL on a going concern basis. Accordingly, the operations of the Hotels Business of your Company (excluding ITC Grand Central, Mumbai) have been classified as ‘Discontinued Operations’ for the year ended 31st March, 2025. – The Hotels Business posted its highest ever Revenue and operating profits on the back of strong growth in RevPar, for the 9 months ended 31st December 2024. The Profit Before Exceptional items and Tax for the 9 months ended 31st December 2024 stood at ` 572.52 crores (` 445.04 crores for the same period in previous year; ` 691.22 crores for FY 2023-24). Profit After Tax from Discontinued operations for FY 2024-25 stood at ` 15103.76 crores (previous year ` 511.74 crores), including an exceptional gain on demerger of ` 15163.06 crores (FY 2023-24 - ` 7.57 crores). Refer Note 29(x) to the",
+      "chunk_index": 102,
+      "page_number": 65,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ITC_FY25.json"
+      },
+      "similarity": 12.8905186350492,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014492753623188406
+    },
+    {
+      "id": "f3a1c415-4582-4160-9dab-ba2c08732c17",
+      "content": "148 REPORT AND ACCOUNTS 2025 ITC Limited Derecognition: Financial assets are derecognised when the right to receive cash flows from the assets has expired, or has been transferred, and the Company has transferred substantially all of the risks and rewards of ownership. Concomitantly, if the asset is one that is measured at: (a) amortised cost, the gain or loss is recognised in the Statement of Profit and Loss; (b) fair value through other comprehensive income, the cumulative fair value adjustments previously taken to reserves are reclassified to the Statement of Profit and Loss unless the asset represents an equity investment, in which case the cumulative fair value adjustments previously taken to reserves are reclassified within equity. Income Recognition: Interest income is recognised in the Statement of Profit and Loss using the effective interest method. Dividend income is recognised in the Statement of Profit and Loss when the right to receive dividend is established. Financial Liabilities Borrowings, trade payables and other financial liabilities are initially recognised at fair value and are subsequently measured at amortised cost. Any discount or premium on redemption / settlement is recognised in the Statement of Profit and Loss as finance cost over the life of the liability using the effective interest method and adjusted to the liability figure disclosed in the Balance Sheet. Financial liabilities are derecognised when the liability is extinguished, that is, when the contractual obligation is discharged, cancelled or on expiry. Offsetting Financial Instruments Financial assets and liabilities are offset and the net amount is included in the Balance Sheet where there is a legally enforceable right to offset the recognised amounts and there is an intention to settle on a net basis or realise the asset and settle the liability simultaneously. Equity Instruments Equity instruments are recognised at the value of the proceeds, net of direct costs of the capital issue. Revenue Revenue is measured at the transaction price that the Company receives or expects to receive as consideration for goods supplied and services rendered, net of returns and estimates of variable consideration such as discounts to customers. Revenue from the sale of goods includes Excise Duties and National Calamity Contingent Duty which are payable on manufacture of goods but excludes taxes such as VAT and Goods and Services Tax which are payable in respect of sale of goods and services. Revenue from the sale of goods and services is recognised when the Company performs its obligations to its customers and the amount of revenue can be measured reliably and recovery of the consideration is probable. The timing of such recognition in case of sale of goods is when the control over the same is transferred to the customer, which is mainly upon delivery and in case of services, in the period in which such services are rendered. Government Grant The Company may receive government grants that require compliance with certain conditions related to the Company’s operating activities or are provided to the Company by way of financial assistance on the basis of certain qualifying criteria. Government grants are recognised when there is reasonable",
+      "ticker": "ITC",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 168,
+      "section_title": "general",
+      "similarity": 0.56496908873504,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014285714285714285
+    },
+    {
+      "ticker": "ITC",
+      "content": "(1) \u0007The Company’s corporate strategy aims at creating multiple drivers of growth anchored on its core competencies. The Company is currently focused on three business groups : FMCG, Paperboards, Paper & Packaging and Agri Business. The Company’s organisational structure and governance processes are designed to support effective management of multiple businesses while retaining focus on each one of them. \u0007The Operating Segments have been reported in a manner consistent with the internal reporting provided to the Corporate Management Committee, which is the Chief Operating Decision Maker. (2) \u0007Pursuant to the Scheme of Demerger and in terms of applicable Accounting Standards (Ind AS), the Company has reported its Hotels Business (excluding ITC Grand Central, Mumbai) as ‘Discontinued Operations’ [Refer Note 29(x)]. Accordingly, ‘Hotels’ no longer forms a reportable segment of the Company. The segment information of ITC Grand Central, Mumbai which has been retained with the Company in terms of the Scheme of Demerger, have been disclosed under a new ‘Others’ segment. (3) The business groups comprise the following : FMCG : Cigarettes – Cigarettes, Cigars, etc. : Others – \u0007Branded Packaged Foods Businesses (Staples & Meals; Snacks; Dairy & Beverages; Biscuits & Cakes; Chocolates, Coffee & Confectionery); Education and Stationery Products; Personal Care Products; Safety Matches and Agarbattis. Paperboards, Paper and Packaging – Paperboards, Paper including Specialty Paper and Packaging including Flexibles. Agri Business – Agri commodities such as wheat, rice, spices, coffee, soya and leaf tobacco. Others – ITC Grand Central Hotel, Mumbai (4) The geographical information considered for disclosure are : – Revenue within India. – Revenue outside India. (5) \u0007Segment results of ‘FMCG : Others’ are after considering significant business development, brand building and gestation costs of the Branded Packaged Foods businesses and Personal Care Products business. (6) \u0007As stock options and stock appreciation linked reward units are granted to align the interests of employees with those of shareholders and also to attract and retain talent for the enterprise as a whole, the charge thereof do not form part of the segment performance reviewed by the Corporate Management Committee. (7) \u0007The Company is not reliant on revenues from transactions with any single external customer and does not receive 10% or more of its revenues from transactions with any single external customer. 2025 2024 Capital expenditure Depreciation and amortization Capital expenditure Depreciation and amortization FMCG - Cigarettes 320.52 266.20 537.90 257.28 FMCG - Others 515.80 584.26 670.77 559.95 FMCG - Total 836.32 850.46 1208.67 817.23 Agri Business 104.07 67.41 60.92 70.61 Paperboards, Paper and Packaging 381.84 390.18 726.15 359.65 Others 5.42 5.78 8.78 5.49 Segment Total 1327.65 1313.83 2004.52 1252.98 Discontinued operations [Refer Note 29(x)] 171.28 226.95 312.60 290.62 Unallocated 343.35 128.10 300.78 104.22 Total 1842.28 1668.88 2617.90 1647.82 Non Cash expenditure other than depreciation Non Cash expenditure other than depreciation FMCG - Cigarettes 41.67 4.68 FMCG - Others 131.17 110.19 FMCG - Total 172.84 114.87 Agri Business 43.24 52.81 Paperboards, Paper and Packaging 32.53 34.66 Others 0.18 0.19 Segment Total 248.79 202.53 GEOGRAPHICAL INFORMATION 2025 2024 1. Revenue from external customers – Within India 65635.22 60333.03 – Outside India",
+      "chunk_index": 429,
+      "page_number": 218,
+      "section_title": "NOTES :",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ITC_FY25.json"
+      },
+      "similarity": 12.177525530882699,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014285714285714285
+    },
+    {
+      "ticker": "ITC",
+      "content": "Net Cash Flow from Operating Activities Earnings Per Share and Dividend Per Share PAT FMCG - Others : Segment Revenue and EBITDA Dividend FY16 FY17 FY18 FY19 FY20 FY21 FY22 FY23 FY24 FY25 #Refer Note to Ten Years at a Glance Includes Dividend Distribution Tax, where applicable Gross Sales Value# FY16 FY17 FY18 FY19 FY20 FY21 FY22 FY23 FY24 FY25 FY16 FY17 FY18 FY19 FY20 FY21 FY22 FY23 FY24 FY25 Includes Dividend Distribution Tax, where applicable ₹ Crores ₹ Crores ₹ Crores ₹ Crores ₹ Crores ₹ Per Share Financial Highlights • Financials for FY24 & FY25 excludes the performance of Hotels business transferred to ITCHL on a going concern basis pursuant to Scheme of Demerger. • Financials for FY21 & FY22 were impacted by unprecedented disruptions in certain operating segments of the Company due to the COVID 19 pandemic. • EPS and DPS have been adjusted for impact of corporate action to facilitate like to like comparison. FY16 FY17 FY18 FY19 FY20 FY21 FY22 FY23 FY24 FY25 306 265 456 688 914 1317 1449 1954 2339 2164 9731 10512 11329 12505 12844 14728 15994 19123 20967 21982 EBITDA Revenue 60196 64174 67082 75309 76097 74979 90104 106625 105106 113960 6296 6945 7577 8498 12477 13230 14172 15837 17163 17957 1937 3418 FY16 FY17 FY18 FY19 FY20 FY21 FY22 FY23 FY24 FY25 Ordinary Dividend Special Dividend 9212 10002 12651 11749 13806 11494 14808 17912 15160 16276 FY16 FY17 FY18 FY19 FY20 FY21 FY22 FY23 FY24 FY25 9328 10201 11223 12464 15136 13032 15058 18753 19910 20092 8.43 9.22 10.19 12.33 10.59 12.22 15.15 15.98 16.07 5.22 5.72 6.21 6.93 7.74 10.15 10.75 11.50 12.75 13.75 14.35 1.60 2.75 Earnings Per Share Dividend Per Share Special Dividend Per Share",
+      "chunk_index": 812,
+      "page_number": 349,
+      "section_title": "Notes:",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ITC_FY25.json"
+      },
+      "similarity": 25.218452567049013,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "id": "19dece68-b5f8-4450-b831-76f47eb0885c",
+      "content": "REPORT AND ACCOUNTS 2025 249 ITC Limited (` in Crores)",
+      "ticker": "ITC",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 269,
+      "section_title": "general",
+      "similarity": 0.684141198273268,
+      "retrieval_source": "vector",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "ticker": "ITC",
+      "content": "Report of the Board of Directors Annexure to the KEY FINANCIAL RATIOS [Pursuant to Schedule V(B) to the Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015] Key Financial Ratios for the Company: Kolkata 22nd May, 2025 FY25 FY24 (i) Operating Profit Margin (%) 35.4 38.0 (ii) Net Profit Margin (%)1 26.7 29.4 (iii) Debtors Turnover 20.7 24.7 (iv) Inventory Turnover 5.3 6.0 (v) Current Ratio 3.0 2.9 (vi) Return on Net Worth1 29.2 29.2 For the Financial Year Ended 31st March, 2025 REPORT AND ACCOUNTS 2025 135 ITC Limited On behalf of the Board S. PURI\b Chairman & Managing Director (DIN : 00280529) S. DUTTA\b Director & Chief Financial Officer (DIN : 01804345)",
+      "chunk_index": 289,
+      "page_number": 155,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ITC_FY25.json"
+      },
+      "similarity": 16.28927801876857,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "id": "466bdbb4-4ebb-4897-a032-724f4f5fe23f",
+      "content": "248 REPORT AND ACCOUNTS 2025 ITC Limited (` in Crores)",
+      "ticker": "ITC",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 268,
+      "section_title": "general",
+      "similarity": 0.678465206714559,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "id": "5937fe84-7113-4615-8987-3fcbed92862d",
+      "content": "292 REPORT AND ACCOUNTS 2025 ITC Limited Name of the Entity Net Assets Share in Profit or (Loss) Share in Other Comprehensive Income Share in Total Comprehensive Income As a % of Consolidated Net Assets Amount (` in Crores) As % of Consolidated Profit or (Loss) Amount (` in Crores) As % of Consolidated Other Comprehensive Income Amount (` in Crores) As % of Consolidated Total Comprehensive Income Amount (` in Crores) Foreign 13 ITC Infotech de México, S.A. de C.V. 0.02% 16.85 … 1.20 – – ... 1.20 14 ITC Infotech Arabia Limited 0.06% 39.53 0.01% 3.03 – – 0.01% 3.03 15 ITC Infotech Italia s.r.l. 0.01% 7.75 … 0.75 – – … 0.75 16 Blazeclan Technologies Pty. Limited … 3.50 0.01% 1.84 0.12% (0.72) … 1.12 17 Blazeclan Technologies Limited … 0.62 … 0.13 0.02% (0.14) … (0.01) 18 Blazeclan Americas Inc. … 0.63 … 0.14 … 0.01 … 0.15 19 Blazeclan Technologies PTE Limited 0.02% 11.51 … 1.75 0.04% (0.26) … 1.49 20 Blazeclan Technologies SDN. BHD. … 1.46 … (0.04) … 0.02 … (0.02) 21 Blazeclan Technologies Corporation … 1.69 … 0.05 – – … 0.05 22 Blazeclan Europe SRL. … (0.60) … 0.36 0.01% (0.07) … 0.29 23 Blazeclan Technologies LLC … 0.63 … (0.02) … 0.01 … (0.01) 24 Blazeclan Technologies Inc. … (1.53) … 0.64 (0.01%) 0.08 … 0.72 25 Surya Nepal Private Limited 0.37% 256.18 1.24% 430.37 … 0.03 1.25% 430.40 26 Surya Nepal Ventures Private Limited 0.02% 15.18 0.01% 1.99 – – 0.01% 1.99 Non-Controlling Interest in all subsidiaries 0.52% 367.89 0.87% 305.85 ... 0.01 0.89% 305.86",
+      "ticker": "ITC",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 312,
+      "section_title": "30.\tAdditional Notes to the Consolidated Financial Statements (Contd.)",
+      "similarity": 0.68747492135169,
+      "retrieval_source": "vector",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "id": "1b799278-409e-4954-b08f-569141a86aef",
+      "content": "REPORT AND ACCOUNTS 2025 139 ITC Limited Standalone Statement of Profit and Loss for the year ended 31st March, 2025 Note For the year ended 31st March, 2025 (` in Crores) For the year ended 31st March, 2024 (` in Crores) I Revenue From Operations 22A, 22B 74236.07 67292.60 II Other Income 23 3454.31 3529.76 III Total Income (I+II) 77690.38 70822.36 IV EXPENSES Cost of materials consumed 23440.12 21055.85 Purchases of Stock-in-Trade 8936.22 6039.81 Changes in inventories of finished goods, Stock-in-Trade, work-in-progress and intermediates 24 (640.50) (370.09) Excise duty 4912.55 4664.48 Employee benefits expense 25 3416.73 3200.93 Finance costs 26 36.35 34.39 Depreciation and amortization expense 1441.93 1357.20 Other expenses 27 10146.12 9207.67 Total expenses (IV) 51689.52 45190.24 V Profit before exceptional items and tax (III-IV) 26000.86 25632.12 VI Exceptional Items 29(i) 527.96 – VII Profit before tax (V+VI) 26528.82 25632.12 VIII Tax expense: Current Tax 28 5990.17 5516.91 Deferred Tax 28 446.80 204.98 IX Profit for the year from continuing operations (VII-VIII) 20091.85 19910.23 X Profit before exceptional items and tax from discontinued operations 572.52 691.22 XI Exceptional Items of discontinued operations 15163.06 (7.57) XII Tax expense of discontinued operations 28 631.82 171.91 XIII Profit for the year from discontinued operations (X+XI-XII) 29(x) 15103.76 511.74 XIV Profit for the year (IX+XIII) 35195.61 20421.97 Other Comprehensive Income A (i) Items that will not be reclassified to profit or loss: – Remeasurements of the defined benefit plans 29(vii) (27.41) (22.97) – Equity instruments through other comprehensive income (999.57) 2515.06 – Effective portion of gains / (losses) on designated portion of hedging instruments in a cash flow hedge 0.23 (10.46) (ii) Income tax relating to items that will not be reclassified to profit or loss 28 85.34 (228.72) B (i) Items that will be reclassified to profit or loss: – Exchange differences on net investment in foreign operations 29(x) (40.55) – – Debt instruments through other comprehensive income 72.07 17.91 – Effective portion of gains / (losses) on designated portion of hedging instruments in a cash flow hedge (8.22) 19.71 (ii) Income tax relating to items that will be reclassified to profit or loss 28 (11.27) (9.47) XV Other Comprehensive Income [A(i+ii) + B(i+ii)] (929.38) 2281.06 XVI Total Comprehensive Income for the year (XIV+XV) 34266.23 22703.03 XVII Earnings per equity share (Face Value ` 1.00 each): 29(ii) For Continuing Operations (a) Basic (in `) 16.07 15.98 (b) Diluted (in `) 16.05 15.94 For Discontinued Operations (a) Basic (in `) 12.08 0.41 (b) Diluted (in `) 12.06 0.41 For Continuing and Discontinued Operations (a) Basic (in `) 28.15 16.39 (b) Diluted (in `) 28.11 16.35",
+      "ticker": "ITC",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 159,
+      "section_title": "general",
+      "similarity": 0.67366015786049,
+      "retrieval_source": "vector",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "ticker": "ITC",
+      "content": "1. Net Profit Margin and Return on Net Worth ratios have been computed based on Profit After Tax (before exceptional items). 2. Interest Coverage Ratio and Debt-Equity ratio are not relevant for the Company as it has negligible debt. 3. Ratios for FY25 have been computed based on numbers for Continuing Operations pursuant to the demerger of the Hotels Business undertaking. Accordingly, the ratios for FY24 are not strictly comparable.",
+      "chunk_index": 290,
+      "page_number": 155,
+      "section_title": "Notes:",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ITC_FY25.json"
+      },
+      "similarity": 24.178480415916102,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "id": "0b6c60d8-1b4e-4f17-9c41-7c7ccad22b3c",
+      "content": "236 REPORT AND ACCOUNTS 2025 ITC Limited Consolidated Statement of Cash Flows for the year ended 31st March, 2025 For the year ended 31st March, 2025 (` in Crores) For the year ended 31st March, 2024 (` in Crores) A. Cash Flow from Operating Activities PROFIT BEFORE TAX FROM CONTINUING OPERATIONS 26926.94 26400.28 PROFIT BEFORE TAX FROM DISCONTINUED OPERATIONS 15654.65 739.60 ADJUSTMENTS FOR: Depreciation and amortization expense 1950.58 1816.39 Share based payments to employees 133.79 107.30 Finance costs 50.01 45.96 Interest Income (1510.46) (1710.51) Dividend Income (12.14) (11.13) Net gain on sale of property, plant and equipment, lease termination (135.69) (57.04) Inventory write-offs / write-downs (net of reversals) 235.05 156.12 Doubtful and bad debts 11.64 14.81 Doubtful and bad advances, loans and deposits 1.95 24.61 Impairment of investment in joint venture and associate 7.87 0.06 Gain recognised on divestment of shares held in joint venture – (9.84) Share of (profit) / loss of associates and joint ventures (121.77) (27.61) Gain recognised on fair valuation of net assets distributed pursuant to Scheme of Demerger [Refer Note 30(viii)] (15583.12) – Net gain arising on financial instruments measured at amortised cost / fair value through profit or loss / fair value through other comprehensive income (896.84) (840.17) Foreign currency translations and transactions - Net 6.78 (15862.35) (13.38) (504.43) OPERATING PROFIT BEFORE WORKING CAPITAL CHANGES 26719.24 26635.45 ADJUSTMENTS FOR: Trade receivables, advances and other assets (1022.80) (933.64) Inventories and biological assets other than bearer plants (2975.38) (2544.87) Trade payables, other liabilities and provisions 1256.18 (2742.00) 141.48 (3337.03) CASH GENERATED FROM OPERATIONS 23977.24 23298.42 Income tax paid (net of refunds) (6350.20) (6119.56) NET CASH FROM OPERATING ACTIVITIES 17627.04 17178.86 B. Cash Flow from Investing Activities Purchase of property, plant and equipment, Intangibles, ROU asset etc. (2278.70) (3562.53) Sale of property, plant and equipment 175.42 107.48 Purchase of current investments (65999.55) (72237.17) Sale / redemption of current investments 66919.64 75201.73 Investment in associates (29.99) (65.04) Purchase of non-current investments (373.69) (2870.12) Sale / redemption of non-current investments 390.91 2627.78 Payment towards business combination [Refer Note 30(xix)] (280.45) – Dividend received from associates and joint venture 25.53 24.52 Dividend received from others 12.14 11.13 Interest received 1072.28 1138.35 Investment in bank deposits (original maturity more than 3 months) (6256.85) (4612.10) Redemption / maturity of bank deposits (original maturity more than 3 months) 6931.16 5800.00 Investment in deposit with financial institution (1200.00) – Maturity of deposit with financial institution 500.00 – Loans given (17.55) (12.55) Loans realised 13.88 11.29 NET CASH (USED IN) / FROM INVESTING ACTIVITIES (395.82) 1562.77",
+      "ticker": "ITC",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 256,
+      "section_title": "general",
+      "similarity": 0.670923153051959,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015873015873015872
+    }
+  ],
+  "generated_at": "2026-06-22T11:15:11.472898+00:00"
+}

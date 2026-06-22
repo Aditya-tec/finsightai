@@ -1,0 +1,633 @@
+{
+  "sections": [
+    {
+      "title": "Executive Summary + Investment Thesis",
+      "body": "**Executive Summary**\nNestle India Limited (NESTLEIND) reported a total income of ₹202,604.2 million for the financial year ended 31st March 2025, with a profit after tax of ₹33,145.0 million. The company's revenue from operations, net of GST, was ₹200,775.0 million, while other operating revenues and other income contributed ₹1,240.6 million and ₹588.6 million, respectively. The company's profit from operations, an additional information presented in the statement of profit and loss, stood at ₹43,104.1 million. As of 31st March 2025, the company's retained earnings balance was ₹40,089.5 million.\n\n**Investment Thesis**\nOur investment thesis for NESTLEIND is based on its stable financial performance and growth prospects. With a strong brand portfolio and a wide distribution network, the company is well-positioned to leverage the growing demand for food and beverages in India. The company's investment in associate company, Dr. Reddy's and Nestlé Health Science Limited, with a carrying amount of ₹5,750.3 million as of 31st March 2025, is expected to contribute to its long-term growth. However, the lack of comparable information for the associate company, due to the investment being made on 24th July 2024, limits our ability to assess its impact on NESTLEIND's financials. With an earnings per share of ₹34.38 and a dividend per share of ₹25.50 (interim and final), the company offers an attractive return to shareholders. Overall, we believe that NESTLEIND's strong brand presence, diversified product portfolio, and growth prospects make it an attractive investment opportunity.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 202,
+          "section": "NOTES FORMING PART OF THE CONSOLIDATED FINANCIAL STATEMENTS"
+        },
+        {
+          "source": "filing",
+          "page": 63,
+          "section": "financial statements (standalone and consolidated) for"
+        },
+        {
+          "source": "filing",
+          "page": 100,
+          "section": "All amounts in the financial statement and accompanying notes are presented in H million and have"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Business Overview + Segment Breakdown",
+      "body": "Nestlé India operates within a single operating segment, namely Food, which incorporates product groups such as Milk Products and Nutrition, Prepared Dishes and Cooking Aids, Powdered and Liquid Beverages, and Confectionery. The company's revenue from external customers for the year ended 31st March, 2025, was ₹200,775 million, with ₹192,926.7 million generated from India and ₹7,848.3 million from outside India. The company does not have any significant business operations or assets outside India. As the company operates in a single segment, a detailed segment breakdown is not applicable. However, the company's revenue can be broadly categorized by geography, with the majority coming from India.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 36,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 138,
+          "section": "NOTES FORMING PART OF THE STANDALONE FINANCIAL STATEMENTS"
+        },
+        {
+          "source": "filing",
+          "page": 136,
+          "section": "NOTES FORMING PART OF THE STANDALONE FINANCIAL STATEMENTS"
+        },
+        {
+          "source": "filing",
+          "page": 196,
+          "section": "NOTES FORMING PART OF THE CONSOLIDATED FINANCIAL STATEMENTS"
+        },
+        {
+          "source": "filing",
+          "page": 197,
+          "section": "Notes:"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Financial Performance",
+      "body": "{\"body\": \"The financial performance of NESTLEIND for the year ended 31st March, 2025, is characterized by a total income of ₹202,604.2 million and a profit after tax of ₹32,075.9 million. In comparison, for the 15-month period ended 31st March, 2024, the total income was ₹245,418.5 million and the profit after tax was ₹39,328.4 million. The revenue from operations for the year ended 31st March, 2025, was ₹202,015.6 million, while for the 15-month period ended 31st March, 2024, it was ₹243,938.9 million. The company's financial performance is also reflected in its key financial ratios, such as the operating profit margin, which was 21.5% for the year ended 31st March, 2025, and 22.0% for the 15-month period ended 31st March, 2024. The net profit margin was 16.5% for the year ended 31st March, 2025, and 16.2% for the 15-month period ended 31st March, 2024. Since both FY24 and FY25 values for revenue and net profit are available with consistent units, we can proceed to create a grouped bar chart for visualization. \", \"chart_data\": {\"type\":\"bar\",\"labels\":[\"FY24\",\"FY25\"],\"datasets\":[{\"label\":\"Revenue (₹ million)\",\"values\":[243939,202016]},{\"label\":\"Net Profit (₹ million)\",\"values\":[39328,32076]}}}",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 36,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 153,
+          "section": "Notes"
+        },
+        {
+          "source": "filing",
+          "page": 136,
+          "section": "NOTES FORMING PART OF THE STANDALONE FINANCIAL STATEMENTS"
+        },
+        {
+          "source": "filing",
+          "page": 196,
+          "section": "NOTES FORMING PART OF THE CONSOLIDATED FINANCIAL STATEMENTS"
+        },
+        {
+          "source": "filing",
+          "page": 273,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Balance Sheet Health + Cash Flow",
+      "body": "The balance sheet health of NESTLEIND appears to be relatively stable, with a current ratio of 0.8 times as of 31st March 2025, indicating a slight decline of 9% from the previous period. The debt-equity ratio has increased to 0.3 times, representing a 190% variance, primarily due to short-term borrowing taken for meeting working capital requirements. The debt service coverage ratio stands at 33.7 times, signifying a 5% decline from the previous period. \n\nIn terms of cash flow, the company's ability to service its debt obligations appears to be robust, with a debt service coverage ratio of 33.7 times. However, the negative working capital of ₹21.1 billion (note: exact working capital figure not provided, but mentioned as negative in the Net Capital Turnover Ratio) as of 31st March 2025 may pose some concerns. Unfortunately, the provided excerpts do not contain detailed cash flow statements, making it challenging to conduct a comprehensive analysis of the company's cash flow health. Peer comparison is also not possible due to the absence of relevant data.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 185,
+          "section": "NOTES FORMING PART OF THE CONSOLIDATED FINANCIAL STATEMENTS"
+        },
+        {
+          "source": "filing",
+          "page": 141,
+          "section": "NOTES FORMING PART OF THE STANDALONE FINANCIAL STATEMENTS"
+        },
+        {
+          "source": "filing",
+          "page": 200,
+          "section": "NOTES FORMING PART OF THE CONSOLIDATED FINANCIAL STATEMENTS"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Key Financial Ratios",
+      "body": "The 'Key Financial Ratios' section of our report on NESTLEIND is based on the provided filing excerpts. As per the excerpts, the key ratios for the company are as follows: Earnings per share (₹) stood at ₹34.38 for the financial year ended 31st March 2025, compared to ₹40.79 for the fifteen months financial year ended 31st March 2024. The dividend per share for the financial year ended 31st March 2025 was ₹17.00 (interim) and ₹10.00 (proposed final), while for the previous year it was ₹167.00 and ₹7.00 (interim) and ₹8.50 (final). \n\nTo derive additional ratios, we can calculate the profit margin by using the formula: Profit Margin = Profit after Tax / Total Income. Using the provided figures, the profit margin for the financial year ended 31st March 2025 would be: 33,145.0 / 202,604.2. However, we will not compute this ratio as per the guidelines. The return on equity (ROE) cannot be calculated directly from the provided excerpts as the net worth (shareholders' equity) figure is not available. Peer comparison is also not possible due to the absence of peer data in the provided excerpts.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 198,
+          "section": "NOTES FORMING PART OF THE CONSOLIDATED FINANCIAL STATEMENTS"
+        },
+        {
+          "source": "filing",
+          "page": 127,
+          "section": "NOTES FORMING PART OF THE STANDALONE FINANCIAL STATEMENTS"
+        },
+        {
+          "source": "filing",
+          "page": 63,
+          "section": "financial statements (standalone and consolidated) for"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Valuation Snapshot vs Sector Median",
+      "body": "Valuation Snapshot vs Sector Median\n\nAs of the financial year ended 31st March 2025, NESTLEIND's valuation metrics present a mixed picture. The company's Return on Equity (ROE) ratio stands at 87.3%, down 20% from the previous year, while the Return on Capital Employed (ROCE) is at 81.3%, a decline of 30% from the previous year. The Net Profit Ratio is 16.0%, a marginal decline of 1% from the previous year. However, the Earnings per Share (EPS) has decreased to ₹34.38 from ₹40.79 in the previous year. \n\nIn terms of comparison with the sector median, unfortunately, the provided excerpts do not contain peer data, making it challenging to assess NESTLEIND's valuation relative to its sector. Therefore, a direct comparison with the sector median is not possible based on the available information. To conduct a comprehensive valuation analysis, additional data on sector benchmarks would be required.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 141,
+          "section": "NOTES FORMING PART OF THE STANDALONE FINANCIAL STATEMENTS"
+        },
+        {
+          "source": "filing",
+          "page": 200,
+          "section": "NOTES FORMING PART OF THE CONSOLIDATED FINANCIAL STATEMENTS"
+        },
+        {
+          "source": "filing",
+          "page": 63,
+          "section": "financial statements (standalone and consolidated) for"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Management Commentary",
+      "body": "The management of Nestlé India Limited has provided commentary on the tax expense for the year ended 31st March, 2025. According to the filing excerpts, the total tax expense for the year comprises of current tax and deferred tax, amounting to ₹10,817.4 million. The current income tax charge is calculated based on the tax laws enacted or substantively enacted at the end of the reporting period. The management also evaluates positions taken in tax returns with respect to situations where tax regulations are subject to interpretation or under dispute with authorities, and establishes provisions where appropriate. \n\nThe provision for current tax for the period includes estimated tax expense accrued on the profit for the period from 1st April 2024 to 31st March 2025, as well as the residual tax expense for the period from 1st April 2023 to 31st March 2024. Deferred taxes are recognised on temporary differences between the carrying amount of assets and liabilities in the balance sheet and its corresponding tax base. The management has also stated that deferred tax assets are recognised only to the extent that it is probable that future taxable profits will be available against which such assets can be utilized. However, no peer comparison is possible as the provided excerpts do not contain data on peer companies.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 185,
+          "section": "NOTES FORMING PART OF THE CONSOLIDATED FINANCIAL STATEMENTS"
+        },
+        {
+          "source": "filing",
+          "page": 137,
+          "section": "Notes:"
+        },
+        {
+          "source": "filing",
+          "page": 152,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Key Risks",
+      "body": "The 'Key Risks' section of this report highlights potential concerns that may impact NESTLEIND's financial performance and stability. One key risk is associated with the company's investment in its associate company, Dr. Reddy's and Nestlé Health Science Limited, which was made on 24th July 2024. As of 31st March 2025, the carrying amount of this investment was ₹57.50 billion (5,750.3 million). The associate company's financial performance, with revenue of ₹2.15 billion (2,148.8 million) and profit of ₹1.61 billion (1,607.9 million) for the financial year ended 31st March 2025, may have a significant impact on NESTLEIND's consolidated financials. Any adverse changes in the associate company's performance could negatively affect NESTLEIND's financial position.\n\nAnother risk arises from the consolidation adjustments related to the investment in the associate company, which amounted to ₹1.89 billion (1,886.0 million) as of 31st March 2025. This adjustment may indicate potential volatility in the valuation of the investment, which could impact NESTLEIND's net worth and profitability. However, without additional information on the company's overall financial performance and position, it is challenging to assess the full extent of these risks. Peer comparison is not possible due to the lack of available data.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 152,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 79,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 202,
+          "section": "NOTES FORMING PART OF THE CONSOLIDATED FINANCIAL STATEMENTS"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Recent Developments",
+      "body": "The recent developments at NESTLEIND indicate a notable shift in the company's dividend payout policy. For the financial year ended 31st March 2025, the Board of Directors has recommended a final dividend of ₹10.00 per equity share, amounting to ₹9,641.6 million. This recommendation is subject to approval by the shareholders at the ensuing Annual General Meeting. Additionally, the company has paid an interim dividend of ₹17.00 per share for the financial year 2024-25. It is worth noting that the company's equity shares underwent a sub-division on the record date of 5th January 2024, where one equity share with a face value of ₹10 was sub-divided into 10 equity shares with a face value of ₹1 each.\n\nIn terms of geographical revenue, the company generated ₹192,926.7 million in revenue from external customers in India for the financial year ended 31st March 2025, while revenue from outside India stood at ₹7,848.3 million. The company's total income for the financial year ended 31st March 2025 was ₹202,604.2 million, comprising ₹200,775.0 million from the sale of products, ₹1,240.6 million from other operating revenues, and ₹588.6 million from other income. The company's profit after tax for the financial year ended 31st March 2025 was ₹33,145.0 million, with an earnings per share of ₹34.38.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 138,
+          "section": "NOTES FORMING PART OF THE STANDALONE FINANCIAL STATEMENTS"
+        },
+        {
+          "source": "filing",
+          "page": 63,
+          "section": "financial statements (standalone and consolidated) for"
+        },
+        {
+          "source": "filing",
+          "page": 100,
+          "section": "All amounts in the financial statement and accompanying notes are presented in H million and have"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Bull vs Bear vs Base Case",
+      "body": "The bull case for NESTLEIND is supported by the company's recent investment in Associate Company, Dr. Reddy's and Nestlé Health Science Limited, with a 49% ownership interest and a carrying amount of ₹5,750.3 million as of 31st March 2025. The associate company has reported a profit of ₹1,607.9 million for the financial year ended 31st March 2025, with revenue of ₹2,148.8 million. This investment could potentially drive future growth and profitability for NESTLEIND.\n\nThe bear case, on the other hand, is limited by the lack of comparable information for the associate company, as the investment was made on 24th July 2024. Additionally, there is no peer comparison data available in the provided excerpts, making it challenging to assess NESTLEIND's performance relative to its industry counterparts. Our base case assumes that NESTLEIND will continue to benefit from its diversified portfolio and investments, with the associate company contributing to the company's overall profitability. However, without more detailed financial information, it is difficult to estimate the exact impact of this investment on NESTLEIND's future performance. As of 31st March 2025, the associate company's net assets were ₹7,886.3 million, with NESTLEIND's share being ₹3,864.3 million, which could provide a potential upside to the company's net worth.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 152,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 79,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 202,
+          "section": "NOTES FORMING PART OF THE CONSOLIDATED FINANCIAL STATEMENTS"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Peer Comparison",
+      "body": "Peer Comparison: \nUnfortunately, the provided filing excerpts do not contain sufficient information to facilitate a peer comparison for NESTLEIND. The excerpts primarily focus on the company's standalone financial statements, associate company information, and auditor's report, without providing data on peer companies. As a result, it is not possible to compare NESTLEIND's financial performance with that of its peers.\n\nTo conduct a meaningful peer comparison, data on key metrics such as revenue, net profit, and net worth of comparable companies in the industry would be required. However, since this information is not available in the provided excerpts, a peer comparison cannot be performed at this time.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 152,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 79,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 202,
+          "section": "NOTES FORMING PART OF THE CONSOLIDATED FINANCIAL STATEMENTS"
+        }
+      ],
+      "chart_data": null
+    }
+  ],
+  "eval_context": [
+    {
+      "ticker": "NESTLEIND",
+      "content": "CONSOLIDATED BALANCE SHEET AS AT 31st MARCH, 2025 (J in million) Particulars",
+      "chunk_index": 360,
+      "page_number": 152,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\NESTLEIND_FY25.json"
+      },
+      "similarity": 8.990504994211207,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.028370221327967807
+    },
+    {
+      "id": "21e944c1-f403-48dd-ad5b-77b938c443ac",
+      "content": "INDEPENDENT AUDITOR’S REPORT TO THE MEMBERS OF NESTLÉ INDIA LIMITED Report on the Audit of the Standalone Financial Statements Opinion We have audited the accompanying standalone financial statements of Nestlé India Limited (“the Company”), which comprise the Balance sheet as at March 31 2025, the Statement of Profit and Loss, including the Statement of Other Comprehensive Income, the Cash Flow Statement and the Statement of Changes in Equity",
+      "ticker": "NESTLEIND",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 79,
+      "section_title": "general",
+      "similarity": 0.594096673590541,
+      "retrieval_source": "vector",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "ticker": "NESTLEIND",
+      "content": "FOR THE YEAR ENDED 31st MARCH, 2025 Note: Investment in Associate Company was made on 24th July 2024. Hence, no comparable information is provided. (J in million) S. No. Name of the Company Country of Incorporation % of ownership Interest 31st March 2025 Carrying Amount 1 Dr. Reddy's and Nestlé Health Science Limited India 49% 5,750.3 B. Summarised financial information of Associate The table below provides summarised financial information of Associate. (J in million) Summarised Balance sheet As at 31st March, 2025 Total current assets 4,701.8 Total non - current assets 4,329.5 Total current liabilities 1,127.7 Total non-current liabilities 17.3 49 INTEREST IN ASSOCIATE COMPANY CONSOLIDATED USING EQUITY METHOD OF ACCOUNTING Summarised Profit and Loss Financial year ended 31st March 25 Revenue 2,148.8 Profit (loss) for the period 1,607.9 Other comprehensive income (0.6) Total other comprehensive income 1,607.3 Reconciliation to carrying amounts: As at 31st March 2025 Net assets 7,886.3 Share in Associate - 49% 3,864.3 Consolidation adjustments [Charge / (Credit)] 1,886.0 Carrying amount of Investment in Associate 5,750.3 A. As per our report of even date attached For and on behalf of the Board of Directors For S.R. Batliboi & Co. LLP Chartered Accountants Firm's Registration No. - 301003E/E300005 PANKAJ CHADHA SURESH NARAYANAN SVETLANA BOLDINA PRAMOD KUMAR RAI Partner Chairman and Executive Director - Finance Company Secretary Membership No. - 091813 Managing Director & Control and CFO Membership No. - FCS 4676 (DIN-07246738) (DIN-10044338) PAN-ABVPR5131P 24th April 2025 24th April 2025 Gurugram Nanjangud 207 Annual Report 2024-25",
+      "chunk_index": 442,
+      "page_number": 202,
+      "section_title": "NOTES FORMING PART OF THE CONSOLIDATED FINANCIAL STATEMENTS",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\NESTLEIND_FY25.json"
+      },
+      "similarity": 11.672808127499819,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "id": "63b49cd8-e740-41bc-a959-5194caee7ee7",
+      "content": "year 2024-25 including Balance Sheet as at 31st March 2025, the Statement of Profit and Loss and Cash Flow Statement for the financial year ended on that date and the Reports of the Board of Directors and Auditors’",
+      "ticker": "NESTLEIND",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 2,
+      "section_title": "To receive, consider and adopt: a) the audited standalone financial statements of the Company for the financial",
+      "similarity": 0.5697383714346,
+      "retrieval_source": "vector",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "ticker": "NESTLEIND",
+      "content": "year 2024-25 including Balance Sheet as at 31st March 2025, the Statement of Profit and Loss and Cash Flow Statement for the financial year ended on that date and the Reports of the Board of Directors and Auditors’",
+      "chunk_index": 2,
+      "page_number": 2,
+      "section_title": "To receive, consider and adopt: a) the audited standalone financial statements of the Company for the financial",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\NESTLEIND_FY25.json"
+      },
+      "similarity": 11.399391592503989,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "id": "80f95b5c-c187-4a72-991a-b9da8ffae103",
+      "content": "us to believe that any material uncertainty exists as on the date of the audit report that Company is not capable of meeting its liabilities existing at the date of balance sheet as and when they fall due within a period of one year from the balance sheet date. We, however, state that this is not an assurance as to the future viability of the Company. We further state that our reporting is based on the facts up to the date of the audit report and we neither give any guarantee nor any assurance that all liabilities falling due within a period of one year from the balance sheet date, will get discharged by the Company as and when they fall due. (xx) (a) In respect of other than ongoing projects, there are no unspent amounts that are required to be transferred to a fund specified in Schedule VII of the Companies Act (the Act), in compliance with second proviso to sub section 5 of section 135 of the Act. This matter has been disclosed in",
+      "ticker": "NESTLEIND",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 90,
+      "section_title": "general",
+      "similarity": 0.535945292002528,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "ticker": "NESTLEIND",
+      "content": "FOR THE YEAR ENDED 31st MARCH, 2025 a) Dividend paid during the year Interim Dividend of H17 per share (Face Value H1) for 2024-25 [for previous year January 2023-March 2024: H167 per share (Face Value H10) and H7 per share (Face Value H1)] 16,390.7 22,850.6 Final Dividend of H8.5 per share for previous year January 2023 - March 2024 (Face Value H1) [for 2022: H75 per share] (Face Value H10) 8,195.3 7,231.2 b) Proposed Final Dividend The Board of Directors have recommended a final dividend of H10.00 per equity share (Face Value of H1 per share) amounting to H9,641.6 million for the financial year 2024-25 after the balance sheet date. The same is subject to approval by the shareholders at the ensuing Annual General Meeting of the Company and therefore proposed final dividend has not been recognised as a liability as at the balance sheet date in line with Ind AS 10 on ‘Events after the Reporting Period’. On and from the Record Date of 5th January 2024, the equity shares of the Company have been sub- divided, such that 1 (one) equity share having face value of H10/- (H ten only) each, fully paid-up, stands sub-divided into 10 (ten) equity shares having face value of H1/- (H one only) each, fully paid-up, ranking pari-passu in all respects. 42 SEGMENT REPORTING Based on the guiding principles given in Ind AS 108 on ‘Operating Segments’, the Company’s business activity falls within a single operating segment, namely Food. The food business incorporates product groups viz. Milk Products and Nutrition, Prepared Dishes and Cooking Aids, Powdered and Liquid Beverages and Confectionery (Refer note 24). a) Information by Geographies (i) Revenue from external customers (J in million) Particulars Financial Year ended 31st March, 2025 Financial Year (Fifteen Months) ended 31st March, 2024 India 192,926.7 233,006.2 Outside India 7,848.3 9,748.6 200,775.0 242,754.8 (ii) The Company has business operations only in India and does not hold any assets outside India. b) Revenue from major customers There is no single customer that accounts for more than 10% of the Company’s revenue for the financial year ended 31st March 2025 and previous year ended 31st March 2024. The other disclosure requirements of Ind AS 108 are not applicable. 43 DIVIDENDS 143 Annual Report 2024-25",
+      "chunk_index": 286,
+      "page_number": 138,
+      "section_title": "NOTES FORMING PART OF THE STANDALONE FINANCIAL STATEMENTS",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\NESTLEIND_FY25.json"
+      },
+      "similarity": 11.272959110756851,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "id": "a8ba0727-b30b-44e9-8b8d-1a4ac414a65e",
+      "content": "statement of profit and loss. c) CLASSIFICATION AND SUBSEQUENT MEASUREMENT OF FINANCIAL LIABILITIES For the purpose of subsequent measurement, financial liabilities are classified as follows: Amortised cost - Financial liabilities are classified as financial liabilities at amortised cost by default. Interest expense calculated using EIR method is recognised in the statement of profit and loss. Fair value through profit or loss (FVTPL) - Financial liabilities are classified as FVTPL if it is held for trading, or is designated as such on initial recognition. Changes in fair value and interest expense on these liabilities are recognised in the statement of profit and loss. 132 Nestlé India Limited",
+      "ticker": "NESTLEIND",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 127,
+      "section_title": "NOTES FORMING PART OF THE STANDALONE FINANCIAL STATEMENTS",
+      "similarity": 0.526299144095336,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015625
+    },
+    {
+      "ticker": "NESTLEIND",
+      "content": "INDEPENDENT AUDITOR’S REPORT TO THE MEMBERS OF NESTLÉ INDIA LIMITED Report on the Audit of the Standalone Financial Statements Opinion We have audited the accompanying standalone financial statements of Nestlé India Limited (“the Company”), which comprise the Balance sheet as at March 31 2025, the Statement of Profit and Loss, including the Statement of Other Comprehensive Income, the Cash Flow Statement and the Statement of Changes in Equity",
+      "chunk_index": 143,
+      "page_number": 79,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\NESTLEIND_FY25.json"
+      },
+      "similarity": 11.250684558594934,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015625
+    },
+    {
+      "id": "7a19112d-2a62-4366-a9e2-5c4cba48d4d3",
+      "content": "the financial year ended 31st March 2025. Highlights of the Financial Performance and State of Company’s Affair (H in million) Particulars Financial year ended 31st March 2025 Fifteen months financial year ended 31st March 2024 Sale of Products 200,775.0 242,754.8 Add: Other Operating Revenues 1,240.6 1,184.1 Add: Other Income 588.6 1,479.6 Total Income 202,604.2 245,418.5 Less: Total Expense 161,037.7 192,573.5 Profit before Exceptional Items and Tax 41,566.5 52,845.0 Exceptional Items (2,908.2) (43.7) Profit before Tax 44,474.7 52,888.7 Less: Tax Expense 11,329.7 13,560.3 Profit after Tax 33,145.0 39,328.4 Add: Other Comprehensive Income (796.4) (429.4) Total Comprehensive Income 32,348.6 38,899.0 Opening Balance in Retained Earnings 32,336.2 15,144.3 Amount available for Appropriation 64,675.5 62,418.0 Interim Dividends paid during 2024-25: ₹17.00 per share (Face Value ₹1.00) 2023-24: ₹167.00 per share (Face Value ₹10.00) and ₹7.00 per share (Face Value ₹1.00) 16,390.7 - - 22,850.6 Final Dividend paid during 2024-25: ₹8.50 per share (Face Value ₹1.00) 2023-24: ₹75.00 per share (Face Value ₹10.00) 8,195.3 - - 7,231.2 Closing balance in Retained Earnings 40,089.5 32,336.2 Key ratios: Earnings per share (₹) 34.38 40.79 Dividend per share (₹) Interim Dividends: (Face Value ₹10.00) (Face Value ₹1.00) - 17.0 167.0 7.0 Proposed - Final Dividend (Face Value ₹1.00) 10.0 8.5 Additional Information: Profit from Operations 43,104.1 53,417.9 Note: The figures stated above are as per the standalone",
+      "ticker": "NESTLEIND",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 63,
+      "section_title": "financial statements (standalone and consolidated) for",
+      "similarity": 0.525279340114676,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "ticker": "NESTLEIND",
+      "content": "referred to as “the Holding Company”) and its Associate comprising of the Consolidated Balance sheet as at March 31 2025, the Consolidated Statement of Profit and Loss, including other comprehensive income, the Consolidated Cash Flow Statement and the Consolidated Statement of Changes in Equity for the year then ended,",
+      "chunk_index": 294,
+      "page_number": 144,
+      "section_title": "financial statements of Nestlé India Limited (hereinafter",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\NESTLEIND_FY25.json"
+      },
+      "similarity": 10.996436337548548,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "id": "693be8b4-4b74-4508-871c-82619f33f367",
+      "content": "been rounded-off to one decimal place unless stated otherwise. f Current and Non-current Classification The Company has ascertained its operating cycle as 12 months for the purpose of current / non-current classification of assets and liabilities. This is based on the nature of products and the time between acquisition of assets for processing and their realisation in cash and cash equivalents. g Measurement of Profit from Operations For better understanding of the financial performance, the Company has chosen to present Profit from Operations as an additional information in the Statement of Profit and Loss. Profit from Operations is derived from Profit before Exceptional Items & Tax less Other Income and adding back Finance Costs (Including Interest Cost on Employee Benefit Plans) and Corporate Social Responsibility Expense. 105 Annual Report 2024-25",
+      "ticker": "NESTLEIND",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 100,
+      "section_title": "All amounts in the financial statement and accompanying notes are presented in H million and have",
+      "similarity": 0.524794961548753,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015151515151515152
+    },
+    {
+      "ticker": "NESTLEIND",
+      "content": "FOR THE YEAR ENDED 31st MARCH, 2025 (J in million) Particulars Financial Year ended 31st March, 2025 Financial Year (Fifteen Months) ended 31st March, 2024 i Recognised in the statement of profit and loss Current Tax 10,951.8 13,156.8 Deferred Tax 133.5 403.5 11,085.3 13,560.3 ii Recognised in other comprehensive income Current Tax (305.5) (117.4) Deferred Tax 37.6 (27.0) (267.9) (144.4) Of which: on re-measurement of retiral defined benefit plans (271.0) (144.3) on changes in fair value of cash flow hedges 3.1 (0.1) Total Taxes Current Tax 10,646.3 13,039.5 Deferred Tax 171.1 376.5 10,817.4 13,416.0 36 (a) TAX EXPENSE Income tax expense comprises of current tax and deferred tax. Income tax expense is recognised in the statement of profit and loss, except when it relates to items recognised in the other comprehensive income or items recognised directly in the equity. In such cases, the income tax expense is also recognised in the other comprehensive income or directly in the equity as applicable. The current income tax charge is calculated on the basis of the tax laws enacted or substantively enacted at the end of the reporting period. Management periodically evaluates positions taken in the tax returns with respect to situations in which applicable tax regulations are subject to interpretation or under dispute with authorities and establishes provisions where appropriate. Provision for current tax for the period comprises of: (a) estimated tax expense which has accrued on the profit for the period 1st April 2024 to 31st March 2025 and, (b) the residual tax expense for the period 1st April 2023 to 31st March 2024 arising out of the finalisation of fiscal accounts (Assessment Year 2024-2025), under the provisions of the Indian Income tax Act, 1961. Deferred taxes are recognised basis the balance sheet approach on temporary differences, being the difference between the carrying amount of assets and liabilities in the Balance Sheet and its corresponding tax base, that originate in one period and are capable of reversal in one or more subsequent periods. Deferred tax assets are recognised only to the extent it is probable that future taxable profits will be available against which such assets can be utilized. 190 Nestlé India Limited",
+      "chunk_index": 421,
+      "page_number": 185,
+      "section_title": "NOTES FORMING PART OF THE CONSOLIDATED FINANCIAL STATEMENTS",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\NESTLEIND_FY25.json"
+      },
+      "similarity": 9.842486824364357,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015151515151515152
+    },
+    {
+      "id": "e7f40a06-82df-4933-b1f8-53109979c590",
+      "content": "FOR THE YEAR ENDED 31st MARCH, 2025 46 ACCOUNTING RATIOS S. No. Ratio Numerator Denominator Financial Year ended 31st March 2025 Financial Year (Fifteen Months) ended 31st March 2024 % Variance Reason for variance I Current Ratio (in times) Current Assets Current Liabilities 0.8 0.9 -9% II Debt-Equity Ratio (in times) Total Debt (1) Equity 0.3 0.1 172% Short-term borrowing taken for meeting working capital requirement. III Debt Service Coverage Ratio (in times) Earnings available for Debt Service (2) Total Debt Service (3) 34.6 35.5 -3% IV Return on Equity Ratio (%)* Profit after Tax Average Shareholder Equity 88.9% 108.5% -18% V Inventory Turnover Ratio (in times)* Net Sales Average Inventory 8.1 9.7 -16% VI Trade Receivables Turnover Ratio (in times)* Net Sales Average Trade Receivables 60.5 78.9 -23% VII Trade Payables Turnover Ratio (in times)* Purchases (4) Average Trade Payables 6.1 6.3 -2% VIII Net Capital Turnover Ratio (in times)* Net Sales Working Capital (5) (21.1) (42.1) -50% Negative working capital IX Net Profit Ratio (%) Profit after Tax Net Sales 16.5% 16.2% 2% X Return on Capital Employed (%)* Earnings before Interest and Taxes (6) Capital Employed (7) 79.3% 114.4% -31% Short-term borrowing taken for meeting working capital requirement. XI Return on Investment (%)* Earnings from Invested Funds (8) Average Invested Funds (9) 10.7% 8.7% 22% *Previous period ratios have been annualised on a time proportion basis as the financial year was for a fifteen month period. 146 Nestlé India Limited",
+      "ticker": "NESTLEIND",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 141,
+      "section_title": "NOTES FORMING PART OF THE STANDALONE FINANCIAL STATEMENTS",
+      "similarity": 0.522139844639324,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014925373134328358
+    },
+    {
+      "ticker": "NESTLEIND",
+      "content": "us to believe that any material uncertainty exists as on the date of the audit report that Company is not capable of meeting its liabilities existing at the date of balance sheet as and when they fall due within a period of one year from the balance sheet date. We, however, state that this is not an assurance as to the future viability of the Company. We further state that our reporting is based on the facts up to the date of the audit report and we neither give any guarantee nor any assurance that all liabilities falling due within a period of one year from the balance sheet date, will get discharged by the Company as and when they fall due. (xx) (a) In respect of other than ongoing projects, there are no unspent amounts that are required to be transferred to a fund specified in Schedule VII of the Companies Act (the Act), in compliance with second proviso to sub section 5 of section 135 of the Act. This matter has been disclosed in",
+      "chunk_index": 190,
+      "page_number": 90,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\NESTLEIND_FY25.json"
+      },
+      "similarity": 9.758207601846983,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014925373134328358
+    },
+    {
+      "id": "4d58c7e0-bad8-43f4-8421-c0676ac2b4fd",
+      "content": "CONSOLIDATED STATEMENT OF PROFIT AND LOSS FOR THE YEAR ENDED 31st MARCH, 2025 (J in million) Particulars",
+      "ticker": "NESTLEIND",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 154,
+      "section_title": "general",
+      "similarity": 0.521913735752487,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014705882352941176
+    },
+    {
+      "ticker": "NESTLEIND",
+      "content": "FOR THE YEAR ENDED 31st MARCH, 2025 b) Revenue from major customers There is no single customer that accounts for more than 10% of the Company’s revenue for the financial year ended 31st March 2025 and previous year ended 31st March 2024. The other disclosure requirements of Ind AS 108 are not applicable. b) Proposed Final Dividend The Board of Directors have recommended a final dividend of H10.00 per equity share (Face Value of H1 per share) amounting to H9,641.6 million for the financial year 2024-25 after the balance sheet date. The same is subject to approval by the shareholders at the ensuing Annual General Meeting of the Company and therefore proposed final dividend has not been recognised as a liability as at the balance sheet date in line with Ind AS 10 on ‘Events after the Reporting Period’. On and from the Record Date of 5th January 2024, the equity shares of the Company have been sub- divided, such that 1 (one) equity share having face value of H10/- (H ten only) each, fully paid-up, stands sub-divided into 10 (ten) equity shares having face value of H1/- (H one only) each, fully paid-up, ranking pari-passu in all respects. 44 DISCLOSURE UNDER THE MICRO, SMALL AND MEDIUM ENTERPRISES DEVELOPMENT ACT, 2006 On the basis of confirmation obtained from suppliers who have registered themselves under the Micro Small Medium Enterprise Development Act, 2006 (MSMED Act, 2006) and based on the information available with the Company, the following are the details: (J in million) Particulars Financial Year ended 31st March, 2025 Financial Year (Fifteen Months) ended 31st March, 2024 (i) Principal amount remaining unpaid 4,601.2 4,094.0 (ii) Interest due thereon remaining unpaid - - (iii) Interest paid by the Company in terms of Section 16 of the Micro, Small and Medium Enterprises Development Act, 2006, along-with the amount of the payment made to the supplier beyond the appointed day during the period - - (iv) Interest due and payable for the period of delay in making payment (which have been paid but beyond the appointed day during the period) but without adding interest specified under the Micro, Small and Medium Enterprises Act, 2006 - - (v) Interest accrued and remaining unpaid - - (vi) Interest remaining due and payable even in the succeeding years, until such date when the interest dues as above are actually paid to the small enterprises - - (J in million) Particulars Financial Year ended 31st March, 2025 Financial Year (Fifteen Months) ended 31st March, 2024 a) Dividend paid during the year Interim Dividend of H17 per share (Face Value H1) for 2024-25 [for previous year January 2023-March 2024: H167 per share (Face Value H10) and H7 per share (Face Value H1)] 16,390.7 22,850.6 Final Dividend of H8.5 per share for previous year January 2023 - March 2024 (Face Value H1) [for 2022: H75 per share] (Face Value H10) 8,195.3 7,231.2 43 DIVIDENDS 203 Annual Report 2024-25",
+      "chunk_index": 436,
+      "page_number": 198,
+      "section_title": "NOTES FORMING PART OF THE CONSOLIDATED FINANCIAL STATEMENTS",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\NESTLEIND_FY25.json"
+      },
+      "similarity": 9.28099491628973,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014705882352941176
+    },
+    {
+      "id": "4e398d42-c3de-45e1-a174-abf671fdff2a",
+      "content": "(1) Inclusive of Goods & Service Tax, wherever applicable. (2) As the liabilities for defined benefit obligations are provided based on actuarial valuation for the company as a whole, the amount pertaining to Key management personnel has not been included. (3) All outstanding balances are unsecured and are repayable/ receivable in cash. Amounts are interest free as receivable / payable in short term. (4) Excludes variable consideration - discounts and rebates accrued on sales of finished goods but not yet to be passed on to the customer. (Already netted off from revenue reported in note 24 as per Ind AS 115) 142 Nestlé India Limited",
+      "ticker": "NESTLEIND",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 137,
+      "section_title": "Notes:",
+      "similarity": 0.520744707451218,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014492753623188406
+    },
+    {
+      "ticker": "NESTLEIND",
+      "content": "STANDALONE BALANCE SHEET AS AT 31st MARCH, 2025 (J in million) Particulars",
+      "chunk_index": 212,
+      "page_number": 93,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\NESTLEIND_FY25.json"
+      },
+      "similarity": 8.990504994211207,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014492753623188406
+    },
+    {
+      "id": "a1410972-a159-4f9b-9990-6ebe4e7b8ee9",
+      "content": "FOR THE YEAR ENDED 31st MARCH, 2025 46 ACCOUNTING RATIOS S. No. Ratio Numerator Denominator Financial Year ended 31st March 2025 Financial Year (Fifteen Months) ended 31st March 2024 % Variance Reason for variance I Current Ratio (in times) Current Assets Current Liabilities 0.8 0.9 -9% II Debt-Equity Ratio (in times) Total Debt (Note 1) Equity 0.3 0.1 190% Short-term borrowing taken for meeting working capital requirement. III Debt Service Coverage Ratio (in times) Earnings available for Debt Service (Note 2) Total Debt Service (Note 3) 33.7 35.5 -5% IV Return on Equity Ratio (%)* Profit after Tax Average Shareholder Equity 87.3% 108.5% -20% V Inventory Turnover Ratio (in times)* Net Sales Average Inventory 8.1 9.7 -16% VI Trade Receivables Turnover Ratio (in times)* Net Sales Average Trade Receivables 60.5 78.9 -23% VII Trade Payables Turnover Ratio (in times)* Purchases (Note 4) Average Trade Payables 6.1 6.3 -2% VIII Net Capital Turnover Ratio (in times)* Net Sales Working Capital (Note 5) (21.1) (42.1) -50% Negative working capital IX Net Profit Ratio (%) Profit after Tax Net Sales 16.0% 16.2% -1% X Return on Capital Employed (%)* Earnings before Interest and Taxes (Note 6) Capital Employed (Note 7) 81.3% 116.9% -30% Short-term borrowing taken for meeting working capital requirement. XI Return on Investment (%)* Earnings from Invested Funds (Note 8) Average Invested Funds (Note 9) 10.7% 8.7% 22% *Previous period ratios have been annualised on a time proportion basis as the financial year is for a fifteen month period. 205 Annual Report 2024-25",
+      "ticker": "NESTLEIND",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 200,
+      "section_title": "NOTES FORMING PART OF THE CONSOLIDATED FINANCIAL STATEMENTS",
+      "similarity": 0.516574128968306,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014285714285714285
+    },
+    {
+      "id": "186d54e2-deaa-4db0-a16b-121e27e0b523",
+      "content": "Nestlé India in Numbers 10 - Year Financial Highlights ₹ in million (except otherwise stated) Key Financial Ratios As per the provisions of SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, the key financial ratios are given below: Particulars 2024-25 2023-24^ 2022 2021 2020 2019 2018 2017 2016 2015* Results Sales 200,775 242,755 167,895 146,649 132,902 122,953 112,162 101,351 94,096 81,233 Profit from Operations 43,104 53,418 33,659 32,288 28,775 25,940 23,509 18,305 16,542 13,338 As % of Sales 21.5 22.0 20.0 22.0 21.7 21.1 21.0 18.1 17.6 16.4 Profit after Tax 33,145 39,328 23,905 21,184 20,824 19,684 16,069 12,252 10,014 5,633 As % of Sales 16.5 16.2 14.2 14.4 15.7 16.0 14.3 12.1 10.6 6.9 Balance Sheet and Cash flow Statement Shareholders Fund 41,172 33,409 24,592 19,464 20,193 19,189 36,737 34,206 32,823 28,178 Return on Average Equity (%) 88.9 108.5 108.5 111.0 105.8 70.4 45.3 36.6 32.8 19.9 Operating Cash flow 29,363 41,748 27,374 22,360 24,545 22,953 20,525 18,178 14,659 10,981 As % of Sales 14.6 17.2 16.3 15.2 18.5 18.7 18.3 17.9 15.6 13.5 Capital Expenditure 20,044 18,783 5,407 7,308 4,741 1,522 1,628 1,959 1,133 1,493 As % of Sales 10.0 7.7 3.2 5.0 3.6 1.2 1.5 1.9 1.2 1.8 Data per Share @ Earnings per share (₹) 34.38 40.79 24.79 21.97 21.60 20.42 16.67 12.71 10.39 5.84 Dividend per share (₹) 27.0 32.2 22.0 20.0 20.0 34.2# 11.5 8.6 6.3 4.8 Others Market capitalisation 2,170,077 2,528,358 1,890,327 1,899,925 1,773,312 1,425,983 1,070,913 756,381 581,367 561,535 Number of employees 8,629 8,912 8,069 7,910 7,747 7,649 7,604 7,527 7,588 7,495 Particulars 2024-25 2023-24^ Operating Profit Margin (%) (Profit From Operations / Sale of Products) 21.5 22.0 Net Profit Margin (%) (Profit after Tax / Sale of Products) 16.5 16.2 Return on Net Worth (%) (Profit after Tax / Average Equity) 88.9 108.5 Current Ratio (Current Assets / Current Liabilities) 0.8 0.9 Inventory Turnover Ratio (Sale of Products / Average Inventories) 8.1 9.7 Debtors Turnover Ratio (Sale of Products / Average Trade Receivables) 60.5 78.9 Debt Equity ratio (Debt / Equity) 0.3 0.1 Interest Coverage Ratio (Interest cost / Earnings available for Interest Service)* 95.0 178.5 * Previous financial year 2023-24 comprises of 15 months period from 1st January 2023 to 31st March 2024, hence the figures are not comparable. Figures from 2016 onwards are as per Ind AS. Effective 1st July 2017, Sales are not comparable due to change in structure of Indirect taxes. * Impacted by MAGGI Noodles issue. #In 2019, special dividend of ₹18.0 per share paid out of accumulated profits of previous years. ^ Previous financial year 2023-24 of the Company was for a period of 15 months from 1st January 2023 to 31st March 2024 due to change of financial year to uniform financial year commencing on 1st April of every year and ending on 31st March of the following year and hence the figures are not comparable. @ In 2023-24, 1 (one) equity share having face value of ₹10.00 (Rupees Ten only) fully paid-up, was sub-divided into 10 (ten) equity shares having face value of ₹1.00 (Rupees One",
+      "ticker": "NESTLEIND",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 36,
+      "section_title": "general",
+      "similarity": 0.675092259038422,
+      "retrieval_source": "vector",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "ticker": "NESTLEIND",
+      "content": "(1) Inclusive of Goods & Service Tax, wherever applicable. (2) As the liabilities for defined benefit obligations are provided based on actuarial valuation for the company as a whole, the amount pertaining to Key management personnel has not been included. (3) All outstanding balances are unsecured and are repayable/ receivable in cash. Amounts are interest free as receivable / payable in short term. (4) Excludes variable consideration - discounts and rebates accrued on sales of finished goods but not yet to be passed on to the customer. (Already netted off from revenue reported in Note 24 as per Ind AS 115) 42 SEGMENT REPORTING Based on the guiding principles given in Ind AS 108 on ‘Operating Segments’, the Company’s business activity falls within a single operating segment, namely Food. The food business incorporates product groups viz. Milk Products and Nutrition, Prepared Dishes and Cooking Aids, Powdered and Liquid Beverages and Confectionery (Refer note 24). a) Information by Geographies (i) Revenue from external customers (ii) The Company has business operations only in India and does not hold any assets outside India. 202 Nestlé India Limited",
+      "chunk_index": 435,
+      "page_number": 197,
+      "section_title": "Notes:",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\NESTLEIND_FY25.json"
+      },
+      "similarity": 8.152107308029201,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "id": "810ae3f4-4e0e-4cf8-ac29-5f446e28f4d7",
+      "content": "FOR THE YEAR ENDED 31st MARCH, 2025 (J in million) Particulars Financial Year ended 31st March, 2025 Financial Year (Fifteen Months) ended 31st March, 2024 - Nestlé Enterprises SA 1,424.5 1,135.4 - Others 0.5 1.1 (e) General licence fees (net of taxes) - Société des Produits Nestlé S.A. 8,978.9 10,827.6 - CPW S.A. 15.2 18.9 (f) Expenses recovered (1) - Nestlé Operational Services Worldwide S.A. 118.5 231.5 - Nestlé Business Services India Private Limited 172.0 - - Nestlé S.A. - 6.5 - Nestlé Lanka PLC 31.8 122.2 - Nestlé Bangladesh Ltd 39.1 75.1 - Nestlé R&D Centre India Private Limited 63.8 92.0 - Société des Produits Nestlé S.A. 115.2 88.2 - Nestlé Middle East FZé 75.2 - - Others 102.0 185.0 (g) Expenses incurred - Société des Produits Nestlé S.A. 47.5 64.4 - Nestlé R & D Center (Pte) Limited 61.7 75.8 - Nestlé Business Services India Private Limited 601.5 - - Nestlé Operational Services Worldwide S.A. 29.5 54.0 - Others 74.2 199.3 (h) Information technology and management information systems - Nestlé Australia Ltd 1,303.9 1,295.9 (i) Slump sale of Nestlé Business Services (‘NBS’) Division - Nestlé Business Services India Private Limited 765.8 - Associates & Joint Ventures (a) Slump sale of Health science business - Dr. Reddy’s and Nestlé Health Science Limited 2,231.0 - (b) Sale of finished and other goods - Dr. Reddy’s and Nestlé Health Science Limited 255.8 - Entities Controlled by Key Management Personnel: (a) Sale of finished and other goods - Apollo Healthco Limited 4,891.5 - (b) Expenses incurred - Apollo Hospitals Enterprises Ltd 0.3 - - Apollo Pharmacies Limited 0.5 - - Lifetime Wellness Rx 2.1 - Remuneration to Key Management personnel (2) Executive directors - Short term employee benefits 325.8 436.8 201 Annual Report 2024-25",
+      "ticker": "NESTLEIND",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 196,
+      "section_title": "NOTES FORMING PART OF THE CONSOLIDATED FINANCIAL STATEMENTS",
+      "similarity": 0.618448532727274,
+      "retrieval_source": "vector",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "id": "a571def1-e480-448a-a805-65dc37b16736",
+      "content": "FOR THE YEAR ENDED 31st MARCH, 2025 (J in million) Particulars Financial Year ended 31st March, 2025 Financial Year (Fifteen Months) ended 31st March, 2024 (b) Purchase of Property, Plant & Equipment - Nestlé R&D Centre India Private Ltd. 17.6 - (c) Purchase of raw and packing materials - Nestrade S.A. 83.8 80.0 - Nestlé Enterprises SA 361.2 553.1 - Others - 0.6 (d) Purchase of finished goods - Nestlé Lanka PLC 1,185.0 822.6 - Nestrade S.A. 123.6 - - Nestlé Enterprises SA 1,424.5 1,135.4 - Others 0.5 1.1 (e) General licence fees (net of taxes) - Société des Produits Nestlé S.A. 8,978.9 10,827.6 - CPW S.A. 15.2 18.9 (f) Expenses recovered (1) - Nestlé Operational Services Worldwide S.A. 118.5 231.5 - Nestlé Business Services India Private Limited 172.0 - - Nestlé S.A. - 6.5 - Nestlé Lanka PLC 31.8 122.2 - Nestlé Bangladesh Ltd 39.1 75.1 - Nestlé R&D Centre India Private Limited 63.8 92.0 - Société des Produits Nestlé S.A. 115.2 88.2 - Nestlé Middle East FZé 75.2 - - Others 102.0 185.0 (g) Expenses incurred - Société des Produits Nestlé S.A. 47.5 64.4 - Nestlé R & D Center (Pte) Limited 61.7 75.8 - Nestlé Business Services India Private Limited 601.5 - - Nestlé Operational Services Worldwide S.A. 29.5 54.0 - Others 74.2 199.3 (h) Information technology and management information systems - Nestlé Australia Ltd 1,303.9 1,295.9 (i) Slump sale of Nestlé Business Services ('NBS') Division - Nestlé Business Services India Private Limited 765.8 - Associate (a) Slump sale of Health science business - Dr. Reddy’s and Nestlé Health Science Limited 2,231.0 - (b) Sale of finished and other goods - Dr. Reddy’s and Nestlé Health Science Limited 255.8 - 141 Annual Report 2024-25",
+      "ticker": "NESTLEIND",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 136,
+      "section_title": "NOTES FORMING PART OF THE STANDALONE FINANCIAL STATEMENTS",
+      "similarity": 0.612993478775024,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "ticker": "NESTLEIND",
+      "content": "Financial Year ended 31st March, 2025 Financial Year (Fifteen Months) ended 31st March, 2024 A INCOME Sale of products 24 200,775.0 242,754.8 Other operating revenue 24 1,240.6 1,184.1 i Revenue from operations 202,015.6 243,938.9 ii Other income 25 588.6 1,479.6 Total Income 202,604.2 245,418.5 B EXPENSES i Cost of materials consumed 26 83,901.5 102,168.8 ii Purchases of stock-in-trade 4,993.1 5,373.7 iii Changes in inventories of finished goods, work-in- progress and stock-in-trade 27 (1,396.6) (456.8) iv Employee benefits expense 28 20,237.1 23,360.6 v Finance costs (including interest cost on employee benefit plans) 29 1,360.0 1,454.9 vi Depreciation and amortisation expense 30 5,399.2 5,677.5 vii Other expenses 31 45,777.2 54,397.2 viii Corporate social responsibility expense 35 766.2 597.6 Total Expenses 161,037.7 192,573.5 C PROFIT BEFORE SHARE OF (PROFIT) / LOSS OF AN ASSOCIATE, EXCEPTIONAL ITEMS AND TAX (A-B) 41,566.5 52,845.0 D Share of (profit) / loss of associate accounted for using the equity method (net of tax) 239.5 - E PROFIT BEFORE EXCEPTIONAL ITEMS AND TAX (C-D) 41,327.0 52,845.0 F Exceptional items [Charge / (Credit)] 4, 32 (1,834.2) (43.7) G PROFIT BEFORE TAX (E-F) 43,161.2 52,888.7 H Tax expense Current tax 36 10,951.8 13,156.8 Deferred tax 36 133.5 403.5 I PROFIT AFTER TAX (G-H) 32,075.9 39,328.4 CONSOLIDATED STATEMENT OF PROFIT AND LOSS FOR THE YEAR ENDED 31st MARCH, 2025 158 Nestlé India Limited",
+      "chunk_index": 364,
+      "page_number": 153,
+      "section_title": "Notes",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\NESTLEIND_FY25.json"
+      },
+      "similarity": 12.985366997397083,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "ticker": "NESTLEIND",
+      "content": "Principle 6 Environment: Businesses should respect and make efforts to protect and restore the environment. Essential Indicators 1. Details of total energy consumption (in Joules or multiples) and energy intensity, in the following format: Parameter (GJ) FY 2024-25 Current Financial Year 15 Months FY ended 31st March 2024 Previous Financial Year (Jan 2023 to Mar 2024) From renewable sources (GJ) Total electricity consumption (A) 853,569 955,852 Total fuel consumption (B) 988,884 724,991 Energy consumption through other sources (c) - - Total energy consumed from renewable sources (A+B+C) 1,842,453 1,680,843 From non-renewable sources (GJ) Total electricity consumption (D) - - Total fuel consumption (E) 2,113,814 3,129,350 Energy consumption through other sources (F) - - Total energy consumed from non- renewable sources (D+E+F) 2,113,814 3,129,350 Total energy consumed (A+B+C+D+E+F) 3,956,267 4,810,193 Energy intensity per rupee of turnover (Total energy consumed / Revenue from operations) 19.70 19.82 Energy intensity per rupee of turnover adjusted for Purchasing Power Parity (PPP) (Total energy consumed / Revenue from operations adjusted for PPP) (GJ/million USD) 407.10* 0.24 Energy intensity in terms of physical output (GJ/Ton) 7 6 Energy intensity (optional) – the relevant metric may be selected by the entity * Calculation for revenue adjusted intensity for Purchase Power Parity is as per the BRSR Core Reporting Standard issued by the Industry Standards Forum in consultation with SEBI on December 20, 2024, with a normative reference to the BRSR Guidance note issued by SEBI for principle-specific guidance. Note: Indicate if any independent assessment/ evaluation/assurance has been carried out by an external agency? (Y/N) If yes, name of the external agency. Yes. Grant Thornton Bharat LLP carried out reasonable assurance as per ISAE3000 for (BRSR Core). 2. Does the entity have any sites/ facilities identified as Designated Consumers (DCs) under the Performance, Achieve and Trade (PAT) Scheme of the Government of India? (Y/N) If yes, disclose whether targets set under the PAT scheme have been achieved. In case targets have not been achieved, provide the remedial action taken, if any. Not applicable 100% Electricity from renewable sources (Power Purchase Agreements (PPAs) and Renewable Electricity Certificates (RECs) purchased) 278 Nestlé India Limited",
+      "chunk_index": 542,
+      "page_number": 273,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\NESTLEIND_FY25.json"
+      },
+      "similarity": 11.431743745098043,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.016129032258064516
+    }
+  ],
+  "generated_at": "2026-06-22T11:19:18.392229+00:00"
+}

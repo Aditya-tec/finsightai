@@ -1,0 +1,645 @@
+{
+  "sections": [
+    {
+      "title": "Executive Summary + Investment Thesis",
+      "body": "**Executive Summary**\n\nAsian Paints Limited has demonstrated a strong financial performance over the years, with revenue from operations reaching ₹29,552.7 crore in FY2024-25, albeit with a decline of 5.4% compared to the previous year. The company's gross margin percentage stood at 42.9% in FY2024-25, with a gross contribution of ₹12,760.8 crore. The operating profit (EBITDA) was ₹6,322.4 crore, representing a decline of 24.6% from the previous year. Despite this, the company's return on average capital employed (ROCE) and return on average net worth (RONW) remained healthy at 28.4% and 19.2%, respectively. The company's debt-equity ratio is negligible at 0.004:1, indicating a strong balance sheet.\n\n**Investment Thesis**\n\nOur investment thesis for Asian Paints Limited is based on its strong brand presence, diversified product portfolio, and robust financial performance. Despite the decline in revenue and operating profit in FY2024-25, we believe the company's long-term growth prospects remain intact. The company's focus on innovation, expansion into new markets, and strategic investments in digital transformation are expected to drive growth in the coming years. With a strong balance sheet and negligible debt, Asian Paints is well-positioned to navigate any potential downturns in the economy. We expect the company's return on capital employed and return on net worth to remain healthy, driven by its strong operating performance and efficient use of capital. Overall, we believe Asian Paints Limited is a quality investment opportunity for long-term investors seeking exposure to the Indian paints and coatings industry.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 90,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 90,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 198,
+          "section": "Financial statements"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Business Overview + Segment Breakdown",
+      "body": "Asian Paints Limited is a leading paint company in India, with a diverse range of products and services. The company's revenue from operations for the financial year 2024-25 was ₹29,552.7 crore, with a growth rate of (5.4%) compared to the previous year. The company's EBITDA margin for the financial year 2024-25 was 21.4%, with an EBITDA of ₹6,322.4 crore. However, the segment breakdown of the company's revenue is not explicitly stated in the provided excerpts. Therefore, a detailed segment breakdown cannot be provided.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 90,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 32,
+          "section": "MANAGEMENT DISCUSSION AND ANALYSIS"
+        },
+        {
+          "source": "filing",
+          "page": 32,
+          "section": "MANAGEMENT DISCUSSION AND ANALYSIS"
+        },
+        {
+          "source": "filing",
+          "page": 66,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 31,
+          "section": "Notes"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Financial Performance",
+      "body": "{\"body\": \"\nThe financial performance of Asian Paints is characterized by fluctuations in revenue and profitability over the years. Revenue from operations for the year ended 31st March 2025 was ₹34,478.23 crore, down from ₹36,182.69 crore in the previous year. The company's EBITDA for FY25 was ₹6,578.82 crore, compared to ₹8,272.94 crore in FY24. Profit after tax for FY25 was ₹3,709.71 crore, a decline from ₹5,557.69 crore in the previous year.\n\nKey financial metrics such as net fixed assets, market capitalization, and asset turnover ratio have also shown variations. The company's net fixed assets increased to ₹7,930.7 crore in FY25 from ₹5,494.0 crore in FY24. The market capitalization was ₹3.7 times in FY25, down from ₹5.7 times in FY24. The asset turnover ratio for FY25 was not explicitly stated, but the company's financial performance indicates a decline in profitability.\n\n\", \"chart_data\": {\"type\":\"bar\",\"labels\":[\"FY24\",\"FY25\"],\"datasets\":[{\"label\":\"Revenue (₹ Cr)\",\"values\":[36182.69,34478.23]},{\"label\":\"Net Profit (₹ Cr)\",\"values\":[5557.69,3709.71}]}}",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 32,
+          "section": "MANAGEMENT DISCUSSION AND ANALYSIS"
+        },
+        {
+          "source": "filing",
+          "page": 32,
+          "section": "MANAGEMENT DISCUSSION AND ANALYSIS"
+        },
+        {
+          "source": "filing",
+          "page": 224,
+          "section": "Notes"
+        },
+        {
+          "source": "filing",
+          "page": 215,
+          "section": "Financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 31,
+          "section": "Notes"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Balance Sheet Health + Cash Flow",
+      "body": "The 'Balance Sheet Health + Cash Flow' section of our report on Asian Paints Limited is based on the provided filing excerpts. Unfortunately, the excerpts do not provide a comprehensive balance sheet, which limits our analysis of the company's balance sheet health. However, we can discuss the cash flow aspects based on the given data. \n\nIn terms of cash flow, the company generated ₹5,472.24 crore from operating activities in the year 2024-25, which is lower than the ₹7,489.21 crore generated in the previous year. After paying ₹1,306.48 crore in income tax (net of refund), the net cash generated from operating activities stood at ₹4,165.76 crore. On the investing front, the company used ₹832.47 crore in cash, primarily for the purchase of property, plant, and equipment, as well as investments in subsidiary and associate companies. In comparison, the company used ₹2,269.63 crore in the previous year for similar purposes. The reduction in cash outflow from investing activities could be seen as a positive sign, indicating more efficient allocation of resources. \n\nGiven the incomplete information, a detailed analysis of the company's balance sheet health, including aspects like net worth, debt-equity ratio, and current ratio, cannot be performed. Peer comparison is also not possible due to the lack of relevant data. Therefore, our assessment of Asian Paints Limited's balance sheet health and cash flow is limited to the cash flow aspects, which indicate a decrease in operating cash generation and a reduction in investing cash outflows.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 198,
+          "section": "Financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 187,
+          "section": "Financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 179,
+          "section": "See accompanying notes to the Standalone Financial Statements (Refer note 2-43)"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Key Financial Ratios",
+      "body": "The 'Key Financial Ratios' section of this report is limited due to the absence of specific financial data in the provided excerpts. The excerpts primarily discuss the company's accounting policies, risk management framework, and governance structure, but do not include detailed financial statements or ratios. \n\nAs a result, we are unable to calculate or report on key financial ratios such as debt-to-equity, return on equity (ROE), return on assets (ROA), or current ratio, among others, as the necessary financial data is not provided. Similarly, peer comparison is not possible due to the lack of financial information on Asian Paints or its peers in the excerpts. \n\nFor a comprehensive analysis of Asian Paints' financial performance and position, we would require access to the company's financial statements, including the balance sheet, statement of profit and loss, and cash flow statement, which are not included in the provided excerpts.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 184,
+          "section": "Financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 187,
+          "section": "Financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 83,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Valuation Snapshot vs Sector Median",
+      "body": "Valuation Snapshot vs Sector Median\n\nAs of the latest available data, Asian Paints' market capitalization stands at ₹224,232 crore. The company's basic earnings per share (EPS) for the financial year 2024-25 is ₹37.4. To assess the valuation of Asian Paints, we look at the price-to-earnings (P/E) ratio, which is calculated as the market capitalization divided by the net profit. However, since peer data is not provided in the excerpts, a direct comparison with the sector median is not possible. \n\nWe can, however, calculate the P/E ratio for Asian Paints using the provided data. The net profit for the financial year 2024-25 is ₹3,584.9 crore. Thus, the P/E ratio can be calculated as ₹224,232 crore (market capitalization) divided by ₹3,584.9 crore (net profit), resulting in a P/E ratio of approximately 62.6×. Without the sector median P/E ratio, we cannot determine if Asian Paints is trading at a premium or discount to its peers. Further data on the sector median would be required to make a comprehensive valuation assessment.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 90,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 90,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 279,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Management Commentary",
+      "body": "The management of Asian Paints Limited has instituted a robust Enterprise Risk Management (ERM) process to assess and monitor risks within business operations and from the external environment. This process evaluates the likelihood and potential impact of these risks on the business, ensuring their effective mitigation. As of 31st March 2025, the company has recognised impairment losses of ₹21.47 crores in respect of Goodwill on consolidation recognised on acquisition of Causeway Paints Lanka (Pvt) Ltd and ₹165.33 crores in respect of Goodwill on consolidation and ₹36.45 crores in respect of Intangibles recognised on acquisition of Obgenix Software Private Limited. The carrying value of the Cash Generating Unit (CGU) for Causeway Paints Lanka (Pvt) Ltd is ₹317.77 crores, with a recoverable amount of ₹296.30 crores determined based on its value-in-use. For Obgenix Software Private Limited, the carrying value of the CGU is ₹284.78 crores, with a recoverable amount of ₹83.00 crores.\n\nThe management has also provided sensitivity analysis for the key assumptions used in the value-in-use calculation, indicating that changes to these assumptions could lead to additional impairment. For instance, a 3% increase in the discount rate for Causeway Paints Lanka (Pvt) Ltd could result in an additional impairment of ₹54.81 crores, while a 5% decrease in the revenue growth rate could result in an additional impairment of ₹8.95 crores. Similarly, for Obgenix Software Private Limited, a 3% increase in the discount rate could result in an additional impairment of ₹37.58 crores, while a 5% decrease in the revenue growth rate could result in an additional impairment of ₹25.55 crores. The management's commentary highlights the company's proactive approach to risk management and its commitment to ensuring the effective mitigation of risks that may impact its business continuity and success.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 30,
+          "section": "MANAGEMENT DISCUSSION AND ANALYSIS"
+        },
+        {
+          "source": "filing",
+          "page": 238,
+          "section": "Financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 184,
+          "section": "Financial statements"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Key Risks",
+      "body": "The key risks associated with Asian Paints Limited are multifaceted and can be categorized into various areas, including financial, operational, and reputational risks. According to the company's Enterprise Risk Management (ERM) process, potential risks are assessed and monitored to determine their likelihood and impact on the business. The ERM process has been adapted to address significant changes in the variety of risks faced by the company, ensuring that it remains vigilant and prepared to tackle any challenges that may arise. Key Risk Indicators (KRIs) are used to monitor potential risks, serving as early warning signals for proactive risk identification and mitigation.\n\nSpecifically, the company has recognized impairment losses of ₹21.47 crores and ₹165.33 crores in respect of Goodwill on consolidation, and ₹36.45 crores in respect of Intangibles, during the current year. Additionally, changes to key assumptions such as discount rates and revenue growth rates may lead to additional impairment, with potential impacts of up to ₹54.81 crores and ₹37.58 crores for certain Cash Generating Units (CGUs). These risks highlight the importance of ongoing monitoring and review of the company's risk management processes to ensure the mitigation of potential risks and safeguard business continuity and success.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 83,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 30,
+          "section": "MANAGEMENT DISCUSSION AND ANALYSIS"
+        },
+        {
+          "source": "filing",
+          "page": 238,
+          "section": "Financial statements"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Recent Developments",
+      "body": "The recent developments at Asian Paints Limited are marked by a decline in revenue from operations, which stood at ₹29,552.7 crore for the financial year 2024-25, representing a 5.4% decrease from the previous year. The company's net sales also decreased to ₹29,421.1 crore, down from ₹31,093.8 crore in the previous year. Despite this, the company's gross margin percentage remained relatively stable at 42.9%, with a gross margin of ₹12,629.3 crore. The operating profit (EBITDA) for the year was ₹6,322.4 crore, down 24.6% from the previous year's ₹7,865.7 crore.\n\nIn terms of profitability, the company's profit before tax and after exceptional items was ₹4,897.2 crore, with a profit after tax of ₹3,584.9 crore. The return on average capital employed (ROCE) was 28.4%, while the return on average net worth (RONW) was 19.2%. The company's balance sheet remains strong, with a debt-equity ratio of 0.004:1 and a market capitalization of ₹224,232 crore. The basic earnings per share (EPS) for the year was ₹37.4, with a dividend payout ratio that reflects the company's commitment to rewarding its shareholders. Overall, while the company faces challenges in the current market environment, its robust financial position and strong management team position it well for long-term growth and success.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 279,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 30,
+          "section": "MANAGEMENT DISCUSSION AND ANALYSIS"
+        },
+        {
+          "source": "filing",
+          "page": 90,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Bull vs Bear vs Base Case",
+      "body": "The bull case for Asian Paints is supported by the company's strong financial performance, with revenue from operations of ₹29,552.7 crore in FY2024-25, and a profit after tax of ₹3,584.9 crore. The company's return on average net worth (RONW) was 19.2% in FY2024-25, indicating a healthy return on equity. Additionally, the company's debt-equity ratio is relatively low at 0.004:1, providing a comfortable financial position. With a projected revenue growth rate of 4% to 68% and a terminal growth rate of 2% to 13%, the company's future prospects appear promising.\n\nOn the other hand, the bear case is centered around the company's impairment losses, with ₹21.47 crore and ₹165.33 crore recognized in respect of goodwill on consolidation for Causeway Paints Lanka and Obgenix Software Private Limited, respectively. Furthermore, any changes to key assumptions, such as a 3% increase in discount rate or a 5% decrease in revenue growth rate, could lead to additional impairment losses. For instance, a 3% increase in discount rate for Causeway Paints Lanka could result in an additional impairment loss of ₹54.81 crore. The company's dependence on certain business segments and geographic regions also poses a risk to its overall performance.\n\nOur base case scenario assumes that Asian Paints will continue to demonstrate stable financial performance, with revenue growth driven by its established brand presence and expanding product portfolio. We expect the company to maintain its strong return on equity and manage its debt levels effectively. However, we also acknowledge the potential risks associated with impairment losses and changes to key assumptions, and will closely monitor the company's performance and adjust our estimates accordingly. With a market capitalization of ₹224,232 crore and a basic earnings per share (EPS) of ₹37.4, we believe that Asian Paints is well-positioned for long-term growth, but will require careful navigation of potential challenges to achieve its full potential.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 238,
+          "section": "Financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 90,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 90,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Peer Comparison",
+      "body": "Peer Comparison: \nUnfortunately, the provided filing excerpts do not contain sufficient information to facilitate a peer comparison for Asian Paints Limited. The excerpts primarily focus on the company's accounting policies, impairment losses, and intangible assets, without providing data on peer companies. To conduct a meaningful peer comparison, information on key metrics such as revenue, net profit, and market share of comparable companies in the industry would be necessary. Without such data, it is not possible to assess Asian Paints Limited's relative performance within its peer group. \n\nAs a result, we are unable to provide a peer comparison section that would offer valuable insights into the company's competitive position and performance relative to its industry counterparts. If additional information were available, we could potentially analyze metrics such as revenue growth rates, profit margins, and return on equity to compare Asian Paints Limited with its peers and provide a more comprehensive understanding of its standing within the industry.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 238,
+          "section": "Financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 173,
+          "section": "Financial Statements"
+        },
+        {
+          "source": "filing",
+          "page": 187,
+          "section": "Financial statements"
+        }
+      ],
+      "chart_data": null
+    }
+  ],
+  "eval_context": [
+    {
+      "id": "6051015c-8de9-4dff-926b-421bcbf14621",
+      "content": "Opinion We have audited the accompanying Standalone Financial Statements of Asian Paints Limited (the “Company”), which comprise the Balance Sheet as at 31st March 2025 and the Statement of Profit and Loss (including Other Comprehensive Income), the Cash Flow Statement and the Statement of Changes in Equity for the year ended on",
+      "ticker": "ASIANPAINT",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 173,
+      "section_title": "Financial Statements",
+      "similarity": 0.66679410138201,
+      "retrieval_source": "vector",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "ticker": "ASIANPAINT",
+      "content": "reflect the accretion of interest and reduced for the lease payments made and remeasured (with a corresponding adjustment to the related ROU asset) when there is a change in future lease payments in case of renegotiation, changes of an index or rate or in case of reassessment of options. \u0007Short-term leases and leases of low-value assets \u0007The Company has elected not to recognize ROU assets and lease liabilities for short term leases as well as low value assets and recognise the lease payments associated with these leases as an expense on a straight-line basis over the lease term. u) Borrowing Cost \u0007Borrowing cost includes interest, amortisation of ancillary costs incurred in connection with the arrangement of borrowings and exchange differences arising from foreign currency borrowings to the extent they are regarded as an adjustment to the interest cost. Borrowing costs, if any, directly attributable to the acquisition, construction or production of an asset that necessarily takes a substantial period of time to get ready for its intended use or sale are capitalized, if any. All other borrowing costs are expensed in the period in which they occur. v) Segment Reporting \u0007Operating segments are reported in a manner consistent with the internal reporting provided to the Chief Operating Decision Maker (CODM) of the Company. The CODM is responsible for allocating resources and assessing performance of the operating segments of the Company. w) Events after reporting date \u0007Where events occurring after the balance sheet date provide evidence of conditions that existed at the end of the reporting period, the impact of such events is adjusted within the Financial Statements. Otherwise, events after the balance sheet date of material size or nature are only disclosed. x) Earnings Per Share (EPS) \u0007Basic earnings per share is calculated by dividing the net profit attributable to the equity shareholders of the Company with the weighted average number of equity shares outstanding during the financial year, adjusted for treasury shares. \u0007Diluted Earnings per share is calculated by dividing net profit attributable to the equity shareholders of the Company with the weighted average number of shares outstanding during the financial year, adjusted for effects of diluting potential equity shares towards ESOP plan. y) Exceptional items: \u0007An ordinary item of income or expense which by its size, nature, occurrence or incidence requires a disclosure in order to improve understanding of the performance of the Company is treated as an exceptional item in the Statement of Profit and Loss account. 1.4. Key accounting estimates and judgements \u0007The preparation of the Company’s Financial Statements requires the management to make judgements, estimates and assumptions that affect the reported amounts of revenues, expenses, assets and liabilities and the accompanying disclosures, and the disclosure of contingent liabilities. Uncertainty about these assumptions and estimates could result in outcomes that require a material adjustment to the carrying amount of assets or liabilities effected in future periods. \u0007Critical accounting estimates and assumptions \u0007The key assumptions concerning the future and other key sources of estimation uncertainty at the reporting date, that have a significant risk of causing a material adjustment",
+      "chunk_index": 536,
+      "page_number": 187,
+      "section_title": "Financial statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ASIANPAINT_FY25.json"
+      },
+      "similarity": 12.589502788391561,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "id": "a4f4f424-9ed5-4906-8bd0-c57c5fd226a8",
+      "content": "Opinion We have audited the accompanying Consolidated Financial Statements of Asian Paints Limited (the “Parent”) and its subsidiaries, (the Parent and its subsidiaries together referred to as the “Group”) which includes the Group’s share of profit in its associates, which comprise the Consolidated Balance Sheet as at 31st March 2025, and the Consolidated Statement of Profit and Loss (including Other Comprehensive Income), the Consolidated Statement of Cash Flows and the Consolidated Statement of Changes in Equity for the year ended on that date, and",
+      "ticker": "ASIANPAINT",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 219,
+      "section_title": "Consolidated Financial Statements",
+      "similarity": 0.589892948276234,
+      "retrieval_source": "vector",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "ticker": "ASIANPAINT",
+      "content": "\u0007Short-term leases and leases of low-value assets The Group has elected not to recognise ROU assets and lease liabilities for short term leases as well as low value assets and recognises the lease payments associated with these leases as an expense on a straight-line basis over the lease term. t) Borrowing Cost Borrowing cost includes interest, amortisation of ancillary costs incurred in connection with the arrangement of borrowings and exchange differences arising from foreign currency borrowings to the extent they are regarded as an adjustment to the interest cost. Borrowing costs, if any, directly attributable to the acquisition, construction or production of an asset that necessarily takes a substantial period of time to get ready for its intended use or sale are capitalised, if any. All other borrowing costs are expensed in the period in which they occur. u) Segment Reporting Operating segments are reported in a manner consistent with the internal reporting provided to the Chief Operating Decision Maker (CODM) of the Group. The CODM is responsible for allocating resources and assessing performance of the operating segments of the Group. v) Events after reporting date Where events occurring after the Balance Sheet date provide evidence of conditions that existed at the end of the reporting period, the impact of such events is adjusted within the Consolidated Financial Statement. Otherwise, events after the Balance Sheet date of material size or nature are only disclosed. w) Investment in associate companies An associate is an entity over which the Group has significant influence as defined under Ind AS 28, Investments in Associates and Joint Ventures. The Group’s investments in its associate is accounted for using the equity method. Goodwill relating to the associate is included in the carrying amount of the investment and is not tested for impairment individually.",
+      "chunk_index": 807,
+      "page_number": 234,
+      "section_title": "Financial statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ASIANPAINT_FY25.json"
+      },
+      "similarity": 12.030123765546225,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "id": "58feb1d4-21dc-4606-ba24-29e0189e64bf",
+      "content": "552 Integrated Annual Report 2024-25 Asian Paints Limited 553 Annexures Appendix I Identified Sustainability Information subject to Reasonable Assurance Part A: BRSR Core Indicators Sr. No Reporting Standard Reference Description of Indicator Section C - Principle (P) wise Performance Disclosure- Essential Indicator [E] / Leadership Indicator [L] 1 P-1 [E], Question 8 Number of days of accounts payables: ((Accounts payable *365) / Cost of goods/services procured) 2 P-1 [E], Question 9 Open-ness of business: Details of concentration of purchases and sales with trading houses, dealers, and related parties along-with loans and advances & investments, with related parties. 3 P-3 [E], Question 1(c) Spending on measures towards well-being of employees and workers (including permanent and other than permanent) 4 P-3 [E], Question 11 Details of safety related incidents: - \u0007Lost Time Injury Frequency Rate (LTIFR) (per one million-person hours worked) (employees and workers) - Total recordable work-related injuries (employees and workers) - No. of fatalities (employees and workers) - \u0007High consequence work-related injury or ill-health (excluding fatalities) (employees and workers) 5 P-5 [E], Question 3(b) Gross wages paid to females as % of total wages paid by the entity 6 P-5 [E], Question 7 Complaints filed under the Sexual Harassment of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013: - \u0007Total Complaints reported under Sexual Harassment on of Women at Workplace (Prevention, Prohibition and Redressal) Act, 2013 (POSH) - Complaints on POSH as a % of female employees/workers - Complaints on POSH upheld 7 P-6 [E], Question 1 Details of total energy consumption (in Joules or multiples) and energy intensity: - Total energy consumed from renewable sources - Total energy consumption from non-renewable sources 8 Energy intensity per rupee of turnover (Total energy consumed / Revenue from operations) 9 Energy intensity per rupee of turnover adjusted for Purchasing Power Parity (PPP) (Total energy consumed / Revenue from operations adjusted for PPP) Energy intensity in terms of physical output 10 P-6 [E], Question 3 Disclosures related to water withdrawal and consumption: Water withdrawal by source (in kilolitres) i. Surface water, ii. Groundwater, iii. Third-Party Water, iv. Seawater/desalinated water, v. Others - Total volume of water withdrawal (in kilolitres) - Total volume water consumption (in kilolitres) 11 Water intensity per rupee of turnover (Total water consumption / Revenue from operations) Water intensity per rupee of turnover adjusted for PPP (Total water consumption / Revenue from operations adjusted for PPP) Water intensity in terms of physical output 10. Exclusions Our assurance scope excludes the following and therefore we do not express opinion/conclusion on: • Aspects of the Reports and the data/information (qualitative or quantitative) other than the Identified Sustainability Information; and • The statements that describe expression of opinion, belief, aspiration, expectation, aim, or future intentions provided by the Company. 11. Other information The Company’s management is responsible for the other information. The other information comprises the information included within the BRSR and IAR, other than Identified Sustainability Information and our independent assurance report dated May 30, 2025, thereon. Our opinion on the Identified Sustainability Information does not cover the other information and we do",
+      "ticker": "ASIANPAINT",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 279,
+      "section_title": "general",
+      "similarity": 0.578627373061942,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "ticker": "ASIANPAINT",
+      "content": "2-43 as at 31st March 2025 for the year ended 31st March 2025 Balance Sheet Statement of Profit and Loss (₹ in Crores) Particulars",
+      "chunk_index": 487,
+      "page_number": 178,
+      "section_title": "See accompanying notes to the Standalone Financial Statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ASIANPAINT_FY25.json"
+      },
+      "similarity": 11.957044614092986,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "id": "cddb5926-5983-4930-8d99-3643eb3c5cb7",
+      "content": "D. \u0007The Group has the following unused tax losses which arose on incurrence of capital losses and business losses under the Income Tax for which no deferred tax asset has been recognised in the Balance Sheet. As at 31st March 2025 (` in Crores) Financial Year Category 31.03.2025 Expiry Date 2011-2012 Depreciation 0.16 NA 2012-2013 Depreciation 0.47 NA 2013-2014 Depreciation 0.37 NA 2014-2015 Depreciation 0.33 NA 2015-2016 Depreciation 0.28 NA 2016-2017 Business loss 1.30 31st March 2025 2016-2017 Depreciation 0.24 NA 2017-2018 Business loss 0.80 31st March 2026 2017-2018 Depreciation 0.21 NA 2018-2019 Depreciation 0.19 NA 2018-2019 Business loss 0.06 31st March 2027 2022-2023 Business loss 1.93 31st March 2031 2022-2023 Depreciation 3.55 NA 2023-2024 Business loss 0.41 31st March 2032 2023-2024 Business loss 7.77 31st March 2032 2023-2024 Depreciation 3.13 NA 2024-2025 Business loss 27.80 31st March 2033 2024-2025 Depreciation 2.99 NA 2024-2025 Business loss 32.29 31st March 2033 2024-2025 Depreciation 3.55 NA As at 31st March 2024 (` in Crores) Financial Year Category 31.03.2024 Expiry Date 2011-2012 Depreciation 0.16 NA 2012-2013 Depreciation 0.47 NA 2013-2014 Depreciation 0.37 NA 2014-2015 Depreciation 0.33 NA 2015-2016 Depreciation 0.28 NA 2016-2017 Depreciation 0.49 NA 2016-2017 Business loss 1.30 31st March 2025 2016-2017 Depreciation 0.24 NA 2017-2018 Depreciation 0.73 NA 2017-2018 Business loss 0.80 31st March 2026 2017-2018 Depreciation 0.21 NA 2018-2019 Depreciation 1.10 NA 2018-2019 Depreciation 0.19 NA 2018-2019 Business loss 0.06 31st March 2027 2019-2020 Depreciation 0.93 NA Note 9 : Income Taxes (Contd.) (` in Crores) Financial Year Category 31.03.2024 Expiry Date 2019-2020 Business loss 55.19 31st March 2025 2020-2021 Business loss 67.21 31st March 2026 2021-2022 Business loss 66.46 31st March 2027 2021-2022 Business loss 53.77 31st March 2028 2021-2023 Business loss 37.35 31st March 2029 2022-2023 Business loss 1.38 31st March 2031 2022-2023 Depreciation 0.89 NA 2023-2024 Business loss 12.80 31st March 2032 2023-2024 Depreciation 0.31 NA \u0007At the end of the reporting period, the aggregate amount of temporary differences associated with undistributed earnings of the subsidiaries for which deferred tax liabilities have not been recognised is ₹ 446.34 crores (Previous year - ₹ 397.67 crores). No liability has been recognised in respect of these differences because management controls the distribution of the earnings of the subsidiaries to the holding company and it has no intention to distribute the earnings of the subsidiaries. Note 10 : Income Tax Assets (Net) (` in Crores) Non-Current As at 31.03.2025 As at 31.03.2024 Advance payment of Income Tax (net) 221.62 198.11 Total 221.62 198.11 Note 11 : Other Assets (` in Crores) Non-Current Current As at 31.03.2025 As at 31.03.2024 As at 31.03.2025 As at 31.03.2024 (a) Capital advances 174.52 224.45 - - (b) Advances other than capital advances i) \u0007Advances/claims recoverable in cash or in kind 52.97 71.25 312.03 381.43 ii) Balances with government authorities 56.88 27.62 401.21 358.58 iii) Advances to employees 7.57 4.05 18.29 14.18 iv) Duty credit entitlement - - 4.02 1.18 117.42 102.92 735.55 755.37 (c) Other receivables 9.08 0.44 32.05 9.92 (d) Contract assets (net) - - 6.11 20.54 Total 301.02 327.81 773.71 785.83 Note 9 :",
+      "ticker": "ASIANPAINT",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 243,
+      "section_title": "Financial statements",
+      "similarity": 0.534736180054633,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015625
+    },
+    {
+      "ticker": "ASIANPAINT",
+      "content": "6,578.8 8,272.9 6,646.3 5,183.6 5,158.7 4,466.1 3,998.6 3,418.2 3,248.9 2,982.5 Finance Costs 227.0 205.2 144.5 95.4 91.6 102.3 105.3 35.1 30.0 40.7 Depreciation and Amortisation Expense 1,026.3 853.0 858.0 816.4 791.3 780.5 622.1 360.5 334.8 275.6 Profit Before Tax and Exceptional items (including share of profit of associate) 5,466.2 7,347.8 5,737.7 4,303.4 4,304.4 3,634.0 3,311.9 3,068.5 2,933.7 2,699.7 % to Revenue from Operations 16.1% 20.7% 16.6% 14.8% 19.8% 18.0% 17.2% 18.2% 19.3% 18.9% Growth Rates (%) (25.6%) 28.1% 33.3% 0.0% 18.4% 9.7% 7.9% 4.6% 8.7% 28.3% Exceptional items (363.1) - (48.9) (115.7) - - - - - (52.5) Profit Before Tax and after Exceptional items 5,103.1 7,347.8 5,688.8 4,187.7 4,304.4 3,634.0 3,311.9 3,068.5 2,933.7 2,647.3 % to Revenue from Operations 15.1% 20.7% 16.5% 14.4% 19.8% 18.0% 17.2% 18.2% 19.3% 18.6% Profit for the year (after Tax and Minority interest) 3,667.2 5,460.2 4,106.5 3,030.6 3,139.3 2,705.2 2,155.9 2,038.9 1,939.4 1,745.2 Return on average capital employed (ROCE) (%) 25.1% 39.7% 35.6% 29.6% 35.4% 34.4% 34.1% 34.8% 37.6% 40.5% Return on average net worth (RONW) (%) 18.8% 31.0% 27.4% 22.8% 27.4% 27.6% 24.1% 25.5% 27.5% 28.9% BALANCE SHEET Share Capital 95.9 95.9 95.9 95.9 95.9 95.9 95.9 95.9 95.9 95.9 Other Equity 19,303.9 18,632.4 15,896.3 13,715.6 12,710.4 10,034.2 9,374.6 8,314.3 7,508.0 6,428.9 Borrowings 898.2 1,146.3 1,016.7 779.1 353.8 361.6 629.2 533.4 560.3 323.3 Tangible Fixed Assets and Intangible Assets (incl. Right-of-Use Assets) 10,474.6 9,845.0 6,790.1 5,945.5 6,041.5 6,412.6 6,706.2 4,857.4 3,415.1 3,371.2 Investments 4,724.8 4,587.9 4,261.7 3,247.5 4,736.8 2,018.9 2,568.6 2,140.7 2,652.0 2,712.1 Debt-Equity Ratio 0.04 : 1 0.06 : 1 0.06 : 1 0.06 : 1 0.03 : 1 0.04 : 1 0.07 : 1 0.06 : 1 0.07 : 1 0.05 : 1 PER SHARE DATA Basic Earnings Per Share (EPS) (₹)* 38.3 56.9 42.8 31.6 32.7 28.2 22.5 21.3 20.2 18.2 Diluted Earnings Per Share (EPS) (₹)* 38.2 56.9 42.8 31.6 32.7 28.2 22.5 21.3 20.2 18.2 Book Value (₹) 202.2 195.2 166.7 144.0 133.5 105.6 98.7 87.7 79.3 68.0 * EPS calculated on Net Profit (including share of profit of associate) after exceptional items $ \u0007Revenue from operations in periods prior to GST implementation have been adjusted suitably for Excise duty on sale of goods, to enable comparability of Revenue from operations for these years. ~ \u0007The figures for FY 2018-19 have been restated on account of retrospective application of Ind AS 116 - Leases. The cumulative impact of this retrospective application in prior years has been adjusted in opening retained earnings as at 1st April, 2018 (reducing the same by ₹ 46.9 crores) Consolidated TEN YEAR REVIEW TEN YEAR REVIEW 174 Integrated Annual Report 2024-25 Asian Paints Limited 175",
+      "chunk_index": 167,
+      "page_number": 90,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ASIANPAINT_FY25.json"
+      },
+      "similarity": 11.61640254640669,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015625
+    },
+    {
+      "id": "f9adff91-a189-42d1-a8f8-2d2901be36c1",
+      "content": "the effectiveness of our internal financial controls. Enterprise risk management We have instituted a robust Enterprise Risk Management (ERM) process designed to assess and monitor risks within business operations and from external environment. This process evaluates the likelihood and potential impact of these risks on our business, ensuring their effective mitigation. In response to the constantly evolving business environment, shifting customer preferences, and the dynamic compliance landscape, ERM process has been adapted to address the significant changes in the variety of risks faced by us. This proactive approach ensures that we remain vigilant and prepared to tackle any challenges that may arise, safeguarding our business continuity and success. For more details on Enterprise Risk Management, please read more on Pg- 160. Please refer to the narratives forming part of the Synergising relationship of this Integrated Report for the material developments in respect of Human Resources and industrial relations. Bengaluru- Chennai Expressway 54 Integrated Annual Report 2024-25 Asian Paints Limited 55",
+      "ticker": "ASIANPAINT",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 30,
+      "section_title": "MANAGEMENT DISCUSSION AND ANALYSIS",
+      "similarity": 0.532031055446741,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "ticker": "ASIANPAINT",
+      "content": "Opinion We have audited the accompanying Standalone Financial Statements of Asian Paints Limited (the “Company”), which comprise the Balance Sheet as at 31st March 2025 and the Statement of Profit and Loss (including Other Comprehensive Income), the Cash Flow Statement and the Statement of Changes in Equity for the year ended on",
+      "chunk_index": 422,
+      "page_number": 173,
+      "section_title": "Financial Statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ASIANPAINT_FY25.json"
+      },
+      "similarity": 10.8914364384209,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "id": "ecd2faf4-2a07-45e9-8613-c471b58b67b5",
+      "content": "at Risk (VaR) To support data-driven decision- making, we employ the Value at Risk (VaR) methodology — a statistical tool used to estimate the potential maximum loss in value across our businesses over a defined time horizon, under normal market conditions. By quantifying financial exposure, VaR enables us to better understand downside risk and incorporate it into strategic and operational planning. Key Risk Indicators (KRIs) are vital metrics used to monitor potential risks that may affect our business objectives. They serve as early warning signals, allowing for proactive risk identification and mitigation. Our KRIs cover a wide range of areas including financial performance, operational efficiency, compliance, cybersecurity, and market dynamics. By continuously tracking these indicators, we ensure timely intervention and effective risk mitigation. We evaluate risks based on the following areas of impact: • Financial objectives • Overall strategy of Asian Paints • Operations of Asian Paints • Statutory non-compliance • Damage to reputation • Reporting objectives Risk identification Utilise ‘top-down’ and ‘bottom-up’ approaches to identify risks across the organisation Risk assessment Analyse and assess identified risks to determine potential triggers and impacts Risk recording Establish, prioritise, and document key risks in a structured manner Risk mitigation Develop and implement action plans across businesses to mitigate identified risks Risk monitoring & reviewing Monitor mitigation actions on an ongoing basis, with periodic reviews by the Board and RMC 1 2 3 4 5 160 Integrated Annual Report 2024-25 Asian Paints Limited 161 Governance",
+      "ticker": "ASIANPAINT",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 83,
+      "section_title": "general",
+      "similarity": 0.526862825120183,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015151515151515152
+    },
+    {
+      "ticker": "ASIANPAINT",
+      "content": "Key Assumptions used for value-in-use are as follows : As at 31.03.2025 As at 31.03.2024 Period considered for cash flow projections by management under Value-in-use method 5 years to 8 years 5 years to 9 years Projected revenue growth rate 4% to 68% 7% to 107% Terminal Growth Rate 2% to 13% 1.6% to 12% Discount rate 11% to 35% 12% to 35% Taking into account the business performance, prevailing business conditions and revised expectations of the future performance, the Group has recognised following impairment losses during the current year : ₹ 21.47 crores in respect of Goodwill on consolidation recognised on acquisition of Causeway Paints Lanka (Pvt) Ltd. The carrying value (Parent share) of the CGU is ₹ 317.77 crores (includes intangibles with indefinite useful life of ₹ 45.40 crores) and recoverable amount is ₹ 296.30 crores determined based on its value-in-use. ₹ 165.33 crores in respect of Goodwill on consolidation and ₹ 36.45 crores in respect of Intangibles (Refer note 1) recognised on acquisition of Obgenix Software Private Limited. The carrying value (Parent share) of the CGU is ₹ 284.78 crores (includes intangibles with indefinite useful life of ₹ 215.70 crores) and recoverable amount is ₹ 83.00 crores determined based on its value-in-use. The same has been disclosed as an exceptional item in Note 39. As at 31st March 2025, changes to each of the key assumptions will lead to additional impairment as follows : Goodwill on Consolidation Assumption Current Assumption Change in Assumption Additional impairment (₹ in Crores) Causeway Paints Lanka (Pvt) Ltd Discount rate 22.75% 3% increase 54.81 Causeway Paints Lanka (Pvt) Ltd Revenue Growth rate (CAGR) 14.96% 5% decrease 8.95 Obgenix Software Private Limited Discount rate 15.15% 3% increase 37.58 Obgenix Software Private Limited Revenue Growth rate (CAGR) 21.34% 5% decrease 25.55 For other CGUs, management believes that any reasonable possible change in any of these assumptions would not cause the carrying amount to exceed its recoverable amount. Discount rates - Management estimates discount rates using post-tax rates that reflect current market assessment of the risks specific to the CGU, taking into consideration the time value of money and individual risks of the underlying assets that have not been incorporated in the cash flow estimates. The discount rate calculation is based on the specific circumstances of the CGU and its operating segments and is derived from its weighted average cost of capital (WACC). Growth rates - The growth rates are based on industry growth forecasts. Management determines the budgeted growth rates based on past performance and its expectations on demand condition. The weighted average growth rates used are consistent with industry reports. Note 4 : Intangible Assets (Contd.) 2. Goodwill (Contd.): Note 5 : Investments Face value (₹) As at 31.03.2025 As at 31.03.2024 Nos. ` in Crores Nos. ` in Crores I. NON-CURRENT INVESTMENTS A. Investments in Equity Instruments (a) Quoted equity shares measured at FVTOCI Akzo Nobel India Limited 10 20,10,626 723.43 20,10,626 479.47 HDFC Bank Limited* 1 7,81,200 142.82 7,81,200 113.11 Apcotex Industries Limited 2 34,180 1.14 34,180 1.50 Total Investment in Quoted equity",
+      "chunk_index": 825,
+      "page_number": 238,
+      "section_title": "Financial statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ASIANPAINT_FY25.json"
+      },
+      "similarity": 10.719504498528558,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015151515151515152
+    },
+    {
+      "id": "c677810e-9ce6-4761-b711-37036e34462c",
+      "content": "of each of the subsidiary companies, are available on the Company’s website at https://www.asianpaints.com/ AnnualReports.html. Any member desirous of inspecting",
+      "ticker": "ASIANPAINT",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 103,
+      "section_title": "of the Company and the separate financial statements",
+      "similarity": 0.523241993994479,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014925373134328358
+    },
+    {
+      "ticker": "ASIANPAINT",
+      "content": "(₹ in Crores except per share data, number of employees, number of shareholders and ratios) RESULTS FOR THE FINANCIAL YEAR 2024-25 2023-24^ 2022-23 2021-22 2020-21** 2019-20** 2018-19~ 2017-18$ 2016-17$ 2015-16$ INCOME STATEMENT Revenue from sale of products and services (Net Sales) 29,421.1 31,093.8 29,953.1 25,002.1 18,280.1 17,025.6 16,209.4 13,923.3 12,524.5 11,643.1 Other operating revenue 131.5 133.2 125.3 186.4 236.8 168.5 182.3 230.4 198.3 187.2 Revenue from Operations 29,552.7 31,227.0 30,078.4 25,188.5 18,516.9 17,194.1 16,391.8 14,153.7 12,722.8 11,830.3 Growth Rates (%) (5.4%) 3.8% 19.4% 36.0% 7.7% 4.9% 15.8% 11.2% 7.5% 1.6% Materials Cost 16,791.8 17,471.9 18,327.5 15,609.0 10,082.5 9,506.2 9,410.6 7,982.7 6,944.1 6,584.9 % to Net Sales 57.1% 56.2% 61.2% 62.4% 55.2% 55.8% 58.1% 57.3% 55.4% 56.6% Gross Margin (Net Sales - Material Cost) 12,629.3 13,621.9 11,625.6 9,393.1 8,197.5 7,519.4 6,798.8 5,940.6 5,580.4 5,058.2 Gross Margin % to Net Sales 42.9% 43.8% 38.8% 37.6% 44.8% 44.2% 41.9% 42.7% 44.6% 43.4% Gross Contribution (Revenue from Operations - Material Cost) 12,760.8 13,755.1 11,750.9 9,579.6 8,434.3 7,687.9 6,981.2 6,171.0 5,778.7 5,245.5 Gross Contribution % to Revenue from Operations 43.2% 44.0% 39.1% 38.0% 45.5% 44.7% 42.6% 43.6% 45.4% 44.3% Overheads 7,208.5 6,711.3 5,930.4 4,991.8 3,941.6 3,831.4 3,476.4 3,250.5 3,107.9 2,768.5 Operating Profit (EBITDA) 6,322.4 7,865.7 6,338.5 5,039.7 4,858.8 4,214.1 3,789.6 3,198.0 2,971.0 2,726.4 Finance Costs 143.8 124.1 93.1 70.3 71.7 78.4 78.6 21.1 18.9 23.4 Depreciation and Amortisation Expense 901.9 742.9 755.8 721.6 697.5 690.0 540.8 311.1 295.4 234.5 Profit Before Tax and Exceptional items 5,276.8 6,998.7 5,489.6 4,247.9 4,089.7 3,445.7 3,170.3 2,865.8 2,656.7 2,468.5 % to Net Revenue from Operations 17.9% 22.4% 18.3% 16.9% 22.1% 20.0% 19.3% 20.2% 20.9% 20.9% Growth Rates (%) (24.6%) 27.5% 29.2% 3.9% 18.7% 8.7% 10.6% 7.9% 7.6% 26.8% Exceptional item (379.6) - - (53.7) - (33.2) - - - (65.4) Profit Before Tax and after Exceptional items 4,897.2 6,998.7 5,489.6 4,194.1 4,089.7 3,412.5 3,170.3 2,865.8 2,656.7 2,403.1 % to Net Revenue from Operations 16.6% 22.4% 18.3% 16.7% 22.1% 19.8% 19.3% 20.2% 20.9% 20.3% Profit After Tax 3,584.9 5,315.0 4,100.2 3,134.7 3,051.8 2,653.5 2,132.2 1,894.8 1,801.7 1,622.8 Return on average capital employeed (ROCE) (%) 28.4% 41.2% 38.0% 33.5% 38.1% 37.8% 38.4% 38.7% 40.9% 45.0% Return on average net worth (RONW) (%) 19.2% 31.4% 28.3% 24.6% 28.3% 29.0% 25.6% 25.4% 27.7% 32.0% BALANCE SHEET Share Capital 95.9 95.9 95.9 95.9 95.9 95.9 95.9 95.9 95.9 95.9 Other Equity 18,887.6 18,192.7 15,489.6 13,253.2 11,993.3 9,356.2 8,747.0 7,702.2 6,998.8 5,829.8 Borrowings 73.9 192.0 93.8 19.6 27.4 31.3 13.5 14.9 17.1 38.0 Tangible Fixed Assets and Intangible Assets (incl. Right-of-Use Assets) 8,316.8 8,055.1 5,620.7 4,779.4 4,882.0 5,237.5 5,400.5 3,960.4 2,824.4 2,721.8 Investments 6,043.5 5,471.0 4,911.7 3,810.6 5,179.3 2,496.5 2,964.0 2,577.3 2,913.6 2,796.6 Debt-Equity Ratio 0.004:1 0.01:1 0.006:1 0.001:1 0.002:1 0.003:1 0.002:1 0.002:1 0.002:1 0.01:1 Market Capitalisation 224,232 273,060 264,897 295,428 243,387 159,850 143,180 107,469 102,970 83,297 PER SHARE DATA Basic Earnings Per Share (EPS) (₹)* 37.4 55.4 42.8 32.7 31.8 27.7 22.2 19.8 18.8 16.9 Diluted Earnings Per Share (EPS) (₹)* 37.4 55.4 42.8 32.7 31.8 27.7 22.2 19.8 18.8 16.9 Dividend (%) 2480.0% 3330.0% 2565.0% 1915.0% 1785.0% 1200.0% 1050.0% 870.0% 1030.0% 750.0% Dividend Payout Ratio",
+      "chunk_index": 165,
+      "page_number": 90,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ASIANPAINT_FY25.json"
+      },
+      "similarity": 10.710902811733964,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014925373134328358
+    },
+    {
+      "id": "9e681f84-09e4-4ddb-abe3-4a8c4c12123b",
+      "content": "2-43 as at 31st March 2025 for the year ended 31st March 2025 Balance Sheet Statement of Profit and Loss (₹ in Crores) Particulars",
+      "ticker": "ASIANPAINT",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 178,
+      "section_title": "See accompanying notes to the Standalone Financial Statements",
+      "similarity": 0.522572828301242,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014705882352941176
+    },
+    {
+      "ticker": "ASIANPAINT",
+      "content": "Opinion We have audited the accompanying Consolidated Financial Statements of Asian Paints Limited (the “Parent”) and its subsidiaries, (the Parent and its subsidiaries together referred to as the “Group”) which includes the Group’s share of profit in its associates, which comprise the Consolidated Balance Sheet as at 31st March 2025, and the Consolidated Statement of Profit and Loss (including Other Comprehensive Income), the Consolidated Statement of Cash Flows and the Consolidated Statement of Changes in Equity for the year ended on that date, and",
+      "chunk_index": 668,
+      "page_number": 219,
+      "section_title": "Consolidated Financial Statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ASIANPAINT_FY25.json"
+      },
+      "similarity": 10.685284145347797,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014705882352941176
+    },
+    {
+      "id": "45ba43f3-19db-444d-ba80-8c6e0f68cda4",
+      "content": "276 Integrated Annual Report 2024-25 Asian Paints Limited 277 Statutory reports General Shareholder Information 8. Shareholders’ Value Creation a. \u0007Details of the dividend declared and paid by the Company for the last 10 years The Company has a consistent track record of rewarding its shareholders, including by way of payment of dividend. The Company has paid dividend amounting to ` 16,282.38 crores in last 10 years. The details of the same have been summarised below:",
+      "ticker": "ASIANPAINT",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 141,
+      "section_title": "general",
+      "similarity": 0.521492240251039,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014492753623188406
+    },
+    {
+      "ticker": "ASIANPAINT",
+      "content": "input). \u0007In case the fair value is not determined using a level 1 or level 2 input as mentioned above, the difference between the fair value and transaction price is deferred appropriately and recognised as a gain or loss in the Statement of Profit and Loss only to the extent that such gain or loss arises due to a change in factor that market participants take into account when pricing the financial liability. Subsequent measurement: \u0007All financial liabilities of the Company are subsequently measured at amortised cost using the effective interest method (Refer note 29 for further details). The cumulative amortisation using the effective interest method of the difference between the initial recognition amount and the maturity amount is added to the initial recognition value (net of principal repayments, if any) of the financial liability over the relevant period of the financial liability to arrive at the amortised cost at each reporting date. The corresponding effect of the amortisation under effective interest method is recognised as interest expense under finance cost in the Statement of Profit and Loss. Derecognition: \u0007A financial liability is derecognised when the obligation under the liability is discharged or cancelled or expires. When an existing financial liability is replaced by another from the same lender on substantially different terms, or the terms of an existing liability are substantially modified, such an exchange or modification is treated as the derecognition of the original liability and the recognition of a new liability. The difference between the carrying amount of the financial liability derecognised and the consideration paid is recognised in the Statement of Profit and Loss. \u0007Offsetting of financial assets and financial liabilities: \u0007Financial assets and financial liabilities are offset and the net amount is reported in the balance sheet wherever there is a currently enforceable legal right to offset the recognised amounts and there is an intention to settle on a net basis or to realise the asset and settle the liability simultaneously. i) Derivative financial instruments \u0007The Company enters into derivative financial contracts in the nature of forward currency contracts with external parties to hedge its foreign currency risks relating to foreign currency denominated financial liabilities measured at amortised cost. \u0007 \u0007The Company formally establishes a hedge relationship between such forward currency contracts (‘hedging instrument’) and recognised financial liabilities (‘hedged item’) through a formal documentation at the inception of the hedge relationship in line with the Company’s risk management objective and strategy. \u0007The hedge relationship so designated is accounted for in accordance with the accounting principles prescribed for a fair value hedge under Ind AS 109, Financial Instruments. \u0007Recognition and measurement of fair value hedge: \u0007Hedging instrument is initially recognised at fair value on the date on which a derivative contract is entered into and is subsequently measured at fair value at each reporting date. Gain or loss arising from changes in the fair value of hedging instrument is recognised in the Statement of Profit and Loss. Hedging instrument is recognised as a financial asset in the balance sheet if its fair value as at reporting date is",
+      "chunk_index": 520,
+      "page_number": 184,
+      "section_title": "Financial statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ASIANPAINT_FY25.json"
+      },
+      "similarity": 10.47684038370986,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014492753623188406
+    },
+    {
+      "id": "1814ede3-7d2f-4d7c-a607-09a7c24c4f51",
+      "content": "As per our report of even date attached For and on behalf of the Board of Directors of Asian Paints Limited CIN : L24220MH1945PLC004598 For Deloitte Haskins & Sells LLP Chartered Accountants F.R.N : 117366W/W-100018 R Seshasayee Chairman DIN : 00047985 Amit Syngle Managing Director & CEO DIN : 07232566 Rupen K. Bhatt Partner Membership No : 046930 Milind Sarwate Chairman of Audit Committee DIN : 00109854 R J Jeyamurugan CFO & Company Secretary Mumbai 8th May 2025 Mumbai 8th May 2025 (` in Crores) Particulars Year 2024-25 Year 2023-24 (A) CASH FLOW FROM OPERATING ACTIVITIES Profit before tax 4,897.18 6,998.72 Adjustments for : Depreciation and amortisation expense 901.85 742.93 Interest income (155.32) (136.34) Dividend income (146.24) (142.76) Finance costs 143.77 124.09 Allowance for expected credit lossess on receivables ( trade and others) and advances (net) 244.30 84.67 Bad debts written off (net) 1.78 1.23 Deferred income arising from government grant (4.69) (5.29) Net unrealised foreign exchange (gain)/loss (9.96) 7.59 Net gain on disposal of property, plant and equipment and other intangible assets (2.91) (2.00) Net gain on modification/ termination of leases (1.90) (4.00) Net gain arising on financial assets measured at fair value through profit or loss (FVTPL) (174.07) (222.29) Share based payment expenses (net) 18.23 19.37 Net fair valuation loss/(gain) on derivatives 164.52 (49.25) Impairment loss on non-current investments - subsidiaries 201.84 - Reversal for expected credit loss on government grants (1.78) (10.90) Operating Profit before working capital changes 6,076.60 7,405.77 Adjustments for : Decrease/(Increase) in trade receivables 259.27 (266.99) Decrease in financial assets 2.97 20.60 (Increase)/Decrease in inventories (692.64) 263.73 (Increase) in other assets (8.68) (204.73) (Decrease)/Increase in trade payables (318.24) 272.05 Increase/(Decrease) in other financial liabilities 149.68 (27.92) Increase in other liabilities and provisions 3.28 26.70 Cash generated from Operating activities 5,472.24 7,489.21 Income Tax paid (net of refund) (1,306.48) (1,731.81) Net Cash generated from Operating activities 4,165.76 5,757.40 (B) CASH FLOW FROM INVESTING ACTIVITIES Purchase of property, plant and equipment and other intangible assets (1,048.25) (1,986.45) Sale of property, plant and equipment 8.16 4.65 Payment for acquiring right-of-use assets (18.92) (203.05) Investment in subsidiary and associate companies (697.94) (262.77) Payment of earnout - (37.71) Purchase of non-current investments - others (0.50) (211.86) Sale of non-current investments - 0.50 Purchase of term deposits (877.96) (1,435.99) Proceeds from maturity of term deposits 1,150.98 1,327.69 Sale of current investments (net) 384.42 272.02 Interest received 127.70 106.36 Dividend received from subsidiary and associate companies 119.20 136.82 Dividend received from others 20.64 20.16 Net Cash used in Investing activities (832.47) (2,269.63)",
+      "ticker": "ASIANPAINT",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 179,
+      "section_title": "See accompanying notes to the Standalone Financial Statements (Refer note 2-43)",
+      "similarity": 0.518957330081707,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014285714285714285
+    },
+    {
+      "ticker": "ASIANPAINT",
+      "content": "Note 18 : Income Taxes A. The Major Components of Income Tax Expense for the year are as under : (₹ in Crores) Year 2024-25 Year 2023-24 (i) Income tax recognised in Profit or Loss Current tax expense : In respect of current year 1,317.96 1,730.03 In respect of (excess) tax provision for earlier years (11.26) (51.72) Deferred tax benefit : In respect of current year 5.60 5.40 Total 1,312.30 1,683.71 (ii) Income tax recognised in OCI Deferred tax : Income tax expense on remeasurement of defined benefit plans 0.12 2.03 \u0007Income tax expense on net fair value gain on investments in equity instruments through OCI 42.86 0.55 \u0007Income tax on net fair value gain on investments in debt instruments through OCI 0.96 1.85 Total 43.94 4.43 B. Reconciliation of Tax Expense and Effective Tax Rate : Year 2024-25 Year 2023-24 ₹ in crores Rate ₹ in crores Rate Profit before tax (After exceptional items) 4,897.18 6,998.72 Income tax expense calculated at corporate tax rate 1,232.52 25.17% 1,761.43 25.17% Tax effect of : Non-deductible expenses 125.29 2.56% 29.29 0.42% Income taxed at special rates (5.12) (0.10%) (3.32) (0.05%) Income exempted from tax (36.07) (0.74%) (33.21) (0.47%) Others 6.94 0.14% (18.76) (0.27%) Total 1,323.56 27.03% 1,735.43 24.80% (Excess) tax provision for earlier years (11.26) (0.23%) (51.72) (0.74%) Tax expense as per Statement of Profit and Loss 1,312.30 26.80% 1,683.71 24.06% The tax rate used for reconciliation above is the corporate tax rate of 25.17% payable by corporate entities in India on taxable profits under Indian tax law. Note 18 : Income Taxes (Contd.) C. \u0007The Major Components of Deferred Tax (Liabilities)/Assets arising on account of timing differences are as Follows : As at 31st March 2025 (₹ in Crores) Balance Sheet Profit and loss OCI Balance Sheet 01.04.2024 2024-25 2024-25 31.03.2025 Difference between written down value/capital work in progress of fixed assets as per the books of accounts and Income Tax Act,1961 (219.16) (35.12) - (254.28) Provision for expense allowed for tax purpose on payment basis (Net) 34.34 19.50 - 53.84 Provision for expected credit losses and fair valuation of subsidy receivable from state governments 18.35 1.03 - 19.38 Allowance for expected credit losses on trade receivables - 24.78 - 24.78 Difference in carrying value and tax base of investments in debt instruments measured at FVTOCI (1.74) - (0.96) (2.70) Remeasurement of the defined benefit plans through OCI 7.85 - (0.12) 7.73 Difference in carrying value and tax base of investments measured at FVTPL (42.79) (21.75) - (64.54) Difference in carrying value and tax base of investments in equity instruments measured at FVTOCI (15.13) - (42.86) (57.99) Difference in Right-of-use asset and lease liabilities 30.60 5.96 - 36.56 Deferred tax (expense)/benefit (5.60) (43.94) Net Deferred tax liabilities (187.68) (237.22) As at 31st March 2024 (₹ in Crores) Balance Sheet Profit and loss OCI Balance Sheet 01.04.2023 2023-24 2023-24 31.03.2024 Difference between written down value/capital work in progress of fixed assets as per the books of accounts and Income Tax Act,1961. (231.71) 12.55 - (219.16) Provision for expense allowed for tax purpose on payment",
+      "chunk_index": 582,
+      "page_number": 198,
+      "section_title": "Financial statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ASIANPAINT_FY25.json"
+      },
+      "similarity": 10.437319861259382,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014285714285714285
+    },
+    {
+      "id": "93801354-72dd-41d9-8964-807e0ee77af6",
+      "content": "1 \u0007The figures for FY 2023-24 have been restated on account of amalgamation of Sleek International Private Limited and Maxbhumi Developers Limited with the Company with the appointed date of 1st April, 2024. 2 \u0007Direct Economic Value generated includes financial assistance/grants accrued from Government authorities by our Company in the form of subsidies and export duty credits amounting to D 58.8 Crores for FY 2024-25 and D 62.7 Crores for FY 2023-24. 3 \u0007It does not include the amount paid by our Company towards Goods and Services Tax (D 2,281.3 Crores for FY 2024-25 and D 2,484.7 Crores for FY 2023-24). All figures here are on Standalone basis 56 Integrated Annual Report 2024-25 Asian Paints Limited 57",
+      "ticker": "ASIANPAINT",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 31,
+      "section_title": "Notes",
+      "similarity": 0.642603082346553,
+      "retrieval_source": "vector",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "ticker": "ASIANPAINT",
+      "content": "Revenue from sales of products and services EBITDA margin Earnings Before Interest, Tax, Depreciation and Amortisation (EBITDA) FY21 18,280.1 FY22 25,002.1 FY23 29,953.1 FY24 31,093.8 FY25 29,421.1 FY21 26.2 FY22 20.0 FY23 21.1 FY24 25.2 FY25 21.4 FY21 4,858.8 FY22 5,039.7 FY23 6,338.5 FY24 7,865.7 FY25 6,322.4 (₹ in Crores) (₹ in Crores) (%) Cash profit Profit After Tax (PAT) Earnings Per Share (EPS) FY21 3,605.6 FY22 3,721.61 FY23 4,698.3 FY24 6,022.7 FY25 5,032.0 FY21 3,051.8 FY22 3,134.7 FY23 4,100.2 FY24 5,315.0 FY25 3,584.9 FY21 31.8 FY22 32.7 FY23 42.8 FY24 55.4 FY25 37.4 (₹ in Crores) (₹ in Crores) (₹) Net fixed assets Market capitalisation Asset turnover ratio FY21 4,763.5 FY22 4,553.9 FY23 4,642.7 FY24 5,494.0 FY25 7,930.7 FY21 3.9 FY22 5.5 FY23 6.5 FY24 5.7 FY25 3.7 (₹ in Crores) (x times) (₹ in Crores) Return on Capital Employed (RoCE) Dividend payout ratio* Surplus cash FY21 38.1 FY22 33.5 FY23 38.0 FY24 41.2 FY25 28.4 FY21 56.1 FY22 58.6 FY23 60.0 FY24 60.0 FY25 60.0 FY21 4,615.5 FY22 3,574.9 FY23 4,270.0 FY24 5,031.0 FY25 4,478.5 (%) (%) (₹ in Crores) FY21 243,387 FY22 295,428 FY23 264,897 FY24 273,060 FY25 224,232 Note: The above data is as on 31st March, of the respective financial year. (5.4)% y-o-y growth (19.6)% y-o-y growth 44.4% y-o-y growth (17.9)% y-o-y growth (11.0)% y-o-y growth (32.6)% y-o-y growth (32.6)% y-o-y growth (16.4)% y-o-y growth 11.6% 5-year CAGR 8.5% 5-year CAGR 9.8% 5-year CAGR 7.0% 5-year CAGR 20.3% 5-year CAGR 6.2% 5-year CAGR 6.2% 5-year CAGR 10.3% 5-year CAGR All figures here are on Standalone basis All figures here are on Standalone basis *Before exceptional items FINANCIAL REVIEW Note: The figures for FY 2023-24 have been restated on account of amalgamation of Sleek International Private Limited and Maxbhumi Developers Limited with the Company. 58 Integrated Annual Report 2024-25 Asian Paints Limited 59",
+      "chunk_index": 62,
+      "page_number": 32,
+      "section_title": "MANAGEMENT DISCUSSION AND ANALYSIS",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ASIANPAINT_FY25.json"
+      },
+      "similarity": 22.411476412699287,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "id": "18687590-ef6d-4dcb-8a8b-0f8101b4716b",
+      "content": "Revenue from sales of products and services EBITDA margin Earnings Before Interest, Tax, Depreciation and Amortisation (EBITDA) FY21 18,280.1 FY22 25,002.1 FY23 29,953.1 FY24 31,093.8 FY25 29,421.1 FY21 26.2 FY22 20.0 FY23 21.1 FY24 25.2 FY25 21.4 FY21 4,858.8 FY22 5,039.7 FY23 6,338.5 FY24 7,865.7 FY25 6,322.4 (₹ in Crores) (₹ in Crores) (%) Cash profit Profit After Tax (PAT) Earnings Per Share (EPS) FY21 3,605.6 FY22 3,721.61 FY23 4,698.3 FY24 6,022.7 FY25 5,032.0 FY21 3,051.8 FY22 3,134.7 FY23 4,100.2 FY24 5,315.0 FY25 3,584.9 FY21 31.8 FY22 32.7 FY23 42.8 FY24 55.4 FY25 37.4 (₹ in Crores) (₹ in Crores) (₹) Net fixed assets Market capitalisation Asset turnover ratio FY21 4,763.5 FY22 4,553.9 FY23 4,642.7 FY24 5,494.0 FY25 7,930.7 FY21 3.9 FY22 5.5 FY23 6.5 FY24 5.7 FY25 3.7 (₹ in Crores) (x times) (₹ in Crores) Return on Capital Employed (RoCE) Dividend payout ratio* Surplus cash FY21 38.1 FY22 33.5 FY23 38.0 FY24 41.2 FY25 28.4 FY21 56.1 FY22 58.6 FY23 60.0 FY24 60.0 FY25 60.0 FY21 4,615.5 FY22 3,574.9 FY23 4,270.0 FY24 5,031.0 FY25 4,478.5 (%) (%) (₹ in Crores) FY21 243,387 FY22 295,428 FY23 264,897 FY24 273,060 FY25 224,232 Note: The above data is as on 31st March, of the respective financial year. (5.4)% y-o-y growth (19.6)% y-o-y growth 44.4% y-o-y growth (17.9)% y-o-y growth (11.0)% y-o-y growth (32.6)% y-o-y growth (32.6)% y-o-y growth (16.4)% y-o-y growth 11.6% 5-year CAGR 8.5% 5-year CAGR 9.8% 5-year CAGR 7.0% 5-year CAGR 20.3% 5-year CAGR 6.2% 5-year CAGR 6.2% 5-year CAGR 10.3% 5-year CAGR All figures here are on Standalone basis All figures here are on Standalone basis *Before exceptional items FINANCIAL REVIEW Note: The figures for FY 2023-24 have been restated on account of amalgamation of Sleek International Private Limited and Maxbhumi Developers Limited with the Company. 58 Integrated Annual Report 2024-25 Asian Paints Limited 59",
+      "ticker": "ASIANPAINT",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 32,
+      "section_title": "MANAGEMENT DISCUSSION AND ANALYSIS",
+      "similarity": 0.637321000578226,
+      "retrieval_source": "vector",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "ticker": "ASIANPAINT",
+      "content": "755 430 33 1,021 515 41 1,421 633 FY25 New hire rate by age group for FY 2024-25: <=30 years: 46.9%; >30 to =50 years: 8.3%; >50 years: 1.6% New hires by age <=30 years >30 to = 50 years >50 years FY25 FY24 FY23 FY22 894 111 2 1,603 261 0 2,627 378 0 2,486 7 410 126 Integrated Annual Report 2024-25 Asian Paints Limited 127 Synergising Relationships",
+      "chunk_index": 122,
+      "page_number": 66,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ASIANPAINT_FY25.json"
+      },
+      "similarity": 15.122490672521213,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "id": "706a6c4c-8387-4896-af0e-859e96d3e052",
+      "content": "(₹ in Crores except per share data, number of employees, number of shareholders and ratios) RESULTS FOR THE FINANCIAL YEAR 2024-25 2023-24^ 2022-23 2021-22 2020-21** 2019-20** 2018-19~ 2017-18$ 2016-17$ 2015-16$ INCOME STATEMENT Revenue from sale of products and services (Net Sales) 29,421.1 31,093.8 29,953.1 25,002.1 18,280.1 17,025.6 16,209.4 13,923.3 12,524.5 11,643.1 Other operating revenue 131.5 133.2 125.3 186.4 236.8 168.5 182.3 230.4 198.3 187.2 Revenue from Operations 29,552.7 31,227.0 30,078.4 25,188.5 18,516.9 17,194.1 16,391.8 14,153.7 12,722.8 11,830.3 Growth Rates (%) (5.4%) 3.8% 19.4% 36.0% 7.7% 4.9% 15.8% 11.2% 7.5% 1.6% Materials Cost 16,791.8 17,471.9 18,327.5 15,609.0 10,082.5 9,506.2 9,410.6 7,982.7 6,944.1 6,584.9 % to Net Sales 57.1% 56.2% 61.2% 62.4% 55.2% 55.8% 58.1% 57.3% 55.4% 56.6% Gross Margin (Net Sales - Material Cost) 12,629.3 13,621.9 11,625.6 9,393.1 8,197.5 7,519.4 6,798.8 5,940.6 5,580.4 5,058.2 Gross Margin % to Net Sales 42.9% 43.8% 38.8% 37.6% 44.8% 44.2% 41.9% 42.7% 44.6% 43.4% Gross Contribution (Revenue from Operations - Material Cost) 12,760.8 13,755.1 11,750.9 9,579.6 8,434.3 7,687.9 6,981.2 6,171.0 5,778.7 5,245.5 Gross Contribution % to Revenue from Operations 43.2% 44.0% 39.1% 38.0% 45.5% 44.7% 42.6% 43.6% 45.4% 44.3% Overheads 7,208.5 6,711.3 5,930.4 4,991.8 3,941.6 3,831.4 3,476.4 3,250.5 3,107.9 2,768.5 Operating Profit (EBITDA) 6,322.4 7,865.7 6,338.5 5,039.7 4,858.8 4,214.1 3,789.6 3,198.0 2,971.0 2,726.4 Finance Costs 143.8 124.1 93.1 70.3 71.7 78.4 78.6 21.1 18.9 23.4 Depreciation and Amortisation Expense 901.9 742.9 755.8 721.6 697.5 690.0 540.8 311.1 295.4 234.5 Profit Before Tax and Exceptional items 5,276.8 6,998.7 5,489.6 4,247.9 4,089.7 3,445.7 3,170.3 2,865.8 2,656.7 2,468.5 % to Net Revenue from Operations 17.9% 22.4% 18.3% 16.9% 22.1% 20.0% 19.3% 20.2% 20.9% 20.9% Growth Rates (%) (24.6%) 27.5% 29.2% 3.9% 18.7% 8.7% 10.6% 7.9% 7.6% 26.8% Exceptional item (379.6) - - (53.7) - (33.2) - - - (65.4) Profit Before Tax and after Exceptional items 4,897.2 6,998.7 5,489.6 4,194.1 4,089.7 3,412.5 3,170.3 2,865.8 2,656.7 2,403.1 % to Net Revenue from Operations 16.6% 22.4% 18.3% 16.7% 22.1% 19.8% 19.3% 20.2% 20.9% 20.3% Profit After Tax 3,584.9 5,315.0 4,100.2 3,134.7 3,051.8 2,653.5 2,132.2 1,894.8 1,801.7 1,622.8 Return on average capital employeed (ROCE) (%) 28.4% 41.2% 38.0% 33.5% 38.1% 37.8% 38.4% 38.7% 40.9% 45.0% Return on average net worth (RONW) (%) 19.2% 31.4% 28.3% 24.6% 28.3% 29.0% 25.6% 25.4% 27.7% 32.0% BALANCE SHEET Share Capital 95.9 95.9 95.9 95.9 95.9 95.9 95.9 95.9 95.9 95.9 Other Equity 18,887.6 18,192.7 15,489.6 13,253.2 11,993.3 9,356.2 8,747.0 7,702.2 6,998.8 5,829.8 Borrowings 73.9 192.0 93.8 19.6 27.4 31.3 13.5 14.9 17.1 38.0 Tangible Fixed Assets and Intangible Assets (incl. Right-of-Use Assets) 8,316.8 8,055.1 5,620.7 4,779.4 4,882.0 5,237.5 5,400.5 3,960.4 2,824.4 2,721.8 Investments 6,043.5 5,471.0 4,911.7 3,810.6 5,179.3 2,496.5 2,964.0 2,577.3 2,913.6 2,796.6 Debt-Equity Ratio 0.004:1 0.01:1 0.006:1 0.001:1 0.002:1 0.003:1 0.002:1 0.002:1 0.002:1 0.01:1 Market Capitalisation 224,232 273,060 264,897 295,428 243,387 159,850 143,180 107,469 102,970 83,297 PER SHARE DATA Basic Earnings Per Share (EPS) (₹)* 37.4 55.4 42.8 32.7 31.8 27.7 22.2 19.8 18.8 16.9 Diluted Earnings Per Share (EPS) (₹)* 37.4 55.4 42.8 32.7 31.8 27.7 22.2 19.8 18.8 16.9 Dividend (%) 2480.0% 3330.0% 2565.0% 1915.0% 1785.0% 1200.0% 1050.0% 870.0% 1030.0% 750.0% Dividend Payout Ratio",
+      "ticker": "ASIANPAINT",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 90,
+      "section_title": "general",
+      "similarity": 0.60822225662072,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "ticker": "ASIANPAINT",
+      "content": "Year 2024-25 Year 2023-24 REVENUE FROM OPERATIONS Revenue from Sale of Products 22A 33,626.82 35,248.88 Revenue from Sale of Services 22A 170.54 133.24 Other Operating Revenue 22A 108.26 112.61 Other Income 23 572.61 687.96 Total Income (I) 34,478.23 36,182.69 EXPENSES Cost of Materials Consumed 24A 15,793.92 15,868.21 Purchases of Stock-in-Trade 24B 3,926.86 3,858.20 Changes in inventories of finished goods, Stock-in-Trade and Work-in-progress 24C (205.00) 363.80 Employee Benefits Expense 25 2,597.23 2,326.18 Other Expenses 26 5,786.40 5,493.36 Total Expenses (II) 27,899.41 27,909.75 EARNING BEFORE INTEREST, TAX, DEPRECIATION AND AMORTISATION (EBITDA) (I-II) 6,578.82 8,272.94 Finance Costs 27 227.02 205.17 Depreciation and Amortisation Expense 28 1,026.34 853.00 PROFIT BEFORE SHARE OF PROFIT IN ASSOCIATES AND EXCEPTIONAL ITEMS 5,325.46 7,214.77 Share of profit in Associates 36 140.71 133.00 PROFIT BEFORE EXCEPTIONAL ITEMS AND TAX 5,466.17 7,347.77 Exceptional Items 39 363.10 - PROFIT BEFORE TAX 5,103.07 7,347.77 Tax Expense 9 Current Tax 1,388.98 1,836.00 Short tax provision for earlier years (13.39) (51.35) Deferred Tax 17.77 5.43 Total tax expense 1,393.36 1,790.08 PROFIT AFTER TAX 3,709.71 5,557.69 OTHER COMPREHENSIVE INCOME (OCI) A. Items that will not be reclassified to Profit or Loss (i) (a) Remeasurement of the defined benefit plans 32 (2.43) 8.60 (b) \u0007Income tax benefit/(expense) on remeasurement of defined benefit plans 0.16 (2.17) (ii) (a) \u0007Net fair value gain on investments in equity instruments through OCI 273.30 7.77 (b) \u0007Income tax expense on net fair value gain on investments in equity instruments through OCI (42.86) (0.55) (iii) Share of OCI in Associates (0.43) (1.19) B. Items that will be reclassified to Profit or Loss (i) (a) \u0007Net fair value gain on investment in debt instruments through OCI 3.67 16.20 (b) \u0007Income tax expense on net fair value gain on investment in debt instruments through OCI (0.96) (1.85) (ii) Exchange difference arising on translation of foreign operations (115.95) 5.15 (iii) Share of OCI in Associates 0.06 - Total Other Comprehensive Income (A+B) 114.56 31.96 TOTAL COMPREHENSIVE INCOME FOR THE YEAR 3,824.27 5,589.65 for the year ended 31st March 2025 Consolidated Statement of Profit and Loss 442 Asian Paints Limited (` in Crores) Particulars",
+      "chunk_index": 755,
+      "page_number": 224,
+      "section_title": "Notes",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ASIANPAINT_FY25.json"
+      },
+      "similarity": 16.454340884222777,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "id": "a1f0d4b0-f7f5-44a4-b78d-898b1b94d105",
+      "content": "Software Private Limited for FY 23-24 is from the period it became a subsidiary of the Company. ***The transanctions reported with PT Asian Paints Indonesia are until 20th March 2025 post which it has ceased to be a related party. The Company has issued letters of awareness to banks/ financial institutions with respect to loans taken by certain international subsidiary companies. There has been no guarantee given or provided to any related party. Additionally, the Company has issued letter to the Board of APIPL informing its commitment to provide support to the subsidiary to meet its obligations, as and when they fall due including additional funding that may be necessitated to meet the approved business plan for FY 2024-25. Details of transactions with and balances outstanding of Key Managerial Personnel / Close Family Member of Key Managerial Personnel : (₹ in Crores) Name of the related party Nature of transaction Year 2024-25 Year 2023-24 Transaction value Outstanding amount Transaction value Outstanding amount Amit Syngle Remuneration ^ 11.20 - 18.82 8.82 Dividend paid # - # - R J Jeyamurugan Remuneration ^^ 5.32 - 4.31 - Dividend paid # - - - Amrita Vakil Remuneration 0.64 0.42 0.56 0.43 Dividend paid 8.32 - 6.78 - Late. Ashwin Dani Retiral benefits - - 0.04 - Remuneration - - 0.23 0.21 Dividend paid - - 4.49 - Deepak Satwalekar Remuneration - - 0.27 0.25 Jigish Choksi Remuneration 0.56 0.42 0.56 0.42 Dividend paid 6.46 - 5.27 - Malav Dani Remuneration 0.66 0.44 0.58 0.45 Dividend paid 11.83 - 8.90 - Manish Choksi Remuneration 0.79 0.46 0.63 0.46 Dividend paid 7.74 - 6.31 - Milind Sarwate Remuneration 0.73 0.48 0.65 0.48 Dividend paid # - # - Nehal Vakil Remuneration 0.57 0.42 0.54 0.42 Dividend paid 18.59 - 15.15 - Pallavi Shroff Remuneration - - 0.58 0.42 R Seshasayee Remuneration 0.86 0.50 0.66 0.47 Dividend paid # - # - Suresh Narayanan Remuneration - - 0.62 0.46 Note 37 : Related Party Transactions (Contd.) Details of transactions with and balances outstanding of associate companies : (Contd.)",
+      "ticker": "ASIANPAINT",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 215,
+      "section_title": "Financial statements",
+      "similarity": 0.631847224721479,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015873015873015872
+    }
+  ],
+  "generated_at": "2026-06-22T10:36:58.491471+00:00"
+}

@@ -1,0 +1,617 @@
+{
+  "sections": [
+    {
+      "title": "Executive Summary + Investment Thesis",
+      "body": "**Executive Summary**\nInfosys, a leading technology services company, has demonstrated robust financial performance, with 6.1% revenue growth and a 21.1% operating margin in the latest reporting period. The company's strong cash generation capabilities, evident from its 44.8% free cash flow growth, have enabled it to maintain a debt-free and liquid balance sheet. With a AAA CRISIL rating, Infosys has access to capital markets worldwide, allowing it to raise debt at competitive rates if needed. The company's focus on delivering long-term growth, coupled with its commitment to returning approximately 85% of its free cash flow to shareholders over a five-year period, underscores its dedication to creating shareholder value.\n\n**Investment Thesis**\nOur investment thesis for Infosys is centered on the company's ability to sustain its growth momentum, driven by its strategic focus on digital transformation and core business revitalization. With a strong financial position, characterized by a robust cash balance of ₹54,249 crore and a debt-free status, Infosys is well-positioned to invest in innovation and expand its service offerings. The company's commitment to returning value to shareholders, as evidenced by its 13.2% dividend per share growth, further enhances its appeal as a long-term investment opportunity. While peer comparison is not possible due to the lack of available data, Infosys's financial performance and strategic initiatives suggest a compelling investment case, driven by its ability to deliver sustainable growth, profitability, and shareholder returns.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 24,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 345,
+          "section": "preparation of the financial statements are consistently applied"
+        },
+        {
+          "source": "filing",
+          "page": 301,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Business Overview + Segment Breakdown",
+      "body": "Infosys is a leading technology company with a diverse shareholder base. As of March 31, 2025, the company had a total share capital of 415,32,63,455 shares. The company's consolidated revenue for fiscal year 2025 was ₹162,990 crore. The company's profit after tax for FY25 was ₹26,233 crore, with a basic EPS of ₹6. However, the segment breakdown of the company's revenue is not available in the provided excerpts. Therefore, a detailed segment analysis cannot be performed.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 114,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 2,
+          "section": "Financial Statements FY25"
+        },
+        {
+          "source": "filing",
+          "page": 2,
+          "section": "Financial Statements FY25"
+        },
+        {
+          "source": "filing",
+          "page": 2,
+          "section": "Financial Statements FY25"
+        },
+        {
+          "source": "filing",
+          "page": 1,
+          "section": "Management Discussion and Analysis FY25"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Financial Performance",
+      "body": "{\"body\": \"The company's financial performance for the year ended March 31, 2025, is characterized by a consolidated total income of ₹166,590 crore, comprising revenue from operations of ₹162,990 crore and other income, net of ₹3,600 crore. This represents a year-on-year increase in revenue from operations from ₹153,670 crore in the previous year. The company's profit before tax stood at ₹37,608 crore, with a tax expense of ₹10,858 crore, resulting in a net profit of ₹26,750 crore. The net profit for the previous year was ₹26,248 crore. The company's return on net worth is reported at 29.0% for the consolidated level in 2025, computed as net profit by average net worth. \n\nThe company's expenses for the year ended March 31, 2025, included employee benefit expenses of ₹85,950 crore, depreciation and amortization expenses of ₹4,812 crore, and finance cost of ₹416 crore, among others. The total expenses for the year were ₹128,982 crore, up from ₹122,393 crore in the previous year.\", \"chart_data\": {\"type\":\"bar\",\"labels\":[\"FY24\",\"FY25\"],\"datasets\":[{\"label\":\"Revenue (₹ Cr)\",\"values\":[153670,162990]},{\"label\":\"Net Profit (₹ Cr)\",\"values\":[26248,26750]}]}}",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 277,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 77,
+          "section": "and Consolidated financial statements included in this Integrated Annual"
+        },
+        {
+          "source": "filing",
+          "page": 2,
+          "section": "Financial Statements FY25"
+        },
+        {
+          "source": "filing",
+          "page": 2,
+          "section": "Financial Statements FY25"
+        },
+        {
+          "source": "filing",
+          "page": 1,
+          "section": "Management Discussion and Analysis FY25"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Balance Sheet Health + Cash Flow",
+      "body": "The balance sheet of Infosys remains debt-free, reflecting the company's strong cash generation and prudent financial management. As of the latest available data, the company's cash and investments position is robust, with a focus on maintaining adequate liquidity to meet operational and strategic requirements. The primary sources of funds are cash from operations and income from short and long-term investments. Infosys' consolidated cash and investments include a range of high-credit-rated instruments, such as deposits in banks, liquid mutual funds, and government and semi-government bonds. \n\nIn terms of cash flow, the company has demonstrated strong free cash flow growth of 44.8% as per the latest report. The free cash flow is defined as net cash provided by operating activities less capital expenditure. Infosys has also announced its intention to return approximately 85% of the free cash flow cumulatively over a five-year period through a combination of semi-annual dividends and/or share buyback/special dividends, subject to applicable laws and requisite approvals. This policy underscores the company's commitment to delivering shareholder value and providing steady capital returns. With a robust working capital position and a strong credit rating, Infosys is well-positioned to manage its financial capital and generate long-term growth.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 24,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 301,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 324,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Key Financial Ratios",
+      "body": "The 'Key Financial Ratios' section of this report is based on the provided filing excerpts from the Infosys Integrated Annual Report 2024-25. Given the available data, we can calculate a few key ratios. The return on equity (ROE) is reported as 29.0%, indicating the company's ability to generate profits from shareholders' equity. To derive another ratio, we can use the provided figures: the dividend per share growth is 13.2%, and the free cash flow growth is 44.8%. However, without explicit numbers for net profit or net worth, we cannot calculate other ratios such as the price-to-earnings ratio or debt-to-equity ratio. The company's operating margin is reported at 21.1%, showcasing its operational efficiency. Additionally, the revenue growth is 6.1%, demonstrating the company's ability to expand its operations. \n\nIt's worth noting that peer comparison is not possible with the provided data, as there is no information on industry averages or peer company performance. Furthermore, certain key financial ratios such as the current ratio, quick ratio, or interest coverage ratio cannot be calculated due to the lack of relevant data in the excerpts. Therefore, this analysis is limited to the ratios and figures explicitly mentioned or calculable from the given excerpts.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 301,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 307,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 24,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Valuation Snapshot vs Sector Median",
+      "body": "Valuation Snapshot vs Sector Median\n\nAs of the latest available data, Infosys' valuation metrics are notable. The company's return on equity (ROE) stands at 29.0%, indicating a strong ability to generate profits from shareholders' equity. However, a direct comparison to the sector median is not possible due to the absence of peer data in the provided excerpts. \n\nThe company's operating margin is 21.1%, and revenue growth is 6.1%. While these metrics provide insight into the company's financial performance, a comprehensive valuation snapshot versus the sector median cannot be accurately determined without additional peer data. The dividend per share growth is 13.2%, and free cash flow growth is 44.8%, but these metrics should be considered in the context of the company's overall financial performance and strategy, as outlined in the Capital Allocation Policy, which aims to return approximately 85% of the free cash flow cumulatively over a five-year period through a combination of semi-annual dividends and/or share buyback/special dividends.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 24,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 301,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 114,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Management Commentary",
+      "body": "The management of Infosys has provided commentary on the company's Enterprise Risk Management (ERM) program, which adopts a unique approach to identify, evaluate, and mitigate risks. During fiscal 2025, the risk office assessed, monitored, and reported on various risks, including geo-political scenarios, economic uncertainties, inflation, technology disruption, and cybersecurity threats. The company has implemented a technology platform, iGRC, to provide a consolidated view of risks to strategic goals, and encourages open communication, knowledge sharing, and a strong commitment to ethics and integrity. The management believes that the ERM framework, developed based on COSO and ISO 31000, is tailored to suit the company's unique business requirements.\n\nThe management has also provided commentary on the company's financial performance, with consolidated net profit increasing from ₹26,233 crore to ₹26,713 crore, and return on net worth at 29.0% for fiscal 2025. The company's revenue growth has improved compared to the previous fiscal year, with segment-level details provided in the relevant section of the report. However, the management has noted that the company is exposed to various risks, including geo-political, macroeconomic, and health events, which could impact demand for its services and, in turn, its growth and profitability. The company's approach to mitigating these risks is described in the risk management section of the report.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 124,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 77,
+          "section": "and Consolidated financial statements included in this Integrated Annual"
+        },
+        {
+          "source": "filing",
+          "page": 345,
+          "section": "preparation of the financial statements are consistently applied"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Key Risks",
+      "body": "The key risks associated with Infosys (INFY) are primarily driven by geo-political, macroeconomic, and health events that may impact the company's revenue and profitability. As stated in the Integrated Annual Report 2024-25, unfavorable geo-political, economic, or health events may result in currency volatility and reduced spend on technology products and services, which may adversely impact demand for INFY's offerings. This, in turn, may impact the company's growth and profitability, particularly given that a large part of its revenue is dependent on a limited number of clients and concentrated in a few geographies. The company's risk management office has identified these risks and is working to mitigate them through various initiatives, including monitoring and reporting on risks related to geo-political scenarios, uncertainties in the economy, inflation, technology disruption, and cybersecurity.\n\nThe key risks also include emerging risks such as the uncertainty and unpredictability of policy changes by governments, which may impact INFY's operations and financial performance. The company's financial instruments, including foreign currency derivatives and trade receivables, are also subject to risks such as impairment and fair value fluctuations. As of March 31, 2025, the company's financial instruments had a carrying value and fair value of ₹X crore, as disclosed in the financial statements. However, the exact figures are not provided in the given excerpts. Overall, INFY's key risks are closely tied to the global economic and geo-political environment, and the company's ability to mitigate these risks will be crucial to its long-term success.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 124,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 301,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 77,
+          "section": "and Consolidated financial statements included in this Integrated Annual"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Recent Developments",
+      "body": "Recent Developments\n\nIn fiscal 2025, Infosys undertook various risk management initiatives to ensure the smooth delivery of services to clients, transparent communication with stakeholders, and fulfillment of social responsibility while prioritizing employee safety and health. The company's risk office assessed, monitored, and reported on risks related to geo-political scenarios, economic uncertainties, inflation, technology disruption, and cybersecurity, among others. Key risks identified include geo-political, macroeconomic, or health events that may impact demand for the company's offerings and, in turn, affect growth and profitability. The company's approach to mitigating these risks is not explicitly stated in the provided excerpts.\n\nFrom an operational perspective, the company's business segments are primarily categorized into enterprises in Financial Services and Insurance, Manufacturing, Retail, Consumer Packaged Goods and Logistics, Energy, Utilities, Resources and Services, Communication, Telecom OEM and Media, Hi-Tech, Life Sciences and Healthcare, and all other segments. However, specific revenue figures for these segments are not provided in the excerpts. The company's revenue recognition is based on individual customers invoiced or in relation to which the revenue is otherwise recognized, with geographic location-based revenue disclosure provided in a separate note. Unfortunately, the excerpts do not provide sufficient information to comment on the company's financial performance or compare it with peers.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 124,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 183,
+          "section": "We have audited the accompanying Standalone Financial Statements of INFOSYS LIMITED (the “Company”), which comprise the"
+        },
+        {
+          "source": "filing",
+          "page": 345,
+          "section": "preparation of the financial statements are consistently applied"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Bull vs Bear vs Base Case",
+      "body": "The bull case for INFY is supported by the company's robust financial performance, with a 6.1% revenue growth and a 21.1% operating margin. The company's strong cash generation capabilities, as evidenced by a 44.8% free cash flow growth, and its debt-free balance sheet, with a cash and investments portfolio of ₹54,249 crore, position it well for future growth. Additionally, the company's commitment to returning approximately 85% of its free cash flow to shareholders over a five-year period, through a combination of semi-annual dividends and/or share buybacks, is expected to drive shareholder value creation. With a return on equity of 29.0%, INFY's financial performance is likely to attract investors seeking stable and profitable investments.\n\nThe bear case, on the other hand, is limited by the lack of information on potential risks and challenges facing the company. While INFY has adopted an integrated enterprise risk management (ERM) framework, the details of the key and emerging risks, along with mitigation strategies, are not provided in the excerpts. However, the company's net profit has decreased from ₹27,234 crore to ₹25,568 crore on a standalone basis, which may raise concerns about its ability to sustain growth. Nevertheless, the company's consolidated net profit has increased from ₹26,233 crore to ₹26,713 crore, and its revenue growth has improved compared to the previous fiscal year. The base case scenario assumes that INFY will continue to deliver stable financial performance, driven by its strong execution capabilities and prudent business decisions, with a focus on delivering long-term growth and shareholder value creation. With a market capitalization and peer comparison data not available in the excerpts, it is challenging to assess INFY's relative valuation and position in the industry.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 24,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 77,
+          "section": "and Consolidated financial statements included in this Integrated Annual"
+        },
+        {
+          "source": "filing",
+          "page": 301,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Peer Comparison",
+      "body": "Peer Comparison: \nUnfortunately, the provided filing excerpts do not contain sufficient information to facilitate a peer comparison for Infosys (INFY). The excerpts primarily focus on the company's segment reporting, accounting policies, and key financial ratios, without providing comparable data from peer companies. As a result, it is not possible to compare INFY's financial performance with that of its peers based on the available information.\n\nTo conduct a meaningful peer comparison, data on revenue, net profit, and other key financial metrics from comparable companies in the industry would be required. However, such information is not present in the provided excerpts, limiting our ability to assess INFY's relative performance within its peer group. Further research and analysis of industry reports and peer company filings would be necessary to provide a comprehensive peer comparison.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 76,
+          "section": "Standalone financial statements in this Integrated Annual Report."
+        },
+        {
+          "source": "filing",
+          "page": 183,
+          "section": "We have audited the accompanying Standalone Financial Statements of INFOSYS LIMITED (the “Company”), which comprise the"
+        },
+        {
+          "source": "filing",
+          "page": 345,
+          "section": "preparation of the financial statements are consistently applied"
+        }
+      ],
+      "chart_data": null
+    }
+  ],
+  "eval_context": [
+    {
+      "id": "9527cbb1-fc86-4aed-beb1-3b7c26f46586",
+      "content": "Balance Sheet as at March 31, 2025, the Statement of Profit and Loss (including Other Comprehensive Income), the Statement of Changes",
+      "ticker": "INFY",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 183,
+      "section_title": "We have audited the accompanying Standalone Financial Statements of INFOSYS LIMITED (the “Company”), which comprise the",
+      "similarity": 0.636317534885705,
+      "retrieval_source": "vector",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "ticker": "INFY",
+      "content": "to record revenue and expenditure in individual segments, and are as set out in the accounting policies. Business segments of the Group are primarily enterprises in Financial Services and Insurance, enterprises in Manufacturing, enterprises in Retail, Consumer Packaged Goods and Logistics, enterprises in the Energy, Utilities, Resources and Services, enterprises in Communication, Telecom OEM and Media, enterprises in Hi-Tech, enterprises in Life Sciences and Healthcare and all other segments. The Financial services reportable segments has been aggregated to include the Financial Services operating segment and Finacle operating segment because of the similarity of the economic characteristics. All other segments represent the operating segments of businesses in India, Japan, China, Infosys Public Services and other enterprises in Public Services. Revenue and identifiable operating expenses in relation to segments are categorized based on items that are individually identifiable to that segment. Revenue for 'all other segments' represents revenue generated by Infosys Public services and revenue generated from customers located in India, Japan and China and other enterprises in Public services. Allocated expenses of segments include expenses incurred for rendering services from the Group's offshore software development centers and on-site expenses, which are categorized in relation to the associated efforts of the segment. Certain expenses such as depreciation and amortization, which form a significant component of total expenses, are not specifically allocable to specific segments as the underlying assets are used interchangeably. The Management believes that it is not practical to provide segment disclosures relating to those costs and expenses, and accordingly these expenses are separately disclosed as \"unallocated\" and adjusted against the total income of the Group. Assets and liabilities used in the Group's business are not identified to any of the reportable segments, as these are used interchangeably between segments. The Management believes that it is currently not practicable to provide segment disclosures relating to total assets and liabilities since a meaningful segregation of the available data is onerous. Business segment revenue information is collated based on individual customers invoiced or in relation to which the revenue is otherwise recognized. Disclosure of revenue by geographic locations is given in Note 2.18, Revenue from operations.",
+      "chunk_index": 673,
+      "page_number": 345,
+      "section_title": "preparation of the financial statements are consistently applied",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\INFY_FY25.json"
+      },
+      "similarity": 15.260889516437599,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "id": "1bc9d301-ddc0-4106-a537-67f01c06eaa1",
+      "content": "Management plans and based on our examination of the evidence supporting the assumptions, nothing has come to our attention, which causes us to believe that any material uncertainty exists as on the date of the audit report indicating that Company is not capable of meeting its liabilities existing at the date of balance sheet as and when they fall due within a period of one year from the balance sheet date. We, however, state that this is not an assurance as to the future viability of the Company. We further state that our reporting is based on the facts up to the date of the audit report and we neither give any guarantee nor any assurance that all liabilities falling due within a period of one year from the balance sheet date, will get discharged by the Company as and when they fall due. xx. (a) There are no unspent amounts towards Corporate Social Responsibility (“CSR”) on other than ongoing projects requiring a transfer to a Fund specified in Schedule VII to the Companies Act, 2013 in compliance with second proviso to sub-section (5) of Section 135 of the said Act. Accordingly, reporting under clause 3(xx)(a) of the Order is not applicable for the year. (b) In respect of ongoing projects, the Company has transferred unspent CSR amount as at the end of the previous financial year, to a Special account within a period of 30 days from the end of the said financial year in compliance with the provision of section 135(6) of the Companies Act, 2013. In respect of ongoing projects, the Company has not transferred the unspent CSR amount as at the Balance Sheet date out of the amounts that was required to be spent during the year, to a Special Account in compliance with the provision of sub- section (6) of section 135 of the said Act till the date of our report since the time period for such transfer, i.e., 30 days from the end of the financial year has not elapsed till the date of our report. For DELOITTE HASKINS & SELLS LLP Chartered Accountants (Firm Registration No. 117366W/W-100018) Place: Bengaluru Date: April 17, 2025 Vikas Bagaria Partner (Membership No.060408) UDIN: 25060408BMOCIU7329",
+      "ticker": "INFY",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 194,
+      "section_title": "liabilities, other information accompanying the financial statements and our knowledge of the Board of Directors and",
+      "similarity": 0.612939476966858,
+      "retrieval_source": "vector",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "ticker": "INFY",
+      "content": "Report for further details.) Return on net worth The details of return on net worth at standalone and consolidated levels are as follows: Particulars Standalone Consolidated 2025 2024 2025 2024 Return on net worth (%) 30.3 36.6 29.0 32.1 Return on net worth is computed as net profit by average net worth. Net profit increased from ₹26,233 crore to ₹26,713 crore on a consolidated basis and decreased from ₹27,234 crore to ₹25,568 crore on a standalone basis. Average net worth has increased in line with the net profit increase adjusted for dividends and buyback. Ratios where there has been a significant change from fiscal 2024 to fiscal 2025 Revenue growth for fiscal 2025 has gone up as compared to revenue growth for fiscal 2024 and segment-level details have been explained in the relevant section above. V. Outlook, risks and concerns We have adopted an integrated ERM framework that is implemented across the organization by the risk management office. Our ERM framework is developed by incorporating the best practices based on COSO and ISO 31000 and then tailored to suit our unique business requirements. We have provided the details of Infosys ERM framework, key and emerging risks along with mitigation in the Risk management",
+      "chunk_index": 139,
+      "page_number": 77,
+      "section_title": "and Consolidated financial statements included in this Integrated Annual",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\INFY_FY25.json"
+      },
+      "similarity": 13.958852956330764,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "id": "826e86c3-ea5a-4c41-b965-0627b7a785a9",
+      "content": "8. Events occurring after Balance Sheet date There were no significant events that occurred after the Balance Sheet date apart from the ones mentioned in ‘Material changes and commitments affecting financial position between the end of the fiscal and date of the report’ in the Board’s report in this Integrated Annual Report. 9. Key financial ratios In accordance with the SEBI (Listing Obligations and Disclosure Requirements) Regulations, 2015, the Company is required to give details of significant changes (change of 25% or more as compared to the immediately previous financial year) in key sector-specific financial ratios.",
+      "ticker": "INFY",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 76,
+      "section_title": "Standalone financial statements in this Integrated Annual Report.",
+      "similarity": 0.56638865871565,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "ticker": "INFY",
+      "content": "Infosys Integrated Annual Report 2024-25 141 Company shares-related disputes / litigation There are certain pending civil cases involving rival claims made by parties seeking declaration of title and accrued benefits of the Company’s disputed shares. Since the disputed shares relate to the Company, Infosys Limited and the Company’s RTA, KFin Technologies Limited are made pro forma defendants in these litigation matters. However, these matters are not material in nature. Commodity price risk or foreign exchange risk and hedging activities The Company does not deal in commodities and hence the disclosure pursuant to SEBI Master Circular No. SEBI/HO/CFD/ PoD2/CIR/P/0155 dated November 11, 2024 is not applicable. For details of foreign exchange risk and hedging activities, refer to Form 20-F which is available at https://www.infosys.com/investors/reports-filings/annual- report/annual-reports.html. Share capital 415,08,67,464 Holding as on March 31, 2024 23,95,991 Fresh issue – ESOP 415,32,63,455 Holding as on March 31, 2025 Listing on stock exchanges Codes India Global NSE BSE NYSE Exchange INFY INFY INFY Reuters INFY.NS INFY.BO INFY.K Bloomberg INFO IS INFO IB INFY US The listing fees for fiscal 2025 have been paid for all of the stock exchanges in India and overseas. ISIN Code for ADS: US4567881085 ISIN Code for Indian equity shares: INE009A01021 Dematerialization of shares and liquidity Demat mode Physical mode 99.92% 0.08% % to total equity Shareholders (1) 25,46,003 231 25,46,234 Shares 415,32,63,455 414,98,54,668 34,08,787 (1) The number of shareholders are based on PAN as on March 31, 2025. Category-wise shareholding as on March 31, 2025 56,64,25,252 Insurance Companies 43,98,60,715 American Depositary Receipts 13.05% 13.64% 18,98,88,914 Others 4.57% 122,11,50,076 Foreign Portfolio Investors 29.40% 75,93,48,185 Mutual Funds 18.28% 54,20,29,249 Promoters & Promoter Group 10.59% 43,45,61,064 Resident Individuals (Public) 10.47% 415,32,63,455 Total",
+      "chunk_index": 206,
+      "page_number": 114,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\INFY_FY25.json"
+      },
+      "similarity": 13.268250744209553,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "id": "7133137d-c8bd-4b9d-87cb-68e4dd4b2cc0",
+      "content": "year ended March 31, 2025 Index A Independent Auditor’s Report.............................................................................................................................................................................................210 B Balance Sheet.............................................................................................................................................................................................................................222 C Statement of Profit and Loss.................................................................................................................................................................................................224 D Statement of Changes in Equity.........................................................................................................................................................................................226 E Statement of Cash Flows........................................................................................................................................................................................................231",
+      "ticker": "INFY",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 182,
+      "section_title": "Standalone Financial Statements under Indian Accounting Standards (Ind AS) for the",
+      "similarity": 0.560258865356445,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015625
+    },
+    {
+      "ticker": "INFY",
+      "content": "Infosys Integrated Annual Report 2024-25 328 The cumulative gain or loss previously recognized in the cash flow hedging reserve is transferred to the net profit in the Consolidated Statement of Profit and Loss upon the occurrence of the related forecasted transaction. If the forecasted transaction is no longer expected to occur, then the amount accumulated in cash flow hedging reserve is reclassified to net profit in the Consolidated Statement of Profit and Loss. 2.11.3 Derecognition of financial instruments The Group derecognizes a financial asset when the contractual rights to the cash flows from the financial asset expire or it transfers the financial asset and the transfer qualifies for derecognition under Ind AS 109. A financial liability (or a part of a financial liability) is derecognized from the Group's Balance Sheet when the obligation specified in the contract is discharged or cancelled or expires. 2.11.4 Fair value of financial instruments In determining the fair value of its financial instruments, the Group uses a variety of methods and assumptions that are based on market conditions and risks existing at each reporting date. The methods used to determine fair value include discounted cash flow analysis, option pricing model, market multiples, available quoted market prices and dealer quotes. All methods of assessing fair value result in general approximation of value, and such value may never actually be realized. Refer to table 'Financial instruments by category' below for the disclosure on carrying value and fair value of financial assets and liabilities. For financial assets and liabilities maturing within one year from the Balance Sheet date and which are not carried at fair value, the carrying amounts approximates fair value due to the short maturity of these instruments. 2.11.5 Impairment The Group recognizes loss allowances using the expected credit loss (ECL) model for the financial assets and unbilled revenue which are not fair valued through profit or loss. Loss allowance for trade receivables and unbilled revenues with no significant financing component is measured at an amount equal to lifetime ECL. For all other financial assets, ECLs are measured at an amount equal to the 12-month ECL, unless there has been a significant increase in credit risk from initial recognition in which case those are measured at lifetime ECL. The Group determines the allowance for credit losses based on historical loss experience adjusted to reflect current and estimated future economic conditions. The Group considers current and anticipated future economic conditions relating to industries the Group deals with and the countries where it operates. The amount of ECL (or reversal) that is required to adjust the loss allowance at the reporting date to the amount that is required to be recorded is recognized as an impairment loss or gain in Consolidated Statement of Profit and Loss. Financial instruments by category The carrying value and fair value of financial instruments by categories as at March 31, 2025 are as follows: (In ₹ crore) Particulars Amortized cost Financial assets / liabilities at fair value through profit or loss Financial assets / liabilities at fair value through OCI Total carrying value Total fair",
+      "chunk_index": 601,
+      "page_number": 301,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\INFY_FY25.json"
+      },
+      "similarity": 12.942439315564645,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015625
+    },
+    {
+      "id": "17c6636b-1f98-47f6-a400-6d8a02a9e20d",
+      "content": "(the Company and its subsidiaries together referred to as the “Group”) which comprise the Consolidated Balance Sheet as at March 31, 2025, and the Consolidated Statement of Profit and Loss (including Other Comprehensive Income), the Consolidated Statement of",
+      "ticker": "INFY",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 266,
+      "section_title": "We have audited the accompanying consolidated financial statements of INFOSYS LIMITED (the “Company”) and its subsidiaries",
+      "similarity": 0.549235191986848,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "ticker": "INFY",
+      "content": "(1) FS – Includes enterprises in Financial Services and Insurance (2) Retail – Includes enterprises in Retail, Consumer Packaged Goods and Logistics (3) COM – Includes enterprises in Communication, Telecom OEM and Media (4) EURS – Includes enterprises in Energy, Utilities, Resources and Services (5) MFG – Includes enterprises in Manufacturing (6) Hi-Tech – Includes enterprises in Hi-Tech (7) LS – Includes enterprises in Life Sciences and Healthcare (8) Others – Includes segments of businesses in India, Japan, China, Infosys Public Services and other enterprises in public services Revenue distribution by geographical segments (in %) Revenue distribution by business segments (in %) FS (1) Retail (2) COM (3) EURS (4) MFG (5) Hi-Tech (6) LS (7) Others (8) 2025 2024 3.1 3.0 7.5 7.3 8.1 8.0 14.5 15.5 13.0 13.3 11.7 11.7 14.7 13.5 27.4 27.7 North America Europe Rest of the World India 2.5 3.1 9.8 9.2 27.6 29.8 60.1 57.9 Board’s report",
+      "chunk_index": 58,
+      "page_number": 33,
+      "section_title": "Based on consolidated financial statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\INFY_FY25.json"
+      },
+      "similarity": 12.693476078343089,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "id": "fd229502-6033-4add-ad7a-7427936d76d5",
+      "content": "exposure to credit risk is influenced mainly by the individual characteristic of each customer and the concentration of risk from the top few customers. Exposure to customers is diversified and there is no single customer contributing more than 10% of outstanding trade receivables and unbilled revenues. The details in respect of percentage of revenues generated from top five customers are as follows: (In %) Particulars Year ended March 31, 2025 2024 Revenue from top five customers 13.2 13.3 Revenue from top ten customers 20.5 20.0 Credit risk exposure The Group’s credit period generally ranges from 30-75 days. The allowance for lifetime ECL on customer balances for the year ended March 31, 2025 and March 31, 2024 was ₹108 crore and ₹90 crore, respectively.",
+      "ticker": "INFY",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 307,
+      "section_title": "general",
+      "similarity": 0.520806608103922,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015151515151515152
+    },
+    {
+      "ticker": "INFY",
+      "content": "Infosys Integrated Annual Report 2024-25 351 Transactions and translations Foreign-currency denominated monetary assets and liabilities are translated into the relevant functional currency at exchange rates in effect at the Balance Sheet date. The gains or losses resulting from such translations are recognized in the Consolidated Statement of Profit and Loss and reported within exchange gains/ (losses) on translation of assets and liabilities, net, except when deferred in Other Comprehensive Income as qualifying cash flow hedges. Non-monetary assets and non-monetary liabilities denominated in a foreign currency and measured at fair value are translated at the exchange rate prevalent at the date when the fair value was determined. Non- monetary assets and non-monetary liabilities denominated in a foreign currency and measured at historical cost are translated at the exchange rate prevalent at the date of transaction. The related revenue and expense are recognized using the same exchange rate. Transaction gains or losses realized upon settlement of foreign currency transactions are included in determining net profit for the period in which the transaction is settled. Revenue, expense and cash-flow items denominated in foreign currencies are translated into the relevant functional currencies using the exchange rate in effect on the date of the transaction.",
+      "chunk_index": 639,
+      "page_number": 324,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\INFY_FY25.json"
+      },
+      "similarity": 12.574405998549897,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015151515151515152
+    },
+    {
+      "id": "ee7c4280-2d89-4acc-ad9c-8b964223f399",
+      "content": "Infosys Integrated Annual Report 2024-25 Infosys Integrated Annual Report 2024-25 44 45 Financial Capital Delivering value Performance highlights 6.1% Revenue growth 21.1% Operating margin 29.0% Return on equity AAA CRISIL Rating 13.2% Dividend per share growth (1) 44.8% Free cash flow growth (2) `54,249 cr Robust working capital We obtain our Financial Capital through the funds generated from our business operations and financing activities. Our strong performance on the back of meticulous execution over the years, as reflected in the combination of high growth, strong cash generation and profitability, has led to building a strong, debt-free, and liquid Balance Sheet. Our focus is on ensuring a sustainable and profitable financial position. Our stakeholders expect us to deliver long-term growth riding on a solid strategy and prudent business decisions. Our shareholders are looking for good returns on their investment and steady capital returns. “Effective from financial year 2025, the Company expects to continue its policy of returning approximately 85% of the free cash flow cumulatively over a five-year period through a combination of semi-annual dividends and / or share buyback / special dividends, subject to applicable laws and requisite approvals, if any.” The Company expects to progressively increase its annual dividend per share (excluding special dividend if, any). Material topics • Scale agile digital & Energize the core • Shareholder returns • High returns on equity UN SDG mapping (1) Dividend excludes special dividend of `8.00 per share declared in line with the Capital Allocation Policy for financial year 2024. (3) Free cash flow is defined as net cash provided by operating activities less capital expenditure as per the Consolidated Statement of Cash Flows prepared under IFRS. Managing financial capital Infosys has a high cash-generating business with access to capital markets across the world. Our strong credit rating allows us to raise debt at competitive rates in the future, if needed. The primary source of funds is cash from operations and income from short and long-term investments, among others. Our primary sources of liquidity are cash and cash equivalents and the cash flow generated from our operations. We continue to remain debt-free, and we maintain adequate cash to meet our operational and strategic requirements, and unforeseen events while also earning sufficient returns. Our consolidated cash and investments include deposits in banks, investments in liquid mutual funds, fixed maturity plan securities, commercial paper, quoted bonds issued by government and semi-government organizations, non-convertible debentures and CDs or certificates of deposits – all such instruments issued by eligible financial institutions with high credit ratings guided by our treasury policy. We also build financial assets and create financial value by investing in the startup ecosystem. These investments enable us to access innovation, which together with our services and solutions, deliver benefits to our clients. Most often, our investments comprise minority equity positions in startup organizations and / or venture capital funds. Basic earnings per share Dividend per share Free cash flows Market capitalization Return on equity Revenue growth Shareholder value creation We constantly endeavor to fulfill the expectations of our investors through responsible business decisions and governance.",
+      "ticker": "INFY",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 24,
+      "section_title": "general",
+      "similarity": 0.518495767206207,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014925373134328358
+    },
+    {
+      "ticker": "INFY",
+      "content": "Infosys Integrated Annual Report 2024-25 373 Business segments Year ended March 31, 2025 and March 31, 2024: (In ₹ crore) Particulars Financial Services (1) Retail (2) Communication(3) Energy, Utilities, Resources and Services Manufacturing Hi-Tech Life Sciences(4) All other segments(5) Total Revenue from operations 45,175 22,059 19,108 21,710 25,207 13,090 11,831 4,810 1,62,990 42,158 22,504 17,991 20,035 22,298 12,411 11,515 4,758 1,53,670 Identifiable operating expenses 25,871 10,931 12,420 11,882 16,167 7,592 7,166 2,986 95,015 24,782 11,704 11,071 10,838 14,596 7,232 6,716 2,938 89,877 Allocated expenses 8,205 3,995 3,347 3,731 4,184 2,278 2,002 997 28,739 8,052 3,918 3,232 3,674 3,505 2,026 1,901 1,060 27,368 Segment operating income 11,099 7,133 3,341 6,097 4,856 3,220 2,663 827 39,236 9,324 6,882 3,688 5,523 4,197 3,153 2,898 760 36,425 Unallocable expenses 4,812 4,678 Other income, net 3,600 4,711 Finance cost 416 470 Profit before tax 37,608 35,988 Income tax expense 10,858 9,740 Net profit 26,750 26,248 Depreciation and amortization expense 4,812 4,678 Non-cash expenses other than depreciation and amortization – – (1) Financial Services include enterprises in Financial Services and Insurance. (2) Retail includes enterprises in Retail, Consumer Packaged Goods and Logistics. (3) Communication includes enterprises in Communication, Telecom OEM and Media. (4) Life Sciences includes enterprises in Life sciences and Healthcare. (5) Others include operating segments of businesses in India, Japan, China, Infosys Public Services and other enterprises in Public Services. Significant clients No client individually accounted for more than 10% of the revenues for the year ended March 31, 2025 and March 31, 2024, respectively.",
+      "chunk_index": 674,
+      "page_number": 346,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\INFY_FY25.json"
+      },
+      "similarity": 12.41221770340775,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014925373134328358
+    },
+    {
+      "id": "112fb1c2-c18f-4683-a3ea-1792afeab2ca",
+      "content": "examination of those books. c) The Consolidated Balance Sheet, the Consolidated Statement of Profit and Loss including Other Comprehensive Income, Consolidated Statement of Changes in Equity and the Consolidated Statement of Cash Flows dealt with by this Report are in agreement with the relevant books of account maintained for the purpose of preparation of the Consolidated",
+      "ticker": "INFY",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 270,
+      "section_title": "Financial Statements have been kept by the Group, including relevant records so far as it appears from our",
+      "similarity": 0.516011028527557,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014705882352941176
+    },
+    {
+      "ticker": "INFY",
+      "content": "Balance Sheet as at March 31, 2025, the Statement of Profit and Loss (including Other Comprehensive Income), the Statement of Changes",
+      "chunk_index": 306,
+      "page_number": 183,
+      "section_title": "We have audited the accompanying Standalone Financial Statements of INFOSYS LIMITED (the “Company”), which comprise the",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\INFY_FY25.json"
+      },
+      "similarity": 12.08371529062787,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014705882352941176
+    },
+    {
+      "id": "1e2df786-7c8e-4380-a281-18d65b91b3af",
+      "content": "Infosys Integrated Annual Report 2024-25 334 unchanged and the hedge continues to qualify for hedge accounting, the hedge relationship will be rebalanced by adjusting either the volume of the hedging instrument or the volume of the hedged item so that the hedge ratio aligns with the ratio used for risk management purposes. Any hedge ineffectiveness is calculated and accounted for in the Consolidated Statement of Profit and Loss at the time of the hedge relationship rebalancing. The following table provides reconciliation of cash flow hedge reserve for the year ended March 31, 2025 and March 31, 2024: (In ₹ crore) Particulars Year ended March 31, 2025 2024 Gain / (Loss) Balance at the beginning of the year 6 (5) Particulars Year ended March 31, 2025 2024 Gain / (Loss) recognized in other comprehensive income during the year (5) 8 Amount reclassified to profit or loss during the year (27) 7 Tax impact on above 8 (4) Balance at the end of the year (18) 6 The Group offsets a financial asset and a financial liability when it currently has a legally enforceable right to set off the recognized amounts and the Group intends either to settle on a net basis, or to realize the asset and settle the liability simultaneously. The quantitative information about offsetting of derivative financial assets and derivative financial liabilities is as follows: (In ₹ crore) Particulars As at March 31, 2025 As at March 31, 2024 Derivative financial asset Derivative financial liability Derivative financial asset Derivative financial liability Gross amount of recognized financial asset/liability 250 (121) 98 (45) Amount set off (58) 58 (14) 14 Net amount presented in Balance Sheet 192 (63) 84 (31) Credit risk Credit risk refers to the risk of default on its obligation by the counterparty resulting in a financial loss. The maximum exposure to the credit risk at the reporting date is primarily from trade receivables amounting to ₹31,158 crore and ₹30,193 crore as at March 31, 2025 and March 31, 2024, respectively and unbilled revenues amounting to ₹15,083 crore and ₹14,548 crore as at March 31, 2025 and March 31, 2024, respectively. Trade receivables and unbilled revenues are typically unsecured and are derived from revenues from customers primarily located in the United States of America and Europe. Credit risk has always been managed by the Group through credit approvals, establishing credit limits and continuously monitoring the creditworthiness of customers to which the Group grants credit terms in the normal course of business. The Group uses the expected credit loss model to assess any required allowances; and uses a provision matrix to compute the expected credit loss allowance for trade receivables and unbilled revenues. This matrix takes into account credit reports and other related credit information to the extent available. The Group's exposure to credit risk is influenced mainly by the individual characteristic of each customer and the concentration of risk from the top few customers. Exposure to customers is diversified and there is no single customer contributing more than 10% of outstanding trade receivables and unbilled revenues. The details in respect",
+      "ticker": "INFY",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 307,
+      "section_title": "general",
+      "similarity": 0.510494843438114,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014492753623188406
+    },
+    {
+      "ticker": "INFY",
+      "content": "(the Company and its subsidiaries together referred to as the “Group”) which comprise the Consolidated Balance Sheet as at March 31, 2025, and the Consolidated Statement of Profit and Loss (including Other Comprehensive Income), the Consolidated Statement of",
+      "chunk_index": 487,
+      "page_number": 266,
+      "section_title": "We have audited the accompanying consolidated financial statements of INFOSYS LIMITED (the “Company”) and its subsidiaries",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\INFY_FY25.json"
+      },
+      "similarity": 11.399391592503989,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014492753623188406
+    },
+    {
+      "id": "7260f244-8845-458d-92b0-db64fc267b17",
+      "content": "Infosys Integrated Annual Report 2024-25 151 Salient features of our Enterprise Risk Management program Our ERM program adopts unique methods to identify risks, evaluate potential impact and promote risk awareness across the organization. Secondary, consequential and residual risks Secondary risks are threats that could impede the mitigation of primary risks. Consequential risks are the unintended consequences of primary mitigation, and residual risks are those risks that are left over after mitigation. Process risk frameworks Aggregation and accumulation Exposure for same risks are aggregated as it goes up the hierarchy. This provides enterprise-wide view to the leadership. Cumulated risk view is also provided to understand total exposure arising out of all risks at a unit level. Process-speciﬁc risk frameworks have been developed for decision-making, for example, frameworks for customer risk, vendor risk, contractual liability, contractual weighted risk and credit risk. Intelligent risk analytics Internal and external risk and performance indicators, and loss incidents are used in real time to identify, analyze and assess potential issues that could negatively impact strategic goals. RISC360 : iGRC Risk culture RISC360 is the Company’s Governance, Risk management and Compliance (GRC) program that combines three lines of defense under one umbrella. This enables risk-based decision-making and auditing. The Company has implemented a technology platform, iGRC, to provide a consolidated view of risks to strategic goals. Our risk culture encourages open and upward communication. Coupled with our belief systems and core values, this drives behavior, guides daily activities and decision-making throughout the organization. We encourage sharing of knowledge and best practices, continuous process improvement and a strong commitment to ethics and integrity. Enterprise Risk Management program Salient features Highlights of fiscal 2025 During fiscal 2025, various risks management initiatives were undertaken so as to ensure the smooth delivery of services to our clients, transparent communication with all stakeholders, fulfilment of our social responsibility while ensuring employee safety and health by strengthening risk management program and enhancing the risk culture. The risk office assessed, monitored and reported on risks related to geo-political scenarios; uncertainties in the economy; inflation; technology disruption and innovation; talent availability; cybersecurity; data protection and privacy; ESG; contractual liabilities; and complex and evolving regulatory environment. While the Company tracks several risks to its business, the key risks and emerging risks are described below along with the Company’s approach to mitigate them. Key / Emerging risks Impact on Company Mitigation / Opportunity Geo-political, macroeconomic or health events • Our revenues are concentrated in a few geographies and client industries, and a large part of our revenue is dependent on a limited number of clients. Unfavorable geo-political, economic, or health events may result in currency volatility and reduced spend on technology products and services which may adversely impact demand for our offerings which in turn may impact our growth and profitability. • Emerging risk aspect: Geo-political, economic or health events are dynamic in nature and constantly evolving. Uncertainty and unpredictability of policy changes by governments such as tariffs, trade restrictions etc., sometimes make it difficult to predict and assess the impact. • Impacted capitals: Financial, Social & Relationship and",
+      "ticker": "INFY",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 124,
+      "section_title": "general",
+      "similarity": 0.499470621347427,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014285714285714285
+    },
+    {
+      "ticker": "INFY",
+      "content": "Infosys Integrated Annual Report 2024-25 370 Name of entity Net assets Share in profit or loss Share in other comprehensive income Share in total comprehensive income as % age of consolidated net assets Amount (In ₹ crore) as % age of consolidated profit or loss Amount (In ₹ crore) as % age of consolidated other comprehensive income Amount (In ₹ crore) as % age of consolidated total comprehensive income Amount (In ₹ crore) BASE life science AG 0.00 (3) (0.10) (28) (2.86) (3) (0.11) (31) BASE life science GmbH 0.00 (1) 0.01 3 – – 0.01 3 BASE life science A/S 0.01 10 (0.28) (80) – – (0.27) (80) BASE life science S.A.S 0.00 2 0.01 2 – – 0.01 2 BASE life science Ltd. 0.01 8 0.01 3 – – 0.01 3 BASE life science S.r.l. 0.00 (1) 0.00 (1) – – 0.00 (1) Innovisor Inc. – – – – – – – – BASE life science Inc. 0.00 (2) 0.00 (1) – – 0.00 (1) BASE life science S.L. 0.01 12 0.02 5 – – 0.02 5 Infosys Public Services, Inc. USA (Infosys Public Services) 1.50 1,745 1.16 338 – – 1.16 338 Infosys Luxembourg S.a.r.l 0.05 57 0.06 17 – – 0.06 17 Infosys Compaz PTE Ltd 0.26 303 0.30 87 – – 0.30 87 Infy Consulting Company Limited 0.29 334 0.26 75 – – 0.26 75 Infosys Poland Sp. Z.o.o 1.06 1,227 0.50 145 – – 0.50 145 Portland Group Pty Ltd 0.04 50 – – – – – – Infosys BPO Americas LLC 0.08 96 0.06 18 – – 0.06 18 Infosys (Czech Republic) Limited s.r.o. 0.09 103 (0.03) (9) – – (0.03) (9) HIPUS Co., Ltd 0.13 149 0.11 31 – – 0.11 31 Infosys (Malaysia) SDN. BHD. (formerly Global Enterprise International (Malaysia) Sdn. Bhd.) 0.02 25 0.03 8 – – 0.03 8 Infosys BPM UK Limited 0.02 22 – – – – – – Infosys Public Services Canada Inc. 0.03 31 0.02 7 – – 0.02 7 Brilliant Basics Holdings Limited 0.06 70 0.00 1 – – 0.00 1 Brilliant Basics Limited 0.00 1 – – – – – – Infy tech SAS – – – – – – – – In-tech Automotive Engineering Shenyang Co. Ltd 0.01 11 0.01 2 – – 0.01 2",
+      "chunk_index": 670,
+      "page_number": 343,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\INFY_FY25.json"
+      },
+      "similarity": 11.353127147306934,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014285714285714285
+    },
+    {
+      "id": "49af0c41-1011-4ee7-b2e4-1695e7fd2766",
+      "content": "Profit after tax for FY25 was INR 26,233 crore compared to INR 25,000 crore in FY24. Basic EPS was INR 6",
+      "ticker": "INFY",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 2,
+      "section_title": "Financial Statements FY25",
+      "similarity": 0.779319809634676,
+      "retrieval_source": "vector",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "ticker": "INFY",
+      "content": "Profit after tax for FY25 was INR 26,233 crore compared to INR 25,000 crore in FY24. Basic EPS was INR 6",
+      "chunk_index": 1,
+      "page_number": 2,
+      "section_title": "Financial Statements FY25",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\INFY\\INFY_FY25_sample.json"
+      },
+      "similarity": 12.426692640800331,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "id": "4312e579-d56c-4176-ad9a-80a3acbc7d29",
+      "content": "Profit after tax for FY25 was INR 26,233 crore compared to INR 25,000 crore in FY24. Basic EPS was INR 6",
+      "ticker": "INFY",
+      "doc_type": "filing",
+      "fiscal_year": null,
+      "page_number": 2,
+      "section_title": "Financial Statements FY25",
+      "similarity": 0.779319809634676,
+      "retrieval_source": "vector",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "id": "63879acb-3735-4f93-8c87-c3d2f419344a",
+      "content": "Infosys reported consolidated revenue of INR 162,990 crore for fiscal year 2025, representing year-on-year",
+      "ticker": "INFY",
+      "doc_type": "filing",
+      "fiscal_year": null,
+      "page_number": 1,
+      "section_title": "Management Discussion and Analysis FY25",
+      "similarity": 0.670982082427627,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "ticker": "INFY",
+      "content": "Infosys Integrated Annual Report 2024-25 304 Consolidated Statement of Profit and Loss (In ₹ crore, except equity share and per equity share data) Particulars Note Year ended March 31, 2025 2024 Revenue from operations 2.18 162,990 153,670 Other income, net 2.19 3,600 4,711 Total income 166,590 158,381 Expenses Employee benefit expenses 2.22 85,950 82,620 Cost of technical sub-contractors 12,937 12,232 Travel expenses 1,894 1,759 Cost of software packages and others 2.20 15,911 13,515 Communication expenses 620 677 Consultancy and professional charges 1,655 1,726 Depreciation and amortization expenses 2.2, 2.4.2 and 2.21 4,812 4,678 Finance cost 416 470 Other expenses 2.20 4,787 4,716 Total expenses 128,982 122,393 Profit before tax 37,608 35,988 Tax expense: Current tax 2.17 12,130 8,390 Deferred tax 2.17 (1,272) 1,350 Profit for the year 26,750 26,248 Other comprehensive income Items that will not be reclassified subsequently to profit or loss Remeasurement of the net defined benefit liability/asset, net 2.22 (92) 120 Equity instruments through other comprehensive income, net 2.5 19 19 (73) 139 Items that will be reclassified subsequently to profit or loss Fair value changes on derivatives designated as cash flow hedge, net 2.11 (24) 11 Exchange differences on translation of foreign operations 357 226 Fair value changes on investments, net 2.5 199 144 532 381 Total other comprehensive income / (loss), net of tax 459 520 Total comprehensive income for the year 27,209 26,768",
+      "chunk_index": 549,
+      "page_number": 277,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\INFY_FY25.json"
+      },
+      "similarity": 16.761571384357154,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.016129032258064516
+    }
+  ],
+  "generated_at": "2026-06-22T09:30:18.140558+00:00"
+}

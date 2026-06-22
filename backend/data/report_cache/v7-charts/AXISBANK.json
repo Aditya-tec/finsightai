@@ -1,0 +1,693 @@
+{
+  "sections": [
+    {
+      "title": "Executive Summary + Investment Thesis",
+      "body": "**Executive Summary**\n\nAXISBANK's latest annual report reveals a complex financial landscape, with various subsidiaries and associate companies contributing to its overall performance. As of 31 March 2025, the bank's consolidated net assets stood at ₹150,235 crore, with a profit of ₹24,861.43 crore for the year ended 31 March 2024. The bank's revenue recognition policies are in accordance with AS-9 and RBI guidelines, with interest income recognized on an accrual basis. The bank also has a significant provision for contingent liabilities, with ₹904.76 crore held towards claims assessed as probable as of 31 March 2025.\n\n**Investment Thesis**\n\nOur investment thesis for AXISBANK is centered on its ability to navigate the complexities of the Indian banking landscape while maintaining a strong financial position. With a significant presence in the market and a diverse range of subsidiaries and associate companies, AXISBANK is well-positioned to capitalize on growth opportunities. However, the bank's high provision for contingent liabilities and employee benefits expenses, which stood at ₹288.99 crore for the year ended 31 March 2025, may pose a risk to its profitability. Nevertheless, with a strong net asset base and a proven track record of performance, we believe that AXISBANK is an attractive investment opportunity for those seeking exposure to the Indian banking sector.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 404,
+          "section": "Financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 547,
+          "section": "Consolidated financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 538,
+          "section": "Financial statements"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Business Overview + Segment Breakdown",
+      "body": "AXISBANK operates across multiple business segments, including Treasury, Corporate/Wholesale Banking, Retail Banking, and Other Banking Business. As of 31 March 2025, the total segment revenue stood at ₹232,793.43 crore. The segment-wise breakdown is as follows: Treasury reported a segment revenue of ₹32,352.04 crore, Corporate/Wholesale Banking reported ₹49,360.79 crore, Retail Banking reported ₹34,320.36 crore, and Other Banking Business reported ₹1,10,430.19 crore. The Retail Banking segment is further divided into Digital Banking Business and Other Retail Banking Business, with revenues of ₹5,961.33 crore and ₹28,359.03 crore, respectively. The company's net profit for the year ended 31 March 2025 was ₹28,055.11 crore. The segmental results indicate a diverse revenue stream for the company, with a significant contribution from the Corporate/Wholesale Banking and Retail Banking segments. However, the absence of peer comparison data limits the analysis of the company's relative performance.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 531,
+          "section": "Consolidated financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 464,
+          "section": "Financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 463,
+          "section": "Standalone financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 463,
+          "section": "Standalone financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 471,
+          "section": "Standalone financial statements"
+        }
+      ],
+      "chart_data": {
+        "type": "donut",
+        "segments": [
+          {
+            "label": "Treasury",
+            "value": 32352.0
+          },
+          {
+            "label": "Corporate/Wholesale Banking",
+            "value": 49361.0
+          },
+          {
+            "label": "Retail Banking",
+            "value": 34320.0
+          },
+          {
+            "label": "Other Banking Business",
+            "value": 110430.0
+          }
+        ]
+      }
+    },
+    {
+      "title": "Financial Performance",
+      "body": "The financial performance of AXISBANK for the year ended 31 March, 2025, is marked by an 11% year-over-year growth in PAT of domestic subsidiaries. The bank's subsidiaries, including Axis Finance and Axis Securities Broking, have reported significant growth, with a 45% increase in Axis Securities Broking Revenue and a 33% increase in Axis Capital Revenue from operations. However, specific figures for the bank's consolidated revenue and net profit are not available in the provided excerpts. The bank's related party transactions include dividend paid, interest paid and received, and investments in related parties, with a total investment of ₹888.56 crore in subsidiaries. The bank has also reported a repayment of share capital by a related party of ₹329.28 crore and an investment of ₹53.29 crore by a related party in the bank.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 141,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 466,
+          "section": "Financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 471,
+          "section": "Standalone financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 487,
+          "section": "Consolidated financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 487,
+          "section": "Consolidated financial statements"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Balance Sheet Health + Cash Flow",
+      "body": "The balance sheet health of Axis Bank appears to be stable, with a focus on managing employee benefit obligations. As of 31 March 2025, the present value of funded obligations for the gratuity benefit plan stood at ₹1,000.67 crore, while the fair value of plan assets was ₹955.00 crore, resulting in a net liability of ₹54.70 crore. This represents a decrease from the previous year's net liability of ₹102.30 crore. The bank has also made provisions for other employee benefits, including ₹3.70 crore for resettlement allowance and ₹0.19 crore for privilege leave liability.\n\nIn terms of cash flow, the bank has contributed ₹22.22 crore to the National Pension Scheme (NPS) for employees who have opted for the scheme, up from ₹15.54 crore in the previous year. The actual return on plan assets for the gratuity benefit plan was ₹66.57 crore, compared to an expected return of ₹52.69 crore. While the filing excerpts do not provide a comprehensive picture of the bank's cash flow position, the available data suggests that Axis Bank is managing its employee benefit obligations and making necessary provisions to ensure a stable balance sheet. However, a more detailed analysis of the bank's cash flow statement would be required to make a comprehensive assessment of its balance sheet health and cash flow position.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 542,
+          "section": "Financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 476,
+          "section": "Financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 540,
+          "section": "Financial statements"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Key Financial Ratios",
+      "body": "The 'Key Financial Ratios' section of this report is limited due to the absence of specific financial data in the provided excerpts. However, we can derive one key ratio based on the information given. The Bank ensures that the Gross PV01 (Price value of a basis point) position arising out of all non-option rupee derivative contracts are within 0.25% of net worth of the Bank as on Balance Sheet date. Unfortunately, without the exact net worth figure, we cannot calculate this ratio. \n\nGiven the lack of detailed financial information such as revenue, net profit, or net worth in the provided excerpts, a comprehensive analysis of key financial ratios including return on equity (ROE), return on assets (ROA), debt-to-equity ratio, or current ratio cannot be performed. Peer comparison is also not possible due to the absence of relevant peer data. For a thorough analysis, access to the Standalone Balance Sheet, Standalone Profit And Loss Account, and other financial statements would be necessary.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 442,
+          "section": "Financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 58,
+          "section": "financial statements in this"
+        },
+        {
+          "source": "filing",
+          "page": 375,
+          "section": "We have audited the accompanying Standalone Financial Statements of Axis Bank Limited (‘the Bank’), which comprise"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Valuation Snapshot vs Sector Median",
+      "body": "Valuation Snapshot vs Sector Median\n\nAs of 31 March 2025, Axis Bank's net worth (shareholders' equity) stands at ₹3,097.37 billion (₹3,097,369,066 in thousands), with a significant portion comprising share capital, reserves, and surplus. The bank's issued, subscribed, and paid-up capital amounts to ₹3,097.37 billion, with equity shares of ₹2 each fully paid-up. However, peer comparison is not possible due to the absence of sector median data in the provided excerpts.\n\nThe bank's reserves and surplus have increased, with statutory reserves at ₹332.59 billion (₹332,590,717 in thousands), capital reserve at ₹41.44 billion (₹41,439,284 in thousands), and share premium account at ₹533.16 billion (₹533,155,613 in thousands). The revenue and other reserves have also seen an increase, with the special reserve at ₹34.43 billion (₹34,430,500 in thousands). However, without sector median data, it is challenging to assess the bank's valuation relative to its peers. Further information on sector medians would be necessary to conduct a comprehensive valuation analysis.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 442,
+          "section": "Financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 386,
+          "section": "Financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 476,
+          "section": "Financial statements"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Management Commentary",
+      "body": "The management of Axis Bank has provided commentary on the bank's derivative transactions, which are undertaken for balance sheet management and proprietary trading. The bank has a functional separation between the Treasury Front Office, Treasury Mid Office, and Treasury Back Office to manage these transactions. The Market Risk Group independently identifies, measures, and monitors market risks associated with derivative transactions, and the Treasury Back Office undertakes activities such as trade validation, confirmation, settlement, and accounting. The bank has implemented policies on customer suitability and appropriateness to ensure that derivatives transactions are suitable for customers. The bank's gross PV01 position arising out of all non-option rupee derivative contracts is within 0.25% of its net worth as of the balance sheet date.\n\nThe bank's management has also provided information on its subsidiaries and associates, with Axis Bank Limited being the parent entity. As of March 31, 2024, the parent entity had net assets of ₹150,235 crore, accounting for 96.22% of the consolidated net assets. The bank's subsidiaries, including Axis Capital Limited, Axis Trustee Services Limited, and Axis Asset Management Company Limited, also reported net assets and profits for the year ended March 31, 2024. The bank has also reported contingent liabilities, including claims against the group not acknowledged as debts, with a provision of ₹904.76 crore as of March 31, 2025, towards claims assessed as probable. Overall, the management's commentary provides insight into the bank's risk management practices and financial performance.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 442,
+          "section": "Financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 58,
+          "section": "financial statements in this"
+        },
+        {
+          "source": "filing",
+          "page": 547,
+          "section": "Consolidated financial statements"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Key Risks",
+      "body": "The key risks associated with AXISBANK's operations are primarily related to its derivative transactions. The Bank undertakes various derivative transactions, including Over the Counter (OTC) and Exchange Traded derivative transactions, which expose it to credit, market, legal, reputation, and operational risks. The Bank has implemented a risk management framework to mitigate these risks, including setting up risk limits for parameters such as PV01, VaR, Stop Loss, Delta, Gamma, and Vega. Additionally, the Bank ensures that the Gross PV01 position arising out of all non-option rupee derivative contracts are within 0.25% of its net worth as on the Balance Sheet date.\n\nThe Bank's derivative transactions are also subject to regulatory risks, as they are governed by the extant RBI guidelines. Furthermore, the Bank's forward-looking statements are subject to risks, uncertainties, and external factors, which may cause actual results to differ materially from projections. The Bank has identified material issues, including risk management, corporate governance, and regulatory compliance, which are guided by its integrated reporting framework. However, without additional information on the Bank's financial performance and peer comparison data, it is challenging to assess the magnitude of these risks.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 442,
+          "section": "Financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 58,
+          "section": "financial statements in this"
+        },
+        {
+          "source": "filing",
+          "page": 487,
+          "section": "consolidated financial statements."
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Recent Developments",
+      "body": "The 'Recent Developments' section of this report is limited due to the nature of the provided filing excerpts, which primarily focus on the Bank's derivative transactions and risk management mechanisms. As of the Integrated Annual Report 2024-25, Axis Bank has been actively engaged in managing its derivative transactions for both balance sheet management and proprietary trading/market making. The Bank offers a range of derivative products to its customers to help them hedge against interest rate and currency risks, in compliance with prevalent regulatory guidelines. These products include Exchange Traded Currency Options, Interest Rate Futures, and Rupee Interest Rate Swaps, among others.\n\nIn terms of risk management, Axis Bank has implemented a detailed framework that includes functional separation between the Treasury Front Office, Treasury Mid Office, and Treasury Back Office. The Bank also has a Market Risk Group that independently identifies, measures, and monitors market risks associated with derivative transactions. Risk limits are set based on parameters such as PV01, VaR, Stop Loss, Delta, Gamma, and Vega, and actual exposures are monitored against these limits on a daily basis. Notably, the Bank ensures that the Gross PV01 position arising out of all non-option rupee derivative contracts is within 0.25% of its net worth as of the balance sheet date. However, specific financial metrics such as revenue from operations or net profit are not mentioned in the provided excerpts, limiting the scope of this section. Peer comparison is also not possible due to the absence of relevant data.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 442,
+          "section": "Financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 82,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 84,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Bull vs Bear vs Base Case",
+      "body": "The 'Bull vs Bear vs Base Case' scenario for Axis Bank is shaped by its derivative transactions and risk management framework. On the bull case, the bank's ability to manage risks associated with derivative transactions, as evident from its functional separation between Treasury Front Office, Treasury Mid Office, and Treasury Back Office, could lead to increased confidence among investors and customers. The bank's implementation of policies such as the Derivative policy, Suitability and Appropriateness Policy, and Market Risk Management policy, as well as its adherence to RBI guidelines, demonstrates a robust risk management framework. This could potentially lead to increased profitability and growth for the bank.\n\nOn the bear case, the bank's exposure to various risks, including credit, market, legal, reputation, and operational risk, associated with derivative transactions, could lead to significant losses if not managed effectively. The bank's Gross PV01 position, which is required to be within 0.25% of its net worth, is a key metric to watch. However, without specific numbers on the bank's current net worth and Gross PV01 position, it is difficult to assess the bank's risk exposure. As a base case, we assume that the bank will continue to manage its derivative transactions and associated risks effectively, given its established risk management framework and policies in place. However, a detailed analysis of the bank's financial performance and risk metrics is required to make a more informed assessment of its prospects.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 82,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 442,
+          "section": "Financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 84,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Peer Comparison",
+      "body": "Peer Comparison: \nUnfortunately, the provided filing excerpts do not contain sufficient data to facilitate a peer comparison for Axis Bank. The excerpts primarily focus on the bank's derivative transactions, risk management mechanisms, and policies governing these activities. Without comparable data from peer institutions, it is not possible to assess Axis Bank's performance or position relative to its competitors. \n\nTo conduct a meaningful peer comparison, data on key metrics such as revenue from operations, net profit, net worth, or specific aspects of derivative transactions from other banks in the industry would be necessary. However, based on the information provided, such a comparison cannot be undertaken at this time.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 442,
+          "section": "Financial statements"
+        },
+        {
+          "source": "filing",
+          "page": 82,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 84,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    }
+  ],
+  "eval_context": [
+    {
+      "id": "0b745f60-f0e4-49ef-9fe7-7c801554b11e",
+      "content": "Welcome to Axis Bank 30 Integrated Annual Report 2024–25",
+      "ticker": "AXISBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 82,
+      "section_title": "general",
+      "similarity": 0.647163249129541,
+      "retrieval_source": "vector",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "ticker": "AXISBANK",
+      "content": "Integrated Annual Report 2024-25 392 Derivatives are financial instruments whose characteristics are derived from an underlying asset, or from interest and exchange rates or indices. The Bank undertakes Over the Counter (OTC) and Exchange Traded derivative transactions for Balance Sheet management and also for proprietary trading/market making whereby the Bank offers OTC derivative products to the customers to enable them to hedge their interest rate and currency risks within the prevalent regulatory guidelines. Proprietary trading includes Exchange Traded Currency Options, Interest Rate Futures, Currency Futures and Rupee Interest Rate Swaps under different benchmarks (viz. MIBOR, Modified MIFOR, LIBOR, ARR and INBMK), Currency Options, Currency Swaps and Non Deliverable derivatives. The Bank also undertakes transactions in Cross Currency Swaps, Principal Only Swaps, Coupon Only Swaps, Currency Options, Interest Rate Swaps, Exotic Derivatives and Long Term Forex Contracts (LTFX) for hedging its Balance Sheet and also offers them to its customers. These transactions expose the Bank to various risks, primarily credit, market, legal, reputation and operational risk. The Bank has adopted the following mechanism for managing risks arising out of the derivative transactions. There is a functional separation between the Treasury Front Office, Treasury Mid Office and Treasury Back Office to undertake derivative transactions. The customer and interbank related derivative transactions are originated by Derivative sales and Treasury Front Office team respectively which ensures compliance with the trade origination requirements as per the Bank’s policy and the RBI guidelines. The Market Risk Group within the Bank’s Risk Department independently identifies, measures and monitors the market risks associated with derivative transactions and apprises the Asset Liability Management Committee (ALCO) and the Risk Management Committee of the Board (RMC) on the compliance with the risk limits. The Treasury Back Office undertakes activities such as trade validation, confirmation, settlement, ISDA and related documentation, post deal documentation, accounting, valuation and other MIS reporting. The derivative transactions are governed by the Derivative policy, Suitability and Appropriateness Policy for derivative products, Market Risk Management policy, Hedging policy and the Asset Liability Management (ALM) policy of the Bank as well as by the extant RBI guidelines. The Bank has implemented policy on customer suitability & appropriateness to ensure that derivatives transactions entered into are appropriate and suitable to the customer. The Bank has put in place a detailed process flow on documentation for customer derivative transactions for effective management of operational/reputation/compliance risk. Various risk limits are set up and actual exposures are monitored vis-à-vis the limits allocated. These limits are set up taking into account market volatility, risk appetite, business strategy and management experience. Risk limits are in place for risk parameters viz. PV01, VaR, Stop Loss, Delta, Gamma and Vega. Actual positions are monitored against these limits on a daily basis and breaches, if any, are dealt with in accordance with board approved Risk Appetite Statement. Risk assessment of the portfolio is undertaken periodically. The Bank ensures that the Gross PV01 (Price value of a basis point) position arising out of all non-option rupee derivative contracts are within 0.25% of net worth of the Bank as on Balance Sheet date.",
+      "chunk_index": 678,
+      "page_number": 442,
+      "section_title": "Financial statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\AXISBANK_FY25.json"
+      },
+      "similarity": 12.920007004258432,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "id": "3ae6774f-07d4-4757-84d3-2c782f5ba153",
+      "content": "Welcome to Axis Bank 32 Integrated Annual Report 2024–25",
+      "ticker": "AXISBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 84,
+      "section_title": "general",
+      "similarity": 0.641019225120549,
+      "retrieval_source": "vector",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "ticker": "AXISBANK",
+      "content": "the Standalone Balance Sheet as at 31 March 2025, the Standalone Profit And Loss Account, and the Standalone Cash",
+      "chunk_index": 538,
+      "page_number": 375,
+      "section_title": "We have audited the accompanying Standalone Financial Statements of Axis Bank Limited (‘the Bank’), which comprise",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\AXISBANK_FY25.json"
+      },
+      "similarity": 12.169664041740534,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "id": "bf6f7305-b03c-4268-9dd2-b7d7446465f2",
+      "content": "a. Asset/Liability items are stated in INR equivalent of USD ($1 = `85.475 as on 31 March, 2025). Profit and loss items reported in INR based on rates prevailing on the date of transactions. b. Axis Capital USA LLC is a wholly owned subsidiary of Axis Capital Ltd. (a wholly owned subsidiary of Axis Bank Ltd.), Asset/Liability items are stated in INR equivalent of USD ($1 = `85.475 as on 31 March, 2025).Profit and loss items are stated in INR equivalent of average rate during financial year ended 31 March 2025. c. In terms of revised Accounting Standard (AS) 4 ‘Contingencies and Events occurring after the Balance sheet date’ as notified by the Ministry of Corporate Affairs through amendment to Companies (Accounting Standards) Amendment Rules, 2016, dated 30 March, 2016, proposed dividend has not been recognised as a liability by the subsidiaries as on 31 March, 2025. 1. Names of subsidiaries which are yet to commence operations: Nil 2. Names of subsidiaries which have been liquidated or sold during the year: Nil Form AOC-1 Statement pursuant to first proviso to Sub-Section (3) of Section 129 read with rule 5 of the Companies (Accounts) Rules, 2014",
+      "ticker": "AXISBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 550,
+      "section_title": "Notes:",
+      "similarity": 0.634348725430478,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "ticker": "AXISBANK",
+      "content": "Integrated Annual Report 2024-25 488 1.12 Employee Benefits Group Provident Fund The contribution to the employee’s provident fund (including Employee Pension Scheme) of the Group amounted to `460.67 crores for the year ended 31 March, 2025 (previous year `408.92 crores). Axis Bank Ltd. The rules of the Bank’s Provident Fund administered by a Trust require that if the Board of Trustees are unable to pay interest at the rate declared for Employees’ Provident Fund by the Government under para 60 of the Employees’ Provident Fund Scheme, 1952 for the reason that the return on investment is less or for any other reason, then the deficiency shall be made good by the Bank. Based on an actuarial valuation conducted by an independent actuary, there is no deficiency in the Trust observed as at the Balance Sheet date. The following tables summarises the components of net benefit expenses recognised in the Profit and Loss Account and funded status and amounts recognised in the Balance Sheet for the Provident Fund benefit plan (including staff deputed at subsidiaries). Profit and Loss Account Net employee benefit expenses (recognised in payments to and provisions for employees) (` in crores) 31 March, 2025 31 March, 2024 Current Service Cost 288.99 251.33 Interest on Defined Benefit Obligation 324.38 297.90 Expected Return on Plan Assets (385.65) (344.84) Net Actuarial Losses/(Gains) recognised in the year 4.20 4.16 Losses / (gains) on Acquisition - - Effect of the limit in Para 59(b) of Accounting Standard – 15 57.07 42.78 Total included in “Employee Benefit Expense” [Schedule 16(I)] 288.99 251.33 Actual Return on Plan Assets 453.51 381.61 Balance Sheet Details of provision for provident fund (` in crores) 31 March, 2025 31 March, 2024 Fair Value of Plan Assets 5,178.59 4,519.51 Present Value of Funded Obligations (5,004.56) (4,402.55) Net asset 174.03 116.96 Amount not recognized as an asset (limit in Para 59(b) of Accounting Standard – 15) (174.03) (116.96) Net Asset/ (Liability) - - Amounts in Balance Sheet Liabilities - - Assets - - Net Asset/(Liability) - -",
+      "chunk_index": 905,
+      "page_number": 538,
+      "section_title": "Financial statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\AXISBANK_FY25.json"
+      },
+      "similarity": 11.927213664874026,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "id": "0f24a5bd-fe2b-4928-adbf-012435ce6abe",
+      "content": "Welcome to Axis Bank 8 Integrated Annual Report 2024–25",
+      "ticker": "AXISBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 60,
+      "section_title": "general",
+      "similarity": 0.633247353628121,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015625
+    },
+    {
+      "ticker": "AXISBANK",
+      "content": "or ‘the Bank’), its subsidiaries (the Holding Company and its subsidiaries together referred to as “the Group”), and its associates, which comprise the Consolidated Balance Sheet as at 31 March 2025, and the Consolidated Profit and Loss",
+      "chunk_index": 737,
+      "page_number": 481,
+      "section_title": "We have audited the accompanying Consolidated Financial Statements of Axis Bank Limited (‘the Holding Company’",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\AXISBANK_FY25.json"
+      },
+      "similarity": 11.437493175740999,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015625
+    },
+    {
+      "id": "37ec4d80-b176-49d6-8026-72d593966263",
+      "content": "report have been independently audited by: −M/s. M M Nissim & Co LLP, Chartered Accountants (FRN 107122W/W100672) −M/s. KKC & Associates LLP, Chartered Accountants (FRN 105146W/W100621) » SGS India Private Ltd. (SGS India) has externally assured the Business Responsibility and Sustainability Report (BRSR) Core. The said Assurance Statement is available on our website as part of the BRSR. ‘Reasonable Assurance’ is provided for the BRSR Core. Feedback We value your feedback that would enable us to disclose relevant information in an effective and transparent manner. Please write to us at shareholders@axisbank.com Our Material Issues Forward–Looking Statement This report includes certain forward–looking statements based on current expectations, market trends, and strategic assumptions. These statements are subject to risks, uncertainties, and external factors, which may cause actual results to differ materially from projections. Axis Bank is not obligated to update these statements unless required to do so by law. Approval by the Board of Directors » The Bank acknowledges the integrity of the information provided in this Integrated Annual Report and believes that the report is a fair and balanced view of the Bank’s performance and prospects within the Integrated Reporting Framework. » The Board is informed that the report aligns with the Integrated Reporting Framework and acknowledges that the information provided in the Report has been reviewed and approved by the respective business units and top management. Our Integrated Reporting Process Our Integrated Report follows a structured and transparent preparation process to ensure accuracy, relevance, and alignment with global best practices: A dedicated reporting team oversees the process, incorporating both internal and external feedback to enhance the quality of the report. Senior management and the Board provide oversight, ensuring the report aligns with the Bank’s strategic vision and stakeholder expectations. Materiality assessment and risk management frameworks guide the identification of key themes and disclosures. Data and insights are sourced through leadership interviews, internal reporting mechanisms, and regulatory guidelines. M1 Regulatory Compliance M2 \u0007Corporate Governance & Ethical Business Conduct M3 Risk Management M4 \u0007Fraud & Money Laundering – Prevention, Detection & Mitigation M5 Privacy and Data Security M6 Customer Experience & Satisfaction M7 Innovation and Digitalisation M8 Impact of Climate Change M9 Financial Inclusion, Literacy & Access M10 \u0007Community Engagement & Development M11 Diversity, Equity, and Inclusion M12 \u0007Sustainable Finance & Responsible Banking M13 Employee Engagement, Development & Wellbeing M14 Policy Advocacy and Thought leadership M15 Return on Equity and Return to Shareholders 6 Integrated Annual Report 2024–25",
+      "ticker": "AXISBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 58,
+      "section_title": "financial statements in this",
+      "similarity": 0.612046892527958,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "ticker": "AXISBANK",
+      "content": "Integrated Annual Report 2024-25 490 National Pension Scheme (NPS) During the year, the Group has contributed `22.22 crores (previous year `15.54 crores) to the NPS for employees who have opted for the scheme. Leave Encashment The liability of compensated absences of accumulated privileged leave of the employees of the Group, based on actuarial valuation is given below. (` in crores) 31 March, 2025 Liability - Privilege Leave Total Expenses included under Schedule 16(I) Assumptions Discount Rate Salary escalation rate Axis Capital Ltd. 0.19 0.07 6.54% 7.83% Freecharge Payment Technologies Pvt. Ltd. 6.38 2.57 6.59% 8.50% (` in crores) 31 March, 2024 Liability - Privilege Leave Total Expenses included under Schedule 16(I) Assumptions Discount Rate Salary escalation rate Axis Capital Ltd. 0.12 (0.34) 7.18% 4.23% A.Treds Ltd. 0.52 0.16 7.25% 10.00% Freecharge Payment Technologies Pvt. Ltd. 5.21 1.75 7.14% 8.00% Group Gratuity The following tables summarises the components of net benefit expenses recognised in the Profit and Loss Account and funded status and amounts recognised in the Balance Sheet for the Gratuity benefit plan. Profit and Loss Account Net employee benefit expenses (recognised in payments to and provisions for employees) (` in crores) 31 March, 2025 31 March, 2024 Current Service Cost 119.82 94.24 Interest on Defined Benefit Obligation 66.83 56.48 Expected Return on Plan Assets (52.69) (49.13) Net Actuarial Losses/(Gains) recognised in the year 16.39 80.67 Losses / (gains) on Acquisition - - Past Service Cost - 2.26 Total included in “Employee Benefit Expense” [Schedule 16(1)] 150.35 184.52 Actual Return on Plan Assets 66.57 47.45 Balance Sheet Details of provision for gratuity (` in crores) 31 March, 2025 31 March, 2024 Present Value of Funded Obligations (1,000.67) (858.80) Present Value of un-funded Obligations (9.03) (5.54) Fair Value of Plan Assets 955.00 762.04 Unrecognised Past Service Cost - - Net Asset/ (Liability) (54.70) (102.30) Amounts in Balance Sheet Liabilities 54.70 102.30 Assets - - Net Asset/(Liability) (included under Schedule 11 Other Assets / Schedule 5 – Other Liabilities) (54.70) (102.30)",
+      "chunk_index": 907,
+      "page_number": 540,
+      "section_title": "Financial statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\AXISBANK_FY25.json"
+      },
+      "similarity": 11.139675819157606,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "id": "41f34620-3f8f-43e7-b7c7-ebb4343c7fe5",
+      "content": "Integrated Annual Report 2024-25 492 Axis Capital Ltd. 31 March, 2025 31 March, 2024 The major categories of plan assets* as a percentage of fair value of total plan assets – Insurer Managed Funds 100.00% 100.00% *composition of plan assets is not available 31 March, 2025 31 March, 2024 Principal actuarial assumptions at the balance sheet date: Discount Rate 6.54% 7.18% Expected rate of Return on Plan Assets 6.54% 7.18% Salary Escalation Rate 7.83% 4.23% Employee Turnover 37.15% 18.75% Axis Asset Management Company Ltd. 31 March, 2025 31 March, 2024 The major categories of plan assets* as a percentage of fair value of total plan assets – Insurer Managed Funds 100.00% 100.00% *composition of plan assets is not available 31 March, 2025 31 March, 2024 Principal actuarial assumptions at the balance sheet date: Discount Rate 6.70% 7.25% Expected rate of Return on Plan Assets 7.00% 7.00% Salary Escalation Rate 11.00% 11.00% Employee Turnover 15.00% - 20.00% 15.00% - 20.00% Axis Securities Ltd. 31 March, 2025 31 March, 2024 The major categories of plan assets* as a percentage of fair value of total plan assets – Insurer Managed Funds 100.00% 100.00% *composition of plan assets is not available 31 March, 2025 31 March, 2024 Principal actuarial assumptions at the balance sheet date: Discount Rate 6.55% 7.15% Expected rate of Return on Plan Assets 7.00% 7.00% Salary Escalation Rate 10.00% 8.50% Employee Turnover - 21 to 44 (age in years) (managerial) 23.00% 25.00% - 21 to 44 (age in years) (non managerial) 45.00% 45.00% - 45 to 59 (age in years) (managerial) 17.00% 20.00% - 45 to 59 (age in years) (non managerial) 18.00% 18.00% Axis Finance Ltd. 31 March, 2025 31 March, 2024 The major categories of plan assets* as a percentage of fair value of total plan assets – Insurer Managed Funds 100.00% 100.00% *composition of plan assets is not available",
+      "ticker": "AXISBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 542,
+      "section_title": "Financial statements",
+      "similarity": 0.605500340461735,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015151515151515152
+    },
+    {
+      "ticker": "AXISBANK",
+      "content": "Integrated Annual Report 2024-25 354 Valuation of Exchange Traded Currency Options (‘ETCO’) is carried out using internal pricing models and valuation of Interest Rate Futures (‘IRF’) is carried out on the basis of the daily settlement price of each contract provided by the exchange. Premium on options is recognized as income/expense on expiry or early termination of the transaction. Hedging derivatives including funding swaps Foreign exchange forward contracts not intended for trading (including funding swaps), that are entered into to establish the amount of reporting currency required or available at the settlement date of a transaction, and are outstanding at the Balance Sheet date, are effectively valued at the closing spot rate. The premium or discount arising at the inception of such forward exchange contract is amortised on a straight line basis as expense or income over the life of the contract. For hedge transactions through other derivatives, the Bank identifies the hedged item (asset or liability) at the inception of transaction itself. The effectiveness is ascertained at the time of inception of the hedge and periodically thereafter. In case of a fair value hedge, the changes in the fair value of the hedging instruments and hedged items are recognized in the Profit and Loss Account and in case of cash flow hedges, the change in fair value of hedging instrument for the effective portion is recognised in Schedule 2- ‘Reserves and Surplus’ under ‘Cash Flow Hedge Reserve’ and the ineffective portion of an effective hedging relationship, if any, is recognised in the Profit and Loss Account. The accumulated balance in the Cash Flow Hedge Reserve, in an effective hedging relationship, is recycled in the Profit and Loss Account at the same time that the impact from the hedged item is recognised in the Profit and Loss Account. Provisioning Pursuant to the RBI guidelines, any receivables under derivative contracts comprising of crystallised receivables as well as positive MTM in respect of future receivables which remain overdue for more than 90 days are reversed through the Profit and Loss account and are held in a separate suspense account under Schedule 5 – ‘Other Liabilities and Provisions’. 5.9 Revenue recognition Interest income is recognised on an accrual basis in accordance with AS–9, Revenue Recognition as notified under Section 133 of the Companies Act, 2013 read together with the Companies (Accounts) Rules, 2014, the Companies (Accounting Standards) Rules, 2021 and the RBI guidelines, except in the case of interest income on non-performing assets where it is recognised on receipt basis as per the income recognition and asset classification norms of RBI. Any discount or premium on the investments in debt-securities is amortised as interest income over the remaining life of the instrument. Interest income on investments in PTCs is recognized on a constant yield basis. Commission on Guarantees and Letters of Credit (‘LC’) is recognized on a pro-rata basis over the period of the Guarantee/ LC. Locker rent is recognized on a straight-line basis over the period of contract. Annual fee for credit cards and debit cards is recognised on a straight-line basis over the",
+      "chunk_index": 627,
+      "page_number": 404,
+      "section_title": "Financial statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\AXISBANK_FY25.json"
+      },
+      "similarity": 11.077089665307614,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015151515151515152
+    },
+    {
+      "id": "7d40752e-6e09-4781-9879-68d600884fea",
+      "content": "497 (` in crores) Name of the entity Net assets as of 31 March, 2025 Profit or (loss) for the year ended 31 March, 2025 Amount1 As % of consolidated net assets2 Amount1 As % of consolidated profit or loss Freecharge Payment Technologies Private Limited 349.38 0.19% (42.29) (0.15%) Freecharge Business and Technology Services Limited 38.39 0.02% (1.61) (0.01%) A.Treds Limited 72.40 0.04% 37.62 0.13% Step down Subsidiaries: Axis Pension Fund Management Limited 58.25 0.03% (3.86) (0.01%) Axis Capital USA LLC 5.09 0.00% 0.12 0.00% Minority Interest 635.13 0.34% (135.69) (0.48%) Associate: Axis Max Life Insurance Company Limited - - 79.06 0.28% * less than 0.005% 1. Amounts are before inter-company adjustments. 2. Consolidated net assets are total assets minus total liabilities including minority interest. Additional information to consolidated accounts at March 31, 2024 (Pursuant to Schedule III of the Companies Act, 2013) : (` in crores) Name of the entity Net assets as of 31 March, 2024 Profit or (loss) for the year ended 31 March, 2024 Amount1 As % of consolidated net assets2 Amount1 As % of consolidated profit or loss Parent: Axis Bank Limited 150,235.00 96.22% 24,861.43 94.22% Subsidiaries: Axis Capital Limited 992.56 0.64% 150.42 0.57% Axis Trustee Services Limited 99.82 0.06% 24.66 0.09% Axis Mutual Fund Trustee Limited 1.16 0.00%* 0.17 0.00%* Axis Asset Management Company Limited 1,860.50 1.19% 414.04 1.57% Axis Bank UK Limited 469.14 0.30% 10.26 0.04% Axis Finance Limited 4,103.53 2.63% 610.37 2.31% Axis Securities Limited 1,218.54 0.78% 300.96 1.14% Freecharge Payment Technologies Private Limited 391.67 0.25% 78.86 0.30% A.Treds Limited 34.77 0.02% 17.81 0.07% Step down Subsidiaries: Axis Pension Fund Management Limited 62.11 0.04% (6.41) (0.02%) Axis Capital USA LLC 4.85 0.00% 0.12 0.00% Minority Interest (499.44) (0.32%) (106.05) (0.40%) Associate: Max Life Insurance Company Limited - - 68.71 0.26% * less than 0.005% 1. Amounts are before inter-company adjustments. 2. Consolidated net assets are total assets minus total liabilities including minority interest. 1.18 Description of contingent liabilities a) Claims against the Group not acknowledged as debts These represent claims filed against the Group in the normal course of business relating to various legal cases currently in progress. These also include demands raised by tax authorities and other statutory authorities which are disputed by the Group. The Group holds provision of `904.76 crores as on 31 March, 2025 (previous year `372.60 crores) towards claims assessed as probable.",
+      "ticker": "AXISBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 547,
+      "section_title": "Consolidated financial statements",
+      "similarity": 0.591290568786298,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014925373134328358
+    },
+    {
+      "ticker": "AXISBANK",
+      "content": "Integrated Annual Report 2024-25 336 Schedules forming part of the Balance Sheet As on 31 March, 2025 Schedule 1 - Capital (` in Thousands) As on 31-03-2025 As on 31-03-2024 Authorised Capital 4,250,000,000 (Previous year - 4,250,000,000) Equity Shares of `2/- each 8,500,000 8,500,000 Issued, Subscribed and Paid-up Capital 3,097,369,066 (Previous year - 3,086,570,375) Equity Shares of `2/- each fully paid-up 6,194,738 6,173,141 Schedule 1A - Employees’ Stock Options Outstanding (` in Thousands) As on 31-03-2025 As on 31-03-2024 I. Opening Balance 8,265,768 4,234,118 Additions during the year1 4,239,659 4,543,315 Deductions during the year2 (1,423,601) (511,665) Closing Balance 11,081,826 8,265,768 1. \u0007Represents cost of employee stock options/units recognised in P&L during the year of `365.79 crores (previous year `400.70 crores) and cost of employee stock options/units of `58.18 crores (previous year `53.63 crores) recovered from group entities 2. \u0007Represents amount transferred to Share Premium on account of exercise of employee stock options/units and to General Reserve on lapses of employee stock options Schedule 2 - Reserves And Surplus (` in Thousands) As on 31-03-2025 As on 31-03-2024 I. Statutory Reserve Opening Balance 266,657,012 204,503,429 Additions during the year 65,933,705 62,153,583 Deductions during the year - - Closing Balance 332,590,717 266,657,012 II. Capital Reserve Opening Balance 39,295,827 37,900,315 Additions during the year [Refer Schedule 18 (1.1)(b)(iii)] 2,143,457 1,395,512 Deductions during the year - - Closing Balance 41,439,284 39,295,827 III. Share Premium Account Opening Balance 524,974,613 518,932,238 Additions during the year 8,181,000 6,042,375 Less: Share issue expenses - - Closing Balance 533,155,613 524,974,613 IV. Revenue And Other Reserves (A) Special Reserve Opening Balance 24,183,200 14,501,900 Additions during the year [Refer Schedule 18 (1.1)(b)(iv)] 10,247,300 9,681,300 Deductions during the year - - Closing Balance 34,430,500 24,183,200",
+      "chunk_index": 593,
+      "page_number": 386,
+      "section_title": "Financial statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\AXISBANK_FY25.json"
+      },
+      "similarity": 10.998760460990301,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014925373134328358
+    },
+    {
+      "id": "41caf099-eac7-4f79-a8f6-6ca48e3dd64f",
+      "content": "Integrated Annual Report 2024-25 206 Statutory reports Dear Members, Your Board of Directors (the “Board”) is pleased to present its 31st Board’s report on the performance of Axis Bank Limited",
+      "ticker": "AXISBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 256,
+      "section_title": "general",
+      "similarity": 0.586840145603432,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014705882352941176
+    },
+    {
+      "ticker": "AXISBANK",
+      "content": "AXIS/CO/CS/147/2025-26 June 27, 2025 National Stock Exchange of India Limited Exchange Plaza, 5th Floor Plot No. C/1, “G” Block Bandra-Kurla Complex Bandra (E), Mumbai – 400 051 NSE Symbol: AXISBANK BSE Limited 1st Floor, P. J. Towers, Dalal Street Fort, Mumbai – 400 001 BSE Scrip Code: 532215 Dear Sir/Madam, SUB: NOTICE OF THE 31ST ANNUAL GENERAL MEETING (THE “AGM”) AND THE INTEGRATED ANNUAL REPORT OF AXIS BANK LIMITED (THE “BANK”) REF: REGULATIONS 30 AND 34 OF THE SEBI (LISTING OBLIGATIONS AND DISCLOSURE REQUIREMENTS) REGULATIONS, 2015 (THE “SEBI LISTING REGULATIONS”) In reference to our letter no. AXIS/CO/CS/31/2025-26 dated April 25, 2025, inter alia, informing the exchanges about the 31st AGM of the Bank to be held on Friday, July 25, 2025, through video conferencing / other audio-visual means, and pursuant to Regulations 30 and 34 of the SEBI Listing Regulations, please find enclosed herewith the Notice of the 31st AGM, dated April 25, 2025, (the “Notice”) and the Integrated Annual Report of the Bank for fiscal 2025. The Notice and the Integrated Annual Report are also available on the website of the Bank at https://www.axisbank.com/shareholders-corner/shareholders-information/general-meeting. Brief details of the business(es) proposed to be transacted at the AGM are enclosed as Annexure A. This is for your information and records. Thanking You. Yours faithfully, For Axis Bank Limited Sandeep Poddar Company Secretary Encl.: as above CC: London Stock Exchange Singapore Stock Exchange Sandeep Poddar Digitally signed by Sandeep Poddar Date: 2025.06.27 10:28:46 +05'30'",
+      "chunk_index": 0,
+      "page_number": 1,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\AXISBANK_FY25.json"
+      },
+      "similarity": 10.830398800912285,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014705882352941176
+    },
+    {
+      "id": "0ee40d00-3558-48cd-a602-ae41499c1d59",
+      "content": "Integrated Annual Report 2024-25 434 The auditors of Axis Finance Limited, vide their audit report dated 17 April 2025, have expressed an unmodified opinion on the",
+      "ticker": "AXISBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 484,
+      "section_title": "Financial statements",
+      "similarity": 0.568125128746037,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014492753623188406
+    },
+    {
+      "ticker": "AXISBANK",
+      "content": "Our opinion is not modified in respect of this matter. Report on Other Legal and Regulatory Requirements 22. The Consolidated Balance Sheet and the Consolidated Profit And Loss Account have been drawn up in accordance with the provisions of section 29 of the Banking Regulation Act, 1949 and section 133 of the Act. 23. Further, as required by Section 143(3) of the Act, based on our audit and on the consideration of the reports of the other",
+      "chunk_index": 782,
+      "page_number": 487,
+      "section_title": "consolidated financial statements.",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\AXISBANK_FY25.json"
+      },
+      "similarity": 10.769741904612852,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014492753623188406
+    },
+    {
+      "id": "a842a0a6-7c5c-47db-8b68-17e5736e2b57",
+      "content": "325 Independent Auditor’s Report To The Members of Axis Bank Limited",
+      "ticker": "AXISBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 375,
+      "section_title": "Standalone financial statements",
+      "similarity": 0.567990064620976,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014285714285714285
+    },
+    {
+      "ticker": "AXISBANK",
+      "content": "Integrated Annual Report 2024-25 426 Experience adjustments (` in crores) 31 March, 2025 31 March, 2024 31 March, 2023 31 March, 2022 31 March, 2021 Defined Benefit Obligations 947.96 816.79 677.86 547.55 516.43 Plan Assets 914.54 726.76 678.09 559.68 508.22 Surplus/(Deficit) (33.42) (90.03) 0.23 12.13 (8.21) Experience Adjustments on Plan Liabilities (5.36) 11.62 3.97 25.88 (9.28) Experience Adjustments on Plan Assets 14.06 (2.46) (19.73) 9.45 6.38 Major categories of plan assets (managed by Insurers) as a percentage of fair value of total plan assets 31 March, 2025 31 March, 2024 Government securities 53% 42% Bonds, debentures and other fixed income instruments 38% 30% Money market instruments 3% 2% Equity shares 4% 3% Balance in bank & others 2% 23% Principal actuarial assumptions at the Balance Sheet date: 31 March, 2025 31 March, 2024 Discount Rate 6.80% p.a. 7.20% p.a. Expected Rate of Return on Plan Assets 7.00% p.a. 7.00% p.a. Salary Escalation Rate 8.00% p.a. 8.00% p.a. Employee Turnover - 21 to 30 (age in years) 24.00% 24.00% - 31 to 44 (age in years) 14.00% 14.00% - 45 to 59 (age in years) 8.00% 8.00% The estimates of future salary increases considered in actuarial valuation take account of inflation, seniority, promotion and other relevant factors. The expected rate of return on plan assets is based on the average long-term rate of return expected on investments of the Fund during the estimated term of the obligations. As the contribution expected to be paid to the plan during the annual period beginning after the balance sheet date is based on various internal/external factors, a best estimate of the contribution is not determinable. The above information is as certified by the actuary and relied upon by the auditors. Resettlement allowance Profit and Loss account During the year ended 31 March, 2025, the Bank made a provision of `0.21 crores (previous year `Nil) towards liability in respect of resettlement allowance based on actuarial valuation conducted by an independent actuary. Balance Sheet (` in crores) 31 March, 2025 31 March, 2024 Current liability 0.46 0.54 Non current liability 3.24 2.95 Net Liability as per actuarial valuation (included under Schedule 5 – Other Liabilities) 3.70 3.49",
+      "chunk_index": 727,
+      "page_number": 476,
+      "section_title": "Financial statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\AXISBANK_FY25.json"
+      },
+      "similarity": 10.664479845143845,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014285714285714285
+    },
+    {
+      "id": "7ca516f0-7c95-415a-bfc5-6a9397161570",
+      "content": "421 (` in crores) Particulars 31 March, 2025 31 March, 2024 Axis Asset Management Company Limited 30.06 31.87 Axis Finance Limited 8.45 14.35 Other reimbursements to related party Axis Capital Limited 5.28 4.09 Axis UK Limited - 0.16 Freecharge Payment Technologies Private Limited 0.02 0.15",
+      "ticker": "AXISBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 471,
+      "section_title": "Standalone financial statements",
+      "similarity": 0.646734118461609,
+      "retrieval_source": "vector",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "ticker": "AXISBANK",
+      "content": "Integrated Annual Report 2024-25 414 (` in crores) 31 March, 2024 Treasury Corporate/ Wholesale Banking Retail Banking Other Banking Business Unallocated Total Digital Banking Business Other Retail Banking Business Total Retail Banking Segment Revenue Gross interest income (external customers) 22,244.24 30,895.03 11,564.11 44,590.24 56,154.35 75.01 - 109,368.63 Other income 3,053.43 4,401.77 7,026.13 4,451.54 11,477.67 3,509.09 - 22,441.96 Total income as per Profit and Loss Account 25,297.67 35,296.80 18,590.24 49,041.78 67,632.02 3,584.10 - 131,810.59 Add/(less) inter segment interest income 3,633.50 8,915.86 7,526.57 47,065.01 54,591.58 - - 67,140.94 Total segment revenue 28,931.17 44,212.66 26,116.81 96,106.79 1,22,223.60 3,584.10 - 1,98,951.53 Less: Interest expense (external customers) 17,215.96 2,079.46 6,290.16 33,926.31 40,216.47 (37.74) - 59,474.15 Less: Inter segment interest expense 5,114.69 25,575.32 5,455.28 30,995.65 36,450.93 - - 67,140.94 Less: Operating expenses 375.93 4,769.60 10,353.21 19,444.84 29,798.05 269.70 - 35,213.28 Operating profit 6,224.59 11,788.28 4,018.16 11,739.99 15,758.15 3,352.14 - 37,123.16 Less: Provision for non-performing assets/others1 (4.54) (1,474.30) 2,895.29 2,647.45 5,542.74 (0.81) - 4,063.09 Segment result 6,229.13 13,262.58 1,122.87 9,092.54 10,215.41 3,352.95 - 33,060.07 Less: Provision for tax 8,198.64 Extraordinary profit/loss - Net Profit 24,861.43 Segment assets 484,536.90 385,984.29 107,119.17 492,442.77 599,561.94 1,061.37 6,064.10 14,77,208.60 Segment liabilities 261,497.26 226,266.46 124,919.44 708,005.87 832,925.31 62.26 6,222.31 13,26,973.60 Net assets 223,039.64 1,59,717.83 (17,800.27) (215,563.10) (233,363.37) 999.11 (158.21) 1,50,235.00 Capital expenditure for the year 15.44 447.59 329.77 1,371.27 1,701.05 41.30 (16.69) 2,188.67 Depreciation on fixed assets for the year 9.45 274.08 199.44 842.19 1,041.63 25.30 (16.69) 1,333.75 1. represents material non-cash items other than depreciation",
+      "chunk_index": 710,
+      "page_number": 464,
+      "section_title": "Financial statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\AXISBANK_FY25.json"
+      },
+      "similarity": 11.283808623276856,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "id": "883ef076-a297-4491-9e3b-11646fdf80be",
+      "content": "481 Segmental results are set out below: (` in crores) 31 March, 2025 Treasury Corporate/ Wholesale Banking Retail Banking Other Banking Business Unallocated Total Digital Banking Business Other Retail Banking Business Total Retail Banking Segment Revenue Gross interest income (external customers) 25,251.54 35,230.05 15,446.07 51,077.71 66,523.78 - 368.72 127,374.09 Other income 3,555.25 5,682.83 7,685.28 5,658.08 13,343.36 5,961.33 - 28,542.77 Total income as per Profit and Loss Account 28,806.79 40,912.88 23,131.35 56,735.79 79,867.14 5,961.33 368.72 155,916.86 Add/(less) inter segment interest income 3,545.25 8,447.91 11,189.01 53,694.40 64,883.41 - - 76,876.57 Total segment revenue 32,352.04 49,360.79 34,320.36 1,10,430.19 1,44,750.55 5,961.33 368.72 232,793.43 Less: Interest expense (external customers) 20,479.18 1,705.37 9,215.82 39,635.94 48,851.76 - - 71,036.31 Less: Inter segment interest expense 5,368.43 29,251.88 7,164.82 35,091.44 42,256.26 - - 76,876.57 Less: Operating expenses 491.47 6,012.71 10,151.13 22,477.19 32,628.32 859.54 - 39,992.04 Operating profit 6,012.96 12,390.83 7,788.59 13,225.62 21,014.21 5,101.79 368.72 44,888.51 Less: Provision for non-performing assets/others1 (1,182.68) (844.29) 5,590.49 4,631.47 10,221.96 0.02 (28.66) 8,166.35 Segment result 7,195.64 13,235.12 2,198.10 8,594.15 10,792.25 5,101.77 397.38 36,722.16 Less: Provision for tax 8,610.42 Net Profit before minority interest and earnings from Associate 28,111.74 Less: Minority Interest 135.69 Add: Share of Profit in Associate 79.06 Extraordinary profit/loss - Net Profit 28,055.11 Segment assets 535,932.97 445,384.54 127,728.56 537,802.52 665,531.08 3,224.78 6,889.24 1,656,962.61 Segment liabilities 294,035.21 233,574.59 174,174.82 760,214.82 934,389.64 231.22 8,679.122 1,470,909.78 Net assets 241,897.76 211,809.95 (46,446.26) (222,412.30) (268,858.56) 2,993.56 (1,789.88) 186,052.83 Capital expenditure for the year 14.88 509.33 458.99 1,522.44 1,981.43 86.14 - 2,591.78 Depreciation on fixed assets for the year 10.24 346.36 315.83 1,045.57 1,361.40 48.97 - 1,766.97 1. represents material non-cash items other than depreciation",
+      "ticker": "AXISBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 531,
+      "section_title": "Consolidated financial statements",
+      "similarity": 0.630101009595278,
+      "retrieval_source": "vector",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "ticker": "AXISBANK",
+      "content": "413 Segmental results are set out below: (` in crores) 31 March, 2025 Treasury Corporate/ Wholesale Banking Retail Banking Other Banking Business Unallocated Total Digital Banking Business Other Retail Banking Business Total Retail Banking Segment Revenue Gross interest income (external customers) 25,118.44 33,445.55 15,446.07 48,298.26 63,744.33 - 368.72 1,22,677.04 Other income 3,548.12 4,686.88 7,685.28 4,615.27 12,300.55 4,721.51 - 25,257.06 Total income as per Profit and Loss Account 28,666.56 38,132.43 23,131.35 52,913.53 76,044.88 4,721.51 368.72 1,47,934.10 Add/(less) inter segment interest income 1,245.89 8,447.91 11,189.01 53,694.40 64,883.41 - - 74,577.21 Total segment revenue 29,912.45 46,580.34 34,320.36 1,06,607.93 1,40,928.29 4,721.51 368.72 2,22,511.31 Less: Interest expense (external customers) 18,071.06 1,730.95 9,215.82 39,311.39 48,527.21 - - 68,329.22 Less: Inter segment interest expense 5,368.43 28,066.80 7,164.82 33,977.16 41,141.98 - - 74,577.21 Less: Operating expenses 482.91 5,381.95 10,151.13 21,225.61 31,376.74 258.35 - 37,499.95 Operating profit 5,990.05 11,400.64 7,788.59 12,093.77 19,882.36 4,463.16 368.72 42,104.93 Less: Provision for non-performing assets/others1 (1,182.68) (963.43) 5,590.49 4,342.61 9,933.10 0.02 (28.66) 7,758.35 Segment result 7,172.73 12,364.07 2,198.10 7,751.16 9,949.26 4,463.14 397.38 34,346.58 Less: Provision for tax 7,973.10 Extraordinary profit/loss - Net Profit 26,373.48 Segment assets 538,714.45 425,365.09 127,728.56 510,614.06 638,342.62 776.74 6,730.98 16,09,929.88 Segment liabilities 261,334.83 232,941.73 174,174.82 754,850.49 929,025.31 54.49 7,956.58 14,31,312.94 Net assets 2,77,379.62 1,92,423.36 (46,446.26) (2,44,236.43) (2,90,682.69) 722.25 (1,225.60) 1,78,616.94 Capital expenditure for the year 14.88 485.49 458.99 1,463.06 1,922.04 46.90 - 2,469.31 Depreciation on fixed assets for the year 10.24 334.07 315.83 1,006.72 1,322.56 32.27 - 1,699.14 1. represents material non-cash items other than depreciation",
+      "chunk_index": 709,
+      "page_number": 463,
+      "section_title": "Standalone financial statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\AXISBANK_FY25.json"
+      },
+      "similarity": 11.263758619678176,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "id": "16d95354-d9a8-46ae-8385-b9415d70ddc8",
+      "content": "413 Segmental results are set out below: (` in crores) 31 March, 2025 Treasury Corporate/ Wholesale Banking Retail Banking Other Banking Business Unallocated Total Digital Banking Business Other Retail Banking Business Total Retail Banking Segment Revenue Gross interest income (external customers) 25,118.44 33,445.55 15,446.07 48,298.26 63,744.33 - 368.72 1,22,677.04 Other income 3,548.12 4,686.88 7,685.28 4,615.27 12,300.55 4,721.51 - 25,257.06 Total income as per Profit and Loss Account 28,666.56 38,132.43 23,131.35 52,913.53 76,044.88 4,721.51 368.72 1,47,934.10 Add/(less) inter segment interest income 1,245.89 8,447.91 11,189.01 53,694.40 64,883.41 - - 74,577.21 Total segment revenue 29,912.45 46,580.34 34,320.36 1,06,607.93 1,40,928.29 4,721.51 368.72 2,22,511.31 Less: Interest expense (external customers) 18,071.06 1,730.95 9,215.82 39,311.39 48,527.21 - - 68,329.22 Less: Inter segment interest expense 5,368.43 28,066.80 7,164.82 33,977.16 41,141.98 - - 74,577.21 Less: Operating expenses 482.91 5,381.95 10,151.13 21,225.61 31,376.74 258.35 - 37,499.95 Operating profit 5,990.05 11,400.64 7,788.59 12,093.77 19,882.36 4,463.16 368.72 42,104.93 Less: Provision for non-performing assets/others1 (1,182.68) (963.43) 5,590.49 4,342.61 9,933.10 0.02 (28.66) 7,758.35 Segment result 7,172.73 12,364.07 2,198.10 7,751.16 9,949.26 4,463.14 397.38 34,346.58 Less: Provision for tax 7,973.10 Extraordinary profit/loss - Net Profit 26,373.48 Segment assets 538,714.45 425,365.09 127,728.56 510,614.06 638,342.62 776.74 6,730.98 16,09,929.88 Segment liabilities 261,334.83 232,941.73 174,174.82 754,850.49 929,025.31 54.49 7,956.58 14,31,312.94 Net assets 2,77,379.62 1,92,423.36 (46,446.26) (2,44,236.43) (2,90,682.69) 722.25 (1,225.60) 1,78,616.94 Capital expenditure for the year 14.88 485.49 458.99 1,463.06 1,922.04 46.90 - 2,469.31 Depreciation on fixed assets for the year 10.24 334.07 315.83 1,006.72 1,322.56 32.27 - 1,699.14 1. represents material non-cash items other than depreciation",
+      "ticker": "AXISBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 463,
+      "section_title": "Standalone financial statements",
+      "similarity": 0.607895988461256,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "ticker": "AXISBANK",
+      "content": "Business performance review Key Ratios Highlights of Subsidiaries^ *Excluding exceptional items Return on Equity (ROE) (%) FY 2024–25 FY 2023–24 FY 2022–23 FY 2021–22 FY 2020–21 7.55 12.91 18.38* 18.86 16.52 Capital Adequacy Ratio (%) FY 2024–25 FY 2023–24 FY 2022–23 FY 2021–22 FY 2020–21 19.12 18.54 17.64 16.63 17.07 Cost to Asset Ratio (%) FY 2024–25 FY 2023–24 FY 2022–23 FY 2021–22 FY 2020–21 1.96 2.17 2.25 2.55 2.46 Provision Coverage Ratio (%) FY 2024–25 FY 2023–24 FY 2022–23 FY 2021–22 FY 2020–21 72 75 81 79 75 Net NPA (%) FY 2024–25 FY 2023–24 FY 2022–23 FY 2021–22 FY 2020–21 1.05 0.73 0.39 0.31 0.33 Return on Assets (ROA) (%) FY 2024–25 FY 2023–24 FY 2022–23 FY 2021–22 FY 2020–21 0.70 1.21 1.82* 1.83 1.74 Tier 1 Capital (%) FY 2024–25 FY 2023–24 FY 2022–23 FY 2021–22 FY 2020–21 16.47 16.34 14.57 14.20 14.67 Gross NPA (%) FY 2024–25 FY 2023–24 FY 2022–23 FY 2021–22 FY 2020–21 3.70 2.82 2.02 1.43 1.28 ^y–o–y growth 11% in PAT of domestic subsidiaries 11% in Axis Finance PAT 45% in Axis Securities Broking Revenue 33% in Axis Capital Revenue from operations 9% in Axis AMC Equity QAAUM Integrated Annual Report 2024-25 90",
+      "chunk_index": 193,
+      "page_number": 141,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\AXISBANK_FY25.json"
+      },
+      "similarity": 17.491201661801473,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "id": "0c37fd4b-21ef-48f2-84a6-3b2396072bb3",
+      "content": "Integrated Annual Report 2024-25 416 e) Step down subsidiary companies • Axis Capital USA LLC • Axis Pension Fund Management Limited f) Associate • Axis Max Life Insurance Company Limited (formerly Max Life Insurance Company Limited) Based on RBI guidelines, details of transactions with Promoter (Life Insurance Corporation of India) and Associate (Axis Max Life Insurance Company Limited) are not disclosed since there is only one entity/party in the aforesaid categories. The details of transactions of the Bank with its related parties during the year ended 31 March, 2025 are given below: (` in crores) Items/Related Party Key Management Personnel Relatives of Key Management Personnel# Subsidiaries Step down Subsidiaries Total Dividend paid 0.06 -* - - 0.06 Dividend received - - 24.58 - 24.58 Interest paid 0.38 0.76 64.45 0.03 65.62 Interest received 0.01 -* 38.48 - 38.49 Investment of the Bank - - 888.56 - 888.56 Repayment of Share Capital by related party - - 329.28 - 329.28 Investment in non-equity instruments of related party - - 375.00 - 375.00 Investment of related party in the Bank 53.29 - - - 53.29 Sale of investments - - 554.39 - 554.39 Management contracts - - 8.20 0.39 8.59 Remuneration paid 27.71 - - - 27.71 Contribution to employee benefit fund - - - - - Swaps/Forward contracts - - 3.24 - 3.24 Advance granted (net) - 0.07 123.71 - 123.78 Advance repaid 0.77 - 0.06 - 0.83 Non-funded commitments (reduction) - - 0.05 - 0.05 Purchase of loans - - 25.24 - 25.24 Receiving of services - - 186.09 0.05 186.14 Rendering of services -* -* 202.27 0.42 202.69 Sale/Purchase of foreign exchange currency to/from related party 0.14 -* - - 0.14 Royalty Received - - 11.82 0.01 11.83 Other reimbursements from related party - - 65.75 1.46 67.21 Other reimbursements to related party - - 5.53 - 5.53 # Details of transactions of the Bank with KMP and relatives of KMP are for the period during which the KMP are related parties of the Bank.",
+      "ticker": "AXISBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 466,
+      "section_title": "Financial statements",
+      "similarity": 0.61927666125526,
+      "retrieval_source": "vector",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "ticker": "AXISBANK",
+      "content": "437 `12.53 crore, total net profit after tax (before consolidation adjustments) of `0.34 crore and net cash flows amounting (before consolidation adjustments) to `411.60 crore for the year ended on that date, as considered in the Consolidated",
+      "chunk_index": 775,
+      "page_number": 487,
+      "section_title": "Consolidated financial statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\AXISBANK_FY25.json"
+      },
+      "similarity": 15.632079522958362,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "id": "514fa14b-94a7-4282-91cc-6810ee868578",
+      "content": "437 `12.53 crore, total net profit after tax (before consolidation adjustments) of `0.34 crore and net cash flows amounting (before consolidation adjustments) to `411.60 crore for the year ended on that date, as considered in the Consolidated",
+      "ticker": "AXISBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 487,
+      "section_title": "Consolidated financial statements",
+      "similarity": 0.604460423786013,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015873015873015872
+    }
+  ],
+  "generated_at": "2026-06-22T11:17:17.926435+00:00"
+}

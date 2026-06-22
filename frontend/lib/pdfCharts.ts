@@ -8,6 +8,7 @@ import {
   formatBarSeriesTooltip,
   formatChartValue,
   formatCroreAxisTick,
+  formatCroreFull,
   maxBarDatasetValue,
   pickCroreAxisUnit,
 } from "./chartTypes";
@@ -180,7 +181,7 @@ export function drawDonutChartPdf(
     doc.setFont("helvetica", "normal");
     doc.setFontSize(8);
     doc.setTextColor(64, 64, 64);
-    const label = sanitizeForPdf(`${seg.label}: ${formatChartValue(seg.value)}`);
+    const label = sanitizeForPdf(`${seg.label}: ${formatCroreFull(seg.value)}`);
     const lines = doc.splitTextToSize(label, width - (legendX - x) - 8) as string[];
     doc.text(lines[0], legendX + 12, legendY);
     if (lines.length > 1) {

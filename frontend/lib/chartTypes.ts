@@ -24,8 +24,10 @@ export type ChartData = BarChartData | DonutChartData;
 export const CHART_DISCLAIMER =
   "Chart values extracted from filing text — verify against source document before use.";
 
+export const SECTION_EXECUTIVE = "Executive Summary + Investment Thesis";
 export const SECTION_BUSINESS = "Business Overview + Segment Breakdown";
 export const SECTION_FINANCIAL = "Financial Performance";
+export const SECTION_RATIOS = "Key Financial Ratios";
 export const SECTION_BULL_BEAR = "Bull vs Bear vs Base Case";
 
 export function isBarChartData(data: unknown): data is BarChartData {
@@ -64,23 +66,24 @@ export function parseChartData(data: unknown): ChartData | null {
 /** Blue accent palette for charts — monochrome, no rainbow. */
 export const CHART_COLORS = ["#0099ff", "#0066b3", "#4db8ff", "#003d66", "#66c2ff", "#007acc"];
 
-const LAKH_CRORE = 100_000;
 const THOUSAND_CRORE = 1_000;
 
-export type CroreAxisUnit = "plain" | "k" | "L";
+export type CroreAxisUnit = "plain" | "k";
 
-/** Pick one abbreviation for an entire axis based on its max value — never mix k/L on one axis. */
+/** Pick one abbreviation for an entire axis — plain ₹X,XXX Cr or ₹X.Xk Cr only (never L). */
 export function pickCroreAxisUnit(maxValue: number): CroreAxisUnit {
   if (!Number.isFinite(maxValue) || maxValue <= 0) return "plain";
-  if (maxValue >= LAKH_CRORE) return "L";
   if (maxValue >= THOUSAND_CRORE) return "k";
   return "plain";
 }
 
 export function formatCroreAxisTick(valueCr: number, unit: CroreAxisUnit): string {
-  if (unit === "L") return `${(valueCr / LAKH_CRORE).toFixed(1)}L Cr`;
-  if (unit === "k") return `${(valueCr / THOUSAND_CRORE).toFixed(1)}k Cr`;
-  return `${valueCr.toLocaleString("en-IN")} Cr`;
+  if (unit === "k") return `₹${(valueCr / THOUSAND_CRORE).toFixed(1)}k Cr`;
+  return `₹${valueCr.toLocaleString("en-IN")} Cr`;
+}
+
+export function formatCroreFull(valueCr: number): string {
+  return `₹${valueCr.toLocaleString("en-IN")} Cr`;
 }
 
 export function maxBarDatasetValue(values: [number, number]): number {
@@ -91,13 +94,19 @@ export function stripSeriesLabel(raw: string): string {
   return raw.replace(/\s*\([^)]*Cr[^)]*\)\s*$/i, "").trim();
 }
 
-/** Tooltip line for bar series, e.g. "Revenue: ₹1,62,990 Cr". */
-export function formatBarSeriesTooltip(rawLabel: string, valueCr: number): string {
+/** Tooltip line for bar series, e.g. "Revenue (FY25): ₹1,62,990 Cr". */
+export function formatBarSeriesTooltip(
+  rawLabel: string,
+  valueCr: number,
+  fiscalYear?: string
+): string {
   const name = stripSeriesLabel(rawLabel) || rawLabel;
-  return `${name}: ₹${valueCr.toLocaleString("en-IN")} Cr`;
+  const fy = fiscalYear?.trim();
+  const prefix = fy ? `${name} (${fy})` : name;
+  return `${prefix}: ${formatCroreFull(valueCr)}`;
 }
 
-/** Single-value label (donut legend/tooltip) — uses scale implied by the value itself. */
+/** Abbreviated single-value label (donut legend when space is tight). */
 export function formatChartValue(n: number): string {
   return formatCroreAxisTick(n, pickCroreAxisUnit(n));
 }

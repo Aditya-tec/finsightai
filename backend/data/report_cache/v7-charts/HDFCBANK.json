@@ -1,0 +1,637 @@
+{
+  "sections": [
+    {
+      "title": "Executive Summary + Investment Thesis",
+      "body": "**Executive Summary**\n\nHDFC Bank's subsidiary, HDFC Life Insurance Company Limited, has reported premium revenue of ₹333.65 billion towards new business, with ₹109.69 billion recognised during the last quarter of the financial year. The auditors have identified the timing of revenue recognition as a key audit matter due to the significant concentration of revenue during the last quarter. The bank has implemented various controls and procedures to mitigate the risk of misstatement related to revenue recognition. Additionally, the bank recognises all derivative contracts at fair value and re-measures them at fair value as at the Balance Sheet date, with marked to market values classified as assets or liabilities accordingly.\n\n**Investment Thesis**\n\nOur investment thesis for HDFC Bank is based on its robust risk management framework and prudent accounting practices. The bank's ability to recognise revenue accurately and implement effective hedging strategies mitigates potential risks associated with its financial assets and liabilities. With a strong focus on control environment and accurate cut-off procedures, we believe that HDFC Bank is well-positioned to navigate the complexities of revenue recognition and derivative accounting. However, we note that peer comparison is not possible due to the absence of relevant data. Overall, we remain positive on HDFC Bank's prospects, driven by its commitment to transparency and prudent financial management.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 444,
+          "section": "Statutory Reports and Financial Statements"
+        },
+        {
+          "source": "filing",
+          "page": 444,
+          "section": "Statutory Reports and Financial Statements"
+        },
+        {
+          "source": "filing",
+          "page": 353,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Business Overview + Segment Breakdown",
+      "body": "HDFC Bank Limited is the country's largest private sector bank by Balance Sheet size, with a balance sheet size of ₹39,10,199 crore as of FY25. The bank has maintained healthy asset quality, with a Gross NPA Ratio of 1.33% and a Provision Coverage Ratio of 67.86%. The bank's Profit After Tax grew by 10.7% to ₹67,347 crore in FY25, with a Return on Equity (ROE) of 14.6%. The bank's business can be broadly segmented into interest-earning activities, including interest on advances, income on investments, and interest on balance with RBI and other inter-bank funds, which contributed ₹336,367.43 crore to the bank's total income in FY25. Other income, including commission, exchange, and brokerage, as well as profit on sale of investments, also contributed significantly to the bank's total income, with a total of ₹134,548.50 crore in FY25. The bank's operating expenses, including payments to and provisions for employees, rent, taxes, and lighting, totaled ₹60,812 crore in FY25. The bank has a strong digital footprint, with over 9,455 branches and a substantial presence in the mutual fund industry through its subsidiary, HDFC Asset Management Company Limited.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 471,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 57,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 56,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 56,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 68,
+          "section": "general"
+        }
+      ],
+      "chart_data": {
+        "type": "donut",
+        "segments": [
+          {
+            "label": "Interest on Advances",
+            "value": 251953.6
+          },
+          {
+            "label": "Income on Investments",
+            "value": 73912.07
+          },
+          {
+            "label": "Interest on Balance with RBI and other inter-bank funds",
+            "value": 3172.52
+          },
+          {
+            "label": "Others",
+            "value": 7329.24
+          }
+        ]
+      }
+    },
+    {
+      "title": "Financial Performance",
+      "body": "{\"body\": \"\nThe financial performance of HDFC Bank Limited for the year ended March 31, 2025, reflects the bank's ability to deliver growth while maintaining healthy asset quality. The bank's Balance Sheet size grew by 8.1% to ₹39,10,199 crore, with a 14.1% increase in Deposits to ₹27,14,715 crore and a 5.4% growth in Advances to ₹26,19,609 crore. The Profit After Tax (PAT) grew by 10.7% to ₹67,347 crore. The Cost to Income Ratio marginally increased to 40.5% in FY25 from 40.2% in FY24. The Net Interest Margin was at 3.48%, and the bank remains well-capitalised with a Capital Adequacy Ratio of 19.6%. The Earnings Per Share (EPS) increased by 2.9% to ₹88.3, while dividend per share rose by 12.8% to ₹22.0 in FY25.\n\nThe bank's interest earned and other income also showed significant growth. The total interest earned for the year ended March 31, 2025, was ₹336,367.43 crore, and the total other income was ₹134,548.50 crore. The bank's operating expenses and interest expended also increased, with total operating expenses of ₹44,109 crore and total interest expended of ₹183,894.20 crore for the year ended March 31, 2025.\n\", \"chart_data\": {\"type\":\"bar\",\"labels\":[\"FY24\",\"FY25\"],\"datasets\":[{\"label\":\"Revenue (₹ Cr)\",\"values\":[283649.02,336367.43]},{\"label\":\"Net Profit (₹ Cr)\",\"values\":[60712,67347]}]}}",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 471,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 57,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 461,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 56,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 56,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Balance Sheet Health + Cash Flow",
+      "body": "The 'Balance Sheet Health + Cash Flow' section of our report on HDFCBANK is based on the provided filing excerpts. As of the Balance Sheet date, the Bank's total assets stood at ₹4,392,417.42 crore, with segment assets accounting for ₹4,368,279.65 crore. The total liabilities were ₹3,854,268.99 crore, comprising segment liabilities of ₹3,806,000.22 crore and unallocated liabilities of ₹48,268.77 crore. The capital employed, calculated as segment assets minus segment liabilities, was ₹562,279.43 crore. However, after considering unallocated assets and liabilities, the total capital employed was ₹538,148.43 crore.\n\nIn terms of cash flow, the filing excerpts do not provide a direct cash flow statement. However, we can infer some information from the provided data. The Bank's income from operations was ₹470,915.93 crore, and the net profit was ₹73,440.17 crore. The provisions for non-performing assets and others were ₹14,174.61 crore, which is a non-cash charge. The capital expenditure was ₹6,746.54 crore, and the depreciation was ₹3,805.23 crore. Unfortunately, without a detailed cash flow statement, we cannot perform a comprehensive analysis of the Bank's cash flow health. Peer comparison is also not possible due to the lack of relevant data.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 353,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 486,
+          "section": "Statutory Reports and Financial Statements"
+        },
+        {
+          "source": "filing",
+          "page": 526,
+          "section": "Statutory Reports and Financial Statements"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Key Financial Ratios",
+      "body": "The 'Key Financial Ratios' section of this report is limited due to the absence of specific financial data in the provided excerpts. However, we can discuss the bank's approach to managing liquidity and interest rate risks, which are crucial for its financial stability. The bank has implemented a strong Asset Liability Management policy and an intraday liquidity risk management framework to track cash flow mismatches and maintain a healthy liquidity buffer. This is reflected in the bank's focus on maintaining a strong Liquidity Coverage Ratio (LCR) and Net Stability Funding Ratio (NSFR) in line with its balance sheet size.\n\nAlthough specific financial ratios such as return on equity (ROE), return on assets (ROA), and debt-to-equity ratio are not provided in the excerpts, the bank's commitment to robust financial practices and its focus on creating meaningful value for stakeholders suggest a prudent approach to financial management. Unfortunately, without explicit financial data, we cannot calculate or report on these key financial ratios. Peer comparison is also not possible due to the lack of relevant data on peer companies in the provided excerpts.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 115,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 24,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 25,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Valuation Snapshot vs Sector Median",
+      "body": "Valuation Snapshot vs Sector Median\n\nAs of the latest available data, a direct comparison of HDFC Bank's valuation metrics to the sector median is not possible due to the absence of peer data in the provided excerpts. The excerpts primarily focus on the bank's integrated reporting process, risk management framework, and sustainability efforts, without providing specific financial metrics such as price-to-earnings (P/E) ratio, price-to-book (P/B) ratio, or return on equity (ROE) that are typically used for valuation comparisons.\n\nHowever, it is mentioned that the bank ensures consistent shareholder returns through robust financial practices, utilizing customer deposits, shareholder equity, retained earnings, and external borrowings. This suggests a focus on maintaining a strong financial position, which could positively impact valuation. Nevertheless, without concrete financial data and peer benchmarks, a comprehensive valuation snapshot versus the sector median cannot be accurately provided.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 25,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 24,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 115,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Management Commentary",
+      "body": "The management of HDFC Bank Limited has emphasized the importance of a structured approach to risk management and oversight. The Bank's Board of Directors exercises overall oversight through periodic information reported by various stakeholders, with the Group Oversight Department reporting critical matters such as overdue action items, material risks, and significant governance concerns. The Bank has established a dedicated Model Risk Management (MRM) team to test and verify the accuracy and reliability of models used within the Bank, with a centralized Model Risk Management Policy (MRM Policy) providing comprehensive guidance on model risk management. The Internal Capital Adequacy Assessment Process (ICAAP) framework is also in place to identify and evaluate material risks that may have an adverse impact on the Bank's financial position.\n\nThe management has also highlighted the Bank's commitment to integrated thinking and delivering on its purpose, with a focus on creating value for stakeholders across six capitals: financial, manufactured, human, intellectual, social and relationship, and natural. The Bank's risk management framework is guided by the Board-approved ICAAP Policy, which encompasses assessment of capital adequacy for the base period and projected plan years. The management has also emphasized the importance of building trust-based stakeholder relationships and responsibly contributing to the economy, while minimizing the Bank's environmental impact. The Risk Policy & Monitoring Committee, which met 10 times during the financial year, plays a crucial role in monitoring the Bank's risk management framework and ensuring compliance with internal risk management policies and processes.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 251,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 25,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 303,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Key Risks",
+      "body": "The key risks associated with HDFC Bank Limited are multifaceted and can be categorized into several areas. Firstly, the Bank is exposed to model risk, which is the potential for adverse consequences from decisions based on incorrect or misused model outputs and reports. The Bank has established a Model Risk Management (MRM) framework to mitigate this risk, which includes a dedicated MRM team, a Model Risk Management Policy, and a Model Risk Management Committee. However, the effectiveness of these measures in preventing model risk is uncertain and warrants ongoing monitoring.\n\nAdditionally, the Bank is susceptible to climate risk, which encompasses physical risks such as economic losses from extreme weather events and transition risks associated with the adjustment to a low-carbon economy. The Bank has initiated efforts to assess and mitigate climate risk, including the development of methodologies to evaluate climate transition risk for wholesale borrowers and the exploration of frameworks to assess potential portfolio-at-risk for retail exposures. Furthermore, the Bank is exposed to liquidity risk, which is the risk that it may not be able to meet its financial obligations as they fall due without incurring unacceptable losses. The Bank has implemented an Asset Liability Management policy and an intraday liquidity risk management framework to manage this risk. Other key risks faced by the Bank include interest rate risk, operational risk, and cyber security risk, which are overseen by the Risk Policy & Monitoring Committee and the Fraud Monitoring Committee. Overall, these risks have the potential to impact the Bank's financial position and require ongoing monitoring and mitigation efforts.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 251,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 115,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 303,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Recent Developments",
+      "body": "Recent Developments \n\nHDFC Bank has been actively addressing key audit matters, particularly with regards to its subsidiary, HDFC Life Insurance Company Limited. As reported by the joint auditors, G. M. Kapadia & Co. and B S R & Co. LLP, in their communication dated April 18, 2025, the company has recognized premium revenue of ₹333.65 billion towards new business, with ₹109.69 billion recognized during the last quarter. This significant concentration of revenue during the last quarter has led to a focus on maintaining adequate control environments and accurate cut-off procedures to mitigate the risk of misstatement related to the timing of revenue recognition. The auditors have applied various procedures to address this key audit matter, including testing the design and controls of key revenue recognition processes.\n\nIn addition to addressing audit matters, HDFC Bank has also been working to mitigate liquidity and climate-related risks. The bank has established a strong system to monitor cash flow mismatches and key ratios, such as Basel III ratios, to manage liquidity risk. Furthermore, the bank is actively supporting the financing and investment in environmentally friendly technologies and low-carbon infrastructure projects, and is pursuing climate risk assessment and mitigation strategies through three thematic areas: ESG integration in products, sustainable finance, and portfolio emissions. These efforts demonstrate the bank's commitment to managing risks and promoting sustainability, although a detailed peer comparison is not possible due to the lack of available data.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 444,
+          "section": "Statutory Reports and Financial Statements"
+        },
+        {
+          "source": "filing",
+          "page": 115,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 444,
+          "section": "Statutory Reports and Financial Statements"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Bull vs Bear vs Base Case",
+      "body": "The bull case for HDFC Bank is supported by its healthy growth trajectory, with Net Profit increasing by 10.7% to ₹673.47 billion and Net Interest Income growing by 13.0% to ₹1,226.70 billion in FY25. The bank's ability to maintain pristine asset quality, as evident from its Gross NPAs of 1.33% of Gross Advances, is a significant positive. Additionally, the bank's strategic direction to pursue profitable growth, aided by disciplined pricing and a focus on quality growth, is expected to drive long-term value creation. The reduction in high-cost borrowings to 14% and the credit-deposit ratio to 96% as of March 31, 2025, are also positive developments.\n\nThe bear case, on the other hand, is limited by the lack of information on potential headwinds, such as regulatory changes or economic downturns, that could impact the bank's growth. However, the bank's robust risk management framework and commitment to creating meaningful value for stakeholders are mitigating factors. Our base case assumes that HDFC Bank will continue to deliver steady growth, driven by its strong franchise, digital capabilities, and strategic initiatives, with Net Interest Income and Net Profit expected to grow in line with historical trends. With a balance sheet size of ₹3,910.20 billion and a deposit base of ₹2,714.72 billion, the bank is well-positioned to capitalize on growth opportunities in the Indian banking sector.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 33,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 25,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 24,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Peer Comparison",
+      "body": "Peer Comparison: \nUnfortunately, the provided filing excerpts do not contain sufficient information to conduct a peer comparison for HDFC Bank. The excerpts primarily focus on the audit matters related to HDFC Life Insurance Company Limited, a subsidiary of the parent company, and do not provide comparable data for peer banks or financial institutions. Therefore, a peer comparison analysis cannot be performed based on the given information. \n\nTo conduct a meaningful peer comparison, data on key financial metrics such as revenue from operations, net profit, and net worth of peer banks would be required. However, since this information is not available in the provided excerpts, we are unable to assess HDFC Bank's performance relative to its peers.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 444,
+          "section": "Statutory Reports and Financial Statements"
+        },
+        {
+          "source": "filing",
+          "page": 24,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 444,
+          "section": "Statutory Reports and Financial Statements"
+        }
+      ],
+      "chart_data": null
+    }
+  ],
+  "eval_context": [
+    {
+      "id": "20053694-eee5-4cad-934c-9311e5072a9e",
+      "content": "For the year ended March 31, 2025 21. Additional information pursuant to Schedule III of the Companies Act, 2013 (` crore) Name of entity Net assets as of March 31, 2025 Profit or (loss) for the year ended March 31, 2025 As % of consolidated net assets** Amount As % of consolidated profit or loss Amount Parent: HDFC Bank Limited 93.18% 501,424.64 91.70% 67,347.36 Subsidiaries: HDFC Life Insurance Company Limited (Consolidated)*1 3.00% 16,153.93 2.39% 1,757.94 HDB Financial Services Limited* 3.00% 16,142.41 2.88% 2,117.32 HDFC Asset Management Company Limited (Consolidated)*2 1.51% 8,130.96 3.35% 2,456.68 HDFC ERGO General Insurance Company Limited* 0.97% 5,201.60 0.66% 485.82 HDFC Securities Limited (Consolidated)*3 0.62% 3,340.85 1.51% 1,111.42 HDFC Capital Advisors Limited* 0.08% 428.16 0.19% 141.33 HDFC Sales Private Limited* 0.05% 273.26 0.10% 71.07 Griha Pte Limited 0.01% 39.17 (0.01%) (4.62) Griha Investments 0.00% 6.86 (0.01%) (3.98) HDFC Trustee Company Limited* 0.00% 3.88 0.00% 0.57 Entity over which control is exercised: HDB Employee Welfare Trust* 0.14% 738.73 0.23% 169.79 Minority Interest 3.04% 16,359.04 3.61% 2,647.92 Inter-company adjustments (5.60%) (30,095.06) (6.60%) (4,858.45) Total 100.00% 538,148.43 100.00% 73,440.17 * The subsidiaries are Indian entities. ** Consolidated net assets are total assets minus total liabilities. 1. HDFC Life Insurance Company Limited (Consolidated) includes details of its wholly owned Indian subsidiary - HDFC Pension Fund Management Limited and wholly owned foreign subsidiary - HDFC International Life and Re Company Limited. 2. HDFC Asset Management Company Limited (Consolidated) includes details of its wholly owned Indian subsidiary - HDFC AMC International (IFSC) Limited. 3. HDFC Securities Limited (Consolidated) includes details of its wholly owned Indian subsidiary – HDFC Securities IFSC Limited.",
+      "ticker": "HDFCBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 535,
+      "section_title": "SCHEDULES TO THE CONSOLIDATED FINANCIAL STATEMENTS",
+      "similarity": 0.65212090636741,
+      "retrieval_source": "vector",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "ticker": "HDFCBANK",
+      "content": "5. \u0007The following Key Audit Matters were reported to us by the joint auditors, G. M. Kapadia & Co. and B S R & Co. LLP, of HDFC Life Insurance Company Limited, a subsidiary of the Parent, vide their communication dated April 18, 2025 which are reproduced by us as under: Appropriateness of the Timing of Revenue Recognition in the proper period in accordance with applicable guidelines / accounting standards Key Audit Matter How our audit has addressed the key audit matter During the year, the Holding Company has recognised premium revenue of ` 3,336,530 lakhs towards new business (first year premium and single premium). Out of the total revenue recognised, ` 1,096,923 lakhs were recognised during the last quarter. This area was considered a key audit matter because of the significant concentration of revenue during the last quarter of financial year (including cut-off at the Balance sheet date). Due to the nature of the industry, revenue is skewed towards the balance sheet date. Hence, there is a need to have adequate control environment and accurate cut-off procedures to mitigate inherent risk of misstatement related to the timing of revenue recognition. In view of the significance of the matter, we applied the following audit procedures in this area, among others: \u0007Understood and evaluated the design and controls and tested the operating effectiveness of key controls relating to recognition of revenue including controls over timing of recognition and policy issuance procedure. 2) \u0007Performed testing on a sample basis for policies issued around the year-end including effectiveness of controls relating to cut- off procedures to confirm if related procedural compliances with regard to acceptability of the terms of policy were completed before or after the year end to verify appropriate accounting of revenue in accordance with applicable guidelines / accounting standards. 3) \u0007Verified on a sample basis that policy sales of the next financial year are not accounted for in the current period. 4) \u0007Tested on a sample basis, the unallocated premium to corroborate that there were no policies where risk commenced prior to balance sheet but revenue was not recognised. 5) \u0007Tested the manual accounting journal entries relating to revenue on a sample basis so as to identify unusual or irregular items. We agreed the journal entries tested to supporting evidence. 6) \u0007Tested on a sample basis cheques receipt with the time stamp in case of products like Unit Linked Insurance Plan to confirm the recognition of the revenue in correct accounting period. 7) \u0007Tested the automated control that the issuance of the policy is done after the payment is received.",
+      "chunk_index": 836,
+      "page_number": 444,
+      "section_title": "Statutory Reports and Financial Statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\HDFCBANK_FY25.json"
+      },
+      "similarity": 12.596363939802147,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "id": "7f348593-d922-4915-a797-4544912decc7",
+      "content": "HDFC Bank Limited 458 SCHEDULES TO THE CONSOLIDATED PROFIT AND LOSS ACCOUNT For the year ended March 31, 2025 SCHEDULE 13 - INTEREST EARNED C in crore Schedule Year ended March 31, 2025 Year ended March 31, 2024 I. Interest / discount on advances / bills 251,953.60 217,979.34 II. Income on investments 73,912.07 57,524.80 III. Interest on balance with RBI and other inter-bank funds 3,172.52 2,634.63 IV. Others 7,329.24 5,510.25 Total 336,367.43 283,649.02 SCHEDULE 14 - OTHER INCOME C in crore Schedule Year ended March 31, 2025 Year ended March 31, 2024 I. Commission, exchange and brokerage 35,029.85 30,621.36 II. Profit / (loss) on sale of investments (net) 14,325.38 20,095.80 III. Profit / (loss) on revaluation of investments (net) (3,909.10) 6,957.14 IV. Profit / (loss) on sale of building and other assets (net) 156.20 199.85 V. Profit / (loss) on exchange / derivative transactions (net) 5,026.29 3,870.27 VI. Premium and other operating income from insurance business 78,589.17 57,858.60 VII. Miscellaneous income 5,330.71 4,742.73 Total 134,548.50 124,345.75 SCHEDULE 15 - INTEREST EXPENDED C in crore Schedule Year ended March 31, 2025 Year ended March 31, 2024 I. Interest on deposits 125,216.63 99,401.50 II. Interest on RBI / inter-bank borrowings 52,486.78 50,244.76 III. Other interest 6,190.79 4,492.29 Total 183,894.20 154,138.55 SCHEDULE 16 - OPERATING EXPENSES C in crore Schedule Year ended March 31, 2025 Year ended March 31, 2024 I. Payments to and provisions for employees 34,135.75 31,023.00 II. Rent, taxes and lighting 3,601.92 3,023.34 III. Printing and stationery 922.54 1,021.67 IV. Advertisement and publicity 1,533.33 1,259.35 V. Depreciation on bank's property 3,805.23 3,092.08 VI. Directors' fees / remuneration, allowances and expenses 32.14 27.07 VII. Auditors' fees and expenses 22.69 26.11 VIII. Law charges 420.54 398.68",
+      "ticker": "HDFCBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 471,
+      "section_title": "general",
+      "similarity": 0.644467651844029,
+      "retrieval_source": "vector",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "ticker": "HDFCBANK",
+      "content": "Our Purpose “We exist to help every Indian make better money choices, today and tomorrow” Integrated thinking and delivering on our purpose Our Integrated Reporting Process How We Create Value What Impacts Value Creation Short-, medium- and long-term Outlook Integrated Reporting Framework <IR> and other reporting standards Assurance Model Senior Management Sign-off Risks, Opportunities, Strategy and Performance of the Company Board and Senior Management Review Board Approval Board Committees Business Segments Financial & Non- Financial Targets Leadership team & Senior Management Key Business Activities Devising our 10 Strategic Pillars Report Compilation Validating integrity of the Report Integrated Report Approval Adopting Transparent, Accountable Governance Our agile, informed and holistic Business model Our Operating Context Dynamic External Environment Stakeholder Priorities Our 14 key Material topics Customer Risks Opportunity Employee Community Investor Government & Regulatory Bodies Suppliers The Value created, preserved or depleted through our business activities across the 6 capitals as per the <IR> framework We ensure consistent shareholder returns through robust financial practices, utilising customer deposits, shareholder equity, retained earnings, and external borrowings. Our pan India network of banking outlets, offices, ATMs, and touchpoints, along with strong IT infrastructure and security measures, engages stakeholders and supports growth through financial inclusion initiatives. Our people are our greatest asset. Through innovation, collaboration, and inclusivity, we empower their growth and well-being, driving exceptional service and success. We leverage innovative technology for operational efficiency and competitive edge, built on deep expertise, agile systems, and the Group's esteemed reputation. Building trust- based stakeholder relationships is key to our success. We responsibly contribute to the economy, cultivating long-term relationships with customers, partners, merchants, and the community. We rely on natural resources like energy and water to run our business and deliver services. We manage waste and minimise our environmental impact on climate and ecosystems. N F SR M I H Financial Capital Manufactured Capital Human Capital Intellectual Capital Social & Relationship Capital Natural Capital Integrated Annual Report 2024-25 05 Overview",
+      "chunk_index": 43,
+      "page_number": 25,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\HDFCBANK_FY25.json"
+      },
+      "similarity": 12.35197641493098,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "id": "bc242a0a-c185-432b-b301-d672103aa2ff",
+      "content": "HDFC Bank Limited 268 D I R E C T O R S ’ R E P O R T Performance and financial position of the subsidiaries/entity over which control is exercised of the Bank as on March 31, 2025 Name of entity Net assets as of March 31, 2025 Profit or (loss) for the year ended March 31, 2025 As % of consolidated net assets** Amount Rs in crore As % of consolidated profit or loss Amount Rs in crore Parent: HDFC Bank Limited 93.18% 501,424.64 91.70% 67,347.36 Subsidiaries: HDFC Life Insurance Company Limited (Consolidated)*1 3.00% 16,153.93 2.39% 1,757.94 HDB Financial Services Limited* 3.00% 16,142.41 2.88% 2,117.32 HDFC Asset Management Company Limited (Consolidated)*2 1.51% 8,130.96 3.35% 2,456.68 HDFC ERGO General Insurance Company Limited* 0.97% 5,201.60 0.66% 485.82 HDFC Securities Limited (Consolidated)*3 0.62% 3,340.85 1.51% 1,111.42 HDFC Capital Advisors Limited* 0.08% 428.16 0.19% 141.33 HDFC Sales Private Limited* 0.05% 273.26 0.10% 71.07 Griha Pte Limited 0.01% 39.17 (0.01%) (4.62) Griha Investments 0.00% 6.86 (0.01%) (3.98) HDFC Trustee Company Limited* 0.00% 3.88 0.00% 0.57 Entity over which control is exercised: HDB Employee Welfare Trust* 0.14% 738.73 0.23% 169.79 Minority Interest 3.04% 16,359.04 3.61% 2,647.92 Inter-company adjustments (5.60%) (30,095.06) (6.60%) (4,858.45) Total 100.00% 538,148.43 100.00% 73,440.17 *These are Indian entities. **Consolidated net assets are total assets minus total liabilities. 1. \u0007HDFC Life Insurance Company Limited (Consolidated) includes details of its wholly owned Indian subsidiary - HDFC Pension Fund Management Limited and wholly owned foreign subsidiary HDFC International Life and Re Company Limited. 2. \u0007HDFC Asset Management Company Limited (Consolidated) includes details of its wholly owned Indian subsidiary - HDFC AMC International (IFSC) Limited. 3. HDFC Securities Limited (Consolidated) includes details of its wholly owned Indian subsidiary – HDFC Securities IFSC Limited. ANNEXURE 3 TO THE DIRECTORS’ REPORT",
+      "ticker": "HDFCBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 281,
+      "section_title": "general",
+      "similarity": 0.638206400764371,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "ticker": "HDFCBANK",
+      "content": "the contracts. Valuation is considered on present value basis. For this purpose, the forward profit or loss on the contracts are discounted to the valuation date using the discounting yields. The resulting profit or loss on valuation is recognised in the Profit and Loss Account. Marked to market value of foreign exchange contracts are classified as assets when the fair value is positive or as liabilities when the fair value is negative. \u0007The Bank recognises all derivative contracts at fair value, on the date on which such derivative contracts are entered into and are re-measured at fair value as at the Balance Sheet date. Marked to market values of such derivatives are classified as assets when the fair value is positive or as liabilities when the fair value is negative. \u0007The Bank as part of its risk management strategy, makes use of derivative instruments, including foreign exchange forward contracts, for hedging the risk embedded in some of its financial assets or liabilities recognised on the balance sheet. The Bank identifies the hedged item (asset or liability) at the inception of the transaction itself. Hedge effectiveness is ascertained at the time of the inception of the hedge and at the reporting date thereafter. \u0007Foreign exchange forward contracts and Principal only swaps (POS) not intended for trading, that are entered into to establish the amount of reporting currency required or available at the settlement date of a transaction, and are outstanding at the Balance Sheet date, are accounted in accordance with AS-11. Accordingly, such contracts are not marked to market and only translated at spot rate. The premium or discount arising at the inception of such forward exchange contract is amortised on a straight line basis as expense or income over the life of the contract. The interest income / expense on such POS transaction is accounted on accrual basis. \u0007In case of a fair value hedge, the changes in the fair value of the hedging instruments and hedged items are recognised in the Profit and Loss Account and in case of cash flow hedges, the changes in fair value of effective portion are recognised in Reserves and Surplus under ‘Cash flow hedge reserve’ and ineffective portion of an effective hedging relationship, if any, is recognised in the Profit and Loss Account. The accumulated balance in the cash flow hedge reserve, in an effective hedging relationship, is recycled in the Profit and Loss Account at the same time that the impact from the hedged item is recognised in the Profit and Loss Account. \u0007In relation to derivative contracts with non-performing borrowers, the Bank makes provision for the entire amount of overdue and future receivables relating to positive marked to market value of the said derivative contracts. 10. Revenue recognition \u0007Interest income is recognised in the Profit and Loss Account on an accrual basis, except in the case of non- performing assets which is recognised when realised. \u0007Interest income on investments in PTCs and loans bought out through the direct assignment route is recognised at their effective interest rate. \u0007Income on non-coupon bearing discounted instruments",
+      "chunk_index": 619,
+      "page_number": 353,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\HDFCBANK_FY25.json"
+      },
+      "similarity": 12.193830640217275,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "id": "a0179945-eda7-4e57-9a18-7a0e8b31a9c5",
+      "content": "ABOUT THE REPORT The Integrated Annual Report for FY 2024-25 reflects HDFC Bank’s (referred to as ‘We’, ‘Us’, or ‘the Bank’) commitment to create meaningful value for a diverse array of stakeholders including customers, shareholders, investors, regulators, employees, and society at large. Beyond financial metrics, the report explores non-financial performance, strategic priorities, and sustainability efforts of the Bank. It provides insights into HDFC Bank's wholistic value creation model, operational landscape, stakeholder concerns, strategic and ESG pillars, and corporate governance framework. These aspects are underpinned by a robust risk management framework integral to the Bank's operations. As we near 2 years since the merger, this report captures HDFC Bank’s journey of progress in integration and growth. It highlights how synergies have supported expansion supported by the Bank’s focus on a stable and cohesive culture. Through collaboration and innovation, HDFC Bank continues to drive sustainable progress endeavouring to make a lasting impact on all those it serves. Reporting Principles and Framework The financial information presented in this report is in line with the requirements of −The Companies Act, 2013 (including the rules made thereunder) −The Companies (Accounting Standards) Rules, 2021 −The Securities and Exchange Board of India (Listing Obligations and Disclosure Requirements) Regulations, 2015 −The Banking Regulation Act, 1949 and other relevant RBI regulations The report has been prepared in alignment with the <IR> framework prescribed by the IFRS Foundation and also contains disclosures with reference to Global Reporting Initiative (GRI) Standards (2021), Task Force on Climate related Financial Disclosures (TCFD), Business Responsibility and Sustainability Report (BRSR) and United Nations Sustainable Development Goals (UN SDGs). There are no restatements of information provided in the integrated report during the reporting year. Materiality and Scope This report includes information which is material to all stakeholders of the Bank and provides an overview of its business and related activities. The report discloses matters that substantially impact or affect the Bank’s ability to create value and could influence decisions of providers of financial capital. In FY23, the material matters thus identified were reviewed and refreshed to integrate the concept of double materiality in accordance with GRI Standards 2021. For GRI topics and relevant disclosures, please refer to the GRI Content Index, provided in the report. During the year, we conducted an internal reassessment of the material topics identified in the previously and reaffirmed their continued relevance. This evaluation considered our operational context, including regulatory compliances, evolving industry trends, and our risk landscape. Read more on Pg. 60 Reporting Boundary The non-financial information in this report covers the activities and progress of the Bank on a standalone basis. It covers information pertaining to the period from April 1, 2024, to March 31, 2025. The last report was published for the period April 1, 2023 - March 31, 2024. The Integrated Report for FY 2023-24 can be accessed here. Assurance Statement Reasonable assurance on BRSR Core KPIs and limited assurance on the select indicators in the BRSR & Integrated Annual Report respectively has been provided by SGS India Pvt. Ltd. as per the SEBI guidelines in accordance with the ISAE",
+      "ticker": "HDFCBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 24,
+      "section_title": "general",
+      "similarity": 0.635761618614201,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015625
+    },
+    {
+      "ticker": "HDFCBANK",
+      "content": "Liquidity Risk Liquidity risk is the risk that the Bank may not be able to meet its financial obligations as they fall due without incurring unacceptable losses. Mitigation The Asset Liability Management policy of the bank details how liquidity and interest rate risks are managed. We've set up a strong system to watch cash flow mismatches, in both normal and stressed situations, and key ratios, like Basel III ratios. Additionally, we have an extensive intraday liquidity risk management framework to track intraday positions throughout the day. Interest rate risk in the banking book is assessed at defined intervals to ensure it remains within our acceptable limits. Strategies −To maintain healthy liquidity buffer as evidenced in Liquidity Coverage Ratio (LCR) / Net Stability Funding Ratio (NSFR) in line with our Balance sheet size to tide over any unforeseen stress scenarios. −Maintaining competitive cost of funds. −Transact in derivatives, if required, to maintain the interest rate profile. Capitals Impacted: RISK MANAGEMENT Climate Risk At a broader level, risks from climate change are typically divided into: Physical risks - Economic losses (physical damage to property and assets) from acute impacts on account of extreme weather events (floods, cyclones, droughts, landslides, etc) attributed to climate change, or long- term chronic impacts on environment such as rise in sea levels, increased global temperature or irreversible precipitation changes. Transition risks - The possible process of adjustment to a low carbon economy and its possible effects on the value of financial assets and liabilities including the likelihood of formation of stranded assets. Mitigation We actively support the financing and investment in environmentally friendly technologies and low- carbon infrastructure projects. We leverage our product offerings and financial expertise to assist our customers and clients in transitioning to a sustainable and a low-carbon economy. We are pursuing this through three thematic areas including ESG integration in products, sustainable finance and portfolio emissions. These aspects are discussed in detail in the chapter on the ESG strategy. Strategies The Bank is in the process of augmenting existing methodologies and frameworks to assess climate transition risk for the wholesale borrowers, in response to an ever changing and evolving risk environment. For retail portfolio, the Bank is exploring framework to assess potential portfolio-at-risk by mapping the location of exposures against Natural Catastrophic (NATCAT) scores with varying degree of severity. Additionally, the Bank conducts capacity-building programs to familiarise the Board and staff members with key developments in climate risk assessment as guided by regulatory landscape. Furthermore, the Bank continues to disclose financed emissions for selected segments of its lending portfolio. Capitals Impacted: N SR M F SR F F Financial I Intellectual M Manufactured H Human SR Social and Relationship N Natural HDFC Bank Limited 100",
+      "chunk_index": 158,
+      "page_number": 115,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\HDFCBANK_FY25.json"
+      },
+      "similarity": 12.175224460236244,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015625
+    },
+    {
+      "id": "387c1732-bc6d-4697-8cec-2a731696c0b7",
+      "content": "HDFC Bank Limited 238 D I R E C T O R S ’ R E P O R T significant control nor qualifies as a significant beneficial owner—such as HDFC Mutual Fund, Alternative Investment Funds and Separately Managed Accounts managed or advised by HDFC Asset Management Company Limited and its international subsidiary. The Framework establishes a defined structure for oversight, reporting and escalation across the Group. The Board of HDFC Bank exercises overall oversight through periodic information reported by various stakeholders. The Group Oversight Department reports critical matters to the Board, including critical overdue action items, material risks, exceptions in intra- group transactions, material related-party transactions and significant governance concerns (if any). Enabling and control functions of the Bank report Group-level key metrics and any observed exceptions through designated channels. Oversight responsibilities and escalation protocols are set out in the framework and is illustrated as below. Model Risk The use of models invariably presents model risk, which is the potential for adverse consequences from decisions based on incorrect or misused model outputs and reports. The Model Risk Management (MRM) under Risk Management Group is responsible for testing and verifying the accuracy and reliability of models used within the Bank. By establishing a dedicated MRM team, your Bank ensures that its models are independently evaluated before implementation and on an ongoing basis. There is an established Model Risk Management Policy (MRM Policy) which is a centralized, overarching policy whose objective is to provide comprehensive guidance on model risk management across the Bank. The policy defines the roles and responsibilities across stakeholders i.e., Model Owners, Model Users, Model Developers, and the Model Risk Management (MRM). There is Model Risk Management Committee (MRMC) which is an executive committee to govern the Model Risk Management Framework as defined in the MRM policy. It also oversees the development and implementation of MRM policy, governance structure and ensure that necessary processes and systems are put in place. The Committee reviews the results of the model validation/monitoring on a periodic basis. The MRMC shall report to the Bank’s Risk Policy & Monitoring Committee (RPMC). ICAAP Your Bank has a structured management framework in the Internal Capital Adequacy Assessment Process (ICAAP) for the identification and evaluation of all material risks that the Bank is exposed to, which may have an adverse material impact on its financial position. Your Bank has identified material risks which include, in addition to Pillar 1, several Pillar 2 risks for which capital is primarily quantified using stress testing approach. The ICAAP framework is guided by the Board approved ICAAP Policy. The ICAAP encompasses assessment of capital adequacy for the base period and for the projected plan years. Climate Risk The risks from climate change are divided into (i) Physical risk (acute and chronic) which captures economic losses from acute impacts on account of extreme weather events or long- term chronic impact on environment and (ii) Transition risks which captures financial asset level losses due to the possible process of adjustment to a low carbon economy. The CSR and ESG committee of the Board oversees",
+      "ticker": "HDFCBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 251,
+      "section_title": "general",
+      "similarity": 0.633013643802027,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "ticker": "HDFCBANK",
+      "content": "comprise the Standalone Balance Sheet as at March 31, 2025, and the Standalone Profit and Loss Account and the",
+      "chunk_index": 526,
+      "page_number": 323,
+      "section_title": "\u0007We have jointly audited the accompanying Standalone Financial Statements of HDFC Bank Limited (“the Bank”), which",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\HDFCBANK_FY25.json"
+      },
+      "similarity": 12.169664041740534,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "id": "3bce0c8f-21ec-40f1-aa8d-a5a0acc957db",
+      "content": "HDFC Bank Limited 290 R E P O R T O N C O R P O R AT E G O V E R N A N C E Risk Policy & Monitoring Committee Financial capital Investors, Government and Regulatory Bodies Capitals Impacted Stakeholders Impacted During the financial year under review, the Risk Policy & Monitoring Committee met 10 (ten) times on April 19, 2024, June 19, 2024, June 27, 2024, July 19, 2024, September 19, 2024, October 18, 2024, November 26, 2024, January 21, 2025, February 20, 2025 and March 26, 2025. Mrs. Lily Vadera (Chairperson), Mr. Atanu Chakraborty, Mr. M.D. Ranganath, Mr. Sandeep Parekh, Mrs. Renu Karnad and Mr. Sashidhar Jagdishan. Out of the total Directors, 4 Directors are independent. Composition Meetings Brief Terms of Reference / Roles and Responsibilities • Monitoring the compliance of risk parameters/aggregate exposures with the appetite set by the Board and ensuring that frameworks are established for assessing and managing various risks faced by the Bank, systems are developed to relate risk to the Bank’s capital level and methods are in place for monitoring compliance with internal risk management policies and processes. • Ensuring that the Bank has a suitable framework for Risk Management and oversees the implementation of the risk management policy. • \u0007 Reviewing of the enterprise-wide risk frameworks viz. Risk Appetite framework (RAF), Internal Capital Adequacy Assessment Process (ICAAP), stress testing policy & framework, Enterprise Model Validation Policy, Group Risk Management Policy, Bank’s exposure to Central Counterparties including exposures arising from trading through CCP and exposures arising from CCP membership obligations such as default fund contributions, outcome of Money Laundering and Terrorist Financing Risk Assessment etc. • Reviewing impaired credits and material risks faced by the subsidiaries. • Reviewing the cyber security framework of the Bank, evaluating the probable risks associated with cyber security and ensure that appropriate measures and procedures have been put in place to mitigate the same. Fraud Monitoring Committee Brief Terms of Reference / Roles and Responsibilities • Identifying the systemic lacunae, if any, that facilitated perpetration of the fraud and put in place measures to plug the same. • Identifying the reasons for delay in detection, if any, reporting to top management of the Bank and Reserve Bank of India. • Monitoring progress of CBI / Police Investigation, and recovery position. • Ensure that staff accountability is examined at all levels in all the cases of frauds and staff side action, if required, is completed quickly without loss of time. • Reviewing the efficacy of the remedial action taken to prevent recurrence of frauds, such as strengthening of internal controls. • Put in place other measures as may be considered relevant to strengthen preventive measures against commission of frauds. • Monitoring and reviewing the Red Flag Accounts as and when they are classified as per the guidelines prescribed by the RBI. • Monitoring the progress of mitigating steps taken by the Bank in case of electronic frauds and the efficacy of the same in containing fraud numbers and values. • \u0007Reviewing and monitoring cases of frauds,",
+      "ticker": "HDFCBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 303,
+      "section_title": "general",
+      "similarity": 0.628219939960239,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015151515151515152
+    },
+    {
+      "ticker": "HDFCBANK",
+      "content": "Geographic segments \u0007The geographic segments of the Bank are categorised as domestic operations and foreign operations. Domestic operations comprise branches in India and foreign operations comprise branches outside India. Segment reporting for the year ended March 31, 2025 is given below: Business segments: (` crore) Sr. No. Particulars Treasury Retail banking Wholesale banking Other banking business Insurance business Other Total Digital banking # Non digital banking 1 Segment revenue 62,227.48 8.59 283,426.20 191,964.51 35,449.05 107,630.27 17,136.34 697,842.44 2 Unallocated revenue - 3 Less: Inter-segment revenue 226,926.51 4 Income from operations (1) + (2) - (3) 470,915.93 5 Segment results 4,605.36 0.04 27,309.07 44,543.96 14,363.75 5,953.61 1,810.38 98,586.17 6 Unallocated expenses 2,344.12 7 Income tax expense (including deferred tax) 22,801.88 8 Net profit (5)-(6)-(7) 73,440.17 9 Segment assets 991,874.12 81.15 1,533,809.12 1,247,937.97 112,358.81 372,256.74 109,961.74 4,368,279.65 10 Unallocated assets 24,137.77 11 Total assets (9)+(10) 4,392,417.42 12 Segment liabilities 83,340.18 86.16 2,312,429.69 956,136.34 8,513.18 358,568.57 86,926.10 3,806,000.22 13 Unallocated liabilities 48,268.77 14 Total liabilities (12) + (13) 3,854,268.99 15 Capital employed (9) - (12) (Segment assets - Segment liabilities) 562,279.43 16 Unallocated (10) - (13) (24,131.00) 17 Total (15) + (16) 538,148.43 18 Capital expenditure 71.43 - 4,399.07 400.46 833.05 701.81 340.72 6,746.54 19 Depreciation 30.20 - 2,774.26 250.78 324.23 219.26 206.50 3,805.23 20 Provisions for non - performing assets / others* - - 9,138.23 (1,729.99) 4,241.18 61.19 2,464.00 14,174.61 21 Unallocated other provisions* - - * Represents material non-cash charge other than depreciation and taxation. # Information about Digital Banking Segment reported as a sub-segment of Retail Banking Segment is related to Digital Banking Units of the Bank.",
+      "chunk_index": 1079,
+      "page_number": 526,
+      "section_title": "Statutory Reports and Financial Statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\HDFCBANK_FY25.json"
+      },
+      "similarity": 11.934230128389016,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015151515151515152
+    },
+    {
+      "id": "de334c1c-e811-4bec-aff5-959b4c3e3a97",
+      "content": "(` crore) Name of entity Net assets as of March 31, 2024 Profit or (loss) for the year ended March 31, 2024 As % of consolidated net assets** Amount As % of consolidated profit or loss Amount Parent: HDFC Bank Limited 93.71% 440,245.80 92.92% 60,812.27 Subsidiaries: HDFC Life Insurance Company Limited (Consolidated)*1 3.12% 14,666.39 1.68% 1,099.42 HDB Financial Services Limited* 3.01% 14,128.12 3.68% 2,408.26 HDFC Asset Management Company Limited (Consolidated)*2 1.28% 5,996.80 1.76% 1,153.05 HDFC ERGO General Insurance Company Limited* 0.94% 4,448.02 0.33% 217.31 HDFC Securities Limited* 0.42% 1,970.86 1.48% 967.44 HDFC Capital Advisors Limited* 0.06% 261.77 0.12% 76.13 HDFC Sales Private Limited* 0.04% 202.19 0.06% 39.45 Griha Pte Limited 0.02% 76.41 (0.01%) (7.00) Griha Investments 0.00% 10.65 (0.03%) (19.53) HDFC Trustee Company Limited* 0.00% 3.07 0.00% 0.24 Entity over which control is exercised: HDB Employee Welfare Trust* 0.04% 171.56 0.00% (0.49) Minority Interest 2.85% 13,383.40 2.11% 1,384.46 Inter-company adjustments (5.49%) (25,786.39) (4.10%) (2,684.51) Total 100.00% 469,778.65 100.00% 65,446.50 * The subsidiaries are Indian entities. ** Consolidated net assets are total assets minus total liabilities. 1. \u0007HDFC Life Insurance Company Limited (Consolidated) includes details of its wholly owned Indian subsidiary - HDFC Pension Fund Management Limited and wholly owned foreign subsidiary - HDFC International Life and Re Company Limited. 2. \u0007HDFC Asset Management Company Limited (Consolidated) includes details of its wholly owned Indian subsidiary - HDFC AMC International (IFSC) Limited. 22. Additional disclosure",
+      "ticker": "HDFCBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 536,
+      "section_title": "Statutory Reports and Financial Statements",
+      "similarity": 0.627158142754922,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014925373134328358
+    },
+    {
+      "ticker": "HDFCBANK",
+      "content": "at the Balance Sheet date and the resulting profit / loss arising from exchange differences are accumulated in the Foreign Currency Translation Reserve until disposal of the non-integral foreign operations in accordance with AS-11, The Effects of Changes in Foreign Exchange Rates and the extant RBI guidelines. \u0007Foreign currency denominated contingent liabilities on account of foreign exchange and derivative contracts, guarantees, letters of credit, acceptances and endorsements are translated at closing rates of exchange notified by FEDAI and RBI in case of Bank and subsidiaries, respectively, as at the Balance Sheet date. 10. Foreign exchange and derivative contracts \u0007Foreign exchange spot and forward contracts, outstanding as at the Balance Sheet date and held for trading, are revalued at the closing spot and forward rates respectively as notified by FEDAI and at interpolated rates for contracts of interim maturities. The USD-INR exchange rate for valuation of contracts having longer maturities i.e., greater than one year, is derived using the USD-INR spot rate as well as relevant INR yield curve and USD yield curve. For other currency pairs and non-deliverable contracts, the forward points (for rates / tenors not published by FEDAI) are obtained / derived basis data published by Refinitiv or Bloomberg for valuation of the contracts. Valuation is considered on present value basis. For this purpose, the forward profit or loss on the contracts are discounted to the valuation date using the discounting yields. The resulting profit or loss on valuation is recognised in the Consolidated Profit and Loss Account. Marked to market value of foreign exchange contracts are classified as assets when the fair value is positive or as liabilities when the fair value is negative. \u0007The Group recognises all derivative contracts at fair value, on the date on which such derivative contracts are entered into and are re-measured at fair value as at the Balance Sheet date. Marked to market values of such derivatives are classified as assets when the fair value is positive or as liabilities when the fair value is negative. \u0007The Group as part of its risk management strategy, makes use of derivative instruments, including foreign exchange forward contracts, interest rate derivative contract for hedging the risk embedded in some of its financial assets or liabilities recognised on the Consolidated Balance Sheet. The Group identifies the hedged item (asset or liability) at the inception of the transaction itself. Hedge effectiveness is ascertained at the time of the inception of the hedge and at the reporting date thereafter. \u0007Foreign exchange forward contracts and Principal only swaps (POS) not intended for trading, that are entered into to establish the amount of reporting currency required or available at the settlement date of a transaction, and are outstanding at the Balance Sheet date, are accounted in accordance with AS-11. Accordingly, such contracts are not marked to market and only translated at spot rate. The premium or discount arising at the inception of such forward exchange contract is amortised on a straight-line basis as expense or income over the life of the contract. The interest income / expense on such POS transaction",
+      "chunk_index": 982,
+      "page_number": 486,
+      "section_title": "Statutory Reports and Financial Statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\HDFCBANK_FY25.json"
+      },
+      "similarity": 11.852518213334784,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014925373134328358
+    },
+    {
+      "id": "cb0f29f2-ee91-4139-a469-df5d24889b40",
+      "content": "5. \u0007The following Key Audit Matters were reported to us by the joint auditors, G. M. Kapadia & Co. and B S R & Co. LLP, of HDFC Life Insurance Company Limited, a subsidiary of the Parent, vide their communication dated April 18, 2025 which are reproduced by us as under: Appropriateness of the Timing of Revenue Recognition in the proper period in accordance with applicable guidelines / accounting standards Key Audit Matter How our audit has addressed the key audit matter During the year, the Holding Company has recognised premium revenue of ` 3,336,530 lakhs towards new business (first year premium and single premium). Out of the total revenue recognised, ` 1,096,923 lakhs were recognised during the last quarter. This area was considered a key audit matter because of the significant concentration of revenue during the last quarter of financial year (including cut-off at the Balance sheet date). Due to the nature of the industry, revenue is skewed towards the balance sheet date. Hence, there is a need to have adequate control environment and accurate cut-off procedures to mitigate inherent risk of misstatement related to the timing of revenue recognition. In view of the significance of the matter, we applied the following audit procedures in this area, among others: \u0007Understood and evaluated the design and controls and tested the operating effectiveness of key controls relating to recognition of revenue including controls over timing of recognition and policy issuance procedure. 2) \u0007Performed testing on a sample basis for policies issued around the year-end including effectiveness of controls relating to cut- off procedures to confirm if related procedural compliances with regard to acceptability of the terms of policy were completed before or after the year end to verify appropriate accounting of revenue in accordance with applicable guidelines / accounting standards. 3) \u0007Verified on a sample basis that policy sales of the next financial year are not accounted for in the current period. 4) \u0007Tested on a sample basis, the unallocated premium to corroborate that there were no policies where risk commenced prior to balance sheet but revenue was not recognised. 5) \u0007Tested the manual accounting journal entries relating to revenue on a sample basis so as to identify unusual or irregular items. We agreed the journal entries tested to supporting evidence. 6) \u0007Tested on a sample basis cheques receipt with the time stamp in case of products like Unit Linked Insurance Plan to confirm the recognition of the revenue in correct accounting period. 7) \u0007Tested the automated control that the issuance of the policy is done after the payment is received.",
+      "ticker": "HDFCBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 444,
+      "section_title": "Statutory Reports and Financial Statements",
+      "similarity": 0.623570002530218,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014705882352941176
+    },
+    {
+      "ticker": "HDFCBANK",
+      "content": "Integrated Annual Report 2024-25 321 S TA N D A L O N E P R O F I T A N D L O S S A C C O U N T For the year ended March 31, 2025 (` in ‘000) Schedule Year ended March 31, 2025 Year ended March 31, 2024 I. INCOME Interest earned 13 3,005,170,417 2,583,405,755 Other income 14 456,322,818 492,409,994 Total 3,461,493,235 3,075,815,749 II. EXPENDITURE Interest expended 15 1,778,469,527 1,498,081,008 Operating expenses 16 681,748,820 633,860,240 Provisions and contingencies 18 (19.5) 327,801,307 335,751,716 Total 2,788,019,654 2,467,692,964 III. PROFIT Net profit for the year 673,473,581 608,122,785 Balance in the Profit and Loss account brought forward 1,395,798,306 1,129,599,963 Additions on Amalgamation (net) 18 (1) - 35,701,097 Total 2,069,271,887 1,773,423,845 IV. APPROPRIATIONS Transfer to Statutory Reserve 168,368,395 152,030,697 Transfer to General Reserve 67,347,358 60,812,279 Transfer to Special Reserve 32,000,000 30,000,000 Transfer to Capital Reserve 5,069,983 41,664,119 Transfer to / (from) Investment Reserve Account (net) - 5,294,222 Transfer to / (from) Investment Fluctuation Reserve - 3,780,000 Dividend pertaining to previous year paid during the year 148,261,930 84,044,222 Balance carried over to Balance Sheet 1,648,224,221 1,395,798,306 Total 2,069,271,887 1,773,423,845 V. EARNINGS PER EQUITY SHARE (Face value ` 1/- per share) 18 (31) ` ` Basic 88.29 85.83 Diluted 87.90 85.44",
+      "chunk_index": 584,
+      "page_number": 334,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\HDFCBANK_FY25.json"
+      },
+      "similarity": 11.415961370523647,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014705882352941176
+    },
+    {
+      "id": "9d00850d-f09a-450e-be7b-e16d6f28147a",
+      "content": "HDFC Bank Limited 584 FINANCIAL CALENDAR [April 01, 2025 to March 31, 2026] Board Meeting for consideration of Annual",
+      "ticker": "HDFCBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 597,
+      "section_title": "general",
+      "similarity": 0.621349509479062,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014492753623188406
+    },
+    {
+      "ticker": "HDFCBANK",
+      "content": "supportive monetary and fiscal policy, increasing digitalisation and a healthy financial system, augur well for attracting foreign investments and propelling medium-term growth outlook for the country. Our Performance The results for FY25 represented the first full year of operations since the merger on July 1, 2023. I am happy to report that in the last financial year, your Bank reported healthy growth while maintaining pristine asset quality which has been its USP across business cycles. Net Profit increased by 10.7 per cent to H67,347.4 crore on March 31, 2025 while Net Interest Income grew by 13.0 per cent to H1,22,670.1 crore. Our Net Interest Margin (NIM) stood at 3.48 per cent. Your Bank’s balance sheet rose by over eight per cent to H39,10,199 crore. Gross NPAs were at 1.33 per cent of Gross Advances. Advances grew by 5.4 per cent to H26,19,609 crore while Deposits grew 14.1 per cent to H27,14,715 crore. I had mentioned last year that this is HDFC Bank 2.0. We have progressed from then to navigating this transition across NIMs, our liability profile and our strategic direction to pursue profitable growth. As is evident, our deposits grew 2.5 times faster than loans. As stated we have taken affirmative steps to bring down the credit to deposit ratio and reduce the percentage of high cost borrowings. We consciously calibrated our loan growth in FY25 to reposition the balance sheet. Aided by appropriate and disciplined pricing and focussed on quality growth we were successful in achieving the same. You will be happy to know that the percentage of high cost borrowings has come down to 14 per cent at the end of the fiscal year 2024-25. The credit deposit ratio has been brought down to 96 per cent as on March 31, 2025 from a high of about 110 per cent at the time of the merger. Integrated Annual Report 2024-25 13 Who Governs Us",
+      "chunk_index": 55,
+      "page_number": 33,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\HDFCBANK_FY25.json"
+      },
+      "similarity": 11.378984845263249,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014492753623188406
+    },
+    {
+      "id": "9b30376a-f6bb-48ea-8246-82df4ef63ebb",
+      "content": "ASSURANCE STATEMENT HDFC Bank Limited 202",
+      "ticker": "HDFCBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 215,
+      "section_title": "general",
+      "similarity": 0.611112773418431,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014285714285714285
+    },
+    {
+      "ticker": "HDFCBANK",
+      "content": "Integrated Annual Report 2024-25 447 C O N S O L I D AT E D P R O F I T A N D L O S S A C C O U N T For the year ended March 31, 2025 C in crore Schedule Year ended March 31, 2025 Year ended March 31, 2024 I. INCOME Interest earned 13 336,367.43 283,649.02 Other income 14 134,548.50 124,345.75 Total 470,915.93 407,994.77 II. EXPENDITURE Interest expended 15 183,894.20 154,138.55 Operating expenses 16 176,605.07 152,269.34 Provisions and contingencies 18 (10) 36,976.49 36,140.38 Total 397,475.76 342,548.27 III. PROFIT Consolidated Net Profit for the year before Minority Interest 73,440.17 65,446.50 Less : Minority Interest 2,647.92 1,384.46 Consolidated Net Profit for the year attributable to the group 70,792.25 64,062.04 Brought forward consolidated profit attributable to the group 150,045.57 120,369.35 Addition on amalgamation (net) 18 (1) - 3,570.10 Total 220,837.82 188,001.49 IV. APPROPRIATIONS Transfer to Statutory Reserve 17,260.30 15,684.72 Transfer to General Reserve 6,734.74 6,081.23 Transfer to Special Reserve 3,200.00 3,000.00 Transfer to Capital Reserve 507.00 4,166.41 Transfer to / (from) Investment Reserve Account (net) - 529.42 Transfer to / (from) Investment Fluctuation Reserve - 378.00 Dividend pertaining to previous year paid during the year 14,826.19 8,404.42 Transfer to / (from) Minority Interest (opening adjustment) (382.96) (288.28) Balance carried over to consolidated balance sheet 178,692.55 150,045.57 Total 220,837.82 188,001.49 V. EARNINGS PER EQUITY SHARE (Face value ` 1/- per share) 18 (19) ` ` Basic 92.81 90.42 Diluted 92.39 90.01",
+      "chunk_index": 914,
+      "page_number": 460,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\HDFCBANK_FY25.json"
+      },
+      "similarity": 10.627205148942291,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014285714285714285
+    },
+    {
+      "id": "d1c73d95-c5d0-42ea-bc19-d033709b45d6",
+      "content": "FINANCIAL PERFORMANCE Delivering Growth with Prudence 36,17,623 24,66,081 39,10,199 FY24 FY25 FY23 Balance Sheet Size (I Cr) 39,10,199 In a year in which India continued to remain the fastest-growing major economy, HDFC Bank consolidated its position as the country’s largest private sector bank by Balance Sheet size while maintaining healthy asset quality. The Balance Sheet size grew by 8.1 per cent in the fiscal, with a 14.1 per cent increase in Deposits and a 5.4 per cent growth in Advances. The Bank consolidated its position as the largest private sector bank by Balance Sheet size in India without compromising on asset quality. This was achieved through the extensive reach across 9,455 branches as well as a strong digital footprint. Our Profit After Tax grew by 10.7 per cent and GNPA stood at 1.33 per cent. The Cost to Income Ratio marginally increased to 40.5 per cent in FY25 from 40.2 per cent in FY24. The Bank added over 700 branches in the Financial Year ended March 31, 2025. The Net Interest Margin was at 3.48 per cent. The Bank remains well-capitalised, reflected in a Capital Adequacy Ratio of 19.6 per cent. As a responsible bank, it has built a substantial cushion against any adverse impact with a Provision Coverage Ratio of 67.86 per cent. HDFC Bank continued to deliver value to shareholders, with a ROE of 14.6 per cent. The Earnings Per Share (EPS) increased by 2.9 per cent to J88.3, while dividend per share rose by 12.8 per cent to J22.0 in FY25. 23,79,786 18,83,395 27,14,715 FY24 FY25 FY23 Deposits (I Cr) 27,14,715 40.2 40.4 40.5 FY24 FY25 FY23 Cost to Income Ratio (%) 40.5 1.24 1.12 1.33 FY24 FY25 FY23 Gross NPA Ratio (%) 1.33 HDFC Bank Limited 40",
+      "ticker": "HDFCBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 56,
+      "section_title": "general",
+      "similarity": 0.716849360841594,
+      "retrieval_source": "vector",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "ticker": "HDFCBANK",
+      "content": "Overview 60,812 44,109 67,347 FY24 FY25 FY23 Profit After Tax (I Cr) 67,347 24,84,862 16,00,586 26,19,609 FY24 FY25 FY23 Advances (I Cr) 26,19,609 1.98 2.07 1.91 FY24 FY25 FY23 Return on Assets (Average) (%) 1.91 85.8 79.3 88.3 FY24 FY25 FY23 Earnings Per Share (I) 88.3 16.1 17.4 14.6 FY24 FY25 FY23 Return on Equity (%) 14.6 19.5 19.0 22.0 FY24 FY25 FY23 Dividend Per Share (I) 22.0 \u0007Commission, Exchange, Brokerage Other Interest Income FX & Derivative Income Income from Investments Others Interest from Advances Rupee Earned FY25 (%) 9.2 2.5 1.4 16.6 1.4 68.9 \u0007Tax Provisions Provisions Dividend Transfer to Reserve Operating Expense Interest Expense Rupee Spent FY25 (%) 6.6 3.6 4.6 8.5 21.2 55.5 Integrated Annual Report 2024-25 41 Our Performance",
+      "chunk_index": 91,
+      "page_number": 57,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\HDFCBANK_FY25.json"
+      },
+      "similarity": 20.311514251176167,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "ticker": "HDFCBANK",
+      "content": "FINANCIAL PERFORMANCE Delivering Growth with Prudence 36,17,623 24,66,081 39,10,199 FY24 FY25 FY23 Balance Sheet Size (I Cr) 39,10,199 In a year in which India continued to remain the fastest-growing major economy, HDFC Bank consolidated its position as the country’s largest private sector bank by Balance Sheet size while maintaining healthy asset quality. The Balance Sheet size grew by 8.1 per cent in the fiscal, with a 14.1 per cent increase in Deposits and a 5.4 per cent growth in Advances. The Bank consolidated its position as the largest private sector bank by Balance Sheet size in India without compromising on asset quality. This was achieved through the extensive reach across 9,455 branches as well as a strong digital footprint. Our Profit After Tax grew by 10.7 per cent and GNPA stood at 1.33 per cent. The Cost to Income Ratio marginally increased to 40.5 per cent in FY25 from 40.2 per cent in FY24. The Bank added over 700 branches in the Financial Year ended March 31, 2025. The Net Interest Margin was at 3.48 per cent. The Bank remains well-capitalised, reflected in a Capital Adequacy Ratio of 19.6 per cent. As a responsible bank, it has built a substantial cushion against any adverse impact with a Provision Coverage Ratio of 67.86 per cent. HDFC Bank continued to deliver value to shareholders, with a ROE of 14.6 per cent. The Earnings Per Share (EPS) increased by 2.9 per cent to J88.3, while dividend per share rose by 12.8 per cent to J22.0 in FY25. 23,79,786 18,83,395 27,14,715 FY24 FY25 FY23 Deposits (I Cr) 27,14,715 40.2 40.4 40.5 FY24 FY25 FY23 Cost to Income Ratio (%) 40.5 1.24 1.12 1.33 FY24 FY25 FY23 Gross NPA Ratio (%) 1.33 HDFC Bank Limited 40",
+      "chunk_index": 90,
+      "page_number": 56,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\HDFCBANK_FY25.json"
+      },
+      "similarity": 16.33683451538186,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "id": "858897ef-154c-4cab-973b-f0a8bc8b8ded",
+      "content": "POWER OF THE GROUP FY25 Financials Total Income for the Financial Year 2024-25 recorded a year- on-year growth of 28 per cent to I4,058 crore. Profit After Tax grew by 26 per cent to I2,461 crore. FY25 Key Initiatives 1. \u0007Expanded product suite with 7 NFOs, taking the total to over 100 products and I7.5 lakh crore in overall AUM. 2. \u0007Strengthened the passive portfolio, raising the total to 44 passive funds across Index and ETFs, with I574 billion in AUM. 3. \u0007Added 26 new offices, bringing the total count to 280. 4. \u0007Enhanced the digital infrastructure to deliver a fast, secure and user-friendly investment experience with innovations like WhatsApp transactions and integration with Open Network for Digital Commerce (ONDC) platform. 5. \u0007Forayed into AIFs with the successful closure of its first Category II AIF Fund of Funds. 6. \u0007Strengthened international presence by launching three funds through wholly owned subsidiary, HDFC AMC International (IFSC) Limited. HDFC Asset Management Company Limited HDFC Asset Management Company Limited (HDFC AMC), investment manager to HDFC Mutual Fund, is one of India’s largest mutual funds. With a 52.5 per cent stake held by HDFC Bank, it offers a wide range of savings and investment products to over 1.32 crore investors through 2.33 crore live accounts. Established in 1999, it has a strong presence across 280 offices, 95,000+ distribution partners and digital platforms. HDFC AMC also provides Portfolio Management Services and Alternative Investment Funds to HNIs, family offices, corporates, trusts, and institutions, ensuring accessible, efficient financial solutions across diverse customer segments. HDFC Bank Limited 52",
+      "ticker": "HDFCBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 68,
+      "section_title": "general",
+      "similarity": 0.678079107036702,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "id": "7ac76af4-2b60-4f63-9fd7-e650868d4186",
+      "content": "HDFC Bank Limited 448 C O N S O L I D AT E D C A S H F L O W S TAT E M E N T For the year ended March 31, 2025 CC in crore Year ended March 31, 2025 Year ended March 31, 2024 Cash flows from operating activities: Consolidated profit before income tax and after minority interest 93,594.13 75,184.14 Adjustments for: Depreciation on fixed assets 3,805.23 3,092.08 (Profit) / loss on revaluation of investments 3,909.10 (6,957.14) Amortisation of premium on investments 87.07 966.09 Profit on sale of fixed assets (22.03) (75.36) (Profit) / loss on sale of investment in subsidiary 8.00 (7,341.42) Provision / charge for non performing assets 15,385.24 12,540.05 Floating provisions - 10,900.00 Provision / (write-back) for standard assets and contingencies (1,210.63) 1,578.23 Employee stock options / units expense 2,086.05 1,731.73 117,642.16 91,618.40 Adjustments for: Increase in investments (180,362.67) (88,411.63) Increase in advances (169,918.22) (312,488.37) Increase in deposits 334,010.95 336,964.81 Increase in other assets (10,829.67) (27,919.59) Increase in other liabilities and provisions 13,117.98 6,420.40 Increase in policyholders' funds 43,289.99 35,728.16 146,950.52 41,912.18 Direct taxes paid (net of refunds) (19,708.68) (22,842.84) Net cash flows from operating activities 127,241.84 19,069.34 Cash flows from investing activities: Purchase of fixed assets (4,075.89) (4,286.72) Proceeds from sale of fixed assets 100.72 99.82 Proceeds from sale of investment in subsidiary (net) 192.00 9,500.67 Investment in subsidiaries (67.47) - Net cash flow from / (used in) investing activities (3,850.64) 5,313.77 Cash flows from financing activities: Increase in minority interest 2,382.88 1,201.66 Proceeds from exercise of convertible equity warrants - 3,192.81",
+      "ticker": "HDFCBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 461,
+      "section_title": "general",
+      "similarity": 0.663861155509949,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015873015873015872
+    }
+  ],
+  "generated_at": "2026-06-22T09:32:42.333530+00:00"
+}

@@ -5,12 +5,21 @@ import { useMemo } from "react";
 
 import BullBearBaseCards from "@/components/BullBearBaseCards";
 import FormattedText from "@/components/FormattedText";
+import KeyMetricsStrip from "@/components/KeyMetricsStrip";
+import RatioIndicators from "@/components/RatioIndicators";
 import SectionChart from "@/components/SectionChart";
 import SectionViewToggle from "@/components/SectionViewToggle";
-import { parseChartData, SECTION_BULL_BEAR } from "@/lib/chartTypes";
+import {
+  parseChartData,
+  SECTION_BULL_BEAR,
+  SECTION_EXECUTIVE,
+  SECTION_RATIOS,
+} from "@/lib/chartTypes";
 import { formatGroupedCitations } from "@/lib/citations";
 import { stripLeadingSectionTitle } from "@/lib/formatText";
 import { sectionKey } from "@/lib/bulletSummary";
+import { parseFinancialRatios } from "@/lib/parseFinancialRatios";
+import { parseKeyMetrics } from "@/lib/parseKeyMetrics";
 import { hasScenarioCards, parseBullBearBase } from "@/lib/parseBullBearBase";
 
 type Citation = { source: string; page?: number; section?: string };
@@ -50,8 +59,21 @@ export default function ReportSectionCard({
     () => (section.title === SECTION_BULL_BEAR ? parseBullBearBase(proseText) : null),
     [section.title, proseText]
   );
+  const keyMetrics = useMemo(
+    () =>
+      section.title === SECTION_EXECUTIVE
+        ? parseKeyMetrics(proseText, bullets)
+        : null,
+    [section.title, proseText, bullets]
+  );
+  const financialRatios = useMemo(
+    () => (section.title === SECTION_RATIOS ? parseFinancialRatios(proseText) : null),
+    [section.title, proseText]
+  );
   const showScenarioCards = hasScenarioCards(scenarioBlocks);
   const showChart = viewMode === "prose" && chartData !== null;
+  const showKeyMetrics = Boolean(keyMetrics);
+  const showRatios = viewMode === "prose" && Boolean(financialRatios?.length);
 
   return (
     <div className="report-section" id={`section-${index}`}>
@@ -70,6 +92,8 @@ export default function ReportSectionCard({
       </div>
 
       <div className="report-section-body">
+        {showKeyMetrics && keyMetrics && <KeyMetricsStrip metrics={keyMetrics} />}
+
         <AnimatePresence mode="wait" initial={false}>
           {viewMode === "bullets" && hasBullets ? (
             <motion.ul
@@ -103,14 +127,18 @@ export default function ReportSectionCard({
               initial={{ opacity: 0 }}
               animate={{ opacity: 1 }}
               exit={{ opacity: 0 }}
-              transition={{ duration: 0.2, ease: [0, 0, 0.2, 1] }}
+              transition={{
+                duration: 0.2,
+                ease: [0, 0, 0.2, 1],
+              }}
             >
               <FormattedText text={proseText} />
             </motion.div>
           )}
         </AnimatePresence>
 
-        {showChart && <SectionChart data={chartData} />}
+        {showRatios && financialRatios && <RatioIndicators ratios={financialRatios} />}
+        {showChart && chartData && <SectionChart data={chartData} />}
       </div>
 
       {section.citations?.length > 0 && (

@@ -1,0 +1,645 @@
+{
+  "sections": [
+    {
+      "title": "Executive Summary + Investment Thesis",
+      "body": "**Executive Summary**\n\nICICIBank's fiscal 2025 performance demonstrates a steady growth trajectory, with net interest income and non-interest income increasing by 10.8% to ₹1,077.68 billion. The bank's core operating profit rose by 12.5% to ₹653.96 billion, driven by a 10.8% growth in net interest income and non-interest income. However, operating expenses increased by 8.3% to ₹423.72 billion. The bank's consolidated profit after tax and minority interest stood at ₹510.29 billion, representing a 15.3% increase over the previous year. The board of directors has recommended a dividend of ₹11.00 per equity share for the year ended March 31, 2025.\n\n**Investment Thesis**\n\nOur investment thesis for ICICIBank is positive, driven by the bank's ability to maintain a steady growth trajectory in a challenging environment. The bank's focus on improving its core operating performance, coupled with its robust capital position and consistent dividend payment history, makes it an attractive investment opportunity. With a consolidated profit after tax and minority interest of ₹510.29 billion and a total income of ₹2,945.87 billion, ICICIBank demonstrates a strong financial position. The bank's net profit after tax increased by 15.5% to ₹472.27 billion, indicating a healthy growth in profitability. However, the increase in provisions and contingencies by 28.5% to ₹46.83 billion is a concern that needs to be monitored. Overall, we believe that ICICIBank's strong financial performance, robust capital position, and consistent dividend payment history make it a compelling investment opportunity in the banking sector.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 133,
+          "section": "along with the audited financial statements for the year ended March 31, 2025."
+        },
+        {
+          "source": "filing",
+          "page": 220,
+          "section": "STANDALONE FINANCIAL STATEMENTS OF ICICI BANK LIMITED"
+        },
+        {
+          "source": "filing",
+          "page": 334,
+          "section": "CONSOLIDATED FINANCIAL STATEMENTS OF ICICI BANK LIMITED"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Business Overview + Segment Breakdown",
+      "body": "ICICI Bank's business can be broadly segmented into Retail Banking, Wholesale Banking, Treasury, and Other Banking Business. As of March 31, 2025, the Retail Banking segment is further sub-divided into Digital Banking and Other Retail Banking. The segment revenue for Retail Banking was ₹1,561,846.8 million, with Digital Banking contributing ₹402,641.2 million and Other Retail Banking contributing ₹1,159,205.6 million. The consolidated profit after tax increased from ₹442.56 billion in fiscal 2024 to ₹510.29 billion in fiscal 2025, driven by an increase in the profit of ICICI Bank and its subsidiaries. The consolidated assets of the Bank and its subsidiaries increased from ₹23,640.63 billion at March 31, 2024 to ₹26,422.41 billion at March 31, 2025. The segment-wise revenue for fiscal 2025 was: Retail Banking (₹1,561,846.8 million), Wholesale Banking (₹717,802.2 million), Treasury (₹1,139,592.2 million), and Other Banking Business (₹32,973.0 million).",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 201,
+          "section": "financial statements of the Bank, financial statements as"
+        },
+        {
+          "source": "filing",
+          "page": 245,
+          "section": "'RBI’s Master Direction on Financial Statements – Presentation and Disclosures, requires to sub-divide ‘Retail"
+        },
+        {
+          "source": "filing",
+          "page": 201,
+          "section": "MANAGEMENT DISCUSSION & ANALYSIS"
+        },
+        {
+          "source": "filing",
+          "page": 245,
+          "section": "\u0007'RBI’s Master Direction on Financial Statements – Presentation and Disclosures, requires to sub-divide ‘Retail"
+        },
+        {
+          "source": "filing",
+          "page": 245,
+          "section": "\u0007'RBI’s Master Direction on Financial Statements – Presentation and Disclosures, requires to sub-divide ‘Retail"
+        }
+      ],
+      "chart_data": {
+        "type": "donut",
+        "segments": [
+          {
+            "label": "Digital Banking",
+            "value": 402641.2
+          },
+          {
+            "label": "Other Retail Banking",
+            "value": 1159205.6
+          },
+          {
+            "label": "Wholesale Banking",
+            "value": 717802.2
+          },
+          {
+            "label": "Treasury",
+            "value": 1139592.2
+          },
+          {
+            "label": "Other Banking Business",
+            "value": 32973.0
+          }
+        ]
+      }
+    },
+    {
+      "title": "Financial Performance",
+      "body": "{\"body\": \"The financial performance of ICICI Bank for fiscal 2025 is summarised as follows: The net interest income and non-interest income increased by 10.8% to ₹1,077.68 billion in fiscal 2025 from ₹972.55 billion in fiscal 2024. The core operating profit increased by 12.5% to ₹653.96 billion in fiscal 2025 from ₹581.22 billion in fiscal 2024. The profit after tax increased by 15.5% to ₹472.27 billion in fiscal 2025 from ₹408.88 billion in fiscal 2024. The consolidated profit after tax and minority interest increased by 15.3% to ₹510.29 billion in fiscal 2025 from ₹442.56 billion in fiscal 2024. The Bank has a consistent dividend payment history, with the Board of Directors recommending a dividend of ₹11.00 per equity share for the year ended March 31, 2025.\", \"chart_data\": {\"type\":\"bar\",\"labels\":[\"FY24\",\"FY25\"],\"datasets\":[{\"label\":\"Revenue (₹ Cr)\",\"values\":[97255,107768]},{\"label\":\"Net Profit (₹ Cr)\",\"values\":[40888,47227]}}}",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 201,
+          "section": "financial statements of the Bank, financial statements as"
+        },
+        {
+          "source": "filing",
+          "page": 397,
+          "section": "CONSOLIDATED FINANCIAL STATEMENTS OF ICICI BANK LIMITED"
+        },
+        {
+          "source": "filing",
+          "page": 133,
+          "section": "along with the audited financial statements for the year ended March 31, 2025."
+        },
+        {
+          "source": "filing",
+          "page": 202,
+          "section": "Financial Statements"
+        },
+        {
+          "source": "filing",
+          "page": 201,
+          "section": "MANAGEMENT DISCUSSION & ANALYSIS"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Balance Sheet Health + Cash Flow",
+      "body": "The balance sheet health of ICICIBank appears robust, with a significant increase in total reserves and surplus. As of 31.03.2025, the consolidated total reserves and surplus stood at ₹3,104.11 billion, up from ₹2,533.34 billion in the previous year. This increase is largely attributed to the growth in revenue and other reserves, which rose by ₹163.65 billion to ₹163.65 billion, as well as the securities premium reserve, which increased by ₹86.70 billion to ₹606.13 billion. The investment fluctuation reserve also saw a notable increase, rising by ₹2.59 billion to ₹34.27 billion.\n\nIn terms of cash flow, the filing excerpts do not provide explicit information on the cash flow statement. However, we can infer that the bank's cash position is supported by its growing profit and loss account balance, which increased by ₹285.59 billion to ₹1,183.85 billion as of 31.03.2025. The bank's ability to generate profits and maintain a healthy balance sheet is a positive indicator of its cash flow management. Nevertheless, a more comprehensive analysis of the bank's cash flow would require additional information, which is not available in the provided excerpts. Peer comparison is also not possible due to the lack of relevant data on other banks.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 338,
+          "section": "Financial Statements"
+        },
+        {
+          "source": "filing",
+          "page": 220,
+          "section": "STANDALONE FINANCIAL STATEMENTS OF ICICI BANK LIMITED"
+        },
+        {
+          "source": "filing",
+          "page": 359,
+          "section": "\u0007The consolidated financial statements of the Group are reported in Indian rupees (`), the national currency of"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Key Financial Ratios",
+      "body": "The 'Key Financial Ratios' section of this report is based on the provided filing excerpts for ICICI Bank's Annual Report for the year ended March 31, 2025. Given the information available, we can calculate and discuss a few key ratios. \n\nThe return on profit before tax excluding treasury gains can be inferred from the financial highlights, where profit before tax excluding treasury gains for fiscal 2025 is ₹607.13 billion. However, to calculate return ratios such as return on assets (ROA) or return on equity (ROE), we would need the total assets or total equity, which are not directly provided in the excerpts. The profit after tax for fiscal 2025 is ₹472.27 billion, which shows a 15.5% increase from the previous year.\n\nOne ratio that can be directly calculated from the given data is the operating expense to net interest income and non-interest income ratio. For fiscal 2025, this ratio is 423.72 / 1,077.68, which simplifies to approximately 0.393 or 39.3%. This indicates that for every rupee of net interest income and non-interest income, about 39.3 paise goes towards operating expenses.\n\nAnother aspect to consider is the provision coverage, which can be gauged by the provisions and contingencies (excluding tax) as a percentage of the profit before tax excluding treasury gains. For fiscal 2025, this would be 46.83 / 607.13, which is approximately 7.7%. This shows that about 7.7% of the profit before tax (excluding treasury gains) goes towards provisions and contingencies.\n\nSince peer comparison data is not provided in the excerpts, we cannot compare these ratios with industry peers. Additionally, without more detailed financial information such as total assets, total equity, or specific segment revenues, we are limited in the number of ratios we can calculate and analyze. \n\nIn conclusion, based on the available data, ICICI Bank demonstrates a controlled increase in operating expenses and a notable growth in profit after tax, suggesting a",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 73,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 133,
+          "section": "along with the audited financial statements for the year ended March 31, 2025."
+        },
+        {
+          "source": "filing",
+          "page": 83,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Valuation Snapshot vs Sector Median",
+      "body": "Valuation Snapshot vs Sector Median\n\nAs of the latest available data, ICICI Bank's profit before tax excluding treasury stood at ₹607.13 billion for fiscal 2025, representing an 11.4% year-on-year growth. The bank's domestic loan portfolio grew by 13.9% year-on-year to ₹13,109.81 billion, while deposits increased by 14.0% year-on-year to ₹16,103.48 billion. However, without peer data, a direct comparison of ICICI Bank's valuation metrics to the sector median is not possible. We can only note that the bank's focus on disciplined execution, profitable growth, and maintaining a resilient balance sheet with adequate liquidity and prudent provisioning are key aspects of its business strategy.\n\nGiven the lack of peer data in the provided excerpts, a detailed valuation snapshot versus sector median cannot be accurately compiled. To conduct a comprehensive valuation analysis, additional data on peer banks' financial performance and valuation metrics would be required. Nevertheless, ICICI Bank's fiscal 2025 performance, with a profit before tax excluding treasury of ₹607.13 billion and a loan portfolio of ₹13,109.81 billion, provides a basis for evaluating the bank's standalone financial position and growth trajectory.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 83,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 73,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 359,
+          "section": "\u0007The consolidated financial statements of the Group are reported in Indian rupees (`), the national currency of"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Management Commentary",
+      "body": "The management of ICICI Bank has provided commentary on the bank's approach to risk management, highlighting its comprehensive process to identify and monitor risks. In fiscal 2025, the bank continued to monitor traditional risks such as economic, credit, market, liquidity, and operational risks, while also acknowledging emerging new-age risks due to climate change. The bank has initiated steps to embed climate risk assessment and climate risk management into its overall risk management framework, including the formulation of a Climate Risk Management Framework (CRMF). This framework aims to integrate climate risk into the bank's risk management framework and guides the identification and assessment of physical and transitional risks on the lending portfolio.\n\nThe bank's subsidiaries have also reported notable financial performance, with ICICI Prudential Life Insurance Company Limited reporting a profit after tax of ₹11.89 billion in fiscal 2025, up from ₹8.52 billion in fiscal 2024. ICICI Lombard General Insurance Company Limited reported a profit after tax of ₹25.08 billion in fiscal 2025, up from ₹19.19 billion in fiscal 2024. The bank's consolidated total assets and net profit are not explicitly stated in the provided excerpts, limiting our ability to provide a more comprehensive analysis of the bank's financial performance. However, the information provided suggests that the bank is taking a proactive approach to managing risks and is committed to enhancing its risk management framework to address emerging challenges.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 115,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 203,
+          "section": "MANAGEMENT DISCUSSION & ANALYSIS"
+        },
+        {
+          "source": "filing",
+          "page": 397,
+          "section": "CONSOLIDATED FINANCIAL STATEMENTS OF ICICI BANK LIMITED"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Key Risks",
+      "body": "The key risks faced by ICICI Bank are multifaceted and can be broadly categorized into economic, credit, market, liquidity, and operational risks. The Bank is exposed to a volatile economic environment driven by changing global monetary policy stance, uncertain global trade environment, and geopolitical tensions. Specifically, the Bank has identified uncertainties pertaining to elevated geopolitical risks, uncertain global trade environment, and weak global growth outlook as key challenges. In terms of credit risk, the Bank is focused on ensuring effective risk management across business segments, close monitoring of portfolios, and maintaining healthy capital and liquidity positions, which are well above regulatory requirements. The Bank's market and liquidity risk is mitigated through comprehensive policies, periodic reviews, and a strategic priority towards asset liability management.\n\nThe Bank has also initiated steps to embed climate risk assessment and climate risk management as part of its risk management framework, recognizing the emerging new-age risks due to climate change. The Climate Risk Management Framework (CRMF) aims to integrate climate risk into the overall risk management framework, guiding the identification and assessment of physical and transitional risks on the lending portfolio. While the Bank has implemented various risk management strategies, the actual impact of these risks on its financial stability and resilience remains to be seen. As of the reporting period, the Bank's profit before tax excluding treasury grew by 11.4% year-on-year to ₹607.13 billion, and its loan portfolio grew by 13.9% year-on-year to ₹13,109.81 billion. However, without additional information on peer performance, a comparative analysis of the Bank's risk management strategies and their effectiveness is not possible.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 115,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 73,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 83,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Recent Developments",
+      "body": "Recent Developments\n\nIn fiscal 2025, ICICI Bank marked 70 years of service and continued to progress on its sustainable growth journey. The Bank's profit before tax excluding treasury grew by 11.4% year-on-year to ₹607.13 billion. The domestic loan portfolio delivered broad-based loan growth of 13.9% year-on-year, reaching ₹13,109.81 billion. Deposits also grew by 14.0% year-on-year to ₹16,103.48 billion, maintaining a stable and healthy funding profile. The Bank remains focused on maintaining a resilient balance sheet with adequate liquidity, prudent provisioning, and healthy capital adequacy. \n\nThe Bank has also enhanced its risk management framework to address emerging new-age risks, including climate change. A Climate Risk Management Framework (CRMF) has been formulated to integrate climate risk into the overall risk management framework, guiding the identification and assessment of physical and transitional risks on the lending portfolio. The Bank continues to monitor traditional risks, including economic, credit, market, liquidity, and operational risks, and has implemented various measures to mitigate these risks, including continuous monitoring of developments in the global and Indian economy, ensuring effective risk management across business segments, and maintaining healthy capital and liquidity positions.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 115,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 83,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 73,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Bull vs Bear vs Base Case",
+      "body": "The 'Bull vs Bear vs Base Case' scenario for ICICI Bank is shaped by its recent performance and strategic initiatives. The bull case is supported by the Bank's 13.9% year-on-year growth in its domestic loan portfolio to ₹13,109.81 billion and a 14.0% year-on-year increase in deposits to ₹16,103.48 billion during fiscal 2025. Additionally, the Bank's profit before tax excluding treasury grew by 11.4% year-on-year to ₹607.13 billion, demonstrating its ability to maintain profitable growth. This suggests that if the Bank continues to execute its strategy effectively, it could experience sustained growth and improved profitability, supporting a bull case.\n\nOn the other hand, the bear case is centered around the potential risks and challenges that the Bank faces, including economic, credit, market, liquidity, and operational risks. The Bank has acknowledged the impact of a volatile economic environment, uncertainties related to geopolitical risks, and the challenges posed by high interest rates and weak global growth outlook. If these risks materialize, they could negatively impact the Bank's financial stability and resilience, supporting a bear case. Furthermore, the Bank's efforts to embed climate risk assessment and management into its risk management framework, although proactive, also highlight the emerging risks associated with climate change that could affect its lending portfolio and overall performance.\n\nThe base case scenario for ICICI Bank is likely characterized by steady growth in its loan portfolio and deposits, driven by its strategic focus on profitable growth, customer-centricity, and risk management. With a stable and healthy funding profile, competitive advantage in cost of funds, and adequate liquidity, the Bank is well-positioned to navigate the challenges and opportunities in the banking sector. The base case would assume that the Bank continues to execute its strategy effectively, maintaining a balance between growth and risk management, and achieving moderate growth in its profit before tax excluding treasury. This scenario would be supported by the Bank's historical performance, its robust risk management framework, and its commitment to creating long-term value for its stakeholders.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 83,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 73,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 115,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Peer Comparison",
+      "body": "Peer Comparison: \nUnfortunately, the provided filing excerpts do not contain sufficient information to facilitate a peer comparison for ICICIBANK. The excerpts primarily focus on the bank's risk management framework, subsidiary performance, and consolidated financial statements, without providing comparable data from peer institutions. As a result, it is not possible to conduct a meaningful peer comparison based on the available information. \n\nTo conduct a thorough peer comparison, data from comparable banks in the industry would be required, including key metrics such as revenue from operations, net profit, and total assets. Without this information, it is challenging to assess ICICIBANK's relative performance and position within the industry. Therefore, this section will be limited in its analysis due to the lack of peer data.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 115,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 203,
+          "section": "MANAGEMENT DISCUSSION & ANALYSIS"
+        },
+        {
+          "source": "filing",
+          "page": 334,
+          "section": "CONSOLIDATED FINANCIAL STATEMENTS OF ICICI BANK LIMITED"
+        }
+      ],
+      "chart_data": null
+    }
+  ],
+  "eval_context": [
+    {
+      "id": "7e828f6f-5862-4e57-a21e-87bac7f4c72a",
+      "content": "136 | Annual Report 2024-25 The following table sets forth, for the periods and at the dates indicated, the profit/(loss) and total assets of our principal subsidiaries as per Indian GAAP. ` in billion Company Profit after tax1 Total assets1 Fiscal 2024 Fiscal 2025 At March 31, 2024 At March 31, 2025 ICICI Bank Canada 4.50 4.35 361.00 313.05 ICICI Bank UK PLC 2.39 2.27 184.10 207.22 ICICI Prudential Life Insurance Company Limited 8.52 11.89 2,990.00 3,142.40 ICICI Lombard General Insurance Company Limited2 19.19 25.08 633.08 690.20 ICICI Prudential Asset Management Company Limited 18.15 26.48 29.18 41.28 ICICI Securities Limited (consolidated) 17.33 17.52 253.65 297.64 ICICI Securities Primary Dealership Limited 4.14 5.35 357.43 390.34 ICICI Home Finance Company Limited 5.32 5.56 235.82 295.53 ICICI Venture Funds Management Company Limited 0.11 0.15 3.08 3.01",
+      "ticker": "ICICIBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 203,
+      "section_title": "MANAGEMENT DISCUSSION & ANALYSIS",
+      "similarity": 0.664614617824554,
+      "retrieval_source": "vector",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "ticker": "ICICIBANK",
+      "content": "CONSOLIDATED PROFIT AND LOSS ACCOUNT for the year ended March 31, 2025 ` in ‘000s Schedule Year ended 31.03.2025 Year ended 31.03.2024 I. INCOME Interest earned 13 1,863,314,641 1,595,159,252 Other income 14 1,082,554,702 765,218,020 TOTAL INCOME 2,945,869,343 2,360,377,272 II. EXPENDITURE Interest expended 15 890,276,529 741,081,627 Operating expenses 16 1,277,999,771 977,827,922 Provisions and contingencies (refer note 18.6) 233,405,909 191,400,276 TOTAL EXPENDITURE 2,401,682,209 1,910,309,825 III. PROFIT/(LOSS) \u0007Net profit for the year (before share in profit of associates and minority interest) 544,187,134 450,067,447 \u0007Add: Share of profit in associates 1,506,622 10,737,680 \u0007Net profit for the year before deducting minority interest 545,693,756 460,805,127 \u0007Less: Minority interest 35,401,801 18,241,392 \u0007Consolidated profit/(loss) for the year attributable to the Group 510,291,955 442,563,735 Brought forward consolidated profit attributable to the Group 898,257,800 656,386,769 \u0007TOTAL PROFIT/(LOSS) 1,408,549,755 1,098,950,504 IV. APPROPRIATIONS/TRANSFERS Transfer to Statutory Reserve 118,068,000 102,221,000 Transfer to Capital Reserve 68,700 332,500 Transfer to/(from) Investment Fluctuation Reserve 2,586,100 9,927,900 Transfer to Special Reserve 32,490,000 31,353,000 Transfer to/(from) Revenue and other reserves 1,073,620 872,340 Dividend paid during the year 70,412,665 55,985,964 Balance carried over to balance sheet 1,183,850,670 898,257,800 TOTAL 1,408,549,755 1,098,950,504",
+      "chunk_index": 839,
+      "page_number": 334,
+      "section_title": "CONSOLIDATED FINANCIAL STATEMENTS OF ICICI BANK LIMITED",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ICICIBANK_FY25.json"
+      },
+      "similarity": 13.650859794176949,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "id": "b5735d65-993d-496a-9686-26cf095e710b",
+      "content": "66 | Annual Report 2024-25 BOARD’S REPORT Your Directors have pleasure in presenting the Thirty-First Annual Report of ICICI Bank Limited (ICICI Bank/the Bank)",
+      "ticker": "ICICIBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 133,
+      "section_title": "general",
+      "similarity": 0.651790638321359,
+      "retrieval_source": "vector",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "ticker": "ICICIBANK",
+      "content": "balance sheet as at 31 March 2025, and the standalone profit and loss account and the standalone cash flow statement",
+      "chunk_index": 388,
+      "page_number": 205,
+      "section_title": "We have audited the standalone financial statements of ICICI Bank Limited (the “Bank”), which comprise the standalone",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ICICIBANK_FY25.json"
+      },
+      "similarity": 12.126537374255793,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "id": "abd3bad8-3cd0-4d32-a3c5-58a5bbe0c7ca",
+      "content": "2024, January 13, 2025, January 18, 2025 and March 15, 2025 (held jointly with Risk Committee). The details of the composition of the Committee and attendance at its meetings held during the year are set out in the following table: Name of Member Number of meetings attended B. Sriram, Chairperson 6/6 Neelam Dhawan 6/6 Punit Sood (w.e.f. October 1, 2024) 4/4 Sandeep Batra 6/6 Rakesh Jha (upto July 26, 2024) 1/1 Ajay Kumar Gupta (w.e.f. July 27, 2024) 5/5 IX. Risk Committee \u0007Terms of Reference \u0007The functions of the Committee are to review ICICI Bank’s risk management policies pertaining to credit, market, liquidity, operational, outsourcing, model risk management, framework for early warning signals and red flagging of accounts, reputation WICICIBank",
+      "ticker": "ICICIBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 153,
+      "section_title": "general",
+      "similarity": 0.649174591948117,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "ticker": "ICICIBANK",
+      "content": "OUR BUSINESS STRATEGY As we mark 70 years of service in fiscal 2025, the Bank progresses on its sustainable growth journey underpinned by disciplined focus on profitable growth, consistent execution, deepening customer-centricity as well as building capabilities. The strategic approach continues to remain anchored on pillars of principles, coverage and delivery framework. The core principles of ‘Return of Capital’, ‘Fair to Customer, Fair to Bank’, ‘One Bank, One Team’ and ‘Compliance with Conscience’, continue to guide our dealings with all stakeholders while pursuing our business objectives. The Bank continues to maintain its strategic focus on profit before tax excluding treasury within the guardrails of compliance and risk management. The Bank’s profit before tax excluding treasury grew by 11.4% year-on-year during fiscal 2025 to `607.13 billion. The Bank continues to grow its loan portfolio in a granular manner with no specific targets for loan-mix or segment-wise loan growth. During fiscal 2025, the Bank delivered broad- based loan growth across segments of 13.9% year-on- year in the domestic loan portfolio to `13,109.81 billion. The Bank continues to grow its liability franchise, maintaining a stable and healthy funding profile and competitive advantage in cost of funds. The deposits grew by 14.0% year-on-year to `16,103.48 billion. The Bank continues to focus on maintaining a resilient balance sheet with adequate liquidity, prudent provisioning and healthy capital adequacy. Selection of right counterparties and focus on capital preservation continue to underpin our efforts to pursue opportunities across ecosystems and micromarkets. Embracing agile organisation structures and enhancing the delivery framework enable us to deepen 360º engagements along with improved customer service. Disciplined execution with focus on capital, counterparty and capacity to deliver sustainable outcomes. Principles Coverage Customer 360º Delivery Framework Taking Entire Bank to the Customer Micromarkets Ecosystems Collaborations & Partnerships Focus on Quality Process Decongestion Bank to BankTech Our Approach Integrity Execution Maximising Profit Before Tax¹ To be the Trusted Financial Service Provider Simplify ¹ Excluding treasury Return of Capital 01 Fair to Customer, Fair to Bank 02 One Bank, One Team 03 Agile Risk Management 04 Compliance with Conscience 05 16 | Annual Report 2024-25 ' ,' \\ ' ' ' • ------------- ~ , ---------------,,, ...... _________ , r) r) r) r) >/Ue& l::Jl::Jl(j) I",
+      "chunk_index": 149,
+      "page_number": 83,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ICICIBANK_FY25.json"
+      },
+      "similarity": 11.910132068299658,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "id": "b8113577-3025-416e-aaa1-daeb05acf367",
+      "content": "13. Additional information to consolidated accounts \u0007Additional information to consolidated accounts at March 31, 2025 (Pursuant to Schedule III of the Companies Act, 2013) ` in million Name of the entity Net assets2 Share in profit or loss % of total net assets Amount % of total net profit Amount Parent ICICI Bank Limited 93.0% 2,920,763.0 92.5% 472,269.9 Subsidiaries Indian ICICI Securities Primary Dealership Limited 0.6% 20,399.9 1.0% 5,348.6 ICICI Securities Limited3 1.7% 53,146.4 3.4% 17,492.6 ICICI Home Finance Company Limited 1.2% 38,210.6 1.1% 5,564.8 ICICI Trusteeship Services Limited 0.0% 11.4 0.0% 1.7 ICICI Investment Management Company Limited 0.0% 187.1 0.0% 57.7 ICICI Venture Funds Management Company Limited 0.1% 2,484.0 0.0% 150.5 ICICI Prudential Life Insurance Company Limited 3.8% 119,413.1 2.3% 11,890.6 ICICI Lombard General Insurance Company Limited 4.8% 149,838.1 4.9% 25,082.6 ICICI Prudential Trust Limited 0.0% 25.2 0.0% 9.1 ICICI Prudential Asset Management Company Limited 1.1% 35,315.8 5.2% 26,482.5 ICICI Prudential Pension Funds Management Company Limited 0.0% 524.8 (0.0%) (35.5) I-Process Services (India) Private Limited 0.0% 886.4 0.1% 266.7 Foreign ICICI Bank UK PLC 1.0% 30,082.3 0.4% 2,269.0 ICICI Bank Canada 0.9% 28,951.6 0.9% 4,351.9 ICICI International Limited 0.0% 172.9 0.0% 38.7 ICICI Securities Holdings Inc. 0.0% 130.8 (0.0%) (1.1) ICICI Securities Inc. 0.0% 434.4 0.0% 32.4 Other consolidated entities Indian ICICI Strategic Investments Fund 0.0% 103.3 0.0% 34.0 Foreign NIL - - - - Minority Interests (4.7%) (148,367.4) (6.9%) (35,401.8) Associates Indian NIIT Institute of Finance Banking and Insurance Training Limited - - 0.0% 21.3 FISERV Merchant Solutions Private Limited (erstwhile ICICI Merchant Services Private Limited)4 - - (0.2%) (813.0) WICICIBank",
+      "ticker": "ICICIBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 397,
+      "section_title": "CONSOLIDATED FINANCIAL STATEMENTS OF ICICI BANK LIMITED",
+      "similarity": 0.643797738099372,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015625
+    },
+    {
+      "ticker": "ICICIBANK",
+      "content": "SCHEDULES forming part of the Standalone Balance Sheet (Contd.) ` in ‘000s At 31.03.2025 At 31.03.2024 IV. AFS reserve Opening balance - - Transition impact4 20,583,089 - Additions during the year 1,307,489 - Deductions during the year - - Closing balance 21,890,578 - V. Investment fluctuation reserve5 Opening balance 31,686,709 21,758,809 Additions during the year 2,586,100 9,927,900 Deductions during the year - - Closing balance 34,272,809 31,686,709 VI. Capital reserve Opening balance 150,751,162 150,418,662 Additions during the year6 68,700 332,500 Deductions during the year - - Closing balance 150,819,862 150,751,162 VII. Capital redemption reserve Opening balance 3,500,000 3,500,000 Additions during the year - - Deductions during the year - - Closing balance 3,500,000 3,500,000 VIII. Foreign currency translation reserve Opening balance 14,278,795 10,238,275 Additions during the year7 1,568,565 4,040,520 Deductions during the year - - Closing balance 15,847,360 14,278,795 IX. Revaluation reserve Opening balance 30,833,537 30,624,626 Additions during the year8 7,694,349 1,174,473 Deductions during the year9 (1,146,044) (965,562) Closing balance 37,381,842 30,833,537 X. Revenue and other reserves Opening balance 110,331,917 109,368,168 Additions during the year4,10 12,684,934 963,749 Deductions during the year - - Closing balance 123,016,851 110,331,917 XI. Balance in profit and loss account 1,023,911,675 773,777,213 TOTAL RESERVES AND SURPLUS 2,885,818,597 2,355,893,246 1. Represents amount transferred to special reserve as per Section 36(1)(viii) of the Income-tax Act, 1961. 2. Includes amount on account of exercise of employee stock options/units. 3. \u0007Additions for FY2025 include ` 68,876.0 million on account of issuance of equity shares to the shareholders of ICICI Securities Limited in accordance with the Scheme of arrangement between ICICI Bank Limited and ICICI Securities Limited and their respective shareholders for delisting of ICICI Securities Limited. 4. \u0007In accordance with Master Direction issued by RBI on Classification, Valuation and Operation of investment Portfolio of Commercial Banks, Directions 2023, applicable from April 1, 2024, during FY2025, the Bank has accounted net transition gain of ` 20,583.1 million (net of tax) and ` 11,561.0 million (net of tax) in AFS reserve and general reserve respectively. 5. \u0007Represents amount transferred to Investment Fluctuation Reserve (IFR) on net profit on sale of AFS and FVTPL (including HFT) investments during the period. The amount not less than the lower of net profit on sale of AFS, FVTPL (including HFT) category investments during the period or net profit for the period less mandatory appropriations is required to be transferred to IFR, until the amount of IFR is at least 2% of the AFS and FVTPL (including HFT) portfolio. 6. \u0007Represents appropriations made for profit on sale of HTM investments, investments in subsidiaries, joint ventures and associates and equity AFS investments and profit on sale of land and buildings, net of taxes and transfer to statutory reserve. 7. \u0007During FY2024, the Bank had transfered accumulated translation loss of ` 3,396.6 million related to closure of Bank’s Offshore Banking Unit, SEEPZ Mumbai, to profit and loss account in terms of Accounting Standard 11 - The Effects of Changes in Foreign Exchange Rates.",
+      "chunk_index": 459,
+      "page_number": 220,
+      "section_title": "STANDALONE FINANCIAL STATEMENTS OF ICICI BANK LIMITED",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ICICIBANK_FY25.json"
+      },
+      "similarity": 11.870903589381172,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015625
+    },
+    {
+      "id": "1c81ead4-9202-47ca-826d-8cffe03ed8db",
+      "content": "ABOUT THIS REPORT This is ICICI Bank’s Annual Report for the year ended March 31, 2025. It has been prepared in accordance with Indian regulatory reporting requirements as well as the principles of the International Integrated Reporting Framework. Through this report, the Bank aims to provide its stakeholders a comprehensive view of its operations, performance, its financial and non-financial resources and strategy to create long-term value. The report provides insights into the Bank’s primary activities, its strategic priorities, risks and mitigants, governance structure, and the manner in which it has leveraged the six capitals, namely Financial, Human, Intellectual, Manufactured, Social and Relationship, and Natural. REPORTING BOUNDARY The non-financial information in the integrated report largely covers the operations of ICICI Bank Limited. REPORTING PERIOD The Annual Report provides material information relating to the Bank's strategy and business model, operating context, performance and statutory disclosures covering the financial year April 1, 2024 to March 31, 2025. SAFE HARBOUR Certain definitions in this release relating to a future period of time (including inter alia concerning our future business plans or growth prospects) are forward-looking statements intended to qualify for the 'safe harbour' under applicable securities laws including the US Private Securities Litigation Reform Act of 1995. Such forward-looking statements involve a number of risks and uncertainties that could cause actual results to differ materially from those in such forward-looking statements. These risks and uncertainties include, but are not limited to statutory and regulatory changes, international economic and business conditions, political or economic instability in the jurisdictions where we have operations or which affect global or Indian economic conditions, increase in non-performing loans, unanticipated changes in interest rates, foreign exchange rates, equity prices or other rates or prices, our growth and expansion in business, the adequacy of our allowance for credit losses, the actual growth in demand for banking products and services, investment income, cash flow projections, our exposure to market risks, changes in India’s sovereign rating, as well as other risks detailed in the reports filed by us with the United States Securities and Exchange Commission. Any forward-looking statements contained herein are based on assumptions that we believe to be reasonable as of the date of this release. ICICI Bank undertakes no obligation to update forward- looking statements to reflect events or circumstances after the date thereof. Additional risks that could affect our future operating results are more fully described in our filings with the United States Securities and Exchange Commission. These filings are available at www.sec.gov. CONTENTS The Bank at a Glance 04 Financial Highlights 06 Message from the Chairman 08 Corporate Information 10 Message from the Wholetime Directors 11 Business Model 12 Our Business Strategy 16 Our Values 34 Fair to Customer, Fair to Bank 36 Risk Governance Framework 42 Responding to Risks and Opportunities 48 Materiality Assessment 50 Human Capital 52 Social and Relationship Capital 58 Environment and Sustainability 64 Board’s Report 66 Auditors’ Certificate on Corporate Governance 115",
+      "ticker": "ICICIBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 73,
+      "section_title": "general",
+      "similarity": 0.642645716667175,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "ticker": "ICICIBANK",
+      "content": "India. Foreign currency income and expenditure items of domestic operations are translated at the exchange rates prevailing on the date of the transaction. Income and expenditure items of integral foreign operations (representative offices) are translated at daily closing rates, and income and expenditure items of non-integral foreign operations (foreign branches, offshore banking units and foreign subsidiaries) are translated at quarterly average closing rates. \u0007Monetary foreign currency assets and liabilities of domestic and integral foreign operations are translated at closing exchange rates notified by Foreign Exchange Dealers’ Association of India (FEDAI) relevant to the balance sheet date and the resulting gains/losses are recognised in the profit and loss account. \u0007Both monetary and non-monetary foreign currency assets and liabilities of non-integral foreign operations are translated at relevant closing exchange rates notified by FEDAI at the balance sheet date and the resulting gains/ losses from exchange differences are accumulated in the foreign currency translation reserve until the disposal of the net investment in the non-integral foreign operations. Pursuant to RBI guideline, the Bank does not recognise the cumulative/proportionate amount of such exchange differences as income or expenses, which relate to repatriation of accumulated retained earnings from overseas operations, in the profit and loss account. \u0007Contingent liabilities on account of guarantees, endorsements and other obligations denominated in foreign currencies are disclosed at the closing exchange rates notified by FEDAI relevant to the balance sheet date. 7. Foreign exchange and derivative contracts \u0007Derivative transactions comprises of forward contracts, futures, swaps and options. The Group undertakes derivative transactions for trading and hedging balance sheet assets and liabilities. WICICIBank",
+      "chunk_index": 914,
+      "page_number": 359,
+      "section_title": "\u0007The consolidated financial statements of the Group are reported in Indian rupees (`), the national currency of",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ICICIBANK_FY25.json"
+      },
+      "similarity": 11.671773307005758,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "id": "cf3ed435-87ec-4dbe-b7eb-a58df8b3b106",
+      "content": "134 | Annual Report 2024-25 CONSOLIDATED FINANCIALS AS PER INDIAN GAAP The consolidated profit after tax increased from ` 442.56 billion in fiscal 2024 to ` 510.29 billion in fiscal 2025 primarily due to an increase in the profit of ICICI Bank and subsidiaries namely ICICI Prudential Asset Management Company, ICICI Lombard General Insurance Company, ICICI Prudential Life Insurance Company, ICICI Securities Primary Dealership and ICICI Home Finance Company, offset, in part, by decrease in the profit of ICICI Bank Canada and ICICI Bank UK. The consolidated assets of the Bank and its subsidiaries and other consolidating entities increased from ` 23,640.63 billion at March 31, 2024 to ` 26,422.41 billion at March 31, 2025. Consolidated advances increased from ` 12,607.76 billion at March 31, 2024 to ` 14,206.64 billion at March 31, 2025. At March 31, 2025, the Bank’s consolidated Tier-1 capital adequacy ratio was 15.81% as against the requirement of 9.70% and consolidated total capital adequacy ratio was 16.41% as against the requirement of 11.70%. From April 1, 2018, ICICI Securities Limited, ICICI Securities Primary Dealership Limited, ICICI Prudential Asset Management Company and ICICI Home Finance Company have adopted Ind-AS. For preparation of consolidated",
+      "ticker": "ICICIBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 201,
+      "section_title": "MANAGEMENT DISCUSSION & ANALYSIS",
+      "similarity": 0.63435560464859,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015151515151515152
+    },
+    {
+      "ticker": "ICICIBANK",
+      "content": "FINANCIAL HIGHLIGHTS The financial performance for fiscal 2025 is summarised in the following table: ` in billion, except percentages Fiscal 2024 Fiscal 2025 % change Net interest income and non-interest income 972.55 1,077.68 10.8% Operating expenses 391.33 423.72 8.3% Core operating profit 581.22 653.96 12.5% Provisions and contingencies (excluding tax) 36.43 46.83 28.5% Profit before tax excluding treasury gains 544.79 607.13 11.4% Treasury gains 0.09 19.03 - Profit before tax 544.88 626.16 14.9% Tax 136.00 153.89 13.2% Profit after tax 408.88 472.27 15.5% ` in billion, except percentages Fiscal 2024 Fiscal 2025 % change Consolidated profit before tax and minority interest 615.08 730.04 18.7% Consolidated profit after tax and minority interest 442.56 510.29 15.3% DIVIDEND Your Bank has a consistent dividend payment history. Your Bank’s Dividend Distribution Policy is based on the profitability and key financial metrics, capital position and requirements and the regulations pertaining to the payment of dividend. The Board of Directors has recommended a dividend of ` 11.00 per equity share for the year ended March 31, 2025. APPROPRIATIONS The Bank has appropriated accumulated profit as follows: ` in billion Fiscal 2024 Fiscal 2025 Profit after tax 408.88 472.27 Profit brought forward 563.57 773.77 Accumulated profit (before appropriations) 972.45 1,246.04 Appropriations: To Statutory Reserve 102.22 118.07 To Special Reserve created and maintained in terms of Section 36(1) (viii) of the Income Tax Act, 1961 30.21 31.00 To Capital Reserve 0.33 0.07 To Investment Fluctuation Reserve1 9.93 2.58 To Revenue and other reserves - - Dividend paid on equity shares2 55.99 70.41 Balance carried over to balance sheet 773.77 1,023.91 1 \u0007Represents an amount transferred to Investment Fluctuation Reserve (IFR) on net profit on sale of available-for-sale (AFS) and Fair value through Profit and loss (FVTPL) including held-for-trading (HFT) investments during the period. The amount not less than the lower of net profit on sale of AFS and FVTPL (including HFT) category investments during the year or net profit for the year less mandatory appropriations is required to be transferred to IFR, until the amount of IFR is at least 2% of the AFS and FVTPL (including HFT) portfolio. The Bank can draw down balance available in IFR in excess of 2% of its AFS and FVTPL (including HFT) portfolio. 2 \u0007Represents dividend declared for previous financial year and paid in current financial year. WICICIBank",
+      "chunk_index": 220,
+      "page_number": 133,
+      "section_title": "along with the audited financial statements for the year ended March 31, 2025.",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ICICIBANK_FY25.json"
+      },
+      "similarity": 11.616611661756925,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015151515151515152
+    },
+    {
+      "id": "c752d14d-ff4f-4291-9b39-8675fe8499ed",
+      "content": "248 | Annual Report 2024-25 INDEPENDENT AUDITOR’S REPORT To the Members of ICICI Bank Limited",
+      "ticker": "ICICIBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 315,
+      "section_title": "general",
+      "similarity": 0.628488719463348,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014925373134328358
+    },
+    {
+      "ticker": "ICICIBANK",
+      "content": "RESPONDING TO RISKS AND OPPORTUNITIES The Bank has a comprehensive process to identify and monitor risks and respond appropriately. The Bank continuously reviews and enhances the methods for identification and assessment of risks, sets appropriate metrics and controls, and mitigants for managing significant risks. In fiscal 2025, the Bank continued to monitor the risks it is exposed to, including economic, credit, market, liquidity and operational risks. Apart from these traditional risks, the Bank is also cognisant of emerging new-age risks due to climate change. The Bank has initiated steps to embed climate risk assessment and climate risk management as part of the Bank’s risk management framework. The Bank has formulated a Climate Risk Management Framework (CRMF) for integration of climate risk into overall risk management framework and it guides on identifying and assessing the impact of both physical and transitional risks on the lending portfolio. The framework will undergo periodic reviews to ensure alignment with available regulatory climate risk guidance, reflecting the evolving understanding and assessment of climate risk. The Bank has also been participating in policymaking by providing inputs and supporting the regulator in assessing impact of climate change risks on specific sectors. Risk Type Key Risks Our Response Understanding and responding proactively to risk and opportunities enables the Bank to safeguard its financial stability and resilience. Economic Risk Volatile economic environment driven by changing global monetary policy stance, uncertain global trade environment driven by US tariffs and geopolitical tensions. Continuous monitoring developments in the global and Indian economy including country risk, sector-specific risks and responding accordingly. Periodic reviews at Risk and Credit Committees. Credit Risk Uncertainties pertaining to elevated geopolitical risks, uncertain global trade environment driven by US tariffs, continuing high interest rates for longer periods though with changing monetary policy stance and weak global growth outlook across the world posed challenges for customers. Ensuring effective risk management across business segments, close monitoring of the portfolios for early identification of assets under watch, strengthening by ongoing reviews and stress testing; maintaining healthy capital and liquidity positions, which are well above regulatory requirements. Market and Liquidity Risk Risks posed by changing monetary policy stance, tighter liquidity conditions for a substantial portion of the year and exchange rate movements. Comprehensive policies and periodic reviews at the level of Board and committees; strategic priority towards asset liability management and strengthening the Bank’s liability franchise. 48 | Annual Report 2024-25 f/)/CICI Bank I",
+      "chunk_index": 193,
+      "page_number": 115,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ICICIBANK_FY25.json"
+      },
+      "similarity": 11.593080544990517,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014925373134328358
+    },
+    {
+      "id": "35070337-7acb-44fc-9349-1f20a5b743f2",
+      "content": "balance sheet as at 31 March 2025, and the standalone profit and loss account and the standalone cash flow statement",
+      "ticker": "ICICIBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 205,
+      "section_title": "We have audited the standalone financial statements of ICICI Bank Limited (the “Bank”), which comprise the standalone",
+      "similarity": 0.620648145675659,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014705882352941176
+    },
+    {
+      "ticker": "ICICIBANK",
+      "content": "stipulated specified business segments and their definitions, for the purpose of public disclosures for banks in India which includes: • \u0007Retail Banking includes exposures of the Bank which satisfy the four criteria of orientation, product, granularity and low value of individual exposures for retail exposures as per RBI guidelines. This segment also includes income from credit cards, debit cards, third party product distribution and the associated costs. • \u0007Wholesale Banking includes all advances to trusts, partnership firms, companies and statutory bodies, which are not included under Retail Banking. • Treasury includes the entire investment and derivative portfolio of the Bank. • Other Banking includes leasing operations and other items not attributable to any particular business segment. • \u0007Unallocated includes items such as tax paid in advance net of provision, deferred tax and provisions to the extent reckoned at the entity level. \u0007Income, expenses, assets and liabilities are either specifically identified with individual segments or are allocated to segments on a systematic basis. \u0007All liabilities are transfer priced to a central treasury unit, which pools all funds and lends to the business units at appropriate rates based on the relevant maturity of assets being funded after adjusting for regulatory reserve requirements. \u0007The transfer pricing mechanism of the Bank is periodically reviewed. The segment results are determined based on the transfer pricing mechanism prevailing for the respective reporting periods. \u0007The following tables set forth, for the periods indicated, the business segment results on this basis. ` in million Sr. No. Particulars For the year ended March 31, 2025 Retail Banking Wholesale Banking Treasury Other Banking Business Total 1. Revenue 1,561,846.8 824,362.1 1,350,525.8 43,862.9 3,780,597.6 2. Less: Inter-segment revenue 1,862,892.8 3. Total revenue (1)–(2) 1,917,704.8 4. Segment results 216,210.4 215,646.3 187,607.3 6,698.0 626,162.0 5. Unallocated expenses - 6. Operating profit (4)-(5) 626,162.0 7. Income tax expenses (including deferred tax credit) 153,892.1 8. Net profit/(loss) (6)-(7) 472,269.9 9. Segment assets 7,929,301.9 5,482,698.2 7,216,955.2 505,972.1 21,134,927.4 10. Unallocated assets 47,472.3 11. Total assets (9)+(10) 21,182,399.7 12. Segment liabilities1 11,119,662.2 5,559,973.9 4,296,383.4 75,380.2 21,051,399.7 13. Unallocated liabilities 131,000.0 14. Total liabilities (12)+(13) 21,182,399.7 15. Capital expenditure 27,062.6 11,779.3 2,054.9 884.8 41,781.6 16. Depreciation 14,068.8 5,983.3 1,005.0 437.0 21,494.1 1. Treasury segment includes share capital, employees’ stock options/units outstanding and reserves and surplus.",
+      "chunk_index": 536,
+      "page_number": 244,
+      "section_title": "\u0007The Reserve Bank of India in it’s Master Direction on Financial Statements – Presentation and Disclosures has",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ICICIBANK_FY25.json"
+      },
+      "similarity": 11.486206740734437,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014705882352941176
+    },
+    {
+      "id": "39683b6e-a75a-4285-a680-a6473275304e",
+      "content": "and the various compliances as required/prescribed under the SEBI Listing Regulations are filed electronically with NSE/BSE and are also available on their respective websites in addition to the Bank’s website. \u0007ICICI Bank’s quarterly financial results are published in Financial Express and Vadodara Samachar. The financial results, official news releases, earnings call transcripts, audio recording and presentations are also available on the Bank’s website. \u0007The Management’s Discussion & Analysis forms part of the Annual Report. General Shareholder Information Annual General Meeting Day, Date Time Thirty-first Annual General Meeting through Video Conferencing/Other Audio Visual Means Saturday, August 30, 2025 11:00 a.m. Financial Year : April 1, 2024 to March 31, 2025 Record Date : August 12, 2025 Dividend Payment Date : Will be paid/despatched on or after September 3, 2025 WICICIBank",
+      "ticker": "ICICIBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 159,
+      "section_title": "general",
+      "similarity": 0.619504236012446,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014492753623188406
+    },
+    {
+      "ticker": "ICICIBANK",
+      "content": "its subsidiaries (Bank and its subsidiaries together referred to as “the Group”) and its associates, which comprise the consolidated balance sheet as at 31 March 2025, the consolidated profit and loss account and consolidated cash flow",
+      "chunk_index": 726,
+      "page_number": 315,
+      "section_title": "We have audited the consolidated financial statements of ICICI Bank Limited (hereinafter referred to as “the Bank”) and",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ICICIBANK_FY25.json"
+      },
+      "similarity": 11.475850316338839,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014492753623188406
+    },
+    {
+      "id": "38fc1b2f-1634-4e74-b17c-5dc3a563d654",
+      "content": "146 | Annual Report 2024-25 Annexure A to the Independent Auditor’s Report on the consolidated financial statements of ICICI Bank Limited for the year ended March 31, 2025",
+      "ticker": "ICICIBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 213,
+      "section_title": "general",
+      "similarity": 0.616856217384338,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014285714285714285
+    },
+    {
+      "ticker": "ICICIBANK",
+      "content": "SCHEDULES forming part of the Consolidated Balance Sheet (Contd.) ` in ‘000s At 31.03.2025 At 31.03.2024 III. Securities premium Opening balance 519,436,438 507,229,514 Additions during the year2,3 86,696,353 12,206,924 Deductions during the year - - Closing balance 606,132,791 519,436,438 IV. AFS reserve Opening balance (313,803) (639,612) Impact of transition4 20,583,089 - Additions during the year 1,931,108 325,809 Deductions during the year - - Closing balance 22,200,393 (313,803) V. Investment fluctuation reserve5 Opening balance 31,686,709 21,758,809 Additions during the year 2,586,100 9,927,900 Deductions during the year - - Closing balance 34,272,809 31,686,709 VI. Capital reserve Opening balance 151,353,548 150,662,553 Additions during the year6 68,700 690,995 Deductions during the year (164,841) - Closing balance7 151,257,407 151,353,548 VII. Capital redemption reserve Opening balance 3,500,000 3,500,000 Additions during the year - - Deductions during the year - - Closing balance 3,500,000 3,500,000 VIII. Foreign currency translation reserve Opening balance 19,828,929 15,594,494 Additions during the year8 1,850,113 4,234,435 Deductions during the year (365,821) - Closing balance 21,313,221 19,828,929 IX. Revaluation reserve Opening balance 31,112,741 30,918,416 Additions during the year9 7,828,466 1,174,473 Deductions during the year10 (1,146,044) (980,148) Closing balance 37,795,163 31,112,741 X. Revenue and other reserves Opening balance 148,891,495 141,979,913 Additions during the year4 20,190,304 7,055,888 Deductions during the year (5,432,118) (144,306) Closing balance11,12 163,649,681 148,891,495 XI. Balance in profit and loss account 1,183,850,670 898,257,800 TOTAL RESERVES AND SURPLUS 3,104,114,654 2,533,338,376 1. Includes amount transferred to Special Reserve as per Section 36(1)(viii) of the Income-tax Act, 1961 by the Bank. 2. Includes ` 16,499.7 million (March 31, 2024: ` 12,206.2 million) on exercise of employee stock options/units. 3. \u0007Additions for FY2025 include ` 68,876.0 million on account of issuance of equity shares to the shareholders of ICICI Securities Limited in accordance with the scheme of arrangement between ICICI Bank Limited and ICICI Securities Limited and their respective shareholders for delisting of ICICI Securities Limited.",
+      "chunk_index": 849,
+      "page_number": 338,
+      "section_title": "Financial Statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ICICIBANK_FY25.json"
+      },
+      "similarity": 11.452706984883369,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014285714285714285
+    },
+    {
+      "ticker": "ICICIBANK",
+      "content": "banking’ into (a) Digital Banking (as defined in RBI circular on Establishment of Digital Banking Units dated April 7, 2022) and (b) Other Retail Banking segment. Accordingly, the segmental results for retail banking segment for the year ended March 31, 2025 is sub-divided as below: ` in million Sr. No. Particulars Segment revenue Segment results Segment assets Segment liabilities Capital expenditure Depreciation Retail Banking 1,561,846.8 216,210.4 7,929,301.9 11,119,662.2 27,062.6 14,068.8 (i) Digital Banking 402,641.2 57,661.5 1,458,985.6 2,080,953.3 2,001.3 1,040.4 (ii) Other Retail Banking 1,159,205.6 158,548.9 6,470,316.3 9,038,708.9 25,061.3 13,028.4 ` in million Sr. No. Particulars For the year ended March 31, 2024 Retail Banking Wholesale Banking Treasury Other Banking Business Total 1. Revenue 1,345,475.7 717,802.2 1,139,592.2 32,973.0 3,235,843.1 2. Less: Inter-segment revenue 1,577,356.0 3. Total revenue (1)–(2) 1,658,487.1 4. Segment results 188,491.7 199,717.1 148,984.0 7,685.5 544,878.3 5. Unallocated expenses - 6. Operating profit (4)-(5) 544,878.3 7. Income tax expenses (including deferred tax credit) 135,995.6 8. Net profit/(loss) (6)-(7) 408,882.7 9. Segment assets 7,193,136.2 4,824,561.0 6,282,561.4 348,914.4 18,649,173.0 10. Unallocated assets 65,972.8 11. Total assets (9)+(10) 18,715,145.8 12. Segment liabilities 10,198,454.9 4,565,715.3 3,757,855.61 62,120.0 18,584,145.8 13. Unallocated liabilities 131,000.0 14. Total liabilities (12)+(13) 18,715,145.8 15. Capital expenditure 19,984.4 7,806.3 1,390.0 461.2 29,641.9 16. Depreciation 10,978.1 4,596.4 788.2 263.8 16,626.5 1. Includes share capital and reserves and surplus.",
+      "chunk_index": 538,
+      "page_number": 245,
+      "section_title": "'RBI’s Master Direction on Financial Statements – Presentation and Disclosures, requires to sub-divide ‘Retail",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ICICIBANK_FY25.json"
+      },
+      "similarity": 12.848549772077286,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "id": "4444ae10-2b25-48b7-889c-b733eb01333b",
+      "content": "per Indian GAAP of these entities have been considered. On March 24, 2025, the Bank increased its stake in ICICI Securities Limited from 74.34% to 100.00%, resulting in the entity becoming a wholly-owned subsidiary of the Bank. ICICI Bank Canada The core operating profit of ICICI Bank Canada decreased from CAD 100.9 million in fiscal 2024 to CAD 90.2 million in fiscal 2025 primarily due to decrease in net interest income and fee income and increase in operating expenses. The profit after tax of ICICI Bank Canada decreased from CAD 73.3 million (` 4.50 billion) in fiscal 2024 to CAD 71.6 million (` 4.35 billion) in fiscal 2025 primarily due to decrease in core operating profit, offset, in part, by increase in treasury income and other income. The total assets decreased from CAD 5.88 billion at March 31, 2024 to CAD 5.23 billion at March 31, 2025. Loans and advances decreased from CAD 5.23 billion at March 31, 2024 to CAD 4.46 billion at March 31, 2025. The net impairment ratio increased from 0.24% at March 31, 2024 to 0.46% at March 31, 2025 primarily due to change in estimates and revision in macro-economic factors, offset, in part, by write-off of credit card portfolio. ICICI Bank Canada had a total capital adequacy ratio of 18.5% at March 31, 2025 as compared to 17.8% at March 31, 2024. ICICI Bank UK The core operating profit of ICICI Bank UK decreased from USD 34.5 million in fiscal 2024 to USD 33.1 million in fiscal 2025 primarily due to an increase in operating expenses, offset, in part, by an increase in fee income. Profit after tax of ICICI Bank UK has decreased marginally from USD 28.8 million (` 2.39 billion) in fiscal 2024 to USD 26.8 million (` 2.27 billion) in fiscal 2025 primarily due to decrease in core operating profit, offset, in part, by decrease in impairment provision. Total assets increased from USD 2.21 billion at March 31, 2024 to USD 2.42 billion at March 31, 2025. Net advances increased from USD 1.04 billion at March 31, 2024 to USD 1.15 billion at March 31, 2025. The net impairment ratio decreased from 1.1% at March 31, 2024 to 0.2% at March 31, 2025. ICICI Bank UK had a total capital adequacy ratio of 22.6% at March 31, 2025 compared to 23.3% at March 31, 2024. ICICI Prudential Life Insurance (ICICI Life) The Annualised Premium Equivalent of ICICI Life increased by 15.7% from ` 90.46 billion for fiscal 2024 to ` 104.7 billion for fiscal 2025. The Value of New Business (VNB) increased by 6.4% from ` 22.27 billion for fiscal 2024 to ` 23.70 billion for fiscal 2025. The VNB margin decreased from 24.6% in fiscal 2024 to 22.8% in fiscal 2025. The total premium earned increased by 13.2% from ` 432.36 billion in fiscal 2024 to ` 489.51 billion in fiscal 2025. The total assets under management increased from ` 2,941.40 billion at March 31, 2024 to ` 3,093.59 billion at March 31, 2025. WICICIBank",
+      "ticker": "ICICIBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 201,
+      "section_title": "financial statements of the Bank, financial statements as",
+      "similarity": 0.637212715315062,
+      "retrieval_source": "vector",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "ticker": "ICICIBANK",
+      "content": "banking’ into (a) Digital Banking (as defined in RBI circular on Establishment of Digital Banking Units dated April 7, 2022) and (b) Other Retail Banking segment. Accordingly, the segmental results for retail banking segment for the year ended March 31, 2024 is sub-divided as below: ` in million Sr. No. Particulars Segment revenue Segment results Segment assets Segment liabilities Capital expenditure Depreciation Retail Banking 1,345,475.7 188,491.7 7,193,136.2 10,198,454.9 19,984.4 10,978.1 (i) Digital Banking 324,426.1 50,169.4 1,314,019.0 1,855,596.4 1,313.3 721.4 (ii) Other Retail Banking 1,021,049.6 138,322.3 5,879,117.2 8,342,858.5 18,671.1 10,256.7 WICICIBank",
+      "chunk_index": 539,
+      "page_number": 245,
+      "section_title": "\u0007'RBI’s Master Direction on Financial Statements – Presentation and Disclosures, requires to sub-divide ‘Retail",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ICICIBANK_FY25.json"
+      },
+      "similarity": 11.667169070388118,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "id": "428322d2-b8dd-4717-886a-e7593efcfbe1",
+      "content": "banking’ into (a) Digital Banking (as defined in RBI circular on Establishment of Digital Banking Units dated April 7, 2022) and (b) Other Retail Banking segment. Accordingly, the segmental results for retail banking segment for the year ended March 31, 2024 is sub-divided as below: ` in million Sr. No. Particulars Segment revenue Segment results Segment assets Segment liabilities Capital expenditure Depreciation Retail Banking 1,345,475.7 188,491.7 7,193,136.2 10,198,454.9 19,984.4 10,978.1 (i) Digital Banking 324,426.1 50,169.4 1,314,019.0 1,855,596.4 1,313.3 721.4 (ii) Other Retail Banking 1,021,049.6 138,322.3 5,879,117.2 8,342,858.5 18,671.1 10,256.7 WICICIBank",
+      "ticker": "ICICIBANK",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 245,
+      "section_title": "\u0007'RBI’s Master Direction on Financial Statements – Presentation and Disclosures, requires to sub-divide ‘Retail",
+      "similarity": 0.61315729539649,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "ticker": "ICICIBANK",
+      "content": "Annual Report 2024-25 | 135 Net premium earned increased by 13.2% from ` 417.60 billion in fiscal 2024 to ` 472.60 billion in fiscal 2025. The profit after tax increased from ` 8.52 billion in fiscal 2024 to ` 11.89 billion in fiscal 2025 primarily due to higher surplus emergence from legacy business, offset, in part, by increase in new business strain. ICICI Lombard General Insurance (ICICI General) The Gross Domestic Premium Income of ICICI General increased by 8.3% year-on-year from ` 247.76 billion in fiscal 2024 to ` 268.34 billion in fiscal 2025. The profit after tax increased from ` 19.19 billion in fiscal 2024 to ` 25.08 billion in fiscal 2025 primarily due to an increase in net earned premium and investment income, offset, in part, by increase in commission expenses and claims incurred. ICICI Prudential Asset Management (ICICI AMC) The profit after tax of ICICI AMC increased from ` 18.15 billion in fiscal 2024 to ` 26.48 billion in fiscal 2025 primarily due to an increase in income from operations and other income, offset, in part, by increase in staff cost and other administrative expense. ICICI AMC is in the process of getting listed, subject to market conditions, requisite approvals and other considerations. This will be through proposed offer for sale by Prudential Corporation Holding Limited. The Bank intends to continue to maintain its majority shareholding in ICICI AMC. ICICI Securities The consolidated profit after tax of ICICI Securities increased from ` 17.33 billion in fiscal 2024 to ` 17.52 billion in fiscal 2025 primarily due to an increase in net interest income and fee income, offset, in part, by increase in staff cost and other administrative expenses. ICICI Securities Primary Dealership (I-Sec PD) The profit after tax of I-Sec PD increased from ` 4.14 billion in fiscal 2024 to ` 5.35 billion in fiscal 2025 primarily due to an increase in net interest income and higher trading gains. ICICI Home Finance (ICICI HFC) The profit after tax increased from ` 5.32 billion in fiscal 2024 to ` 5.56 billion in fiscal 2025 primarily due to an increase in net interest income and fee income, offset, in part, by an increase in operating expenses and provisions. Provision increased from a write back of ` 0.10 billion in fiscal 2024 to a provision of ` 0.55 billion in fiscal 2025. In fiscal 2024, there was provision write-back due to recovery. Loans and advances increased from ` 221.27 billion at March 31, 2024 to ` 275.92 billion at March 31, 2025. Net NPAs increased from ` 2.88 billion at March 31, 2024 to ` 3.27 billion at March 31, 2025. During the year ended March 31, 2025, the Bank infused capital of ` 5.00 billion. ICICI Venture Funds Management (ICICI Venture) The profit after tax of ICICI Venture increased from ` 110.3 million in fiscal 2024 to ` 150.6 million in fiscal 2025 primarily due to an increase in investment income, offset, in part, by decrease in fee income. The Boards of ICICI AMC and ICICI Venture have approved in-principle a",
+      "chunk_index": 379,
+      "page_number": 202,
+      "section_title": "Financial Statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\ICICIBANK_FY25.json"
+      },
+      "similarity": 10.9240273167085,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.016129032258064516
+    }
+  ],
+  "generated_at": "2026-06-22T09:39:28.894692+00:00"
+}

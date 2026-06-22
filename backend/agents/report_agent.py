@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 import json
+import re
 from datetime import datetime, timezone
 from pathlib import Path
 
@@ -41,9 +42,20 @@ SECTION_QUERIES = {
 }
 
 CONTEXT_CHUNKS = 3
+CHART_CONTEXT_CHUNKS = 5
+CHART_TARGETED_LIMIT = 5
 MAX_OUTPUT_TOKENS = 425
 MAX_CHART_OUTPUT_TOKENS = 700
-_CACHE_VERSION = "v6-charts"
+_CACHE_VERSION = "v7-charts"
+
+CHART_TARGETED_QUERIES = {
+    SECTION_BUSINESS: "{ticker} segment revenue breakdown FY25 FY24 crore",
+    SECTION_FINANCIAL: (
+        "{ticker} revenue from operations net profit PAT FY25 FY24 crore consolidated"
+    ),
+}
+
+_NUMBER_PATTERN = re.compile(r"\d[\d,]*(?:\.\d+)?")
 
 _report_cache: dict[str, tuple[list[ReportSection], list[dict], str | None]] = {}
 
@@ -127,6 +139,49 @@ def _rank_chunks(chunks: list[dict], query: str, top_n: int = CONTEXT_CHUNKS) ->
     return ranked[:top_n]
 
 
+def _table_density_score(chunk: dict) -> int:
+    text = chunk.get("content", "") or ""
+    return len(_NUMBER_PATTERN.findall(text))
+
+
+def _merge_chart_context(
+    regular: list[dict], targeted: list[dict], *, top_n: int = CHART_CONTEXT_CHUNKS
+) -> list[dict]:
+    """Merge generic section chunks with targeted retrieval; dedupe and prefer table-rich pages."""
+    merged: list[dict] = []
+    seen: set[str] = set()
+
+    def add(chunk: dict, *, targeted_hit: bool) -> None:
+        key = _chunk_key(chunk)
+        if key in seen:
+            return
+        seen.add(key)
+        merged.append({**chunk, "_targeted": targeted_hit})
+
+    for chunk in targeted:
+        add(chunk, targeted_hit=True)
+    for chunk in regular:
+        add(chunk, targeted_hit=False)
+
+    def sort_key(item: dict) -> tuple[int, int, float]:
+        targeted_flag = 0 if item.get("_targeted") else 1
+        density = -_table_density_score(item)
+        rrf = item.get("rrf_score")
+        rrf_score = -float(rrf) if isinstance(rrf, (int, float)) else 0.0
+        return (targeted_flag, density, rrf_score)
+
+    merged.sort(key=sort_key)
+    cleaned = [{k: v for k, v in c.items() if not k.startswith("_")} for c in merged]
+    return cleaned[:top_n]
+
+
+def _chart_targeted_query(title: str, ticker: str) -> str | None:
+    template = CHART_TARGETED_QUERIES.get(title)
+    if not template:
+        return None
+    return template.format(ticker=ticker)
+
+
 def _base_section_instructions(ticker: str, title: str) -> str:
     return (
         f"You are a senior equity research analyst writing a professional report on {ticker}.\n"
@@ -188,10 +243,12 @@ def _write_section_with_chart(
         return f"No filing data indexed for {ticker} yet.", None
 
     if not settings.groq_api_key:
-        preview = "\n\n".join(c.get("content", "")[:300] for c in context[:CONTEXT_CHUNKS])
+        preview = "\n\n".join(
+            c.get("content", "")[:300] for c in context[:CHART_CONTEXT_CHUNKS]
+        )
         return preview or "No indexed content available.", None
 
-    content_blob = "\n\n".join(c.get("content", "") for c in context[:CONTEXT_CHUNKS])
+    content_blob = "\n\n".join(c.get("content", "") for c in context[:CHART_CONTEXT_CHUNKS])
     prompt = (
         _base_section_instructions(ticker, title)
         + _chart_json_instructions(title)
@@ -278,18 +335,34 @@ def build_report(
         query = SECTION_QUERIES.get(title, title)
         section_context = _rank_chunks(pool, query)
         _track(section_context)
+
         chart_data: dict | None = None
+        citation_context = section_context
+
         if title in CHART_SECTIONS:
-            body, chart_data = _write_section_with_chart(title, ticker, section_context)
+            targeted_query = _chart_targeted_query(title, ticker)
+            targeted_chunks: list[dict] = []
+            if targeted_query:
+                targeted_chunks = hybrid_retrieve(
+                    targeted_query,
+                    ticker=ticker,
+                    limit=CHART_TARGETED_LIMIT,
+                )
+                _track(targeted_chunks)
+            chart_context = _merge_chart_context(section_context, targeted_chunks)
+            body, chart_data = _write_section_with_chart(title, ticker, chart_context)
+            citation_context = chart_context
         else:
             body = _write_section(title, ticker, section_context)
+
+        cite_limit = CHART_CONTEXT_CHUNKS if title in CHART_SECTIONS else CONTEXT_CHUNKS
         citations = [
             Citation(
                 source=c.get("doc_type", "filing"),
                 page=c.get("page_number"),
                 section=c.get("section_title"),
             )
-            for c in section_context[:CONTEXT_CHUNKS]
+            for c in citation_context[:cite_limit]
         ]
         sections.append(
             ReportSection(title=title, body=body, citations=citations, chart_data=chart_data)

@@ -1,0 +1,665 @@
+{
+  "sections": [
+    {
+      "title": "Executive Summary + Investment Thesis",
+      "body": "**Executive Summary**\n\nLarsen & Toubro (LT) is a diversified conglomerate with a presence in multiple sectors, including infrastructure, energy, manufacturing, and services. The company's operating segments are identified based on business activities, revenue generation, and expense incurrence, with four reportable segments: Infrastructure Projects, Energy Projects, Hi-Tech Manufacturing, and Others. As of March 31, 2025, LT's non-current assets stood at ₹17,742.53 crore, with ₹17,387.28 crore attributed to Indian operations and ₹355.25 crore to foreign countries. The company's revenue streams are diversified, with no single customer contributing more than 10% of total revenue.\n\n**Investment Thesis**\n\nOur investment thesis for LT is centered on the company's diversified business portfolio, strong execution capabilities, and growth potential in key sectors. With a robust balance sheet and a proven track record of delivering complex projects, LT is well-positioned to capitalize on emerging opportunities in infrastructure, energy, and manufacturing. The company's focus on technology and innovation, as evident in its Hi-Tech Manufacturing segment, is expected to drive growth and profitability in the long term. While the current financial data is limited, LT's segment reporting and accounting policies provide a transparent view of its operations, allowing investors to make informed decisions. Overall, we believe that LT's diversified business model, strong execution capabilities, and growth potential make it an attractive investment opportunity for long-term investors.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 611,
+          "section": "(iv)\t Financial statements of foreign operations whose functional currency is different than Indian Rupee are translated into Indian Rupee"
+        },
+        {
+          "source": "filing",
+          "page": 473,
+          "section": "Standalone Financial Statements"
+        },
+        {
+          "source": "filing",
+          "page": 511,
+          "section": "Standalone Financial Statements"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Business Overview + Segment Breakdown",
+      "body": "L&T operates across multiple business segments, including Infrastructure Projects, Energy Projects, Hi-Tech Manufacturing, IT & Technology Services, Financial Services, Development Projects, and Others. For the year ended March 31, 2025, the company reported a consolidated total revenue of ₹142,509.01 crore, with segment revenue as per Ind AS 115 being ₹141,532.97 crore. The segment-wise revenue breakdown is as follows: Infrastructure Projects (₹103,742.51 crore), Energy Projects (₹23,934.45 crore), Hi-Tech Manufacturing (₹9,797.02 crore), and Others (₹4,058.99 crore). The Hi-Tech Manufacturing segment achieved order inflows of ₹18,282 crore during FY 2024-25, registering growth of 28.0% over the previous year. The segment's revenue for the year was ₹10,181 crore, registering a growth of 16.1% y-o-y. The company's consolidated profit after tax (PAT) for FY 2024-25 was ₹15,037 crore, increasing by 15.1% over the previous year. The Return on Net Worth (RONW) for FY 2024-25 was higher at 16.3%, compared to 14.9% in the previous year, mainly on account of higher profitability.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 659,
+          "section": "Consolidated Financial Statements"
+        },
+        {
+          "source": "filing",
+          "page": 512,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 512,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 40,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 84,
+          "section": "general"
+        }
+      ],
+      "chart_data": {
+        "type": "donut",
+        "segments": [
+          {
+            "label": "Infrastructure Projects",
+            "value": 103742.51
+          },
+          {
+            "label": "Energy Projects",
+            "value": 23934.45
+          },
+          {
+            "label": "Hi-Tech Manufacturing",
+            "value": 9797.02
+          },
+          {
+            "label": "Others",
+            "value": 4058.99
+          }
+        ]
+      }
+    },
+    {
+      "title": "Financial Performance",
+      "body": "{\"body\": \"\nThe company's financial performance is highlighted by its revenue and net profit growth. As per the consolidated financials, the gross revenue from operations for FY25 was ₹255,734 crore, and the profit for the year was ₹17,673 crore. In comparison, the gross revenue from operations for FY24 was ₹221,113 crore, with a profit for the year of ₹15,547 crore. The profit after tax (PAT) for FY25, including exceptional items, was ₹15,037 crore, representing a 15.1% increase over the previous year's PAT of ₹13,059 crore.\n\nThe company's Return on Net Worth (RONW) for FY25 was 16.3%, higher than the 14.9% recorded in the previous year, primarily due to improved profitability. The net worth attributable to the owners of the company as of March 31, 2025, was ₹97,656 crore, reflecting a net increase of ₹11,297 crore compared to the position as of March 31, 2024.\n\n\", \n\"chart_data\": {\"type\":\"bar\",\"labels\":[\"FY24\",\"FY25\"],\"datasets\":[{\"label\":\"Revenue (₹ Cr)\",\"values\":[221113,255734]},{\"label\":\"Net Profit (₹ Cr)\",\"values\":[15547,17673]}} \n}",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 21,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 22,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 512,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 40,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 585,
+          "section": "2025, as considered in the consolidated financial statements. The consolidated financial statements also include the Group’s share of"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Balance Sheet Health + Cash Flow",
+      "body": "The 'Balance Sheet Health + Cash Flow' section of this report is limited by the absence of explicit balance sheet and cash flow data in the provided filing excerpts. However, we can infer some aspects of the company's financial health from the information given. The company's practice of hedging a portion of its material net foreign exchange exposures suggests an effort to manage and mitigate potential risks to its financial condition and operating results. This is particularly relevant given the company's involvement in foreign currency transactions, which could impact its revenues, costs, and profitability due to exchange rate fluctuations.\n\nThe company's approach to accounting for foreign currency transactions, including translating assets and liabilities at the closing rate and income and expenses at the average exchange rate, follows standard practices. The recognition of exchange differences in other comprehensive income and their accumulation in equity as a foreign currency translation reserve indicates a methodical approach to handling currency risks. While specific details on the company's cash flow, such as operating cash flow, investing cash flow, and financing cash flow, are not provided, the company's management of foreign exchange risks and its accounting policies suggest a structured approach to financial management. Without explicit cash flow and balance sheet data, a comprehensive analysis of the company's balance sheet health and cash flow position cannot be conducted, and peer comparison is not possible due to the lack of relevant data.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 543,
+          "section": "Standalone Financial Statements"
+        },
+        {
+          "source": "filing",
+          "page": 611,
+          "section": "(iv)\t Financial statements of foreign operations whose functional currency is different than Indian Rupee are translated into Indian Rupee"
+        },
+        {
+          "source": "filing",
+          "page": 473,
+          "section": "Standalone Financial Statements"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Key Financial Ratios",
+      "body": "The 'Key Financial Ratios' section of this report is limited due to the absence of specific financial data in the provided excerpts. However, we can attempt to derive some insights based on the information available. \n\nUnfortunately, the excerpts do not provide explicit figures for key financial metrics such as revenue, net profit, or net worth, which are essential for calculating financial ratios like return on equity (ROE), debt-to-equity, or profit margins. The information primarily focuses on the company's risk management framework, accounting policies, and segment reporting, without disclosing specific financial numbers.\n\nGiven the lack of detailed financial data, a comprehensive analysis of key financial ratios for LTTS is not possible at this time. Peer comparison is also not feasible due to the absence of relevant financial information for LTTS and its peers. To conduct a thorough financial analysis, access to the company's financial statements, including the income statement and balance sheet, would be necessary.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 611,
+          "section": "(iv)\t Financial statements of foreign operations whose functional currency is different than Indian Rupee are translated into Indian Rupee"
+        },
+        {
+          "source": "filing",
+          "page": 543,
+          "section": "Standalone Financial Statements"
+        },
+        {
+          "source": "filing",
+          "page": 105,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Valuation Snapshot vs Sector Median",
+      "body": "Valuation Snapshot vs Sector Median\n\nUnfortunately, the provided filing excerpts do not contain sufficient financial data to conduct a comprehensive valuation snapshot analysis of LTTS compared to the sector median. The excerpts primarily focus on accounting policies, risk management frameworks, and business outlook, without providing key financial metrics such as revenue, net profit, or net worth. \n\nAs a result, it is not possible to calculate ratios or percentages that would enable a comparison of LTTS's valuation with the sector median. Without access to peer data, a peer comparison is also not feasible. To conduct a meaningful valuation analysis, additional financial information would be required.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 611,
+          "section": "(iv)\t Financial statements of foreign operations whose functional currency is different than Indian Rupee are translated into Indian Rupee"
+        },
+        {
+          "source": "filing",
+          "page": 543,
+          "section": "Standalone Financial Statements"
+        },
+        {
+          "source": "filing",
+          "page": 105,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Management Commentary",
+      "body": "The management of LTTS has outlined a robust risk management framework, strategically aligned with the company's business strategy and embedded in its normal course of business. This framework includes four risk categories: Strategic, Operational, Financial, and Compliance. The company conducts risk assessments at various levels, including enterprise, business unit, customer account, and project levels, and presents key risks to senior management, including the CEO, CFO, and relevant Board Committees. As of March 31, 2025, the company's non-current assets stood at ₹17,742.53 crore, with ₹17,387.28 crore attributed to India and ₹355.25 crore to foreign countries.\n\nLooking ahead, the management is optimistic about the company's growth trajectory, driven by its expertise in engineering and digital innovation. With investments in high-potential areas like Agentic AI, LTTS is well-positioned to lead the global ER&D market. The company's focus on key growth segments, including mobility, sustainability, and tech, is expected to drive growth, powered by its 'Go Deeper to Scale' strategy. The acquisition of Intelliswift Inc and its subsidiaries in Q3 FY 2024-25 has strengthened the company's foothold in hyperscaler segments and marked its entry into service-led sectors like retail, fintech, and healthcare. As of 2024-25, the company's revenue from operations stood at ₹255,734.45 crore, with ₹128,168.58 crore generated from India and ₹127,565.87 crore from foreign countries. The management remains committed to client-centric innovation and engineering excellence, fostering technology-driven transformation across industries worldwide.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 105,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 511,
+          "section": "Standalone Financial Statements"
+        },
+        {
+          "source": "filing",
+          "page": 660,
+          "section": "general"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Key Risks",
+      "body": "The key risks associated with LTTS are primarily related to its operational, financial, and strategic aspects. From a financial risk perspective, the company is exposed to foreign exchange rate and interest rate risks, which may adversely affect its revenues, cost, and profitability. As of the latest reporting period, the company has both receivable and payable exposures in foreign currency, and changes in exchange rates may necessitate adjustments to local currency product pricing due to competitive pressures. To mitigate these risks, the company enters into foreign currency forward and option contracts with financial institutions. Additionally, the company's practice is to hedge a portion of its material net foreign exchange exposures with tenors in line with the project/business life cycle.\n\nThe company's risk management framework also identifies strategic, operational, and compliance risks as key areas of concern. Strategic risks may hinder the company's ability to achieve its objectives and goals, while operational challenges may impact its regular business activities. Compliance risks, on the other hand, relate to the potential non-compliance with laws and regulations. The company's risk management programme is designed to proactively identify and mitigate these enterprise risks, supporting informed decision-making, sustainable growth, and value creation. However, the effectiveness of this programme in managing key risks is subject to various factors, including the company's ability to accurately estimate costs and revenues, particularly in relation to construction contracts, where significant accounting judgements are involved. The company's auditor has identified revenue recognition as a key audit matter, highlighting the significance of estimating revenue and costs to complete contracts with customers.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 543,
+          "section": "Standalone Financial Statements"
+        },
+        {
+          "source": "filing",
+          "page": 105,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 441,
+          "section": "appropriate to provide a basis for our audit opinion on the standalone financial statements."
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Recent Developments",
+      "body": "The company has witnessed significant developments in its recent past, particularly in terms of geographical revenue distribution and research and development expenditures. As of the financial year 2024-25, the company's revenue from India stood at ₹128,168.58 crore, while revenue from foreign countries amounted to ₹127,565.87 crore, with notable contributions from the United States of America (₹33,448.58 crore), the Kingdom of Saudi Arabia (₹61,002.04 crore), and the United Arab Emirates (₹9,469.87 crore). The total revenue for the year was ₹255,734.45 crore. In terms of non-current assets, the company held ₹50,796.87 crore in India and ₹3,088.65 crore in foreign countries as of March 31, 2025.\n\nThe company has also been actively engaged in research and development activities, with recognized expenses of ₹171.86 crore in the financial year 2024-25, along with capital expenditures on tangible assets (₹2.40 crore) and other intangible assets (₹0.77 crore). Furthermore, the company has been managing its foreign exchange rate and interest rate risks through regular reviews of its exposures and the use of hedge contracts, including foreign currency forward and option contracts, to protect against potential losses. However, the company's risk management practices and potential impact on its financial condition and operating results warrant continued monitoring.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 511,
+          "section": "Standalone Financial Statements"
+        },
+        {
+          "source": "filing",
+          "page": 660,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 543,
+          "section": "Standalone Financial Statements"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Bull vs Bear vs Base Case",
+      "body": "The 'Bull vs Bear vs Base Case' scenario for LTTS is shaped by its strategic positioning, risk management framework, and growth prospects. On the bull case, LTTS's proven expertise in engineering and digital innovation, combined with its investments in high-potential areas such as Agentic AI, positions the company for a robust growth trajectory. The acquisition of Intelliswift Inc and its subsidiaries in Q3 FY 2024-25 is expected to strengthen its foothold in hyperscaler segments and expand its software and digital engineering capabilities, potentially driving revenue growth. With a research and development expenditure of ₹171.86 crore in 2024-25, the company is well-placed to capitalize on emerging opportunities in digital transformation, sustainability, and innovation.\n\nOn the bear case, LTTS faces risks associated with foreign exchange rate fluctuations, interest rate risks, and potential non-compliance with laws and regulations. The company's foreign exchange rate risk, with both receivable and payable exposures in foreign currency, may adversely affect revenues, cost, and profitability. Additionally, the company's ability to effectively manage its risk management programme, including identification and mitigation of enterprise risks, will be crucial in navigating potential challenges. The base case scenario assumes that LTTS will continue to leverage its expertise and investments to drive growth, while effectively managing its risk exposures, resulting in a steady growth trajectory. With a strong focus on client-centric innovation and engineering excellence, LTTS is poised to capitalize on emerging opportunities, but the company's ability to execute on its strategy and navigate potential risks will be key to its success.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 105,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 543,
+          "section": "Standalone Financial Statements"
+        },
+        {
+          "source": "filing",
+          "page": 441,
+          "section": "We have audited the accompanying standalone financial statements of Larsen & Toubro Limited (the “Company”), which comprise the"
+        }
+      ],
+      "chart_data": null
+    },
+    {
+      "title": "Peer Comparison",
+      "body": "Peer Comparison: \nUnfortunately, the provided filing excerpts do not contain sufficient information to facilitate a peer comparison for LTTS. The excerpts primarily focus on the company's segment composition, risk management framework, and outlook, without providing comparable data from peer companies. As a result, it is not possible to assess LTTS's performance relative to its peers in the industry. To conduct a meaningful peer comparison, additional data from comparable companies would be required, including financial metrics such as revenue, net profit, and net worth. Without this information, a peer comparison cannot be accurately undertaken.",
+      "citations": [
+        {
+          "source": "filing",
+          "page": 511,
+          "section": "Standalone Financial Statements"
+        },
+        {
+          "source": "filing",
+          "page": 105,
+          "section": "general"
+        },
+        {
+          "source": "filing",
+          "page": 441,
+          "section": "We have audited the accompanying standalone financial statements of Larsen & Toubro Limited (the “Company”), which comprise the"
+        }
+      ],
+      "chart_data": null
+    }
+  ],
+  "eval_context": [
+    {
+      "id": "0d13d9ff-04e2-4793-af0e-0b2a3fd60d2a",
+      "content": "Balance Sheet as at March 31, 2025, and the Statement of Profit and Loss (including Other Comprehensive Income), the Statement of Cash",
+      "ticker": "LT",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 441,
+      "section_title": "We have audited the accompanying standalone financial statements of Larsen & Toubro Limited (the “Company”), which comprise the",
+      "similarity": 0.632736802101135,
+      "retrieval_source": "vector",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "ticker": "LT",
+      "content": "Rupees as follows: A. assets and liabilities for each Balance Sheet presented are translated at the closing rate at the date of that Balance Sheet; B. income and expenses for each income statement are translated at average exchange rate for the reporting period; and C. all resulting exchange differences are recognised in other comprehensive income and accumulated in equity as foreign currency translation reserve for subsequent reclassification to profit or loss on disposal of such foreign operations. (t) Accounting and reporting of information for Operating Segments Operating segments are those components of the business whose operating results are regularly reviewed by the chief operating decision making body in the Company to make decisions for performance assessment and resource allocation. The reporting of segment information is the same as provided to the management for the purpose of the performance assessment and resource allocation to the segments.",
+      "chunk_index": 692,
+      "page_number": 472,
+      "section_title": "(iv)\t Financial statements of foreign operations whose functional currency is different than Indian Rupees are translated into Indian",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\LT_FY25.json"
+      },
+      "similarity": 17.630372726902056,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "id": "36c1d8b7-f09c-49ec-a66f-184eb188a839",
+      "content": "The Balance Sheet, the Statement of Profit and Loss and the Statement of Changes in Equity are prepared and presented in the format prescribed in the Schedule III to the Companies Act, 2013 (the Act). The Statement of Cash Flows has been prepared and presented in accordance with Ind AS 7 “Statement of Cash Flows”. The disclosures with respect to items in the Balance Sheet and Statement of Profit",
+      "ticker": "LT",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 463,
+      "section_title": "Presentation of financial statements",
+      "similarity": 0.617310092769855,
+      "retrieval_source": "vector",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "ticker": "LT",
+      "content": "as follows: A. assets and liabilities are translated at the closing rate at the date of that Balance Sheet; B. income and expenses are translated at average exchange rate for the reporting period; and C. all resulting exchange differences are recognised in other comprehensive income and accumulated in equity as foreign currency translation reserve for subsequent reclassification to profit or loss on disposal of such foreign operations. The portion of foreign currency translation reserve attributed to non-controlling interests is reflected as part of non-controlling interests. (z) Accounting and reporting of information for Operating Segments Operating segments are those components of the business whose operating results are regularly reviewed by the chief operating decision making body in the Group to make decisions for performance assessment and resource allocation. The reporting of segment information is the same as provided to the management for the purpose of the performance assessment and resource allocation to the segments. Segment accounting policies are in line with the accounting policies of the Group. In addition, the following specific accounting policies have been followed for segment reporting: (i) Segment revenue includes sales and other operational revenue directly identifiable with/allocable to the segment including (a) inter- segment revenue and (b) profit on sale of business undertaking/stake in the subsidiary and/or joint venture companies under development projects segment and realty business grouped under “Others” segment. (ii) Expenses that are directly identifiable with/allocable to segments are considered for determining the segment result. In respect of (a) Financial Services segment and (b) Development Projects segment relating to power generation asset given on finance lease, the finance costs on borrowings are accounted as segment expenses. (iii) Most of the common costs are allocated to segments mainly on the basis of the respective segment revenue estimated at the beginning of the reporting period. (iv) Income not allocable to segments is included in “Unallocable corporate income net of expenditure”. (v) Segment result represents profit before interest and tax and includes margins on inter-segment capital jobs, which are reduced in arriving at the profit before tax of the Group. It also includes the finance costs incurred on interest bearing advances with corresponding credit included in “Unallocable corporate income net of expenditure”. Segment result are not adjusted for any exceptional item. (vi) Segment assets and liabilities include those directly identifiable with the respective segments. In respect of (a) Financial Services segment, and (b) Development Projects segment relating to power generation asset given on finance lease, segment liabilities include borrowings as the finance costs on the borrowings are accounted as segment expenses. Investment in joint ventures and associates identified with a particular segment are reported as part of the segment assets of those respective segments. Unallocable corporate assets and liabilities represent the assets and liabilities that relate to the Group as a whole. (vii) Segment non-cash expenses forming part of segment expenses also includes the fair value of the employee stock options which is accounted as employee compensation cost [Note 1(II)(x) above] and is allocated to the segment. (viii) Segment revenue resulting from transactions with other business segments is accounted",
+      "chunk_index": 1109,
+      "page_number": 611,
+      "section_title": "(iv)\t Financial statements of foreign operations whose functional currency is different than Indian Rupee are translated into Indian Rupee",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\LT_FY25.json"
+      },
+      "similarity": 16.465554794928458,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "id": "bb4943cc-a0d4-41f9-9058-b5d1880aa34d",
+      "content": "Corporate Overview Statutory Reports Integrated Report Management Discussion and Analysis Financial Statements 513 NOTE [42]",
+      "ticker": "LT",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 514,
+      "section_title": "general",
+      "similarity": 0.592535818068039,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "ticker": "LT",
+      "content": "Corporate Overview Statutory Reports Integrated Report Management Discussion and Analysis Financial Statements 511 NOTE [41] Disclosure pursuant to Ind AS 115 “Revenue from Contracts with Customers” (a) Disaggregation of revenue into Operating Segments and Geographical areas i. For the year ended March 31, 2025: v crore Segment Revenue as per Ind AS 115 Other Revenue Total as per Statement of Profit and Loss/ Segment reporting Domestic Foreign Total Infrastructure Projects 75315.00 28427.51 103742.51 353.27 104095.78 Energy Projects 13903.64 10030.81 23934.45 93.66 24028.12 Hi-Tech Manufacturing 7597.66 2199.36 9797.02 13.32 9810.34 Others 3901.41 157.57 4058.99 515.79 4574.77 Total 100717.71 40815.25 141532.97 976.04 142509.01 ii. For the year ended March 31, 2024: v crore Segment Revenue as per Ind AS 115 Other Revenue Total as per Statement of Profit and Loss/ Segment reporting Domestic Foreign Total Infrastructure Projects 77779.56 16315.74 94095.30 346.29 94441.58 Energy Projects 12076.01 6945.08 19021.09 333.46 19354.55 Hi-Tech Manufacturing 5636.42 2530.94 8167.36 28.63 8195.99 Others 3827.17 311.88 4139.05 102.20 4241.24 Total 99319.16 26103.64 125422.80 810.58 126233.36 (b) Out of the total revenue recognised under Ind AS 115 during the year, ¢ 134820.26 crore (previous year: ¢ 119639.81 crore) is recognised over a period of time and ¢ 6712.71 crore (previous year: ¢ 5782.99 crore) is recognised at a point in time. (c) Movement in Expected Credit Loss during the year: v crore Particulars Provision on Trade Receivables Provision on Contract Assets 2024-25 2023-24 2024-25 2023-24 Balance as at April 1 4148.84 3968.78 1957.61 1588.17 Changes in loss allowance for expected credit loss: Provision/(reversal) of allowance for expected credit loss 580.16 323.80 70.70 373.92 Additional provision (net) 308.23 402.66 (2.45) (4.48) Written off as bad debts (499.52) (546.44) – – Balance as at March 31 4537.66 4148.80 2025.85 1957.61",
+      "chunk_index": 786,
+      "page_number": 512,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\LT_FY25.json"
+      },
+      "similarity": 16.040203205580486,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "id": "46f33787-a36e-4d15-844b-e9a5138e424d",
+      "content": "Corporate Overview Statutory Reports Integrated Report Management Discussion and Analysis Financial Statements 703",
+      "ticker": "LT",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 704,
+      "section_title": "general",
+      "similarity": 0.589793432975602,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015625
+    },
+    {
+      "ticker": "LT",
+      "content": "Segment accounting policies are in line with the accounting policies of the Company. In addition, the following specific accounting policies have been followed for segment reporting: i) Segment revenue includes sales and other operational revenue directly identifiable with/allocable to the segment including inter segment revenue. ii) Expenses that are directly identifiable with/allocable to segments are considered for determining the segment result. iii) Most of the common costs are allocated to segments mainly on the basis of the respective segment revenue estimated at the beginning of the reporting period. iv) Income not allocable to segments is included in “Unallocable corporate income net of expenditure”. v) Segment result represents profit before interest and tax and includes margins on inter-segment capital jobs, which are reduced in arriving at the profit before tax of the Company. vi) Segment result includes the finance costs incurred on interest bearing advances with corresponding credit included in “Unallocable corporate income net of expenditure”. vii) Segment results are not adjusted for any exceptional item. viii) Segment assets and liabilities include those directly identifiable with the respective segments. Unallocable corporate assets and liabilities represent the assets and liabilities that relate to the Company as a whole. ix) Segment non-cash expenses forming part of segment expenses also includes the fair value of the employee stock options which is accounted as employee compensation cost [Note 1(ii)(r) above] and is allocated to the segment. x) Segment revenue resulting from transactions with other business segments is accounted on the basis of transfer price which are either determined to yield a desired margin or agreed on a negotiated basis. (u) Taxes on income Tax on income for the current period is determined on the basis of taxable income and tax credits computed in accordance with the provisions of the Income Tax Act,1961 and using estimates and judgments based on the expected outcome of assessments/appeals and the relevant rulings in the areas of allowances and disallowances. The computation reflects the effect of uncertainty for each item of allowance and disallowance as appropriate either by i. expected value method which sums the probability-weighted amounts in a range of possible outcomes or ii. the most likely amount in a range of possible outcomes. Deferred tax is recognised on temporary differences between the carrying amounts of assets and liabilities in the Company’s financial statements and the corresponding tax bases used in computation of taxable profit and quantified using the tax rates as per laws enacted or substantively enacted as on the Balance Sheet date. Deferred tax liabilities are generally recognised for all taxable temporary differences including the temporary differences associated with investments in subsidiaries and associates, and interests in joint ventures, except where the Company is able to control the reversal of the temporary difference and it is probable that the temporary difference will not reverse in the foreseeable future. Deferred tax assets are generally recognised for all taxable temporary differences to the extent that is probable that taxable profits will be available against which those deductible temporary differences can be utilised. The carrying amount of deferred tax assets is reviewed",
+      "chunk_index": 695,
+      "page_number": 473,
+      "section_title": "Standalone Financial Statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\LT_FY25.json"
+      },
+      "similarity": 15.752799499411132,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015625
+    },
+    {
+      "id": "e80c99cd-0cc5-4367-870d-783cf4f794c8",
+      "content": "Corporate Overview Statutory Reports Integrated Report Management Discussion and Analysis Financial Statements 699",
+      "ticker": "LT",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 700,
+      "section_title": "general",
+      "similarity": 0.58920617667455,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "ticker": "LT",
+      "content": "Corporate Overview Statutory Reports Integrated Report Management Discussion and Analysis Financial Statements 661 NOTE [47] Disclosure pursuant to Ind AS 115 “Revenue from Contracts with Customers”: (a) Disaggregation of revenue into operating segments and geographical areas: v crore Segment 2024-25 Revenue as per Ind AS 115 Other revenue Total as per Statement of Profit and Loss/Segment report Domestic Foreign Total Infrastructure Projects 75739.21 53810.10 129549.31 347.52 129896.83 Energy Projects 13899.37 26675.28 40574.65 93.53 40668.18 Hi-Tech Manufacturing 7620.76 2061.11 9681.87 13.27 9695.14 IT & Technology Services 3726.38 44118.50 47844.88 – 47844.88 Financial Services 0.37 – 0.37 15193.58 15193.95 Development Projects 4125.65 – 4125.65 1245.16 5370.81 Others 5963.06 881.26 6844.32 220.34 7064.66 Total 111074.80 127546.25 238621.05 17113.40 255734.45 v crore Segment 2023-24 Revenue as per Ind AS 115 Other revenue Total as per Statement of Profit and Loss/Segment report Domestic Foreign Total Infrastructure Projects 78375.15 33813.10 112188.25 362.51 112550.76 Energy Projects 12074.71 17130.31 29205.02 333.89 29538.91 Hi-Tech Manufacturing 5636.37 2530.94 8167.31 28.64 8195.95 IT & Technology Services 3654.62 40818.06 44472.68 – 44472.68 Financial Services 0.84 – 0.84 13107.78 13108.62 Development Projects 4037.64 – 4037.64 1582.65 5620.29 Others 6794.47 746.90 7541.37 84.33 7625.70 Total 110573.80 95039.31 205613.11 15499.80 221112.91 (b) Break up of revenue into over a period of time and at a point in time: v crore Year Over a period of time At a point in time Total 2024-25 214110.40 24510.65 238621.05 2023-24 191680.32 13932.79 205613.11",
+      "chunk_index": 1229,
+      "page_number": 662,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\LT_FY25.json"
+      },
+      "similarity": 14.440074343105644,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015384615384615385
+    },
+    {
+      "id": "8f6da800-1fe9-403a-86d4-cb51eb9abe00",
+      "content": "Corporate Overview Statutory Reports Integrated Report Management Discussion and Analysis Financial Statements 489",
+      "ticker": "LT",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 490,
+      "section_title": "general",
+      "similarity": 0.588483929634094,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015151515151515152
+    },
+    {
+      "ticker": "LT",
+      "content": "Corporate Overview Statutory Reports Integrated Report Management Discussion and Analysis Financial Statements 553 (k) Reclassification of hedging reserve & cost of hedging reserve to Profit or Loss v crore Particulars Hedging reserve/Cost of hedging reserve 2024-25 2023-24 Future cash flows are no longer expected to occur: Sales, administration and other expenses (53.18) 0.64 Hedged expected future cash flows affecting Profit or Loss: Progress billing (61.19) 5.78 Revenue from operation 38.65 (2.71) Manufacturing ,construction and operating expenses 75.74 (42.77) Sales, administration and other expenses (2.38) 118.16 (l) Movement of hedging reserve & cost of hedging reserve v crore Hedging reserve 2024-25 2023-24 Gross Tax Net of Tax Gross Tax Net of Tax Opening balance 107.77 (40.88) 68.89 319.93 (91.15) 228.78 Changes in the spot element of the forward contracts which is designated as hedging instrument for time period related hedges 5.34 (1.33) 4.01 56.01 (13.27) 42.74 Changes in fair value of forward contracts designated as hedging instruments 185.93 (46.33) 139.60 (190.35) 45.11 145.24 Amount reclassified to Profit or Loss (85.71) 21.36 (64.35) (76.52) 18.13 (58.39) Amount included in non-financial asset/liability 0.03 (0.01) 0.02 4.48 (1.06) 3.42 Amount included in Progress Billing in balance sheet 61.19 (15.25) 45.94 (5.78) 1.37 (4.41) Closing balance 274.55 (82.44) 192.11 107.77 (40.88) 66.89 v crore Cost of hedging reserve 2024-25 2023-24 Gross Tax Net of Tax Gross Tax Net of Tax Opening balance (6.25) 1.57 (4.68) (6.37) 1.60 (4.77) Changes in the forward element of the forward contracts where changes in spot element of forward contract is designated as hedging instrument for time period related hedges 164.28 (41.33) 122.95 (3.09) 0.78 (2.31) Amount reclassified to Profit or Loss 26.88 (6.77) 20.11 3.21 (0.81) 2.40 Closing balance 184.92 (46.53) 138.38 (6.25) 1.57 (4.68)",
+      "chunk_index": 888,
+      "page_number": 554,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\LT_FY25.json"
+      },
+      "similarity": 13.981303870870187,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.015151515151515152
+    },
+    {
+      "id": "cada8eee-6cb4-4ee5-b6d6-96a82c6c45c0",
+      "content": "Corporate Overview Statutory Reports Integrated Report Management Discussion and Analysis Financial Statements 443",
+      "ticker": "LT",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 444,
+      "section_title": "general",
+      "similarity": 0.588230013847351,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014925373134328358
+    },
+    {
+      "ticker": "LT",
+      "content": "Corporate Overview Statutory Reports Integrated Report Management Discussion and Analysis Financial Statements 659 (b) Geographical information v crore Particulars Revenue [1] 2024-25 2023-24 India (i) 128168.58 126027.04 Foreign countries (ii): United States of America 33448.58 30881.10 Kingdom of Saudi Arabia 61002.04 40166.35 United Arab Emirates 9469.87 3160.74 Qatar 4160.25 2472.64 United Kingdom 2080.87 2172.29 Bangladesh 1188.69 1495.57 Sultanate of Oman 2373.87 1342.51 Algeria 114.82 664.19 Kuwait 1392.57 660.86 Other countries 12334.31 12069.62 Total foreign countries (ii) 127565.87 95085.87 Total (i+ii) 255734.45 221112.91 [1] Geography wise break up of revenue is based on location of project other than service industries where it is based on location of customer. v crore Particulars Non-current assets As at 31-3-2025 As at 31-3-2024 India 50796.87 50127.31 Foreign countries 3088.65 2283.85 Total 53885.52 52411.16 (c) Revenue contributed by any single customer in any of the operating segments, whether reportable or otherwise, does not exceed 10% of the Group’s total revenue. (d) The identification of operating segments is consistent with performance assessment and resource allocation by the management. (e) Segment reporting: basis of identifying operating segments, reportable segments and definition of each reportable segment: (i) Basis of identifying operating segments: Operating segments are identified as those components of the Group (a) that engage in business activities to earn revenues and incur expenses (including transactions with any of the Group’s other components); (b) whose operating results are regularly reviewed by the Group’s Corporate Executive Management to make decisions about resource allocation and performance assessment; and (c) for which discrete financial information is available. The Group has seven reportable segments [described under “segment composition”] which are the Group’s independent businesses. The nature of products and services offered by these businesses are different and are managed separately given the different sets of technology and competency requirements. In arriving at the reportable segment, the seven operating segments have been aggregated and reported as “Infrastructure Projects” as these operating segments have similar economic characteristics in terms of long term average gross margins, nature of the products and services, type of customers, methods used to distribute the products and services and the nature of regulatory environment applicable to them.",
+      "chunk_index": 1224,
+      "page_number": 660,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\LT_FY25.json"
+      },
+      "similarity": 13.677230929028179,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014925373134328358
+    },
+    {
+      "id": "8f3cbaad-5a55-4f4a-8145-309314e7aee9",
+      "content": "Corporate Overview Statutory Reports Integrated Report Management Discussion and Analysis Financial Statements 697",
+      "ticker": "LT",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 698,
+      "section_title": "general",
+      "similarity": 0.588147545567302,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014705882352941176
+    },
+    {
+      "ticker": "LT",
+      "content": "Key Audit Matters Key audit matters are those matters that, in our professional judgment, were of most significance in our audit of the standalone financial statements for the year ended March 31, 2025. These matters were addressed in the context of our audit of the standalone financial statements as a whole, and in forming our opinion thereon, and we do not provide a separate opinion on these matters. We have determined the matters described below to be the key audit matters to be communicated in our report. Revenue recognition – accounting for construction contracts Key audit matter Description There are significant accounting judgements in estimating revenue to be recognised on contracts with customers, including estimation of costs to complete. The Company recognises revenue on the basis of stage of completion in proportion of the contract costs incurred at balance sheet date, relative to the total estimated costs of the contract at completion. The recognition of revenue is therefore dependent on estimates in relation to total estimated costs of each such contract. Significant judgements are involved in determining the expected losses, when such losses become probable based on the expected total contract cost. Cost contingencies are included in these estimates to take into account specific risks of uncertainties or disputed claims against the Company, arising within each contract. These contingencies are reviewed by the Company’s Management on a regular basis throughout the life of the contract and adjusted where appropriate. The revenue on contracts may also include variable consideration (change orders and claims). Variable consideration is recognised when the recovery of such consideration is highly probable based on company’s contractual rights and /or a legal assessment.",
+      "chunk_index": 574,
+      "page_number": 441,
+      "section_title": "appropriate to provide a basis for our audit opinion on the standalone financial statements.",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\LT_FY25.json"
+      },
+      "similarity": 13.413806764812993,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014705882352941176
+    },
+    {
+      "id": "55bcd7e6-96ab-4242-87ac-dce24b15a915",
+      "content": "NOTE [51] The expenditure on research and development activities is as follows: v crore Sr. No. Particulars 2024-25 2023-24 (i) Recognised as expense in the Statement of Profit and Loss 171.86 163.15 (ii) Capital Expenditure on: (a) tangible assets 2.40 4.54 (b) other intangible assets 0.77 1.32 (iii) Expenditure customer funded. 1.89 – NOTE [52] Disclosure pursuant to Ind AS 107 “Financial Instruments: Disclosures”: Market risk management (a) Foreign exchange rate and interest rate risk: The Company regularly reviews its foreign currency and interest rate related exposures – both hedged and open. The Company primarily follows cash flow hedge accounting for Highly Probable Forecasted Exposures (HPFE), hence, the movement in mark to market (MTM) of the hedge contracts undertaken for such exposures is likely to be offset by contra movements in the underlying exposures values. However, till the point of time that the HPFE becomes an on-balance sheet exposure, the changes in MTM of the hedge contracts will impact the Balance Sheet of the Company. Further, given the effective horizons of the Company’s risk management activities which coincide with the durations of the projects under execution, which could extend across 3-4 years and given the business uncertainties associated with the timing and estimation of the project exposures, the recognition of the gains and losses related to these instruments may not always coincide with the timing of gains and losses related to the underlying economic exposures and, therefore, may affect the Company’s financial condition and operating results. The Company monitors the potential risk arising out of the market factors like exchange rates, interest rates, price of traded investment products etc. on a regular basis. For on-balance Sheet exposures, the Company monitors the risks on net unhedged exposures. (i) Foreign exchange rate risk: The Company has both receivable and payable exposures in foreign currency. Accordingly, changes in exchange rates may adversely affect the Company’s revenues, cost, and profitability. There is a risk that the Company may also have to adjust the local currency product pricing due to competitive pressures when there has been significant volatility in foreign currency exchange rates. The Company may enter foreign currency forward and option contracts with financial institutions to protect against foreign exchange risks associated with existing assets and liabilities, firm commitments, forecasted future cash flows and net investments in foreign subsidiaries. In addition, the Company has entered, and may enter in future, into non-designated foreign currency contracts to partially offset the foreign currency exchange gains and losses on its foreign-denominated debt issuances. The Company’s practice is to hedge a portion of its material net foreign exchange exposures with tenors in line with the project/business life cycle. The Company may also choose not to hedge certain foreign exchange exposures.",
+      "ticker": "LT",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 543,
+      "section_title": "Standalone Financial Statements",
+      "similarity": 0.588140894396203,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014492753623188406
+    },
+    {
+      "ticker": "LT",
+      "content": "Particulars Non-current Assets As at 31-3-2025 As at 31-3-2024 India (i) 17387.28 17022.67 Foreign countries (ii) 355.25 201.78 Total (i+ii) 17742.53 17224.45 (c) Revenue contributed by any single customer in any of the operating segments, whether reportable or otherwise, does not exceed ten percent of the Company’s total revenue. (d) The identification of operating segments is consistent with performance assessment and resource allocation by the management. (e) Basis of identifying operating segments, reportable segments, segment profit and definition of each reportable segment: (i) Basis of identifying Operating segments: Operating segments are identified as those components of the Company (a) that engage in business activities to earn revenues and incur expenses (including transactions with any of the Company’s other components); (b) whose operating results are regularly reviewed by the Company’s executive management to make decisions about resource allocation and performance assessment; and (c) for which discrete financial information is available. The Company has four reportable segments as described under “segment composition” below. The nature of products and services offered by these businesses are different and are managed separately given the different sets of technology and competency requirements. (ii) Reportable segments An operating segment is classified as reportable segment if reported revenue (including inter-segment revenue) or absolute amount of result or assets exceed 10% or more of the combined total of all the operating segments. (iii) Segment profit Performance of a segment is measured based on segment profit (before interest and tax), as included in the internal management reports that are reviewed by the corporate executive management. (iv) The Segment Composition:- • Infrastructure Projects segment comprises engineering and construction of (a) building and factories, (b) transportation infrastructure, (c) heavy civil infrastructure, (d) power transmission & distribution, (e) renewable, (f) water & effluent treatment and (g) minerals and metals • Energy Projects segment comprises of (a) Hydrocarbon Onshore and Offshore businesses covering EPC solutions in oil & gas, refineries, petrochemicals & offshore wind energy sectors, from front-end design through detailed engineering, modular fabrication, procurement, project management, construction, installation and commissioning, (b) CarbonLite Solutions business covering EPC solutions for power generation plants including power generation equipment with associated systems and/or carbon capture utilisation & utility packages and (c) EPC solutions in green and clean energy space. • Hi-Tech Manufacturing segment comprises design, manufacture/construct, supply and revamp/retrofit of (a) custom designed, engineered critical equipment & systems to the process plant, nuclear energy and green hydrogen sectors (b) marine and land platforms including related equipment & systems; aerospace products & systems; precision and electronic products & systems for the defence, security, space and industrial sectors. • Others segment includes (a) realty, (b) smart infrastructure & communication projects, (c) marketing and servicing of construction equipment, mining machinery and parts thereof, (d) manufacture and sale of rubber processing machinery and (e) ecommerce/digital platforms & data centres.",
+      "chunk_index": 784,
+      "page_number": 511,
+      "section_title": "Standalone Financial Statements",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\LT_FY25.json"
+      },
+      "similarity": 13.065269721673944,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014492753623188406
+    },
+    {
+      "id": "1df788d1-afbc-45a5-be24-fd1312b976b0",
+      "content": "Corporate Overview Statutory Reports Integrated Report Management Discussion and Analysis Financial Statements 701",
+      "ticker": "LT",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 702,
+      "section_title": "general",
+      "similarity": 0.588027060031891,
+      "retrieval_source": "vector",
+      "rrf_score": 0.014285714285714285
+    },
+    {
+      "ticker": "LT",
+      "content": "Risk Management Framework The company’s risk management approach is strategically placed to function independently in line with best-in- class corporate governance principles and statutory requirements in alignment with globally accepted risk management frameworks. LTTS’s risk management programme is aligned with business strategy and embedded in the normal course of business across the company under the guidance of the Risk Management Committee (RMC) of the Board. The programme enables proactive identification and mitigation of enterprise risks, supporting informed decision-making, sustainable growth and value creation. The Chief Risk Officer oversees risk management programme and is supported by the Enterprise Risk Management (ERM) team. LTTS’s risk management framework includes the following risk categories: à Strategic: Risk events that make it difficult to achieve strategic objectives and goals à Operational: Operational challenges faced by business teams in regular course of business à Financial: Inefficient utilisation of financial resources, currency fluctuations, credit risk, etc. à Compliance: Potential risk of non-compliance with laws and regulations For the effective functioning of the risk management programme, risk assessments are conducted at various levels, including enterprise, business unit, customer account and project levels. Key risks are presented to the senior management including the CEO, the CFO and the relevant Board Committees such as Audit Committee and Risk Management Committee. Outlook LTTS continues to leverage its proven expertise in engineering and digital innovation for driving a robust growth trajectory in the coming year. With ongoing investments in high-potential areas including Agentic AI, LTTS is well-positioned to lead the global ER&D market. The focus continues to remain on key growth segments of mobility, sustainability and tech, powered by its ‘Go Deeper to Scale’ strategy and the momentum generated by the accelerated emergence of breakthrough technologies. LTTS’s acquisition of Intelliswift Inc and its subsidiaries in Q3 FY 2024-25 underscores its commitment to expanding software and digital engineering capabilities. The move not only strengthens its foothold in hyperscaler segments but also marks its entry into service-led sectors such as retail, fintech and healthcare. The integration of this acquisition has already shown results with the creation of a new Software & Platforms segment designed to address the growing demand for innovative software solutions. With the continued growth in demand for digital transformation initiatives, combined with a growing focus on sustainability and innovation, LTTS is well poised to capitalise on emerging opportunities. Aligned with its commitment towards client-centric innovation and engineering excellence, the company continues to foster technology- driven transformation across industries worldwide. LTTS Electric Vehicle Lab Integrated Annual Report 2024-25 104 IT & Technology Services Segment",
+      "chunk_index": 118,
+      "page_number": 105,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\LT_FY25.json"
+      },
+      "similarity": 12.83663462409134,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.014285714285714285
+    },
+    {
+      "id": "cdcb5946-f93c-4236-a1a0-814aed82793a",
+      "content": "Profit Before Interest and Tax Segment-wise composition of PBIT for FY 2024-25 is represented below: The segment-wise PBIT registered improvement over the previous year across all businesses except Development Projects, where a higher gain on the sale of commercial property of Hyderabad Metro was booked in the previous year. Other Income This mainly consists of interest, dividend and gains from treasury operations. Other income at I 4,125 crore has remained at a similar level to the previous year. Finance Cost The interest expenses for FY 2024-25 at I 3,334 crore were lower by 6.0% over I 3,546 crore for the previous year. The lower average borrowing at a group level and improved borrowing rate aided in reduction of interest expense. The average interest cost for FY 2024-25 was lower by 30 bps as compared to the previous year. Tax Expense Income Tax charge for FY 2024-25 was higher at I 5,891 crore by 19.1% compared to I 4,947 crore in the previous year on higher taxable income. Exceptional Items Exceptional items during the year mainly comprise of reversal of impairment of funded exposure in L&T Special Steels and Heavy Forgings Private Limited (LTSSHF). The previous year mainly included gain on the divestment of stake in L&T Transportation Infrastructure Limited, a subsidiary of L&T IDPL and reversal of impairment of investment in L&T IDPL. Consolidated Profit after Tax and EPS Consolidated Profit after Tax (PAT) at I 15,037 crore for FY 2024-25 increased by 15.1% over the previous year at I 13,059 crore. The increase is mainly attributable to improved activity levels. Consolidated Basic Earnings per Share (EPS) for FY 2024-25 at I 109.36 improved over the previous year at I 93.96. Return on Consolidated Net Worth The Consolidated Net Worth, as on March 31, 2025, at I 97,656 crore, reflects a net increase of I 11,296 crore, as compared to the position as on March 31, 2024. The Return on Net Worth (RONW) for FY 2024-25 was higher at 16.3%, compared to 14.9% in the previous year, mainly on account of higher profitability. Liquidity and Gearing Cash flow from operations (including change in loans and advances towards financing activities) for FY 2024-25 decreased to I 9,161 crore as compared to I 18,266 crore in the previous year, mainly due to higher retail loan Segment-wise PBIT Infrastructure Projects Energy Projects Hi-Tech Manufacturing IT & Technology Services Financial Services Development Projects Others FY 23-24 5721 2701 1140 7659 3028 1015 1508 FY 24-25 6921 3137 1459 7682 3491 757 1935 0 1000 2000 3000 4000 5000 6000 7000 8000 9000 I Crore Corporate Overview Statutory Reports Integrated Report Management Discussion and Analysis Financial Statements 39",
+      "ticker": "LT",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 40,
+      "section_title": "general",
+      "similarity": 0.679565427381023,
+      "retrieval_source": "vector",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "ticker": "LT",
+      "content": "The Hi-Tech Manufacturing segment achieved order inflows of I 18,282 crore during FY 2024-25, registering growth of 28.0% over the previous year, mainly on receipt of key orders in Precision Engineering & Systems and Heavy Engineering businesses. The share of international orders increased to 21% in the current year from 16% in FY 2023-24. The Hi-Tech Manufacturing segment comprises of: a) Heavy Engineering Business b) Precision Engineering & Systems Business Financial performance of the segment Screw plug Heat Exchanger for ICA FLUOR Daniel, Mexico HI-TECH MANUFACTURING SEGMENT The Hi-Tech Manufacturing segment achieved revenue of I 10,181 crore for the year, registering a growth of 16.1% y-o-y due to a pick-up in execution momentum. The share of international revenue in FY 2024-25 was at 22% of the total revenue of the segment as compared to 29% in the previous year, due to tapering of execution in key international jobs nearing completion. The segment’s operating margin improved to 17.3% from 16.3%, mainly due to execution cost savings. Funds employed by the segment as on March 31, 2025, at I 2,250 crore increased by 66.3% y-o-y, mainly due to acquisition of remaining 26% stake in L&T Special Steels and Heavy Forgings Private Limited (LTSSHF) from the Nuclear Power Corporation of India Limited (NPCIL). Order Inflow Domestic International 28.0% 0 5000 2023-24 2024-25 10000 15000 20000 25000 79% 14456 18282 84% 16% 21% 3826 2296 11982 14278 I Crore Revenue from Operations and OPM% 0 2000 4000 6000 8000 10000 12000 14000 16.1% 2023-24 2024-25 78% 29% 71% 22% Domestic International OPM% 6234 2531 8765 16.3% 17.3% 7941 10181 2240 I Crore Corporate Overview Statutory Reports Integrated Report Management Discussion and Analysis Financial Statements 83",
+      "chunk_index": 97,
+      "page_number": 84,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\LT_FY25.json"
+      },
+      "similarity": 16.76282967878347,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "id": "a8f45985-c3ee-429b-9f93-b409ec891eae",
+      "content": "Corporate Overview Statutory Reports Integrated Report Management Discussion and Analysis Financial Statements 511 NOTE [41] Disclosure pursuant to Ind AS 115 “Revenue from Contracts with Customers” (a) Disaggregation of revenue into Operating Segments and Geographical areas i. For the year ended March 31, 2025: v crore Segment Revenue as per Ind AS 115 Other Revenue Total as per Statement of Profit and Loss/ Segment reporting Domestic Foreign Total Infrastructure Projects 75315.00 28427.51 103742.51 353.27 104095.78 Energy Projects 13903.64 10030.81 23934.45 93.66 24028.12 Hi-Tech Manufacturing 7597.66 2199.36 9797.02 13.32 9810.34 Others 3901.41 157.57 4058.99 515.79 4574.77 Total 100717.71 40815.25 141532.97 976.04 142509.01 ii. For the year ended March 31, 2024: v crore Segment Revenue as per Ind AS 115 Other Revenue Total as per Statement of Profit and Loss/ Segment reporting Domestic Foreign Total Infrastructure Projects 77779.56 16315.74 94095.30 346.29 94441.58 Energy Projects 12076.01 6945.08 19021.09 333.46 19354.55 Hi-Tech Manufacturing 5636.42 2530.94 8167.36 28.63 8195.99 Others 3827.17 311.88 4139.05 102.20 4241.24 Total 99319.16 26103.64 125422.80 810.58 126233.36 (b) Out of the total revenue recognised under Ind AS 115 during the year, ¢ 134820.26 crore (previous year: ¢ 119639.81 crore) is recognised over a period of time and ¢ 6712.71 crore (previous year: ¢ 5782.99 crore) is recognised at a point in time. (c) Movement in Expected Credit Loss during the year: v crore Particulars Provision on Trade Receivables Provision on Contract Assets 2024-25 2023-24 2024-25 2023-24 Balance as at April 1 4148.84 3968.78 1957.61 1588.17 Changes in loss allowance for expected credit loss: Provision/(reversal) of allowance for expected credit loss 580.16 323.80 70.70 373.92 Additional provision (net) 308.23 402.66 (2.45) (4.48) Written off as bad debts (499.52) (546.44) – – Balance as at March 31 4537.66 4148.80 2025.85 1957.61",
+      "ticker": "LT",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 512,
+      "section_title": "general",
+      "similarity": 0.663100580799515,
+      "retrieval_source": "vector",
+      "rrf_score": 0.016129032258064516
+    },
+    {
+      "id": "a48184b6-f7b6-4aae-9c30-95c5d39df14b",
+      "content": "v crore Particulars Interest income included in segment income Finance costs included in segment expense Profit/(loss) of associates and joint ventures accounted applying equity method not included in segment result 2024-25 2023-24 2024-25 2023-24 2024-25 2023-24 Infrastructure Projects 153.82 68.86 150.91 231.60 1.36 3.97 Energy Projects 12.81 26.04 – – (20.73) (29.14) Hi-Tech manufacturing 0.02 0.49 – – 3.91 3.93 IT & Technology Services 410.52 392.04 – – 2.54 – Financial Services 547.06 467.80 5996.73 5377.19 – – Development Projects 20.88 23.52 375.07 423.97 (1.13) (1.37) Others 174.48 145.92 – – (0.01) (0.01) Segment total 1319.59 1124.67 6522.71 6032.76 (14.06) (22.62) Unallocable 1375.38 1719.00 (150.91) (231.60) – – Inter-segment (223.66) (396.60) (69.57) (86.26) – – Consolidated total 2471.31 2447.07 6302.23 5714.90 (14.06) (22.62) v crore Particulars Additions to non-current assets Investment in associates and joint ventures accounted applying equity method included in segment assets 2024-25 2023-24 As at 31-3-2025 As at 31-3-2024 Infrastructure Projects 3721.15 2914.42 0.60 – Energy Projects 955.79 1266.25 1127.59 1161.72 Hi-Tech manufacturing 618.77 558.96 106.81 102.90 IT & Technology Services 2833.37 3845.40 1083.42 – Financial Services 323.33 145.99 – – Development Projects 50.91 44.00 – (0.37) Others 888.00 926.33 – – Segment total 9391.32 9701.35 2318.42 1264.25 Unallocable 105.09 2228.96 – – Inter-segment (799.01) (1437.77) – – Consolidated total 8697.40 10492.54 2318.42 1264.25",
+      "ticker": "LT",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 659,
+      "section_title": "Consolidated Financial Statements",
+      "similarity": 0.627647764507337,
+      "retrieval_source": "vector",
+      "rrf_score": 0.015873015873015872
+    },
+    {
+      "id": "fe9cffb4-ac19-4ee8-a608-6094f09f3a01",
+      "content": "net profit after tax of ¢ 7.15 crore for the year ended March 31, 2025, and total comprehensive income (net) of ¢ 7.25 crore for the year",
+      "ticker": "LT",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "page_number": 585,
+      "section_title": "2025, as considered in the consolidated financial statements. The consolidated financial statements also include the Group’s share of",
+      "similarity": 0.675267735091723,
+      "retrieval_source": "vector",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "ticker": "LT",
+      "content": "CONSOLIDATED FINANCIALS- 10 YEAR HIGHLIGHTS v crore Description 2024-25 2023-24 2022-23 2021-22 2020-21 2019-20 2018-19 2017-18 2016-17 2015-16 Statement of Profit and Loss Gross revenue from operations [1] 255734 221113 183341 156521 135979 145452 135220 119862 110011 101975 PBDIT [1][2] 26435 23494 20753 18205 15624 16329 15330 13641 11130 10463 Profit for the year [PAT] 17673 15547 12531 10419 12921 10894 10217 8004 6486 4545 Profit attributable to the Owners of the Company (excluding exceptional items [3]) 14562 12966 10374 8572 6965 8894 8144 7151 5920 4154 Profit attributable to the Owners of the Company (including exceptional items [3]) 15037 13059 10471 8669 11583 9549 8905 7370 6041 4233 Balance Sheet Net worth attributable to the Owners of the Company 97656 86359 89326 82408 75869 66723 62375 54904 50217 44180 Non-controlling interest 17748 16190 14241 12966 12052 9521 6826 5201 3564 2893 Borrowings 129559 114040 118513 123468 132605 141007 125555 107524 93954 88135 Capital employed 244963 216589 222080 218842 220525 217251 194756 167629 147735 135208 Ratios and statistics PBDIT as % of net revenue from operations [1] [4] 10.34 10.63 11.32 11.63 11.49 11.23 11.34 11.40 10.18 10.35 PAT as % of (net revenue from operations [1]) [5] 6.91 7.03 6.83 6.66 9.50 7.49 7.56 6.69 5.93 4.49 RONW % [6] 16.34 14.87 12.19 10.95 16.25 14.80 15.35 14.12 12.80 9.91 Gross Debt: Equity ratio 1.12:1 1.11:1 1.14:1 1.29:1 1.51:1 1.85:1 1.81:1 1.79:1 1.75:1 1.87:1 Basic earnings per equity share (¢) [7] 109.36 93.96 74.51 61.71 82.49 68.04 63.51 52.62 43.20 30.32 Book value per equity share (¢) [8] 710.12 628.22 635.55 586.52 540.16 475.27 444.67 391.78 358.83 316.20 Dividend per equity share (¢) [8] [9] [10] 34.00 34.00 24.00 22.00 36.00 18.00 18.00 16.00 14.00 12.17 [1] From Continuing Operations in 2020-21, 2019-20 and 2018-19. [2] Profit before depreciation, interest and tax [PBDIT] is excluding exceptional items wherever applicable and other income. [3] Profit from discontinued operations in the year 2020-21, 2019-20 and 2018-19 has been considered as exceptional item. [4] PBDIT as % of net revenue from operations =[PBDIT/(gross revenue from operations less excise duty upto June 30, 2017)]. [5] PAT as % of net revenue from operations = [PAT/(gross revenue from operations less excise duty upto June 30, 2017)]. [6] RONW = [(Profit attributable to the Owners of the Company including exceptional items)/(average net worth)]. [7] Basic earnings per equity share has been calculated including exceptional items and adjusted for all the years for issue of bonus shares. [8] After considering adjustment for issue of bonus shares during respective years. [9] Dividend for the year 2020-21 includes special dividend of ¢ 18.00 per share and final dividend of ¢ 18.00 per share [10] Dividend for the year 2023-24 includes special dividend of ¢ 6.00 per share and final dividend of ¢ 28.00 per share Corporate Overview Statutory Reports Integrated Report Management Discussion and Analysis Financial Statements 21",
+      "chunk_index": 26,
+      "page_number": 22,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\LT_FY25.json"
+      },
+      "similarity": 26.08031033180213,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.01639344262295082
+    },
+    {
+      "ticker": "LT",
+      "content": "STANDALONE FINANCIALS- 10 YEAR HIGHLIGHTS 10 Year Highlights v crore Description 2024-25 2023-24 2022-23 2021-22 2020-21 2019-20 2018-19 2017-18 2016-17 2015-16 [9] [10] [11] Statement of Profit and Loss Statement of Profit and Loss Gross revenue from operations [1] 142509 126233 110501 101000 87255 82384 82287 74612 66301 63813 PBDIT[1][2] 11588 9729 9295 9055 8309 6838 7653 7701 6481 5829 Profit after tax (excluding exceptional items[3]) 10396 8883 7849 7612 5966 5414 5466 4861 4560 4454 Profit after tax (including exceptional items[3]) 10871 9331 7849 7879 11798 6679 7491 5387 5454 5000 Balance Sheet Net worth 71896 64516 71528 67114 61738 52175 50048 49174 46013 42135 Borrowings 21935 22540 18151 20298 24474 25785 11990 10561 10558 13924 Capital employed 93831 87056 89679 87412 86212 77960 62038 59735 56571 56059 Ratios and statistics PBDIT as % of net revenue from operations [1][4] 8.13 7.71 8.41 8.97 9.52 8.30 9.30 10.34 9.86 9.23 PAT as % of (net revenue from operations[1])[5] 7.63 7.39 7.10 7.80 13.52 8.11 9.10 7.23 8.30 7.91 RONW % [6] 15.94 13.71 11.32 12.23 20.54 13.07 15.74 11.32 12.37 12.39 Gross Debt: Equity ratio 0.31:1 0.35:1 0.25:1 0.30:1 0.40:1 0.49:1 0.24:1 0.21:1 0.23:1 0.33:1 Basic earnings per equity share (¢) [7] 79.06 67.14 55.85 56.09 84.02 47.59 53.43 38.46 39.00 35.81 Book value per equity share (¢) [8] 522.81 469.32 508.92 477.67 439.55 371.65 356.79 350.90 328.79 301.57 Dividend per equity share (¢) [8][12] 34.00 34.00 24.00 22.00 36.00 18.00 18.00 16.00 14.00 12.17 No. of equity shareholders 17,06,264 15,64,085 14,25,064 14,92,124 13,71,535 12,51,569 10,21,275 8,99,902 9,23,628 10,28,541 No. of employees 58,556 60,561 55,202 50,267 49,107 45,467 45,205 42,924 41,466 43,354 [1] For Continuing Operations in 2020-21, 2019-20 and 2018-19 [2] Profit before depreciation, interest and tax (PBDIT) is excluding exceptional items wherever applicable and other income. [3] Profit from discontinued operations in the year 2020-21, 2019-20 and 2018-19 has been considered as exceptional item. [4] PBDIT as % of net revenue from operations = [(PBDIT)/(gross revenue from operations less excise duty up to June 30, 2017)]. [5] Profit After Tax (PAT) as % of net revenue from operations = [(PAT including exceptional items)/(gross revenue from operations less excise duty up to June 30, 2017)]. [6] RONW [(PAT including exceptional items)/(average net worth)]. [7] Basic earnings per equity share has been calculated including exceptional items and adjusted for all the years for issue of bonus shares. [8] After considering adjustments for issue of bonus shares during the respective years. [9] Figures from 2023-24 include the impact of the merger of L&T Energy Hydrocarbon Engineering Limited with the Company. [10] Figures from 2020-21 include the impact of the merger of L&T Hydrocarbon with the Company. [11] Figures from 2018-19 include the impact of the merger of L&T Shipbuilding Limited with the Company. [12] Dividend for 2020-21 includes special dividend of ¢ 18.00 per share and final dividend of ¢ 18 per share. Dividend for 2023-24 includes special dividend of ¢ 6.00 per share and final dividend of ¢ 28 per share. Integrated Annual Report 2024-25 20",
+      "chunk_index": 25,
+      "page_number": 21,
+      "section_title": "general",
+      "doc_type": "filing",
+      "fiscal_year": "FY25",
+      "quarter": null,
+      "metadata": {
+        "source_file": "data\\parsed\\LT_FY25.json"
+      },
+      "similarity": 22.18162543738186,
+      "retrieval_source": "bm25",
+      "rrf_score": 0.016129032258064516
+    }
+  ],
+  "generated_at": "2026-06-22T10:12:26.478337+00:00"
+}
