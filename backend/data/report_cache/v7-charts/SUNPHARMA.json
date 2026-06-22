@@ -24,7 +24,7 @@
     },
     {
       "title": "Business Overview + Segment Breakdown",
-      "body": "Sun Pharmaceutical Industries Limited operates in multiple business segments, with a diverse revenue mix. As of FY25, the company's revenue share breakdown is: US Business (31%), India Business (33%), Emerging Markets (18%), Rest of the World (14%), and API and Others (4%). The company also reports its business mix as India (33%) and International (67%). In terms of financial performance, the company's gross sales for FY25 were ₹520 billion, representing a 9.0% increase from FY24. The company's EBITDA for FY25 was ₹153 billion, up 17.3% from FY24. The net worth of the company as of FY25 was ₹722 billion, a 13.4% increase from FY24. The company's adjusted net profit after minority interests for FY25 was ₹120 billion, up 19.0% from FY24.",
+      "body": "Sun Pharmaceutical Industries Limited operates in the pharmaceutical industry, with a diverse business mix across geographies. As of FY25, the company's revenue share is broken down into US Business (31%), India Business (33%), Emerging Markets (18%), Rest of the World (RoW) (14%), and API and Others (4%). The company leads the pharmaceutical market in India in value and prescription volumes, with India Formulation sales reaching ₹169 billion [Consolidated] in FY25, accounting for approximately 33% of overall revenues. The company's growth in India is driven by higher volumes and new product launches. In the US, revenue grew by 5.8% to ₹162 billion [Consolidated], driven by Specialty sales. The company's sales in Emerging Markets grew by 9.2% to ₹94 billion [Consolidated], while sales in RoW markets grew by 6.7% to ₹72 billion [Consolidated]. The Global Specialty revenue recorded a strong 17.1% growth to reach ₹9.72 billion [Consolidated] (assuming 1 USD = 80 INR, actual conversion not provided) during FY25.",
       "citations": [
         {
           "source": "filing",
@@ -57,30 +57,30 @@
         "segments": [
           {
             "label": "US Business",
-            "value": 16100.0
+            "value": 16200.0
           },
           {
             "label": "India Business",
-            "value": 17100.0
+            "value": 16900.0
           },
           {
             "label": "Emerging Markets",
-            "value": 9360.0
+            "value": 9400.0
           },
           {
-            "label": "Rest of the World",
-            "value": 7280.0
+            "label": "Rest of the World (RoW)",
+            "value": 7200.0
           },
           {
             "label": "API and Others",
-            "value": 2080.0
+            "value": 2000.0
           }
         ]
       }
     },
     {
       "title": "Financial Performance",
-      "body": "{\"body\": \"The company's financial performance for FY25 was marked by a 9.0% increase in consolidated revenue, driven by growth in the India and Emerging Markets business. The US business reported a 5.8% rise in revenue, while Rest of the World markets registered steady growth. EBITDA grew by 17.3%, with an EBITDA margin of 29%, reflecting improved operating leverage. Adjusted net profit rose by 19% year-on-year, underscoring the company's commitment to profitable growth. The net profit margin for FY25 was 21.0%, up from 20.1% in FY24. The company's net worth increased by 13.4% to ₹722 billion in FY25, from ₹637 billion in FY24. The debt-equity ratio decreased to 0.03 in FY25, from 0.05 in FY24, indicating a reduction in debt and an increase in net worth.\", \"chart_data\": {\"type\":\"bar\",\"labels\":[\"FY24\",\"FY25\"],\"datasets\":[{\"label\":\"Revenue (₹ Cr)\",\"values\":[5257844/100, 162403]} [{\"label\":\"Net Profit (₹ Cr)\",\"values\":[1098010/100, 120]}]}",
+      "body": "Sun Pharmaceutical Industries Limited reported a robust financial performance in FY25, with consolidated revenue growth of 9.0% over FY24, driven by its India and Emerging Markets business, which recorded a 13.7% and 9.2% year-on-year increase, respectively. The company's US business reported a 5.8% rise in revenue, while Rest of the World markets registered steady growth compared to the previous year. Consolidated EBITDA grew by 17.3%, with an EBITDA margin of 29%, reflecting improved operating leverage. Adjusted net profit rose by 19% year-on-year, underscoring the company's commitment to profitable growth. The consolidated net profit [Consolidated] for FY25 was ₹109,801.0 million, while the consolidated revenue [Consolidated] was ₹525,784.4 million. The company's net worth [Consolidated] increased by 13.4% to ₹722 billion in FY25 from ₹637 billion in FY24.",
       "citations": [
         {
           "source": "filing",
@@ -108,7 +108,29 @@
           "section": "The consolidated financial statements for the year ended"
         }
       ],
-      "chart_data": null
+      "chart_data": {
+        "type": "bar",
+        "labels": [
+          "FY24",
+          "FY25"
+        ],
+        "datasets": [
+          {
+            "label": "Revenue (Cr)",
+            "values": [
+              48497,
+              52578
+            ]
+          },
+          {
+            "label": "Net Profit (Cr)",
+            "values": [
+              9648,
+              10980
+            ]
+          }
+        ]
+      }
     },
     {
       "title": "Balance Sheet Health + Cash Flow",

@@ -5,8 +5,16 @@ from typing import Any
 
 from rag.bm25_search import search_bm25
 from rag.embedder import embed_text
+from rag.hyde import generate_hypothetical_answer
 from rag.search_errors import SearchIndexError
 from rag.vector_search import search_vectors
+
+
+def _embedding_query(query: str) -> str:
+    words = query.split()
+    if len(words) > 6:
+        return generate_hypothetical_answer(query)
+    return query
 
 
 def reciprocal_rank_fusion(rank_lists: list[list[dict[str, Any]]], k: int = 60) -> list[dict]:
@@ -28,7 +36,7 @@ def reciprocal_rank_fusion(rank_lists: list[list[dict[str, Any]]], k: int = 60) 
 
 
 def hybrid_retrieve(query: str, ticker: str | None = None, limit: int = 20) -> list[dict]:
-    query_embedding = embed_text(query)
+    query_embedding = embed_text(_embedding_query(query))
     vector_rows: list[dict] = []
     vector_failed = False
     try:

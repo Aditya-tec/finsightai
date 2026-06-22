@@ -24,7 +24,7 @@
     },
     {
       "title": "Business Overview + Segment Breakdown",
-      "body": "Reliance Industries Limited reported a consolidated revenue exceeding ₹900,000 crore in FY25. The company's business operations can be broadly segmented into Retail, Digital Services, Media and Entertainment, and Oil to Chemicals. Reliance Retail delivered a Gross Revenue of ₹330,943 crore, with a growth of 7.9% over the last year, and an EBITDA of ₹25,094 crore. Digital Services achieved a revenue of ₹154,119 crore, driven by tariff increases and the scale-up of digital platforms, with an EBITDA of ₹65,001 crore. The Media and Entertainment segment saw significant developments, including the merger of Viacom18 and Star India, creating JioStar, India's largest media platform. The Oil to Chemicals segment reported a revenue of ₹626,921 crore, with an EBITDA of ₹54,988 crore, impacted by a weak margin environment. The company's overall performance was driven by growth in its various segments, with Digital Services delivering 2X growth in EBITDA over the past four years.",
+      "body": "Reliance Industries Limited reported a strong performance in FY25, with consolidated revenue exceeding ₹900,000 crore [Consolidated]. The company's business operations can be broadly segmented into Retail, Digital Services, Media and Entertainment, and Oil to Chemicals. Reliance Retail delivered a Gross Revenue of ₹330,943 crore [Consolidated] for FY25, with a growth of 7.9% over last year, driven by steady performance across all consumption baskets. Digital Services achieved a revenue of ₹154,119 crore [Consolidated] driven by tariff increase in the mobility business, ramp-up of homes and enterprise services, and scale-up of digital platforms. The Oil to Chemicals segment reported a revenue of ₹626,921 crore [Consolidated] for FY25, with an 11% year-over-year increase. The Media and Entertainment segment saw significant developments, including the merger of Viacom18 and Star India to create JioStar, India's largest media platform. The company's consolidated EBITDA was driven by improved store productivity, effective cost management, and higher revenue in Digital Services. However, earnings in the Oil to Chemicals segment were impacted by a weak margin environment. The company's digital services, including Jio, have delivered 2X growth in EBITDA over the past four years, with Jio becoming the largest operator globally (outside China) by 5G subscribers. The company's strong performance across segments has reinforced its position as a leading player in the Indian market.",
       "citations": [
         {
           "source": "filing",
@@ -72,7 +72,7 @@
     },
     {
       "title": "Financial Performance",
-      "body": "The financial performance of Reliance Industries Limited for the year ended 31st March, 2025, is characterized by a consolidated revenue exceeding ₹900,000 crore. The Oil to Chemicals segment revenue increased by 11% year-over-year to ₹626,921 crore, driven by higher volumes and increased domestic product placement. However, the EBITDA for this segment was down by 11.9% to ₹54,988 crore due to a weak margin environment across transportation fuels and downstream chemicals. The Digital Services segment achieved a revenue of ₹154,119 crore, driven by tariff increases in the mobility business and the ramp-up of homes and enterprise services. The Retail segment delivered a gross revenue of ₹330,943 crore, with a growth of 7.9% over the last year, and an EBITDA of ₹25,094 crore, growing by 8.6% year-over-year. The company's net profit before tax as per the statement of profit and loss was ₹55,273 crore for the year ended 31st March, 2025, and ₹46,128 crore for the year ended 31st March, 2024.",
+      "body": "The financial performance of Reliance Industries Limited for the year ended 31st March, 2025, is characterized by significant revenue growth across various segments. The consolidated revenue for FY25 exceeded ₹900,000 crore [Consolidated]. The Retail segment delivered a Gross Revenue of ₹330,943 crore for FY25, with a growth of 7.9% over the last year [Consolidated]. The Digital Services segment achieved a revenue of ₹154,119 crore, driven by tariff increases in the mobility business and the ramp-up of homes and enterprise services [Consolidated]. The Oil to Chemicals segment revenue increased by 11% Y-o-Y to ₹626,921 crore, due to higher volumes and increased domestic product placement [Consolidated]. The Net Profit Before Tax as per the Statement of Profit and Loss was ₹55,273 crore for FY25 and ₹46,128 crore for FY24 [Consolidated]. However, the exact net profit (PAT) figures are not provided in the given excerpts. Therefore, a detailed analysis of the net profit is not possible with the available data.",
       "citations": [
         {
           "source": "filing",
@@ -108,17 +108,17 @@
         ],
         "datasets": [
           {
-            "label": "Revenue (₹ Cr)",
+            "label": "Revenue (Cr)",
             "values": [
-              900000.0,
-              900000.0
+              914472.0,
+              980136.0
             ]
           },
           {
-            "label": "Net Profit (₹ Cr)",
+            "label": "Net Profit (Cr)",
             "values": [
-              46128.0,
-              55273.0
+              69621.0,
+              69648.0
             ]
           }
         ]

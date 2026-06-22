@@ -24,7 +24,7 @@
     },
     {
       "title": "Business Overview + Segment Breakdown",
-      "body": "Maruti Suzuki India Limited is a leading automobile manufacturer in India. The company has a diverse range of products and services, including passenger vehicles, light commercial vehicles, and supportive products and services such as Maruti Suzuki Genuine Parts, Maruti Suzuki Insurance Broking, and Maruti Suzuki Genuine Accessories. The company has also forayed into the light commercial segment with the launch of Super Carry, which provides last mile delivery solutions to customers. Additionally, the company offers a car subscription program, Maruti Suzuki Subscribe, which is available in 25 cities. The company's service network has expanded to 5,424 service touchpoints across 2,720 cities, serving over 27 million customers in FY 2024-25. The company's digital presence has also been strengthened through year-round social and brand campaigns, with the deployment of AI-enabled virtual agents and chatbots to enhance customer engagement. However, explicit segment revenue figures are not provided in the excerpts, making it difficult to provide a detailed segment breakdown. The company's average net profit for the financial year 2024-25 is ₹82,004.52 million, with a total CSR obligation of ₹1,399.38 million. The company has spent ₹1,511.34 million on CSR projects during the financial year.",
+      "body": "Maruti Suzuki is a leading passenger vehicle manufacturer in India, with a strong presence in the domestic market and a growing export business. In FY 2024-25, the Company achieved a milestone of producing over 2 million units in a year, with total sales reaching an all-time high of 2,234,266 units [Consolidated]. The Company's revenue for the year was over ₹1.5 lakh crore [Consolidated], with a profit after tax at a historic high. The Company's product portfolio includes 14 models, with a focus on SUVs, which accounted for 28% of domestic sales in FY 2024-25 [Consolidated]. The Company has also forayed into the light commercial segment with the launch of Super Carry and offers a range of supportive products and services, including Maruti Suzuki Genuine Parts, Insurance Broking, and Finance. The Company's business can be broadly segmented into passenger vehicles, including SUVs and other models, and light commercial vehicles, with a focus on providing affordable and sustainable mobility solutions to customers. However, explicit segment revenue figures are not provided in the excerpts, making it difficult to provide a detailed segment breakdown.",
       "citations": [
         {
           "source": "filing",
@@ -56,7 +56,7 @@
     },
     {
       "title": "Financial Performance",
-      "body": "{\"body\": \"\nThe financial performance of Maruti Suzuki India Limited for the financial year 2024-25 is as follows: \nThe company's consolidated profit for the year is ₹1,45,002 crore, with a total comprehensive income of ₹1,45,339 crore. \nThe average net profit of the company for the purpose of CSR obligations is ₹82,004.52 million, or ₹82,004.52 crore, and the total CSR obligation for the financial year is ₹1,399.38 million, or ₹1,399.38 crore. \nThe company spent a total of ₹1,584.79 million, or ₹1,584.79 crore, on CSR projects and activities during the financial year. \nHowever, the provided excerpts do not contain sufficient information to derive the revenue and net profit for both FY24 and FY25, and thus a comparison cannot be made.\n\", \"chart_data\": null}",
+      "body": "Maruti Suzuki India Limited's financial performance for the year ended March 31, 2025, reflects a steady growth trajectory. The company's net sales [Consolidated] stood at ₹1,451,152 million in FY'25, compared to ₹1,349,378 million in FY'24. The operating EBIT [Consolidated] was ₹146,259 million in FY'25, up from ₹133,788 million in FY'24. The net profit (PAT) [Consolidated] for FY'25 was ₹139,552 million, compared to ₹132,094 million in FY'24. The company's net worth [Consolidated] as of March 31, 2025, was ₹940,467 million. \n\nThe company's revenue from operations [Consolidated] and net profit (PAT) [Consolidated] have shown an increase over the previous year, with net sales [Consolidated] increasing by ₹101,774 million and PAT [Consolidated] increasing by ₹7,458 million. However, detailed segment-wise revenue and profitability analysis is not possible with the provided information. Peer comparison is also not feasible due to the absence of peer data in the given context.",
       "citations": [
         {
           "source": "filing",
@@ -84,7 +84,29 @@
           "section": "Financial Statements"
         }
       ],
-      "chart_data": null
+      "chart_data": {
+        "type": "bar",
+        "labels": [
+          "FY24",
+          "FY25"
+        ],
+        "datasets": [
+          {
+            "label": "Revenue (Cr)",
+            "values": [
+              140933.0,
+              151900.0
+            ]
+          },
+          {
+            "label": "Net Profit (Cr)",
+            "values": [
+              13209.0,
+              13955.0
+            ]
+          }
+        ]
+      }
     },
     {
       "title": "Balance Sheet Health + Cash Flow",

@@ -8,6 +8,7 @@ from pathlib import Path
 from groq import Groq, RateLimitError
 
 from agents.chart_data import CHART_SECTIONS, SECTION_BUSINESS, SECTION_FINANCIAL
+from agents.citation_utils import citation_from_chunk
 from agents.report_section_parse import parse_section_json
 from rag.hybrid_search import hybrid_retrieve
 from schemas import Citation, ReportSection
@@ -128,12 +129,19 @@ def _save_disk_cache(
 
 def _rank_chunks(chunks: list[dict], query: str, top_n: int = CONTEXT_CHUNKS) -> list[dict]:
     terms = [t for t in query.lower().split() if len(t) > 2]
-    if not terms:
-        return chunks[:top_n]
+    prefer_consolidated = "consolidated" in query.lower() or "revenue" in query.lower() or "profit" in query.lower()
 
     def score(chunk: dict) -> int:
         text = f"{chunk.get('content', '')} {chunk.get('section_title', '')}".lower()
-        return sum(text.count(term) for term in terms)
+        base = sum(text.count(term) for term in terms) if terms else 0
+        metadata = chunk.get("metadata") or {}
+        basis = str(metadata.get("basis", "")).lower()
+        if prefer_consolidated:
+            if "consolidated" in text or basis == "consolidated":
+                base += 3
+            if "standalone" in text and "consolidated" not in text:
+                base -= 2
+        return base
 
     ranked = sorted(chunks, key=score, reverse=True)
     return ranked[:top_n]
@@ -197,6 +205,8 @@ def _base_section_instructions(ticker: str, title: str) -> str:
         "NEVER copy a large comma-grouped integer verbatim without applying the table's unit scale — "
         "e.g. TOTAL INCOME 2,945,869,343 with header ` in '000s` is ₹2,945.87 billion, "
         "NOT ₹2,945,869,343.\n"
+        "Tag every numeric claim with [Consolidated] or [Standalone] based on the excerpt basis.\n"
+        "Do not mix consolidated and standalone figures in the same comparison.\n"
         "Be precise with financial terminology: net profit (PAT) and net worth (shareholders' equity) "
         "are distinct — never label one as the other.\n"
         "When citing revenue, label the basis explicitly (e.g. segment revenue, revenue from operations "
@@ -217,6 +227,8 @@ def _chart_json_instructions(title: str) -> str:
             "\nAlso populate chart_data for a grouped bar chart ONLY if BOTH FY24 and FY25 values "
             "for revenue (or total income) AND net profit (PAT) are clearly available in the excerpts "
             "with consistent units (use ₹ crore for chart values). "
+            "FY24 and FY25 values MUST be different for each metric — never duplicate the same "
+            "number for both years. Convert amounts in millions to crore (divide by 10). "
             "chart_data schema:\n"
             '{"type":"bar","labels":["FY24","FY25"],"datasets":['
             '{"label":"Revenue (₹ Cr)","values":[FY24_rev,FY25_rev]},'
@@ -253,7 +265,7 @@ def _write_section_with_chart(
         _base_section_instructions(ticker, title)
         + _chart_json_instructions(title)
         + "\nReturn ONLY valid JSON with no markdown fences:\n"
-        '{"body": "<section prose>", "chart_data": <object or null>}\n\n'
+        '{"body": "<analyst prose paragraphs>", "chart_data": <object or null>}\n\n'
         f"Filing excerpts:\n{content_blob}\n\n"
         f"Write the '{title}' section now as JSON:"
     )
@@ -298,6 +310,152 @@ def _write_section(title: str, ticker: str, context: list[dict]) -> str:
     return response.choices[0].message.content or "Content unavailable."
 
 
+def _generate_sections_live(
+    ticker: str,
+    pool: list[dict],
+    eval_context: list[dict],
+    seen: set[str],
+    track_fn,
+) -> list[ReportSection]:
+    sections: list[ReportSection] = []
+    for title in REPORT_SECTIONS:
+        query = SECTION_QUERIES.get(title, title)
+        section_context = _rank_chunks(pool, query)
+        track_fn(section_context)
+
+        chart_data: dict | None = None
+        citation_context = section_context
+
+        if title in CHART_SECTIONS:
+            targeted_query = _chart_targeted_query(title, ticker)
+            targeted_chunks: list[dict] = []
+            if targeted_query:
+                targeted_chunks = hybrid_retrieve(
+                    targeted_query,
+                    ticker=ticker,
+                    limit=CHART_TARGETED_LIMIT,
+                )
+                track_fn(targeted_chunks)
+            chart_context = _merge_chart_context(section_context, targeted_chunks)
+            body, chart_data = _write_section_with_chart(title, ticker, chart_context)
+            citation_context = chart_context
+        else:
+            body = _write_section(title, ticker, section_context)
+
+        cite_limit = CHART_CONTEXT_CHUNKS if title in CHART_SECTIONS else CONTEXT_CHUNKS
+        citations = [
+            Citation(**citation_from_chunk(c))
+            for c in citation_context[:cite_limit]
+        ]
+        sections.append(
+            ReportSection(title=title, body=body, citations=citations, chart_data=chart_data)
+        )
+    return sections
+
+
+def iter_report_sections(
+    ticker: str,
+    *,
+    force_refresh: bool = False,
+):
+    """Yield (index, section, total) as each report section is ready."""
+    cache_key = f"{_CACHE_VERSION}:{ticker.upper()}"
+    total = len(REPORT_SECTIONS)
+
+    if force_refresh:
+        invalidate_report_cache(ticker)
+    elif cache_key in _report_cache:
+        sections, _, generated_at = _report_cache[cache_key]
+        for i, section in enumerate(sections):
+            yield {
+                "type": "section",
+                "index": i,
+                "section": section.model_dump(),
+                "total": total,
+                "cached": True,
+                "generated_at": generated_at,
+            }
+        yield {"type": "complete", "generated_at": generated_at, "total": total}
+        return
+
+    if not force_refresh:
+        disk_result = _load_disk_cache(ticker)
+        if disk_result is not None:
+            sections, eval_context, generated_at = disk_result
+            _report_cache[cache_key] = disk_result
+            for i, section in enumerate(sections):
+                yield {
+                    "type": "section",
+                    "index": i,
+                    "section": section.model_dump(),
+                    "total": total,
+                    "cached": True,
+                    "generated_at": generated_at,
+                }
+            yield {"type": "complete", "generated_at": generated_at, "total": total}
+            return
+
+    pool = hybrid_retrieve(
+        f"{ticker} annual report revenue profit balance sheet risks management segments outlook",
+        ticker=ticker,
+        limit=20,
+    )
+    eval_context: list[dict] = []
+    seen: set[str] = set()
+
+    def _track(chunks: list[dict]) -> None:
+        for chunk in chunks:
+            key = _chunk_key(chunk)
+            if key not in seen:
+                seen.add(key)
+                eval_context.append(chunk)
+
+    _track(pool)
+    sections: list[ReportSection] = []
+    for index, title in enumerate(REPORT_SECTIONS):
+        query = SECTION_QUERIES.get(title, title)
+        section_context = _rank_chunks(pool, query)
+        _track(section_context)
+
+        chart_data: dict | None = None
+        citation_context = section_context
+
+        if title in CHART_SECTIONS:
+            targeted_query = _chart_targeted_query(title, ticker)
+            targeted_chunks: list[dict] = []
+            if targeted_query:
+                targeted_chunks = hybrid_retrieve(
+                    targeted_query,
+                    ticker=ticker,
+                    limit=CHART_TARGETED_LIMIT,
+                )
+                _track(targeted_chunks)
+            chart_context = _merge_chart_context(section_context, targeted_chunks)
+            body, chart_data = _write_section_with_chart(title, ticker, chart_context)
+            citation_context = chart_context
+        else:
+            body = _write_section(title, ticker, section_context)
+
+        cite_limit = CHART_CONTEXT_CHUNKS if title in CHART_SECTIONS else CONTEXT_CHUNKS
+        citations = [
+            Citation(**citation_from_chunk(c))
+            for c in citation_context[:cite_limit]
+        ]
+        section = ReportSection(title=title, body=body, citations=citations, chart_data=chart_data)
+        sections.append(section)
+        yield {
+            "type": "section",
+            "index": index,
+            "section": section.model_dump(),
+            "total": total,
+            "cached": False,
+        }
+
+    generated_at = _save_disk_cache(ticker, sections, eval_context)
+    _report_cache[cache_key] = (sections, eval_context, generated_at)
+    yield {"type": "complete", "generated_at": generated_at, "total": total}
+
+
 def build_report(
     ticker: str, *, force_refresh: bool = False
 ) -> tuple[list[ReportSection], list[dict], str | None]:
@@ -330,44 +488,7 @@ def build_report(
                 eval_context.append(chunk)
 
     _track(pool)
-    sections: list[ReportSection] = []
-    for title in REPORT_SECTIONS:
-        query = SECTION_QUERIES.get(title, title)
-        section_context = _rank_chunks(pool, query)
-        _track(section_context)
-
-        chart_data: dict | None = None
-        citation_context = section_context
-
-        if title in CHART_SECTIONS:
-            targeted_query = _chart_targeted_query(title, ticker)
-            targeted_chunks: list[dict] = []
-            if targeted_query:
-                targeted_chunks = hybrid_retrieve(
-                    targeted_query,
-                    ticker=ticker,
-                    limit=CHART_TARGETED_LIMIT,
-                )
-                _track(targeted_chunks)
-            chart_context = _merge_chart_context(section_context, targeted_chunks)
-            body, chart_data = _write_section_with_chart(title, ticker, chart_context)
-            citation_context = chart_context
-        else:
-            body = _write_section(title, ticker, section_context)
-
-        cite_limit = CHART_CONTEXT_CHUNKS if title in CHART_SECTIONS else CONTEXT_CHUNKS
-        citations = [
-            Citation(
-                source=c.get("doc_type", "filing"),
-                page=c.get("page_number"),
-                section=c.get("section_title"),
-            )
-            for c in citation_context[:cite_limit]
-        ]
-        sections.append(
-            ReportSection(title=title, body=body, citations=citations, chart_data=chart_data)
-        )
-
+    sections = _generate_sections_live(ticker, pool, eval_context, seen, _track)
     generated_at = _save_disk_cache(ticker, sections, eval_context)
     result = (sections, eval_context, generated_at)
     _report_cache[cache_key] = result

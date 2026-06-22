@@ -1,52 +1,61 @@
+"use client";
+
+import { EVAL_LABELS, formatEvalValue } from "@/lib/evalLabels";
+
 type Props = {
   scores: Record<string, unknown>;
 };
 
-import { EVAL_LABELS } from "@/lib/evalLabels";
+const HIDDEN_KEYS = new Set(["grade", "confidence", "degraded"]);
 
 export default function EvalScores({ scores }: Props) {
-  const entries = Object.entries(scores || {});
   const grade = String(scores?.grade ?? "—");
+  const confidence = String(scores?.confidence ?? "high");
+  const degraded = Boolean(scores?.degraded);
+  const showGrade = confidence === "high" && !degraded;
+
+  const entries = Object.entries(scores || {}).filter(
+    ([k, v]) => !HIDDEN_KEYS.has(k) && v != null && v !== ""
+  );
+
+  const gradeClass =
+    grade === "A"
+      ? "grade-badge grade-a"
+      : grade === "B"
+        ? "grade-badge grade-b"
+        : "grade-badge grade-c";
 
   return (
-    <section className="terminal-card">
-      <div className="terminal-header">
-        <span className="terminal-title">Evaluation</span>
-        <span className="terminal-value">Quality Gate</span>
+    <div className="panel panel-elevated">
+      <div className="panel-head">
+        <span>Evaluation</span>
+        {showGrade ? (
+          <span className={gradeClass}>Grade {grade}</span>
+        ) : (
+          <span className="grade-badge grade-unverified" title="Lexical heuristic only">
+            Unverified
+          </span>
+        )}
       </div>
-      <div className="mb-4 flex items-center justify-between">
-        <h3 className="text-sm font-semibold text-[var(--text-primary)]">Evaluation Scores</h3>
-        <span
-          className={`rounded-full border px-3 py-1 text-xs font-bold ${
-            grade === "A"
-              ? "border-[var(--accent)] bg-[rgba(53,240,138,0.14)] text-[var(--accent)]"
-              : "border-amber-500/40 bg-amber-500/15 text-amber-200"
-          }`}
-        >
-          Grade {grade}
-        </span>
-      </div>
-      {entries.length === 0 ? (
-        <p className="text-xs text-[var(--text-muted)]">Scores appear after generation.</p>
-      ) : (
-        <div className="grid grid-cols-1 gap-2 sm:grid-cols-2">
-          {entries
-            .filter(([k]) => k !== "grade")
-            .map(([k, v]) => (
-              <div
-                key={k}
-                className="rounded-lg border border-[var(--border)] bg-[rgba(4,16,11,0.75)] px-3 py-2"
-              >
-                <div className="text-[10px] uppercase tracking-wide text-[var(--text-muted)]">
-                  {EVAL_LABELS[k] ?? k}
-                </div>
-                <div className="mt-0.5 text-sm font-medium text-[var(--text-primary)]">
-                  {String(v)}
-                </div>
-              </div>
-            ))}
+      {degraded && (
+        <div className="degraded-banner panel-body">
+          Live search unavailable — answering from cached report context.
         </div>
       )}
-    </section>
+      <div className="panel-body">
+        {entries.length === 0 ? (
+          <p className="answer-placeholder">Scores appear after generation.</p>
+        ) : (
+          <div className="eval-grid">
+            {entries.map(([k, v]) => (
+              <div key={k} className="eval-cell">
+                <div className="eval-cell-label">{EVAL_LABELS[k] ?? k.replace(/_/g, " ")}</div>
+                <div className="eval-cell-value">{formatEvalValue(k, v)}</div>
+              </div>
+            ))}
+          </div>
+        )}
+      </div>
+    </div>
   );
 }

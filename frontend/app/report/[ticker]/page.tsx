@@ -4,16 +4,19 @@ import Link from "next/link";
 import { FormEvent, use, useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
 
 import ExportPdfMenu from "@/components/ExportPdfMenu";
+import EvalScores from "@/components/EvalScores";
 import FadeSlideIn from "@/components/FadeSlideIn";
 import ReportSectionCard from "@/components/ReportSectionCard";
 import TopBar from "@/components/TopBar";
 import FormattedText from "@/components/FormattedText";
-import { chatApi, fetchCompanies, reportApi, summarizeBulletsApi } from "@/lib/api";
+import { fetchCompanies, summarizeBulletsApi } from "@/lib/api";
 import { getApiErrorMessage } from "@/lib/apiErrors";
 import { ensureAllBullets, sectionKey } from "@/lib/bulletSummary";
 import { exportReportPdf } from "@/lib/exportReportPdf";
 import { companyDisplayName } from "@/lib/companyNames";
+import { reportStreamApi } from "@/lib/reportStream";
 import { buildConversationHistoryForApi, useReportStore } from "@/lib/reportStore";
+import { chatStreamApi } from "@/lib/stream";
 
 function formatReportDate(iso: string | null): string | null {
   if (!iso) return null;
@@ -57,6 +60,7 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
   const [sectionErrors, setSectionErrors] = useState<Record<string, string>>({});
   const [exportLoading, setExportLoading] = useState(false);
   const [exportProgress, setExportProgress] = useState("");
+  const [progressLabel, setProgressLabel] = useState("");
   const loadAbortRef = useRef<AbortController | null>(null);
 
   const formattedDate = formatReportDate(generatedAt);
@@ -95,22 +99,49 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
     setBulletCache({});
     setViewMode({});
     setSectionErrors({});
+    if (forceRefresh) {
+      clear();
+    }
+
+    const streamedSections: typeof showSections = [];
 
     try {
-      const res = await reportApi({ ticker, force_refresh: forceRefresh }, controller.signal);
-      setReport(ticker, res.sections);
-      setEvalScores(res.eval_scores);
-      setGeneratedAt(res.generated_at ?? null);
+      await reportStreamApi(
+        { ticker, force_refresh: forceRefresh },
+        {
+          onProgress: (done, total) => {
+            setProgressLabel(`Loading section ${done} of ${total}…`);
+          },
+          onSection: (index, section, total) => {
+            streamedSections[index] = section;
+            setReport(ticker, [...streamedSections].filter(Boolean));
+            setProgressLabel(`Loaded section ${index + 1} of ${total}`);
+          },
+          onComplete: (genAt, scores) => {
+            setGeneratedAt(genAt);
+            setEvalScores(scores);
+            if (scores.degraded) {
+              setError("Live search unavailable — showing cached report");
+            }
+          },
+          onError: (detail) => {
+            if (forceRefresh && hadReport) {
+              setError("Rate limit or error — showing last cached version");
+            } else {
+              setError(detail);
+            }
+          },
+        },
+        controller.signal
+      );
     } catch (err) {
       if (controller.signal.aborted) return;
-      const ax = err as { response?: { status?: number } };
-      if (ax.response?.status === 429 && forceRefresh && hadReport) {
-        setError("Rate limit reached — showing last cached version");
-      } else {
-        setError(getApiErrorMessage(err, "report"));
-      }
+      setError(getApiErrorMessage(err, "report"));
     } finally {
-      if (!controller.signal.aborted) setLoading(false);
+      if (!controller.signal.aborted) {
+        setLoading(false);
+        setProgressLabel("");
+      }
     }
   }
 
@@ -138,12 +169,27 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
     setFollowQuery("");
     addFollowup({ role: "user", content: q });
     try {
-      const res = await chatApi({
-        query: q,
-        ticker,
-        conversation_history: buildConversationHistoryForApi(showSections, showFollowup),
-      });
-      addFollowup({ role: "assistant", content: res.answer, citations: res.citations });
+      await chatStreamApi(
+        {
+          query: q,
+          ticker,
+          conversation_history: buildConversationHistoryForApi(showSections, showFollowup),
+        },
+        {
+          onStep: () => undefined,
+          onResult: (res) => {
+            addFollowup({
+              role: "assistant",
+              content: res.answer,
+              citations: res.citations,
+              eval_scores: res.eval_scores,
+            });
+          },
+          onError: (detail) => {
+            addFollowup({ role: "assistant", content: detail });
+          },
+        }
+      );
     } catch (err) {
       addFollowup({
         role: "assistant",
@@ -239,7 +285,8 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
     }
   }
 
-  const evalEntries = Object.entries(evalScores).filter(([k]) => k !== "grade");
+  const confidence = String(evalScores.confidence ?? "high");
+  const showGrade = confidence === "high" && !evalScores.degraded;
   const displayName = companyDisplayName(ticker, companies);
 
   return (
@@ -288,12 +335,20 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
               )}
               <p className="figures-disclaimer">{FIGURES_DISCLAIMER}</p>
             </div>
-            {evalScores.grade != null && storedTicker === ticker && (
+            {showGrade && evalScores.grade != null && storedTicker === ticker && (
               <span className="grade-badge">Grade {String(evalScores.grade)}</span>
             )}
           </div>
         </header>
         </FadeSlideIn>
+
+        {loading && progressLabel && (
+          <FadeSlideIn delay={STAGGER}>
+            <div className="panel panel-elevated" style={{ marginBottom: 16 }}>
+              <div className="panel-body">{progressLabel}</div>
+            </div>
+          </FadeSlideIn>
+        )}
 
         {showSections.length > 0 && storedTicker === ticker && (
           <FadeSlideIn delay={STAGGER}>
@@ -365,21 +420,11 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
               })
             ) : null}
 
-            {evalEntries.length > 0 && storedTicker === ticker && (
+            {Object.keys(evalScores).length > 0 && storedTicker === ticker && (
               <FadeSlideIn delay={STAGGER * 3}>
-              <div className="panel panel-elevated" style={{ marginTop: 16 }}>
-                <div className="panel-head">
-                  <span>Evaluation</span>
+                <div style={{ marginTop: 16 }}>
+                  <EvalScores scores={evalScores} />
                 </div>
-                <div className="eval-grid">
-                  {evalEntries.map(([k, v]) => (
-                    <div key={k} className="eval-cell">
-                      <div className="eval-cell-label">{k.replace(/_/g, " ")}</div>
-                      <div className="eval-cell-value">{String(v)}</div>
-                    </div>
-                  ))}
-                </div>
-              </div>
               </FadeSlideIn>
             )}
           </div>

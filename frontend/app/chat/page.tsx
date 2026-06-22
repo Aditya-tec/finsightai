@@ -6,16 +6,19 @@ import Link from "next/link";
 import { useSearchParams } from "next/navigation";
 
 import AgentFeed from "@/components/AgentFeed";
+import CitationLinks from "@/components/CitationLinks";
+import EvalScores from "@/components/EvalScores";
 import FadeSlideIn from "@/components/FadeSlideIn";
 import LoadingDots from "@/components/LoadingDots";
 import TopBar from "@/components/TopBar";
 import FormattedText from "@/components/FormattedText";
-import { chatApi, fetchCompanies } from "@/lib/api";
+import { fetchCompanies } from "@/lib/api";
+import type { Citation } from "@/lib/citations";
 import { getApiErrorMessage } from "@/lib/apiErrors";
 import { companyDisplayName } from "@/lib/companyNames";
-import { formatGroupedCitations } from "@/lib/citations";
 import { easeOut } from "@/lib/motion";
-import { openThoughtStream } from "@/lib/stream";
+import { chatStreamApi } from "@/lib/stream";
+import type { StreamStep } from "@/lib/streamTypes";
 
 const STAGGER = 0.09;
 
@@ -25,11 +28,9 @@ function ChatPageContent() {
   const reduced = useReducedMotion();
   const [query, setQuery] = useState("");
   const [answer, setAnswer] = useState("");
-  const [citations, setCitations] = useState<
-    Array<{ source: string; page?: number; section?: string }>
-  >([]);
+  const [citations, setCitations] = useState<Citation[]>([]);
   const [evalScores, setEvalScores] = useState<Record<string, unknown>>({});
-  const [steps, setSteps] = useState<string[]>([]);
+  const [steps, setSteps] = useState<StreamStep[]>([]);
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [companies, setCompanies] = useState<Array<{ ticker: string; name: string }>>([]);
@@ -49,21 +50,32 @@ function ChatPageContent() {
     setError("");
     setSteps([]);
     setAnswer("");
-    const stream = openThoughtStream(query, (msg) => setSteps((s) => [...s, msg]));
+    setCitations([]);
+    setEvalScores({});
+
     try {
-      const res = await chatApi({ query, ticker, conversation_history: [] });
-      setAnswer(res.answer);
-      setCitations(res.citations);
-      setEvalScores(res.eval_scores);
+      await chatStreamApi(
+        { query, ticker, conversation_history: [] },
+        {
+          onStep: (step) => setSteps((s) => [...s, step]),
+          onEval: (scores) => setEvalScores(scores),
+          onResult: (res) => {
+            setAnswer(res.answer);
+            setCitations(res.citations);
+            setEvalScores(res.eval_scores);
+          },
+          onError: (detail) => setError(detail),
+        }
+      );
     } catch (err) {
       setError(getApiErrorMessage(err, "chat"));
     } finally {
-      stream.close();
       setLoading(false);
     }
   }
 
-  const evalEntries = Object.entries(evalScores).filter(([k]) => k !== "grade");
+  const confidence = String(evalScores.confidence ?? "high");
+  const showGrade = confidence === "high" && !evalScores.degraded;
 
   return (
     <>
@@ -76,7 +88,11 @@ function ChatPageContent() {
               </Link>
               <span className="tag tag-ticker">{ticker}</span>
             </div>
-          ) : undefined
+          ) : (
+            <Link href="/" className="btn-ghost" style={{ padding: "7px 14px" }}>
+              Pick a company
+            </Link>
+          )
         }
       />
       <main className="page-wide">
@@ -91,9 +107,12 @@ function ChatPageContent() {
             <div className="page-header-row">
               <div>
                 <h1>{displayName ? `Chat · ${displayName}` : "Ask a Question"}</h1>
-                <p>Financial Q&A grounded in BSE/NSE filings with live agent reasoning.</p>
+                <p>
+                  Financial Q&A grounded in BSE/NSE filings with live agent reasoning.
+                  {!ticker && " Compare companies by name (e.g. Compare INFY vs TCS revenue)."}
+                </p>
               </div>
-              {evalScores.grade != null && (
+              {showGrade && evalScores.grade != null && (
                 <span className="grade-badge">Grade {String(evalScores.grade)}</span>
               )}
             </div>
@@ -107,14 +126,18 @@ function ChatPageContent() {
                 <div className="panel panel-elevated">
                   <div className="panel-head">
                     <span>Your Question</span>
-                    {displayName ? <span>{displayName}</span> : <span>—</span>}
+                    {displayName ? <span>{displayName}</span> : <span>Any / Compare</span>}
                   </div>
                   <div className="panel-body">
                     <textarea
                       value={query}
                       onChange={(e) => setQuery(e.target.value)}
                       className="input-area"
-                      placeholder="What was FY25 revenue and operating margin?"
+                      placeholder={
+                        ticker
+                          ? "What was FY25 revenue and operating margin?"
+                          : "Compare INFY vs TCS revenue and margins"
+                      }
                     />
                     <motion.button
                       type="submit"
@@ -199,32 +222,21 @@ function ChatPageContent() {
                   </div>
                   <div className="panel-body report-sources">
                     <span className="report-sources-label">Sources:</span>
-                    {formatGroupedCitations(citations, ticker)}
+                    <CitationLinks citations={citations} ticker={ticker} />
                   </div>
                 </motion.div>
               )}
             </AnimatePresence>
 
             <AnimatePresence>
-              {evalEntries.length > 0 && (
+              {Object.keys(evalScores).length > 0 && (
                 <motion.div
-                  className="panel panel-elevated"
                   initial={reduced ? false : { opacity: 0, y: 10 }}
                   animate={{ opacity: 1, y: 0 }}
                   exit={{ opacity: 0, y: 10 }}
                   transition={{ duration: 0.3, ease: easeOut }}
                 >
-                  <div className="panel-head">
-                    <span>Evaluation</span>
-                  </div>
-                  <div className="eval-grid">
-                    {evalEntries.map(([k, v]) => (
-                      <div key={k} className="eval-cell">
-                        <div className="eval-cell-label">{k.replace(/_/g, " ")}</div>
-                        <div className="eval-cell-value">{String(v)}</div>
-                      </div>
-                    ))}
-                  </div>
+                  <EvalScores scores={evalScores} />
                 </motion.div>
               )}
             </AnimatePresence>

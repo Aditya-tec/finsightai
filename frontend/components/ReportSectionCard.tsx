@@ -4,6 +4,7 @@ import { AnimatePresence, motion } from "framer-motion";
 import { useMemo } from "react";
 
 import BullBearBaseCards from "@/components/BullBearBaseCards";
+import CitationLinks from "@/components/CitationLinks";
 import FormattedText from "@/components/FormattedText";
 import KeyMetricsStrip from "@/components/KeyMetricsStrip";
 import RatioIndicators from "@/components/RatioIndicators";
@@ -12,22 +13,24 @@ import SectionViewToggle from "@/components/SectionViewToggle";
 import {
   parseChartData,
   SECTION_BULL_BEAR,
+  SECTION_BUSINESS,
   SECTION_EXECUTIVE,
+  SECTION_FINANCIAL,
   SECTION_RATIOS,
 } from "@/lib/chartTypes";
-import { formatGroupedCitations } from "@/lib/citations";
+import type { Citation } from "@/lib/citations";
 import { stripLeadingSectionTitle } from "@/lib/formatText";
 import { sectionKey } from "@/lib/bulletSummary";
 import { parseFinancialRatios } from "@/lib/parseFinancialRatios";
 import { parseKeyMetrics } from "@/lib/parseKeyMetrics";
 import { hasScenarioCards, parseBullBearBase } from "@/lib/parseBullBearBase";
 
-type Citation = { source: string; page?: number; section?: string };
+type CitationType = Citation;
 
 type Section = {
   title: string;
   body: string;
-  citations: Citation[];
+  citations: CitationType[];
   chart_data?: unknown;
 };
 
@@ -72,6 +75,9 @@ export default function ReportSectionCard({
   );
   const showScenarioCards = hasScenarioCards(scenarioBlocks);
   const showChart = viewMode === "prose" && chartData !== null;
+  const isChartSection =
+    section.title === SECTION_BUSINESS || section.title === SECTION_FINANCIAL;
+  const showChartUnavailable = viewMode === "prose" && isChartSection && chartData === null;
   const showKeyMetrics = Boolean(keyMetrics);
   const showRatios = viewMode === "prose" && Boolean(financialRatios?.length);
 
@@ -139,12 +145,17 @@ export default function ReportSectionCard({
 
         {showRatios && financialRatios && <RatioIndicators ratios={financialRatios} />}
         {showChart && chartData && <SectionChart data={chartData} />}
+        {showChartUnavailable && (
+          <div className="chart-unavailable panel-elevated">
+            Chart unavailable — FY24/FY25 figures not found in indexed filing excerpts.
+          </div>
+        )}
       </div>
 
       {section.citations?.length > 0 && (
         <div className="report-sources">
           <span className="report-sources-label">Sources:</span>
-          {formatGroupedCitations(section.citations, ticker)}
+          <CitationLinks citations={section.citations} ticker={ticker} />
         </div>
       )}
     </div>

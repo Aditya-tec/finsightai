@@ -2,7 +2,7 @@
 
 import { create } from "zustand";
 
-type Citation = { source: string; page?: number; section?: string };
+import type { Citation } from "@/lib/api";
 
 type ReportSection = {
   title: string;
@@ -15,6 +15,7 @@ type FollowupMessage = {
   role: "user" | "assistant";
   content: string;
   citations?: Citation[];
+  eval_scores?: Record<string, unknown>;
 };
 
 type State = {
@@ -30,7 +31,12 @@ export const useReportStore = create<State>((set) => ({
   ticker: undefined,
   sections: [],
   followup: [],
-  setReport: (ticker, sections) => set({ ticker, sections, followup: [] }),
+  setReport: (ticker, sections) =>
+    set((s) => ({
+      ticker,
+      sections,
+      followup: s.ticker === ticker ? s.followup : [],
+    })),
   addFollowup: (msg) => set((s) => ({ followup: [...s.followup, msg] })),
   clear: () => set({ ticker: undefined, sections: [], followup: [] }),
 }));

@@ -101,6 +101,8 @@ def _build_prompt(
         "You are an equity research assistant helping a user reading an on-screen analyst report.",
         "Answer only from the provided context. If information is missing, say so clearly.",
         "Do not mention internal systems, fallback modes, or retrieval mechanics.",
+        "Tag every numeric claim with its accounting basis: [Consolidated] or [Standalone].",
+        "Never compare figures across different bases without explicitly noting the mismatch.",
     ]
     if generic_query:
         parts.append(
@@ -125,6 +127,49 @@ def _build_prompt(
     parts.append(f"Question: {query}")
     parts.append("Return a concise, user-facing answer with a factual tone.")
     return "\n\n".join(parts)
+
+
+def _build_compare_prompt(
+    query: str,
+    contexts_by_ticker: dict[str, list[dict[str, Any]]],
+    memory: str,
+) -> str:
+    parts = [
+        "You are an equity research assistant comparing Indian listed companies.",
+        "Answer only from the provided filing excerpts. Use side-by-side structure.",
+        "Tag every numeric claim with [Consolidated] or [Standalone].",
+        "Do not compare figures across different accounting bases.",
+    ]
+    if memory:
+        parts.append(f"Recent conversation:\n{memory}")
+    for ticker, chunks in contexts_by_ticker.items():
+        content = "\n\n".join(c.get("content", "") for c in chunks[:5] if c.get("content"))
+        if content:
+            parts.append(f"Filing excerpts for {ticker}:\n{content}")
+    parts.append(f"Question: {query}")
+    parts.append("Return a concise comparison with specific numbers where available.")
+    return "\n\n".join(parts)
+
+
+def synthesize_compare_answer(
+    query: str,
+    contexts_by_ticker: dict[str, list[dict[str, Any]]],
+    memory: str = "",
+) -> str:
+    if not settings.groq_api_key:
+        tickers = ", ".join(contexts_by_ticker.keys())
+        return f"Comparison unavailable right now. Context loaded for: {tickers}."
+    prompt = _build_compare_prompt(query, contexts_by_ticker, memory)
+    client = Groq(api_key=settings.groq_api_key)
+    try:
+        response = client.chat.completions.create(
+            model="llama-3.3-70b-versatile",
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.2,
+        )
+    except RateLimitError:
+        return "Comparison unavailable due to API rate limits. Please retry shortly."
+    return (response.choices[0].message.content or "").strip() or "Comparison unavailable."
 
 
 def synthesize_answer(

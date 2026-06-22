@@ -1,13 +1,27 @@
-type Citation = { source: string; page?: number; section?: string };
+import type { Citation } from "@/lib/citations";
 
-export default function CitationCard({ citation }: { citation: Citation }) {
+type Props = {
+  citation: Citation;
+};
+
+export default function CitationCard({ citation }: Props) {
+  const ticker = citation.ticker?.toUpperCase();
+  const fy = citation.fiscal_year ?? "FY25";
+
   return (
-    <div className="rounded-lg border border-[var(--border)] bg-[rgba(4,16,11,0.78)] p-3 text-xs">
-      <div className="font-medium text-[var(--accent)]">{citation.source || "Source"}</div>
-      {citation.page ? <div className="mt-1 text-[var(--text-secondary)]">Page {citation.page}</div> : null}
-      {citation.section ? (
-        <div className="mt-0.5 text-[var(--text-muted)]">{citation.section}</div>
+    <div className="citation-card">
+      <div className="citation-card-source">{citation.source || "filing"}</div>
+      {citation.page != null && ticker ? (
+        <a
+          href={`/source/${ticker}?page=${citation.page}&fiscal_year=${encodeURIComponent(fy)}`}
+          className="citation-card-page"
+        >
+          Page {citation.page}
+        </a>
+      ) : citation.page ? (
+        <div className="citation-card-page">Page {citation.page}</div>
       ) : null}
+      {citation.section ? <div className="citation-card-section">{citation.section}</div> : null}
     </div>
   );
 }

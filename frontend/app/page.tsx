@@ -55,6 +55,9 @@ export default function Home() {
               <span className="tag tag-elevated">Nifty 20</span>
               <span className="tag tag-elevated">Agentic RAG</span>
               <span className="tag tag-elevated">Cited Reports</span>
+              <a href="/chat" className="tag tag-elevated tag-link">
+                Compare Companies
+              </a>
             </div>
             <h1 className="hero-brand">
               <TypewriterText

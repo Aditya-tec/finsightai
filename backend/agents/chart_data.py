@@ -3,7 +3,7 @@ from __future__ import annotations
 import math
 from typing import Any, Literal
 
-from pydantic import BaseModel, Field, ValidationError, field_validator
+from pydantic import BaseModel, Field, ValidationError, field_validator, model_validator
 
 SECTION_BUSINESS = "Business Overview + Segment Breakdown"
 SECTION_FINANCIAL = "Financial Performance"
@@ -36,6 +36,14 @@ class BarChartData(BaseModel):
         if normalized != ["FY24", "FY25"]:
             raise ValueError("labels must be FY24 and FY25")
         return v
+
+    @model_validator(mode="after")
+    def distinct_fy_values(self) -> "BarChartData":
+        for dataset in self.datasets:
+            fy24, fy25 = dataset.values
+            if math.isclose(fy24, fy25, rel_tol=0, abs_tol=0.01):
+                raise ValueError("FY24 and FY25 values must differ for each series")
+        return self
 
 
 class DonutSegment(BaseModel):

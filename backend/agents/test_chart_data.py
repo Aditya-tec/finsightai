@@ -50,10 +50,23 @@ def test_null_passthrough() -> None:
     assert validate_chart_data(SECTION_FINANCIAL, None) is None
 
 
+def test_rejects_identical_fy24_fy25_values() -> None:
+    raw = {
+        "type": "bar",
+        "labels": ["FY24", "FY25"],
+        "datasets": [
+            {"label": "Revenue (₹ Cr)", "values": [5257.844, 5257.844]},
+            {"label": "Net Profit (₹ Cr)", "values": [1098.01, 1098.01]},
+        ],
+    }
+    assert validate_chart_data(SECTION_FINANCIAL, raw) is None
+
+
 if __name__ == "__main__":
     test_valid_bar_chart()
     test_valid_donut_chart()
     test_rejects_wrong_section_type()
     test_rejects_invalid_labels()
     test_null_passthrough()
+    test_rejects_identical_fy24_fy25_values()
     print("All chart_data checks passed.")

@@ -24,7 +24,7 @@
     },
     {
       "title": "Business Overview + Segment Breakdown",
-      "body": "Wipro is a global information technology, consulting, and business process services company. The company's IT services segment is the primary contributor to its revenue, with IT services operating margin referring to segment results as reflected in IFRS financials. As of FY25, the IT services operating margin was 17.1%. The company has a large deal bookings constituent of deals greater than or equal to $30 million in total contract value terms, with $5,368 million in FY25. The company's revenue from IT services was $10,512 million in FY25. However, the exact segment breakdown in terms of revenue for other segments is not available in the provided excerpts.",
+      "body": "Wipro is a technology company that has been in operation for nearly 50 years, with a commitment to enhancing shareholder value through stable and consistent returns. The company's capital allocation policy targets a minimum payout of 45%–50% of net income for a period of the trailing three years, which has been revised to 70% or more of the net income cumulatively over a three-year period, effective from FY26. In FY25, Wipro reported $10.5 billion in revenue, a 2.3% year-on-year decrease in constant currency [Consolidated]. The IT services operating margin was 17.1%, expanding 0.9% over FY24 [Consolidated]. However, explicit segment revenue figures are not provided in the excerpts, making it challenging to provide a detailed segment breakdown. The company has a global presence, with various subsidiaries and trusts, such as Wipro Arabia Limited, Wipro IT Services Bangladesh Limited, and Wipro Technologies Australia Pty Ltd, but specific revenue contributions from these entities are not disclosed.",
       "citations": [
         {
           "source": "filing",
@@ -56,7 +56,7 @@
     },
     {
       "title": "Financial Performance",
-      "body": "The financial performance of Wipro is highlighted by its IT services revenue, which stood at $10,512 million in FY25, slightly lower than $10,805 million in FY24. The IT services operating margin remained steady at 17.1% in both FY25 and FY24. The company's net income for FY25 and FY24 is not explicitly stated in the provided excerpts, making it challenging to assess the year-over-year change in profitability. However, the company's free cash flow to net income ratio was 118.4% in FY25, down from 152.7% in FY24. The payout ratio, which is the proportion of net income distributed as dividends, was 61.5% in FY25, up from 54.5% in FY24. Wipro's market capitalization increased to $32.1 billion in FY25 from $30.1 billion in FY24.",
+      "body": "The financial performance of Wipro Limited is presented below. On a consolidated basis, the company's sales decreased to ₹890.88 billion for the current year as against ₹897.60 billion in the previous year, recording a decrease of 0.75% [Consolidated]. The company's net profit increased to ₹132.18 billion for the current year as against ₹111.12 billion in the previous year, recording an increase of 18.95% [Consolidated]. On a standalone basis, the company's sales increased to ₹672.93 billion for the current year as against ₹667.92 billion in the previous year, recording an increase of 0.75% [Standalone]. The company's net profit increased to ₹107.92 billion in the current year as against ₹91.19 billion in the previous year, recording an increase of 18.36% [Standalone].",
       "citations": [
         {
           "source": "filing",
@@ -84,7 +84,29 @@
           "section": "OPINION ON THE FINANCIAL STATEMENTS"
         }
       ],
-      "chart_data": null
+      "chart_data": {
+        "type": "bar",
+        "labels": [
+          "FY24",
+          "FY25"
+        ],
+        "datasets": [
+          {
+            "label": "Revenue (₹ Cr)",
+            "values": [
+              89760.0,
+              89088.0
+            ]
+          },
+          {
+            "label": "Net Profit (₹ Cr)",
+            "values": [
+              11112.0,
+              13218.0
+            ]
+          }
+        ]
+      }
     },
     {
       "title": "Balance Sheet Health + Cash Flow",

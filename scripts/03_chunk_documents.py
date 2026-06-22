@@ -44,6 +44,15 @@ def chunk_text(text: str, size: int = 512, overlap: int = 50) -> list[str]:
     return chunks
 
 
+def _infer_basis(section_title: str, text: str) -> str:
+    combined = f"{section_title} {text[:500]}".lower()
+    if "consolidated" in combined:
+        return "consolidated"
+    if "standalone" in combined and "consolidated" not in combined:
+        return "standalone"
+    return "unknown"
+
+
 def main():
     parser = argparse.ArgumentParser()
     parser.add_argument("--input", default="data/parsed")
@@ -65,6 +74,7 @@ def main():
             chunk_index = 0
             for page in pages:
                 for title, section in split_sections(page.get("text", "")):
+                    basis = _infer_basis(title, section)
                     for chunk in chunk_text(section):
                         row = {
                             "ticker": ticker,
@@ -75,7 +85,7 @@ def main():
                             "doc_type": "filing",
                             "fiscal_year": fiscal_year,
                             "quarter": None,
-                            "metadata": {"source_file": str(parsed_file)},
+                            "metadata": {"source_file": str(parsed_file), "basis": basis},
                         }
                         writer.write(json.dumps(row, ensure_ascii=False) + "\n")
                         chunk_index += 1

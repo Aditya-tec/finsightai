@@ -64,6 +64,8 @@ Open http://localhost:3000 in your browser.
 
 ## STEP 3 — Load data (after keys work)
 
+**PDFs:** Either add direct `pdf_url` values to `scripts/bse_report_urls.json` and run step 01, **or** drop files manually as `data/raw/{TICKER}_FY25.pdf` (e.g. `data/raw/INFY_FY25.pdf`).
+
 From project root (third terminal or after stopping nothing):
 
 ```powershell
@@ -77,7 +79,7 @@ cd C:\Users\kalam\Desktop\FinSight-AI
 .\backend\venv\Scripts\python.exe scripts\07_build_graph.py
 ```
 
-> **Note:** Step `01_download_pdfs.py` uses placeholder URLs until you add real BSE PDF links. For a first test, you can drop any PDF into `data/raw/INFY/` and run from step 02.
+> **Note:** Step `01_download_pdfs.py` reads URLs from `scripts/bse_report_urls.json`. Empty URLs are skipped — manual PDF drops at `data/raw/{TICKER}_FY25.pdf` work fine; run from step 02.
 
 ---
 

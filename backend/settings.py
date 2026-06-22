@@ -22,6 +22,9 @@ class Settings:
         default_factory=lambda: _env("BM25_INDEX_PATH", str(BASE_DIR / "bm25_index.pkl"))
     )
     graph_path: str = field(default_factory=lambda: _env("GRAPH_PATH", str(BASE_DIR / "graph.json")))
+    raw_data_dir: str = field(
+        default_factory=lambda: _env("DATA_RAW_DIR", str(BASE_DIR.parent / "data" / "raw"))
+    )
 
     @property
     def groq_api_key(self) -> str:

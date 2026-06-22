@@ -3,10 +3,23 @@
 import { AnimatePresence, motion, useReducedMotion } from "framer-motion";
 
 import { feedLineEnter } from "@/lib/motion";
+import type { StreamStep } from "@/lib/streamTypes";
 
 type Props = {
-  steps: string[];
+  steps: StreamStep[];
   loading?: boolean;
+};
+
+const PHASE_LABELS: Record<string, string> = {
+  routing: "Route",
+  retrieval: "Retrieve",
+  multi_hop: "Multi-hop",
+  self_correction: "Judge",
+  rerank: "Rerank",
+  graph: "Graph",
+  synthesis: "Synthesize",
+  fallback: "Fallback",
+  multi_ticker: "Compare",
 };
 
 function statusLabel(loading: boolean | undefined, stepCount: number): string {
@@ -43,13 +56,16 @@ export default function AgentFeed({ steps, loading }: Props) {
           <AnimatePresence initial={false}>
             {steps.map((s, i) => (
               <motion.div
-                key={`${i}-${s}`}
+                key={`${i}-${s.message}`}
                 className={`feed-line ${i === steps.length - 1 && loading ? "active" : ""}`}
                 variants={feedLineEnter}
                 initial={reduced ? false : "hidden"}
                 animate="visible"
               >
-                {s}
+                {s.phase && PHASE_LABELS[s.phase] ? (
+                  <span className="feed-phase">{PHASE_LABELS[s.phase]}</span>
+                ) : null}
+                {s.message}
               </motion.div>
             ))}
           </AnimatePresence>

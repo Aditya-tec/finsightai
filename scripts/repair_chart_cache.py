@@ -1,6 +1,7 @@
 """
 Re-parse Section 02/03 bodies in v7-charts disk cache to recover nested chart_data.
 
+Sanitizes <section prose> tags, re-validates chart_data (drops duplicate-FY bars).
 No Groq calls, no cache version bump — parse fix only.
 Run from repo root: python scripts/repair_chart_cache.py
 """
@@ -13,8 +14,8 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT / "backend"))
 
-from agents.chart_data import CHART_SECTIONS, SECTION_BUSINESS, SECTION_FINANCIAL
-from agents.report_section_parse import parse_section_json
+from agents.chart_data import CHART_SECTIONS, SECTION_BUSINESS, SECTION_FINANCIAL, validate_chart_data
+from agents.report_section_parse import parse_section_json, sanitize_section_body
 
 CACHE_DIR = ROOT / "backend" / "data" / "report_cache" / "v7-charts"
 
@@ -25,32 +26,39 @@ def repair_file(path: Path) -> dict[str, str]:
 
     for section in data.get("sections", []):
         title = section.get("title", "")
-        if title not in CHART_SECTIONS:
-            continue
-
         old_body = section.get("body", "")
         old_chart = section.get("chart_data")
 
         if not isinstance(old_body, str):
             continue
 
-        new_body, new_chart = old_body, old_chart
-        if old_body.strip().startswith("{"):
-            new_body, new_chart = parse_section_json(old_body, title)
-        elif isinstance(old_body, str) and old_body.startswith('"') and old_chart:
-            new_body = old_body.lstrip('"').rstrip('"').strip()
+        new_body = sanitize_section_body(old_body)
+        new_chart = old_chart
+
+        if title in CHART_SECTIONS:
+            if old_body.strip().startswith("{"):
+                new_body, new_chart = parse_section_json(old_body, title)
+            elif old_body.startswith('"') and old_chart:
+                new_body = sanitize_section_body(old_body.lstrip('"').rstrip('"').strip())
+
+            if new_chart is not None:
+                validated = validate_chart_data(title, new_chart)
+                new_chart = validated
 
         if new_body == old_body and new_chart == old_chart:
             continue
 
         section["body"] = new_body
-        if new_chart is not None:
+        if title in CHART_SECTIONS:
             section["chart_data"] = new_chart
-            changes[title] = f"chart recovered ({new_chart.get('type')})"
-        elif old_chart is None:
-            changes[title] = "body unwrapped (no valid chart)"
-        else:
-            changes[title] = "body cleaned"
+            if old_chart and not new_chart:
+                changes[title] = "invalid chart dropped"
+            elif new_chart and not old_chart:
+                changes[title] = f"chart recovered ({new_chart.get('type')})"
+            elif new_body != old_body:
+                changes[title] = "body cleaned"
+        elif new_body != old_body:
+            changes[title] = "body sanitized"
 
     if changes:
         path.write_text(json.dumps(data, indent=2, ensure_ascii=False) + "\n", encoding="utf-8")

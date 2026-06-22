@@ -1907,6 +1907,119 @@ html, body {
   font-size: 14px;
 }
 
+.citation-page-link {
+  color: var(--accent);
+  text-decoration: none;
+  border-bottom: 1px solid rgba(0, 153, 255, 0.35);
+}
+
+.citation-page-link:hover {
+  color: #fff;
+  border-bottom-color: var(--accent);
+}
+
+.citation-card {
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
+  padding: 10px 12px;
+  font-size: 12px;
+  margin-bottom: 8px;
+}
+
+.citation-card-source {
+  color: var(--accent);
+  font-weight: 600;
+}
+
+.citation-card-page {
+  margin-top: 4px;
+  color: var(--text);
+}
+
+.citation-card-page:hover {
+  color: var(--accent);
+}
+
+.citation-card-section {
+  margin-top: 4px;
+  color: var(--text-muted);
+  font-size: 11px;
+}
+
+.chart-unavailable {
+  margin-top: 16px;
+  padding: 14px 16px;
+  font-size: 13px;
+  color: var(--text-dim);
+  border: 1px dashed var(--border);
+  border-radius: var(--radius-md);
+}
+
+.feed-phase {
+  display: inline-block;
+  min-width: 64px;
+  margin-right: 8px;
+  font-size: 10px;
+  font-weight: 600;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  color: var(--accent);
+}
+
+.grade-badge.grade-a {
+  border-color: rgba(0, 153, 255, 0.4);
+  color: var(--accent);
+}
+
+.grade-badge.grade-b {
+  border-color: rgba(251, 191, 36, 0.4);
+  color: #fbbf24;
+}
+
+.grade-badge.grade-c {
+  border-color: rgba(239, 68, 68, 0.4);
+  color: #ef4444;
+}
+
+.grade-badge.grade-unverified {
+  border-color: var(--border);
+  color: var(--text-dim);
+  font-size: 11px;
+}
+
+.degraded-banner {
+  font-size: 13px;
+  color: #fbbf24;
+  border-bottom: 1px solid var(--border);
+}
+
+.tag-link {
+  text-decoration: none;
+  color: var(--text-dim);
+  cursor: pointer;
+}
+
+.tag-link:hover {
+  color: var(--text);
+  border-color: rgba(0, 153, 255, 0.2);
+}
+
+.pdf-viewer-wrap {
+  margin-top: 20px;
+  overflow: hidden;
+}
+
+.pdf-viewer-frame {
+  width: 100%;
+  min-height: 80vh;
+  border: none;
+  background: #111;
+}
+
+.source-page .page-header {
+  margin-bottom: 8px;
+}
+
 .empty-state.panel-elevated {
   border-radius: var(--radius-lg);
   border: 1px solid rgba(255, 255, 255, 0.06);

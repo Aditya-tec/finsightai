@@ -8,7 +8,14 @@ from agents.chart_data import validate_chart_data
 
 _LENIENT_SPLIT = re.compile(r'"\s*,\s*"chart_data"\s*:\s*', re.DOTALL)
 _BODY_PREFIX = re.compile(r'^\{\s*"body"\s*:\s*', re.DOTALL)
+_SECTION_PROSE_TAG = re.compile(r"</?section(?:\s+prose)?\s*>", re.IGNORECASE)
 _ARITH_IN_NUMBER = re.compile(r"(?<=[\[,:])\s*(\d+(?:\.\d+)?)\s*/\s*(\d+(?:\.\d+)?)\s*(?=[,\]}])")
+
+
+def sanitize_section_body(body: str) -> str:
+    """Remove LLM placeholder tags like <section prose> from section text."""
+    cleaned = _SECTION_PROSE_TAG.sub("", body)
+    return cleaned.strip() or "Content unavailable."
 
 
 def _fix_trailing_chart_braces(text: str) -> str:
@@ -151,12 +158,10 @@ def _parse_lenient_embedded_payload(text: str, title: str) -> tuple[str, dict[st
     if body_raw.endswith('"'):
         body_raw = body_raw[:-1]
     body = body_raw.strip() or "Content unavailable."
+    body = sanitize_section_body(body)
 
     chart_text = parts[1].lstrip()
     chart = _parse_chart_from_suffix(chart_text, title)
-    if chart is None:
-        return None
-
     return body, chart
 
 
@@ -171,6 +176,7 @@ def _parse_embedded_payload(text: str, title: str) -> tuple[str, dict[str, Any] 
     if not isinstance(payload, dict) or not isinstance(payload.get("body"), str):
         return None
     body = payload["body"].strip() or "Content unavailable."
+    body = sanitize_section_body(body)
     chart_raw = payload.get("chart_data")
     if isinstance(chart_raw, dict):
         chart_raw = _normalize_bar_payload(chart_raw)
@@ -192,7 +198,7 @@ def _unwrap_nested_body(body: str, title: str) -> tuple[str, dict[str, Any] | No
         if inner_chart is not None:
             chart = inner_chart
         body = inner_body
-    return body, chart
+    return sanitize_section_body(body), chart
 
 
 def parse_section_json(raw: str, title: str) -> tuple[str, dict[str, Any] | None]:
@@ -212,7 +218,7 @@ def parse_section_json(raw: str, title: str) -> tuple[str, dict[str, Any] | None
             body, nested_chart = _unwrap_nested_body(body, title)
             if nested_chart is not None:
                 chart = nested_chart
-            return body, chart
+            return sanitize_section_body(body), chart
     except json.JSONDecodeError:
         pass
 
@@ -222,6 +228,6 @@ def parse_section_json(raw: str, title: str) -> tuple[str, dict[str, Any] | None
         body, nested_chart = _unwrap_nested_body(body, title)
         if nested_chart is not None:
             chart = nested_chart
-        return body, chart
+        return sanitize_section_body(body), chart
 
-    return text or "Content unavailable.", None
+    return sanitize_section_body(text or "Content unavailable."), None

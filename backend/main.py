@@ -9,6 +9,7 @@ from routers.report import router as report_router
 from routers.stream import router as stream_router
 from routers.companies import router as companies_router
 from routers.summarize import router as summarize_router
+from routers.documents import router as documents_router
 
 app = FastAPI(title="RupeeRead API", version="0.1.0")
 
@@ -26,6 +27,7 @@ app.include_router(report_router, prefix="/api", tags=["report"])
 app.include_router(stream_router, prefix="/api", tags=["stream"])
 app.include_router(companies_router, prefix="/api", tags=["companies"])
 app.include_router(summarize_router, prefix="/api", tags=["summarize"])
+app.include_router(documents_router, prefix="/api", tags=["documents"])
 
 
 @app.exception_handler(RateLimitError)

@@ -118,6 +118,35 @@ def test_parse_three_year_labels_normalized_to_fy24_fy25() -> None:
     assert chart["datasets"][0]["values"] == [466813.0, 524172.0]
 
 
+def test_strips_section_prose_tags() -> None:
+    raw = (
+        '{"body": "<section prose>Sun Pharma revenue grew 9% in FY25.</section>", '
+        '"chart_data": null}'
+    )
+    body, chart = parse_section_json(raw, SECTION_FINANCIAL)
+    assert "<section" not in body.lower()
+    assert "</section>" not in body.lower()
+    assert "Sun Pharma revenue grew" in body
+    assert chart is None
+
+
+def test_rejects_duplicate_fy_bar_in_parse() -> None:
+    raw = """{
+      "body": "Flat YoY numbers.",
+      "chart_data": {
+        "type": "bar",
+        "labels": ["FY24", "FY25"],
+        "datasets": [
+          {"label": "Revenue (₹ Cr)", "values": [5257.844, 5257.844]},
+          {"label": "Net Profit (₹ Cr)", "values": [1098.01, 1098.01]}
+        ]
+      }
+    }"""
+    body, chart = parse_section_json(raw, SECTION_FINANCIAL)
+    assert "Flat YoY" in body
+    assert chart is None
+
+
 if __name__ == "__main__":
     test_parse_valid_bar_json()
     test_parse_valid_donut_json()
@@ -128,4 +157,6 @@ if __name__ == "__main__":
     test_parse_lenient_json_with_literal_newlines()
     test_parse_lenient_json_with_missing_datasets_bracket()
     test_parse_three_year_labels_normalized_to_fy24_fy25()
+    test_strips_section_prose_tags()
+    test_rejects_duplicate_fy_bar_in_parse()
     print("All report chart parse checks passed.")

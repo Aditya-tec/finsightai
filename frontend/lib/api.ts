@@ -1,6 +1,8 @@
 import axios from "axios";
 
-const API_BASE = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
+import type { ChartData } from "./chartTypes";
+
+export const API_BASE = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
 const API_KEY = process.env.NEXT_PUBLIC_API_KEY ?? "";
 
 export const apiClient = axios.create({
@@ -8,29 +10,38 @@ export const apiClient = axios.create({
   headers: API_KEY ? { "X-API-Key": API_KEY } : {},
 });
 
+export type Citation = {
+  source: string;
+  page?: number;
+  section?: string;
+  ticker?: string;
+  fiscal_year?: string;
+  document_key?: string;
+};
+
 export type ChatMessage = {
   role: string;
   content: string;
-  citations?: Array<{ source: string; page?: number; section?: string }>;
+  citations?: Citation[];
+  eval_scores?: Record<string, unknown>;
 };
 
 export type ChatResponse = {
   answer: string;
-  citations: Array<{ source: string; page?: number; section?: string }>;
+  citations: Citation[];
   eval_scores: Record<string, string | number | boolean | string[]>;
   sources: string[];
+  tickers?: string[];
 };
-
-import type { ChartData } from "./chartTypes";
 
 export type ReportResponse = {
   sections: Array<{
     title: string;
     body: string;
-    citations: Array<{ source: string; page?: number; section?: string }>;
+    citations: Citation[];
     chart_data?: ChartData | null;
   }>;
-  citations: Array<{ source: string; page?: number; section?: string }>;
+  citations: Citation[];
   eval_scores: Record<string, string | number | boolean | string[]>;
   sources: string[];
   generated_at?: string | null;
@@ -44,6 +55,7 @@ export async function fetchCompanies() {
 export async function chatApi(payload: {
   query: string;
   ticker?: string;
+  tickers?: string[];
   conversation_history?: ChatMessage[];
 }) {
   const res = await apiClient.post("/api/chat", payload, { timeout: 120_000 });
@@ -79,6 +91,6 @@ export async function summarizeBulletsApi(payload: {
   return res.data as SummarizeBulletsResponse;
 }
 
-export function streamUrl(query: string) {
-  return `${API_BASE}/api/stream?query=${encodeURIComponent(query)}`;
+export function documentApiUrl(ticker: string, fiscalYear: string): string {
+  return `${API_BASE}/api/documents/${ticker.toUpperCase()}/${fiscalYear.toUpperCase()}`;
 }

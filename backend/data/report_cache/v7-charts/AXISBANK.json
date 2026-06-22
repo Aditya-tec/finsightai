@@ -24,7 +24,7 @@
     },
     {
       "title": "Business Overview + Segment Breakdown",
-      "body": "AXISBANK operates across multiple business segments, including Treasury, Corporate/Wholesale Banking, Retail Banking, and Other Banking Business. As of 31 March 2025, the total segment revenue stood at ₹232,793.43 crore. The segment-wise breakdown is as follows: Treasury reported a segment revenue of ₹32,352.04 crore, Corporate/Wholesale Banking reported ₹49,360.79 crore, Retail Banking reported ₹34,320.36 crore, and Other Banking Business reported ₹1,10,430.19 crore. The Retail Banking segment is further divided into Digital Banking Business and Other Retail Banking Business, with revenues of ₹5,961.33 crore and ₹28,359.03 crore, respectively. The company's net profit for the year ended 31 March 2025 was ₹28,055.11 crore. The segmental results indicate a diverse revenue stream for the company, with a significant contribution from the Corporate/Wholesale Banking and Retail Banking segments. However, the absence of peer comparison data limits the analysis of the company's relative performance.",
+      "body": "Axis Bank is a private sector bank in India that provides a complete suite of banking products and financial services covering retail banking, wholesale banking, and treasury operations. As of 31 March, 2025, the Bank's total assets were ₹1,609,930 crores [Standalone], with total deposits of ₹1,172,952 crores [Standalone] and total advances of ₹1,040,811 crores [Standalone]. The Bank's operating revenue increased by 10% year-on-year to ₹79,605 crores [Standalone] in fiscal 2025, with a net interest income of ₹54,348 crores [Standalone] and non-interest income of ₹25,257 crores [Standalone]. The Bank's segmental results for fiscal 2025 show that the Retail Banking segment had a total segment revenue of ₹76,044.88 crores [Standalone], while the Corporate/Wholesale Banking segment had a total segment revenue of ₹38,132.43 crores [Standalone], and the Treasury segment had a total segment revenue of ₹28,666.56 crores [Standalone]. The Other Banking Business segment had a total segment revenue of ₹52,913.53 crores [Standalone].",
       "citations": [
         {
           "source": "filing",
@@ -56,27 +56,27 @@
         "type": "donut",
         "segments": [
           {
-            "label": "Treasury",
-            "value": 32352.0
+            "label": "Retail Banking",
+            "value": 76044.88
           },
           {
             "label": "Corporate/Wholesale Banking",
-            "value": 49361.0
+            "value": 38132.43
           },
           {
-            "label": "Retail Banking",
-            "value": 34320.0
+            "label": "Treasury",
+            "value": 28666.56
           },
           {
             "label": "Other Banking Business",
-            "value": 110430.0
+            "value": 52913.53
           }
         ]
       }
     },
     {
       "title": "Financial Performance",
-      "body": "The financial performance of AXISBANK for the year ended 31 March, 2025, is marked by an 11% year-over-year growth in PAT of domestic subsidiaries. The bank's subsidiaries, including Axis Finance and Axis Securities Broking, have reported significant growth, with a 45% increase in Axis Securities Broking Revenue and a 33% increase in Axis Capital Revenue from operations. However, specific figures for the bank's consolidated revenue and net profit are not available in the provided excerpts. The bank's related party transactions include dividend paid, interest paid and received, and investments in related parties, with a total investment of ₹888.56 crore in subsidiaries. The bank has also reported a repayment of share capital by a related party of ₹329.28 crore and an investment of ₹53.29 crore by a related party in the bank.",
+      "body": "The financial performance of AXISBANK for the fiscal year 2025 has been notable, with operating revenue increasing by 10% year-on-year to ₹79,605 crores [Standalone]. Net Interest Income (NII) grew 9% to ₹54,348 crores [Standalone], while non-interest income rose 13% to ₹25,257 crores [Standalone]. Operating expenses increased 6% to ₹37,500 crores [Standalone], resulting in an operating profit growth of 13% to ₹42,105 crores [Standalone]. Provisions and contingencies saw a significant increase of 91% to ₹7,759 crores [Standalone], leading to a net profit growth of 6% to ₹26,373 crores [Standalone]. The bank's total assets expanded from ₹1,477,209 crores as of March 31, 2024, to ₹1,609,930 crores as of March 31, 2025, with total deposits and total advances increasing by 10% and 8%, respectively. The yield on assets increased by 7 basis points to 8.99%, while the cost of funds rose by 21 basis points to 5.46%. The net interest margin (NIM) declined by 9 basis points to 3.98% due to the increase in cost of funds. Overall, the bank's financial performance indicates a stable earnings profile, with core income streams constituting 97% of operating revenue.",
       "citations": [
         {
           "source": "filing",
@@ -104,7 +104,29 @@
           "section": "Consolidated financial statements"
         }
       ],
-      "chart_data": null
+      "chart_data": {
+        "type": "bar",
+        "labels": [
+          "FY24",
+          "FY25"
+        ],
+        "datasets": [
+          {
+            "label": "Revenue (₹ Cr)",
+            "values": [
+              72336.0,
+              79605.0
+            ]
+          },
+          {
+            "label": "Net Profit (₹ Cr)",
+            "values": [
+              24861.0,
+              26373.0
+            ]
+          }
+        ]
+      }
     },
     {
       "title": "Balance Sheet Health + Cash Flow",
