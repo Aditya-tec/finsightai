@@ -2141,4 +2141,127 @@ html, body {
   .topbar-nav {
     display: none;
   }
+
+  .source-page-nav {
+    flex-direction: column;
+    gap: 10px;
+    align-items: stretch;
+  }
+
+  .source-nav-btn {
+    min-height: 44px;
+    justify-content: center;
+  }
+
+  .source-text-body {
+    font-size: 16px;
+  }
+
+  .toc-panel .panel-body {
+    display: flex;
+    gap: 8px;
+    overflow-x: auto;
+    flex-wrap: nowrap;
+    padding-bottom: 8px;
+  }
+
+  .toc-item {
+    flex: 0 0 auto;
+    white-space: nowrap;
+  }
+
+  .chart-container,
+  .recharts-responsive-container {
+    min-height: 220px;
+    overflow-x: auto;
+  }
+
+  .compare-table-wrap {
+    overflow-x: auto;
+  }
+}
+
+.scenario-unavailable-note {
+  margin: 0 0 12px;
+  padding: 10px 12px;
+  border-radius: var(--radius-md);
+  background: rgba(255, 255, 255, 0.04);
+  border: 1px solid var(--border);
+  color: var(--text-dim);
+  font-size: 0.875rem;
+}
+
+.rate-limit-note {
+  margin-top: 8px;
+  font-size: 0.8125rem;
+  color: #fbbf24;
+}
+
+.source-highlight {
+  background: rgba(0, 153, 255, 0.25);
+  color: inherit;
+  padding: 0 2px;
+  border-radius: 2px;
+}
+
+.pdf-viewer-canvas {
+  display: block;
+  max-width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.compare-table {
+  width: 100%;
+  border-collapse: collapse;
+  font-size: 0.875rem;
+}
+
+.compare-table th,
+.compare-table td {
+  text-align: left;
+  padding: 8px 10px;
+  border-bottom: 1px solid var(--border);
+}
+
+.compare-tickers {
+  font-size: 0.75rem;
+  color: var(--text-dim);
+}
+
+.compare-hint {
+  margin: 0 0 12px;
+  color: var(--text-dim);
+  font-size: 0.875rem;
+}
+
+@media print {
+  .topbar,
+  .back-link,
+  .report-followup-wide,
+  .sidebar-sticky,
+  .btn-green,
+  .btn-ghost,
+  .btn-accent,
+  .export-menu-wrap {
+    display: none !important;
+  }
+
+  body {
+    background: #fff !important;
+    color: #111 !important;
+  }
+
+  .report-section,
+  .panel-elevated {
+    box-shadow: none !important;
+    border: 1px solid #ddd !important;
+    background: #fff !important;
+    break-inside: avoid;
+  }
+
+  .page-wide {
+    max-width: none !important;
+    padding: 0 !important;
+  }
 }

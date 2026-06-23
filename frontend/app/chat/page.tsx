@@ -7,6 +7,8 @@ import { useSearchParams } from "next/navigation";
 
 import AgentFeed from "@/components/AgentFeed";
 import CitationLinks from "@/components/CitationLinks";
+import CompareTable from "@/components/CompareTable";
+import DegradedBanner from "@/components/DegradedBanner";
 import EvalScores from "@/components/EvalScores";
 import FadeSlideIn from "@/components/FadeSlideIn";
 import LoadingDots from "@/components/LoadingDots";
@@ -19,6 +21,7 @@ import { companyDisplayName } from "@/lib/companyNames";
 import { easeOut } from "@/lib/motion";
 import { chatStreamApi } from "@/lib/stream";
 import type { StreamStep } from "@/lib/streamTypes";
+import { getSessionId } from "@/lib/sessionId";
 
 const STAGGER = 0.09;
 
@@ -34,6 +37,11 @@ function ChatPageContent() {
   const [loading, setLoading] = useState(false);
   const [error, setError] = useState("");
   const [companies, setCompanies] = useState<Array<{ ticker: string; name: string }>>([]);
+  const [compareTickers, setCompareTickers] = useState<string[]>([]);
+  const [rateLimitedUntil, setRateLimitedUntil] = useState(0);
+  const [sessionDegraded, setSessionDegraded] = useState(false);
+  const sessionId = getSessionId();
+  const rateLimitActive = rateLimitedUntil > Date.now();
 
   useEffect(() => {
     fetchCompanies()
@@ -45,26 +53,37 @@ function ChatPageContent() {
 
   async function onSubmit(e: FormEvent) {
     e.preventDefault();
-    if (!query.trim()) return;
+    if (!query.trim() || rateLimitActive) return;
     setLoading(true);
     setError("");
     setSteps([]);
     setAnswer("");
     setCitations([]);
     setEvalScores({});
+    setCompareTickers([]);
 
     try {
       await chatStreamApi(
-        { query, ticker, conversation_history: [] },
+        { query, ticker, session_id: sessionId, conversation_history: [] },
         {
           onStep: (step) => setSteps((s) => [...s, step]),
-          onEval: (scores) => setEvalScores(scores),
+          onEval: (scores) => {
+            setEvalScores(scores);
+            if (scores.degraded) setSessionDegraded(true);
+          },
           onResult: (res) => {
             setAnswer(res.answer);
             setCitations(res.citations);
             setEvalScores(res.eval_scores);
+            if (res.eval_scores?.degraded) setSessionDegraded(true);
+            if (res.tickers && res.tickers.length > 1) setCompareTickers(res.tickers);
           },
-          onError: (detail) => setError(detail),
+          onError: (detail) => {
+            if (detail.toLowerCase().includes("rate limit")) {
+              setRateLimitedUntil(Date.now() + 60_000);
+            }
+            setError(detail);
+          },
         }
       );
     } catch (err) {
@@ -119,6 +138,12 @@ function ChatPageContent() {
           </header>
         </FadeSlideIn>
 
+        {sessionDegraded && (
+          <FadeSlideIn delay={0.02}>
+            <DegradedBanner />
+          </FadeSlideIn>
+        )}
+
         <div className="split-layout">
           <div className="col-stack">
             <FadeSlideIn delay={STAGGER * 0}>
@@ -141,15 +166,18 @@ function ChatPageContent() {
                     />
                     <motion.button
                       type="submit"
-                      disabled={loading}
+                      disabled={loading || rateLimitActive}
                       className={`btn-green btn-glow${loading ? " is-loading" : ""}`}
                       style={{ marginTop: 14 }}
                       whileHover={reduced || loading ? undefined : { scale: 1.02 }}
                       whileTap={reduced || loading ? undefined : { scale: 0.98 }}
                       transition={{ duration: 0.2, ease: easeOut }}
                     >
-                      {loading ? <LoadingDots label="Running" /> : "Run Query"}
+                      {loading ? <LoadingDots label="Running" /> : rateLimitActive ? "Rate limited — wait" : "Run Query"}
                     </motion.button>
+                    {rateLimitActive && (
+                      <p className="rate-limit-note">Groq rate limit — retry in about a minute.</p>
+                    )}
                   </div>
                 </div>
               </form>
@@ -175,6 +203,12 @@ function ChatPageContent() {
           </div>
 
           <div className="col-stack">
+            {compareTickers.length > 1 && answer && (
+              <FadeSlideIn delay={STAGGER * 1.5}>
+                <CompareTable tickers={compareTickers} answer={answer} />
+              </FadeSlideIn>
+            )}
+
             <FadeSlideIn delay={STAGGER * 2}>
               <div className="panel panel-elevated panel-answer">
                 <div className="panel-head">

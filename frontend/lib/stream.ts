@@ -16,6 +16,7 @@ export async function chatStreamApi(
     query: string;
     ticker?: string;
     tickers?: string[];
+    session_id?: string;
     conversation_history?: Array<{ role: string; content: string; citations?: unknown[] }>;
   },
   handlers: StreamHandlers,

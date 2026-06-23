@@ -3,6 +3,7 @@
 import Link from "next/link";
 import { FormEvent, use, useCallback, useEffect, useLayoutEffect, useRef, useState } from "react";
 
+import DegradedBanner from "@/components/DegradedBanner";
 import ExportPdfMenu from "@/components/ExportPdfMenu";
 import EvalScores from "@/components/EvalScores";
 import FadeSlideIn from "@/components/FadeSlideIn";
@@ -17,6 +18,7 @@ import { companyDisplayName } from "@/lib/companyNames";
 import { reportStreamApi } from "@/lib/reportStream";
 import { buildConversationHistoryForApi, useReportStore } from "@/lib/reportStore";
 import { chatStreamApi } from "@/lib/stream";
+import { getSessionId } from "@/lib/sessionId";
 
 function formatReportDate(iso: string | null): string | null {
   if (!iso) return null;
@@ -61,7 +63,12 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
   const [exportLoading, setExportLoading] = useState(false);
   const [exportProgress, setExportProgress] = useState("");
   const [progressLabel, setProgressLabel] = useState("");
+  const [fromCache, setFromCache] = useState(false);
+  const [rateLimitedUntil, setRateLimitedUntil] = useState(0);
+  const [sessionDegraded, setSessionDegraded] = useState(false);
   const loadAbortRef = useRef<AbortController | null>(null);
+  const sessionId = getSessionId();
+  const rateLimitActive = rateLimitedUntil > Date.now();
 
   const formattedDate = formatReportDate(generatedAt);
   const staleReport = isReportStale(generatedAt);
@@ -99,32 +106,54 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
     setBulletCache({});
     setViewMode({});
     setSectionErrors({});
+    if (!forceRefresh) {
+      setFromCache(false);
+    }
     if (forceRefresh) {
       clear();
     }
 
     const streamedSections: typeof showSections = [];
+    let cachedLoad = false;
 
     try {
       await reportStreamApi(
         { ticker, force_refresh: forceRefresh },
         {
+          onMeta: (meta) => {
+            if (meta.cached) {
+              cachedLoad = true;
+              setFromCache(true);
+            }
+          },
           onProgress: (done, total) => {
-            setProgressLabel(`Loading section ${done} of ${total}…`);
+            setProgressLabel(
+              cachedLoad
+                ? `Loaded from cache (${done}/${total})…`
+                : `Generating live… (${done}/${total})`
+            );
           },
           onSection: (index, section, total) => {
             streamedSections[index] = section;
             setReport(ticker, [...streamedSections].filter(Boolean));
-            setProgressLabel(`Loaded section ${index + 1} of ${total}`);
+            setProgressLabel(
+              cachedLoad
+                ? `Loaded from cache (${index + 1}/${total})`
+                : `Generating live… section ${index + 1} of ${total}`
+            );
           },
           onComplete: (genAt, scores) => {
             setGeneratedAt(genAt);
             setEvalScores(scores);
             if (scores.degraded) {
+              setSessionDegraded(true);
               setError("Live search unavailable — showing cached report");
             }
           },
-          onError: (detail) => {
+          onError: (detail, status) => {
+            if (status === 429) {
+              setRateLimitedUntil(Date.now() + 60_000);
+            }
             if (forceRefresh && hadReport) {
               setError("Rate limit or error — showing last cached version");
             } else {
@@ -154,10 +183,12 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
   }, [ticker]);
 
   function onRegenerate() {
+    if (rateLimitActive) return;
     const ok = window.confirm(
       "This runs live Groq API calls (~60–90 seconds) and may use your daily quota. Continue?"
     );
     if (!ok) return;
+    setFromCache(false);
     fetchReport(true);
   }
 
@@ -173,11 +204,13 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
         {
           query: q,
           ticker,
+          session_id: sessionId,
           conversation_history: buildConversationHistoryForApi(showSections, showFollowup),
         },
         {
           onStep: () => undefined,
           onResult: (res) => {
+            if (res.eval_scores?.degraded) setSessionDegraded(true);
             addFollowup({
               role: "assistant",
               content: res.answer,
@@ -186,6 +219,9 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
             });
           },
           onError: (detail) => {
+            if (detail.toLowerCase().includes("rate limit")) {
+              setRateLimitedUntil(Date.now() + 60_000);
+            }
             addFollowup({ role: "assistant", content: detail });
           },
         }
@@ -295,13 +331,17 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
         action={
           <div className="topbar-actions">
             <button
-              disabled={loading}
+              disabled={loading || rateLimitActive}
               onClick={onRegenerate}
               className={loading ? "btn-generating" : "btn-ghost"}
               style={{ padding: "7px 14px" }}
-              title="Runs live Groq API calls (~60–90s) and may use daily quota"
+              title={
+                rateLimitActive
+                  ? "Groq rate limit — wait before regenerating"
+                  : "Runs live Groq API calls (~60–90s) and may use daily quota"
+              }
             >
-              {loading ? "Generating..." : "Regenerate"}
+              {loading ? "Generating..." : rateLimitActive ? "Rate limited" : "Regenerate"}
             </button>
             <ExportPdfMenu
               disabled={loading || showSections.length === 0}
@@ -331,6 +371,7 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
                 <p className="report-meta">
                   Report last updated: {formattedDate}
                   {staleReport ? " (may be outdated)" : ""}
+                  {fromCache && !loading ? " · Loaded from cache" : ""}
                 </p>
               )}
               <p className="figures-disclaimer">{FIGURES_DISCLAIMER}</p>
@@ -341,6 +382,12 @@ export default function ReportPage({ params }: { params: Promise<{ ticker: strin
           </div>
         </header>
         </FadeSlideIn>
+
+        {(sessionDegraded || Boolean(evalScores.degraded)) && storedTicker === ticker && (
+          <FadeSlideIn delay={STAGGER * 0.6}>
+            <DegradedBanner />
+          </FadeSlideIn>
+        )}
 
         {loading && progressLabel && (
           <FadeSlideIn delay={STAGGER}>

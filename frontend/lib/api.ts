@@ -17,6 +17,8 @@ export type Citation = {
   ticker?: string;
   fiscal_year?: string;
   document_key?: string;
+  page_valid?: boolean;
+  page_mismatch?: boolean;
 };
 
 export type ChatMessage = {
@@ -56,6 +58,7 @@ export async function chatApi(payload: {
   query: string;
   ticker?: string;
   tickers?: string[];
+  session_id?: string;
   conversation_history?: ChatMessage[];
 }) {
   const res = await apiClient.post("/api/chat", payload, { timeout: 120_000 });
@@ -142,4 +145,11 @@ export async function fetchDocumentPdfBlob(ticker: string, fiscalYear: string) {
     responseType: "blob",
   });
   return res.data as Blob;
+}
+
+export async function fetchConversationMessages(sessionId: string, limit = 20) {
+  const res = await apiClient.get(`/api/conversations/${sessionId}/messages`, {
+    params: { limit },
+  });
+  return res.data as { messages: ChatMessage[]; available: boolean };
 }

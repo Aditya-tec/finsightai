@@ -1,5 +1,6 @@
 "use client";
 
+import DegradedBanner from "@/components/DegradedBanner";
 import { EVAL_LABELS, formatEvalValue } from "@/lib/evalLabels";
 
 type Props = {
@@ -11,8 +12,11 @@ const HIDDEN_KEYS = new Set(["grade", "confidence", "degraded"]);
 export default function EvalScores({ scores }: Props) {
   const grade = String(scores?.grade ?? "—");
   const confidence = String(scores?.confidence ?? "high");
+  const evalMethod = String(scores?.eval_method ?? "lexical_heuristic");
   const degraded = Boolean(scores?.degraded);
-  const showGrade = confidence === "high" && !degraded;
+  const isHeuristic = evalMethod === "lexical_heuristic";
+  const isConversational = evalMethod === "conversational";
+  const showGrade = confidence === "high" && !degraded && !isHeuristic && !isConversational;
 
   const entries = Object.entries(scores || {}).filter(
     ([k, v]) => !HIDDEN_KEYS.has(k) && v != null && v !== ""
@@ -31,17 +35,17 @@ export default function EvalScores({ scores }: Props) {
         <span>Evaluation</span>
         {showGrade ? (
           <span className={gradeClass}>Grade {grade}</span>
+        ) : isConversational ? (
+          <span className="grade-badge grade-unverified" title="Conversational reply — no retrieval eval">
+            Conversational
+          </span>
         ) : (
-          <span className="grade-badge grade-unverified" title="Lexical heuristic only">
-            Unverified
+          <span className="grade-badge grade-unverified" title="Lexical overlap heuristic — not verified against sources">
+            Heuristic
           </span>
         )}
       </div>
-      {degraded && (
-        <div className="degraded-banner panel-body">
-          Live search unavailable — answering from cached report context.
-        </div>
-      )}
+      {degraded && <DegradedBanner />}
       <div className="panel-body">
         {entries.length === 0 ? (
           <p className="answer-placeholder">Scores appear after generation.</p>

@@ -50,6 +50,18 @@ function cleanBlock(raw: string): string {
     .trim();
 }
 
+export function isUnavailableScenarioText(body: string): boolean {
+  const lower = body.slice(0, 600).toLowerCase();
+  return (
+    /unable to provide/.test(lower) ||
+    /cannot provide/.test(lower) ||
+    /not possible to (?:outline|provide|determine)/.test(lower) ||
+    /insufficient (?:data|information|context)/.test(lower) ||
+    /does not contain (?:sufficient|enough|explicit)/.test(lower) ||
+    /no (?:explicit|clear|specific) (?:bull|bear|base)/.test(lower)
+  );
+}
+
 export function isBoilerplateIntro(text: string): boolean {
   const head = text.slice(0, 220).toLowerCase();
   return (
@@ -143,6 +155,7 @@ function stripCaseLeadIn(block: string, key: "bull" | "bear" | "base"): string {
 export function parseBullBearBase(body: string): ScenarioBlocks | null {
   const text = body.trim();
   if (text.length < 80) return null;
+  if (isUnavailableScenarioText(text)) return null;
 
   const markers = findMarkers(text);
   if (markers.length < 2) return null;

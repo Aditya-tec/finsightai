@@ -5,16 +5,19 @@ import {
   CHART_DISCLAIMER,
   type BarChartData,
   type DonutChartData,
-  formatBarSeriesTooltip,
-  formatChartValue,
   formatCroreAxisTick,
   formatCroreFull,
   maxBarDatasetValue,
   pickCroreAxisUnit,
+  stripSeriesLabel,
 } from "./chartTypes";
 import type { ScenarioBlocks } from "./parseBullBearBase";
 
-const PDF_CHART_HEIGHT = 200;
+const PDF_DONUT_CHART_HEIGHT = 200;
+const PDF_BAR_PLOT_HEIGHT = 152;
+const PDF_BAR_X_LABEL_H = 16;
+const PDF_BAR_LEGEND_H = 18;
+const PDF_BAR_TOP_PAD = 6;
 const PDF_CHART_GAP = 10;
 
 function sanitizeForPdf(text: string): string {
@@ -52,9 +55,16 @@ function drawPieWedge(
   }
 }
 
+function pdfAxisTick(value: number, unit: ReturnType<typeof pickCroreAxisUnit>): string {
+  return sanitizeForPdf(formatCroreAxisTick(value, unit));
+}
+
 export function pdfChartBlockHeight(hasChart: boolean): number {
   if (!hasChart) return 0;
-  return PDF_CHART_HEIGHT + PDF_CHART_GAP + 28;
+  const barBlock =
+    PDF_BAR_TOP_PAD + PDF_BAR_PLOT_HEIGHT + PDF_BAR_X_LABEL_H + PDF_BAR_LEGEND_H + PDF_CHART_GAP + 28;
+  const donutBlock = PDF_DONUT_CHART_HEIGHT + PDF_CHART_GAP + 28;
+  return Math.max(barBlock, donutBlock);
 }
 
 export function drawBarChartPdf(
@@ -64,87 +74,93 @@ export function drawBarChartPdf(
   y: number,
   width: number
 ): number {
-  const chartH = PDF_CHART_HEIGHT;
   const dualAxis = data.datasets.length >= 2;
-  const padLeft = 48;
-  const padRight = dualAxis ? 48 : 8;
-  const padBottom = 28;
-  const padTop = 12;
-  const plotW = width - padLeft - padRight;
-  const plotH = chartH - padBottom - padTop;
-  const originX = x + padLeft;
-  const originY = y + padTop + plotH;
-  const rightAxisX = originX + plotW;
-
   const seriesMax = data.datasets.map((ds) => Math.max(...ds.values, 1));
   const leftUnit = pickCroreAxisUnit(maxBarDatasetValue(data.datasets[0].values));
   const rightUnit = dualAxis
     ? pickCroreAxisUnit(maxBarDatasetValue(data.datasets[1].values))
     : leftUnit;
 
+  doc.setFont("helvetica", "normal");
+  doc.setFontSize(7);
+  const leftTickW = doc.getTextWidth(pdfAxisTick(seriesMax[0], leftUnit));
+  const rightTickW = dualAxis ? doc.getTextWidth(pdfAxisTick(seriesMax[1], rightUnit)) : 0;
+  const padLeft = Math.max(44, leftTickW + 10);
+  const padRight = dualAxis ? Math.max(44, rightTickW + 10) : 10;
+
+  const plotTop = y + PDF_BAR_TOP_PAD;
+  const plotH = PDF_BAR_PLOT_HEIGHT;
+  const originX = x + padLeft;
+  const originY = plotTop + plotH;
+  const plotW = width - padLeft - padRight;
+  const rightAxisX = originX + plotW;
+
   const groupCount = data.labels.length;
   const seriesCount = data.datasets.length;
   const groupW = plotW / groupCount;
-  const barGap = 4;
-  const barW = Math.min(28, (groupW - barGap * (seriesCount + 1)) / seriesCount);
+  const barGap = 6;
+  const barW = Math.min(26, (groupW - barGap * (seriesCount + 1)) / seriesCount);
 
-  doc.setDrawColor(200, 200, 200);
+  doc.setDrawColor(210, 210, 210);
   doc.setLineWidth(0.25);
   doc.line(originX, originY, originX + plotW, originY);
-  doc.line(originX, originY, originX, originY - plotH);
+  doc.line(originX, originY, originX, plotTop);
   if (dualAxis) {
-    doc.line(rightAxisX, originY, rightAxisX, originY - plotH);
+    doc.line(rightAxisX, originY, rightAxisX, plotTop);
   }
 
   data.labels.forEach((label, gi) => {
     const groupX = originX + gi * groupW + groupW / 2;
-    doc.setFont("helvetica", "normal");
-    doc.setFontSize(8);
-    doc.setTextColor(96, 96, 96);
-    doc.text(label, groupX, originY + 14, { align: "center" });
-
     data.datasets.forEach((ds, si) => {
       const val = ds.values[gi];
       const maxVal = seriesMax[si];
-      const barH = (val / maxVal) * plotH;
-      const bx =
-        originX + gi * groupW + barGap + si * (barW + barGap) + (groupW - seriesCount * (barW + barGap) - barGap) / 2;
+      const barH = maxVal > 0 ? (val / maxVal) * plotH : 0;
+      const groupStart = originX + gi * groupW;
+      const barsBlockW = seriesCount * barW + (seriesCount - 1) * barGap;
+      const bx = groupStart + (groupW - barsBlockW) / 2 + si * (barW + barGap);
       const by = originY - barH;
       const [r, g, b] = hexToRgb(CHART_COLORS[si % CHART_COLORS.length]);
       doc.setFillColor(r, g, b);
-      doc.rect(bx, by, barW, barH, "F");
+      doc.rect(bx, by, barW, Math.max(barH, 0.5), "F");
     });
+
+    doc.setFont("helvetica", "normal");
+    doc.setFontSize(8);
+    doc.setTextColor(96, 96, 96);
+    doc.text(label, groupX, originY + 12, { align: "center" });
   });
 
   doc.setFont("helvetica", "normal");
   doc.setFontSize(7);
-  doc.setTextColor(128, 128, 128);
-  doc.text(formatCroreAxisTick(seriesMax[0], leftUnit), originX - 4, originY - plotH + 4, {
-    align: "right",
-  });
-  doc.text("0", originX - 4, originY, { align: "right" });
+  doc.setTextColor(110, 110, 110);
+
+  const leftMaxLabel = pdfAxisTick(seriesMax[0], leftUnit);
+  doc.text(leftMaxLabel, originX - 5, plotTop + 5, { align: "right" });
+  doc.text("0", originX - 5, originY - 1, { align: "right" });
 
   if (dualAxis) {
-    doc.text(formatCroreAxisTick(seriesMax[1], rightUnit), rightAxisX + 4, originY - plotH + 4, {
-      align: "left",
-    });
-    doc.text("0", rightAxisX + 4, originY, { align: "left" });
+    const rightMaxLabel = pdfAxisTick(seriesMax[1], rightUnit);
+    doc.text(rightMaxLabel, rightAxisX + 5, plotTop + 5, { align: "left" });
+    doc.text("0", rightAxisX + 5, originY - 1, { align: "left" });
   }
 
-  let legendY = y + 8;
+  const legendY = originY + PDF_BAR_X_LABEL_H + 6;
+  let legendX = x + padLeft;
+  const legendGap = 18;
+
   data.datasets.forEach((ds, i) => {
     const [r, g, b] = hexToRgb(CHART_COLORS[i % CHART_COLORS.length]);
     doc.setFillColor(r, g, b);
-    doc.rect(x + width - 148, legendY, 8, 8, "F");
+    doc.rect(legendX, legendY - 5, 7, 7, "F");
     doc.setTextColor(64, 64, 64);
     doc.setFontSize(7.5);
-    const peak = Math.max(...ds.values);
-    doc.text(sanitizeForPdf(formatBarSeriesTooltip(ds.label, peak)), x + width - 136, legendY + 7);
-    legendY += 12;
+    const label = sanitizeForPdf(stripSeriesLabel(ds.label) || ds.label);
+    doc.text(label, legendX + 10, legendY);
+    legendX += doc.getTextWidth(label) + legendGap + 10;
   });
 
   doc.setTextColor(0, 0, 0);
-  return y + chartH + PDF_CHART_GAP;
+  return legendY + PDF_BAR_LEGEND_H + PDF_CHART_GAP;
 }
 
 export function drawDonutChartPdf(
@@ -154,7 +170,7 @@ export function drawDonutChartPdf(
   y: number,
   width: number
 ): number {
-  const chartH = PDF_CHART_HEIGHT;
+  const chartH = PDF_DONUT_CHART_HEIGHT;
   const cx = x + width * 0.32;
   const cy = y + chartH / 2;
   const outerR = 72;

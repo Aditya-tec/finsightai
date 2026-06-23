@@ -15,7 +15,7 @@ import {
   pdfChartBlockHeight,
   scenarioCardsPdfHeight,
 } from "./pdfCharts";
-import { hasScenarioCards, parseBullBearBase } from "./parseBullBearBase";
+import { hasScenarioCards, isUnavailableScenarioText, parseBullBearBase } from "./parseBullBearBase";
 import { RUPEEREAD_LOGO_ASPECT, RUPEEREAD_LOGO_PNG } from "./rupeereadLogo";
 
 type ReportSection = {
@@ -178,7 +178,7 @@ function estimateSectionHeight(
   const headerH = sectionHeaderHeight(doc, section.title, width);
   const chartData = format === "prose" ? parseChartData(section.chart_data) : null;
   const scenarioBlocks =
-    format === "prose" && section.title === SECTION_BULL_BEAR
+    format === "prose" && section.title === SECTION_BULL_BEAR && !isUnavailableScenarioText(section.body)
       ? parseBullBearBase(section.body)
       : null;
   const useScenarioCards = hasScenarioCards(scenarioBlocks);
@@ -336,7 +336,7 @@ function drawSection(
 
   const chartData = format === "prose" ? parseChartData(section.chart_data) : null;
   const scenarioBlocks =
-    format === "prose" && section.title === SECTION_BULL_BEAR
+    format === "prose" && section.title === SECTION_BULL_BEAR && !isUnavailableScenarioText(section.body)
       ? parseBullBearBase(section.body)
       : null;
   const useScenarioCards = hasScenarioCards(scenarioBlocks);

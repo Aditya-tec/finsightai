@@ -1,9 +1,10 @@
 "use client";
 
 import Link from "next/link";
-import { Suspense, use, useCallback, useEffect, useState } from "react";
+import { Suspense, use, useCallback, useEffect, useState, type ReactNode } from "react";
 import { useSearchParams } from "next/navigation";
 
+import PdfPageViewer from "@/components/PdfPageViewer";
 import TopBar from "@/components/TopBar";
 import {
   DocumentPage,
@@ -13,6 +14,28 @@ import {
 } from "@/lib/api";
 import { companyDisplayName } from "@/lib/companyNames";
 import { sourcePageHref } from "@/lib/citations";
+
+function highlightText(text: string, hint?: string): ReactNode {
+  if (!hint?.trim() || !text) return text;
+  const words = hint
+    .split(/\s+/)
+    .map((w) => w.replace(/[^\w]/g, ""))
+    .filter((w) => w.length > 4)
+    .slice(0, 3);
+  if (words.length === 0) return text;
+  const pattern = new RegExp(`(${words.map((w) => w.replace(/[.*+?^${}()|[\]\\]/g, "\\$&")).join("|")})`, "gi");
+  const parts = text.split(pattern);
+  const lowerWords = new Set(words.map((w) => w.toLowerCase()));
+  return parts.map((part, i) =>
+    lowerWords.has(part.toLowerCase()) ? (
+      <mark key={i} className="source-highlight">
+        {part}
+      </mark>
+    ) : (
+      <span key={i}>{part}</span>
+    )
+  );
+}
 
 function SourceViewer({ ticker }: { ticker: string }) {
   const params = useSearchParams();
@@ -170,13 +193,7 @@ function SourceViewer({ ticker }: { ticker: string }) {
         )}
 
         {!loading && pageData && viewMode === "pdf" && pdfObjectUrl && (
-          <div className="pdf-viewer-wrap panel panel-elevated">
-            <iframe
-              title={`${sym} ${fiscalYear} page ${displayPage}`}
-              src={`${pdfObjectUrl}#page=${displayPage}`}
-              className="pdf-viewer-frame"
-            />
-          </div>
+          <PdfPageViewer pdfUrl={pdfObjectUrl} pageNumber={displayPage} />
         )}
 
         {!loading && pageData && (viewMode === "text" || !pdfObjectUrl) && (
@@ -188,7 +205,7 @@ function SourceViewer({ ticker }: { ticker: string }) {
               </p>
             )}
             {pageData.text ? (
-              <pre className="source-text-body">{pageData.text}</pre>
+              <pre className="source-text-body">{highlightText(pageData.text, sectionHint)}</pre>
             ) : (
               <p className="empty-state">
                 No extracted text for this page.{" "}

@@ -5,7 +5,8 @@ type ReportStreamHandlers = {
   onSection: (index: number, section: ReportStreamSection, total: number) => void;
   onProgress?: (index: number, total: number) => void;
   onComplete?: (generatedAt: string | null, evalScores: Record<string, unknown>) => void;
-  onError: (detail: string) => void;
+  onMeta?: (meta: { cached?: boolean }) => void;
+  onError: (detail: string, status?: number) => void;
 };
 
 export async function reportStreamApi(
@@ -28,7 +29,7 @@ export async function reportStreamApi(
   });
 
   if (!res.ok || !res.body) {
-    handlers.onError(`Report stream failed (${res.status})`);
+    handlers.onError(`Report stream failed (${res.status})`, res.status);
     return;
   }
 
@@ -51,6 +52,9 @@ export async function reportStreamApi(
         if (event.type === "section") {
           const index = Number(event.index);
           const total = Number(event.total);
+          if (event.cached === true) {
+            handlers.onMeta?.({ cached: true });
+          }
           handlers.onProgress?.(index + 1, total);
           handlers.onSection(
             index,
@@ -76,7 +80,7 @@ export async function reportStreamApi(
             handlers.onComplete?.(generatedAt, { ...evalScores, degraded: true });
             return;
           }
-          handlers.onError(String(event.detail ?? "Unknown error"));
+          handlers.onError(String(event.detail ?? "Unknown error"), Number(event.status) || undefined);
           return;
         }
       } catch {

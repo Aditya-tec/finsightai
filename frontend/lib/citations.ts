@@ -33,7 +33,7 @@ export function sourcePageHref(
 
 /** Plain string for PDF export */
 export function formatGroupedCitations(
-  citations: Array<{ page?: number; ticker?: string; fiscal_year?: string }>,
+  citations: Array<{ page?: number; ticker?: string; fiscal_year?: string; page_valid?: boolean }>,
   ticker?: string
 ): string {
   if (citations.length === 0) return "";
@@ -42,7 +42,7 @@ export function formatGroupedCitations(
   const pages: number[] = [];
   const seen = new Set<number>();
   for (const c of citations) {
-    if (c.page != null && !seen.has(c.page)) {
+    if (c.page != null && c.page_valid !== false && !seen.has(c.page)) {
       seen.add(c.page);
       pages.push(c.page);
     }

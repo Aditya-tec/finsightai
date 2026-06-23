@@ -23,7 +23,7 @@ import { stripLeadingSectionTitle } from "@/lib/formatText";
 import { sectionKey } from "@/lib/bulletSummary";
 import { parseFinancialRatios } from "@/lib/parseFinancialRatios";
 import { parseKeyMetrics } from "@/lib/parseKeyMetrics";
-import { hasScenarioCards, parseBullBearBase } from "@/lib/parseBullBearBase";
+import { hasScenarioCards, isUnavailableScenarioText, parseBullBearBase } from "@/lib/parseBullBearBase";
 
 type CitationType = Citation;
 
@@ -74,10 +74,16 @@ export default function ReportSectionCard({
     [section.title, proseText]
   );
   const showScenarioCards = hasScenarioCards(scenarioBlocks);
+  const scenarioUnavailable =
+    section.title === SECTION_BULL_BEAR && isUnavailableScenarioText(proseText);
   const showChart = viewMode === "prose" && chartData !== null;
   const isChartSection =
     section.title === SECTION_BUSINESS || section.title === SECTION_FINANCIAL;
   const showChartUnavailable = viewMode === "prose" && isChartSection && chartData === null;
+  const chartUnavailableMessage =
+    section.title === SECTION_FINANCIAL
+      ? "Chart unavailable — FY24/FY25 figures not found in indexed filing excerpts."
+      : "Segment breakdown chart unavailable — fewer than two segments with explicit revenue in filing excerpts.";
   const showKeyMetrics = Boolean(keyMetrics);
   const showRatios = viewMode === "prose" && Boolean(financialRatios?.length);
 
@@ -98,6 +104,11 @@ export default function ReportSectionCard({
       </div>
 
       <div className="report-section-body">
+        {scenarioUnavailable && (
+          <p className="scenario-unavailable-note">
+            Detailed bull/bear/base scenarios are not available from the indexed filing excerpts.
+          </p>
+        )}
         {showKeyMetrics && keyMetrics && <KeyMetricsStrip metrics={keyMetrics} />}
 
         <AnimatePresence mode="wait" initial={false}>
@@ -147,7 +158,7 @@ export default function ReportSectionCard({
         {showChart && chartData && <SectionChart data={chartData} />}
         {showChartUnavailable && (
           <div className="chart-unavailable panel-elevated">
-            Chart unavailable — FY24/FY25 figures not found in indexed filing excerpts.
+            {chartUnavailableMessage}
           </div>
         )}
       </div>
