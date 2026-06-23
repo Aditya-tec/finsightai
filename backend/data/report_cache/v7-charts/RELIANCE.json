@@ -52,23 +52,7 @@
           "section": "general"
         }
       ],
-      "chart_data": {
-        "type": "donut",
-        "segments": [
-          {
-            "label": "Retail",
-            "value": 330943.0
-          },
-          {
-            "label": "Digital Services",
-            "value": 154119.0
-          },
-          {
-            "label": "Oil to Chemicals",
-            "value": 626921.0
-          }
-        ]
-      }
+      "chart_data": null
     },
     {
       "title": "Financial Performance",
@@ -100,29 +84,7 @@
           "section": "general"
         }
       ],
-      "chart_data": {
-        "type": "bar",
-        "labels": [
-          "FY24",
-          "FY25"
-        ],
-        "datasets": [
-          {
-            "label": "Revenue (Cr)",
-            "values": [
-              914472.0,
-              980136.0
-            ]
-          },
-          {
-            "label": "Net Profit (Cr)",
-            "values": [
-              69621.0,
-              69648.0
-            ]
-          }
-        ]
-      }
+      "chart_data": null
     },
     {
       "title": "Balance Sheet Health + Cash Flow",

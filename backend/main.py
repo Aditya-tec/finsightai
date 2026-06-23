@@ -9,6 +9,7 @@ from middleware.api_key import ApiKeyMiddleware
 from document_corpus import count_available_pdfs, pdf_path
 from routers.chat import router as chat_router
 from routers.companies import NIFTY20, router as companies_router
+from routers.conversations import router as conversations_router
 from routers.documents import router as documents_router
 from routers.report import router as report_router
 from routers.stream import router as stream_router
@@ -44,6 +45,7 @@ app.include_router(report_router, prefix="/api", tags=["report"])
 app.include_router(stream_router, prefix="/api", tags=["stream"])
 app.include_router(companies_router, prefix="/api", tags=["companies"])
 app.include_router(summarize_router, prefix="/api", tags=["summarize"])
+app.include_router(conversations_router, prefix="/api", tags=["conversations"])
 app.include_router(documents_router, prefix="/api", tags=["documents"])
 
 

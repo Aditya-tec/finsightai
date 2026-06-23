@@ -9,6 +9,7 @@ from fastapi import APIRouter, HTTPException
 from fastapi.responses import StreamingResponse
 from groq import RateLimitError
 
+from agents.citation_validate import enrich_and_validate_citation, validate_citations
 from agents.report_agent import build_report, iter_report_sections
 from evaluation.eval_pipeline import run_eval_pipeline
 from rag.search_errors import SearchIndexError
@@ -20,19 +21,14 @@ DEFAULT_FISCAL_YEAR = "FY25"
 
 
 def _enrich_citation(citation: Citation, ticker: str) -> Citation:
-    sym = ticker.upper()
-    if not citation.ticker:
-        citation.ticker = sym
-    if not citation.fiscal_year:
-        citation.fiscal_year = DEFAULT_FISCAL_YEAR
-    if not citation.document_key and citation.ticker and citation.fiscal_year:
-        citation.document_key = f"{citation.ticker}_{citation.fiscal_year}"
-    return citation
+    data = enrich_and_validate_citation(citation.model_dump(), ticker, DEFAULT_FISCAL_YEAR)
+    return Citation(**data)
 
 
 def _enrich_sections(sections: list[ReportSection], ticker: str) -> list[ReportSection]:
     for section in sections:
-        section.citations = [_enrich_citation(c, ticker) for c in section.citations]
+        raw = [c.model_dump() for c in section.citations]
+        section.citations = [Citation(**c) for c in validate_citations(raw, ticker)]
     return sections
 
 

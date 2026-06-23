@@ -52,23 +52,7 @@
           "section": "general"
         }
       ],
-      "chart_data": {
-        "type": "donut",
-        "segments": [
-          {
-            "label": "IT and Business Services",
-            "value": 86438.0
-          },
-          {
-            "label": "Engineering and R&D services",
-            "value": 18960.0
-          },
-          {
-            "label": "HCLSoftware",
-            "value": 12049.0
-          }
-        ]
-      }
+      "chart_data": null
     },
     {
       "title": "Financial Performance",
@@ -110,15 +94,15 @@
           {
             "label": "Revenue (₹ Cr)",
             "values": [
-              109913.0,
-              117055.0
+              48118.0,
+              51105.0
             ]
           },
           {
             "label": "Net Profit (₹ Cr)",
             "values": [
-              15702.0,
-              17390.0
+              11674.0,
+              12266.0
             ]
           }
         ]

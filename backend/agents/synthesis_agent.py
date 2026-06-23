@@ -107,10 +107,12 @@ def _build_prompt(
     if generic_query:
         parts.append(
             "The user asked a broad, high-level question about how the company is doing. "
-            "Respond with a concise summary (2-4 short paragraphs max) covering the most central "
-            "financial facts available: total income/revenue, profit/PAT, and notable growth trends. "
-            "Write like an executive summary — specific numbers where the context supports them. "
-            "Do not tell the user to read the source document themselves."
+            "Respond using exactly this markdown structure (omit a section if data is missing):\n"
+            "**Revenue** — FY25 vs FY24 with [Consolidated] or [Standalone] tag\n"
+            "**Profitability** — PAT or net profit trend with basis tag\n"
+            "**One risk** — single material risk from context\n"
+            "**One catalyst** — single growth driver or positive from context\n"
+            "Use only numbers present in the excerpts. Do not invent data."
         )
     if report_context:
         parts.append(

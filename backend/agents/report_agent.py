@@ -8,7 +8,9 @@ from pathlib import Path
 from groq import Groq, RateLimitError
 
 from agents.chart_data import CHART_SECTIONS, SECTION_BUSINESS, SECTION_FINANCIAL
+from agents.chart_extract import extract_chart_for_section
 from agents.citation_utils import citation_from_chunk
+from agents.citation_validate import validate_citations
 from agents.report_section_parse import parse_section_json
 from rag.hybrid_search import hybrid_retrieve
 from schemas import Citation, ReportSection
@@ -111,6 +113,7 @@ def _load_disk_cache(ticker: str) -> tuple[list[ReportSection], list[dict], str 
     try:
         data = json.loads(path.read_text(encoding="utf-8"))
         sections, eval_context = _deserialize_result(data)
+        sections = _enrich_section_charts(sections, ticker.upper())
         generated_at = data.get("generated_at") or _mtime_iso(path)
         return sections, eval_context, generated_at
     except (json.JSONDecodeError, KeyError, ValueError):
@@ -248,38 +251,67 @@ def _chart_json_instructions(title: str) -> str:
     return ""
 
 
+def _enrich_section_charts(sections: list[ReportSection], ticker: str) -> list[ReportSection]:
+    """Backfill missing or implausible chart_data from filing parse or cached section prose."""
+    enriched: list[ReportSection] = []
+    for section in sections:
+        if section.title not in CHART_SECTIONS:
+            enriched.append(section)
+            continue
+        chart = section.chart_data
+        if section.title == SECTION_FINANCIAL and chart:
+            rev = chart.get("datasets", [{}])[0].get("values", [0, 0])
+            if max(rev) < 500:
+                chart = None
+        if chart:
+            enriched.append(section)
+            continue
+        extracted = extract_chart_for_section(section.title, ticker, body=section.body)
+        if extracted:
+            enriched.append(section.model_copy(update={"chart_data": extracted}))
+        else:
+            enriched.append(section)
+    return enriched
+
+
 def _write_section_with_chart(
     title: str, ticker: str, context: list[dict]
 ) -> tuple[str, dict | None]:
     if not context:
         return f"No filing data indexed for {ticker} yet.", None
 
-    if not settings.groq_api_key:
-        preview = "\n\n".join(
-            c.get("content", "")[:300] for c in context[:CHART_CONTEXT_CHUNKS]
+    chart_data = extract_chart_for_section(title, ticker)
+    body = _write_section(title, ticker, context)
+    if chart_data is None and title in CHART_SECTIONS:
+        chart_data = extract_chart_for_section(title, ticker, body=body)
+    if chart_data is None and title in CHART_SECTIONS:
+        if not settings.groq_api_key:
+            return body, chart_data
+        content_blob = "\n\n".join(c.get("content", "") for c in context[:CHART_CONTEXT_CHUNKS])
+        prompt = (
+            _base_section_instructions(ticker, title)
+            + _chart_json_instructions(title)
+            + "\nReturn ONLY valid JSON with no markdown fences:\n"
+            '{"body": "<analyst prose paragraphs>", "chart_data": <object or null>}\n\n'
+            f"Filing excerpts:\n{content_blob}\n\n"
+            f"Write the '{title}' section now as JSON:"
         )
-        return preview or "No indexed content available.", None
-
-    content_blob = "\n\n".join(c.get("content", "") for c in context[:CHART_CONTEXT_CHUNKS])
-    prompt = (
-        _base_section_instructions(ticker, title)
-        + _chart_json_instructions(title)
-        + "\nReturn ONLY valid JSON with no markdown fences:\n"
-        '{"body": "<analyst prose paragraphs>", "chart_data": <object or null>}\n\n'
-        f"Filing excerpts:\n{content_blob}\n\n"
-        f"Write the '{title}' section now as JSON:"
-    )
-    client = Groq(api_key=settings.groq_api_key)
-    try:
-        response = client.chat.completions.create(
-            model=settings.groq_report_model,
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.2,
-            max_tokens=MAX_CHART_OUTPUT_TOKENS,
-        )
-    except RateLimitError as exc:
-        raise exc
-    return parse_section_json(response.choices[0].message.content or "", title)
+        client = Groq(api_key=settings.groq_api_key)
+        try:
+            response = client.chat.completions.create(
+                model=settings.groq_report_model,
+                messages=[{"role": "user", "content": prompt}],
+                temperature=0.2,
+                max_tokens=MAX_CHART_OUTPUT_TOKENS,
+            )
+        except RateLimitError as exc:
+            raise exc
+        parsed_body, llm_chart = parse_section_json(response.choices[0].message.content or "", title)
+        if parsed_body and parsed_body != "Content unavailable.":
+            body = parsed_body
+        if chart_data is None and llm_chart:
+            chart_data = llm_chart
+    return body, chart_data
 
 
 def _write_section(title: str, ticker: str, context: list[dict]) -> str:
@@ -343,10 +375,8 @@ def _generate_sections_live(
             body = _write_section(title, ticker, section_context)
 
         cite_limit = CHART_CONTEXT_CHUNKS if title in CHART_SECTIONS else CONTEXT_CHUNKS
-        citations = [
-            Citation(**citation_from_chunk(c))
-            for c in citation_context[:cite_limit]
-        ]
+        raw_citations = [citation_from_chunk(c) for c in citation_context[:cite_limit]]
+        citations = [Citation(**c) for c in validate_citations(raw_citations, ticker)]
         sections.append(
             ReportSection(title=title, body=body, citations=citations, chart_data=chart_data)
         )
@@ -437,10 +467,8 @@ def iter_report_sections(
             body = _write_section(title, ticker, section_context)
 
         cite_limit = CHART_CONTEXT_CHUNKS if title in CHART_SECTIONS else CONTEXT_CHUNKS
-        citations = [
-            Citation(**citation_from_chunk(c))
-            for c in citation_context[:cite_limit]
-        ]
+        raw_citations = [citation_from_chunk(c) for c in citation_context[:cite_limit]]
+        citations = [Citation(**c) for c in validate_citations(raw_citations, ticker)]
         section = ReportSection(title=title, body=body, citations=citations, chart_data=chart_data)
         sections.append(section)
         yield {

@@ -255,7 +255,7 @@ def build_clarify_response(
 
 
 def conversational_eval_scores() -> dict:
-    """Fixed eval for non-RAG conversational turns — avoids false Grade C."""
+    """Fixed eval for non-RAG conversational turns."""
     return {
         "faithfulness_score": 1.0,
         "unsupported_sentences": [],
@@ -266,7 +266,8 @@ def conversational_eval_scores() -> dict:
         "sources_used": 0,
         "total_claims": 1,
         "verified_claims": 1,
-        "grade": "A",
+        "grade": "—",
         "confidence": "high",
         "degraded": False,
+        "eval_method": "conversational",
     }

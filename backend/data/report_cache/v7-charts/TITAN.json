@@ -52,27 +52,7 @@
           "section": "general"
         }
       ],
-      "chart_data": {
-        "type": "donut",
-        "segments": [
-          {
-            "label": "Jewellery",
-            "value": 49227.0
-          },
-          {
-            "label": "Watches and Wearables",
-            "value": 4576.0
-          },
-          {
-            "label": "Eyecare",
-            "value": 796.0
-          },
-          {
-            "label": "Others",
-            "value": 406.0
-          }
-        ]
-      }
+      "chart_data": null
     },
     {
       "title": "Financial Performance",
@@ -114,15 +94,15 @@
           {
             "label": "Revenue (₹ Cr)",
             "values": [
-              47114.0,
-              54842.0
+              51084.0,
+              60456.0
             ]
           },
           {
             "label": "Net Profit (₹ Cr)",
             "values": [
-              3544.0,
-              3335.0
+              3496.0,
+              3337.0
             ]
           }
         ]

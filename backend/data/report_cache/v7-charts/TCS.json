@@ -56,7 +56,7 @@
         "type": "donut",
         "segments": [
           {
-            "label": "Banking, Financial Services and Insurance",
+            "label": "Banking, Financial Services and Insuranc",
             "value": 94597.0
           },
           {
@@ -74,10 +74,6 @@
           {
             "label": "Manufacturing",
             "value": 25170.0
-          },
-          {
-            "label": "Others",
-            "value": 23011.0
           }
         ]
       }

@@ -13,6 +13,7 @@ class ChatRequest(BaseModel):
     query: str
     ticker: str | None = None
     tickers: list[str] = Field(default_factory=list)
+    session_id: str | None = None
     conversation_history: list[FollowUpMessage] = Field(default_factory=list)
 
 
@@ -23,6 +24,8 @@ class Citation(BaseModel):
     ticker: str | None = None
     fiscal_year: str | None = None
     document_key: str | None = None
+    page_valid: bool | None = None
+    page_mismatch: bool | None = None
 
 
 class ChatResponse(BaseModel):

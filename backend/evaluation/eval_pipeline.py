@@ -13,6 +13,7 @@ def run_eval_pipeline(
     citations: list[dict],
     *,
     degraded: bool = False,
+    eval_method: str = "lexical_heuristic",
 ) -> dict:
     faith_result = score_faithfulness(answer, context)
     faith = faith_result["score"]
@@ -20,12 +21,21 @@ def run_eval_pipeline(
     cite_acc = citation_accuracy(citations)
     rel = score_relevance(query, answer)
 
-    if faith >= 0.85 and hall["hallucination_detected"] == 0:
-        grade = "A"
+    if eval_method == "conversational":
+        grade = "—"
+        confidence = "high"
+    elif not context:
+        grade = "C"
+        confidence = "low"
+    elif faith >= 0.85 and hall["hallucination_detected"] == 0:
+        grade = "B"
+        confidence = "high"
     elif faith >= 0.65:
         grade = "B"
+        confidence = "medium"
     else:
         grade = "C"
+        confidence = "low"
 
     return {
         "faithfulness_score": faith,
@@ -38,6 +48,7 @@ def run_eval_pipeline(
         "total_claims": max(len(answer.split(".")), 1),
         "verified_claims": int(max(len(answer.split(".")), 1) * faith),
         "grade": grade,
-        "confidence": "low" if not context else "high",
+        "confidence": confidence,
         "degraded": degraded,
+        "eval_method": eval_method,
     }

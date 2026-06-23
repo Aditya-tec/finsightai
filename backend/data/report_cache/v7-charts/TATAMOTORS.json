@@ -52,31 +52,7 @@
           "section": "general"
         }
       ],
-      "chart_data": {
-        "type": "donut",
-        "segments": [
-          {
-            "label": "Tata Commercial Vehicles",
-            "value": 75055.0
-          },
-          {
-            "label": "Tata Passenger Vehicles",
-            "value": 48445.0
-          },
-          {
-            "label": "Jaguar Land Rover",
-            "value": 314220.0
-          },
-          {
-            "label": "Vehicle Financing",
-            "value": 51.0
-          },
-          {
-            "label": "Others",
-            "value": 6019.0
-          }
-        ]
-      }
+      "chart_data": null
     },
     {
       "title": "Financial Performance",
@@ -125,8 +101,8 @@
           {
             "label": "Net Profit (₹ Cr)",
             "values": [
-              31807.0,
-              28149.0
+              37764.0,
+              34255.0
             ]
           }
         ]

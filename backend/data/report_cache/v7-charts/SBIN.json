@@ -52,23 +52,7 @@
           "section": "general"
         }
       ],
-      "chart_data": {
-        "type": "donut",
-        "segments": [
-          {
-            "label": "Corporate/Wholesale Banking",
-            "value": 134627.51
-          },
-          {
-            "label": "Retail Banking",
-            "value": 148999.81
-          },
-          {
-            "label": "Insurance Business",
-            "value": 7731.44
-          }
-        ]
-      }
+      "chart_data": null
     },
     {
       "title": "Financial Performance",
@@ -100,29 +84,7 @@
           "section": "general"
         }
       ],
-      "chart_data": {
-        "type": "bar",
-        "labels": [
-          "FY24",
-          "FY25"
-        ],
-        "datasets": [
-          {
-            "label": "Revenue (₹ Cr)",
-            "values": [
-              466813.0,
-              524172.0
-            ]
-          },
-          {
-            "label": "Net Profit (₹ Cr)",
-            "values": [
-              61077.0,
-              70901.0
-            ]
-          }
-        ]
-      }
+      "chart_data": null
     },
     {
       "title": "Balance Sheet Health + Cash Flow",

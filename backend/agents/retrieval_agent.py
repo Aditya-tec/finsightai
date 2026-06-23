@@ -1,8 +1,8 @@
 from __future__ import annotations
 
-from typing import Any
-
 from agents.events import EventCallback, emit
+from agents.generic_query import FINANCIAL_SPECIFIC_TERMS
+from rag.chunk_rank import boost_chunks
 from rag.graph_rag import enrich_with_graph
 from rag.hybrid_search import hybrid_retrieve
 from rag.multi_hop import is_complex_query, run_multi_hop
@@ -21,6 +21,8 @@ def retrieve_context(
     limit = 10 if fast else 20
     emit(on_event, "step", {"message": "Running hybrid retrieval…", "phase": "retrieval"})
     candidates = hybrid_retrieve(query, ticker=ticker, limit=limit)
+    financial_query = any(f" {t}" in f" {query.lower()} " for t in FINANCIAL_SPECIFIC_TERMS)
+    candidates = boost_chunks(candidates, query, financial_query=financial_query)
     if fast:
         emit(on_event, "step", {"message": f"Fast retrieval returned {len(candidates)} chunks", "phase": "retrieval"})
         return candidates[:5]

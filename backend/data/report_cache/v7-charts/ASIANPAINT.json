@@ -84,29 +84,7 @@
           "section": "Notes"
         }
       ],
-      "chart_data": {
-        "type": "bar",
-        "labels": [
-          "FY24",
-          "FY25"
-        ],
-        "datasets": [
-          {
-            "label": "Revenue (₹ Cr)",
-            "values": [
-              36182.69,
-              34478.23
-            ]
-          },
-          {
-            "label": "Net Profit (₹ Cr)",
-            "values": [
-              5557.69,
-              3709.71
-            ]
-          }
-        ]
-      }
+      "chart_data": null
     },
     {
       "title": "Balance Sheet Health + Cash Flow",

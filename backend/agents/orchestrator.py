@@ -1,6 +1,7 @@
 from __future__ import annotations
 
 from agents.citation_utils import citation_from_chunk
+from agents.citation_validate import enrich_and_validate_citation, validate_citations
 from agents.conversational_query import (
     build_clarify_response,
     build_conversational_response,
@@ -23,7 +24,7 @@ from agents.synthesis_agent import (
     synthesize_answer,
     synthesize_compare_answer,
 )
-from agents.ticker_parser import is_comparative_query, parse_tickers_from_query
+from agents.ticker_parser import is_comparative_query, is_peer_compare_query, parse_tickers_from_query, peers_for_ticker
 from evaluation.eval_pipeline import run_eval_pipeline
 from rag.multi_hop import is_complex_query
 from rag.search_errors import SearchIndexError
@@ -134,6 +135,9 @@ def run_chat(
     parsed_tickers = parse_tickers_from_query(query, tickers)
     if not parsed_tickers and ticker:
         parsed_tickers = [ticker.upper()]
+
+    if is_peer_compare_query(query) and len(parsed_tickers) == 1:
+        parsed_tickers = parsed_tickers + peers_for_ticker(parsed_tickers[0])
 
     emit(on_event, "step", {"message": "Analysing your query…", "phase": "routing"})
 
@@ -273,7 +277,9 @@ def run_chat(
     if meta_query and has_report:
         citations = _citations_from_report_history(history)
     else:
-        citations = [citation_from_chunk(c) for c in context[:8]]
+        raw = [citation_from_chunk(c) for c in context[:8]]
+        sym = active_ticker or ""
+        citations = validate_citations(raw, sym) if sym else raw
 
     eval_scores = run_eval_pipeline(
         query=query, answer=answer, context=context, citations=citations, degraded=degraded

@@ -52,31 +52,7 @@
           "section": "\u0007'RBI’s Master Direction on Financial Statements – Presentation and Disclosures, requires to sub-divide ‘Retail"
         }
       ],
-      "chart_data": {
-        "type": "donut",
-        "segments": [
-          {
-            "label": "Digital Banking",
-            "value": 402641.2
-          },
-          {
-            "label": "Other Retail Banking",
-            "value": 1159205.6
-          },
-          {
-            "label": "Wholesale Banking",
-            "value": 717802.2
-          },
-          {
-            "label": "Treasury",
-            "value": 1139592.2
-          },
-          {
-            "label": "Other Banking Business",
-            "value": 32973.0
-          }
-        ]
-      }
+      "chart_data": null
     },
     {
       "title": "Financial Performance",
@@ -118,15 +94,15 @@
           {
             "label": "Revenue (₹ Cr)",
             "values": [
-              97255.0,
-              107768.0
+              811.65,
+              743.06
             ]
           },
           {
             "label": "Net Profit (₹ Cr)",
             "values": [
-              40888.0,
-              47227.0
+              472.27,
+              408.88
             ]
           }
         ]

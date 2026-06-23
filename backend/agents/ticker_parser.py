@@ -33,6 +33,36 @@ _ALIASES = {
 }
 
 _COMPARE_MARKERS = ("compare", "versus", " vs ", " vs.", "between", "difference")
+_PEER_MARKERS = (
+    "compare to peers",
+    "vs peers",
+    "versus peers",
+    "peer comparison",
+    "against peers",
+    "vs sector",
+    "versus sector",
+    "sector peers",
+    "industry peers",
+)
+
+
+def is_peer_compare_query(query: str) -> bool:
+    q = query.lower()
+    return any(m in q for m in _PEER_MARKERS)
+
+
+def peers_for_ticker(ticker: str, max_peers: int = 2) -> list[str]:
+    """Return same-sector Nifty 20 tickers excluding subject."""
+    sym = ticker.upper()
+    sector = None
+    for c in NIFTY20:
+        if c["ticker"] == sym:
+            sector = c.get("sector")
+            break
+    if not sector:
+        return []
+    peers = [c["ticker"] for c in NIFTY20 if c.get("sector") == sector and c["ticker"] != sym]
+    return peers[:max_peers]
 
 
 def is_comparative_query(query: str) -> bool:

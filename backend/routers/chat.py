@@ -12,11 +12,42 @@ from groq import RateLimitError
 from agents.orchestrator import run_chat
 from rag.search_errors import SearchIndexError
 from schemas import ChatRequest, ChatResponse
+from services.conversation_store import append_message, get_or_create_conversation, load_messages
 
 router = APIRouter()
 
 
+def _resolve_history(request: ChatRequest) -> list[dict]:
+    history = [m.model_dump() for m in request.conversation_history]
+    if history:
+        return history
+    if not request.session_id:
+        return []
+    conv_id = get_or_create_conversation(
+        request.session_id,
+        request.ticker or (request.tickers[0] if request.tickers else None),
+    )
+    if not conv_id:
+        return []
+    return load_messages(conv_id)
+
+
+def _persist_turn(request: ChatRequest, result: dict) -> None:
+    if not request.session_id:
+        return
+    conv_id = get_or_create_conversation(
+        request.session_id,
+        request.ticker or (request.tickers[0] if request.tickers else None),
+    )
+    if not conv_id:
+        return
+    append_message(conv_id, "user", request.query)
+    append_message(conv_id, "assistant", result.get("answer", ""), result.get("citations"))
+
+
 def _run_chat_with_events(request: ChatRequest, event_queue: queue.Queue) -> None:
+    history = _resolve_history(request)
+
     def on_event(event_type: str, payload: dict) -> None:
         event_queue.put({"type": event_type, **payload})
 
@@ -24,10 +55,11 @@ def _run_chat_with_events(request: ChatRequest, event_queue: queue.Queue) -> Non
         result = run_chat(
             request.query,
             request.ticker,
-            [m.model_dump() for m in request.conversation_history],
+            history,
             tickers=request.tickers,
             on_event=on_event,
         )
+        _persist_turn(request, result)
         event_queue.put({"type": "done", "result": result})
     except SearchIndexError as exc:
         event_queue.put({"type": "error", "detail": str(exc) or "Search index unavailable"})
@@ -39,14 +71,16 @@ def _run_chat_with_events(request: ChatRequest, event_queue: queue.Queue) -> Non
 
 @router.post("/chat", response_model=ChatResponse)
 async def chat(request: ChatRequest):
+    history = _resolve_history(request)
     try:
         result = await asyncio.to_thread(
             run_chat,
             request.query,
             request.ticker,
-            [m.model_dump() for m in request.conversation_history],
+            history,
             tickers=request.tickers,
         )
+        _persist_turn(request, result)
         return ChatResponse(**result)
     except RateLimitError:
         raise HTTPException(

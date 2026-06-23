@@ -57,19 +57,19 @@
         "segments": [
           {
             "label": "Infrastructure Projects",
-            "value": 103742.51
+            "value": 103742.5
           },
           {
             "label": "Energy Projects",
-            "value": 23934.45
+            "value": 23934.5
           },
           {
             "label": "Hi-Tech Manufacturing",
-            "value": 9797.02
+            "value": 9797.0
           },
           {
-            "label": "Others",
-            "value": 4058.99
+            "label": "and Others",
+            "value": 4059.0
           }
         ]
       }
@@ -114,15 +114,15 @@
           {
             "label": "Revenue (₹ Cr)",
             "values": [
-              221113.0,
-              255734.0
+              133626.0,
+              151340.0
             ]
           },
           {
             "label": "Net Profit (₹ Cr)",
             "values": [
-              15547.0,
-              17673.0
+              9331.41,
+              10870.72
             ]
           }
         ]

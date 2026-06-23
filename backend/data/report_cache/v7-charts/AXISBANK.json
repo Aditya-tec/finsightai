@@ -52,27 +52,7 @@
           "section": "Standalone financial statements"
         }
       ],
-      "chart_data": {
-        "type": "donut",
-        "segments": [
-          {
-            "label": "Retail Banking",
-            "value": 76044.88
-          },
-          {
-            "label": "Corporate/Wholesale Banking",
-            "value": 38132.43
-          },
-          {
-            "label": "Treasury",
-            "value": 28666.56
-          },
-          {
-            "label": "Other Banking Business",
-            "value": 52913.53
-          }
-        ]
-      }
+      "chart_data": null
     },
     {
       "title": "Financial Performance",
@@ -114,8 +94,8 @@
           {
             "label": "Revenue (₹ Cr)",
             "values": [
-              72336.0,
-              79605.0
+              49894.0,
+              54348.0
             ]
           },
           {

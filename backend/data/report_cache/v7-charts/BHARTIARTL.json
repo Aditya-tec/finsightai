@@ -52,31 +52,7 @@
           "section": "Notes to Consolidated Financial Statements"
         }
       ],
-      "chart_data": {
-        "type": "donut",
-        "segments": [
-          {
-            "label": "Mobile Services India",
-            "value": 97689.0
-          },
-          {
-            "label": "Mobile Services Africa",
-            "value": 41380.0
-          },
-          {
-            "label": "Airtel Business",
-            "value": 52071.0
-          },
-          {
-            "label": "Homes Services",
-            "value": 58594.0
-          },
-          {
-            "label": "Digital TV Services",
-            "value": 30552.0
-          }
-        ]
-      }
+      "chart_data": null
     },
     {
       "title": "Financial Performance",
@@ -108,29 +84,7 @@
           "section": "Notes to Standalone Financial Statements"
         }
       ],
-      "chart_data": {
-        "type": "bar",
-        "labels": [
-          "FY24",
-          "FY25"
-        ],
-        "datasets": [
-          {
-            "label": "Revenue (₹ Cr)",
-            "values": [
-              14998.24,
-              17298.52
-            ]
-          },
-          {
-            "label": "Net Profit (₹ Cr)",
-            "values": [
-              746.7,
-              3355.61
-            ]
-          }
-        ]
-      }
+      "chart_data": null
     },
     {
       "title": "Balance Sheet Health + Cash Flow",

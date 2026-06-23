@@ -92,17 +92,17 @@
         ],
         "datasets": [
           {
-            "label": "Revenue (Cr)",
+            "label": "Revenue (₹ Cr)",
             "values": [
-              54974.0,
-              69684.0
+              26940.0,
+              33112.0
             ]
           },
           {
-            "label": "Net Profit (Cr)",
+            "label": "Net Profit (₹ Cr)",
             "values": [
-              14451.0,
-              16779.0
+              12644.0,
+              16662.0
             ]
           }
         ]

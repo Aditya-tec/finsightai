@@ -52,27 +52,7 @@
           "section": "general"
         }
       ],
-      "chart_data": {
-        "type": "donut",
-        "segments": [
-          {
-            "label": "Interest on Advances",
-            "value": 251953.6
-          },
-          {
-            "label": "Income on Investments",
-            "value": 73912.07
-          },
-          {
-            "label": "Interest on Balance with RBI and other inter-bank funds",
-            "value": 3172.52
-          },
-          {
-            "label": "Others",
-            "value": 7329.24
-          }
-        ]
-      }
+      "chart_data": null
     },
     {
       "title": "Financial Performance",
@@ -114,15 +94,15 @@
           {
             "label": "Revenue (₹ Cr)",
             "values": [
-              283649.02,
-              336367.43
+              258340.58,
+              300517.04
             ]
           },
           {
             "label": "Net Profit (₹ Cr)",
             "values": [
-              60712.0,
-              67347.0
+              60812.28,
+              67347.36
             ]
           }
         ]
