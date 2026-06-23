@@ -94,3 +94,52 @@ export async function summarizeBulletsApi(payload: {
 export function documentApiUrl(ticker: string, fiscalYear: string): string {
   return `${API_BASE}/api/documents/${ticker.toUpperCase()}/${fiscalYear.toUpperCase()}`;
 }
+
+export type DocumentStatus = {
+  ticker: string;
+  fiscal_year: string;
+  pdf_available: boolean;
+  parsed_available: boolean;
+  page_count: number;
+};
+
+export type DocumentPage = {
+  ticker: string;
+  fiscal_year: string;
+  requested_page: number;
+  page: number;
+  page_mismatch: boolean;
+  text: string;
+  section_hint?: string | null;
+  pdf_available: boolean;
+  parsed_available: boolean;
+  page_count: number;
+};
+
+export async function fetchDocumentStatus(ticker: string, fiscalYear: string) {
+  const res = await apiClient.get(
+    `/api/documents/${ticker.toUpperCase()}/${fiscalYear.toUpperCase()}/status`
+  );
+  return res.data as DocumentStatus;
+}
+
+export async function fetchDocumentPage(
+  ticker: string,
+  fiscalYear: string,
+  page: number,
+  section?: string
+) {
+  const params = section ? { section } : undefined;
+  const res = await apiClient.get(
+    `/api/documents/${ticker.toUpperCase()}/${fiscalYear.toUpperCase()}/pages/${page}`,
+    { params }
+  );
+  return res.data as DocumentPage;
+}
+
+export async function fetchDocumentPdfBlob(ticker: string, fiscalYear: string) {
+  const res = await apiClient.get(documentApiUrl(ticker, fiscalYear), {
+    responseType: "blob",
+  });
+  return res.data as Blob;
+}

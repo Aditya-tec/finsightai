@@ -2020,6 +2020,72 @@ html, body {
   margin-bottom: 8px;
 }
 
+.source-page-nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 12px;
+  margin: 16px 0;
+}
+
+.source-nav-btn {
+  padding: 6px 12px;
+  font-size: 0.875rem;
+}
+
+.source-nav-label {
+  color: var(--text-dim);
+  font-size: 0.875rem;
+}
+
+.source-nav-spacer {
+  min-width: 88px;
+}
+
+.source-view-toggle {
+  display: flex;
+  gap: 8px;
+  margin-bottom: 12px;
+}
+
+.source-toggle-btn {
+  padding: 6px 14px;
+  font-size: 0.8125rem;
+}
+
+.source-text-panel {
+  margin-top: 12px;
+  padding: 20px 24px;
+  max-height: 80vh;
+  overflow: auto;
+}
+
+.source-text-body {
+  margin: 0;
+  white-space: pre-wrap;
+  word-break: break-word;
+  font-family: var(--font-geist-sans, system-ui, sans-serif);
+  font-size: 0.9375rem;
+  line-height: 1.65;
+  color: var(--text);
+}
+
+.source-mismatch-note {
+  margin: 0 0 16px;
+  padding: 10px 12px;
+  border-radius: var(--radius-md);
+  background: rgba(255, 180, 0, 0.08);
+  border: 1px solid rgba(255, 180, 0, 0.2);
+  color: var(--text-dim);
+  font-size: 0.875rem;
+}
+
+.source-inline-error {
+  margin-top: 12px;
+  color: var(--red, #e55);
+  font-size: 0.875rem;
+}
+
 .empty-state.panel-elevated {
   border-radius: var(--radius-lg);
   border: 1px solid rgba(255, 255, 255, 0.06);

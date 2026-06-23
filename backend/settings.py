@@ -25,6 +25,9 @@ class Settings:
     raw_data_dir: str = field(
         default_factory=lambda: _env("DATA_RAW_DIR", str(BASE_DIR.parent / "data" / "raw"))
     )
+    parsed_data_dir: str = field(
+        default_factory=lambda: _env("DATA_PARSED_DIR", str(BASE_DIR.parent / "data" / "parsed"))
+    )
 
     @property
     def groq_api_key(self) -> str:

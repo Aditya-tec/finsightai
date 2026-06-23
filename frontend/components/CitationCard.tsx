@@ -1,4 +1,5 @@
 import type { Citation } from "@/lib/citations";
+import { sourcePageHref } from "@/lib/citations";
 
 type Props = {
   citation: Citation;
@@ -13,7 +14,7 @@ export default function CitationCard({ citation }: Props) {
       <div className="citation-card-source">{citation.source || "filing"}</div>
       {citation.page != null && ticker ? (
         <a
-          href={`/source/${ticker}?page=${citation.page}&fiscal_year=${encodeURIComponent(fy)}`}
+          href={sourcePageHref(ticker, citation.page, fy, citation.section)}
           className="citation-card-page"
         >
           Page {citation.page}

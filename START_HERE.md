@@ -64,7 +64,14 @@ Open http://localhost:3000 in your browser.
 
 ## STEP 3 — Load data (after keys work)
 
-**PDFs:** Either add direct `pdf_url` values to `scripts/bse_report_urls.json` and run step 01, **or** drop files manually as `data/raw/{TICKER}_FY25.pdf` (e.g. `data/raw/INFY_FY25.pdf`).
+**PDFs (required for citation source pages):** Place annual reports as `data/raw/{TICKER}_FY25.pdf` (e.g. `data/raw/TATAMOTORS_FY25.pdf`).  
+Alternatively, add direct `pdf_url` values to `scripts/bse_report_urls.json` and run step 01 below.
+
+Optional path overrides in `backend/.env`:
+```
+DATA_RAW_DIR=C:\path\to\data\raw
+DATA_PARSED_DIR=C:\path\to\data\parsed
+```
 
 From project root (third terminal or after stopping nothing):
 
@@ -79,7 +86,9 @@ cd C:\Users\kalam\Desktop\FinSight-AI
 .\backend\venv\Scripts\python.exe scripts\07_build_graph.py
 ```
 
-> **Note:** Step `01_download_pdfs.py` reads URLs from `scripts/bse_report_urls.json`. Empty URLs are skipped — manual PDF drops at `data/raw/{TICKER}_FY25.pdf` work fine; run from step 02.
+> **Note:** Step `01_download_pdfs.py` reads URLs from `scripts/bse_report_urls.json`. Empty URLs are skipped — manual PDF drops at `data/raw/{TICKER}_FY25.pdf` work fine; **always run step 02** after adding PDFs so citation page links can show extracted text even when PDF viewing fails.
+
+> **Citation sources:** Clicking a page number in a report opens `/source/{TICKER}?page=N`. The viewer shows the PDF when present, otherwise readable extracted text from `data/parsed/`.
 
 ---
 
@@ -105,6 +114,7 @@ See `DEPLOYMENT.md` for Railway (backend) + Vercel (frontend).
 | Backend won't start | Run `pip install -r requirements.txt` inside `backend` venv |
 | Frontend can't reach API | Check `frontend/.env.local` has `NEXT_PUBLIC_API_URL=http://localhost:8000` |
 | Empty answers | Add Groq key; run ingestion pipeline |
+| Citation page shows error | Add `data/raw/{TICKER}_FY25.pdf` and run `scripts/02_parse_pdfs.py` |
 | No companies on home page | Start backend first, refresh frontend |
 
 When you have your Groq + Supabase keys pasted, tell me **"keys are in"** and I will run the ingestion and verify everything with you.

@@ -17,6 +17,9 @@ class ApiKeyMiddleware(BaseHTTPMiddleware):
         if request.method == "OPTIONS" or path == "/health" or path.startswith("/docs") or path == "/openapi.json":
             return await call_next(request)
 
+        if path.startswith("/api/documents/"):
+            return await call_next(request)
+
         if path.startswith("/api/"):
             provided = request.headers.get("X-API-Key", "")
             if provided != api_key:

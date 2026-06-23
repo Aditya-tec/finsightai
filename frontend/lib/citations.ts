@@ -18,8 +18,17 @@ export function annualReportCitationLabel(ticker?: string, fiscalYear = "FY25"):
   return symbol ? `${symbol} ${report}` : report;
 }
 
-export function sourcePageHref(ticker: string, page: number, fiscalYear = "FY25"): string {
-  return `/source/${ticker.toUpperCase()}?page=${page}&fiscal_year=${encodeURIComponent(fiscalYear)}`;
+export function sourcePageHref(
+  ticker: string,
+  page: number,
+  fiscalYear = "FY25",
+  section?: string
+): string {
+  const base = `/source/${ticker.toUpperCase()}?page=${page}&fiscal_year=${encodeURIComponent(fiscalYear)}`;
+  if (section?.trim()) {
+    return `${base}&section=${encodeURIComponent(section.trim())}`;
+  }
+  return base;
 }
 
 /** Plain string for PDF export */
