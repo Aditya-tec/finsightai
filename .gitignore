@@ -16,9 +16,7 @@ node_modules/
 backend/.env
 frontend/.env.local
 
-# Data artifacts
-backend/bm25_index.pkl
-backend/graph.json
+# Data artifacts (bm25_index.pkl, graph.json, report_cache are tracked for HF Spaces)
 backend/data/bullet_cache/
 data/raw/
 data/parsed/

@@ -1,0 +1,8 @@
+# Local filing artifacts — not shipped to HuggingFace Space
+data/raw/
+data/parsed/
+
+# Intentionally tracked for Space runtime (do not add):
+#   data/report_cache/
+#   bm25_index.pkl
+#   graph.json
