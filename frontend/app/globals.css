@@ -43,20 +43,7 @@ html, body {
   -webkit-font-smoothing: antialiased;
 }
 
-@media (hover: hover) and (pointer: fine) {
-  html,
-  body,
-  a,
-  button,
-  input,
-  textarea,
-  select,
-  label,
-  [role="button"] {
-    cursor: none !important;
-  }
-}
-
+/* Trailing ring — system cursor stays visible; ring lags behind for depth */
 .cursor-glow {
   position: fixed;
   top: 0;
@@ -64,105 +51,63 @@ html, body {
   pointer-events: none;
   z-index: 9999;
   opacity: 0;
-  transition: opacity 0.12s ease;
+  transition:
+    opacity 0.2s ease,
+    width 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+    height 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+    margin 0.28s cubic-bezier(0.22, 1, 0.36, 1),
+    border-color 0.22s ease,
+    background 0.22s ease,
+    box-shadow 0.22s ease;
   will-change: transform;
-  width: 12px;
-  height: 12px;
-  margin: -6px 0 0 -6px;
+  width: 28px;
+  height: 28px;
+  margin: -14px 0 0 -14px;
   border-radius: 50%;
-  background: radial-gradient(
-    circle,
-    #ffffff 0%,
-    #e8f4ff 38%,
-    rgba(0, 153, 255, 0.55) 68%,
-    transparent 100%
-  );
-  box-shadow:
-    0 0 6px rgba(255, 255, 255, 1),
-    0 0 16px rgba(0, 153, 255, 0.75),
-    0 0 32px rgba(0, 153, 255, 0.4),
-    0 0 52px rgba(0, 153, 255, 0.18);
-  filter: blur(0.4px);
-  mix-blend-mode: screen;
-  animation: cursor-glow-pulse 2.2s ease-in-out infinite;
+  background: rgba(0, 153, 255, 0.05);
+  border: 1px solid rgba(0, 153, 255, 0.32);
+  box-shadow: 0 0 14px rgba(0, 153, 255, 0.1);
 }
 
 .cursor-glow::before {
   content: "";
   position: absolute;
-  inset: -18px;
+  inset: -10px;
   border-radius: 50%;
-  background: radial-gradient(
-    circle,
-    rgba(0, 153, 255, 0.45) 0%,
-    rgba(0, 153, 255, 0.12) 42%,
-    transparent 72%
-  );
-  filter: blur(10px);
-  z-index: -1;
-  animation: cursor-glow-halo 2.2s ease-in-out infinite;
-}
-
-.cursor-glow::after {
-  content: "";
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  width: 5px;
-  height: 5px;
-  margin: -2.5px 0 0 -2.5px;
-  border-radius: 50%;
-  background: #ffffff;
-  box-shadow: 0 0 8px rgba(255, 255, 255, 1);
-}
-
-@keyframes cursor-glow-pulse {
-  0%,
-  100% {
-    box-shadow:
-      0 0 6px rgba(255, 255, 255, 1),
-      0 0 16px rgba(0, 153, 255, 0.75),
-      0 0 32px rgba(0, 153, 255, 0.4),
-      0 0 52px rgba(0, 153, 255, 0.18);
-  }
-  50% {
-    box-shadow:
-      0 0 10px rgba(255, 255, 255, 1),
-      0 0 24px rgba(0, 153, 255, 0.9),
-      0 0 44px rgba(0, 153, 255, 0.5),
-      0 0 68px rgba(0, 153, 255, 0.24);
-  }
-}
-
-@keyframes cursor-glow-halo {
-  0%,
-  100% {
-    opacity: 0.75;
-    transform: scale(1);
-  }
-  50% {
-    opacity: 1;
-    transform: scale(1.12);
-  }
+  background: radial-gradient(circle, rgba(0, 153, 255, 0.1) 0%, transparent 68%);
+  filter: blur(5px);
+  opacity: 0.85;
+  transition: opacity 0.22s ease, transform 0.28s cubic-bezier(0.22, 1, 0.36, 1);
 }
 
 .cursor-glow.is-visible {
   opacity: 1;
 }
 
-@media (prefers-reduced-motion: reduce) {
-  html,
-  body,
-  a,
-  button,
-  input,
-  textarea,
-  select,
-  label,
-  [role="button"] {
-    cursor: auto !important;
-  }
+.cursor-glow.is-hovering {
+  width: 42px;
+  height: 42px;
+  margin: -21px 0 0 -21px;
+  border-color: rgba(0, 153, 255, 0.55);
+  background: rgba(0, 153, 255, 0.09);
+  box-shadow: 0 0 22px rgba(0, 153, 255, 0.22);
+}
 
+.cursor-glow.is-hovering::before {
+  opacity: 1;
+  transform: scale(1.08);
+}
+
+.cursor-glow.is-clicking {
+  width: 20px;
+  height: 20px;
+  margin: -10px 0 0 -10px;
+  border-color: rgba(34, 197, 94, 0.65);
+  background: rgba(34, 197, 94, 0.12);
+  box-shadow: 0 0 18px rgba(34, 197, 94, 0.25);
+}
+
+@media (prefers-reduced-motion: reduce) {
   .cursor-glow {
     display: none;
   }
@@ -177,18 +122,6 @@ html, body {
 }
 
 @media (hover: none), (pointer: coarse) {
-  html,
-  body,
-  a,
-  button,
-  input,
-  textarea,
-  select,
-  label,
-  [role="button"] {
-    cursor: auto !important;
-  }
-
   .cursor-glow {
     display: none;
   }
