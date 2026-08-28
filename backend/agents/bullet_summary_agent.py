@@ -91,7 +91,8 @@ def summarize_section_bullets(title: str, body: str) -> list[str]:
                 {"role": "user", "content": user_content},
             ],
             temperature=0.2,
-            max_tokens=512,
+            max_tokens=1024,
+            reasoning_effort="low",
         )
         raw = (response.choices[0].message.content or "").strip()
         bullets = _parse_bullets(raw)

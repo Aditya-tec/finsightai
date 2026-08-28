@@ -47,8 +47,9 @@ SECTION_QUERIES = {
 CONTEXT_CHUNKS = 3
 CHART_CONTEXT_CHUNKS = 5
 CHART_TARGETED_LIMIT = 5
-MAX_OUTPUT_TOKENS = 425
-MAX_CHART_OUTPUT_TOKENS = 700
+# Budgets include the model's reasoning tokens, so they sit well above prose length.
+MAX_OUTPUT_TOKENS = 1200
+MAX_CHART_OUTPUT_TOKENS = 1600
 _CACHE_VERSION = "v7-charts"
 
 CHART_TARGETED_QUERIES = {
@@ -303,6 +304,7 @@ def _write_section_with_chart(
                 messages=[{"role": "user", "content": prompt}],
                 temperature=0.2,
                 max_tokens=MAX_CHART_OUTPUT_TOKENS,
+                reasoning_effort="low",
             )
         except RateLimitError as exc:
             raise exc
@@ -336,6 +338,7 @@ def _write_section(title: str, ticker: str, context: list[dict]) -> str:
             messages=[{"role": "user", "content": prompt}],
             temperature=0.2,
             max_tokens=MAX_OUTPUT_TOKENS,
+            reasoning_effort="low",
         )
     except RateLimitError as exc:
         raise exc

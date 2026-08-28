@@ -38,7 +38,7 @@ class Settings:
 
     @property
     def groq_report_model(self) -> str:
-        return _env("GROQ_REPORT_MODEL", "llama-3.3-70b-versatile")
+        return _env("GROQ_REPORT_MODEL", "openai/gpt-oss-120b")
 
     @property
     def cohere_api_key(self) -> str:

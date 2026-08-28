@@ -16,7 +16,7 @@ def generate_hypothetical_answer(query: str) -> str:
         "Return 4-6 bullet points with financial terms."
     )
     completion = client.chat.completions.create(
-        model="llama-3.3-70b-versatile",
+        model=settings.groq_report_model,
         messages=[{"role": "user", "content": prompt}],
         temperature=0.1,
     )

@@ -165,7 +165,7 @@ def synthesize_compare_answer(
     client = Groq(api_key=settings.groq_api_key)
     try:
         response = client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model=settings.groq_report_model,
             messages=[{"role": "user", "content": prompt}],
             temperature=0.2,
         )
@@ -203,7 +203,7 @@ def synthesize_answer(
     client = Groq(api_key=settings.groq_api_key)
     try:
         response = client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model=settings.groq_report_model,
             messages=[{"role": "user", "content": prompt}],
             temperature=0.2,
         )

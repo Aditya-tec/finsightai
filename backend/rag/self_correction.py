@@ -39,9 +39,10 @@ def _score_chunk_with_llm(query: str, chunk: str) -> tuple[float, str, bool]:
     client = Groq(api_key=settings.groq_api_key)
     try:
         reply = client.chat.completions.create(
-            model="llama-3.3-70b-versatile",
+            model=settings.groq_report_model,
             messages=[{"role": "user", "content": JUDGE_PROMPT.format(query=query, chunk=chunk[:2000])}],
             temperature=0.0,
+            reasoning_effort="low",
         )
     except RateLimitError:
         return 0.0, "rate limited", True
