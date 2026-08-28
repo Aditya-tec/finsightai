@@ -63,14 +63,17 @@ def test_extract_financial_bar_from_board_table(tmp_path: Path) -> None:
         assert chart["datasets"][0]["values"] == [240893.0, 255324.0]
 
 
-def test_extract_financial_from_body_fallback() -> None:
+def test_extract_financial_from_body_fallback(tmp_path: Path) -> None:
     body = (
         "The consolidated revenue from operations stood at ₹2,55,324 crore for FY 2025, "
         "representing an increase over the previous year's revenue from operations of ₹2,40,893 crore. "
         "The profit for the year attributable to shareholders for FY 2025 was ₹48,553 crore, "
         "compared to ₹45,908 crore in FY 2024."
     )
-    chart = extract_chart_for_section(SECTION_FINANCIAL, "TCS", body=body)
+    empty = tmp_path / "parsed"
+    empty.mkdir()
+    with _with_parsed_dir(empty):
+        chart = extract_chart_for_section(SECTION_FINANCIAL, "TCS", body=body)
     assert chart is not None
     assert chart["datasets"][0]["values"] == [240893.0, 255324.0]
 

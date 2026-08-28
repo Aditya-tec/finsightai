@@ -172,20 +172,28 @@ def _amount_to_crore(value: float, unit: str | None) -> float:
     return round(value, 1)
 
 
+_FY25 = r"FY['\s]*(?:20)?25"
+_FY24 = r"FY['\s]*(?:20)?24"
+
+
 def _find_metric_pair(text: str, labels: tuple[str, ...]) -> tuple[float, float] | None:
     for label in labels:
         label_pat = re.escape(label).replace(r"\ ", r"\s+")
         patterns = [
             # "metric of ₹X crore ... from ₹Y crore in the previous year"
             rf"{label_pat}\s+of\s+₹\s*([\d,]+(?:\.\d+)?)\s*(crore|million|cr\b|billion)?[^\n]{{0,120}}from\s+₹\s*([\d,]+(?:\.\d+)?)\s*(crore|million|cr\b|billion)?[^\n]{{0,40}}previous year",
+            # "stood at ₹X ... FY25 ... previous year ... ₹Y" (TCS-style prose)
+            rf"(?:consolidated\s+)?{label_pat}\s+stood at\s+₹\s*([\d,]+(?:\.\d+)?)\s*(crore|million|cr\b|billion)?[^\n]{{0,100}}{_FY25}[^\n]{{0,160}}previous year(?:'s)?[^\n]{{0,80}}₹\s*([\d,]+(?:\.\d+)?)\s*(crore|million|cr\b|billion)?",
+            # "for FY25 was ₹X ... compared to ₹Y ... FY24" (shareholder PAT prose)
+            rf"{label_pat}\s+for {_FY25}\s+was\s+₹\s*([\d,]+(?:\.\d+)?)\s*(crore|million|cr\b|billion)?[^\n]{{0,50}}compared to\s+₹\s*([\d,]+(?:\.\d+)?)\s*(crore|million|cr\b|billion)?[^\n]{{0,40}}{_FY24}",
             # "[Consolidated] stood at ₹X million in FY'25, compared to ₹Y million in FY'24"
-            rf"{label_pat}(?:\s*\[[^\]]+\])?\s*stood at\s+₹\s*([\d,]+(?:\.\d+)?)\s*(crore|million|cr\b|billion)?[^\n]{{0,40}}FY['\s]*25[^\n]{{0,40}}compared to\s+₹\s*([\d,]+(?:\.\d+)?)\s*(crore|million|cr\b|billion)?[^\n]{{0,30}}FY['\s]*24",
+            rf"{label_pat}(?:\s*\[[^\]]+\])?\s*stood at\s+₹\s*([\d,]+(?:\.\d+)?)\s*(crore|million|cr\b|billion)?[^\n]{{0,40}}{_FY25}[^\n]{{0,40}}compared to\s+₹\s*([\d,]+(?:\.\d+)?)\s*(crore|million|cr\b|billion)?[^\n]{{0,30}}{_FY24}",
             # consolidated sales in billion (Wipro-style)
             rf"(?:{label_pat}|sales)[^\n]{{0,30}}₹\s*([\d,]+(?:\.\d+)?)\s*(billion)[^\n]{{0,80}}previous year[^\n]{{0,40}}₹\s*([\d,]+(?:\.\d+)?)\s*(billion)",
             rf"(?:{label_pat}|sales)[^\n]{{0,30}}₹\s*([\d,]+(?:\.\d+)?)\s*(billion)[^\n]{{0,80}}as against\s+₹\s*([\d,]+(?:\.\d+)?)\s*(billion)[^\n]{{0,40}}previous year",
             # "metric ... ₹X ... FY25 ... ₹Y ... FY24" (short window)
-            rf"{label_pat}(?:\s*\[[^\]]+\])?[^\n]{{0,40}}₹\s*([\d,]+(?:\.\d+)?)\s*(crore|million|cr\b|billion)?[^\n]{{0,60}}FY['\s]*25[^\n]{{0,60}}₹\s*([\d,]+(?:\.\d+)?)\s*(crore|million|cr\b|billion)?[^\n]{{0,30}}FY['\s]*24",
-            rf"{label_pat}(?:\s*\[[^\]]+\])?[^\n]{{0,40}}₹\s*([\d,]+(?:\.\d+)?)\s*(crore|million|cr\b|billion)?[^\n]{{0,60}}FY['\s]*24[^\n]{{0,60}}₹\s*([\d,]+(?:\.\d+)?)\s*(crore|million|cr\b|billion)?[^\n]{{0,30}}FY['\s]*25",
+            rf"{label_pat}(?:\s*\[[^\]]+\])?[^\n]{{0,40}}₹\s*([\d,]+(?:\.\d+)?)\s*(crore|million|cr\b|billion)?[^\n]{{0,60}}{_FY25}[^\n]{{0,60}}₹\s*([\d,]+(?:\.\d+)?)\s*(crore|million|cr\b|billion)?[^\n]{{0,30}}{_FY24}",
+            rf"{label_pat}(?:\s*\[[^\]]+\])?[^\n]{{0,40}}₹\s*([\d,]+(?:\.\d+)?)\s*(crore|million|cr\b|billion)?[^\n]{{0,60}}{_FY24}[^\n]{{0,60}}₹\s*([\d,]+(?:\.\d+)?)\s*(crore|million|cr\b|billion)?[^\n]{{0,30}}{_FY25}",
         ]
         for pat in patterns:
             m = re.search(pat, text, re.IGNORECASE | re.DOTALL)
