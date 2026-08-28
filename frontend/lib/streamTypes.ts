@@ -1,4 +1,5 @@
 import type { Citation } from "./api";
+import type { CompareData } from "./compareTypes";
 
 export type StreamStep = {
   message: string;
@@ -11,6 +12,7 @@ export type ChatStreamResult = {
   eval_scores: Record<string, unknown>;
   sources: string[];
   tickers?: string[];
+  comparison?: CompareData | null;
 };
 
 export type ReportStreamSection = {

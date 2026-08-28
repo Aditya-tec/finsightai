@@ -34,6 +34,7 @@ class ChatResponse(BaseModel):
     eval_scores: dict[str, Any]
     sources: list[str]
     tickers: list[str] = Field(default_factory=list)
+    comparison: dict[str, Any] | None = None
 
 
 class ReportRequest(BaseModel):

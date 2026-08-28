@@ -959,6 +959,7 @@ html, body {
   font-size: 15px;
   line-height: 1.75;
   color: var(--text);
+  white-space: pre-wrap;
 }
 
 .answer-placeholder {
@@ -2148,13 +2149,90 @@ html, body {
   width: 100%;
   border-collapse: collapse;
   font-size: 0.875rem;
+  min-width: 520px;
+}
+
+.compare-table-scroll {
+  overflow-x: auto;
+  margin-top: 4px;
+  border: 1px solid var(--border);
+  border-radius: var(--radius-md);
 }
 
 .compare-table th,
 .compare-table td {
   text-align: left;
-  padding: 8px 10px;
+  padding: 10px 12px;
   border-bottom: 1px solid var(--border);
+  vertical-align: top;
+}
+
+.compare-table thead th {
+  background: rgba(255, 255, 255, 0.03);
+  color: var(--text-dim);
+  font-size: 0.8125rem;
+  font-weight: 600;
+}
+
+.compare-table tbody tr:last-child td {
+  border-bottom: none;
+}
+
+.compare-metric-col {
+  min-width: 180px;
+  max-width: 240px;
+  color: var(--text);
+  font-weight: 500;
+}
+
+.compare-metric-label {
+  display: block;
+}
+
+.compare-metric-note {
+  display: block;
+  margin-top: 4px;
+  font-size: 0.75rem;
+  color: var(--text-muted);
+  font-weight: 400;
+}
+
+.compare-summary {
+  margin: 0 0 14px;
+  font-size: 15px;
+  line-height: 1.7;
+  color: var(--text);
+}
+
+.compare-takeaways {
+  margin-top: 16px;
+  padding-top: 14px;
+  border-top: 1px solid var(--border);
+}
+
+.compare-takeaways-title {
+  margin: 0 0 8px;
+  font-size: 0.8125rem;
+  font-weight: 600;
+  color: var(--text-dim);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+}
+
+.compare-takeaways ul {
+  margin: 0;
+  padding-left: 1.1rem;
+  color: var(--text);
+}
+
+.compare-takeaways li {
+  margin: 0 0 8px;
+  line-height: 1.6;
+}
+
+.answer-text-summary {
+  font-size: 14px;
+  color: var(--text-dim);
 }
 
 .compare-tickers {

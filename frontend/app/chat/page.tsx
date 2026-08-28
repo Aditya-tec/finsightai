@@ -7,6 +7,7 @@ import { useSearchParams } from "next/navigation";
 
 import AgentFeed from "@/components/AgentFeed";
 import CitationLinks from "@/components/CitationLinks";
+import type { CompareData } from "@/lib/compareTypes";
 import CompareTable from "@/components/CompareTable";
 import DegradedBanner from "@/components/DegradedBanner";
 import EvalScores from "@/components/EvalScores";
@@ -38,6 +39,7 @@ function ChatPageContent() {
   const [error, setError] = useState("");
   const [companies, setCompanies] = useState<Array<{ ticker: string; name: string }>>([]);
   const [compareTickers, setCompareTickers] = useState<string[]>([]);
+  const [compareData, setCompareData] = useState<CompareData | null>(null);
   const [rateLimitedUntil, setRateLimitedUntil] = useState(0);
   const [sessionDegraded, setSessionDegraded] = useState(false);
   const sessionId = getSessionId();
@@ -61,6 +63,7 @@ function ChatPageContent() {
     setCitations([]);
     setEvalScores({});
     setCompareTickers([]);
+    setCompareData(null);
 
     try {
       await chatStreamApi(
@@ -77,6 +80,7 @@ function ChatPageContent() {
             setEvalScores(res.eval_scores);
             if (res.eval_scores?.degraded) setSessionDegraded(true);
             if (res.tickers && res.tickers.length > 1) setCompareTickers(res.tickers);
+            setCompareData(res.comparison ?? null);
           },
           onError: (detail) => {
             if (detail.toLowerCase().includes("rate limit")) {
@@ -203,23 +207,23 @@ function ChatPageContent() {
           </div>
 
           <div className="col-stack">
-            {compareTickers.length > 1 && answer && (
+            {compareData && compareTickers.length > 1 && (
               <FadeSlideIn delay={STAGGER * 1.5}>
-                <CompareTable tickers={compareTickers} answer={answer} />
+                <CompareTable tickers={compareTickers} comparison={compareData} companies={companies} />
               </FadeSlideIn>
             )}
 
             <FadeSlideIn delay={STAGGER * 2}>
               <div className="panel panel-elevated panel-answer">
                 <div className="panel-head">
-                  <span>Answer</span>
+                  <span>{compareData ? "Summary" : "Answer"}</span>
                 </div>
                 <div className="panel-body">
                   <AnimatePresence mode="wait">
                     {answer ? (
                       <motion.div
                         key="answer"
-                        className="answer-text"
+                        className={`answer-text${compareData ? " answer-text-summary" : ""}`}
                         initial={reduced ? false : { opacity: 0, y: 10 }}
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 0.3, ease: easeOut }}

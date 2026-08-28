@@ -1,4 +1,6 @@
 import { apiUrl, getClientApiHeaders } from "./apiConfig";
+import type { CompareData } from "./compareTypes";
+import { isCompareData } from "./compareTypes";
 import type { ChatStreamResult, StreamStep } from "./streamTypes";
 
 export type { ChatStreamResult, StreamStep };
@@ -10,6 +12,18 @@ type StreamHandlers = {
   onError: (detail: string) => void;
   onDone?: () => void;
 };
+
+function parseStreamResult(event: Record<string, unknown>): ChatStreamResult {
+  const comparison = isCompareData(event.comparison) ? event.comparison : null;
+  return {
+    answer: String(event.answer ?? ""),
+    citations: (event.citations as ChatStreamResult["citations"]) ?? [],
+    eval_scores: (event.eval_scores as Record<string, unknown>) ?? {},
+    sources: (event.sources as string[]) ?? [],
+    tickers: event.tickers as string[] | undefined,
+    comparison,
+  };
+}
 
 export async function chatStreamApi(
   payload: {
@@ -61,18 +75,12 @@ export async function chatStreamApi(
         } else if (event.type === "eval") {
           handlers.onEval?.((event.eval_scores as Record<string, unknown>) ?? {});
         } else if (event.type === "result") {
-          handlers.onResult({
-            answer: String(event.answer ?? ""),
-            citations: (event.citations as ChatStreamResult["citations"]) ?? [],
-            eval_scores: (event.eval_scores as Record<string, unknown>) ?? {},
-            sources: (event.sources as string[]) ?? [],
-            tickers: event.tickers as string[] | undefined,
-          });
+          handlers.onResult(parseStreamResult(event));
         } else if (event.type === "error") {
           handlers.onError(String(event.detail ?? "Unknown error"));
         } else if (event.type === "done") {
-          const nested = event.result as ChatStreamResult | undefined;
-          if (nested?.answer) handlers.onResult(nested);
+          const nested = event.result as Record<string, unknown> | undefined;
+          if (nested && typeof nested.answer === "string") handlers.onResult(parseStreamResult(nested));
           handlers.onDone?.();
         }
       } catch {

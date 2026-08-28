@@ -177,7 +177,7 @@ def run_chat(
             except SearchIndexError:
                 contexts_by_ticker[t] = []
         emit(on_event, "step", {"message": "Generating comparison…", "phase": "synthesis"})
-        answer = synthesize_compare_answer(query, contexts_by_ticker, memory)
+        answer, comparison = synthesize_compare_answer(query, contexts_by_ticker, memory)
         citations = [citation_from_chunk(c) for c in all_context[:8]]
         eval_scores = run_eval_pipeline(
             query=query, answer=answer, context=all_context, citations=citations, degraded=degraded
@@ -191,6 +191,7 @@ def run_chat(
             "route": classify_query(query),
             "generic_query": generic_query,
             "tickers": parsed_tickers,
+            "comparison": comparison,
         }
         emit(on_event, "result", result)
         return result

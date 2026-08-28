@@ -4,6 +4,7 @@ from typing import Any
 
 from groq import Groq, RateLimitError
 
+from agents.compare_data import parse_compare_payload
 from agents.generic_query import CLARIFYING_MESSAGE, is_generic_broad_query
 from settings import settings
 
@@ -136,10 +137,13 @@ def _build_compare_prompt(
     contexts_by_ticker: dict[str, list[dict[str, Any]]],
     memory: str,
 ) -> str:
+    tickers = list(contexts_by_ticker.keys())
+    ticker_list = ", ".join(tickers)
+    value_keys = ", ".join(f'"{t}"' for t in tickers)
     parts = [
         "You are an equity research assistant comparing Indian listed companies.",
-        "Answer only from the provided filing excerpts. Use side-by-side structure.",
-        "Tag every numeric claim with [Consolidated] or [Standalone].",
+        "Answer only from the provided filing excerpts.",
+        "Tag every numeric value with [Consolidated] or [Standalone] inside the value string.",
         "Do not compare figures across different accounting bases.",
     ]
     if memory:
@@ -149,7 +153,22 @@ def _build_compare_prompt(
         if content:
             parts.append(f"Filing excerpts for {ticker}:\n{content}")
     parts.append(f"Question: {query}")
-    parts.append("Return a concise comparison with specific numbers where available.")
+    parts.append(
+        "Return ONLY valid JSON (no markdown fences) with this exact shape:\n"
+        "{\n"
+        '  "summary": "2-3 sentence overview of the comparison",\n'
+        '  "metrics": [\n'
+        "    {\n"
+        '      "label": "Metric name with period if known",\n'
+        f'      "values": {{ {value_keys}: "formatted figure with unit and basis tag" }},\n'
+        '      "note": "optional caveat or empty string"\n'
+        "    }\n"
+        "  ],\n"
+        '  "takeaways": ["short insight", "short insight"]\n'
+        "}\n"
+        f"Include 4-8 metrics. values keys must be exactly: {ticker_list}. "
+        "Use only numbers present in the excerpts."
+    )
     return "\n\n".join(parts)
 
 
@@ -157,10 +176,11 @@ def synthesize_compare_answer(
     query: str,
     contexts_by_ticker: dict[str, list[dict[str, Any]]],
     memory: str = "",
-) -> str:
+) -> tuple[str, dict[str, Any] | None]:
+    tickers = list(contexts_by_ticker.keys())
     if not settings.groq_api_key:
-        tickers = ", ".join(contexts_by_ticker.keys())
-        return f"Comparison unavailable right now. Context loaded for: {tickers}."
+        names = ", ".join(tickers)
+        return f"Comparison unavailable right now. Context loaded for: {names}.", None
     prompt = _build_compare_prompt(query, contexts_by_ticker, memory)
     client = Groq(api_key=settings.groq_api_key)
     try:
@@ -168,10 +188,22 @@ def synthesize_compare_answer(
             model=settings.groq_report_model,
             messages=[{"role": "user", "content": prompt}],
             temperature=0.2,
+            max_tokens=2200,
+            reasoning_effort="low",
+            response_format={"type": "json_object"},
         )
     except RateLimitError:
-        return "Comparison unavailable due to API rate limits. Please retry shortly."
-    return (response.choices[0].message.content or "").strip() or "Comparison unavailable."
+        return "Comparison unavailable due to API rate limits. Please retry shortly.", None
+
+    raw = (response.choices[0].message.content or "").strip()
+    if not raw:
+        return "Comparison unavailable.", None
+
+    payload = parse_compare_payload(raw, tickers)
+    if payload:
+        return payload.summary, payload.model_dump()
+
+    return raw or "Comparison unavailable.", None
 
 
 def synthesize_answer(

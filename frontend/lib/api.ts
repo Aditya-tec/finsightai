@@ -1,6 +1,7 @@
 import axios from "axios";
 
 import type { ChartData } from "./chartTypes";
+import type { CompareData } from "./compareTypes";
 import { apiUrl, getClientApiBase, getClientApiHeaders } from "./apiConfig";
 
 /** @deprecated Use apiUrl() — kept for imports that read the base string. */
@@ -35,6 +36,7 @@ export type ChatResponse = {
   eval_scores: Record<string, string | number | boolean | string[]>;
   sources: string[];
   tickers?: string[];
+  comparison?: CompareData | null;
 };
 
 export type ReportResponse = {
