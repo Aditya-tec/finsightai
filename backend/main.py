@@ -27,8 +27,10 @@ async def log_document_inventory() -> None:
     logger.info("Annual report PDFs: %s/%s in %s", found, total, pdf_path("TCS", "FY25").parent)
     if found < total:
         logger.warning(
-            "Missing PDFs — citation source viewer will use parsed text fallback. "
-            "Drop files as data/raw/{TICKER}_FY25.pdf or run scripts/01_download_pdfs.py"
+            "Missing local PDFs (%s/%s). Source viewer uses Supabase Storage when uploaded "
+            "(scripts/upload_filings_supabase.py).",
+            found,
+            total,
         )
 
 app.add_middleware(

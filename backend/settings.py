@@ -28,6 +28,9 @@ class Settings:
     parsed_data_dir: str = field(
         default_factory=lambda: _env("DATA_PARSED_DIR", str(BASE_DIR.parent / "data" / "parsed"))
     )
+    supabase_filings_bucket: str = field(
+        default_factory=lambda: _env("SUPABASE_FILINGS_BUCKET", "annual-filings")
+    )
 
     @property
     def groq_api_key(self) -> str:
