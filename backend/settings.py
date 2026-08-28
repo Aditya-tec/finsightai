@@ -56,5 +56,20 @@ class Settings:
     def api_key(self) -> str:
         return _env("API_KEY")
 
+    @property
+    def cors_origins(self) -> list[str]:
+        raw = _env("CORS_ORIGINS", "")
+        if raw.strip():
+            return [origin.strip() for origin in raw.split(",") if origin.strip()]
+        return [
+            "https://finsightai-tau.vercel.app",
+            "http://localhost:3000",
+            "http://127.0.0.1:3000",
+        ]
+
+    @property
+    def cors_origin_regex(self) -> str:
+        return _env("CORS_ORIGIN_REGEX", r"https://.*\.vercel\.app")
+
 
 settings = Settings()

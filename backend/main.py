@@ -14,6 +14,7 @@ from routers.documents import router as documents_router
 from routers.report import router as report_router
 from routers.stream import router as stream_router
 from routers.summarize import router as summarize_router
+from settings import settings
 
 logger = logging.getLogger("rupeeread")
 
@@ -33,13 +34,16 @@ async def log_document_inventory() -> None:
             total,
         )
 
-app.add_middleware(
-    CORSMiddleware,
-    allow_origins=["*"],
-    allow_credentials=True,
-    allow_methods=["*"],
-    allow_headers=["*"],
-)
+_cors_kwargs: dict = {
+    "allow_origins": settings.cors_origins,
+    "allow_credentials": False,
+    "allow_methods": ["*"],
+    "allow_headers": ["*"],
+}
+if settings.cors_origin_regex.strip():
+    _cors_kwargs["allow_origin_regex"] = settings.cors_origin_regex.strip()
+
+app.add_middleware(CORSMiddleware, **_cors_kwargs)
 app.add_middleware(ApiKeyMiddleware)
 
 app.include_router(chat_router, prefix="/api", tags=["chat"])
