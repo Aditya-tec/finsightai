@@ -8,8 +8,13 @@ export type ApiErrorContext =
   | "export"
   | "generic";
 
-const RATE_LIMIT_MSG =
+const GROQ_RATE_LIMIT_MSG =
   "Groq rate limit reached. Wait a few minutes and retry.";
+
+export function isProxyRateLimitMessage(detail: string | undefined): boolean {
+  if (!detail) return false;
+  return /demo limit/i.test(detail) || /too many requests/i.test(detail);
+}
 
 const CONTEXT_FALLBACK: Record<ApiErrorContext, string> = {
   companies: "Could not load companies. Check that the backend is running.",
@@ -63,7 +68,8 @@ export function getApiErrorMessage(err: unknown, context: ApiErrorContext = "gen
     const detail = (err.response.data as { detail?: string })?.detail;
 
     if (status === 429) {
-      return typeof detail === "string" && detail ? detail : RATE_LIMIT_MSG;
+      if (typeof detail === "string" && detail) return detail;
+      return GROQ_RATE_LIMIT_MSG;
     }
     if (status === 401) {
       return "Unauthorized — app misconfigured. Check API key settings.";

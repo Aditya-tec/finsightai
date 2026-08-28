@@ -3,6 +3,7 @@ import "server-only";
 import { NextRequest, NextResponse } from "next/server";
 
 import { backendApiUrl, getBackendApiKey } from "./backendProxy";
+import { checkRateLimit } from "./rateLimit";
 
 const HOP_BY_HOP = new Set([
   "connection",
@@ -43,6 +44,17 @@ export async function proxyToBackend(
   request: NextRequest,
   backendPath: string
 ): Promise<NextResponse> {
+  const rateLimit = checkRateLimit(request);
+  if (!rateLimit.allowed) {
+    return NextResponse.json(
+      { detail: rateLimit.message },
+      {
+        status: 429,
+        headers: { "Retry-After": String(rateLimit.retryAfterSec) },
+      }
+    );
+  }
+
   const target = new URL(backendApiUrl(backendPath));
   request.nextUrl.searchParams.forEach((value, key) => {
     target.searchParams.set(key, value);
