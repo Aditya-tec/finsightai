@@ -31,6 +31,6 @@ def retrieve_context(
         candidates = run_multi_hop(query, ticker=ticker, subquestions=subquestions)
     filtered = filter_chunks(query, candidates, threshold=0.5, on_event=on_event)
     emit(on_event, "step", {"message": "Running reranker…", "phase": "rerank"})
-    ranked = rerank(query, filtered, top_n=5)
+    ranked = rerank(query, filtered, top_n=5, ticker=ticker)
     emit(on_event, "step", {"message": "Enriching with graph neighbors…", "phase": "graph"})
     return enrich_with_graph(ranked)
