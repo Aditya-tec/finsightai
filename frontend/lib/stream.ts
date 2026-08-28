@@ -1,4 +1,4 @@
-import { API_BASE } from "./api";
+import { apiUrl, getClientApiHeaders } from "./apiConfig";
 import type { ChatStreamResult, StreamStep } from "./streamTypes";
 
 export type { ChatStreamResult, StreamStep };
@@ -22,11 +22,12 @@ export async function chatStreamApi(
   handlers: StreamHandlers,
   signal?: AbortSignal
 ): Promise<void> {
-  const headers: Record<string, string> = { "Content-Type": "application/json" };
-  const apiKey = process.env.NEXT_PUBLIC_API_KEY;
-  if (apiKey) headers["X-API-Key"] = apiKey;
+  const headers: Record<string, string> = {
+    "Content-Type": "application/json",
+    ...getClientApiHeaders(),
+  };
 
-  const res = await fetch(`${API_BASE}/api/chat/stream`, {
+  const res = await fetch(apiUrl("/api/chat/stream"), {
     method: "POST",
     headers,
     body: JSON.stringify(payload),

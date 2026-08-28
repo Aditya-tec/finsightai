@@ -1,5 +1,3 @@
-import { API_BASE } from "./api";
-
 export type { Citation } from "./api";
 
 export function fiscalYearFor(

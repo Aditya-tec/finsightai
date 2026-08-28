@@ -4,6 +4,8 @@ import Image from "next/image";
 import Link from "next/link";
 import { useCallback, useEffect, useState } from "react";
 
+import { getHealthUrl } from "@/lib/apiConfig";
+
 type Props = {
   action?: React.ReactNode;
 };
@@ -14,9 +16,8 @@ export default function TopBar({ action }: Props) {
   const [online, setOnline] = useState(false);
 
   const checkHealth = useCallback(async () => {
-    const base = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
     try {
-      const res = await fetch(`${base}/health`);
+      const res = await fetch(getHealthUrl());
       setOnline(res.ok);
     } catch {
       setOnline(false);

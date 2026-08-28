@@ -1,4 +1,4 @@
-import { API_BASE } from "./api";
+import { apiUrl, getClientApiHeaders } from "./apiConfig";
 import type { ReportStreamSection } from "./streamTypes";
 
 type ReportStreamHandlers = {
@@ -14,11 +14,12 @@ export async function reportStreamApi(
   handlers: ReportStreamHandlers,
   signal?: AbortSignal
 ): Promise<void> {
-  const headers: Record<string, string> = { "Content-Type": "application/json" };
-  const apiKey = process.env.NEXT_PUBLIC_API_KEY;
-  if (apiKey) headers["X-API-Key"] = apiKey;
+  const headers: Record<string, string> = {
+    "Content-Type": "application/json",
+    ...getClientApiHeaders(),
+  };
 
-  const res = await fetch(`${API_BASE}/api/report/stream`, {
+  const res = await fetch(apiUrl("/api/report/stream"), {
     method: "POST",
     headers,
     body: JSON.stringify({

@@ -1,13 +1,14 @@
 import axios from "axios";
 
 import type { ChartData } from "./chartTypes";
+import { apiUrl, getClientApiBase, getClientApiHeaders } from "./apiConfig";
 
-export const API_BASE = process.env.NEXT_PUBLIC_API_URL ?? "http://localhost:8000";
-const API_KEY = process.env.NEXT_PUBLIC_API_KEY ?? "";
+/** @deprecated Use apiUrl() — kept for imports that read the base string. */
+export const API_BASE = getClientApiBase();
 
 export const apiClient = axios.create({
-  baseURL: API_BASE,
-  headers: API_KEY ? { "X-API-Key": API_KEY } : {},
+  baseURL: getClientApiBase(),
+  headers: getClientApiHeaders(),
 });
 
 export type Citation = {
@@ -95,7 +96,9 @@ export async function summarizeBulletsApi(payload: {
 }
 
 export function documentApiUrl(ticker: string, fiscalYear: string): string {
-  return `${API_BASE}/api/documents/${ticker.toUpperCase()}/${fiscalYear.toUpperCase()}`;
+  return apiUrl(
+    `/api/documents/${ticker.toUpperCase()}/${fiscalYear.toUpperCase()}`
+  );
 }
 
 export type DocumentStatus = {
