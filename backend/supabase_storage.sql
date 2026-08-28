@@ -5,7 +5,7 @@ insert into storage.buckets (id, name, public, file_size_limit, allowed_mime_typ
 values (
   'annual-filings',
   'annual-filings',
-  false,
+  true,
   52428800,
   array['application/pdf', 'application/json']::text[]
 )
