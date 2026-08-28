@@ -20,7 +20,10 @@ try {
     if ($LASTEXITCODE -ne 0) {
         git commit --allow-empty -m "Deploy RupeeRead backend to Hugging Face Space."
     }
-    git remote remove space 2>$null
+    $remotes = git remote
+    if ($remotes -contains "space") {
+        git remote remove space
+    }
     git remote add space https://huggingface.co/spaces/aksjsj/rupeeread-backend
     git push space main --force
 }
