@@ -58,10 +58,7 @@ def _object_exists(object_path: str) -> bool:
         return False
     folder, _, name = object_path.rpartition("/")
     try:
-        items: list[dict[str, Any]] = client.storage.from_(_bucket()).list(
-            folder,
-            {"limit": 100, "search": name},
-        )
+        items: list[dict[str, Any]] = client.storage.from_(_bucket()).list(folder)
         return any(item.get("name") == name for item in items)
     except Exception as exc:
         logger.debug("Storage list failed for %s: %s", object_path, exc)
