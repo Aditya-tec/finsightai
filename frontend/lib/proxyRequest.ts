@@ -2,7 +2,7 @@ import "server-only";
 
 import { NextRequest, NextResponse } from "next/server";
 
-import { backendApiUrl, getBackendApiKey } from "./backendProxy";
+import { backendApiUrl, getBackendApiKey, getProxySecret } from "./backendProxy";
 import { checkRateLimit } from "./rateLimit";
 
 const HOP_BY_HOP = new Set([
@@ -24,10 +24,13 @@ function forwardableRequestHeaders(request: NextRequest): Headers {
     const lower = key.toLowerCase();
     if (HOP_BY_HOP.has(lower)) continue;
     if (lower === "x-api-key") continue;
+    if (lower === "x-proxy-secret") continue;
     headers.set(key, value);
   }
   const apiKey = getBackendApiKey();
   if (apiKey) headers.set("X-API-Key", apiKey);
+  const proxySecret = getProxySecret();
+  if (proxySecret) headers.set("X-Proxy-Secret", proxySecret);
   return headers;
 }
 

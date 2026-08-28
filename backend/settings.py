@@ -57,6 +57,11 @@ class Settings:
         return _env("API_KEY")
 
     @property
+    def proxy_secret(self) -> str:
+        """Shared secret: only the Vercel server proxy should send X-Proxy-Secret."""
+        return _env("PROXY_SECRET")
+
+    @property
     def cors_origins(self) -> list[str]:
         raw = _env("CORS_ORIGINS", "")
         if raw.strip():
